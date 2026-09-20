@@ -43,7 +43,6 @@ data class MainUiState(
     val lastCorrect: Boolean? = null,
     val lastPicked: String? = null,
     val quizPicks: Map<AppLanguage, String> = emptyMap(),
-    val testing: Boolean = false,
     val query: String = "",
     val ttsVoices: Set<AppLanguage> = emptySet(),
     val masteredIds: Set<String> = emptySet(),
@@ -146,7 +145,6 @@ class MainViewModel @Inject constructor(
                     lastCorrect = null,
                     lastPicked = null,
                     quizPicks = emptyMap(),
-                    testing = plan.items.firstOrNull()?.showLearnFirst != true && plan.items.isNotEmpty(),
                     due = repo.dueCount(),
                     sessionPractice = false,
                     planningSession = false,
@@ -173,7 +171,6 @@ class MainViewModel @Inject constructor(
                     lastCorrect = null,
                     lastPicked = null,
                     quizPicks = emptyMap(),
-                    testing = true,
                     sessionPractice = true,
                     due = repo.dueCount(),
                 )
@@ -207,11 +204,6 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    fun startTest() {
-        clicks.play()
-        _state.update { it.copy(testing = true, quizPicks = emptyMap(), revealed = false, lastCorrect = null) }
-    }
-
     fun playClick() {
         clicks.play()
     }
@@ -243,7 +235,6 @@ class MainViewModel @Inject constructor(
                     lastCorrect = results.values.all { ok -> ok },
                 )
             }
-            speakTarget()
         }
     }
 
@@ -255,21 +246,17 @@ class MainViewModel @Inject constructor(
                 repo.applyRating(item.review, if (correct) Rating.Good else Rating.Again)
             }
             _state.update { it.copy(revealed = true, lastCorrect = correct, lastPicked = picked) }
-            speakTarget()
         }
     }
 
     fun next() {
         _state.update {
-            val nextIndex = it.sessionIndex + 1
-            val upcoming = it.session.getOrNull(nextIndex)
             it.copy(
-                sessionIndex = nextIndex,
+                sessionIndex = it.sessionIndex + 1,
                 revealed = false,
                 lastCorrect = null,
                 lastPicked = null,
                 quizPicks = emptyMap(),
-                testing = upcoming != null && !upcoming.showLearnFirst,
             )
         }
         viewModelScope.launch {
@@ -332,11 +319,4 @@ class MainViewModel @Inject constructor(
     }
 
     fun ttsAvailable(lang: AppLanguage) = tts.available(lang)
-
-    private fun speakTarget() {
-        if (_state.value.active?.ttsEnabled != true) return
-        val item = currentItem() ?: return
-        val target = item.exercise.targetLang
-        speak(item.exercise.concept.text(target).text, target, openSettingsIfMissing = false)
-    }
 }

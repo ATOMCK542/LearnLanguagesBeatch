@@ -18,10 +18,6 @@ class ExerciseFactory(
         val langs = quizLangs.ifEmpty { listOf(target) }
         return when {
             !isBrandNew &&
-                target == AppLanguage.Vi &&
-                concept.text(target).tones.isNotEmpty() &&
-                slot % 5 == 4 -> tone(concept, nativeLang, target, mixSeed)
-            !isBrandNew &&
                 concept.kind != ConceptKind.Word &&
                 targetText.contains(" ") &&
                 slot % 3 == 2 -> order(concept, nativeLang, target, mixSeed)

@@ -43,6 +43,32 @@ private val DarkColors = darkColorScheme(
     onSurfaceVariant = Color(0xFFD8CFE6),
 )
 
+data class LessonPalette(
+    val correctContainer: Color,
+    val onCorrect: Color,
+    val wrongContainer: Color,
+    val onWrong: Color,
+)
+
+@Composable
+fun lessonPalette(): LessonPalette {
+    return if (isSystemInDarkTheme()) {
+        LessonPalette(
+            correctContainer = Color(0xFF1F4D32),
+            onCorrect = Color(0xFFB8F0C8),
+            wrongContainer = Color(0xFF5C1F1F),
+            onWrong = Color(0xFFFFC9C9),
+        )
+    } else {
+        LessonPalette(
+            correctContainer = Color(0xFFCDEDC8),
+            onCorrect = Color(0xFF14532D),
+            wrongContainer = Color(0xFFF8D0D0),
+            onWrong = Color(0xFF7F1D1D),
+        )
+    }
+}
+
 @Composable
 fun TriadTheme(content: @Composable () -> Unit) {
     val dark = isSystemInDarkTheme()

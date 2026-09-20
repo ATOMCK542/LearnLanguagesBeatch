@@ -93,8 +93,8 @@ class ExerciseFactoryTest {
         assertTrue(cloze is Exercise.Cloze)
         val order = factory.forReview(concept, known.copy(targetLang = AppLanguage.En), AppLanguage.Ru, 1L, 2)
         assertTrue(order is Exercise.OrderChips)
-        val tone = factory.forReview(concept, known, AppLanguage.En, 1L, 4)
-        assertTrue(tone is Exercise.TonePick)
+        val noToneDrill = factory.forReview(concept, known, AppLanguage.En, 1L, 4)
+        assertTrue(noToneDrill is Exercise.Cloze)
         val tokenized = ExerciseFactory.tokenize("  I   want  ")
         assertEquals(listOf("I", "want"), tokenized)
     }
