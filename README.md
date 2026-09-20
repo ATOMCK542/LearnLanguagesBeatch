@@ -1,12 +1,13 @@
-# Тройка / Triad / Tam Ngữ
+# Learn Languages Bitch
 
-Офлайн Android-приложение для изучения английского, русского и вьетнамского. Носитель любого из трёх языков может учить остальные два.
+Офлайн Android-приложение для изучения английского, русского и вьетнамского (Тройка / Triad / Tam Ngữ). Носитель любого из трёх языков может учить остальные два.
 
 - Пакет: `dev.sergey.triad`
 - minSdk 31, targetSdk 35, JDK 17
 - Kotlin, Jetpack Compose, Material 3, Hilt, Room
 - Несколько локальных профилей, интервальные повторения (FSRS), озвучка TTS устройства, тихий клик при выборе ответа
 - Без сервера, аккаунтов, Google Play, AAB и биллинга
+- Версия задаётся в `gradle.properties` (`app.versionName` / `app.versionCode`) и попадает в имя APK
 
 Целевой телефон для установки — Samsung Galaxy S24 Ultra, но подойдёт любой Android 12+.
 
@@ -32,10 +33,10 @@ echo "sdk.dir=/path/to/android-sdk" > local.properties
 ./gradlew assembleDebug
 ```
 
-Готовый файл:
+Готовый файл (версия из `versionName`):
 
 ```
-app/build/outputs/apk/debug/app-debug.apk
+app/build/outputs/apk/debug/LearnLanguagesBitch-1.1.0.apk
 ```
 
 В Cursor: задача **Build APK** (Ctrl+Shift+B). Android Studio для релиза не нужна. AAB и Play Console не используются.
@@ -48,7 +49,7 @@ app/build/outputs/apk/debug/app-debug.apk
 ./gradlew installDebug
 ```
 
-В Cursor: задача **Install APK**. Либо скопируй `app-debug.apk` на устройство и установи как обычный APK.
+В Cursor: задача **Install APK**. Либо скопируй `LearnLanguagesBitch-*.apk` на устройство и установи как обычный APK.
 
 ## Тесты
 

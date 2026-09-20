@@ -16,8 +16,8 @@ android {
         applicationId = "dev.sergey.triad"
         minSdk = 31
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = (property("app.versionCode") as String).toInt()
+        versionName = property("app.versionName") as String
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         resourceConfigurations += listOf("en", "ru", "vi")
     }
@@ -60,6 +60,14 @@ android {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
+    }
+}
+
+android.applicationVariants.configureEach {
+    val version = versionName
+    outputs.configureEach {
+        (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl)
+            .outputFileName = "LearnLanguagesBitch-$version.apk"
     }
 }
 

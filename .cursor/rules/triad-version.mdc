@@ -1,0 +1,23 @@
+---
+description: Как поднимать versionName/versionCode перед сборкой APK
+alwaysApply: true
+---
+
+# Версия APK
+
+Источник правды — корневой `gradle.properties`:
+
+- `app.versionName` — semver, попадает в имя файла
+- `app.versionCode` — целое; при каждой новой установке поверх старой всегда +1
+
+Не хардкодить версию в `app/build.gradle.kts`. `applicationId` не менять.
+
+Имя файла: `LearnLanguagesBitch-{versionName}.apk` в `app/build/outputs/apk/debug/`. Не `app-debug.apk`, слово debug в имя не писать.
+
+Перед `./gradlew assembleDebug` / **Build APK** для телефона подними версию:
+
+- баг/правка → patch (`1.0.0` → `1.0.1`) и `versionCode` +1
+- фича → minor (`1.0.1` → `1.1.0`) и `versionCode` +1
+- ломающее обновление данных → major и `versionCode` +1
+
+Только тесты или правки, которые не уходят на устройство — версию не трогать.

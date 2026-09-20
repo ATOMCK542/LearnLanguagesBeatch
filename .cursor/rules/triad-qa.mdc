@@ -7,6 +7,6 @@ alwaysApply: true
 
 Это не веб: браузерные тулы не заменяют прогон. Для логики — `./gradlew test` (FSRS, NFC для VI, импорт пака, `hints[native]`, изоляция `profileId`). Для UI-строк — ключ есть в en, ru и vi.
 
-Сборка одной командой: `./gradlew assembleDebug` или задача Cursor **Build APK**. На S24 Ultra: `./gradlew installDebug` / **Install APK**. Не AAB, не Play Console. Не требовать Android Studio UI для релиза APK.
+Сборка одной командой: `./gradlew assembleDebug` или задача Cursor **Build APK**. Перед сборкой на телефон — bump `app.versionName` / `app.versionCode` в `gradle.properties`. APK: `LearnLanguagesBitch-{versionName}.apk`. На S24 Ultra: `./gradlew installDebug` / **Install APK**. Не AAB, не Play Console. Не требовать Android Studio UI для релиза APK.
 
 Минимум для фичи с прогрессом: профиль A учится → профиль B (другой native) → назад на A, due на месте. Экспорт A не содержит прогресс B. Импорт не затирает чужие профили.
