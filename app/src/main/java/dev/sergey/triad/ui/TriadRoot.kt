@@ -70,7 +70,6 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
-import dev.sergey.triad.domain.Rating
 
 @Composable
 fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
@@ -435,6 +434,7 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
 @Composable
 private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainViewModel) {
     val item = vm.currentItem()
+    val learning = item != null && item.showLearnFirst && !state.testing && !state.revealed
     Scaffold(
         topBar = {
             TopAppBar(
@@ -461,6 +461,45 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                 },
             )
         },
+        bottomBar = {
+            when {
+                item == null -> {
+                    SessionBottomBar {
+                        Button(
+                            onClick = { nav.popBackStack() },
+                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
+                        ) {
+                            Text(stringResource(R.string.session_back), style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+                learning -> {
+                    SessionBottomBar {
+                        Text(
+                            stringResource(R.string.action_test_hint),
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        Button(
+                            onClick = vm::startTest,
+                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("start_test"),
+                        ) {
+                            Text(stringResource(R.string.action_test), style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+                state.revealed -> {
+                    SessionBottomBar {
+                        Button(
+                            onClick = vm::next,
+                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("next_card"),
+                        ) {
+                            Text(stringResource(R.string.action_next), style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+            }
+        },
     ) { padding ->
         if (item == null) {
             Column(
@@ -471,17 +510,15 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                     stringResource(if (state.session.isEmpty()) R.string.empty_session else R.string.session_done),
                     style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.SemiBold),
                 )
-                Button(
-                    onClick = { nav.popBackStack() },
-                    modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
-                ) { Text(stringResource(R.string.action_continue), style = MaterialTheme.typography.titleMedium) }
             }
             return@Scaffold
         }
         val native = item.exercise.nativeLang
-        val target = item.exercise.targetLang
         val concept = item.exercise.concept
-        val other = AppLanguage.all.first { it != native && it != target }
+        val quizLangs = when (val ex = item.exercise) {
+            is Exercise.Cloze -> ex.banks.map { it.lang }
+            else -> listOf(item.exercise.targetLang)
+        }
         val ttsOn = state.active?.ttsEnabled == true
         Column(
             Modifier
@@ -495,59 +532,70 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                 progress = { (state.sessionIndex + 1f) / state.session.size.coerceAtLeast(1) },
                 modifier = Modifier.fillMaxWidth(),
             )
-            LessonPhraseCard(
-                lang = native,
-                text = concept.text(native).text,
-                speakEnabled = ttsOn,
-                onSpeak = { vm.speak(concept.text(native).text, native) },
-                highlighted = false,
-                promptTag = true,
-            )
-            when (val ex = item.exercise) {
-                is Exercise.Reveal -> {
-                    if (!state.revealed) {
-                        Button(
-                            onClick = vm::reveal,
-                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
-                        ) {
-                            Text(stringResource(R.string.action_show), style = MaterialTheme.typography.titleMedium)
+            if (learning) {
+                quizLangs.forEach { lang ->
+                    LessonPhraseCard(
+                        lang = lang,
+                        text = concept.text(lang).text,
+                        ipa = concept.text(lang).ipa,
+                        speakEnabled = ttsOn,
+                        onSpeak = { vm.speak(concept.text(lang).text, lang) },
+                        highlighted = true,
+                        promptTag = lang == quizLangs.first(),
+                    )
+                }
+                LessonPhraseCard(
+                    lang = native,
+                    text = concept.text(native).text,
+                    speakEnabled = ttsOn,
+                    onSpeak = { vm.speak(concept.text(native).text, native) },
+                    highlighted = false,
+                )
+            } else {
+                LessonPhraseCard(
+                    lang = native,
+                    text = concept.text(native).text,
+                    speakEnabled = ttsOn,
+                    onSpeak = { vm.speak(concept.text(native).text, native) },
+                    highlighted = false,
+                    promptTag = true,
+                )
+                when (val ex = item.exercise) {
+                    is Exercise.Cloze -> {
+                        ex.banks.forEach { bank ->
+                            Text(
+                                stringResource(R.string.pick_in_language, endonym(bank.lang)),
+                                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold),
+                            )
+                            QuizOptions(
+                                options = bank.options,
+                                correct = bank.correct,
+                                picked = state.quizPicks[bank.lang],
+                                revealed = state.revealed,
+                                onPick = { option -> vm.pickQuiz(bank.lang, option) },
+                            )
                         }
                     }
-                }
-                is Exercise.Cloze -> {
-                    Text(
-                        stringResource(R.string.pick_translation),
-                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold),
-                    )
-                    QuizOptions(
-                        options = ex.options,
-                        correct = ex.correct,
-                        picked = state.lastPicked,
-                        revealed = state.revealed,
-                        onPick = { option ->
-                            vm.answerGame(AnswerEvaluator.textMatches(ex.correct, option, target), option)
-                        },
-                    )
-                }
-                is Exercise.OrderChips -> {
-                    if (!state.revealed) {
-                        OrderExercise(ex, vm)
+                    is Exercise.OrderChips -> {
+                        if (!state.revealed) {
+                            OrderExercise(ex, vm)
+                        }
                     }
-                }
-                is Exercise.TonePick -> {
-                    Text(
-                        stringResource(R.string.pick_tone),
-                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold),
-                    )
-                    QuizOptions(
-                        options = ex.options,
-                        correct = ex.correct,
-                        picked = state.lastPicked,
-                        revealed = state.revealed,
-                        onPick = { option ->
-                            vm.answerGame(option == ex.correct, option)
-                        },
-                    )
+                    is Exercise.TonePick -> {
+                        Text(
+                            stringResource(R.string.pick_tone),
+                            style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold),
+                        )
+                        QuizOptions(
+                            options = ex.options,
+                            correct = ex.correct,
+                            picked = state.lastPicked,
+                            revealed = state.revealed,
+                            onPick = { option ->
+                                vm.answerGame(option == ex.correct, option)
+                            },
+                        )
+                    }
                 }
             }
             if (state.revealed) {
@@ -571,75 +619,64 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                         )
                     }
                 }
-                LessonPhraseCard(
-                    lang = target,
-                    text = concept.text(target).text,
-                    ipa = concept.text(target).ipa,
-                    speakEnabled = ttsOn,
-                    onSpeak = { vm.speak(concept.text(target).text, target) },
-                    highlighted = true,
+                quizLangs.forEach { lang ->
+                    LessonPhraseCard(
+                        lang = lang,
+                        text = concept.text(lang).text,
+                        ipa = concept.text(lang).ipa,
+                        speakEnabled = ttsOn,
+                        onSpeak = { vm.speak(concept.text(lang).text, lang) },
+                        highlighted = true,
+                    )
+                }
+                LessonExtraDetails(
+                    hint = quizLangs.firstNotNullOfOrNull { concept.text(it).hints[native] },
+                    tones = quizLangs.flatMap { concept.text(it).tones }.distinct(),
+                    grammar = concept.grammar.forLang(native),
                 )
-                val hint = concept.text(target).hints[native]
-                val tones = concept.text(target).tones
-                val grammar = concept.grammar.forLang(native)
-                if (!hint.isNullOrBlank() || tones.isNotEmpty() || grammar.isNotBlank()) {
-                    Card(
-                        modifier = Modifier.fillMaxWidth(),
-                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-                    ) {
-                        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                            hint?.takeIf { it.isNotBlank() }?.let {
-                                MetaLine(stringResource(R.string.label_hint), it)
-                            }
-                            if (tones.isNotEmpty()) {
-                                MetaLine(stringResource(R.string.label_tones), tones.joinToString())
-                            }
-                            if (grammar.isNotBlank()) {
-                                MetaLine(stringResource(R.string.label_grammar), grammar)
-                            }
-                        }
-                    }
-                }
-                Card(modifier = Modifier.fillMaxWidth()) {
-                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text(
-                            stringResource(R.string.third_form),
-                            style = MaterialTheme.typography.labelLarge,
-                            color = MaterialTheme.colorScheme.primary,
-                        )
-                        Text(
-                            "${endonym(other)} · ${concept.text(other).text}",
-                            style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Medium),
-                        )
-                    }
-                }
-                if (item.exercise is Exercise.Reveal) {
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                        FilledTonalButton(
-                            onClick = { vm.rate(Rating.Again) },
-                            modifier = Modifier.weight(1f).heightIn(min = 52.dp),
-                        ) { Text(stringResource(R.string.rating_again)) }
-                        FilledTonalButton(
-                            onClick = { vm.rate(Rating.Hard) },
-                            modifier = Modifier.weight(1f).heightIn(min = 52.dp),
-                        ) { Text(stringResource(R.string.rating_hard)) }
-                    }
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                        Button(
-                            onClick = { vm.rate(Rating.Good) },
-                            modifier = Modifier.weight(1f).heightIn(min = 52.dp),
-                        ) { Text(stringResource(R.string.rating_good), style = MaterialTheme.typography.titleMedium) }
-                        FilledTonalButton(
-                            onClick = { vm.rate(Rating.Easy) },
-                            modifier = Modifier.weight(1f).heightIn(min = 52.dp),
-                        ) { Text(stringResource(R.string.rating_easy)) }
-                    }
-                } else {
-                    Button(
-                        onClick = vm::next,
-                        modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
-                    ) { Text(stringResource(R.string.action_continue), style = MaterialTheme.typography.titleMedium) }
-                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SessionBottomBar(content: @Composable () -> Unit) {
+    Surface(tonalElevation = 4.dp, shadowElevation = 6.dp) {
+        Column(
+            Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 12.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            content()
+        }
+    }
+}
+
+@Composable
+private fun LessonExtraDetails(
+    hint: String?,
+    tones: List<String>,
+    grammar: String,
+) {
+    val hasMeta = !hint.isNullOrBlank() || tones.isNotEmpty() || grammar.isNotBlank()
+    if (!hasMeta) return
+    var open by remember { mutableStateOf(false) }
+    TextButton(onClick = { open = !open }, modifier = Modifier.fillMaxWidth()) {
+        Text(stringResource(if (open) R.string.lesson_details_hide else R.string.lesson_details))
+    }
+    if (!open) return
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+    ) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            hint?.takeIf { it.isNotBlank() }?.let {
+                MetaLine(stringResource(R.string.label_hint), it)
+            }
+            if (tones.isNotEmpty()) {
+                MetaLine(stringResource(R.string.label_tones), tones.joinToString())
+            }
+            if (grammar.isNotBlank()) {
+                MetaLine(stringResource(R.string.label_grammar), grammar)
             }
         }
     }
@@ -729,18 +766,21 @@ private fun QuizOptions(
 ) {
     options.forEach { option ->
         val colors = when {
-            !revealed -> ButtonDefaults.filledTonalButtonColors()
-            option == correct -> ButtonDefaults.filledTonalButtonColors(
+            revealed && option == correct -> ButtonDefaults.filledTonalButtonColors(
                 containerColor = MaterialTheme.colorScheme.tertiaryContainer,
                 contentColor = MaterialTheme.colorScheme.onTertiaryContainer,
                 disabledContainerColor = MaterialTheme.colorScheme.tertiaryContainer,
                 disabledContentColor = MaterialTheme.colorScheme.onTertiaryContainer,
             )
-            option == picked -> ButtonDefaults.filledTonalButtonColors(
+            revealed && option == picked -> ButtonDefaults.filledTonalButtonColors(
                 containerColor = MaterialTheme.colorScheme.errorContainer,
                 contentColor = MaterialTheme.colorScheme.onErrorContainer,
                 disabledContainerColor = MaterialTheme.colorScheme.errorContainer,
                 disabledContentColor = MaterialTheme.colorScheme.onErrorContainer,
+            )
+            !revealed && option == picked -> ButtonDefaults.filledTonalButtonColors(
+                containerColor = MaterialTheme.colorScheme.primaryContainer,
+                contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
             )
             else -> ButtonDefaults.filledTonalButtonColors()
         }

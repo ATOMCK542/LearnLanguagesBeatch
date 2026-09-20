@@ -133,11 +133,26 @@ class TriadRepository @Inject constructor(
         val visible = allConcepts.filter { it.themeId in unlocked }
         val factory = ExerciseFactory { lang -> visible.map { it.text(lang).text } }
         val conceptMap = allConcepts.associateBy { it.id }
+        val targets = profile.targetLangs.ifEmpty {
+            AppLanguage.all.filter { it != profile.nativeLang }
+        }
+        val siblings = db.progress().reviews(profile.id).map { it.toDomain() }.groupBy { it.conceptId }
         val items = picked.mapIndexedNotNull { index, review ->
             val concept = conceptMap[review.conceptId] ?: return@mapIndexedNotNull null
+            val cardReviews = siblings[review.conceptId]
+                ?.filter { it.targetLang in targets }
+                ?.ifEmpty { listOf(review) }
+                ?: listOf(review)
             SessionItem(
-                review = review,
-                exercise = factory.forReview(concept, review, profile.nativeLang, now, index),
+                reviews = cardReviews,
+                exercise = factory.forReview(
+                    concept,
+                    cardReviews.first(),
+                    profile.nativeLang,
+                    now,
+                    index,
+                    targets,
+                ),
             )
         }
         return SessionPlan(items, practice = true)
@@ -159,6 +174,9 @@ class TriadRepository @Inject constructor(
             db.progress().deleteMastered(profile.id, conceptId)
         }
     }
+
+    fun preview(item: ReviewItem, now: Long = System.currentTimeMillis()): Map<Rating, ReviewItem> =
+        scheduler.preview(item, now)
 
     suspend fun applyRating(item: ReviewItem, rating: Rating, now: Long = System.currentTimeMillis()) {
         val updated = scheduler.review(item, rating, now)

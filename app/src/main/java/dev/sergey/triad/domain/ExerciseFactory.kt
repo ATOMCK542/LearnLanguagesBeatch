@@ -9,11 +9,13 @@ class ExerciseFactory(
         nativeLang: AppLanguage,
         nowMillis: Long,
         slot: Int,
+        quizLangs: List<AppLanguage> = listOf(review.targetLang),
     ): Exercise {
         val target = review.targetLang
         val targetText = concept.text(target).text
         val isBrandNew = review.state == FsrsCardState.New && review.reps == 0
         val mixSeed = nowMillis + slot.toLong() + concept.id.hashCode()
+        val langs = quizLangs.ifEmpty { listOf(target) }
         return when {
             !isBrandNew &&
                 target == AppLanguage.Vi &&
@@ -23,28 +25,22 @@ class ExerciseFactory(
                 concept.kind != ConceptKind.Word &&
                 targetText.contains(" ") &&
                 slot % 3 == 2 -> order(concept, nativeLang, target, mixSeed)
-            isBrandNew -> Exercise.Reveal(concept, nativeLang, target)
-            else -> cloze(concept, nativeLang, target, mixSeed)
+            else -> cloze(concept, nativeLang, target, mixSeed, langs)
         }
     }
-
-    fun reveal(concept: Concept, nativeLang: AppLanguage, targetLang: AppLanguage) =
-        Exercise.Reveal(concept, nativeLang, targetLang)
 
     fun cloze(
         concept: Concept,
         nativeLang: AppLanguage,
         targetLang: AppLanguage,
         seed: Long,
+        quizLangs: List<AppLanguage> = listOf(targetLang),
     ): Exercise.Cloze {
-        val correct = concept.text(targetLang).text
-        val others = distractorPool(targetLang)
-            .filter { AnswerEvaluator.normalize(it, targetLang) != AnswerEvaluator.normalize(correct, targetLang) }
-            .distinct()
-            .shuffled(java.util.Random(seed))
-            .take(3)
-        val options = shuffleChoices((others + correct).distinct(), seed)
-        return Exercise.Cloze(concept, nativeLang, targetLang, options, correct)
+        val langs = quizLangs.ifEmpty { listOf(targetLang) }.distinct()
+        val banks = langs.mapIndexed { index, lang ->
+            bankFor(concept, lang, seed + index * 31L)
+        }
+        return Exercise.Cloze(concept, nativeLang, targetLang, banks)
     }
 
     fun order(
@@ -75,6 +71,17 @@ class ExerciseFactory(
             seed,
         )
         return Exercise.TonePick(concept, nativeLang, targetLang, options, correct)
+    }
+
+    private fun bankFor(concept: Concept, lang: AppLanguage, seed: Long): Exercise.ChoiceBank {
+        val correct = concept.text(lang).text
+        val others = distractorPool(lang)
+            .filter { AnswerEvaluator.normalize(it, lang) != AnswerEvaluator.normalize(correct, lang) }
+            .distinct()
+            .shuffled(java.util.Random(seed))
+            .take(3)
+        val options = shuffleChoices((others + correct).distinct(), seed)
+        return Exercise.ChoiceBank(lang, options, correct)
     }
 
     companion object {

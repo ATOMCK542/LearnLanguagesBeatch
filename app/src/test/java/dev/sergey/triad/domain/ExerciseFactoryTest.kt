@@ -23,8 +23,24 @@ class ExerciseFactoryTest {
     @Test
     fun clozeIncludesCorrectOption() {
         val cloze = factory.cloze(concept, AppLanguage.Ru, AppLanguage.En, 42)
-        assertEquals(4, cloze.options.size)
-        assertTrue(cloze.options.contains(cloze.correct))
+        val bank = cloze.banks.single()
+        assertEquals(AppLanguage.En, bank.lang)
+        assertEquals(4, bank.options.size)
+        assertTrue(bank.options.contains(bank.correct))
+    }
+
+    @Test
+    fun clozeHasABankPerStudiedLanguage() {
+        val cloze = factory.cloze(
+            concept,
+            AppLanguage.Ru,
+            AppLanguage.En,
+            7,
+            listOf(AppLanguage.En, AppLanguage.Vi),
+        )
+        assertEquals(listOf(AppLanguage.En, AppLanguage.Vi), cloze.banks.map { it.lang })
+        assertTrue(cloze.banks[0].options.contains("I want coffee"))
+        assertTrue(cloze.banks[1].options.contains("Tôi muốn cà phê"))
     }
 
     @Test
@@ -39,7 +55,7 @@ class ExerciseFactoryTest {
     @Test
     fun clozeShufflesCorrectAmongOptions() {
         val positions = (1L..48L).map { seed ->
-            factory.cloze(concept, AppLanguage.Ru, AppLanguage.En, seed).options.indexOf("I want coffee")
+            factory.cloze(concept, AppLanguage.Ru, AppLanguage.En, seed).banks.single().options.indexOf("I want coffee")
         }.toSet()
         assertTrue(positions.size > 1)
         assertTrue(positions.any { it > 0 })
@@ -70,9 +86,9 @@ class ExerciseFactoryTest {
         val brandNew = ReviewItem(1, "s1", AppLanguage.Vi, 1.0, 5.0, 0, null, 0, 0, FsrsCardState.New, 0.0, 0.0)
         val known = brandNew.copy(state = FsrsCardState.Review, reps = 3)
         val reveal = factory.forReview(concept, brandNew.copy(targetLang = AppLanguage.En), AppLanguage.Ru, 1L, 0)
-        assertTrue(reveal is Exercise.Reveal)
+        assertTrue(reveal is Exercise.Cloze)
         val stillReveal = factory.forReview(concept, brandNew.copy(targetLang = AppLanguage.En), AppLanguage.Ru, 1L, 1)
-        assertTrue(stillReveal is Exercise.Reveal)
+        assertTrue(stillReveal is Exercise.Cloze)
         val cloze = factory.forReview(concept, known.copy(targetLang = AppLanguage.En), AppLanguage.Ru, 1L, 0)
         assertTrue(cloze is Exercise.Cloze)
         val order = factory.forReview(concept, known.copy(targetLang = AppLanguage.En), AppLanguage.Ru, 1L, 2)

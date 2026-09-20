@@ -12,4 +12,13 @@
     <plurals name="review_ready">
         <item quantity="other">%d từ sẵn sàng ôn</item>
     </plurals>
+    <plurals name="interval_minutes">
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="interval_hours">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="interval_days">
+        <item quantity="other">%d ngày</item>
+    </plurals>
 </resources>

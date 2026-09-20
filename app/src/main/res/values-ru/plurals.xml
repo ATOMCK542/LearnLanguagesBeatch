@@ -24,4 +24,22 @@
         <item quantity="many">%d слов для повтора</item>
         <item quantity="other">%d слова для повтора</item>
     </plurals>
+    <plurals name="interval_minutes">
+        <item quantity="one">%d минуту</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минуты</item>
+    </plurals>
+    <plurals name="interval_hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <plurals name="interval_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
 </resources>

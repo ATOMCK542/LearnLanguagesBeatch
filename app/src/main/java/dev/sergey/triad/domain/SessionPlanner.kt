@@ -30,13 +30,25 @@ class SessionPlanner(
                 newItems += scheduler.newItem(profile.id, concept.id, target, now)
             }
         }
-        val selected = (due + newItems).take(sessionSize)
+        val selected = due + newItems
+        val conceptOrder = selected.map { it.conceptId }.distinct().take(sessionSize)
+        val grouped = selected.groupBy { it.conceptId }
         val conceptMap = concepts.associateBy { it.id }
-        val items = selected.mapIndexedNotNull { index, review ->
-            val concept = conceptMap[review.conceptId] ?: return@mapIndexedNotNull null
+        val items = conceptOrder.mapIndexedNotNull { index, conceptId ->
+            val concept = conceptMap[conceptId] ?: return@mapIndexedNotNull null
+            val cardReviews = grouped[conceptId].orEmpty()
+            if (cardReviews.isEmpty()) return@mapIndexedNotNull null
             SessionItem(
-                review = review,
-                exercise = factory.forReview(concept, review, profile.nativeLang, now, index),
+                reviews = cardReviews,
+                exercise = factory.forReview(
+                    concept,
+                    cardReviews.first(),
+                    profile.nativeLang,
+                    now,
+                    index,
+                    targetLangs,
+                ),
+                showLearnFirst = cardReviews.all { it.state == FsrsCardState.New && it.reps == 0 },
             )
         }
         return SessionPlan(items)

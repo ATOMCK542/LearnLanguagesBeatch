@@ -5,18 +5,17 @@ sealed class Exercise {
     abstract val targetLang: AppLanguage
     abstract val nativeLang: AppLanguage
 
-    data class Reveal(
-        override val concept: Concept,
-        override val nativeLang: AppLanguage,
-        override val targetLang: AppLanguage,
-    ) : Exercise()
+    data class ChoiceBank(
+        val lang: AppLanguage,
+        val options: List<String>,
+        val correct: String,
+    )
 
     data class Cloze(
         override val concept: Concept,
         override val nativeLang: AppLanguage,
         override val targetLang: AppLanguage,
-        val options: List<String>,
-        val correct: String,
+        val banks: List<ChoiceBank>,
     ) : Exercise()
 
     data class OrderChips(
@@ -37,9 +36,12 @@ sealed class Exercise {
 }
 
 data class SessionItem(
-    val review: ReviewItem,
+    val reviews: List<ReviewItem>,
     val exercise: Exercise,
-)
+    val showLearnFirst: Boolean = false,
+) {
+    val review: ReviewItem get() = reviews.first()
+}
 
 data class SessionPlan(
     val items: List<SessionItem>,

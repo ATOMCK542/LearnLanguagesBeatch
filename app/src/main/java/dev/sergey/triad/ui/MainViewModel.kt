@@ -10,6 +10,7 @@ import dev.sergey.triad.data.locale.AppLocale
 import dev.sergey.triad.data.repo.TriadRepository
 import dev.sergey.triad.data.translate.TranslationEngine
 import dev.sergey.triad.data.tts.TtsController
+import dev.sergey.triad.domain.AnswerEvaluator
 import dev.sergey.triad.domain.AppLanguage
 import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.ConceptKind
@@ -41,6 +42,8 @@ data class MainUiState(
     val revealed: Boolean = false,
     val lastCorrect: Boolean? = null,
     val lastPicked: String? = null,
+    val quizPicks: Map<AppLanguage, String> = emptyMap(),
+    val testing: Boolean = false,
     val query: String = "",
     val ttsVoices: Set<AppLanguage> = emptySet(),
     val masteredIds: Set<String> = emptySet(),
@@ -135,6 +138,8 @@ class MainViewModel @Inject constructor(
                     revealed = false,
                     lastCorrect = null,
                     lastPicked = null,
+                    quizPicks = emptyMap(),
+                    testing = plan.items.firstOrNull()?.showLearnFirst != true && plan.items.isNotEmpty(),
                     due = repo.dueCount(),
                     sessionPractice = false,
                 )
@@ -157,6 +162,8 @@ class MainViewModel @Inject constructor(
                     revealed = false,
                     lastCorrect = null,
                     lastPicked = null,
+                    quizPicks = emptyMap(),
+                    testing = true,
                     sessionPractice = true,
                     due = repo.dueCount(),
                 )
@@ -180,13 +187,44 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    fun reveal() {
-        _state.update { it.copy(revealed = true) }
-        speakTarget()
+    fun startTest() {
+        clicks.play()
+        _state.update { it.copy(testing = true, quizPicks = emptyMap(), revealed = false, lastCorrect = null) }
     }
 
     fun playClick() {
         clicks.play()
+    }
+
+    fun pickQuiz(lang: AppLanguage, option: String) {
+        val item = currentItem() ?: return
+        val banks = (item.exercise as? Exercise.Cloze)?.banks ?: return
+        clicks.play()
+        val picks = _state.value.quizPicks + (lang to option)
+        if (banks.any { it.lang !in picks }) {
+            _state.update { it.copy(quizPicks = picks) }
+            return
+        }
+        viewModelScope.launch {
+            val results = banks.associate { bank ->
+                val picked = picks[bank.lang].orEmpty()
+                bank.lang to AnswerEvaluator.textMatches(bank.correct, picked, bank.lang)
+            }
+            if (!_state.value.sessionPractice) {
+                item.reviews.forEach { review ->
+                    val ok = results[review.targetLang] ?: return@forEach
+                    repo.applyRating(review, if (ok) Rating.Good else Rating.Again)
+                }
+            }
+            _state.update {
+                it.copy(
+                    quizPicks = picks,
+                    revealed = true,
+                    lastCorrect = results.values.all { ok -> ok },
+                )
+            }
+            speakTarget()
+        }
     }
 
     fun answerGame(correct: Boolean, picked: String? = null) {
@@ -201,21 +239,18 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    fun rate(rating: Rating) {
-        val item = currentItem() ?: return
-        clicks.play()
-        viewModelScope.launch {
-            if (!_state.value.sessionPractice) {
-                repo.applyRating(item.review, rating)
-            }
-            next()
-        }
-    }
-
     fun next() {
         _state.update {
             val nextIndex = it.sessionIndex + 1
-            it.copy(sessionIndex = nextIndex, revealed = false, lastCorrect = null, lastPicked = null)
+            val upcoming = it.session.getOrNull(nextIndex)
+            it.copy(
+                sessionIndex = nextIndex,
+                revealed = false,
+                lastCorrect = null,
+                lastPicked = null,
+                quizPicks = emptyMap(),
+                testing = upcoming != null && !upcoming.showLearnFirst,
+            )
         }
         viewModelScope.launch {
             _state.update { it.copy(due = repo.dueCount()) }
