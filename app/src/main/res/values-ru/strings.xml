@@ -84,6 +84,7 @@
     <string name="locked">Закрыто</string>
     <string name="theme_studying">Тема: %s</string>
     <string name="theme_studying_short">Выбрана</string>
+    <string name="theme_study">Учить</string>
     <string name="theme_open">Нажмите, чтобы учить эту тему</string>
     <string name="theme_unlock">Нажмите, чтобы открыть тему</string>
     <string name="lang_en_endonym">English</string>

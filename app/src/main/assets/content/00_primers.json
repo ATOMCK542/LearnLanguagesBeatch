@@ -10,9 +10,9 @@
         "vi": "Thanh điệu tiếng Việt"
       },
       "description": {
-        "en": "Six tones.",
-        "ru": "Шесть тонов.",
-        "vi": "Sáu thanh."
+        "en": "Six tones change meaning: ma, má, mà, mả, mã, mạ. Marks sit on the vowel.",
+        "ru": "Шесть тонов меняют смысл: ma, má, mà, mả, mã, mạ. Знак стоит над гласной.",
+        "vi": "Sáu thanh đổi nghĩa: ma, má, mà, mả, mã, mạ. Dấu đặt trên nguyên âm."
       }
     },
     {
@@ -25,9 +25,9 @@
         "vi": "Chữ Nga"
       },
       "description": {
-        "en": "",
-        "ru": "",
-        "vi": ""
+        "en": "Stress moves, and unstressed o sounds like a. Learn each word with its stress mark.",
+        "ru": "Ударение подвижное, безударное о звучит как а. Учите слово сразу с ударением.",
+        "vi": "Trọng âm di chuyển; o không nhấn nghe như a. Hãy học từ kèm trọng âm."
       }
     },
     {
@@ -40,9 +40,9 @@
         "vi": "Câu hỏi tiếng Anh"
       },
       "description": {
-        "en": "",
-        "ru": "",
-        "vi": ""
+        "en": "Yes/No questions use do/does/did or a modal before the subject: Do you…? Can I…?",
+        "ru": "Да/нет: do/does/did или модалка перед подлежащим: Do you…? Can I…?",
+        "vi": "Câu yes/no dùng do/does/did hoặc động từ khuyết thiếu trước chủ ngữ: Do you…? Can I…?"
       }
     }
   ],

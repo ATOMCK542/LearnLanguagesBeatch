@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
@@ -60,10 +61,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -80,6 +83,7 @@ import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.ui.theme.lessonPalette
+import dev.sergey.triad.ui.theme.triadCardColors
 
 @Composable
 fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
@@ -107,9 +111,6 @@ fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
                     viewModel.createProfile(n, e, l, t)
                     nav.popBackStack()
                 })
-            }
-            composable("primer/{id}") { entry ->
-                PrimerScreen(entry.arguments?.getString("id").orEmpty(), viewModel) { nav.popBackStack() }
             }
             composable("card/{id}") { entry ->
                 val id = entry.arguments?.getString("id").orEmpty()
@@ -150,7 +151,7 @@ private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewMod
         Column(Modifier.padding(padding).fillMaxSize().imePadding()) {
             when (tab) {
                 0 -> StudyPane(state, vm) { nav.navigate("session") }
-                1 -> PathPane(state, vm, nav)
+                1 -> PathPane(state, vm)
                 2 -> LibraryPane(state, vm, nav)
                 else -> MorePane(state, vm, nav)
             }
@@ -162,7 +163,7 @@ private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewMod
 @Composable
 private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit) {
     val profile = state.active ?: return
-    Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(Modifier.padding(screenGutter()).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(profile.displayName, style = MaterialTheme.typography.headlineSmall)
         Text(pluralStringResource(R.plurals.due_count, state.due, state.due))
         Text(pluralStringResource(R.plurals.streak_days, profile.streakDays, profile.streakDays))
@@ -215,34 +216,52 @@ private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit
 }
 
 @Composable
-private fun PathPane(state: MainUiState, vm: MainViewModel, nav: NavHostController) {
-    LazyColumn(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+private fun PathPane(state: MainUiState, vm: MainViewModel) {
+    val gutter = screenGutter()
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(gutter),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
         items(state.themes, key = { it.id }) { theme ->
             val lang = state.active?.uiLang ?: AppLanguage.En
-            val open = theme.id in state.unlocked || theme.kind == "primer"
             val selected = theme.id == state.selectedThemeId
-            Card(onClick = {
-                if (theme.kind == "primer") {
-                    nav.navigate("primer/${theme.id}")
-                } else {
-                    vm.selectTheme(theme.id)
-                }
-            }, modifier = Modifier.fillMaxWidth()) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                    Text(theme.title.forLang(lang), style = MaterialTheme.typography.titleMedium)
-                    Text(
-                        when {
-                            selected -> stringResource(R.string.theme_studying_short)
-                            open -> stringResource(R.string.unlocked)
-                            else -> stringResource(R.string.locked)
-                        },
-                    )
-                    if (theme.kind != "primer") {
+            val description = theme.description.forLang(lang)
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                colors = triadCardColors(),
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth().padding(gutter),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                         Text(
-                            stringResource(if (open) R.string.theme_open else R.string.theme_unlock),
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.primary,
+                            theme.title.forLang(lang),
+                            style = MaterialTheme.typography.titleMedium,
+                            color = MaterialTheme.colorScheme.onSurface,
                         )
+                        if (description.isNotBlank()) {
+                            Text(
+                                description,
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
+                    }
+                    if (theme.kind != "primer") {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Text(
+                                stringResource(R.string.theme_study),
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Switch(
+                                checked = selected,
+                                onCheckedChange = { on -> vm.setThemeStudying(theme.id, on) },
+                            )
+                        }
                     }
                 }
             }
@@ -262,7 +281,11 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
     val filtered = state.concepts.filter {
         q.isBlank() || it.texts.values.any { t -> t.text.contains(q, ignoreCase = true) }
     }
-    LazyColumn(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(screenGutter()),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
         item {
             OutlinedTextField(q, vm::setQuery, label = { Text(stringResource(R.string.search)) }, modifier = Modifier.fillMaxWidth())
             Spacer(Modifier.height(8.dp))
@@ -281,7 +304,7 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
             Card(
                 onClick = { nav.navigate("card/${concept.id}") },
                 modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+                colors = triadCardColors(),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
             ) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -411,7 +434,7 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
         if (uri != null) vm.importFrom(uri)
     }
     var confirmDelete by remember { mutableStateOf<Profile?>(null) }
-    Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+    Column(Modifier.padding(screenGutter()).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Text(stringResource(R.string.accounts), style = MaterialTheme.typography.titleLarge)
         state.profiles.forEach { p ->
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
@@ -722,10 +745,7 @@ private fun LessonPhraseCard(
             contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
         )
     } else {
-        CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface,
-            contentColor = MaterialTheme.colorScheme.onSurface,
-        )
+        triadCardColors()
     }
     Card(
         modifier = Modifier.fillMaxWidth(),
@@ -842,7 +862,7 @@ private fun OrderExercise(ex: Exercise.OrderChips, vm: MainViewModel) {
     )
     Card(
         modifier = Modifier.fillMaxWidth(),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+        colors = triadCardColors(),
     ) {
         FlowRow(
             modifier = Modifier.padding(16.dp).fillMaxWidth().heightIn(min = 56.dp),
@@ -893,15 +913,19 @@ private fun OnboardingScreen(
             .fillMaxSize()
             .safeDrawingPadding()
             .verticalScroll(rememberScrollState())
-            .padding(24.dp)
+            .padding(screenGutter())
             .imePadding(),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text(stringResource(R.string.onboarding_title), style = MaterialTheme.typography.headlineSmall)
+        Text(
+            stringResource(R.string.onboarding_title),
+            style = MaterialTheme.typography.headlineSmall,
+            color = MaterialTheme.colorScheme.onBackground,
+        )
         OutlinedTextField(name, { name = it }, label = { Text(stringResource(R.string.onboarding_name)) }, modifier = Modifier.fillMaxWidth().testTag("name"))
         OutlinedTextField(email, { email = it }, label = { Text(stringResource(R.string.onboarding_email)) }, modifier = Modifier.fillMaxWidth())
-        Text(stringResource(R.string.onboarding_language))
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(stringResource(R.string.onboarding_language), color = MaterialTheme.colorScheme.onSurface)
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             AppLanguage.all.forEach { lang ->
                 FilterChip(selected = ui == lang, onClick = {
                     ui = lang
@@ -909,7 +933,7 @@ private fun OnboardingScreen(
                 }, label = { Text(endonym(lang)) })
             }
         }
-        Text(stringResource(R.string.onboarding_targets))
+        Text(stringResource(R.string.onboarding_targets), color = MaterialTheme.colorScheme.onSurface)
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             AppLanguage.all.filter { it != ui }.forEach { lang ->
                 FilterChip(selected = lang in targets, onClick = {
@@ -926,52 +950,31 @@ private fun OnboardingScreen(
 }
 
 @Composable
-private fun PrimerScreen(id: String, vm: MainViewModel, onDone: () -> Unit) {
-    val title = when (id) {
-        "primer_vi" -> R.string.primer_vi_title
-        "primer_ru" -> R.string.primer_ru_title
-        else -> R.string.primer_en_title
-    }
-    val body = when (id) {
-        "primer_vi" -> R.string.primer_vi_body
-        "primer_ru" -> R.string.primer_ru_body
-        else -> R.string.primer_en_body
-    }
-    Column(
-        Modifier
-            .fillMaxSize()
-            .safeDrawingPadding()
-            .verticalScroll(rememberScrollState())
-            .padding(24.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Text(stringResource(title), style = MaterialTheme.typography.headlineSmall)
-        Text(stringResource(body))
-        if (id == "primer_vi") {
-            Text("ma · má · mà · mả · mã · mạ")
-        }
-        Button(onClick = { vm.completePrimer(id); onDone() }) { Text(stringResource(R.string.primer_done)) }
-    }
-}
-
-@Composable
 private fun TranslatorScreen(onBack: () -> Unit) {
     Column(
         Modifier
             .fillMaxSize()
             .safeDrawingPadding()
-            .padding(24.dp),
+            .padding(screenGutter()),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text(stringResource(R.string.translator_title), style = MaterialTheme.typography.headlineSmall)
-        Text(stringResource(R.string.translator_stub))
+        Text(
+            stringResource(R.string.translator_title),
+            style = MaterialTheme.typography.headlineSmall,
+            color = MaterialTheme.colorScheme.onBackground,
+        )
+        Text(
+            stringResource(R.string.translator_stub),
+            color = MaterialTheme.colorScheme.onSurface,
+        )
         Button(onClick = onBack) { Text(stringResource(R.string.action_continue)) }
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun LanguageRow(selected: AppLanguage, onPick: (AppLanguage) -> Unit) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         AppLanguage.all.forEach { lang ->
             FilterChip(selected = selected == lang, onClick = { onPick(lang) }, label = { Text(endonym(lang)) })
         }
@@ -986,3 +989,9 @@ private fun endonym(lang: AppLanguage): String = stringResource(
         AppLanguage.Vi -> R.string.lang_vi_endonym
     },
 )
+
+@Composable
+private fun screenGutter(): Dp {
+    val width = LocalConfiguration.current.screenWidthDp
+    return if (width < 380) 12.dp else 16.dp
+}

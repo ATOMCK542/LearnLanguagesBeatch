@@ -84,6 +84,7 @@
     <string name="locked">Khóa</string>
     <string name="theme_studying">Đang học: %s</string>
     <string name="theme_studying_short">Đã chọn</string>
+    <string name="theme_study">Học</string>
     <string name="theme_open">Chạm để học chủ đề này</string>
     <string name="theme_unlock">Chạm để mở chủ đề</string>
     <string name="lang_en_endonym">English</string>

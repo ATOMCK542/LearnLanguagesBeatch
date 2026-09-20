@@ -84,6 +84,7 @@
     <string name="locked">Locked</string>
     <string name="theme_studying">Studying: %s</string>
     <string name="theme_studying_short">Selected</string>
+    <string name="theme_study">Study</string>
     <string name="theme_open">Tap to study this theme</string>
     <string name="theme_unlock">Tap to open this theme</string>
     <string name="lang_en_endonym">English</string>

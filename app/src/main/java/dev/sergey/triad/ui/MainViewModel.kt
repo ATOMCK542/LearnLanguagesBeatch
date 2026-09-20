@@ -195,6 +195,14 @@ class MainViewModel @Inject constructor(
     }
 
     fun selectTheme(themeId: String) {
+        setThemeStudying(themeId, true)
+    }
+
+    fun setThemeStudying(themeId: String, studying: Boolean) {
+        if (!studying) {
+            _state.update { it.copy(selectedThemeId = it.selectedThemeId.takeUnless { id -> id == themeId }) }
+            return
+        }
         _state.update { it.copy(selectedThemeId = themeId) }
         viewModelScope.launch {
             repo.unlockTheme(themeId)
