@@ -8,11 +8,19 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.ime
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.foundation.layout.union
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
@@ -76,36 +84,43 @@ import dev.sergey.triad.domain.Profile
 fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val nav = rememberNavController()
-    if (!state.ready) {
-        LinearProgressIndicator(modifier = Modifier.fillMaxWidth().testTag("loading"))
-        return
-    }
-    if (state.active == null) {
-        OnboardingScreen(onCreate = viewModel::createProfile)
-        return
-    }
-    NavHost(navController = nav, startDestination = "main") {
-        composable("main") { MainTabs(nav, state, viewModel) }
-        composable("session") { SessionScreen(nav, state, viewModel) }
-        composable("onboarding") {
-            OnboardingScreen(onCreate = { n, e, l, t ->
-                viewModel.createProfile(n, e, l, t)
-                nav.popBackStack()
-            })
+    Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+        if (!state.ready) {
+            LinearProgressIndicator(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .safeDrawingPadding()
+                    .testTag("loading"),
+            )
+            return@Surface
         }
-        composable("primer/{id}") { entry ->
-            PrimerScreen(entry.arguments?.getString("id").orEmpty(), viewModel) { nav.popBackStack() }
+        if (state.active == null) {
+            OnboardingScreen(onCreate = viewModel::createProfile)
+            return@Surface
         }
-        composable("card/{id}") { entry ->
-            val id = entry.arguments?.getString("id").orEmpty()
-            val concept = state.concepts.firstOrNull { it.id == id }
-            if (concept == null) {
-                nav.popBackStack()
-            } else {
-                CardDetailScreen(concept, state, viewModel) { nav.popBackStack() }
+        NavHost(navController = nav, startDestination = "main", modifier = Modifier.fillMaxSize()) {
+            composable("main") { MainTabs(nav, state, viewModel) }
+            composable("session") { SessionScreen(nav, state, viewModel) }
+            composable("onboarding") {
+                OnboardingScreen(onCreate = { n, e, l, t ->
+                    viewModel.createProfile(n, e, l, t)
+                    nav.popBackStack()
+                })
             }
+            composable("primer/{id}") { entry ->
+                PrimerScreen(entry.arguments?.getString("id").orEmpty(), viewModel) { nav.popBackStack() }
+            }
+            composable("card/{id}") { entry ->
+                val id = entry.arguments?.getString("id").orEmpty()
+                val concept = state.concepts.firstOrNull { it.id == id }
+                if (concept == null) {
+                    nav.popBackStack()
+                } else {
+                    CardDetailScreen(concept, state, viewModel) { nav.popBackStack() }
+                }
+            }
+            composable("translator") { TranslatorScreen { nav.popBackStack() } }
         }
-        composable("translator") { TranslatorScreen { nav.popBackStack() } }
     }
 }
 
@@ -116,9 +131,10 @@ private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewMod
     val titles = listOf(R.string.nav_study, R.string.nav_path, R.string.nav_cards, R.string.nav_more)
     val icons = listOf(Icons.Outlined.School, Icons.Outlined.Category, Icons.AutoMirrored.Outlined.MenuBook, Icons.Outlined.MoreHoriz)
     Scaffold(
+        contentWindowInsets = WindowInsets.safeDrawing,
         topBar = { TopAppBar(title = { Text(stringResource(titles[tab])) }) },
         bottomBar = {
-            NavigationBar {
+            NavigationBar(windowInsets = WindowInsets.navigationBars) {
                 titles.forEachIndexed { index, res ->
                     NavigationBarItem(
                         selected = tab == index,
@@ -130,7 +146,7 @@ private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewMod
             }
         },
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxSize()) {
+        Column(Modifier.padding(padding).fillMaxSize().imePadding()) {
             when (tab) {
                 0 -> StudyPane(state, vm) { nav.navigate("session") }
                 1 -> PathPane(state, vm, nav)
@@ -338,6 +354,7 @@ private fun CardDetailScreen(
     val native = state.active?.nativeLang ?: AppLanguage.Ru
     val ttsOn = state.active?.ttsEnabled == true
     Scaffold(
+        contentWindowInsets = WindowInsets.safeDrawing,
         topBar = {
             TopAppBar(
                 title = { Text(concept.text(native).text) },
@@ -475,6 +492,7 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
     val item = vm.currentItem()
     val learning = item != null && item.showLearnFirst && !state.testing && !state.revealed
     Scaffold(
+        contentWindowInsets = WindowInsets.safeDrawing,
         topBar = {
             TopAppBar(
                 title = {
@@ -501,39 +519,41 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
             )
         },
         bottomBar = {
-            when {
-                item == null -> {
-                    SessionBottomBar {
-                        Button(
-                            onClick = { nav.popBackStack() },
-                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
-                        ) {
-                            Text(stringResource(R.string.session_back), style = MaterialTheme.typography.titleMedium)
+            Column(Modifier.windowInsetsPadding(WindowInsets.navigationBars.union(WindowInsets.ime))) {
+                when {
+                    item == null -> {
+                        SessionBottomBar {
+                            Button(
+                                onClick = { nav.popBackStack() },
+                                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
+                            ) {
+                                Text(stringResource(R.string.session_back), style = MaterialTheme.typography.titleMedium)
+                            }
                         }
                     }
-                }
-                learning -> {
-                    SessionBottomBar {
-                        Text(
-                            stringResource(R.string.action_test_hint),
-                            style = MaterialTheme.typography.bodyLarge,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                        Button(
-                            onClick = vm::startTest,
-                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("start_test"),
-                        ) {
-                            Text(stringResource(R.string.action_test), style = MaterialTheme.typography.titleMedium)
+                    learning -> {
+                        SessionBottomBar {
+                            Text(
+                                stringResource(R.string.action_test_hint),
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Button(
+                                onClick = vm::startTest,
+                                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("start_test"),
+                            ) {
+                                Text(stringResource(R.string.action_test), style = MaterialTheme.typography.titleMedium)
+                            }
                         }
                     }
-                }
-                state.revealed -> {
-                    SessionBottomBar {
-                        Button(
-                            onClick = vm::next,
-                            modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("next_card"),
-                        ) {
-                            Text(stringResource(R.string.action_next), style = MaterialTheme.typography.titleMedium)
+                    state.revealed -> {
+                        SessionBottomBar {
+                            Button(
+                                onClick = vm::next,
+                                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("next_card"),
+                            ) {
+                                Text(stringResource(R.string.action_next), style = MaterialTheme.typography.titleMedium)
+                            }
                         }
                     }
                 }
@@ -891,7 +911,15 @@ private fun OnboardingScreen(
     var email by remember { mutableStateOf("") }
     var ui by remember { mutableStateOf<AppLanguage?>(null) }
     var targets by remember { mutableStateOf(setOf<AppLanguage>()) }
-    Column(Modifier.padding(24.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(
+        Modifier
+            .fillMaxSize()
+            .safeDrawingPadding()
+            .verticalScroll(rememberScrollState())
+            .padding(24.dp)
+            .imePadding(),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
         Text(stringResource(R.string.onboarding_title), style = MaterialTheme.typography.headlineSmall)
         OutlinedTextField(name, { name = it }, label = { Text(stringResource(R.string.onboarding_name)) }, modifier = Modifier.fillMaxWidth().testTag("name"))
         OutlinedTextField(email, { email = it }, label = { Text(stringResource(R.string.onboarding_email)) }, modifier = Modifier.fillMaxWidth())
@@ -932,7 +960,14 @@ private fun PrimerScreen(id: String, vm: MainViewModel, onDone: () -> Unit) {
         "primer_ru" -> R.string.primer_ru_body
         else -> R.string.primer_en_body
     }
-    Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(
+        Modifier
+            .fillMaxSize()
+            .safeDrawingPadding()
+            .verticalScroll(rememberScrollState())
+            .padding(24.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
         Text(stringResource(title), style = MaterialTheme.typography.headlineSmall)
         Text(stringResource(body))
         if (id == "primer_vi") {
@@ -944,7 +979,13 @@ private fun PrimerScreen(id: String, vm: MainViewModel, onDone: () -> Unit) {
 
 @Composable
 private fun TranslatorScreen(onBack: () -> Unit) {
-    Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(
+        Modifier
+            .fillMaxSize()
+            .safeDrawingPadding()
+            .padding(24.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
         Text(stringResource(R.string.translator_title), style = MaterialTheme.typography.headlineSmall)
         Text(stringResource(R.string.translator_stub))
         Button(onClick = onBack) { Text(stringResource(R.string.action_continue)) }
