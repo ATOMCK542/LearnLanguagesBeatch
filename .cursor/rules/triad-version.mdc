@@ -21,3 +21,11 @@ alwaysApply: true
 - ломающее обновление данных → major и `versionCode` +1
 
 Только тесты или правки, которые не уходят на устройство — версию не трогать.
+
+После коммита версии, которую ставят на телефон:
+
+1. `./gradlew assembleDebug`
+2. `git tag -a v{versionName} -m "Learn Languages Bitch {versionName}"`
+3. `git push origin HEAD && git push origin v{versionName}`
+
+Либо `scripts/release.sh` после пуша `main`. CI кладёт APK в GitHub Releases. Тег `v*` не удалять и не переписывать — старые релизы это архив. Последняя: `.../releases/latest`. APK в git-дерево не коммитить.

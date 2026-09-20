@@ -11,6 +11,13 @@
 
 Целевой телефон для установки — Samsung Galaxy S24 Ultra, но подойдёт любой Android 12+.
 
+## Скачать APK
+
+- Последняя версия: https://github.com/ATOMCK542/LearnLanguagesBitch/releases/latest
+- Архив предыдущих: https://github.com/ATOMCK542/LearnLanguagesBitch/releases
+
+Каждый тег `v{versionName}` — отдельный релиз с APK `LearnLanguagesBitch-{versionName}.apk`. Старые не удаляются.
+
 ## Требования
 
 - JDK 17
@@ -40,6 +47,8 @@ app/build/outputs/apk/debug/LearnLanguagesBitch-1.2.0.apk
 ```
 
 В Cursor: задача **Build APK** (Ctrl+Shift+B). Android Studio для релиза не нужна. AAB и Play Console не используются.
+
+Публикация версии в GitHub: после коммита `scripts/release.sh` (тег `v{versionName}`). Actions собирает APK и открывает Release.
 
 ## Установка
 
