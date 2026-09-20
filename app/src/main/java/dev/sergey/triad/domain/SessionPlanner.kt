@@ -10,23 +10,42 @@ class SessionPlanner(
         reviews: List<ReviewItem>,
         now: Long,
         sessionSize: Int = 10,
+        preferredThemeId: String? = null,
     ): SessionPlan {
-        val targetLangs = profile.targetLangs.ifEmpty {
-            AppLanguage.all.filter { it != profile.nativeLang }
-        }
+        val targetLangs = profile.studyTargets()
+        val focused = preferredThemeId?.let { id -> concepts.filter { it.themeId == id } }.orEmpty()
+        val primary = focused.ifEmpty { concepts }
+        val planned = planFrom(profile, primary, reviews, now, sessionSize, targetLangs)
+        if (planned.items.isNotEmpty() || focused.isEmpty()) return planned
+        return planFrom(profile, concepts, reviews, now, sessionSize, targetLangs)
+    }
+
+    private fun planFrom(
+        profile: Profile,
+        concepts: List<Concept>,
+        reviews: List<ReviewItem>,
+        now: Long,
+        sessionSize: Int,
+        targetLangs: List<AppLanguage>,
+    ): SessionPlan {
+        val conceptIds = concepts.map { it.id }.toSet()
         val byKey = reviews.associateBy { Triple(it.profileId, it.conceptId, it.targetLang) }
         val due = reviews
-            .filter { it.profileId == profile.id && it.dueAt <= now && it.targetLang in targetLangs }
+            .filter {
+                it.profileId == profile.id &&
+                    it.dueAt <= now &&
+                    it.targetLang in targetLangs &&
+                    it.conceptId in conceptIds
+            }
             .sortedBy { it.dueAt }
         val existingKeys = due.map { it.conceptId to it.targetLang }.toSet()
         val newItems = mutableListOf<ReviewItem>()
-        val remainingNew = (profile.newLimit).coerceAtLeast(0)
+        val remainingNew = profile.newLimit.coerceAtLeast(0)
         loop@ for (concept in concepts) {
             for (target in targetLangs) {
                 if (newItems.size >= remainingNew) break@loop
                 if (concept.id to target in existingKeys) continue
-                val existing = byKey[Triple(profile.id, concept.id, target)]
-                if (existing != null) continue
+                if (byKey[Triple(profile.id, concept.id, target)] != null) continue
                 newItems += scheduler.newItem(profile.id, concept.id, target, now)
             }
         }

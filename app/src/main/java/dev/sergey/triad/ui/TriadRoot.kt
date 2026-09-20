@@ -21,8 +21,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.automirrored.outlined.VolumeUp
+import androidx.compose.material.icons.outlined.Category
 import androidx.compose.material.icons.outlined.MoreHoriz
-import androidx.compose.material.icons.outlined.Route
 import androidx.compose.material.icons.outlined.School
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
@@ -113,7 +113,7 @@ fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
 private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewModel) {
     var tab by remember { mutableStateOf(0) }
     val titles = listOf(R.string.nav_study, R.string.nav_path, R.string.nav_cards, R.string.nav_more)
-    val icons = listOf(Icons.Outlined.School, Icons.Outlined.Route, Icons.AutoMirrored.Outlined.MenuBook, Icons.Outlined.MoreHoriz)
+    val icons = listOf(Icons.Outlined.School, Icons.Outlined.Category, Icons.AutoMirrored.Outlined.MenuBook, Icons.Outlined.MoreHoriz)
     Scaffold(
         topBar = { TopAppBar(title = { Text(stringResource(titles[tab])) }) },
         bottomBar = {
@@ -132,7 +132,7 @@ private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewMod
         Column(Modifier.padding(padding).fillMaxSize()) {
             when (tab) {
                 0 -> StudyPane(state, vm) { nav.navigate("session") }
-                1 -> PathPane(state, nav)
+                1 -> PathPane(state, vm, nav)
                 2 -> LibraryPane(state, vm, nav)
                 else -> MorePane(state, vm, nav)
             }
@@ -149,12 +149,18 @@ private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit
         Text(pluralStringResource(R.plurals.due_count, state.due, state.due))
         Text(pluralStringResource(R.plurals.streak_days, profile.streakDays, profile.streakDays))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            profile.targetLangs.forEach { Text(it.code.uppercase(), style = MaterialTheme.typography.labelLarge) }
+            profile.studyTargets().forEach { Text(it.code.uppercase(), style = MaterialTheme.typography.labelLarge) }
+        }
+        val selectedTheme = state.themes.firstOrNull { it.id == state.selectedThemeId }
+        if (selectedTheme != null) {
+            Text(
+                stringResource(R.string.theme_studying, selectedTheme.title.forLang(profile.uiLang)),
+                style = MaterialTheme.typography.bodyLarge,
+            )
         }
         Button(onClick = {
-            vm.startSession()
-            onStart()
-        }, modifier = Modifier.testTag("start_session")) {
+            vm.startSession { onStart() }
+        }, enabled = !state.planningSession, modifier = Modifier.testTag("start_session")) {
             Text(stringResource(R.string.action_start))
         }
         Text(stringResource(R.string.review_title), style = MaterialTheme.typography.titleMedium)
@@ -191,17 +197,35 @@ private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit
 }
 
 @Composable
-private fun PathPane(state: MainUiState, nav: NavHostController) {
+private fun PathPane(state: MainUiState, vm: MainViewModel, nav: NavHostController) {
     LazyColumn(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         items(state.themes, key = { it.id }) { theme ->
             val lang = state.active?.uiLang ?: AppLanguage.En
             val open = theme.id in state.unlocked || theme.kind == "primer"
+            val selected = theme.id == state.selectedThemeId
             Card(onClick = {
-                if (theme.kind == "primer") nav.navigate("primer/${theme.id}")
+                if (theme.kind == "primer") {
+                    nav.navigate("primer/${theme.id}")
+                } else {
+                    vm.selectTheme(theme.id)
+                }
             }, modifier = Modifier.fillMaxWidth()) {
-                Column(Modifier.padding(16.dp)) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                     Text(theme.title.forLang(lang), style = MaterialTheme.typography.titleMedium)
-                    Text(if (open) stringResource(R.string.unlocked) else stringResource(R.string.locked))
+                    Text(
+                        when {
+                            selected -> stringResource(R.string.theme_studying_short)
+                            open -> stringResource(R.string.unlocked)
+                            else -> stringResource(R.string.locked)
+                        },
+                    )
+                    if (theme.kind != "primer") {
+                        Text(
+                            stringResource(if (open) R.string.theme_open else R.string.theme_unlock),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.primary,
+                        )
+                    }
                 }
             }
         }
@@ -383,15 +407,24 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
         Text(stringResource(R.string.settings_ui))
         LanguageRow(profile.uiLang) { lang -> vm.updateActive { it.copy(uiLang = lang) } }
         Text(stringResource(R.string.settings_native))
-        LanguageRow(profile.nativeLang) { lang -> vm.updateActive { it.copy(nativeLang = lang) } }
+        LanguageRow(profile.nativeLang) { lang ->
+            vm.updateActive { p ->
+                p.copy(
+                    nativeLang = lang,
+                    targetLangs = p.targetLangs.filter { it != lang }.ifEmpty {
+                        AppLanguage.all.filter { it != lang }
+                    },
+                )
+            }
+        }
         Text(stringResource(R.string.settings_targets))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            AppLanguage.all.forEach { lang ->
+            AppLanguage.all.filter { it != profile.nativeLang }.forEach { lang ->
                 val selected = lang in profile.targetLangs
                 FilterChip(selected, onClick = {
                     vm.updateActive { p ->
                         val next = if (selected) p.targetLangs - lang else p.targetLangs + lang
-                        p.copy(targetLangs = next.ifEmpty { listOf(lang) })
+                        p.copy(targetLangs = next.filter { it != p.nativeLang }.ifEmpty { listOf(lang) })
                     }
                 }, label = { Text(endonym(lang)) })
             }

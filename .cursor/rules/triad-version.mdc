@@ -1,5 +1,5 @@
 ---
-description: Как поднимать versionName/versionCode перед сборкой APK
+description: Как поднимать versionName/versionCode и автоматически публиковать APK
 alwaysApply: true
 ---
 
@@ -14,18 +14,25 @@ alwaysApply: true
 
 Имя файла: `LearnLanguagesBitch-{versionName}.apk` в `app/build/outputs/apk/debug/`. Не `app-debug.apk`, слово debug в имя не писать.
 
-Перед `./gradlew assembleDebug` / **Build APK** для телефона подними версию:
+## После каждой фичи — само
 
-- баг/правка → patch (`1.0.0` → `1.0.1`) и `versionCode` +1
-- фича → minor (`1.0.1` → `1.1.0`) и `versionCode` +1
-- ломающее обновление данных → major и `versionCode` +1
+Когда работа уходит на телефон (фича, баг, правка урока/тем/UI), **не ждать** «собери и запушь». Сразу по завершении:
 
-Только тесты или правки, которые не уходят на устройство — версию не трогать.
-
-После коммита версии, которую ставят на телефон:
-
-1. `./gradlew assembleDebug`
-2. `git tag -a v{versionName} -m "Learn Languages Bitch {versionName}"`
-3. `git push origin HEAD && git push origin v{versionName}`
+1. Поднять версию в `gradle.properties` по масштабу (ниже) и `app.versionCode` +1
+2. Обновить пример пути APK в `README.md`, если там захардкожен `versionName`
+3. Закоммитить все относящиеся файлы (включая правило/доки, если менялись)
+4. `./gradlew assembleDebug`
+5. `git tag -a v{versionName} -m "Learn Languages Bitch {versionName}"`
+6. `git push origin HEAD && git push origin v{versionName}`
 
 Либо `scripts/release.sh` после пуша `main`. CI кладёт APK в GitHub Releases. Тег `v*` не удалять и не переписывать — старые релизы это архив. Последняя: `.../releases/latest`. APK в git-дерево не коммитить.
+
+Не спрашивать подтверждения на bump / commit / assemble / push / tag, если пользователь уже дал задачу сделать фичу. Major — исключение (см. ниже).
+
+## Масштаб bump
+
+- баг, правка, маленький UX-фикс → **patch** (`1.3.0` → `1.3.1`) и `versionCode` +1
+- фича, новый экран/поток, заметное поведение → **minor** (`1.3.1` → `1.4.0`) и `versionCode` +1
+- **первая цифра (major)** — только по **прямому** указанию пользователя («подними мажор», «первая цифра», `2.0.0`). Сам не поднимать, даже при ломающем обновлении данных: тогда minor + предупреждение в коммите, либо спросить, если без major нельзя
+
+Только тесты, правила Cursor или правки, которые не уходят на устройство — `versionName`/`versionCode` не трогать, но **закоммитить и `git push origin HEAD`**, если пользователь просил сохранить/запушить это (как обновление правил).

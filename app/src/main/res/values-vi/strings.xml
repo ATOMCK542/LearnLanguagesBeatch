@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Learn Languages Bitch</string>
     <string name="nav_study">Học</string>
-    <string name="nav_path">Lộ trình</string>
+    <string name="nav_path">Chủ đề</string>
     <string name="nav_cards">Thẻ</string>
     <string name="nav_more">Thêm</string>
     <string name="onboarding_title">Tạo hồ sơ</string>
@@ -42,7 +42,7 @@
     <string name="label_grammar">Ngữ pháp</string>
     <string name="label_tones">Thanh điệu</string>
     <string name="label_speak">Đọc</string>
-    <string name="empty_session">Chưa có thẻ đến hạn. Mở lộ trình để học thêm.</string>
+    <string name="empty_session">Chưa có bài. Mở Chủ đề và chọn một bộ thẻ.</string>
     <string name="correct">Đúng</string>
     <string name="incorrect">Chưa đúng</string>
     <string name="accounts">Tài khoản</string>
@@ -82,6 +82,10 @@
     <string name="third_form">Nữa</string>
     <string name="unlocked">Đã mở</string>
     <string name="locked">Khóa</string>
+    <string name="theme_studying">Đang học: %s</string>
+    <string name="theme_studying_short">Đã chọn</string>
+    <string name="theme_open">Chạm để học chủ đề này</string>
+    <string name="theme_unlock">Chạm để mở chủ đề</string>
     <string name="lang_en_endonym">English</string>
     <string name="lang_ru_endonym">Русский</string>
     <string name="lang_vi_endonym">Tiếng Việt</string>

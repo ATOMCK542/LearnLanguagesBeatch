@@ -93,6 +93,8 @@ class TriadRepository @Inject constructor(
 
     suspend fun updateProfile(profile: Profile) {
         db.profiles().upsert(profile.toEntity())
+        unlockFirstThemes(profile)
+        ensureContentThemeUnlocked(profile)
     }
 
     suspend fun activeProfile(): Profile? {
@@ -112,8 +114,12 @@ class TriadRepository @Inject constructor(
         return db.progress().dueCount(profile.id, now)
     }
 
-    suspend fun planSession(now: Long = System.currentTimeMillis()): SessionPlan {
+    suspend fun planSession(
+        now: Long = System.currentTimeMillis(),
+        preferredThemeId: String? = null,
+    ): SessionPlan {
         val profile = activeProfile() ?: return SessionPlan(emptyList())
+        ensureContentThemeUnlocked(profile)
         val allConcepts = concepts()
         val unlocked = unlockedThemeIds(profile)
         val visible = allConcepts.filter { it.themeId in unlocked }
@@ -121,7 +127,13 @@ class TriadRepository @Inject constructor(
         val factory = ExerciseFactory { lang ->
             visible.map { it.text(lang).text }
         }
-        return SessionPlanner(scheduler, factory).plan(profile, visible, reviews, now)
+        return SessionPlanner(scheduler, factory).plan(
+            profile,
+            visible,
+            reviews,
+            now,
+            preferredThemeId = preferredThemeId,
+        )
     }
 
     suspend fun planPractice(limit: Int, now: Long = System.currentTimeMillis()): SessionPlan {
@@ -133,9 +145,7 @@ class TriadRepository @Inject constructor(
         val visible = allConcepts.filter { it.themeId in unlocked }
         val factory = ExerciseFactory { lang -> visible.map { it.text(lang).text } }
         val conceptMap = allConcepts.associateBy { it.id }
-        val targets = profile.targetLangs.ifEmpty {
-            AppLanguage.all.filter { it != profile.nativeLang }
-        }
+        val targets = profile.studyTargets()
         val siblings = db.progress().reviews(profile.id).map { it.toDomain() }.groupBy { it.conceptId }
         val items = picked.mapIndexedNotNull { index, review ->
             val concept = conceptMap[review.conceptId] ?: return@mapIndexedNotNull null
@@ -293,8 +303,19 @@ class TriadRepository @Inject constructor(
         }
     }
 
-    suspend fun pathState(profile: Profile): Map<String, PathProgressEntity> =
-        db.progress().path(profile.id).associateBy { it.themeId }
+    suspend fun pathState(profile: Profile): Map<String, PathProgressEntity> {
+        ensureContentThemeUnlocked(profile)
+        return db.progress().path(profile.id).associateBy { it.themeId }
+    }
+
+    suspend fun unlockTheme(themeId: String) {
+        val profile = activeProfile() ?: return
+        if (themeId.isBlank()) return
+        val current = db.progress().path(profile.id).firstOrNull { it.themeId == themeId }
+        db.progress().upsertPath(
+            current?.copy(unlocked = true) ?: PathProgressEntity(profile.id, themeId, true, 0),
+        )
+    }
 
     private suspend fun bumpPath(profileId: Long, conceptId: String) {
         val concept = concepts().firstOrNull { it.id == conceptId } ?: return
@@ -306,15 +327,14 @@ class TriadRepository @Inject constructor(
     }
 
     private suspend fun unlockFirstThemes(profile: Profile) {
-        val ordered = themes().sortedBy { it.sortOrder }
-        ordered.firstOrNull()?.let {
+        contentUnits().firstOrNull()?.let {
             db.progress().upsertPath(PathProgressEntity(profile.id, it.id, true, 0))
         }
-        ordered.filter { it.kind == "primer" }.forEach { theme ->
+        themes().filter { it.kind == "primer" }.forEach { theme ->
             val needed = when (theme.id) {
-                "primer_vi" -> AppLanguage.Vi in profile.targetLangs && profile.nativeLang != AppLanguage.Vi
-                "primer_ru" -> AppLanguage.Ru in profile.targetLangs && profile.nativeLang != AppLanguage.Ru
-                "primer_en" -> AppLanguage.En in profile.targetLangs && profile.nativeLang != AppLanguage.En
+                "primer_vi" -> AppLanguage.Vi in profile.studyTargets()
+                "primer_ru" -> AppLanguage.Ru in profile.studyTargets()
+                "primer_en" -> AppLanguage.En in profile.studyTargets()
                 else -> true
             }
             if (needed) {
@@ -324,12 +344,12 @@ class TriadRepository @Inject constructor(
     }
 
     private suspend fun unlockNext(profile: Profile) {
-        val ordered = themes().sortedBy { it.sortOrder }
+        val units = contentUnits()
         val path = db.progress().path(profile.id).associateBy { it.themeId }
-        ordered.forEachIndexed { index, theme ->
-            val prev = ordered.getOrNull(index - 1) ?: return@forEachIndexed
+        units.forEachIndexed { index, theme ->
+            val prev = units.getOrNull(index - 1) ?: return@forEachIndexed
             val prevState = path[prev.id]
-            if (prevState != null && (prevState.completedCount >= 8 || prev.kind == "primer" && primerDone(prev.id))) {
+            if (prevState != null && prevState.completedCount >= 8) {
                 db.progress().upsertPath(
                     path[theme.id]?.copy(unlocked = true)
                         ?: PathProgressEntity(profile.id, theme.id, true, 0),
@@ -338,11 +358,27 @@ class TriadRepository @Inject constructor(
         }
     }
 
+    private suspend fun ensureContentThemeUnlocked(profile: Profile) {
+        val units = contentUnits()
+        if (units.isEmpty()) return
+        val path = db.progress().path(profile.id)
+        val unlockedUnits = path.filter { row -> row.unlocked && units.any { it.id == row.themeId } }
+        if (unlockedUnits.isEmpty()) {
+            units.first().let {
+                db.progress().upsertPath(PathProgressEntity(profile.id, it.id, true, 0))
+            }
+        }
+    }
+
+    private suspend fun contentUnits(): List<Theme> =
+        themes().filter { it.kind != "primer" }.sortedBy { it.sortOrder }
+
     private suspend fun unlockedThemeIds(profile: Profile): Set<String> {
+        ensureContentThemeUnlocked(profile)
         val path = db.progress().path(profile.id)
         val unlocked = path.filter { it.unlocked }.map { it.themeId }.toMutableSet()
-        if (unlocked.isEmpty()) {
-            themes().minByOrNull { it.sortOrder }?.id?.let { unlocked += it }
+        if (unlocked.none { id -> contentUnits().any { it.id == id } }) {
+            contentUnits().firstOrNull()?.id?.let { unlocked += it }
         }
         unlocked += "user"
         return unlocked
@@ -354,7 +390,7 @@ class TriadRepository @Inject constructor(
         val primers = themes().filter { it.kind == "primer" }.map { it.id }.toSet()
         val mastered = masteredConceptIds(profile.id)
         val reviews = db.progress().reviews(profile.id).map { it.toDomain() }
-        val targets = profile.targetLangs.ifEmpty { AppLanguage.all.filter { it != profile.nativeLang } }
+        val targets = profile.studyTargets()
         return PracticePlanner.eligible(
             profileId = profile.id,
             targetLangs = targets,

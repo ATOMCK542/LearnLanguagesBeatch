@@ -50,6 +50,8 @@ data class MainUiState(
     val practiceAvailable: Int = 0,
     val practiceSize: Int = 20,
     val sessionPractice: Boolean = false,
+    val selectedThemeId: String? = null,
+    val planningSession: Boolean = false,
 )
 
 @HiltViewModel
@@ -128,9 +130,14 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    fun startSession() {
+    fun startSession(onReady: () -> Unit = {}) {
         viewModelScope.launch {
-            val plan = repo.planSession()
+            _state.update { it.copy(planningSession = true) }
+            val themeId = _state.value.selectedThemeId
+            if (themeId != null) repo.unlockTheme(themeId)
+            val plan = repo.planSession(preferredThemeId = themeId)
+            val unlocked = _state.value.active?.let { repo.pathState(it).filter { e -> e.value.unlocked }.keys }
+                ?: _state.value.unlocked
             _state.update {
                 it.copy(
                     session = plan.items,
@@ -142,8 +149,11 @@ class MainViewModel @Inject constructor(
                     testing = plan.items.firstOrNull()?.showLearnFirst != true && plan.items.isNotEmpty(),
                     due = repo.dueCount(),
                     sessionPractice = false,
+                    planningSession = false,
+                    unlocked = unlocked,
                 )
             }
+            onReady()
         }
     }
 
@@ -184,6 +194,16 @@ class MainViewModel @Inject constructor(
             _state.update {
                 it.copy(masteredIds = mastered, practiceAvailable = available, practiceSize = size)
             }
+        }
+    }
+
+    fun selectTheme(themeId: String) {
+        _state.update { it.copy(selectedThemeId = themeId) }
+        viewModelScope.launch {
+            repo.unlockTheme(themeId)
+            val unlocked = _state.value.active?.let { repo.pathState(it).filter { e -> e.value.unlocked }.keys }
+                ?: emptySet()
+            _state.update { it.copy(unlocked = unlocked) }
         }
     }
 

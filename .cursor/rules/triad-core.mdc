@@ -24,4 +24,4 @@ Kotlin 2, Jetpack Compose, Material 3, Navigation Compose, Hilt, Room, DataStore
 - Нейро-TTS, OCR, live-перевод речи, ввод Telex
 - Зависимость [FSRS-Kotlin](https://github.com/open-spaced-repetition/FSRS-Kotlin)
 
-Сборка APK — одна команда из корня: `./gradlew assembleDebug`. Перед сборкой для телефона обновить `app.versionName` и `app.versionCode` в `gradle.properties`. Файл: `app/build/outputs/apk/debug/LearnLanguagesBitch-{versionName}.apk`. Кнопка в Cursor: задача **Build APK** в `.vscode/tasks.json` (Ctrl+Shift+B). Установка: `./gradlew installDebug`. Wrapper коммитим. Не заводить `package.json`. `applicationId` не менять. Без AAB и Play Console.
+Сборка APK — одна команда из корня: `./gradlew assembleDebug`. После фичи для телефона агент сам поднимает `app.versionName` / `app.versionCode`, собирает, тегирует и пушит (major — только по прямому указанию). Файл: `app/build/outputs/apk/debug/LearnLanguagesBitch-{versionName}.apk`. Кнопка в Cursor: задача **Build APK** в `.vscode/tasks.json` (Ctrl+Shift+B). Установка: `./gradlew installDebug`. Wrapper коммитим. Не заводить `package.json`. `applicationId` не менять. Без AAB и Play Console.

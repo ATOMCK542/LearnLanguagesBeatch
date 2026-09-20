@@ -56,7 +56,12 @@ data class Profile(
     val streakDays: Int,
     val lastStudyDay: String?,
     val reviewsDone: Int,
-)
+) {
+    fun studyTargets(): List<AppLanguage> {
+        val chosen = targetLangs.filter { it != nativeLang }
+        return chosen.ifEmpty { AppLanguage.all.filter { it != nativeLang } }
+    }
+}
 
 enum class FsrsCardState { New, Learning, Review, Relearning }
 

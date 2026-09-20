@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Learn Languages Bitch</string>
     <string name="nav_study">Учёба</string>
-    <string name="nav_path">Путь</string>
+    <string name="nav_path">Темы</string>
     <string name="nav_cards">Карточки</string>
     <string name="nav_more">Ещё</string>
     <string name="onboarding_title">Новый профиль</string>
@@ -42,7 +42,7 @@
     <string name="label_grammar">Грамматика</string>
     <string name="label_tones">Тона</string>
     <string name="label_speak">Озвучить</string>
-    <string name="empty_session">Пока нечего повторять. Откройте путь, чтобы взять новые карточки.</string>
+    <string name="empty_session">Пока нечего учить. Откройте Темы и выберите набор карточек.</string>
     <string name="correct">Верно</string>
     <string name="incorrect">Не совсем</string>
     <string name="accounts">Аккаунты</string>
@@ -82,6 +82,10 @@
     <string name="third_form">Ещё</string>
     <string name="unlocked">Открыто</string>
     <string name="locked">Закрыто</string>
+    <string name="theme_studying">Тема: %s</string>
+    <string name="theme_studying_short">Выбрана</string>
+    <string name="theme_open">Нажмите, чтобы учить эту тему</string>
+    <string name="theme_unlock">Нажмите, чтобы открыть тему</string>
     <string name="lang_en_endonym">English</string>
     <string name="lang_ru_endonym">Русский</string>
     <string name="lang_vi_endonym">Tiếng Việt</string>

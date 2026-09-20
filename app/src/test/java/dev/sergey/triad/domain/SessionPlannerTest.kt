@@ -60,4 +60,48 @@ class SessionPlannerTest {
         val cloze = plan.items[0].exercise as Exercise.Cloze
         assertEquals(setOf(AppLanguage.En, AppLanguage.Vi), cloze.banks.map { it.lang }.toSet())
     }
+
+    @Test
+    fun preferredThemeIsUsedBeforeOthers() {
+        val now = 3L
+        val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.En), 5, true, 0, null, 0)
+        val cafe = concept("cafe.1").copy(themeId = "cafe")
+        val home = concept("home.1").copy(id = "home.1", themeId = "home")
+        val plan = SessionPlanner(scheduler, factory).plan(
+            profile,
+            listOf(cafe, home),
+            emptyList(),
+            now,
+            preferredThemeId = "home",
+        )
+        assertEquals(listOf("home.1"), plan.items.map { it.review.conceptId })
+    }
+
+    @Test
+    fun prefersFallbackWhenPreferredThemeAlreadyScheduled() {
+        val now = 4L
+        val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.En), 5, true, 0, null, 0)
+        val cafe = concept("cafe.1").copy(themeId = "cafe")
+        val home = concept("home.1").copy(id = "home.1", themeId = "home")
+        val later = scheduler.newItem(1, "home.1", AppLanguage.En, now).let {
+            scheduler.review(it, Rating.Good, now)
+        }
+        val plan = SessionPlanner(scheduler, factory).plan(
+            profile,
+            listOf(cafe, home),
+            listOf(later),
+            now,
+            preferredThemeId = "home",
+        )
+        assertTrue(plan.items.any { it.review.conceptId == "cafe.1" })
+    }
+
+    @Test
+    fun nativeOnlyTargetsStillStudyOtherLanguages() {
+        val now = 6L
+        val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.Ru), 3, true, 0, null, 0)
+        val plan = SessionPlanner(scheduler, factory).plan(profile, listOf(concept("c1")), emptyList(), now)
+        assertTrue(plan.items.isNotEmpty())
+        assertTrue(plan.items.first().reviews.none { it.targetLang == AppLanguage.Ru })
+    }
 }

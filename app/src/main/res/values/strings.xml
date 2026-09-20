@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Learn Languages Bitch</string>
     <string name="nav_study">Study</string>
-    <string name="nav_path">Path</string>
+    <string name="nav_path">Themes</string>
     <string name="nav_cards">Cards</string>
     <string name="nav_more">More</string>
     <string name="onboarding_title">Create profile</string>
@@ -42,7 +42,7 @@
     <string name="label_grammar">Grammar</string>
     <string name="label_tones">Tones</string>
     <string name="label_speak">Speak</string>
-    <string name="empty_session">Nothing due. Walk the path to unlock more.</string>
+    <string name="empty_session">Nothing to study. Open Themes and pick a topic.</string>
     <string name="correct">Correct</string>
     <string name="incorrect">Not quite</string>
     <string name="accounts">Accounts</string>
@@ -82,6 +82,10 @@
     <string name="third_form">Also</string>
     <string name="unlocked">Unlocked</string>
     <string name="locked">Locked</string>
+    <string name="theme_studying">Studying: %s</string>
+    <string name="theme_studying_short">Selected</string>
+    <string name="theme_open">Tap to study this theme</string>
+    <string name="theme_unlock">Tap to open this theme</string>
     <string name="lang_en_endonym">English</string>
     <string name="lang_ru_endonym">Русский</string>
     <string name="lang_vi_endonym">Tiếng Việt</string>
