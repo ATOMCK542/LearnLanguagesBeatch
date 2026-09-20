@@ -63,6 +63,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import dev.sergey.triad.BuildConfig
 import dev.sergey.triad.R
 import dev.sergey.triad.domain.AnswerEvaluator
 import dev.sergey.triad.domain.AppLanguage
@@ -448,6 +449,11 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
         }
         Button(onClick = { open.launch(arrayOf("application/json", "*/*")) }) { Text(stringResource(R.string.import_backup)) }
         Button(onClick = { nav.navigate("translator") }) { Text(stringResource(R.string.translator_title)) }
+        Text(
+            stringResource(R.string.app_version, BuildConfig.VERSION_NAME),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
     confirmDelete?.let { p ->
         AlertDialog(

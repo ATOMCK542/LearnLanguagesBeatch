@@ -43,7 +43,7 @@ echo "sdk.dir=/path/to/android-sdk" > local.properties
 Готовый файл (версия из `versionName`):
 
 ```
-app/build/outputs/apk/debug/LearnLanguagesBitch-1.3.1.apk
+app/build/outputs/apk/debug/LearnLanguagesBitch-1.3.2.apk
 ```
 
 В Cursor: задача **Build APK** (Ctrl+Shift+B). Android Studio для релиза не нужна. AAB и Play Console не используются.
@@ -59,6 +59,8 @@ app/build/outputs/apk/debug/LearnLanguagesBitch-1.3.1.apk
 ```
 
 В Cursor: задача **Install APK**. Либо скопируй `LearnLanguagesBitch-*.apk` на устройство и установи как обычный APK.
+
+С 1.3.2 все APK подписываются одним ключом (`keystore/debug.jks`), поэтому новую версию можно ставить поверх. Сборки до 1.3.2 с GitHub подписаны разными ключами раннера — их Android не заменит: один раз удали приложение и поставь заново (сначала экспорт профиля в Ещё).
 
 ## Тесты
 

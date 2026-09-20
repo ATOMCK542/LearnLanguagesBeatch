@@ -27,6 +27,8 @@ alwaysApply: true
 
 Либо `scripts/release.sh` после пуша `main`. CI кладёт APK в GitHub Releases. Тег `v*` не удалять и не переписывать — старые релизы это архив. Последняя: `.../releases/latest`. APK в git-дерево не коммитить.
 
+Подпись APK — один ключ `keystore/debug.jks` и для локальной сборки, и для GitHub Actions. Иначе Android не ставит новую версию поверх (разный debug.keystore на каждом раннере). Не генерировать новый keystore и не менять alias/пароль.
+
 Не спрашивать подтверждения на bump / commit / assemble / push / tag, если пользователь уже дал задачу сделать фичу. Major — исключение (см. ниже).
 
 ## Масштаб bump

@@ -90,6 +90,7 @@
     <string name="lang_ru_endonym">Русский</string>
     <string name="lang_vi_endonym">Tiếng Việt</string>
     <string name="error_generic">Có lỗi xảy ra</string>
+    <string name="app_version">Phiên bản %1$s</string>
     <string-array name="tone_names">
         <item>ngang</item>
         <item>sắc</item>

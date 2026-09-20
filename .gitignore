@@ -10,6 +10,9 @@ captures/
 *.apk
 *.ap_
 *.aab
+*.jks
+*.keystore
+!keystore/debug.jks
 *.dex
 *.class
 .android-sdk/

@@ -22,11 +22,22 @@ android {
         resourceConfigurations += listOf("en", "ru", "vi")
     }
 
+    signingConfigs {
+        create("shared") {
+            storeFile = rootProject.file("keystore/debug.jks")
+            storePassword = "android"
+            keyAlias = "learnlanguagesbitch"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
         debug {
+            signingConfig = signingConfigs.getByName("shared")
             enableUnitTestCoverage = true
         }
         release {
+            signingConfig = signingConfigs.getByName("shared")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
