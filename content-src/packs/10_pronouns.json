@@ -1,0 +1,2915 @@
+{
+  "theme": {
+    "id": "pronouns",
+    "kind": "unit",
+    "order": 10,
+    "title": {
+      "en": "Pronouns",
+      "ru": "Местоимения",
+      "vi": "Đại từ"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "pron.i",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I",
+          "ipa": "/aɪ/",
+          "hints": {
+            "ru": "I",
+            "vi": "I"
+          }
+        },
+        "ru": {
+          "text": "я",
+          "ipa": "/ja/",
+          "hints": {
+            "en": "я",
+            "vi": "я"
+          }
+        },
+        "vi": {
+          "text": "tôi",
+          "ipa": "/toj/",
+          "tones": [
+            "ngang"
+          ],
+          "hints": {
+            "ru": "tôi",
+            "en": "tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.you",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "you",
+          "ipa": "/ju/",
+          "hints": {
+            "ru": "you",
+            "vi": "you"
+          }
+        },
+        "ru": {
+          "text": "ты / вы",
+          "ipa": "/tɨ/",
+          "hints": {
+            "en": "ты / вы",
+            "vi": "ты / вы"
+          }
+        },
+        "vi": {
+          "text": "bạn",
+          "ipa": "/ɓaːn/",
+          "tones": [
+            "nặng"
+          ],
+          "hints": {
+            "ru": "bạn",
+            "en": "bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.he",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "he",
+          "ipa": "/hiː/",
+          "hints": {
+            "ru": "he",
+            "vi": "he"
+          }
+        },
+        "ru": {
+          "text": "он",
+          "ipa": "/on/",
+          "hints": {
+            "en": "он",
+            "vi": "он"
+          }
+        },
+        "vi": {
+          "text": "anh ấy",
+          "ipa": "/aj ʔəj/",
+          "tones": [
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "anh ấy",
+            "en": "anh ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.she",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "she",
+          "ipa": "/ʃiː/",
+          "hints": {
+            "ru": "she",
+            "vi": "she"
+          }
+        },
+        "ru": {
+          "text": "она",
+          "ipa": "/ɐˈna/",
+          "hints": {
+            "en": "она",
+            "vi": "она"
+          }
+        },
+        "vi": {
+          "text": "cô ấy",
+          "ipa": "/ko ʔəj/",
+          "tones": [
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "cô ấy",
+            "en": "cô ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.it",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "it",
+          "ipa": "/ɪt/",
+          "hints": {
+            "ru": "it",
+            "vi": "it"
+          }
+        },
+        "ru": {
+          "text": "оно / это",
+          "ipa": "/ɐˈno/",
+          "hints": {
+            "en": "оно / это",
+            "vi": "оно / это"
+          }
+        },
+        "vi": {
+          "text": "nó",
+          "ipa": "/nɔ/",
+          "tones": [
+            "sắc"
+          ],
+          "hints": {
+            "ru": "nó",
+            "en": "nó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.we",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "we",
+          "ipa": "/wiː/",
+          "hints": {
+            "ru": "we",
+            "vi": "we"
+          }
+        },
+        "ru": {
+          "text": "мы",
+          "ipa": "/mɨ/",
+          "hints": {
+            "en": "мы",
+            "vi": "мы"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi",
+          "ipa": "/cuŋ toj/",
+          "tones": [
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "chúng tôi",
+            "en": "chúng tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.they",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "they",
+          "ipa": "/ðeɪ/",
+          "hints": {
+            "ru": "they",
+            "vi": "they"
+          }
+        },
+        "ru": {
+          "text": "они",
+          "ipa": "/ɐˈnʲi/",
+          "hints": {
+            "en": "они",
+            "vi": "они"
+          }
+        },
+        "vi": {
+          "text": "họ",
+          "ipa": "/hɔ/",
+          "tones": [
+            "nặng"
+          ],
+          "hints": {
+            "ru": "họ",
+            "en": "họ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.me",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "me",
+          "ipa": "/miː/",
+          "hints": {
+            "ru": "me",
+            "vi": "me"
+          }
+        },
+        "ru": {
+          "text": "мне / меня",
+          "ipa": "/mnʲe/",
+          "hints": {
+            "en": "мне / меня",
+            "vi": "мне / меня"
+          }
+        },
+        "vi": {
+          "text": "tôi (tân ngữ)",
+          "ipa": "/toj/",
+          "tones": [
+            "ngang"
+          ],
+          "hints": {
+            "ru": "tôi (tân ngữ)",
+            "en": "tôi (tân ngữ)"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.you_obj",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "you",
+          "ipa": "/ju/",
+          "hints": {
+            "ru": "you",
+            "vi": "you"
+          }
+        },
+        "ru": {
+          "text": "тебе / вас",
+          "ipa": "/tʲɪˈbʲe/",
+          "hints": {
+            "en": "тебе / вас",
+            "vi": "тебе / вас"
+          }
+        },
+        "vi": {
+          "text": "bạn",
+          "ipa": "/ɓaːn/",
+          "tones": [
+            "nặng"
+          ],
+          "hints": {
+            "ru": "bạn",
+            "en": "bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.him",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "him",
+          "ipa": "/hɪm/",
+          "hints": {
+            "ru": "him",
+            "vi": "him"
+          }
+        },
+        "ru": {
+          "text": "ему / его",
+          "ipa": "/jɪˈmu/",
+          "hints": {
+            "en": "ему / его",
+            "vi": "ему / его"
+          }
+        },
+        "vi": {
+          "text": "anh ấy",
+          "ipa": "/aj ʔəj/",
+          "tones": [
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "anh ấy",
+            "en": "anh ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.her_obj",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "her",
+          "ipa": "/hɜː/",
+          "hints": {
+            "ru": "her",
+            "vi": "her"
+          }
+        },
+        "ru": {
+          "text": "ей / её",
+          "ipa": "/jej/",
+          "hints": {
+            "en": "ей / её",
+            "vi": "ей / её"
+          }
+        },
+        "vi": {
+          "text": "cô ấy",
+          "ipa": "/ko ʔəj/",
+          "tones": [
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "cô ấy",
+            "en": "cô ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.us",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "us",
+          "ipa": "/ʌs/",
+          "hints": {
+            "ru": "us",
+            "vi": "us"
+          }
+        },
+        "ru": {
+          "text": "нам / нас",
+          "ipa": "/nam/",
+          "hints": {
+            "en": "нам / нас",
+            "vi": "нам / нас"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi",
+          "ipa": "/cuŋ toj/",
+          "tones": [
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "chúng tôi",
+            "en": "chúng tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.them",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "them",
+          "ipa": "/ðem/",
+          "hints": {
+            "ru": "them",
+            "vi": "them"
+          }
+        },
+        "ru": {
+          "text": "им / их",
+          "ipa": "/im/",
+          "hints": {
+            "en": "им / их",
+            "vi": "им / их"
+          }
+        },
+        "vi": {
+          "text": "họ",
+          "ipa": "/hɔ/",
+          "tones": [
+            "nặng"
+          ],
+          "hints": {
+            "ru": "họ",
+            "en": "họ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.my",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "my",
+          "ipa": "/maɪ/",
+          "hints": {
+            "ru": "my",
+            "vi": "my"
+          }
+        },
+        "ru": {
+          "text": "мой",
+          "ipa": "/moj/",
+          "hints": {
+            "en": "мой",
+            "vi": "мой"
+          }
+        },
+        "vi": {
+          "text": "của tôi",
+          "ipa": "/kuə toj/",
+          "tones": [
+            "hỏi",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "của tôi",
+            "en": "của tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.your",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "your",
+          "ipa": "/jɔː/",
+          "hints": {
+            "ru": "your",
+            "vi": "your"
+          }
+        },
+        "ru": {
+          "text": "твой / ваш",
+          "ipa": "/tvoj/",
+          "hints": {
+            "en": "твой / ваш",
+            "vi": "твой / ваш"
+          }
+        },
+        "vi": {
+          "text": "của bạn",
+          "ipa": "/kuə ɓaːn/",
+          "tones": [
+            "hỏi",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "của bạn",
+            "en": "của bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.his_adj",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "his",
+          "ipa": "/hɪz/",
+          "hints": {
+            "ru": "his",
+            "vi": "his"
+          }
+        },
+        "ru": {
+          "text": "его",
+          "ipa": "/jɪˈvo/",
+          "hints": {
+            "en": "его",
+            "vi": "его"
+          }
+        },
+        "vi": {
+          "text": "của anh ấy",
+          "ipa": "/kuə aj ʔəj/",
+          "tones": [
+            "hỏi",
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "của anh ấy",
+            "en": "của anh ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.her_adj",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "her",
+          "ipa": "/hɜː/",
+          "hints": {
+            "ru": "her",
+            "vi": "her"
+          }
+        },
+        "ru": {
+          "text": "её",
+          "ipa": "/jɪˈjo/",
+          "hints": {
+            "en": "её",
+            "vi": "её"
+          }
+        },
+        "vi": {
+          "text": "của cô ấy",
+          "ipa": "/kuə ko ʔəj/",
+          "tones": [
+            "hỏi",
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "của cô ấy",
+            "en": "của cô ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.its",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "its",
+          "ipa": "/ɪts/",
+          "hints": {
+            "ru": "its",
+            "vi": "its"
+          }
+        },
+        "ru": {
+          "text": "его (неодуш.)",
+          "ipa": "/jɪˈvo/",
+          "hints": {
+            "en": "его (неодуш.)",
+            "vi": "его (неодуш.)"
+          }
+        },
+        "vi": {
+          "text": "của nó",
+          "ipa": "/kuə nɔ/",
+          "tones": [
+            "hỏi",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "của nó",
+            "en": "của nó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.our",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "our",
+          "ipa": "/aʊə/",
+          "hints": {
+            "ru": "our",
+            "vi": "our"
+          }
+        },
+        "ru": {
+          "text": "наш",
+          "ipa": "/naʂ/",
+          "hints": {
+            "en": "наш",
+            "vi": "наш"
+          }
+        },
+        "vi": {
+          "text": "của chúng tôi",
+          "ipa": "/kuə cuŋ toj/",
+          "tones": [
+            "hỏi",
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "của chúng tôi",
+            "en": "của chúng tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.their",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "their",
+          "ipa": "/ðeə/",
+          "hints": {
+            "ru": "their",
+            "vi": "their"
+          }
+        },
+        "ru": {
+          "text": "их",
+          "ipa": "/ix/",
+          "hints": {
+            "en": "их",
+            "vi": "их"
+          }
+        },
+        "vi": {
+          "text": "của họ",
+          "ipa": "/kuə hɔ/",
+          "tones": [
+            "hỏi",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "của họ",
+            "en": "của họ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.mine",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "mine",
+          "ipa": "/maɪn/",
+          "hints": {
+            "ru": "mine",
+            "vi": "mine"
+          }
+        },
+        "ru": {
+          "text": "мой (без сущ.)",
+          "ipa": "/moj/",
+          "hints": {
+            "en": "мой (без сущ.)",
+            "vi": "мой (без сущ.)"
+          }
+        },
+        "vi": {
+          "text": "của tôi",
+          "ipa": "/kuə toj/",
+          "tones": [
+            "hỏi",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "của tôi",
+            "en": "của tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.yours",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "yours",
+          "ipa": "/jɔːz/",
+          "hints": {
+            "ru": "yours",
+            "vi": "yours"
+          }
+        },
+        "ru": {
+          "text": "твой (без сущ.)",
+          "ipa": "/tvoj/",
+          "hints": {
+            "en": "твой (без сущ.)",
+            "vi": "твой (без сущ.)"
+          }
+        },
+        "vi": {
+          "text": "của bạn",
+          "ipa": "/kuə ɓaːn/",
+          "tones": [
+            "hỏi",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "của bạn",
+            "en": "của bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.his_pron",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "his",
+          "ipa": "/hɪz/",
+          "hints": {
+            "ru": "his",
+            "vi": "his"
+          }
+        },
+        "ru": {
+          "text": "его (без сущ.)",
+          "ipa": "/jɪˈvo/",
+          "hints": {
+            "en": "его (без сущ.)",
+            "vi": "его (без сущ.)"
+          }
+        },
+        "vi": {
+          "text": "của anh ấy",
+          "ipa": "/kuə aj ʔəj/",
+          "tones": [
+            "hỏi",
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "của anh ấy",
+            "en": "của anh ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.hers",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "hers",
+          "ipa": "/hɜːz/",
+          "hints": {
+            "ru": "hers",
+            "vi": "hers"
+          }
+        },
+        "ru": {
+          "text": "её (без сущ.)",
+          "ipa": "/jɪˈjo/",
+          "hints": {
+            "en": "её (без сущ.)",
+            "vi": "её (без сущ.)"
+          }
+        },
+        "vi": {
+          "text": "của cô ấy",
+          "ipa": "/kuə ko ʔəj/",
+          "tones": [
+            "hỏi",
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "của cô ấy",
+            "en": "của cô ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.ours",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "ours",
+          "ipa": "/aʊəz/",
+          "hints": {
+            "ru": "ours",
+            "vi": "ours"
+          }
+        },
+        "ru": {
+          "text": "наш (без сущ.)",
+          "ipa": "/naʂ/",
+          "hints": {
+            "en": "наш (без сущ.)",
+            "vi": "наш (без сущ.)"
+          }
+        },
+        "vi": {
+          "text": "của chúng tôi",
+          "ipa": "/kuə cuŋ toj/",
+          "tones": [
+            "hỏi",
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "của chúng tôi",
+            "en": "của chúng tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.theirs",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "theirs",
+          "ipa": "/ðeəz/",
+          "hints": {
+            "ru": "theirs",
+            "vi": "theirs"
+          }
+        },
+        "ru": {
+          "text": "их (без сущ.)",
+          "ipa": "/ix/",
+          "hints": {
+            "en": "их (без сущ.)",
+            "vi": "их (без сущ.)"
+          }
+        },
+        "vi": {
+          "text": "của họ",
+          "ipa": "/kuə hɔ/",
+          "tones": [
+            "hỏi",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "của họ",
+            "en": "của họ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.myself",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "myself",
+          "ipa": "/maɪˈself/",
+          "hints": {
+            "ru": "myself",
+            "vi": "myself"
+          }
+        },
+        "ru": {
+          "text": "себя / сам",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя / сам",
+            "vi": "себя / сам"
+          }
+        },
+        "vi": {
+          "text": "bản thân tôi",
+          "ipa": "/ɓaːn tʰən toj/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "bản thân tôi",
+            "en": "bản thân tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.yourself",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "yourself",
+          "ipa": "/jɔːˈself/",
+          "hints": {
+            "ru": "yourself",
+            "vi": "yourself"
+          }
+        },
+        "ru": {
+          "text": "себя (ты)",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя (ты)",
+            "vi": "себя (ты)"
+          }
+        },
+        "vi": {
+          "text": "bản thân bạn",
+          "ipa": "/ɓaːn tʰən ɓaːn/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "bản thân bạn",
+            "en": "bản thân bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.himself",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "himself",
+          "ipa": "/hɪmˈself/",
+          "hints": {
+            "ru": "himself",
+            "vi": "himself"
+          }
+        },
+        "ru": {
+          "text": "себя (он)",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя (он)",
+            "vi": "себя (он)"
+          }
+        },
+        "vi": {
+          "text": "bản thân anh ấy",
+          "ipa": "/ɓaːn tʰən aj ʔəj/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "bản thân anh ấy",
+            "en": "bản thân anh ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.herself",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "herself",
+          "ipa": "/hɜːˈself/",
+          "hints": {
+            "ru": "herself",
+            "vi": "herself"
+          }
+        },
+        "ru": {
+          "text": "себя (она)",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя (она)",
+            "vi": "себя (она)"
+          }
+        },
+        "vi": {
+          "text": "bản thân cô ấy",
+          "ipa": "/ɓaːn tʰən ko ʔəj/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "ngang",
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "bản thân cô ấy",
+            "en": "bản thân cô ấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.itself",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "itself",
+          "ipa": "/ɪtˈself/",
+          "hints": {
+            "ru": "itself",
+            "vi": "itself"
+          }
+        },
+        "ru": {
+          "text": "само",
+          "ipa": "/ˈsamə/",
+          "hints": {
+            "en": "само",
+            "vi": "само"
+          }
+        },
+        "vi": {
+          "text": "bản thân nó",
+          "ipa": "/ɓaːn tʰən nɔ/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "bản thân nó",
+            "en": "bản thân nó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.ourselves",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "ourselves",
+          "ipa": "/aʊəˈselvz/",
+          "hints": {
+            "ru": "ourselves",
+            "vi": "ourselves"
+          }
+        },
+        "ru": {
+          "text": "себя (мы)",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя (мы)",
+            "vi": "себя (мы)"
+          }
+        },
+        "vi": {
+          "text": "bản thân chúng tôi",
+          "ipa": "/ɓaːn tʰən cuŋ toj/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "bản thân chúng tôi",
+            "en": "bản thân chúng tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.yourselves",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "yourselves",
+          "ipa": "/jɔːˈselvz/",
+          "hints": {
+            "ru": "yourselves",
+            "vi": "yourselves"
+          }
+        },
+        "ru": {
+          "text": "себя (вы)",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя (вы)",
+            "vi": "себя (вы)"
+          }
+        },
+        "vi": {
+          "text": "bản thân các bạn",
+          "ipa": "/ɓaːn tʰən kak ɓaːn/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "sắc",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "bản thân các bạn",
+            "en": "bản thân các bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.themselves",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "themselves",
+          "ipa": "/ðəmˈselvz/",
+          "hints": {
+            "ru": "themselves",
+            "vi": "themselves"
+          }
+        },
+        "ru": {
+          "text": "себя (они)",
+          "ipa": "/sʲɪˈbʲa/",
+          "hints": {
+            "en": "себя (они)",
+            "vi": "себя (они)"
+          }
+        },
+        "vi": {
+          "text": "bản thân họ",
+          "ipa": "/ɓaːn tʰən hɔ/",
+          "tones": [
+            "nặng",
+            "ngang",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "bản thân họ",
+            "en": "bản thân họ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.this",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "this",
+          "ipa": "/ðɪs/",
+          "hints": {
+            "ru": "this",
+            "vi": "this"
+          }
+        },
+        "ru": {
+          "text": "этот / это",
+          "ipa": "/ˈetət/",
+          "hints": {
+            "en": "этот / это",
+            "vi": "этот / это"
+          }
+        },
+        "vi": {
+          "text": "này",
+          "ipa": "/naj/",
+          "tones": [
+            "huyền"
+          ],
+          "hints": {
+            "ru": "này",
+            "en": "này"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.that",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "that",
+          "ipa": "/ðæt/",
+          "hints": {
+            "ru": "that",
+            "vi": "that"
+          }
+        },
+        "ru": {
+          "text": "тот / то",
+          "ipa": "/tot/",
+          "hints": {
+            "en": "тот / то",
+            "vi": "тот / то"
+          }
+        },
+        "vi": {
+          "text": "kia / đó",
+          "ipa": "/kiə/",
+          "tones": [
+            "ngang"
+          ],
+          "hints": {
+            "ru": "kia / đó",
+            "en": "kia / đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.these",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "these",
+          "ipa": "/ðiːz/",
+          "hints": {
+            "ru": "these",
+            "vi": "these"
+          }
+        },
+        "ru": {
+          "text": "эти",
+          "ipa": "/ˈetʲɪ/",
+          "hints": {
+            "en": "эти",
+            "vi": "эти"
+          }
+        },
+        "vi": {
+          "text": "những cái này",
+          "ipa": "/ɲɨŋ kaj naj/",
+          "tones": [
+            "sắc",
+            "sắc",
+            "huyền"
+          ],
+          "hints": {
+            "ru": "những cái này",
+            "en": "những cái này"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.those",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "those",
+          "ipa": "/ðəʊz/",
+          "hints": {
+            "ru": "those",
+            "vi": "those"
+          }
+        },
+        "ru": {
+          "text": "те",
+          "ipa": "/tʲe/",
+          "hints": {
+            "en": "те",
+            "vi": "те"
+          }
+        },
+        "vi": {
+          "text": "những cái kia",
+          "ipa": "/ɲɨŋ kaj kiə/",
+          "tones": [
+            "sắc",
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "những cái kia",
+            "en": "những cái kia"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.some",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "some",
+          "ipa": "/sʌm/",
+          "hints": {
+            "ru": "some",
+            "vi": "some"
+          }
+        },
+        "ru": {
+          "text": "несколько / некоторые",
+          "ipa": "/nʲɪsˈkolʲkə/",
+          "hints": {
+            "en": "несколько / некоторые",
+            "vi": "несколько / некоторые"
+          }
+        },
+        "vi": {
+          "text": "một vài",
+          "ipa": "/mot vaj/",
+          "tones": [
+            "nặng",
+            "huyền"
+          ],
+          "hints": {
+            "ru": "một vài",
+            "en": "một vài"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.any",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "any",
+          "ipa": "/ˈeni/",
+          "hints": {
+            "ru": "any",
+            "vi": "any"
+          }
+        },
+        "ru": {
+          "text": "какой-либо / любой",
+          "ipa": "/lʲʊˈboj/",
+          "hints": {
+            "en": "какой-либо / любой",
+            "vi": "какой-либо / любой"
+          }
+        },
+        "vi": {
+          "text": "bất kỳ",
+          "ipa": "/ɓət ki/",
+          "tones": [
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "bất kỳ",
+            "en": "bất kỳ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.no_det",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "no",
+          "ipa": "/nəʊ/",
+          "hints": {
+            "ru": "no",
+            "vi": "no"
+          }
+        },
+        "ru": {
+          "text": "никакой / нет",
+          "ipa": "/nʲɪkɐˈkoj/",
+          "hints": {
+            "en": "никакой / нет",
+            "vi": "никакой / нет"
+          }
+        },
+        "vi": {
+          "text": "không",
+          "ipa": "/xom/",
+          "tones": [
+            "ngang"
+          ],
+          "hints": {
+            "ru": "không",
+            "en": "không"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.every",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "every",
+          "ipa": "/ˈevri/",
+          "hints": {
+            "ru": "every",
+            "vi": "every"
+          }
+        },
+        "ru": {
+          "text": "каждый",
+          "ipa": "/ˈkaʐdɨj/",
+          "hints": {
+            "en": "каждый",
+            "vi": "каждый"
+          }
+        },
+        "vi": {
+          "text": "mỗi",
+          "ipa": "/moj/",
+          "tones": [
+            "hỏi"
+          ],
+          "hints": {
+            "ru": "mỗi",
+            "en": "mỗi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.someone",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "someone",
+          "ipa": "/ˈsʌmwʌn/",
+          "hints": {
+            "ru": "someone",
+            "vi": "someone"
+          }
+        },
+        "ru": {
+          "text": "кто-то",
+          "ipa": "/ˈkto-tə/",
+          "hints": {
+            "en": "кто-то",
+            "vi": "кто-то"
+          }
+        },
+        "vi": {
+          "text": "ai đó",
+          "ipa": "/aj ɗɔ/",
+          "tones": [
+            "ngang",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "ai đó",
+            "en": "ai đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.anyone",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "anyone",
+          "ipa": "/ˈeniwʌn/",
+          "hints": {
+            "ru": "anyone",
+            "vi": "anyone"
+          }
+        },
+        "ru": {
+          "text": "кто-нибудь",
+          "ipa": "/kto-nʲɪˈbutʲ/",
+          "hints": {
+            "en": "кто-нибудь",
+            "vi": "кто-нибудь"
+          }
+        },
+        "vi": {
+          "text": "bất kỳ ai",
+          "ipa": "/ɓət ki aj/",
+          "tones": [
+            "sắc",
+            "ngang",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "bất kỳ ai",
+            "en": "bất kỳ ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.everyone",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "everyone",
+          "ipa": "/ˈevriwʌn/",
+          "hints": {
+            "ru": "everyone",
+            "vi": "everyone"
+          }
+        },
+        "ru": {
+          "text": "все",
+          "ipa": "/fsʲe/",
+          "hints": {
+            "en": "все",
+            "vi": "все"
+          }
+        },
+        "vi": {
+          "text": "mọi người",
+          "ipa": "/mɔj ŋɨəj/",
+          "tones": [
+            "nặng",
+            "hời"
+          ],
+          "hints": {
+            "ru": "mọi người",
+            "en": "mọi người"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.no_one",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "no one",
+          "ipa": "/nəʊ wʌn/",
+          "hints": {
+            "ru": "no one",
+            "vi": "no one"
+          }
+        },
+        "ru": {
+          "text": "никто",
+          "ipa": "/nʲɪkˈto/",
+          "hints": {
+            "en": "никто",
+            "vi": "никто"
+          }
+        },
+        "vi": {
+          "text": "không ai",
+          "ipa": "/xom aj/",
+          "tones": [
+            "ngang",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "không ai",
+            "en": "không ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.somebody",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "somebody",
+          "ipa": "/ˈsʌmbədi/",
+          "hints": {
+            "ru": "somebody",
+            "vi": "somebody"
+          }
+        },
+        "ru": {
+          "text": "кто-то",
+          "ipa": "/ˈkto-tə/",
+          "hints": {
+            "en": "кто-то",
+            "vi": "кто-то"
+          }
+        },
+        "vi": {
+          "text": "ai đó",
+          "ipa": "/aj ɗɔ/",
+          "tones": [
+            "ngang",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "ai đó",
+            "en": "ai đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.anybody",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "anybody",
+          "ipa": "/ˈenibədi/",
+          "hints": {
+            "ru": "anybody",
+            "vi": "anybody"
+          }
+        },
+        "ru": {
+          "text": "кто-нибудь",
+          "ipa": "/kto-nʲɪˈbutʲ/",
+          "hints": {
+            "en": "кто-нибудь",
+            "vi": "кто-нибудь"
+          }
+        },
+        "vi": {
+          "text": "bất kỳ ai",
+          "ipa": "/ɓət ki aj/",
+          "tones": [
+            "sắc",
+            "ngang",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "bất kỳ ai",
+            "en": "bất kỳ ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.everybody",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "everybody",
+          "ipa": "/ˈevribədi/",
+          "hints": {
+            "ru": "everybody",
+            "vi": "everybody"
+          }
+        },
+        "ru": {
+          "text": "все",
+          "ipa": "/fsʲe/",
+          "hints": {
+            "en": "все",
+            "vi": "все"
+          }
+        },
+        "vi": {
+          "text": "mọi người",
+          "ipa": "/mɔj ŋɨəj/",
+          "tones": [
+            "nặng",
+            "hời"
+          ],
+          "hints": {
+            "ru": "mọi người",
+            "en": "mọi người"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.nobody",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nobody",
+          "ipa": "/ˈnəʊbədi/",
+          "hints": {
+            "ru": "nobody",
+            "vi": "nobody"
+          }
+        },
+        "ru": {
+          "text": "никто",
+          "ipa": "/nʲɪkˈto/",
+          "hints": {
+            "en": "никто",
+            "vi": "никто"
+          }
+        },
+        "vi": {
+          "text": "không ai",
+          "ipa": "/xom aj/",
+          "tones": [
+            "ngang",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "không ai",
+            "en": "không ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.something",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "something",
+          "ipa": "/ˈsʌmθɪŋ/",
+          "hints": {
+            "ru": "something",
+            "vi": "something"
+          }
+        },
+        "ru": {
+          "text": "что-то",
+          "ipa": "/ˈʂto-tə/",
+          "hints": {
+            "en": "что-то",
+            "vi": "что-то"
+          }
+        },
+        "vi": {
+          "text": "cái gì đó",
+          "ipa": "/kaj zi ɗɔ/",
+          "tones": [
+            "sắc",
+            "hời",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "cái gì đó",
+            "en": "cái gì đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.anything",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "anything",
+          "ipa": "/ˈeniθɪŋ/",
+          "hints": {
+            "ru": "anything",
+            "vi": "anything"
+          }
+        },
+        "ru": {
+          "text": "что-нибудь",
+          "ipa": "/ʂto-nʲɪˈbutʲ/",
+          "hints": {
+            "en": "что-нибудь",
+            "vi": "что-нибудь"
+          }
+        },
+        "vi": {
+          "text": "bất cứ gì",
+          "ipa": "/ɓət kɨ zi/",
+          "tones": [
+            "sắc",
+            "sắc",
+            "hời"
+          ],
+          "hints": {
+            "ru": "bất cứ gì",
+            "en": "bất cứ gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.everything",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "everything",
+          "ipa": "/ˈevriθɪŋ/",
+          "hints": {
+            "ru": "everything",
+            "vi": "everything"
+          }
+        },
+        "ru": {
+          "text": "всё",
+          "ipa": "/fsʲo/",
+          "hints": {
+            "en": "всё",
+            "vi": "всё"
+          }
+        },
+        "vi": {
+          "text": "mọi thứ",
+          "ipa": "/mɔj tʰɨ/",
+          "tones": [
+            "nặng",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "mọi thứ",
+            "en": "mọi thứ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.nothing",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nothing",
+          "ipa": "/ˈnʌθɪŋ/",
+          "hints": {
+            "ru": "nothing",
+            "vi": "nothing"
+          }
+        },
+        "ru": {
+          "text": "ничего",
+          "ipa": "/nʲɪtɕɪˈvo/",
+          "hints": {
+            "en": "ничего",
+            "vi": "ничего"
+          }
+        },
+        "vi": {
+          "text": "không gì",
+          "ipa": "/xom zi/",
+          "tones": [
+            "ngang",
+            "hời"
+          ],
+          "hints": {
+            "ru": "không gì",
+            "en": "không gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.somewhere",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "somewhere",
+          "ipa": "/ˈsʌmweə/",
+          "hints": {
+            "ru": "somewhere",
+            "vi": "somewhere"
+          }
+        },
+        "ru": {
+          "text": "где-то",
+          "ipa": "/ˈɡdʲe-tə/",
+          "hints": {
+            "en": "где-то",
+            "vi": "где-то"
+          }
+        },
+        "vi": {
+          "text": "đâu đó",
+          "ipa": "/ɗəw ɗɔ/",
+          "tones": [
+            "ngang",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "đâu đó",
+            "en": "đâu đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.anywhere",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "anywhere",
+          "ipa": "/ˈeniweə/",
+          "hints": {
+            "ru": "anywhere",
+            "vi": "anywhere"
+          }
+        },
+        "ru": {
+          "text": "где-нибудь",
+          "ipa": "/ɡdʲe-nʲɪˈbutʲ/",
+          "hints": {
+            "en": "где-нибудь",
+            "vi": "где-нибудь"
+          }
+        },
+        "vi": {
+          "text": "bất cứ đâu",
+          "ipa": "/ɓət kɨ ɗəw/",
+          "tones": [
+            "sắc",
+            "sắc",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "bất cứ đâu",
+            "en": "bất cứ đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.everywhere",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "everywhere",
+          "ipa": "/ˈevriweə/",
+          "hints": {
+            "ru": "everywhere",
+            "vi": "everywhere"
+          }
+        },
+        "ru": {
+          "text": "везде",
+          "ipa": "/vʲɪzˈdʲe/",
+          "hints": {
+            "en": "везде",
+            "vi": "везде"
+          }
+        },
+        "vi": {
+          "text": "mọi nơi",
+          "ipa": "/mɔj nəj/",
+          "tones": [
+            "nặng",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "mọi nơi",
+            "en": "mọi nơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.nowhere",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nowhere",
+          "ipa": "/ˈnəʊweə/",
+          "hints": {
+            "ru": "nowhere",
+            "vi": "nowhere"
+          }
+        },
+        "ru": {
+          "text": "нигде",
+          "ipa": "/nʲɪɡˈdʲe/",
+          "hints": {
+            "en": "нигде",
+            "vi": "нигде"
+          }
+        },
+        "vi": {
+          "text": "không đâu",
+          "ipa": "/xom ɗəw/",
+          "tones": [
+            "ngang",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "không đâu",
+            "en": "không đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.each_other",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "each other",
+          "ipa": "/iːtʃ ˈʌðə/",
+          "hints": {
+            "ru": "each other",
+            "vi": "each other"
+          }
+        },
+        "ru": {
+          "text": "друг друга",
+          "ipa": "/druk ˈdruɡə/",
+          "hints": {
+            "en": "друг друга",
+            "vi": "друг друга"
+          }
+        },
+        "vi": {
+          "text": "nhau",
+          "ipa": "/ɲaw/",
+          "tones": [
+            "ngang"
+          ],
+          "hints": {
+            "ru": "nhau",
+            "en": "nhau"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.rel_who",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "who",
+          "ipa": "/huː/",
+          "hints": {
+            "ru": "who",
+            "vi": "who"
+          }
+        },
+        "ru": {
+          "text": "который (люди)",
+          "ipa": "/kɐˈtorɨj/",
+          "hints": {
+            "en": "который (люди)",
+            "vi": "который (люди)"
+          }
+        },
+        "vi": {
+          "text": "người mà",
+          "ipa": "/ŋɨəj ma/",
+          "tones": [
+            "hời",
+            "mà"
+          ],
+          "hints": {
+            "ru": "người mà",
+            "en": "người mà"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.rel_which",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "which",
+          "ipa": "/wɪtʃ/",
+          "hints": {
+            "ru": "which",
+            "vi": "which"
+          }
+        },
+        "ru": {
+          "text": "который (вещи)",
+          "ipa": "/kɐˈtorɨj/",
+          "hints": {
+            "en": "который (вещи)",
+            "vi": "который (вещи)"
+          }
+        },
+        "vi": {
+          "text": "mà / cái nào",
+          "ipa": "/ma/",
+          "tones": [
+            "mà"
+          ],
+          "hints": {
+            "ru": "mà / cái nào",
+            "en": "mà / cái nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.rel_that",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "that",
+          "ipa": "/ðæt/",
+          "hints": {
+            "ru": "that",
+            "vi": "that"
+          }
+        },
+        "ru": {
+          "text": "который / что",
+          "ipa": "/ʂto/",
+          "hints": {
+            "en": "который / что",
+            "vi": "который / что"
+          }
+        },
+        "vi": {
+          "text": "mà",
+          "ipa": "/ma/",
+          "tones": [
+            "mà"
+          ],
+          "hints": {
+            "ru": "mà",
+            "en": "mà"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.rel_whose",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whose",
+          "ipa": "/huːz/",
+          "hints": {
+            "ru": "whose",
+            "vi": "whose"
+          }
+        },
+        "ru": {
+          "text": "чей / которого",
+          "ipa": "/tɕej/",
+          "hints": {
+            "en": "чей / которого",
+            "vi": "чей / которого"
+          }
+        },
+        "vi": {
+          "text": "của ai / mà của",
+          "ipa": "/kuə aj/",
+          "tones": [
+            "hỏi",
+            "ngang"
+          ],
+          "hints": {
+            "ru": "của ai / mà của",
+            "en": "của ai / mà của"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.someone_body",
+      "kind": "word",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Pronoun form.",
+        "ru": "Форма местоимения.",
+        "vi": "Đại từ."
+      },
+      "texts": {
+        "en": {
+          "text": "somebody",
+          "ipa": "/ˈsʌmbədi/",
+          "hints": {
+            "ru": "somebody",
+            "vi": "somebody"
+          }
+        },
+        "ru": {
+          "text": "кто-то",
+          "ipa": "/ˈkto-tə/",
+          "hints": {
+            "en": "кто-то",
+            "vi": "кто-то"
+          }
+        },
+        "vi": {
+          "text": "ai đó",
+          "ipa": "/aj ɗɔ/",
+          "tones": [
+            "ngang",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "ai đó",
+            "en": "ai đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.dummy_it",
+      "kind": "sentence",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "Dummy it.",
+        "ru": "Формальное it.",
+        "vi": "It giả."
+      },
+      "texts": {
+        "en": {
+          "text": "It is cold",
+          "ipa": "/ɪt ɪz kəʊld/",
+          "hints": {
+            "ru": "ит из коулд",
+            "vi": "it iz kold"
+          }
+        },
+        "ru": {
+          "text": "Холодно",
+          "ipa": "/xolodno/",
+          "hints": {
+            "en": "kholodno",
+            "vi": "kholodno"
+          }
+        },
+        "vi": {
+          "text": "Trời lạnh",
+          "ipa": "/tɕəːj˧˩ lajŋ˧ˀ/",
+          "tones": [
+            "ngang",
+            "nặng"
+          ],
+          "hints": {
+            "ru": "тьой лань",
+            "en": "troi lanh"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.there_is",
+      "kind": "sentence",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "There is + noun.",
+        "ru": "Конструкция there is.",
+        "vi": "There is."
+      },
+      "texts": {
+        "en": {
+          "text": "There is a book",
+          "ipa": "/ðeə ɪz ə bʊk/",
+          "hints": {
+            "ru": "зе из э бук",
+            "vi": "the iz e buk"
+          }
+        },
+        "ru": {
+          "text": "Есть книга",
+          "ipa": "/jestʲ knʲiɡa/",
+          "hints": {
+            "en": "yest kniga",
+            "vi": "yest kniga"
+          }
+        },
+        "vi": {
+          "text": "Có một cuốn sách",
+          "ipa": "/kɔ˧˥ mot˧ˀ kuən˧˥ sajk˧˥/",
+          "tones": [
+            "sắc",
+            "nột",
+            "sắc",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "ко мот куон шак",
+            "en": "co mot cuon sach"
+          }
+        }
+      }
+    },
+    {
+      "id": "pron.there_are",
+      "kind": "sentence",
+      "theme": "pronouns",
+      "tags": [
+        "pronoun"
+      ],
+      "grammar": {
+        "en": "There are + plural.",
+        "ru": "There are.",
+        "vi": "There are."
+      },
+      "texts": {
+        "en": {
+          "text": "There are two books",
+          "ipa": "/ðeə ɑː tuː bʊkz/",
+          "hints": {
+            "ru": "зе а ту букс",
+            "vi": "the a tu buks"
+          }
+        },
+        "ru": {
+          "text": "Есть две книги",
+          "ipa": "/jestʲ dvʲe knʲiɡʲi/",
+          "hints": {
+            "en": "yest dve knigi",
+            "vi": "yest dve knigi"
+          }
+        },
+        "vi": {
+          "text": "Có hai cuốn sách",
+          "ipa": "/kɔ˧˥ haːj˧ kuən˧˥ sajk˧˥/",
+          "tones": [
+            "sắc",
+            "ngang",
+            "sắc",
+            "sắc"
+          ],
+          "hints": {
+            "ru": "ко хай куон шак",
+            "en": "co hai cuon sach"
+          }
+        }
+      }
+    }
+  ]
+}

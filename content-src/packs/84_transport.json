@@ -1,0 +1,499 @@
+{
+  "theme": {
+    "id": "transport",
+    "kind": "unit",
+    "order": 84,
+    "title": {
+      "en": "Transport",
+      "ru": "Транспорт",
+      "vi": "Đi lại"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "tr.bus",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bus",
+          "ipa": "/bʌs/",
+          "hints": {
+            "ru": "bus",
+            "vi": "bus"
+          }
+        },
+        "ru": {
+          "text": "автобус",
+          "ipa": "/avtobus/",
+          "hints": {
+            "en": "автобус",
+            "vi": "автобус"
+          }
+        },
+        "vi": {
+          "text": "xe buýt",
+          "ipa": "/sɛ˧ ɓuit˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xe buýt",
+            "en": "xe buýt"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.train",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "train",
+          "ipa": "/treɪn/",
+          "hints": {
+            "ru": "train",
+            "vi": "train"
+          }
+        },
+        "ru": {
+          "text": "поезд",
+          "ipa": "/pojezd/",
+          "hints": {
+            "en": "поезд",
+            "vi": "поезд"
+          }
+        },
+        "vi": {
+          "text": "tàu",
+          "ipa": "/taːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tàu",
+            "en": "tàu"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.taxi",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "taxi",
+          "ipa": "/ˈtæksi/",
+          "hints": {
+            "ru": "taxi",
+            "vi": "taxi"
+          }
+        },
+        "ru": {
+          "text": "такси",
+          "ipa": "/taksʲi/",
+          "hints": {
+            "en": "такси",
+            "vi": "такси"
+          }
+        },
+        "vi": {
+          "text": "taxi",
+          "ipa": "/taːxi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "taxi",
+            "en": "taxi"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.airport",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "airport",
+          "ipa": "/ˈeəpɔːt/",
+          "hints": {
+            "ru": "airport",
+            "vi": "airport"
+          }
+        },
+        "ru": {
+          "text": "аэропорт",
+          "ipa": "/aeroport/",
+          "hints": {
+            "en": "аэропорт",
+            "vi": "аэропорт"
+          }
+        },
+        "vi": {
+          "text": "sân bay",
+          "ipa": "/sən˧ ɓaj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sân bay",
+            "en": "sân bay"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.ticket",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ticket",
+          "ipa": "/ˈtɪkɪt/",
+          "hints": {
+            "ru": "ticket",
+            "vi": "ticket"
+          }
+        },
+        "ru": {
+          "text": "билет",
+          "ipa": "/bʲilʲet/",
+          "hints": {
+            "en": "билет",
+            "vi": "билет"
+          }
+        },
+        "vi": {
+          "text": "vé",
+          "ipa": "/vɛ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "vé",
+            "en": "vé"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.where_is_bus",
+      "kind": "sentence",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Where is the bus stop?",
+          "ipa": "/weə ɪz ðə bʌs stɒp/",
+          "hints": {
+            "ru": "Where is the bus stop?",
+            "vi": "Where is the bus stop?"
+          }
+        },
+        "ru": {
+          "text": "Где остановка?",
+          "ipa": "/ɡdʲe ostanovka/",
+          "hints": {
+            "en": "Где остановка?",
+            "vi": "Где остановка?"
+          }
+        },
+        "vi": {
+          "text": "Trạm xe buýt ở đâu?",
+          "ipa": "/tɕaːm˧ˀ sɛ˧ ɓuit˧˥ əː˧˩˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Trạm xe buýt ở đâu?",
+            "en": "Trạm xe buýt ở đâu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.i_need_a_ticket",
+      "kind": "sentence",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I need a ticket",
+          "ipa": "/aɪ niːd ə ˈtɪkɪt/",
+          "hints": {
+            "ru": "I need a ticket",
+            "vi": "I need a ticket"
+          }
+        },
+        "ru": {
+          "text": "Мне нужен билет",
+          "ipa": "/mnʲe nuʐen bʲilʲet/",
+          "hints": {
+            "en": "Мне нужен билет",
+            "vi": "Мне нужен билет"
+          }
+        },
+        "vi": {
+          "text": "Tôi cần một vé",
+          "ipa": "/toj˧ kən˧˩ mot˧ˀ vɛ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi cần một vé",
+            "en": "Tôi cần một vé"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.how_do_i_get",
+      "kind": "sentence",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "How do I get to the hotel?",
+          "ipa": "/haʊ duː aɪ ɡet tə ðə həʊˈtel/",
+          "hints": {
+            "ru": "How do I get to the hotel?",
+            "vi": "How do I get to the hotel?"
+          }
+        },
+        "ru": {
+          "text": "Как доехать до отеля?",
+          "ipa": "/kak dojexatʲ do otʲelʲa/",
+          "hints": {
+            "en": "Как доехать до отеля?",
+            "vi": "Как доехать до отеля?"
+          }
+        },
+        "vi": {
+          "text": "Đến khách sạn đi thế nào?",
+          "ipa": "/ɗen˧˥ xajk˧˥ saːn˧ˀ ɗi˧ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Đến khách sạn đi thế nào?",
+            "en": "Đến khách sạn đi thế nào?"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.left",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "left",
+          "ipa": "/left/",
+          "hints": {
+            "ru": "left",
+            "vi": "left"
+          }
+        },
+        "ru": {
+          "text": "налево",
+          "ipa": "/nalʲevo/",
+          "hints": {
+            "en": "налево",
+            "vi": "налево"
+          }
+        },
+        "vi": {
+          "text": "trái",
+          "ipa": "/tɕaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trái",
+            "en": "trái"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.right",
+      "kind": "word",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "right",
+          "ipa": "/raɪt/",
+          "hints": {
+            "ru": "right",
+            "vi": "right"
+          }
+        },
+        "ru": {
+          "text": "направо",
+          "ipa": "/napravo/",
+          "hints": {
+            "en": "направо",
+            "vi": "направо"
+          }
+        },
+        "vi": {
+          "text": "phải",
+          "ipa": "/faːj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phải",
+            "en": "phải"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.straight",
+      "kind": "phrase",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "go straight",
+          "ipa": "/ɡəʊ streɪt/",
+          "hints": {
+            "ru": "go straight",
+            "vi": "go straight"
+          }
+        },
+        "ru": {
+          "text": "прямо",
+          "ipa": "/prʲamo/",
+          "hints": {
+            "en": "прямо",
+            "vi": "прямо"
+          }
+        },
+        "vi": {
+          "text": "đi thẳng",
+          "ipa": "/ɗi˧ tʰaŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đi thẳng",
+            "en": "đi thẳng"
+          }
+        }
+      }
+    },
+    {
+      "id": "tr.stop_here",
+      "kind": "sentence",
+      "theme": "transport",
+      "tags": [
+        "theme:transport"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Stop here, please",
+          "ipa": "/stɒp hɪə pliːz/",
+          "hints": {
+            "ru": "Stop here, please",
+            "vi": "Stop here, please"
+          }
+        },
+        "ru": {
+          "text": "Остановите здесь, пожалуйста",
+          "ipa": "/ostanovʲitʲe zdʲesʲ pəˈʐaləstə/",
+          "hints": {
+            "en": "Остановите здесь, пожалуйста",
+            "vi": "Остановите здесь, пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "Dừng đây giúp tôi",
+          "ipa": "/zɨŋ˧˩ ɗəj˧ zup˧˥ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Dừng đây giúp tôi",
+            "en": "Dừng đây giúp tôi"
+          }
+        }
+      }
+    }
+  ]
+}

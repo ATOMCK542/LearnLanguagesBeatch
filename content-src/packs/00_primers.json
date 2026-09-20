@@ -1,0 +1,50 @@
+{
+  "themes": [
+    {
+      "id": "primer_vi",
+      "kind": "primer",
+      "order": 0,
+      "title": {
+        "en": "Vietnamese tones",
+        "ru": "Вьетнамские тона",
+        "vi": "Thanh điệu tiếng Việt"
+      },
+      "description": {
+        "en": "Six tones.",
+        "ru": "Шесть тонов.",
+        "vi": "Sáu thanh."
+      }
+    },
+    {
+      "id": "primer_ru",
+      "kind": "primer",
+      "order": 1,
+      "title": {
+        "en": "Russian script",
+        "ru": "Русская азбука",
+        "vi": "Chữ Nga"
+      },
+      "description": {
+        "en": "",
+        "ru": "",
+        "vi": ""
+      }
+    },
+    {
+      "id": "primer_en",
+      "kind": "primer",
+      "order": 2,
+      "title": {
+        "en": "English questions",
+        "ru": "Английские вопросы",
+        "vi": "Câu hỏi tiếng Anh"
+      },
+      "description": {
+        "en": "",
+        "ru": "",
+        "vi": ""
+      }
+    }
+  ],
+  "concepts": []
+}

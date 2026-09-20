@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="due_count">
+        <item quantity="one">%d карточка</item>
+        <item quantity="few">%d карточки</item>
+        <item quantity="many">%d карточек</item>
+        <item quantity="other">%d карточки</item>
+    </plurals>
+    <plurals name="streak_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="reviews_done">
+        <item quantity="one">%d повтор</item>
+        <item quantity="few">%d повтора</item>
+        <item quantity="many">%d повторов</item>
+        <item quantity="other">%d повтора</item>
+    </plurals>
+</resources>

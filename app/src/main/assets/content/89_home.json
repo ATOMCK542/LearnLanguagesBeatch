@@ -1,0 +1,2779 @@
+{
+  "theme": {
+    "id": "home",
+    "kind": "unit",
+    "order": 89,
+    "title": {
+      "en": "Home",
+      "ru": "Дом",
+      "vi": "Nhà"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "home.house",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "house",
+          "ipa": "/house/",
+          "hints": {
+            "ru": "house",
+            "vi": "house"
+          }
+        },
+        "ru": {
+          "text": "дом",
+          "ipa": "/dom/",
+          "hints": {
+            "en": "дом",
+            "vi": "дом"
+          }
+        },
+        "vi": {
+          "text": "nhà",
+          "ipa": "/ɲa˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà",
+            "en": "nhà"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.apartment",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "apartment",
+          "ipa": "/apartment/",
+          "hints": {
+            "ru": "apartment",
+            "vi": "apartment"
+          }
+        },
+        "ru": {
+          "text": "квартира",
+          "ipa": "/kvartʲira/",
+          "hints": {
+            "en": "квартира",
+            "vi": "квартира"
+          }
+        },
+        "vi": {
+          "text": "căn hộ",
+          "ipa": "/kan˧ ho˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "căn hộ",
+            "en": "căn hộ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.room",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "room",
+          "ipa": "/room/",
+          "hints": {
+            "ru": "room",
+            "vi": "room"
+          }
+        },
+        "ru": {
+          "text": "комната",
+          "ipa": "/komnata/",
+          "hints": {
+            "en": "комната",
+            "vi": "комната"
+          }
+        },
+        "vi": {
+          "text": "phòng",
+          "ipa": "/fɔŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "phòng",
+            "en": "phòng"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.bedroom",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bedroom",
+          "ipa": "/bedroom/",
+          "hints": {
+            "ru": "bedroom",
+            "vi": "bedroom"
+          }
+        },
+        "ru": {
+          "text": "спальня",
+          "ipa": "/spalʲnʲa/",
+          "hints": {
+            "en": "спальня",
+            "vi": "спальня"
+          }
+        },
+        "vi": {
+          "text": "phòng ngủ",
+          "ipa": "/fɔŋ˧˩ ŋu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phòng ngủ",
+            "en": "phòng ngủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.bathroom",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bathroom",
+          "ipa": "/bathroom/",
+          "hints": {
+            "ru": "bathroom",
+            "vi": "bathroom"
+          }
+        },
+        "ru": {
+          "text": "ванная",
+          "ipa": "/vannaja/",
+          "hints": {
+            "en": "ванная",
+            "vi": "ванная"
+          }
+        },
+        "vi": {
+          "text": "phòng tắm",
+          "ipa": "/fɔŋ˧˩ tam˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "phòng tắm",
+            "en": "phòng tắm"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.kitchen",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "kitchen",
+          "ipa": "/kitchen/",
+          "hints": {
+            "ru": "kitchen",
+            "vi": "kitchen"
+          }
+        },
+        "ru": {
+          "text": "кухня",
+          "ipa": "/kuxnʲa/",
+          "hints": {
+            "en": "кухня",
+            "vi": "кухня"
+          }
+        },
+        "vi": {
+          "text": "nhà bếp",
+          "ipa": "/ɲa˨˩ ɓep˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà bếp",
+            "en": "nhà bếp"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.living_room",
+      "kind": "phrase",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "living room",
+          "ipa": "/ˈlɪvɪŋ ruːm/",
+          "hints": {
+            "ru": "living room",
+            "vi": "living room"
+          }
+        },
+        "ru": {
+          "text": "гостиная",
+          "ipa": "/ɡostʲinaja/",
+          "hints": {
+            "en": "гостиная",
+            "vi": "гостиная"
+          }
+        },
+        "vi": {
+          "text": "phòng khách",
+          "ipa": "/fɔŋ˧˩ xajk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "phòng khách",
+            "en": "phòng khách"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.door",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "door",
+          "ipa": "/door/",
+          "hints": {
+            "ru": "door",
+            "vi": "door"
+          }
+        },
+        "ru": {
+          "text": "дверь",
+          "ipa": "/dvʲerʲ/",
+          "hints": {
+            "en": "дверь",
+            "vi": "дверь"
+          }
+        },
+        "vi": {
+          "text": "cửa",
+          "ipa": "/kɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cửa",
+            "en": "cửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.window",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "window",
+          "ipa": "/window/",
+          "hints": {
+            "ru": "window",
+            "vi": "window"
+          }
+        },
+        "ru": {
+          "text": "окно",
+          "ipa": "/okno/",
+          "hints": {
+            "en": "окно",
+            "vi": "окно"
+          }
+        },
+        "vi": {
+          "text": "cửa sổ",
+          "ipa": "/kɨə˧˩˧ so˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cửa sổ",
+            "en": "cửa sổ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.wall",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wall",
+          "ipa": "/wall/",
+          "hints": {
+            "ru": "wall",
+            "vi": "wall"
+          }
+        },
+        "ru": {
+          "text": "стена",
+          "ipa": "/stʲena/",
+          "hints": {
+            "en": "стена",
+            "vi": "стена"
+          }
+        },
+        "vi": {
+          "text": "tường",
+          "ipa": "/tɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tường",
+            "en": "tường"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.floor",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "floor",
+          "ipa": "/floor/",
+          "hints": {
+            "ru": "floor",
+            "vi": "floor"
+          }
+        },
+        "ru": {
+          "text": "пол",
+          "ipa": "/pol/",
+          "hints": {
+            "en": "пол",
+            "vi": "пол"
+          }
+        },
+        "vi": {
+          "text": "sàn",
+          "ipa": "/saːn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "sàn",
+            "en": "sàn"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.roof",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "roof",
+          "ipa": "/roof/",
+          "hints": {
+            "ru": "roof",
+            "vi": "roof"
+          }
+        },
+        "ru": {
+          "text": "крыша",
+          "ipa": "/krɨʂa/",
+          "hints": {
+            "en": "крыша",
+            "vi": "крыша"
+          }
+        },
+        "vi": {
+          "text": "mái",
+          "ipa": "/maːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mái",
+            "en": "mái"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.ceiling",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ceiling",
+          "ipa": "/ceiling/",
+          "hints": {
+            "ru": "ceiling",
+            "vi": "ceiling"
+          }
+        },
+        "ru": {
+          "text": "потолок",
+          "ipa": "/potolok/",
+          "hints": {
+            "en": "потолок",
+            "vi": "потолок"
+          }
+        },
+        "vi": {
+          "text": "trần",
+          "ipa": "/tɕən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "trần",
+            "en": "trần"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.table",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "table",
+          "ipa": "/ˈteɪbəl/",
+          "hints": {
+            "ru": "table",
+            "vi": "table"
+          }
+        },
+        "ru": {
+          "text": "стол",
+          "ipa": "/stol/",
+          "hints": {
+            "en": "стол",
+            "vi": "стол"
+          }
+        },
+        "vi": {
+          "text": "bàn",
+          "ipa": "/ɓaːn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bàn",
+            "en": "bàn"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.chair",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "chair",
+          "ipa": "/chair/",
+          "hints": {
+            "ru": "chair",
+            "vi": "chair"
+          }
+        },
+        "ru": {
+          "text": "стул",
+          "ipa": "/stul/",
+          "hints": {
+            "en": "стул",
+            "vi": "стул"
+          }
+        },
+        "vi": {
+          "text": "ghế",
+          "ipa": "/ɣe˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ghế",
+            "en": "ghế"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.bed",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bed",
+          "ipa": "/bed/",
+          "hints": {
+            "ru": "bed",
+            "vi": "bed"
+          }
+        },
+        "ru": {
+          "text": "кровать",
+          "ipa": "/krovatʲ/",
+          "hints": {
+            "en": "кровать",
+            "vi": "кровать"
+          }
+        },
+        "vi": {
+          "text": "giường",
+          "ipa": "/zɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "giường",
+            "en": "giường"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.sofa",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sofa",
+          "ipa": "/sofa/",
+          "hints": {
+            "ru": "sofa",
+            "vi": "sofa"
+          }
+        },
+        "ru": {
+          "text": "диван",
+          "ipa": "/dʲivan/",
+          "hints": {
+            "en": "диван",
+            "vi": "диван"
+          }
+        },
+        "vi": {
+          "text": "ghế sofa",
+          "ipa": "/ɣe˧˥ sɔfaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ghế sofa",
+            "en": "ghế sofa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.lamp",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lamp",
+          "ipa": "/lamp/",
+          "hints": {
+            "ru": "lamp",
+            "vi": "lamp"
+          }
+        },
+        "ru": {
+          "text": "лампа",
+          "ipa": "/lampa/",
+          "hints": {
+            "en": "лампа",
+            "vi": "лампа"
+          }
+        },
+        "vi": {
+          "text": "đèn",
+          "ipa": "/ɗɛn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đèn",
+            "en": "đèn"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.light",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "light",
+          "ipa": "/light/",
+          "hints": {
+            "ru": "light",
+            "vi": "light"
+          }
+        },
+        "ru": {
+          "text": "свет",
+          "ipa": "/svʲet/",
+          "hints": {
+            "en": "свет",
+            "vi": "свет"
+          }
+        },
+        "vi": {
+          "text": "ánh sáng",
+          "ipa": "/ajŋ˧˥ saːŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ánh sáng",
+            "en": "ánh sáng"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.key",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "key",
+          "ipa": "/key/",
+          "hints": {
+            "ru": "key",
+            "vi": "key"
+          }
+        },
+        "ru": {
+          "text": "ключ",
+          "ipa": "/klʲutɕ/",
+          "hints": {
+            "en": "ключ",
+            "vi": "ключ"
+          }
+        },
+        "vi": {
+          "text": "chìa khóa",
+          "ipa": "/tɕiə˧˩ xwaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chìa khóa",
+            "en": "chìa khóa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.lock",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lock",
+          "ipa": "/lock/",
+          "hints": {
+            "ru": "lock",
+            "vi": "lock"
+          }
+        },
+        "ru": {
+          "text": "замок",
+          "ipa": "/zamok/",
+          "hints": {
+            "en": "замок",
+            "vi": "замок"
+          }
+        },
+        "vi": {
+          "text": "ổ khóa",
+          "ipa": "/o˧˩˧ xwaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ổ khóa",
+            "en": "ổ khóa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.phone",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "phone",
+          "ipa": "/phone/",
+          "hints": {
+            "ru": "phone",
+            "vi": "phone"
+          }
+        },
+        "ru": {
+          "text": "телефон",
+          "ipa": "/tʲelʲefon/",
+          "hints": {
+            "en": "телефон",
+            "vi": "телефон"
+          }
+        },
+        "vi": {
+          "text": "điện thoại",
+          "ipa": "/ɗiən˧ˀ tʰwaːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "điện thoại",
+            "en": "điện thoại"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.computer",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "computer",
+          "ipa": "/computer/",
+          "hints": {
+            "ru": "computer",
+            "vi": "computer"
+          }
+        },
+        "ru": {
+          "text": "компьютер",
+          "ipa": "/kompʲjutʲer/",
+          "hints": {
+            "en": "компьютер",
+            "vi": "компьютер"
+          }
+        },
+        "vi": {
+          "text": "máy tính",
+          "ipa": "/maj˧˥ tiɲ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "máy tính",
+            "en": "máy tính"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.television",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "television",
+          "ipa": "/television/",
+          "hints": {
+            "ru": "television",
+            "vi": "television"
+          }
+        },
+        "ru": {
+          "text": "телевизор",
+          "ipa": "/tʲelʲevʲizor/",
+          "hints": {
+            "en": "телевизор",
+            "vi": "телевизор"
+          }
+        },
+        "vi": {
+          "text": "tivi",
+          "ipa": "/tivi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tivi",
+            "en": "tivi"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.fridge",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fridge",
+          "ipa": "/fridge/",
+          "hints": {
+            "ru": "fridge",
+            "vi": "fridge"
+          }
+        },
+        "ru": {
+          "text": "холодильник",
+          "ipa": "/xolodʲilʲnʲik/",
+          "hints": {
+            "en": "холодильник",
+            "vi": "холодильник"
+          }
+        },
+        "vi": {
+          "text": "tủ lạnh",
+          "ipa": "/tu˧˩˧ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tủ lạnh",
+            "en": "tủ lạnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.stove",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stove",
+          "ipa": "/stove/",
+          "hints": {
+            "ru": "stove",
+            "vi": "stove"
+          }
+        },
+        "ru": {
+          "text": "плита",
+          "ipa": "/plʲita/",
+          "hints": {
+            "en": "плита",
+            "vi": "плита"
+          }
+        },
+        "vi": {
+          "text": "bếp",
+          "ipa": "/ɓep˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bếp",
+            "en": "bếp"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.oven",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "oven",
+          "ipa": "/oven/",
+          "hints": {
+            "ru": "oven",
+            "vi": "oven"
+          }
+        },
+        "ru": {
+          "text": "духовка",
+          "ipa": "/duxovka/",
+          "hints": {
+            "en": "духовка",
+            "vi": "духовка"
+          }
+        },
+        "vi": {
+          "text": "lò nướng",
+          "ipa": "/lɔ˧˩ nɨəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lò nướng",
+            "en": "lò nướng"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.microwave",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "microwave",
+          "ipa": "/microwave/",
+          "hints": {
+            "ru": "microwave",
+            "vi": "microwave"
+          }
+        },
+        "ru": {
+          "text": "микроволновка",
+          "ipa": "/mʲikrovolnovka/",
+          "hints": {
+            "en": "микроволновка",
+            "vi": "микроволновка"
+          }
+        },
+        "vi": {
+          "text": "lò vi sóng",
+          "ipa": "/lɔ˧˩ vi˧ sɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lò vi sóng",
+            "en": "lò vi sóng"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.plate",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "plate",
+          "ipa": "/plate/",
+          "hints": {
+            "ru": "plate",
+            "vi": "plate"
+          }
+        },
+        "ru": {
+          "text": "тарелка",
+          "ipa": "/tarʲelka/",
+          "hints": {
+            "en": "тарелка",
+            "vi": "тарелка"
+          }
+        },
+        "vi": {
+          "text": "đĩa",
+          "ipa": "/ɗiə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đĩa",
+            "en": "đĩa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.bowl",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bowl",
+          "ipa": "/bowl/",
+          "hints": {
+            "ru": "bowl",
+            "vi": "bowl"
+          }
+        },
+        "ru": {
+          "text": "миска",
+          "ipa": "/mʲiska/",
+          "hints": {
+            "en": "миска",
+            "vi": "миска"
+          }
+        },
+        "vi": {
+          "text": "bát",
+          "ipa": "/ɓaːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bát",
+            "en": "bát"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.fork",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fork",
+          "ipa": "/fork/",
+          "hints": {
+            "ru": "fork",
+            "vi": "fork"
+          }
+        },
+        "ru": {
+          "text": "вилка",
+          "ipa": "/vʲilka/",
+          "hints": {
+            "en": "вилка",
+            "vi": "вилка"
+          }
+        },
+        "vi": {
+          "text": "nĩa",
+          "ipa": "/niə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nĩa",
+            "en": "nĩa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.knife",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "knife",
+          "ipa": "/knife/",
+          "hints": {
+            "ru": "knife",
+            "vi": "knife"
+          }
+        },
+        "ru": {
+          "text": "нож",
+          "ipa": "/noʐ/",
+          "hints": {
+            "en": "нож",
+            "vi": "нож"
+          }
+        },
+        "vi": {
+          "text": "dao",
+          "ipa": "/zaːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dao",
+            "en": "dao"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.spoon",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "spoon",
+          "ipa": "/spoon/",
+          "hints": {
+            "ru": "spoon",
+            "vi": "spoon"
+          }
+        },
+        "ru": {
+          "text": "ложка",
+          "ipa": "/loʐka/",
+          "hints": {
+            "en": "ложка",
+            "vi": "ложка"
+          }
+        },
+        "vi": {
+          "text": "thìa",
+          "ipa": "/tʰiə˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "thìa",
+            "en": "thìa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.bottle",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bottle",
+          "ipa": "/bottle/",
+          "hints": {
+            "ru": "bottle",
+            "vi": "bottle"
+          }
+        },
+        "ru": {
+          "text": "бутылка",
+          "ipa": "/butɨlka/",
+          "hints": {
+            "en": "бутылка",
+            "vi": "бутылка"
+          }
+        },
+        "vi": {
+          "text": "chai",
+          "ipa": "/tɕaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chai",
+            "en": "chai"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.bag",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bag",
+          "ipa": "/bæɡ/",
+          "hints": {
+            "ru": "bag",
+            "vi": "bag"
+          }
+        },
+        "ru": {
+          "text": "сумка",
+          "ipa": "/sumka/",
+          "hints": {
+            "en": "сумка",
+            "vi": "сумка"
+          }
+        },
+        "vi": {
+          "text": "túi",
+          "ipa": "/tuj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "túi",
+            "en": "túi"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.box",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "box",
+          "ipa": "/box/",
+          "hints": {
+            "ru": "box",
+            "vi": "box"
+          }
+        },
+        "ru": {
+          "text": "коробка",
+          "ipa": "/korobka/",
+          "hints": {
+            "en": "коробка",
+            "vi": "коробка"
+          }
+        },
+        "vi": {
+          "text": "hộp",
+          "ipa": "/hop˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hộp",
+            "en": "hộp"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.paper",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "paper",
+          "ipa": "/paper/",
+          "hints": {
+            "ru": "paper",
+            "vi": "paper"
+          }
+        },
+        "ru": {
+          "text": "бумага",
+          "ipa": "/bumaɡa/",
+          "hints": {
+            "en": "бумага",
+            "vi": "бумага"
+          }
+        },
+        "vi": {
+          "text": "giấy",
+          "ipa": "/zəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "giấy",
+            "en": "giấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.pen",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pen",
+          "ipa": "/pen/",
+          "hints": {
+            "ru": "pen",
+            "vi": "pen"
+          }
+        },
+        "ru": {
+          "text": "ручка",
+          "ipa": "/rutɕka/",
+          "hints": {
+            "en": "ручка",
+            "vi": "ручка"
+          }
+        },
+        "vi": {
+          "text": "bút",
+          "ipa": "/ɓut˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bút",
+            "en": "bút"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.pencil",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pencil",
+          "ipa": "/pencil/",
+          "hints": {
+            "ru": "pencil",
+            "vi": "pencil"
+          }
+        },
+        "ru": {
+          "text": "карандаш",
+          "ipa": "/karandaʂ/",
+          "hints": {
+            "en": "карандаш",
+            "vi": "карандаш"
+          }
+        },
+        "vi": {
+          "text": "bút chì",
+          "ipa": "/ɓut˧˥ tɕi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bút chì",
+            "en": "bút chì"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.notebook",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "notebook",
+          "ipa": "/notebook/",
+          "hints": {
+            "ru": "notebook",
+            "vi": "notebook"
+          }
+        },
+        "ru": {
+          "text": "тетрадь",
+          "ipa": "/tʲetradʲ/",
+          "hints": {
+            "en": "тетрадь",
+            "vi": "тетрадь"
+          }
+        },
+        "vi": {
+          "text": "vở",
+          "ipa": "/vəː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vở",
+            "en": "vở"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.clock",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "clock",
+          "ipa": "/clock/",
+          "hints": {
+            "ru": "clock",
+            "vi": "clock"
+          }
+        },
+        "ru": {
+          "text": "часы",
+          "ipa": "/tɕasɨ/",
+          "hints": {
+            "en": "часы",
+            "vi": "часы"
+          }
+        },
+        "vi": {
+          "text": "đồng hồ",
+          "ipa": "/ɗoŋ˧˩ ho˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đồng hồ",
+            "en": "đồng hồ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.mirror",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mirror",
+          "ipa": "/mirror/",
+          "hints": {
+            "ru": "mirror",
+            "vi": "mirror"
+          }
+        },
+        "ru": {
+          "text": "зеркало",
+          "ipa": "/zʲerkalo/",
+          "hints": {
+            "en": "зеркало",
+            "vi": "зеркало"
+          }
+        },
+        "vi": {
+          "text": "gương",
+          "ipa": "/ɣɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "gương",
+            "en": "gương"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.pillow",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pillow",
+          "ipa": "/pillow/",
+          "hints": {
+            "ru": "pillow",
+            "vi": "pillow"
+          }
+        },
+        "ru": {
+          "text": "подушка",
+          "ipa": "/poduʂka/",
+          "hints": {
+            "en": "подушка",
+            "vi": "подушка"
+          }
+        },
+        "vi": {
+          "text": "gối",
+          "ipa": "/ɣoj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "gối",
+            "en": "gối"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.blanket",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "blanket",
+          "ipa": "/blanket/",
+          "hints": {
+            "ru": "blanket",
+            "vi": "blanket"
+          }
+        },
+        "ru": {
+          "text": "одеяло",
+          "ipa": "/odʲejalo/",
+          "hints": {
+            "en": "одеяло",
+            "vi": "одеяло"
+          }
+        },
+        "vi": {
+          "text": "chăn",
+          "ipa": "/tɕan˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chăn",
+            "en": "chăn"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.towel",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "towel",
+          "ipa": "/towel/",
+          "hints": {
+            "ru": "towel",
+            "vi": "towel"
+          }
+        },
+        "ru": {
+          "text": "полотенце",
+          "ipa": "/polotʲentse/",
+          "hints": {
+            "en": "полотенце",
+            "vi": "полотенце"
+          }
+        },
+        "vi": {
+          "text": "khăn",
+          "ipa": "/xan˧/",
+          "tones": [],
+          "hints": {
+            "ru": "khăn",
+            "en": "khăn"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.soap",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "soap",
+          "ipa": "/soap/",
+          "hints": {
+            "ru": "soap",
+            "vi": "soap"
+          }
+        },
+        "ru": {
+          "text": "мыло",
+          "ipa": "/mɨlo/",
+          "hints": {
+            "en": "мыло",
+            "vi": "мыло"
+          }
+        },
+        "vi": {
+          "text": "xà phòng",
+          "ipa": "/saː˧˩ fɔŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "xà phòng",
+            "en": "xà phòng"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.shower",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shower",
+          "ipa": "/shower/",
+          "hints": {
+            "ru": "shower",
+            "vi": "shower"
+          }
+        },
+        "ru": {
+          "text": "душ",
+          "ipa": "/duʂ/",
+          "hints": {
+            "en": "душ",
+            "vi": "душ"
+          }
+        },
+        "vi": {
+          "text": "vòi sen",
+          "ipa": "/vɔj˧˩ sɛn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vòi sen",
+            "en": "vòi sen"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.sink",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sink",
+          "ipa": "/sink/",
+          "hints": {
+            "ru": "sink",
+            "vi": "sink"
+          }
+        },
+        "ru": {
+          "text": "раковина",
+          "ipa": "/rakovʲina/",
+          "hints": {
+            "en": "раковина",
+            "vi": "раковина"
+          }
+        },
+        "vi": {
+          "text": "bồn rửa",
+          "ipa": "/ɓon˧˩ zɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bồn rửa",
+            "en": "bồn rửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.garden",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "garden",
+          "ipa": "/garden/",
+          "hints": {
+            "ru": "garden",
+            "vi": "garden"
+          }
+        },
+        "ru": {
+          "text": "сад",
+          "ipa": "/sad/",
+          "hints": {
+            "en": "сад",
+            "vi": "сад"
+          }
+        },
+        "vi": {
+          "text": "vườn",
+          "ipa": "/vɨən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vườn",
+            "en": "vườn"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.yard",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "yard",
+          "ipa": "/yard/",
+          "hints": {
+            "ru": "yard",
+            "vi": "yard"
+          }
+        },
+        "ru": {
+          "text": "двор",
+          "ipa": "/dvor/",
+          "hints": {
+            "en": "двор",
+            "vi": "двор"
+          }
+        },
+        "vi": {
+          "text": "sân",
+          "ipa": "/sən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sân",
+            "en": "sân"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.balcony",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "balcony",
+          "ipa": "/balcony/",
+          "hints": {
+            "ru": "balcony",
+            "vi": "balcony"
+          }
+        },
+        "ru": {
+          "text": "балкон",
+          "ipa": "/balkon/",
+          "hints": {
+            "en": "балкон",
+            "vi": "балкон"
+          }
+        },
+        "vi": {
+          "text": "ban công",
+          "ipa": "/ɓaːn˧ koŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ban công",
+            "en": "ban công"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.stairs",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stairs",
+          "ipa": "/stairs/",
+          "hints": {
+            "ru": "stairs",
+            "vi": "stairs"
+          }
+        },
+        "ru": {
+          "text": "лестница",
+          "ipa": "/lʲestnʲitsa/",
+          "hints": {
+            "en": "лестница",
+            "vi": "лестница"
+          }
+        },
+        "vi": {
+          "text": "cầu thang",
+          "ipa": "/kəu˧˩ tʰaːŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cầu thang",
+            "en": "cầu thang"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.elevator",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "elevator",
+          "ipa": "/elevator/",
+          "hints": {
+            "ru": "elevator",
+            "vi": "elevator"
+          }
+        },
+        "ru": {
+          "text": "лифт",
+          "ipa": "/lʲift/",
+          "hints": {
+            "en": "лифт",
+            "vi": "лифт"
+          }
+        },
+        "vi": {
+          "text": "thang máy",
+          "ipa": "/tʰaːŋ˧ maj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thang máy",
+            "en": "thang máy"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.shelf",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shelf",
+          "ipa": "/shelf/",
+          "hints": {
+            "ru": "shelf",
+            "vi": "shelf"
+          }
+        },
+        "ru": {
+          "text": "полка",
+          "ipa": "/polka/",
+          "hints": {
+            "en": "полка",
+            "vi": "полка"
+          }
+        },
+        "vi": {
+          "text": "kệ",
+          "ipa": "/ke˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "kệ",
+            "en": "kệ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.drawer",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "drawer",
+          "ipa": "/drawer/",
+          "hints": {
+            "ru": "drawer",
+            "vi": "drawer"
+          }
+        },
+        "ru": {
+          "text": "ящик",
+          "ipa": "/jaɕːik/",
+          "hints": {
+            "en": "ящик",
+            "vi": "ящик"
+          }
+        },
+        "vi": {
+          "text": "ngăn kéo",
+          "ipa": "/ŋan˧ kɛw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ngăn kéo",
+            "en": "ngăn kéo"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.closet",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "closet",
+          "ipa": "/closet/",
+          "hints": {
+            "ru": "closet",
+            "vi": "closet"
+          }
+        },
+        "ru": {
+          "text": "шкаф",
+          "ipa": "/ʂkaf/",
+          "hints": {
+            "en": "шкаф",
+            "vi": "шкаф"
+          }
+        },
+        "vi": {
+          "text": "tủ",
+          "ipa": "/tu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tủ",
+            "en": "tủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.curtain",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "curtain",
+          "ipa": "/curtain/",
+          "hints": {
+            "ru": "curtain",
+            "vi": "curtain"
+          }
+        },
+        "ru": {
+          "text": "штора",
+          "ipa": "/ʂtora/",
+          "hints": {
+            "en": "штора",
+            "vi": "штора"
+          }
+        },
+        "vi": {
+          "text": "rèm",
+          "ipa": "/zɛm˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rèm",
+            "en": "rèm"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.carpet",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "carpet",
+          "ipa": "/carpet/",
+          "hints": {
+            "ru": "carpet",
+            "vi": "carpet"
+          }
+        },
+        "ru": {
+          "text": "ковёр",
+          "ipa": "/kovʲor/",
+          "hints": {
+            "en": "ковёр",
+            "vi": "ковёр"
+          }
+        },
+        "vi": {
+          "text": "thảm",
+          "ipa": "/tʰaːm˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thảm",
+            "en": "thảm"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.fan",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fan",
+          "ipa": "/fan/",
+          "hints": {
+            "ru": "fan",
+            "vi": "fan"
+          }
+        },
+        "ru": {
+          "text": "вентилятор",
+          "ipa": "/vʲentʲilʲator/",
+          "hints": {
+            "en": "вентилятор",
+            "vi": "вентилятор"
+          }
+        },
+        "vi": {
+          "text": "quạt",
+          "ipa": "/kwaːt˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "quạt",
+            "en": "quạt"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.heater",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "heater",
+          "ipa": "/heater/",
+          "hints": {
+            "ru": "heater",
+            "vi": "heater"
+          }
+        },
+        "ru": {
+          "text": "обогреватель",
+          "ipa": "/oboɡrʲevatʲelʲ/",
+          "hints": {
+            "en": "обогреватель",
+            "vi": "обогреватель"
+          }
+        },
+        "vi": {
+          "text": "máy sưởi",
+          "ipa": "/maj˧˥ sɨəj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "máy sưởi",
+            "en": "máy sưởi"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.wifi",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wifi",
+          "ipa": "/wifi/",
+          "hints": {
+            "ru": "wifi",
+            "vi": "wifi"
+          }
+        },
+        "ru": {
+          "text": "вайфай",
+          "ipa": "/vajfaj/",
+          "hints": {
+            "en": "вайфай",
+            "vi": "вайфай"
+          }
+        },
+        "vi": {
+          "text": "wifi",
+          "ipa": "/wifi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "wifi",
+            "en": "wifi"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.electricity",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "electricity",
+          "ipa": "/electricity/",
+          "hints": {
+            "ru": "electricity",
+            "vi": "electricity"
+          }
+        },
+        "ru": {
+          "text": "электричество",
+          "ipa": "/elʲektrʲitɕestvo/",
+          "hints": {
+            "en": "электричество",
+            "vi": "электричество"
+          }
+        },
+        "vi": {
+          "text": "điện",
+          "ipa": "/ɗiən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "điện",
+            "en": "điện"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.garbage",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "garbage",
+          "ipa": "/garbage/",
+          "hints": {
+            "ru": "garbage",
+            "vi": "garbage"
+          }
+        },
+        "ru": {
+          "text": "мусор",
+          "ipa": "/musor/",
+          "hints": {
+            "en": "мусор",
+            "vi": "мусор"
+          }
+        },
+        "vi": {
+          "text": "rác",
+          "ipa": "/zaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "rác",
+            "en": "rác"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.address",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "address",
+          "ipa": "/address/",
+          "hints": {
+            "ru": "address",
+            "vi": "address"
+          }
+        },
+        "ru": {
+          "text": "адрес",
+          "ipa": "/adrʲes/",
+          "hints": {
+            "en": "адрес",
+            "vi": "адрес"
+          }
+        },
+        "vi": {
+          "text": "địa chỉ",
+          "ipa": "/ɗiə˧ˀ tɕi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "địa chỉ",
+            "en": "địa chỉ"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.upstairs",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "upstairs",
+          "ipa": "/upstairs/",
+          "hints": {
+            "ru": "upstairs",
+            "vi": "upstairs"
+          }
+        },
+        "ru": {
+          "text": "наверху",
+          "ipa": "/navʲerxu/",
+          "hints": {
+            "en": "наверху",
+            "vi": "наверху"
+          }
+        },
+        "vi": {
+          "text": "tầng trên",
+          "ipa": "/təŋ˧˩ tɕen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tầng trên",
+            "en": "tầng trên"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.downstairs",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "downstairs",
+          "ipa": "/downstairs/",
+          "hints": {
+            "ru": "downstairs",
+            "vi": "downstairs"
+          }
+        },
+        "ru": {
+          "text": "внизу",
+          "ipa": "/vnʲizu/",
+          "hints": {
+            "en": "внизу",
+            "vi": "внизу"
+          }
+        },
+        "vi": {
+          "text": "tầng dưới",
+          "ipa": "/təŋ˧˩ zɨəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tầng dưới",
+            "en": "tầng dưới"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.furniture",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "furniture",
+          "ipa": "/furniture/",
+          "hints": {
+            "ru": "furniture",
+            "vi": "furniture"
+          }
+        },
+        "ru": {
+          "text": "мебель",
+          "ipa": "/mʲebʲelʲ/",
+          "hints": {
+            "en": "мебель",
+            "vi": "мебель"
+          }
+        },
+        "vi": {
+          "text": "nội thất",
+          "ipa": "/noj˧ˀ tʰət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nội thất",
+            "en": "nội thất"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.desk",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "desk",
+          "ipa": "/desk/",
+          "hints": {
+            "ru": "desk",
+            "vi": "desk"
+          }
+        },
+        "ru": {
+          "text": "письменный стол",
+          "ipa": "/pʲisʲmʲennɨj stol/",
+          "hints": {
+            "en": "письменный стол",
+            "vi": "письменный стол"
+          }
+        },
+        "vi": {
+          "text": "bàn học",
+          "ipa": "/ɓaːn˧˩ hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bàn học",
+            "en": "bàn học"
+          }
+        }
+      }
+    },
+    {
+      "id": "home.armchair",
+      "kind": "word",
+      "theme": "home",
+      "tags": [
+        "theme:home"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "armchair",
+          "ipa": "/armchair/",
+          "hints": {
+            "ru": "armchair",
+            "vi": "armchair"
+          }
+        },
+        "ru": {
+          "text": "кресло",
+          "ipa": "/krʲeslo/",
+          "hints": {
+            "en": "кресло",
+            "vi": "кресло"
+          }
+        },
+        "vi": {
+          "text": "ghế bành",
+          "ipa": "/ɣe˧˥ ɓajŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ghế bành",
+            "en": "ghế bành"
+          }
+        }
+      }
+    }
+  ]
+}

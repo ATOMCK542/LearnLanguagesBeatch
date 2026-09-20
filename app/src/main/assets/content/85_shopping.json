@@ -1,0 +1,499 @@
+{
+  "theme": {
+    "id": "shopping",
+    "kind": "unit",
+    "order": 85,
+    "title": {
+      "en": "Shopping",
+      "ru": "Покупки",
+      "vi": "Mua sắm"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "sh.how_much",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "How much is this?",
+          "ipa": "/haʊ mʌtʃ ɪz ðɪs/",
+          "hints": {
+            "ru": "How much is this?",
+            "vi": "How much is this?"
+          }
+        },
+        "ru": {
+          "text": "Сколько это стоит?",
+          "ipa": "/skolʲko eto stoit/",
+          "hints": {
+            "en": "Сколько это стоит?",
+            "vi": "Сколько это стоит?"
+          }
+        },
+        "vi": {
+          "text": "Cái này bao nhiêu?",
+          "ipa": "/kaːj˧˥ naj˨˩ ɓaːw˧ ɲiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Cái này bao nhiêu?",
+            "en": "Cái này bao nhiêu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.too_expensive",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "It's too expensive",
+          "ipa": "/ɪts tuː ɪkˈspensɪv/",
+          "hints": {
+            "ru": "It's too expensive",
+            "vi": "It's too expensive"
+          }
+        },
+        "ru": {
+          "text": "Это слишком дорого",
+          "ipa": "/eto slʲiʂkom doroɡo/",
+          "hints": {
+            "en": "Это слишком дорого",
+            "vi": "Это слишком дорого"
+          }
+        },
+        "vi": {
+          "text": "Đắt quá",
+          "ipa": "/ɗat˧˥ kwaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Đắt quá",
+            "en": "Đắt quá"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.cheaper",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Do you have a cheaper one?",
+          "ipa": "/duː juː hæv ə ˈtʃiːpə wʌn/",
+          "hints": {
+            "ru": "Do you have a cheaper one?",
+            "vi": "Do you have a cheaper one?"
+          }
+        },
+        "ru": {
+          "text": "Есть дешевле?",
+          "ipa": "/jestʲ dʲeʂevlʲe/",
+          "hints": {
+            "en": "Есть дешевле?",
+            "vi": "Есть дешевле?"
+          }
+        },
+        "vi": {
+          "text": "Có cái rẻ hơn không?",
+          "ipa": "/kɔ˧˥ kaːj˧˥ zɛ˧˩˧ həːn˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Có cái rẻ hơn không?",
+            "en": "Có cái rẻ hơn không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.i_take_it",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I'll take it",
+          "ipa": "/aɪl teɪk ɪt/",
+          "hints": {
+            "ru": "I'll take it",
+            "vi": "I'll take it"
+          }
+        },
+        "ru": {
+          "text": "Я беру",
+          "ipa": "/ja bʲeru/",
+          "hints": {
+            "en": "Я беру",
+            "vi": "Я беру"
+          }
+        },
+        "vi": {
+          "text": "Tôi lấy cái này",
+          "ipa": "/toj˧ ləj˧˥ kaːj˧˥ naj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi lấy cái này",
+            "en": "Tôi lấy cái này"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.size",
+      "kind": "word",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "size",
+          "ipa": "/saɪz/",
+          "hints": {
+            "ru": "size",
+            "vi": "size"
+          }
+        },
+        "ru": {
+          "text": "размер",
+          "ipa": "/razmʲer/",
+          "hints": {
+            "en": "размер",
+            "vi": "размер"
+          }
+        },
+        "vi": {
+          "text": "cỡ",
+          "ipa": "/kəː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cỡ",
+            "en": "cỡ"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.color",
+      "kind": "word",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "color",
+          "ipa": "/ˈkʌlə/",
+          "hints": {
+            "ru": "color",
+            "vi": "color"
+          }
+        },
+        "ru": {
+          "text": "цвет",
+          "ipa": "/tsvʲet/",
+          "hints": {
+            "en": "цвет",
+            "vi": "цвет"
+          }
+        },
+        "vi": {
+          "text": "màu",
+          "ipa": "/maːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "màu",
+            "en": "màu"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.cash",
+      "kind": "word",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cash",
+          "ipa": "/kæʃ/",
+          "hints": {
+            "ru": "cash",
+            "vi": "cash"
+          }
+        },
+        "ru": {
+          "text": "наличные",
+          "ipa": "/nalʲitɕnɨje/",
+          "hints": {
+            "en": "наличные",
+            "vi": "наличные"
+          }
+        },
+        "vi": {
+          "text": "tiền mặt",
+          "ipa": "/tiən˨˩ mat˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tiền mặt",
+            "en": "tiền mặt"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.card",
+      "kind": "word",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "card",
+          "ipa": "/kɑːd/",
+          "hints": {
+            "ru": "card",
+            "vi": "card"
+          }
+        },
+        "ru": {
+          "text": "карта",
+          "ipa": "/karta/",
+          "hints": {
+            "en": "карта",
+            "vi": "карта"
+          }
+        },
+        "vi": {
+          "text": "thẻ",
+          "ipa": "/tʰɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thẻ",
+            "en": "thẻ"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.receipt",
+      "kind": "word",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "receipt",
+          "ipa": "/rɪˈsiːt/",
+          "hints": {
+            "ru": "receipt",
+            "vi": "receipt"
+          }
+        },
+        "ru": {
+          "text": "чек",
+          "ipa": "/tɕek/",
+          "hints": {
+            "en": "чек",
+            "vi": "чек"
+          }
+        },
+        "vi": {
+          "text": "hóa đơn",
+          "ipa": "/hwaː˧˥ ɗəːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hóa đơn",
+            "en": "hóa đơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.do_you_have",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Do you have this in blue?",
+          "ipa": "/duː juː hæv ðɪs ɪn bluː/",
+          "hints": {
+            "ru": "Do you have this in blue?",
+            "vi": "Do you have this in blue?"
+          }
+        },
+        "ru": {
+          "text": "Это есть синим?",
+          "ipa": "/eto jestʲ sʲinʲim/",
+          "hints": {
+            "en": "Это есть синим?",
+            "vi": "Это есть синим?"
+          }
+        },
+        "vi": {
+          "text": "Có màu xanh không?",
+          "ipa": "/kɔ˧˥ maːw˨˩ sajŋ˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Có màu xanh không?",
+            "en": "Có màu xanh không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.where_is_market",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Where is the market?",
+          "ipa": "/weə ɪz ðə ˈmɑːkɪt/",
+          "hints": {
+            "ru": "Where is the market?",
+            "vi": "Where is the market?"
+          }
+        },
+        "ru": {
+          "text": "Где рынок?",
+          "ipa": "/ɡdʲe rɨnok/",
+          "hints": {
+            "en": "Где рынок?",
+            "vi": "Где рынок?"
+          }
+        },
+        "vi": {
+          "text": "Chợ ở đâu?",
+          "ipa": "/tɕəː˧ˀ əː˧˩˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Chợ ở đâu?",
+            "en": "Chợ ở đâu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "sh.i_am_just_looking",
+      "kind": "sentence",
+      "theme": "shopping",
+      "tags": [
+        "theme:shopping"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I'm just looking",
+          "ipa": "/aɪm dʒʌst ˈlʊkɪŋ/",
+          "hints": {
+            "ru": "I'm just looking",
+            "vi": "I'm just looking"
+          }
+        },
+        "ru": {
+          "text": "Я просто смотрю",
+          "ipa": "/ja prosto smotrʲu/",
+          "hints": {
+            "en": "Я просто смотрю",
+            "vi": "Я просто смотрю"
+          }
+        },
+        "vi": {
+          "text": "Tôi chỉ xem thôi",
+          "ipa": "/toj˧ tɕi˧˩˧ sɛm˧ tʰoj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi chỉ xem thôi",
+            "en": "Tôi chỉ xem thôi"
+          }
+        }
+      }
+    }
+  ]
+}

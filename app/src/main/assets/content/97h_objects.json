@@ -1,0 +1,1259 @@
+{
+  "theme": {
+    "id": "objects",
+    "kind": "unit",
+    "order": 102,
+    "title": {
+      "en": "Objects",
+      "ru": "Предметы",
+      "vi": "Đồ vật"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "obj.thing",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thing",
+          "ipa": "/thing/",
+          "hints": {
+            "ru": "thing",
+            "vi": "thing"
+          }
+        },
+        "ru": {
+          "text": "вещь",
+          "ipa": "/vʲeɕː/",
+          "hints": {
+            "en": "вещь",
+            "vi": "вещь"
+          }
+        },
+        "vi": {
+          "text": "đồ vật",
+          "ipa": "/ɗo˧˩ vət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đồ vật",
+            "en": "đồ vật"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.object",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "object",
+          "ipa": "/object/",
+          "hints": {
+            "ru": "object",
+            "vi": "object"
+          }
+        },
+        "ru": {
+          "text": "предмет",
+          "ipa": "/prʲedmʲet/",
+          "hints": {
+            "en": "предмет",
+            "vi": "предмет"
+          }
+        },
+        "vi": {
+          "text": "vật",
+          "ipa": "/vət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vật",
+            "en": "vật"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.tool",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tool",
+          "ipa": "/tool/",
+          "hints": {
+            "ru": "tool",
+            "vi": "tool"
+          }
+        },
+        "ru": {
+          "text": "инструмент",
+          "ipa": "/instrumʲent/",
+          "hints": {
+            "en": "инструмент",
+            "vi": "инструмент"
+          }
+        },
+        "vi": {
+          "text": "dụng cụ",
+          "ipa": "/zuŋ˧ˀ ku˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dụng cụ",
+            "en": "dụng cụ"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.machine",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "machine",
+          "ipa": "/machine/",
+          "hints": {
+            "ru": "machine",
+            "vi": "machine"
+          }
+        },
+        "ru": {
+          "text": "машина",
+          "ipa": "/maʂina/",
+          "hints": {
+            "en": "машина",
+            "vi": "машина"
+          }
+        },
+        "vi": {
+          "text": "máy",
+          "ipa": "/maj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "máy",
+            "en": "máy"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.camera",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "camera",
+          "ipa": "/camera/",
+          "hints": {
+            "ru": "camera",
+            "vi": "camera"
+          }
+        },
+        "ru": {
+          "text": "камера",
+          "ipa": "/kamʲera/",
+          "hints": {
+            "en": "камера",
+            "vi": "камера"
+          }
+        },
+        "vi": {
+          "text": "máy ảnh",
+          "ipa": "/maj˧˥ ajŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "máy ảnh",
+            "en": "máy ảnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.photo",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "photo",
+          "ipa": "/photo/",
+          "hints": {
+            "ru": "photo",
+            "vi": "photo"
+          }
+        },
+        "ru": {
+          "text": "фото",
+          "ipa": "/foto/",
+          "hints": {
+            "en": "фото",
+            "vi": "фото"
+          }
+        },
+        "vi": {
+          "text": "ảnh",
+          "ipa": "/ajŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ảnh",
+            "en": "ảnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.picture",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "picture",
+          "ipa": "/picture/",
+          "hints": {
+            "ru": "picture",
+            "vi": "picture"
+          }
+        },
+        "ru": {
+          "text": "картинка",
+          "ipa": "/kartʲinka/",
+          "hints": {
+            "en": "картинка",
+            "vi": "картинка"
+          }
+        },
+        "vi": {
+          "text": "hình",
+          "ipa": "/hiɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hình",
+            "en": "hình"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.video",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "video",
+          "ipa": "/video/",
+          "hints": {
+            "ru": "video",
+            "vi": "video"
+          }
+        },
+        "ru": {
+          "text": "видео",
+          "ipa": "/vʲidʲeo/",
+          "hints": {
+            "en": "видео",
+            "vi": "видео"
+          }
+        },
+        "vi": {
+          "text": "video",
+          "ipa": "/vidɛɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "video",
+            "en": "video"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.music",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "music",
+          "ipa": "/music/",
+          "hints": {
+            "ru": "music",
+            "vi": "music"
+          }
+        },
+        "ru": {
+          "text": "музыка",
+          "ipa": "/muzɨka/",
+          "hints": {
+            "en": "музыка",
+            "vi": "музыка"
+          }
+        },
+        "vi": {
+          "text": "nhạc",
+          "ipa": "/ɲaːk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhạc",
+            "en": "nhạc"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.song",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "song",
+          "ipa": "/song/",
+          "hints": {
+            "ru": "song",
+            "vi": "song"
+          }
+        },
+        "ru": {
+          "text": "песня",
+          "ipa": "/pʲesnʲa/",
+          "hints": {
+            "en": "песня",
+            "vi": "песня"
+          }
+        },
+        "vi": {
+          "text": "bài hát",
+          "ipa": "/ɓaːj˧˩ haːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bài hát",
+            "en": "bài hát"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.movie",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "movie",
+          "ipa": "/movie/",
+          "hints": {
+            "ru": "movie",
+            "vi": "movie"
+          }
+        },
+        "ru": {
+          "text": "фильм",
+          "ipa": "/fʲilʲm/",
+          "hints": {
+            "en": "фильм",
+            "vi": "фильм"
+          }
+        },
+        "vi": {
+          "text": "phim",
+          "ipa": "/fim˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phim",
+            "en": "phim"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.game",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "game",
+          "ipa": "/game/",
+          "hints": {
+            "ru": "game",
+            "vi": "game"
+          }
+        },
+        "ru": {
+          "text": "игра",
+          "ipa": "/iɡra/",
+          "hints": {
+            "en": "игра",
+            "vi": "игра"
+          }
+        },
+        "vi": {
+          "text": "trò chơi",
+          "ipa": "/tɕɔ˧˩ tɕəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trò chơi",
+            "en": "trò chơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.ball",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ball",
+          "ipa": "/ball/",
+          "hints": {
+            "ru": "ball",
+            "vi": "ball"
+          }
+        },
+        "ru": {
+          "text": "мяч",
+          "ipa": "/mʲatɕ/",
+          "hints": {
+            "en": "мяч",
+            "vi": "мяч"
+          }
+        },
+        "vi": {
+          "text": "bóng",
+          "ipa": "/ɓɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bóng",
+            "en": "bóng"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.toy",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "toy",
+          "ipa": "/toy/",
+          "hints": {
+            "ru": "toy",
+            "vi": "toy"
+          }
+        },
+        "ru": {
+          "text": "игрушка",
+          "ipa": "/iɡruʂka/",
+          "hints": {
+            "en": "игрушка",
+            "vi": "игрушка"
+          }
+        },
+        "vi": {
+          "text": "đồ chơi",
+          "ipa": "/ɗo˧˩ tɕəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đồ chơi",
+            "en": "đồ chơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.gift",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "gift",
+          "ipa": "/gift/",
+          "hints": {
+            "ru": "gift",
+            "vi": "gift"
+          }
+        },
+        "ru": {
+          "text": "подарок",
+          "ipa": "/podarok/",
+          "hints": {
+            "en": "подарок",
+            "vi": "подарок"
+          }
+        },
+        "vi": {
+          "text": "quà",
+          "ipa": "/kwaː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "quà",
+            "en": "quà"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.letter",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "letter",
+          "ipa": "/letter/",
+          "hints": {
+            "ru": "letter",
+            "vi": "letter"
+          }
+        },
+        "ru": {
+          "text": "письмо",
+          "ipa": "/pʲisʲmo/",
+          "hints": {
+            "en": "письмо",
+            "vi": "письмо"
+          }
+        },
+        "vi": {
+          "text": "thư",
+          "ipa": "/tʰɨ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thư",
+            "en": "thư"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.stamp",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stamp",
+          "ipa": "/stamp/",
+          "hints": {
+            "ru": "stamp",
+            "vi": "stamp"
+          }
+        },
+        "ru": {
+          "text": "марка",
+          "ipa": "/marka/",
+          "hints": {
+            "en": "марка",
+            "vi": "марка"
+          }
+        },
+        "vi": {
+          "text": "tem",
+          "ipa": "/tɛm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tem",
+            "en": "tem"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.passport",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "passport",
+          "ipa": "/passport/",
+          "hints": {
+            "ru": "passport",
+            "vi": "passport"
+          }
+        },
+        "ru": {
+          "text": "паспорт",
+          "ipa": "/pasport/",
+          "hints": {
+            "en": "паспорт",
+            "vi": "паспорт"
+          }
+        },
+        "vi": {
+          "text": "hộ chiếu",
+          "ipa": "/ho˧ˀ tɕiəw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hộ chiếu",
+            "en": "hộ chiếu"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.id_card",
+      "kind": "phrase",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "id card",
+          "ipa": "/aɪ diː kɑːd/",
+          "hints": {
+            "ru": "id card",
+            "vi": "id card"
+          }
+        },
+        "ru": {
+          "text": "удостоверение",
+          "ipa": "/udostovʲerʲenʲije/",
+          "hints": {
+            "en": "удостоверение",
+            "vi": "удостоверение"
+          }
+        },
+        "vi": {
+          "text": "thẻ căn cước",
+          "ipa": "/tʰɛ˧˩˧ kan˧ kɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thẻ căn cước",
+            "en": "thẻ căn cước"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.document",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "document",
+          "ipa": "/document/",
+          "hints": {
+            "ru": "document",
+            "vi": "document"
+          }
+        },
+        "ru": {
+          "text": "документ",
+          "ipa": "/dokumʲent/",
+          "hints": {
+            "en": "документ",
+            "vi": "документ"
+          }
+        },
+        "vi": {
+          "text": "tài liệu",
+          "ipa": "/taːj˧˩ liəw˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tài liệu",
+            "en": "tài liệu"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.file",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "file",
+          "ipa": "/file/",
+          "hints": {
+            "ru": "file",
+            "vi": "file"
+          }
+        },
+        "ru": {
+          "text": "файл",
+          "ipa": "/fajl/",
+          "hints": {
+            "en": "файл",
+            "vi": "файл"
+          }
+        },
+        "vi": {
+          "text": "tệp",
+          "ipa": "/tep˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tệp",
+            "en": "tệp"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.screen",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "screen",
+          "ipa": "/screen/",
+          "hints": {
+            "ru": "screen",
+            "vi": "screen"
+          }
+        },
+        "ru": {
+          "text": "экран",
+          "ipa": "/ekran/",
+          "hints": {
+            "en": "экран",
+            "vi": "экран"
+          }
+        },
+        "vi": {
+          "text": "màn hình",
+          "ipa": "/maːn˧˩ hiɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "màn hình",
+            "en": "màn hình"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.keyboard",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "keyboard",
+          "ipa": "/keyboard/",
+          "hints": {
+            "ru": "keyboard",
+            "vi": "keyboard"
+          }
+        },
+        "ru": {
+          "text": "клавиатура",
+          "ipa": "/klavʲiatura/",
+          "hints": {
+            "en": "клавиатура",
+            "vi": "клавиатура"
+          }
+        },
+        "vi": {
+          "text": "bàn phím",
+          "ipa": "/ɓaːn˧˩ fim˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bàn phím",
+            "en": "bàn phím"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.mouse_device",
+      "kind": "phrase",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mouse device",
+          "ipa": "/maʊs dɪˈvaɪs/",
+          "hints": {
+            "ru": "mouse device",
+            "vi": "mouse device"
+          }
+        },
+        "ru": {
+          "text": "мышь",
+          "ipa": "/mɨʂ/",
+          "hints": {
+            "en": "мышь",
+            "vi": "мышь"
+          }
+        },
+        "vi": {
+          "text": "chuột máy tính",
+          "ipa": "/tɕuot˧ˀ maj˧˥ tiɲ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chuột máy tính",
+            "en": "chuột máy tính"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.battery",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "battery",
+          "ipa": "/battery/",
+          "hints": {
+            "ru": "battery",
+            "vi": "battery"
+          }
+        },
+        "ru": {
+          "text": "батарейка",
+          "ipa": "/batarʲejka/",
+          "hints": {
+            "en": "батарейка",
+            "vi": "батарейка"
+          }
+        },
+        "vi": {
+          "text": "pin",
+          "ipa": "/pin˧/",
+          "tones": [],
+          "hints": {
+            "ru": "pin",
+            "en": "pin"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.charger",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "charger",
+          "ipa": "/charger/",
+          "hints": {
+            "ru": "charger",
+            "vi": "charger"
+          }
+        },
+        "ru": {
+          "text": "зарядка",
+          "ipa": "/zarʲadka/",
+          "hints": {
+            "en": "зарядка",
+            "vi": "зарядка"
+          }
+        },
+        "vi": {
+          "text": "bộ sạc",
+          "ipa": "/ɓo˧ˀ saːk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bộ sạc",
+            "en": "bộ sạc"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.cable",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cable",
+          "ipa": "/cable/",
+          "hints": {
+            "ru": "cable",
+            "vi": "cable"
+          }
+        },
+        "ru": {
+          "text": "кабель",
+          "ipa": "/kabʲelʲ/",
+          "hints": {
+            "en": "кабель",
+            "vi": "кабель"
+          }
+        },
+        "vi": {
+          "text": "dây cáp",
+          "ipa": "/zəj˧ kaːp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "dây cáp",
+            "en": "dây cáp"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.password",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "password",
+          "ipa": "/password/",
+          "hints": {
+            "ru": "password",
+            "vi": "password"
+          }
+        },
+        "ru": {
+          "text": "пароль",
+          "ipa": "/parolʲ/",
+          "hints": {
+            "en": "пароль",
+            "vi": "пароль"
+          }
+        },
+        "vi": {
+          "text": "mật khẩu",
+          "ipa": "/mət˧ˀ xəu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mật khẩu",
+            "en": "mật khẩu"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.website",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "website",
+          "ipa": "/website/",
+          "hints": {
+            "ru": "website",
+            "vi": "website"
+          }
+        },
+        "ru": {
+          "text": "сайт",
+          "ipa": "/sajt/",
+          "hints": {
+            "en": "сайт",
+            "vi": "сайт"
+          }
+        },
+        "vi": {
+          "text": "trang web",
+          "ipa": "/tɕaːŋ˧ wɛb˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trang web",
+            "en": "trang web"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.internet",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "internet",
+          "ipa": "/internet/",
+          "hints": {
+            "ru": "internet",
+            "vi": "internet"
+          }
+        },
+        "ru": {
+          "text": "интернет",
+          "ipa": "/intʲernʲet/",
+          "hints": {
+            "en": "интернет",
+            "vi": "интернет"
+          }
+        },
+        "vi": {
+          "text": "internet",
+          "ipa": "/intɛrnɛt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "internet",
+            "en": "internet"
+          }
+        }
+      }
+    },
+    {
+      "id": "obj.app",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "app",
+          "ipa": "/app/",
+          "hints": {
+            "ru": "app",
+            "vi": "app"
+          }
+        },
+        "ru": {
+          "text": "приложение",
+          "ipa": "/prʲiloʐenʲije/",
+          "hints": {
+            "en": "приложение",
+            "vi": "приложение"
+          }
+        },
+        "vi": {
+          "text": "ứng dụng",
+          "ipa": "/ɨŋ˧˥ zuŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ứng dụng",
+            "en": "ứng dụng"
+          }
+        }
+      }
+    }
+  ]
+}

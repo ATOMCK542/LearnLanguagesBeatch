@@ -1,0 +1,2867 @@
+{
+  "theme": {
+    "id": "verbs",
+    "kind": "unit",
+    "order": 60,
+    "title": {
+      "en": "Verbs",
+      "ru": "Глаголы",
+      "vi": "Động từ"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "verb.go",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "go",
+          "ipa": "/ɡəʊ/",
+          "hints": {
+            "ru": "go",
+            "vi": "go"
+          }
+        },
+        "ru": {
+          "text": "идти / ехать",
+          "ipa": "/idtʲi jexatʲ/",
+          "hints": {
+            "en": "идти / ехать",
+            "vi": "идти / ехать"
+          }
+        },
+        "vi": {
+          "text": "đi",
+          "ipa": "/ɗi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đi",
+            "en": "đi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.come",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "come",
+          "ipa": "/kʌm/",
+          "hints": {
+            "ru": "come",
+            "vi": "come"
+          }
+        },
+        "ru": {
+          "text": "приходить",
+          "ipa": "/prʲixodʲitʲ/",
+          "hints": {
+            "en": "приходить",
+            "vi": "приходить"
+          }
+        },
+        "vi": {
+          "text": "đến",
+          "ipa": "/ɗen˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đến",
+            "en": "đến"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.leave",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "leave",
+          "ipa": "/liːv/",
+          "hints": {
+            "ru": "leave",
+            "vi": "leave"
+          }
+        },
+        "ru": {
+          "text": "уходить / оставлять",
+          "ipa": "/uxodʲitʲ ostavlʲatʲ/",
+          "hints": {
+            "en": "уходить / оставлять",
+            "vi": "уходить / оставлять"
+          }
+        },
+        "vi": {
+          "text": "rời / để lại",
+          "ipa": "/zəːj˧˩ ɗe˧˩˧ laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "rời / để lại",
+            "en": "rời / để lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.stay",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "stay",
+          "ipa": "/steɪ/",
+          "hints": {
+            "ru": "stay",
+            "vi": "stay"
+          }
+        },
+        "ru": {
+          "text": "оставаться",
+          "ipa": "/ostavatʲsʲa/",
+          "hints": {
+            "en": "оставаться",
+            "vi": "оставаться"
+          }
+        },
+        "vi": {
+          "text": "ở lại",
+          "ipa": "/əː˧˩˧ laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ở lại",
+            "en": "ở lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.live",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "live",
+          "ipa": "/lɪv/",
+          "hints": {
+            "ru": "live",
+            "vi": "live"
+          }
+        },
+        "ru": {
+          "text": "жить",
+          "ipa": "/ʐitʲ/",
+          "hints": {
+            "en": "жить",
+            "vi": "жить"
+          }
+        },
+        "vi": {
+          "text": "sống",
+          "ipa": "/soŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sống",
+            "en": "sống"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.work",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "work",
+          "ipa": "/wɜːk/",
+          "hints": {
+            "ru": "work",
+            "vi": "work"
+          }
+        },
+        "ru": {
+          "text": "работать",
+          "ipa": "/rabotatʲ/",
+          "hints": {
+            "en": "работать",
+            "vi": "работать"
+          }
+        },
+        "vi": {
+          "text": "làm việc",
+          "ipa": "/laːm˨˩ viək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "làm việc",
+            "en": "làm việc"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.study",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "study",
+          "ipa": "/ˈstʌdi/",
+          "hints": {
+            "ru": "study",
+            "vi": "study"
+          }
+        },
+        "ru": {
+          "text": "учиться",
+          "ipa": "/utɕitʲsʲa/",
+          "hints": {
+            "en": "учиться",
+            "vi": "учиться"
+          }
+        },
+        "vi": {
+          "text": "học",
+          "ipa": "/hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "học",
+            "en": "học"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.want",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "want",
+          "ipa": "/wɒnt/",
+          "hints": {
+            "ru": "want",
+            "vi": "want"
+          }
+        },
+        "ru": {
+          "text": "хотеть",
+          "ipa": "/xotʲetʲ/",
+          "hints": {
+            "en": "хотеть",
+            "vi": "хотеть"
+          }
+        },
+        "vi": {
+          "text": "muốn",
+          "ipa": "/muən˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "muốn",
+            "en": "muốn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.need",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "need",
+          "ipa": "/niːd/",
+          "hints": {
+            "ru": "need",
+            "vi": "need"
+          }
+        },
+        "ru": {
+          "text": "нуждаться",
+          "ipa": "/nuʐdatʲsʲa/",
+          "hints": {
+            "en": "нуждаться",
+            "vi": "нуждаться"
+          }
+        },
+        "vi": {
+          "text": "cần",
+          "ipa": "/kən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cần",
+            "en": "cần"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.like",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "like",
+          "ipa": "/laɪk/",
+          "hints": {
+            "ru": "like",
+            "vi": "like"
+          }
+        },
+        "ru": {
+          "text": "нравиться",
+          "ipa": "/nravʲitʲsʲa/",
+          "hints": {
+            "en": "нравиться",
+            "vi": "нравиться"
+          }
+        },
+        "vi": {
+          "text": "thích",
+          "ipa": "/tʰik˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thích",
+            "en": "thích"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.love",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "love",
+          "ipa": "/lʌv/",
+          "hints": {
+            "ru": "love",
+            "vi": "love"
+          }
+        },
+        "ru": {
+          "text": "любить",
+          "ipa": "/lʲubʲitʲ/",
+          "hints": {
+            "en": "любить",
+            "vi": "любить"
+          }
+        },
+        "vi": {
+          "text": "yêu",
+          "ipa": "/iəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "yêu",
+            "en": "yêu"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.know",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "know",
+          "ipa": "/nəʊ/",
+          "hints": {
+            "ru": "know",
+            "vi": "know"
+          }
+        },
+        "ru": {
+          "text": "знать",
+          "ipa": "/znatʲ/",
+          "hints": {
+            "en": "знать",
+            "vi": "знать"
+          }
+        },
+        "vi": {
+          "text": "biết",
+          "ipa": "/ɓiet˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "biết",
+            "en": "biết"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.think",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "think",
+          "ipa": "/θɪŋk/",
+          "hints": {
+            "ru": "think",
+            "vi": "think"
+          }
+        },
+        "ru": {
+          "text": "думать",
+          "ipa": "/dumatʲ/",
+          "hints": {
+            "en": "думать",
+            "vi": "думать"
+          }
+        },
+        "vi": {
+          "text": "nghĩ",
+          "ipa": "/ŋi˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nghĩ",
+            "en": "nghĩ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.understand",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "understand",
+          "ipa": "/ˌʌndəˈstænd/",
+          "hints": {
+            "ru": "understand",
+            "vi": "understand"
+          }
+        },
+        "ru": {
+          "text": "понимать",
+          "ipa": "/ponʲimatʲ/",
+          "hints": {
+            "en": "понимать",
+            "vi": "понимать"
+          }
+        },
+        "vi": {
+          "text": "hiểu",
+          "ipa": "/hiəw˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hiểu",
+            "en": "hiểu"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.remember",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "remember",
+          "ipa": "/rɪˈmembə/",
+          "hints": {
+            "ru": "remember",
+            "vi": "remember"
+          }
+        },
+        "ru": {
+          "text": "помнить",
+          "ipa": "/pomnʲitʲ/",
+          "hints": {
+            "en": "помнить",
+            "vi": "помнить"
+          }
+        },
+        "vi": {
+          "text": "nhớ",
+          "ipa": "/ɲəː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhớ",
+            "en": "nhớ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.forget",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "forget",
+          "ipa": "/fəˈɡet/",
+          "hints": {
+            "ru": "forget",
+            "vi": "forget"
+          }
+        },
+        "ru": {
+          "text": "забывать",
+          "ipa": "/zabɨvatʲ/",
+          "hints": {
+            "en": "забывать",
+            "vi": "забывать"
+          }
+        },
+        "vi": {
+          "text": "quên",
+          "ipa": "/kwen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "quên",
+            "en": "quên"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.see",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "see",
+          "ipa": "/siː/",
+          "hints": {
+            "ru": "see",
+            "vi": "see"
+          }
+        },
+        "ru": {
+          "text": "видеть",
+          "ipa": "/vʲidʲetʲ/",
+          "hints": {
+            "en": "видеть",
+            "vi": "видеть"
+          }
+        },
+        "vi": {
+          "text": "thấy",
+          "ipa": "/tʰəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thấy",
+            "en": "thấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.look",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "look",
+          "ipa": "/lʊk/",
+          "hints": {
+            "ru": "look",
+            "vi": "look"
+          }
+        },
+        "ru": {
+          "text": "смотреть / выглядеть",
+          "ipa": "/smotrʲetʲ vɨɡlʲadʲetʲ/",
+          "hints": {
+            "en": "смотреть / выглядеть",
+            "vi": "смотреть / выглядеть"
+          }
+        },
+        "vi": {
+          "text": "nhìn",
+          "ipa": "/ɲin˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nhìn",
+            "en": "nhìn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.watch",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "watch",
+          "ipa": "/wɒtʃ/",
+          "hints": {
+            "ru": "watch",
+            "vi": "watch"
+          }
+        },
+        "ru": {
+          "text": "смотреть (фильм)",
+          "ipa": "/smotrʲetʲ fʲilʲm/",
+          "hints": {
+            "en": "смотреть (фильм)",
+            "vi": "смотреть (фильм)"
+          }
+        },
+        "vi": {
+          "text": "xem",
+          "ipa": "/sɛm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xem",
+            "en": "xem"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.hear",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "hear",
+          "ipa": "/hɪə/",
+          "hints": {
+            "ru": "hear",
+            "vi": "hear"
+          }
+        },
+        "ru": {
+          "text": "слышать",
+          "ipa": "/slɨʂatʲ/",
+          "hints": {
+            "en": "слышать",
+            "vi": "слышать"
+          }
+        },
+        "vi": {
+          "text": "nghe thấy",
+          "ipa": "/ŋɛ˧ tʰəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nghe thấy",
+            "en": "nghe thấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.listen",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "listen",
+          "ipa": "/ˈlɪsən/",
+          "hints": {
+            "ru": "listen",
+            "vi": "listen"
+          }
+        },
+        "ru": {
+          "text": "слушать",
+          "ipa": "/sluʂatʲ/",
+          "hints": {
+            "en": "слушать",
+            "vi": "слушать"
+          }
+        },
+        "vi": {
+          "text": "lắng nghe",
+          "ipa": "/laŋ˧˥ ŋɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lắng nghe",
+            "en": "lắng nghe"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.speak",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "speak",
+          "ipa": "/spiːk/",
+          "hints": {
+            "ru": "speak",
+            "vi": "speak"
+          }
+        },
+        "ru": {
+          "text": "говорить",
+          "ipa": "/ɡovorʲitʲ/",
+          "hints": {
+            "en": "говорить",
+            "vi": "говорить"
+          }
+        },
+        "vi": {
+          "text": "nói",
+          "ipa": "/nɔj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nói",
+            "en": "nói"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.say",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "say",
+          "ipa": "/seɪ/",
+          "hints": {
+            "ru": "say",
+            "vi": "say"
+          }
+        },
+        "ru": {
+          "text": "сказать",
+          "ipa": "/skazatʲ/",
+          "hints": {
+            "en": "сказать",
+            "vi": "сказать"
+          }
+        },
+        "vi": {
+          "text": "nói (rằng)",
+          "ipa": "/nɔj˧˥ zaŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nói (rằng)",
+            "en": "nói (rằng)"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.tell",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "tell",
+          "ipa": "/tel/",
+          "hints": {
+            "ru": "tell",
+            "vi": "tell"
+          }
+        },
+        "ru": {
+          "text": "рассказать / велеть",
+          "ipa": "/rasskazatʲ vʲelʲetʲ/",
+          "hints": {
+            "en": "рассказать / велеть",
+            "vi": "рассказать / велеть"
+          }
+        },
+        "vi": {
+          "text": "kể / bảo",
+          "ipa": "/ke˧˩˧ ɓaːw˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kể / bảo",
+            "en": "kể / bảo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.ask",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "ask",
+          "ipa": "/ɑːsk/",
+          "hints": {
+            "ru": "ask",
+            "vi": "ask"
+          }
+        },
+        "ru": {
+          "text": "спрашивать / просить",
+          "ipa": "/spraʂivatʲ prosʲitʲ/",
+          "hints": {
+            "en": "спрашивать / просить",
+            "vi": "спрашивать / просить"
+          }
+        },
+        "vi": {
+          "text": "hỏi / xin",
+          "ipa": "/hɔj˧˩˧ sin˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hỏi / xin",
+            "en": "hỏi / xin"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.answer",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "answer",
+          "ipa": "/ˈɑːnsə/",
+          "hints": {
+            "ru": "answer",
+            "vi": "answer"
+          }
+        },
+        "ru": {
+          "text": "отвечать",
+          "ipa": "/otvʲetɕatʲ/",
+          "hints": {
+            "en": "отвечать",
+            "vi": "отвечать"
+          }
+        },
+        "vi": {
+          "text": "trả lời",
+          "ipa": "/tɕaː˧˩˧ ləːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "trả lời",
+            "en": "trả lời"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.call",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "call",
+          "ipa": "/kɔːl/",
+          "hints": {
+            "ru": "call",
+            "vi": "call"
+          }
+        },
+        "ru": {
+          "text": "звонить / называть",
+          "ipa": "/zvonʲitʲ nazɨvatʲ/",
+          "hints": {
+            "en": "звонить / называть",
+            "vi": "звонить / называть"
+          }
+        },
+        "vi": {
+          "text": "gọi",
+          "ipa": "/ɣɔj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "gọi",
+            "en": "gọi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.read",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "read",
+          "ipa": "/riːd/",
+          "hints": {
+            "ru": "read",
+            "vi": "read"
+          }
+        },
+        "ru": {
+          "text": "читать",
+          "ipa": "/tɕitatʲ/",
+          "hints": {
+            "en": "читать",
+            "vi": "читать"
+          }
+        },
+        "vi": {
+          "text": "đọc",
+          "ipa": "/ɗɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đọc",
+            "en": "đọc"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.write",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "write",
+          "ipa": "/raɪt/",
+          "hints": {
+            "ru": "write",
+            "vi": "write"
+          }
+        },
+        "ru": {
+          "text": "писать",
+          "ipa": "/pʲisatʲ/",
+          "hints": {
+            "en": "писать",
+            "vi": "писать"
+          }
+        },
+        "vi": {
+          "text": "viết",
+          "ipa": "/viət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "viết",
+            "en": "viết"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.eat",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "eat",
+          "ipa": "/iːt/",
+          "hints": {
+            "ru": "eat",
+            "vi": "eat"
+          }
+        },
+        "ru": {
+          "text": "есть",
+          "ipa": "/jestʲ/",
+          "hints": {
+            "en": "есть",
+            "vi": "есть"
+          }
+        },
+        "vi": {
+          "text": "ăn",
+          "ipa": "/an˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ăn",
+            "en": "ăn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.drink",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "drink",
+          "ipa": "/drɪŋk/",
+          "hints": {
+            "ru": "drink",
+            "vi": "drink"
+          }
+        },
+        "ru": {
+          "text": "пить",
+          "ipa": "/pʲitʲ/",
+          "hints": {
+            "en": "пить",
+            "vi": "пить"
+          }
+        },
+        "vi": {
+          "text": "uống",
+          "ipa": "/uəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "uống",
+            "en": "uống"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.cook",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "cook",
+          "ipa": "/kʊk/",
+          "hints": {
+            "ru": "cook",
+            "vi": "cook"
+          }
+        },
+        "ru": {
+          "text": "готовить",
+          "ipa": "/ɡotovʲitʲ/",
+          "hints": {
+            "en": "готовить",
+            "vi": "готовить"
+          }
+        },
+        "vi": {
+          "text": "nấu",
+          "ipa": "/nəu˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nấu",
+            "en": "nấu"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.buy",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "buy",
+          "ipa": "/baɪ/",
+          "hints": {
+            "ru": "buy",
+            "vi": "buy"
+          }
+        },
+        "ru": {
+          "text": "покупать",
+          "ipa": "/pokupatʲ/",
+          "hints": {
+            "en": "покупать",
+            "vi": "покупать"
+          }
+        },
+        "vi": {
+          "text": "mua",
+          "ipa": "/muə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mua",
+            "en": "mua"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.pay",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "pay",
+          "ipa": "/peɪ/",
+          "hints": {
+            "ru": "pay",
+            "vi": "pay"
+          }
+        },
+        "ru": {
+          "text": "платить",
+          "ipa": "/platʲitʲ/",
+          "hints": {
+            "en": "платить",
+            "vi": "платить"
+          }
+        },
+        "vi": {
+          "text": "trả tiền",
+          "ipa": "/tɕaː˧˩˧ tiən˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "trả tiền",
+            "en": "trả tiền"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.sell",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "sell",
+          "ipa": "/sel/",
+          "hints": {
+            "ru": "sell",
+            "vi": "sell"
+          }
+        },
+        "ru": {
+          "text": "продавать",
+          "ipa": "/prodavatʲ/",
+          "hints": {
+            "en": "продавать",
+            "vi": "продавать"
+          }
+        },
+        "vi": {
+          "text": "bán",
+          "ipa": "/ɓaːn˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bán",
+            "en": "bán"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.take",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "take",
+          "ipa": "/teɪk/",
+          "hints": {
+            "ru": "take",
+            "vi": "take"
+          }
+        },
+        "ru": {
+          "text": "брать",
+          "ipa": "/bratʲ/",
+          "hints": {
+            "en": "брать",
+            "vi": "брать"
+          }
+        },
+        "vi": {
+          "text": "lấy",
+          "ipa": "/ləj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lấy",
+            "en": "lấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.give",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "give",
+          "ipa": "/ɡɪv/",
+          "hints": {
+            "ru": "give",
+            "vi": "give"
+          }
+        },
+        "ru": {
+          "text": "давать",
+          "ipa": "/davatʲ/",
+          "hints": {
+            "en": "давать",
+            "vi": "давать"
+          }
+        },
+        "vi": {
+          "text": "cho",
+          "ipa": "/tɕɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cho",
+            "en": "cho"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.get",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "get",
+          "ipa": "/ɡet/",
+          "hints": {
+            "ru": "get",
+            "vi": "get"
+          }
+        },
+        "ru": {
+          "text": "получать / добираться",
+          "ipa": "/polutɕatʲ dobʲiratʲsʲa/",
+          "hints": {
+            "en": "получать / добираться",
+            "vi": "получать / добираться"
+          }
+        },
+        "vi": {
+          "text": "lấy / đến",
+          "ipa": "/ləj˧˥ ɗen˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lấy / đến",
+            "en": "lấy / đến"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.put",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "put",
+          "ipa": "/pʊt/",
+          "hints": {
+            "ru": "put",
+            "vi": "put"
+          }
+        },
+        "ru": {
+          "text": "класть",
+          "ipa": "/klastʲ/",
+          "hints": {
+            "en": "класть",
+            "vi": "класть"
+          }
+        },
+        "vi": {
+          "text": "đặt",
+          "ipa": "/ɗat˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đặt",
+            "en": "đặt"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.make",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "make",
+          "ipa": "/meɪk/",
+          "hints": {
+            "ru": "make",
+            "vi": "make"
+          }
+        },
+        "ru": {
+          "text": "делать / делать так",
+          "ipa": "/dʲelatʲ dʲelatʲ tak/",
+          "hints": {
+            "en": "делать / делать так",
+            "vi": "делать / делать так"
+          }
+        },
+        "vi": {
+          "text": "làm / tạo",
+          "ipa": "/laːm˨˩ taːw˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "làm / tạo",
+            "en": "làm / tạo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.use",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "use",
+          "ipa": "/juːz/",
+          "hints": {
+            "ru": "use",
+            "vi": "use"
+          }
+        },
+        "ru": {
+          "text": "использовать",
+          "ipa": "/ispolʲzovatʲ/",
+          "hints": {
+            "en": "использовать",
+            "vi": "использовать"
+          }
+        },
+        "vi": {
+          "text": "dùng",
+          "ipa": "/zuŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dùng",
+            "en": "dùng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.open",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "open",
+          "ipa": "/ˈəʊpən/",
+          "hints": {
+            "ru": "open",
+            "vi": "open"
+          }
+        },
+        "ru": {
+          "text": "открывать",
+          "ipa": "/otkrɨvatʲ/",
+          "hints": {
+            "en": "открывать",
+            "vi": "открывать"
+          }
+        },
+        "vi": {
+          "text": "mở",
+          "ipa": "/məː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mở",
+            "en": "mở"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.close",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "close",
+          "ipa": "/kləʊz/",
+          "hints": {
+            "ru": "close",
+            "vi": "close"
+          }
+        },
+        "ru": {
+          "text": "закрывать",
+          "ipa": "/zakrɨvatʲ/",
+          "hints": {
+            "en": "закрывать",
+            "vi": "закрывать"
+          }
+        },
+        "vi": {
+          "text": "đóng",
+          "ipa": "/ɗɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đóng",
+            "en": "đóng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.sit",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "sit",
+          "ipa": "/sɪt/",
+          "hints": {
+            "ru": "sit",
+            "vi": "sit"
+          }
+        },
+        "ru": {
+          "text": "сидеть",
+          "ipa": "/sʲidʲetʲ/",
+          "hints": {
+            "en": "сидеть",
+            "vi": "сидеть"
+          }
+        },
+        "vi": {
+          "text": "ngồi",
+          "ipa": "/ŋoj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ngồi",
+            "en": "ngồi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.stand",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "stand",
+          "ipa": "/stænd/",
+          "hints": {
+            "ru": "stand",
+            "vi": "stand"
+          }
+        },
+        "ru": {
+          "text": "стоять",
+          "ipa": "/stojatʲ/",
+          "hints": {
+            "en": "стоять",
+            "vi": "стоять"
+          }
+        },
+        "vi": {
+          "text": "đứng",
+          "ipa": "/ɗɨŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đứng",
+            "en": "đứng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.walk",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "walk",
+          "ipa": "/wɔːk/",
+          "hints": {
+            "ru": "walk",
+            "vi": "walk"
+          }
+        },
+        "ru": {
+          "text": "идти пешком",
+          "ipa": "/idtʲi pʲeʂkom/",
+          "hints": {
+            "en": "идти пешком",
+            "vi": "идти пешком"
+          }
+        },
+        "vi": {
+          "text": "đi bộ",
+          "ipa": "/ɗi˧ ɓo˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đi bộ",
+            "en": "đi bộ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.wait",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "wait",
+          "ipa": "/weɪt/",
+          "hints": {
+            "ru": "wait",
+            "vi": "wait"
+          }
+        },
+        "ru": {
+          "text": "ждать",
+          "ipa": "/ʐdatʲ/",
+          "hints": {
+            "en": "ждать",
+            "vi": "ждать"
+          }
+        },
+        "vi": {
+          "text": "chờ",
+          "ipa": "/tɕəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chờ",
+            "en": "chờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.help",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "help",
+          "ipa": "/help/",
+          "hints": {
+            "ru": "help",
+            "vi": "help"
+          }
+        },
+        "ru": {
+          "text": "помогать",
+          "ipa": "/pomoɡatʲ/",
+          "hints": {
+            "en": "помогать",
+            "vi": "помогать"
+          }
+        },
+        "vi": {
+          "text": "giúp",
+          "ipa": "/zup˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "giúp",
+            "en": "giúp"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.start",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "start",
+          "ipa": "/stɑːt/",
+          "hints": {
+            "ru": "start",
+            "vi": "start"
+          }
+        },
+        "ru": {
+          "text": "начинать",
+          "ipa": "/natɕinatʲ/",
+          "hints": {
+            "en": "начинать",
+            "vi": "начинать"
+          }
+        },
+        "vi": {
+          "text": "bắt đầu",
+          "ipa": "/ɓat˧˥ ɗəu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bắt đầu",
+            "en": "bắt đầu"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.stop",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "stop",
+          "ipa": "/stɒp/",
+          "hints": {
+            "ru": "stop",
+            "vi": "stop"
+          }
+        },
+        "ru": {
+          "text": "останавливать(ся)",
+          "ipa": "/ostanavlʲivatʲ sʲa/",
+          "hints": {
+            "en": "останавливать(ся)",
+            "vi": "останавливать(ся)"
+          }
+        },
+        "vi": {
+          "text": "dừng",
+          "ipa": "/zɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dừng",
+            "en": "dừng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.sleep",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "sleep",
+          "ipa": "/sliːp/",
+          "hints": {
+            "ru": "sleep",
+            "vi": "sleep"
+          }
+        },
+        "ru": {
+          "text": "спать",
+          "ipa": "/spatʲ/",
+          "hints": {
+            "en": "спать",
+            "vi": "спать"
+          }
+        },
+        "vi": {
+          "text": "ngủ",
+          "ipa": "/ŋu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngủ",
+            "en": "ngủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.wake",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "wake",
+          "ipa": "/weɪk/",
+          "hints": {
+            "ru": "wake",
+            "vi": "wake"
+          }
+        },
+        "ru": {
+          "text": "просыпаться / будить",
+          "ipa": "/prosɨpatʲsʲa budʲitʲ/",
+          "hints": {
+            "en": "просыпаться / будить",
+            "vi": "просыпаться / будить"
+          }
+        },
+        "vi": {
+          "text": "thức dậy",
+          "ipa": "/tʰɨc˧˥ zəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thức dậy",
+            "en": "thức dậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.feel",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "feel",
+          "ipa": "/fiːl/",
+          "hints": {
+            "ru": "feel",
+            "vi": "feel"
+          }
+        },
+        "ru": {
+          "text": "чувствовать",
+          "ipa": "/tɕuvstvovatʲ/",
+          "hints": {
+            "en": "чувствовать",
+            "vi": "чувствовать"
+          }
+        },
+        "vi": {
+          "text": "cảm thấy",
+          "ipa": "/kaːm˧˩˧ tʰəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cảm thấy",
+            "en": "cảm thấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.try",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "try",
+          "ipa": "/traɪ/",
+          "hints": {
+            "ru": "try",
+            "vi": "try"
+          }
+        },
+        "ru": {
+          "text": "пытаться",
+          "ipa": "/pɨtatʲsʲa/",
+          "hints": {
+            "en": "пытаться",
+            "vi": "пытаться"
+          }
+        },
+        "vi": {
+          "text": "thử",
+          "ipa": "/tʰɨ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thử",
+            "en": "thử"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.find",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "find",
+          "ipa": "/faɪnd/",
+          "hints": {
+            "ru": "find",
+            "vi": "find"
+          }
+        },
+        "ru": {
+          "text": "находить",
+          "ipa": "/naxodʲitʲ/",
+          "hints": {
+            "en": "находить",
+            "vi": "находить"
+          }
+        },
+        "vi": {
+          "text": "tìm thấy",
+          "ipa": "/tim˧˩ tʰəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tìm thấy",
+            "en": "tìm thấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.lose",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "lose",
+          "ipa": "/luːz/",
+          "hints": {
+            "ru": "lose",
+            "vi": "lose"
+          }
+        },
+        "ru": {
+          "text": "терять",
+          "ipa": "/tʲerʲatʲ/",
+          "hints": {
+            "en": "терять",
+            "vi": "терять"
+          }
+        },
+        "vi": {
+          "text": "mất",
+          "ipa": "/mət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mất",
+            "en": "mất"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.bring",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "bring",
+          "ipa": "/brɪŋ/",
+          "hints": {
+            "ru": "bring",
+            "vi": "bring"
+          }
+        },
+        "ru": {
+          "text": "приносить",
+          "ipa": "/prʲinosʲitʲ/",
+          "hints": {
+            "en": "приносить",
+            "vi": "приносить"
+          }
+        },
+        "vi": {
+          "text": "mang đến",
+          "ipa": "/maːŋ˧ ɗen˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mang đến",
+            "en": "mang đến"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.wear",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "wear",
+          "ipa": "/weə/",
+          "hints": {
+            "ru": "wear",
+            "vi": "wear"
+          }
+        },
+        "ru": {
+          "text": "носить (одежду)",
+          "ipa": "/nosʲitʲ odʲeʐdu/",
+          "hints": {
+            "en": "носить (одежду)",
+            "vi": "носить (одежду)"
+          }
+        },
+        "vi": {
+          "text": "mặc / đeo",
+          "ipa": "/mak˧ˀ ɗɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mặc / đeo",
+            "en": "mặc / đeo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.meet",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "meet",
+          "ipa": "/miːt/",
+          "hints": {
+            "ru": "meet",
+            "vi": "meet"
+          }
+        },
+        "ru": {
+          "text": "встречать",
+          "ipa": "/vstrʲetɕatʲ/",
+          "hints": {
+            "en": "встречать",
+            "vi": "встречать"
+          }
+        },
+        "vi": {
+          "text": "gặp",
+          "ipa": "/ɣap˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "gặp",
+            "en": "gặp"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.play",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "play",
+          "ipa": "/pleɪ/",
+          "hints": {
+            "ru": "play",
+            "vi": "play"
+          }
+        },
+        "ru": {
+          "text": "играть",
+          "ipa": "/iɡratʲ/",
+          "hints": {
+            "en": "играть",
+            "vi": "играть"
+          }
+        },
+        "vi": {
+          "text": "chơi",
+          "ipa": "/tɕəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chơi",
+            "en": "chơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.show",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "show",
+          "ipa": "/ʃəʊ/",
+          "hints": {
+            "ru": "show",
+            "vi": "show"
+          }
+        },
+        "ru": {
+          "text": "показывать",
+          "ipa": "/pokazɨvatʲ/",
+          "hints": {
+            "en": "показывать",
+            "vi": "показывать"
+          }
+        },
+        "vi": {
+          "text": "cho xem",
+          "ipa": "/tɕɔ˧ sɛm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cho xem",
+            "en": "cho xem"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.let",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "let",
+          "ipa": "/let/",
+          "hints": {
+            "ru": "let",
+            "vi": "let"
+          }
+        },
+        "ru": {
+          "text": "позволять",
+          "ipa": "/pozvolʲatʲ/",
+          "hints": {
+            "en": "позволять",
+            "vi": "позволять"
+          }
+        },
+        "vi": {
+          "text": "để / cho phép",
+          "ipa": "/ɗe˧˩˧ tɕɔ˧ fɛp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "để / cho phép",
+            "en": "để / cho phép"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.keep",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "verb"
+      ],
+      "grammar": {
+        "en": "Verb. Use a phrase with I/you.",
+        "ru": "Глагол. Учите во фразе.",
+        "vi": "Động từ. Học trong câu."
+      },
+      "texts": {
+        "en": {
+          "text": "keep",
+          "ipa": "/kiːp/",
+          "hints": {
+            "ru": "keep",
+            "vi": "keep"
+          }
+        },
+        "ru": {
+          "text": "хранить / продолжать",
+          "ipa": "/xranʲitʲ prodolʐatʲ/",
+          "hints": {
+            "en": "хранить / продолжать",
+            "vi": "хранить / продолжать"
+          }
+        },
+        "vi": {
+          "text": "giữ",
+          "ipa": "/zɨ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "giữ",
+            "en": "giữ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.i_go_home",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "I go home",
+          "ipa": "/aɪ ɡəʊ həʊm/",
+          "hints": {
+            "ru": "I go home",
+            "vi": "I go home"
+          }
+        },
+        "ru": {
+          "text": "Я иду домой",
+          "ipa": "/ja idu domoj/",
+          "hints": {
+            "en": "Я иду домой",
+            "vi": "Я иду домой"
+          }
+        },
+        "vi": {
+          "text": "Tôi về nhà",
+          "ipa": "/toj˧ ve˧˩ ɲa˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi về nhà",
+            "en": "Tôi về nhà"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.he_goes",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "He goes to work",
+          "ipa": "/hiː ɡəʊz tə wɜːk/",
+          "hints": {
+            "ru": "He goes to work",
+            "vi": "He goes to work"
+          }
+        },
+        "ru": {
+          "text": "Он ходит на работу",
+          "ipa": "/on xodʲit na rabotu/",
+          "hints": {
+            "en": "Он ходит на работу",
+            "vi": "Он ходит на работу"
+          }
+        },
+        "vi": {
+          "text": "Anh ấy đi làm",
+          "ipa": "/ajŋ˧ əj˧˥ ɗi˧ laːm˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Anh ấy đi làm",
+            "en": "Anh ấy đi làm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.i_went",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "I went home",
+          "ipa": "/aɪ went həʊm/",
+          "hints": {
+            "ru": "I went home",
+            "vi": "I went home"
+          }
+        },
+        "ru": {
+          "text": "Я пошёл домой",
+          "ipa": "/ja poʂol domoj/",
+          "hints": {
+            "en": "Я пошёл домой",
+            "vi": "Я пошёл домой"
+          }
+        },
+        "vi": {
+          "text": "Tôi đã về nhà",
+          "ipa": "/toj˧ ɗaː˧˥ˀ ve˧˩ ɲa˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đã về nhà",
+            "en": "Tôi đã về nhà"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.i_want_coffee",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "I want coffee",
+          "ipa": "/aɪ wɒnt ˈkɒfi/",
+          "hints": {
+            "ru": "I want coffee",
+            "vi": "I want coffee"
+          }
+        },
+        "ru": {
+          "text": "Я хочу кофе",
+          "ipa": "/ja xɐˈtɕu ˈkofʲe/",
+          "hints": {
+            "en": "Я хочу кофе",
+            "vi": "Я хочу кофе"
+          }
+        },
+        "vi": {
+          "text": "Tôi muốn cà phê",
+          "ipa": "/toj˧ muən˧˥ kaː˧˩ fe˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi muốn cà phê",
+            "en": "Tôi muốn cà phê"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.she_has",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "She has a cat",
+          "ipa": "/ʃiː hæz ə kæt/",
+          "hints": {
+            "ru": "She has a cat",
+            "vi": "She has a cat"
+          }
+        },
+        "ru": {
+          "text": "У неё есть кошка",
+          "ipa": "/u nʲejo jestʲ koʂka/",
+          "hints": {
+            "en": "У неё есть кошка",
+            "vi": "У неё есть кошка"
+          }
+        },
+        "vi": {
+          "text": "Cô ấy có một con mèo",
+          "ipa": "/ko˧ əj˧˥ kɔ˧˥ mot˧ˀ kɔn˧ mɛw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Cô ấy có một con mèo",
+            "en": "Cô ấy có một con mèo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.i_need_help",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "I need help",
+          "ipa": "/aɪ niːd help/",
+          "hints": {
+            "ru": "I need help",
+            "vi": "I need help"
+          }
+        },
+        "ru": {
+          "text": "Мне нужна помощь",
+          "ipa": "/mnʲe nuʐna pomoɕː/",
+          "hints": {
+            "en": "Мне нужна помощь",
+            "vi": "Мне нужна помощь"
+          }
+        },
+        "vi": {
+          "text": "Tôi cần giúp đỡ",
+          "ipa": "/toj˧ kən˧˩ zup˧˥ ɗəː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi cần giúp đỡ",
+            "en": "Tôi cần giúp đỡ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.please_wait",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "Please wait",
+          "ipa": "/pliːz weɪt/",
+          "hints": {
+            "ru": "Please wait",
+            "vi": "Please wait"
+          }
+        },
+        "ru": {
+          "text": "Подождите, пожалуйста",
+          "ipa": "/podoʐdʲitʲe pəˈʐaləstə/",
+          "hints": {
+            "en": "Подождите, пожалуйста",
+            "vi": "Подождите, пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "Làm ơn chờ",
+          "ipa": "/laːm˨˩ əːn˧ tɕəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Làm ơn chờ",
+            "en": "Làm ơn chờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verb.lets_go",
+      "kind": "sentence",
+      "theme": "verbs",
+      "tags": [
+        "verb",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Common verb phrase.",
+        "ru": "Частая глагольная фраза.",
+        "vi": "Cụm động từ thường gặp."
+      },
+      "texts": {
+        "en": {
+          "text": "Let's go",
+          "ipa": "/lets ɡəʊ/",
+          "hints": {
+            "ru": "Let's go",
+            "vi": "Let's go"
+          }
+        },
+        "ru": {
+          "text": "Пойдём",
+          "ipa": "/pojdʲom/",
+          "hints": {
+            "en": "Пойдём",
+            "vi": "Пойдём"
+          }
+        },
+        "vi": {
+          "text": "Đi thôi",
+          "ipa": "/ɗi˧ tʰoj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Đi thôi",
+            "en": "Đi thôi"
+          }
+        }
+      }
+    }
+  ]
+}

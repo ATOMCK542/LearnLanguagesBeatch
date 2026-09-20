@@ -1,0 +1,659 @@
+{
+  "theme": {
+    "id": "colors",
+    "kind": "unit",
+    "order": 92,
+    "title": {
+      "en": "Colors",
+      "ru": "Цвета",
+      "vi": "Màu sắc"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "col.red",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "red",
+          "ipa": "/red/",
+          "hints": {
+            "ru": "red",
+            "vi": "red"
+          }
+        },
+        "ru": {
+          "text": "красный",
+          "ipa": "/krasnɨj/",
+          "hints": {
+            "en": "красный",
+            "vi": "красный"
+          }
+        },
+        "vi": {
+          "text": "đỏ",
+          "ipa": "/ɗɔ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đỏ",
+            "en": "đỏ"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.blue",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "blue",
+          "ipa": "/bluː/",
+          "hints": {
+            "ru": "blue",
+            "vi": "blue"
+          }
+        },
+        "ru": {
+          "text": "синий",
+          "ipa": "/sʲinʲij/",
+          "hints": {
+            "en": "синий",
+            "vi": "синий"
+          }
+        },
+        "vi": {
+          "text": "xanh dương",
+          "ipa": "/sajŋ˧ zɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xanh dương",
+            "en": "xanh dương"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.green",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "green",
+          "ipa": "/green/",
+          "hints": {
+            "ru": "green",
+            "vi": "green"
+          }
+        },
+        "ru": {
+          "text": "зелёный",
+          "ipa": "/zʲelʲonɨj/",
+          "hints": {
+            "en": "зелёный",
+            "vi": "зелёный"
+          }
+        },
+        "vi": {
+          "text": "xanh lá",
+          "ipa": "/sajŋ˧ laː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xanh lá",
+            "en": "xanh lá"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.yellow",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "yellow",
+          "ipa": "/yellow/",
+          "hints": {
+            "ru": "yellow",
+            "vi": "yellow"
+          }
+        },
+        "ru": {
+          "text": "жёлтый",
+          "ipa": "/ʐoltɨj/",
+          "hints": {
+            "en": "жёлтый",
+            "vi": "жёлтый"
+          }
+        },
+        "vi": {
+          "text": "vàng",
+          "ipa": "/vaːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vàng",
+            "en": "vàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.black",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "black",
+          "ipa": "/black/",
+          "hints": {
+            "ru": "black",
+            "vi": "black"
+          }
+        },
+        "ru": {
+          "text": "чёрный",
+          "ipa": "/tɕornɨj/",
+          "hints": {
+            "en": "чёрный",
+            "vi": "чёрный"
+          }
+        },
+        "vi": {
+          "text": "đen",
+          "ipa": "/ɗɛn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đen",
+            "en": "đen"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.white",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "white",
+          "ipa": "/white/",
+          "hints": {
+            "ru": "white",
+            "vi": "white"
+          }
+        },
+        "ru": {
+          "text": "белый",
+          "ipa": "/bʲelɨj/",
+          "hints": {
+            "en": "белый",
+            "vi": "белый"
+          }
+        },
+        "vi": {
+          "text": "trắng",
+          "ipa": "/tɕaŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trắng",
+            "en": "trắng"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.orange",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "orange",
+          "ipa": "/orange/",
+          "hints": {
+            "ru": "orange",
+            "vi": "orange"
+          }
+        },
+        "ru": {
+          "text": "оранжевый",
+          "ipa": "/oranʐevɨj/",
+          "hints": {
+            "en": "оранжевый",
+            "vi": "оранжевый"
+          }
+        },
+        "vi": {
+          "text": "cam",
+          "ipa": "/kaːm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cam",
+            "en": "cam"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.pink",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pink",
+          "ipa": "/pink/",
+          "hints": {
+            "ru": "pink",
+            "vi": "pink"
+          }
+        },
+        "ru": {
+          "text": "розовый",
+          "ipa": "/rozovɨj/",
+          "hints": {
+            "en": "розовый",
+            "vi": "розовый"
+          }
+        },
+        "vi": {
+          "text": "hồng",
+          "ipa": "/hoŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hồng",
+            "en": "hồng"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.purple",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "purple",
+          "ipa": "/purple/",
+          "hints": {
+            "ru": "purple",
+            "vi": "purple"
+          }
+        },
+        "ru": {
+          "text": "фиолетовый",
+          "ipa": "/fʲiolʲetovɨj/",
+          "hints": {
+            "en": "фиолетовый",
+            "vi": "фиолетовый"
+          }
+        },
+        "vi": {
+          "text": "tím",
+          "ipa": "/tim˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tím",
+            "en": "tím"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.brown",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "brown",
+          "ipa": "/brown/",
+          "hints": {
+            "ru": "brown",
+            "vi": "brown"
+          }
+        },
+        "ru": {
+          "text": "коричневый",
+          "ipa": "/korʲitɕnʲevɨj/",
+          "hints": {
+            "en": "коричневый",
+            "vi": "коричневый"
+          }
+        },
+        "vi": {
+          "text": "nâu",
+          "ipa": "/nəu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nâu",
+            "en": "nâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.gray",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "gray",
+          "ipa": "/gray/",
+          "hints": {
+            "ru": "gray",
+            "vi": "gray"
+          }
+        },
+        "ru": {
+          "text": "серый",
+          "ipa": "/sʲerɨj/",
+          "hints": {
+            "en": "серый",
+            "vi": "серый"
+          }
+        },
+        "vi": {
+          "text": "xám",
+          "ipa": "/saːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xám",
+            "en": "xám"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.gold",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "gold",
+          "ipa": "/gold/",
+          "hints": {
+            "ru": "gold",
+            "vi": "gold"
+          }
+        },
+        "ru": {
+          "text": "золотой",
+          "ipa": "/zolotoj/",
+          "hints": {
+            "en": "золотой",
+            "vi": "золотой"
+          }
+        },
+        "vi": {
+          "text": "vàng kim",
+          "ipa": "/vaːŋ˧˩ kim˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vàng kim",
+            "en": "vàng kim"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.silver",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "silver",
+          "ipa": "/silver/",
+          "hints": {
+            "ru": "silver",
+            "vi": "silver"
+          }
+        },
+        "ru": {
+          "text": "серебряный",
+          "ipa": "/sʲerʲebrʲanɨj/",
+          "hints": {
+            "en": "серебряный",
+            "vi": "серебряный"
+          }
+        },
+        "vi": {
+          "text": "bạc",
+          "ipa": "/ɓaːk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bạc",
+            "en": "bạc"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.dark",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dark",
+          "ipa": "/dark/",
+          "hints": {
+            "ru": "dark",
+            "vi": "dark"
+          }
+        },
+        "ru": {
+          "text": "тёмный",
+          "ipa": "/tʲomnɨj/",
+          "hints": {
+            "en": "тёмный",
+            "vi": "тёмный"
+          }
+        },
+        "vi": {
+          "text": "tối",
+          "ipa": "/toj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tối",
+            "en": "tối"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.bright",
+      "kind": "word",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bright",
+          "ipa": "/bright/",
+          "hints": {
+            "ru": "bright",
+            "vi": "bright"
+          }
+        },
+        "ru": {
+          "text": "яркий",
+          "ipa": "/jarkʲij/",
+          "hints": {
+            "en": "яркий",
+            "vi": "яркий"
+          }
+        },
+        "vi": {
+          "text": "sáng",
+          "ipa": "/saːŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sáng",
+            "en": "sáng"
+          }
+        }
+      }
+    },
+    {
+      "id": "col.light_color",
+      "kind": "phrase",
+      "theme": "colors",
+      "tags": [
+        "theme:colors"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "light color",
+          "ipa": "/light ˈkʌlə/",
+          "hints": {
+            "ru": "light color",
+            "vi": "light color"
+          }
+        },
+        "ru": {
+          "text": "светлый",
+          "ipa": "/svʲetlɨj/",
+          "hints": {
+            "en": "светлый",
+            "vi": "светлый"
+          }
+        },
+        "vi": {
+          "text": "màu nhạt",
+          "ipa": "/maːw˨˩ ɲaːt˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "màu nhạt",
+            "en": "màu nhạt"
+          }
+        }
+      }
+    }
+  ]
+}

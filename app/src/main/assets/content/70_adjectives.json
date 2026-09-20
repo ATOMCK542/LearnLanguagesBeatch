@@ -1,0 +1,1780 @@
+{
+  "theme": {
+    "id": "adjectives",
+    "kind": "unit",
+    "order": 70,
+    "title": {
+      "en": "Adjectives",
+      "ru": "Прилагательные",
+      "vi": "Tính từ"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "adj.good",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "good",
+          "ipa": "/ɡʊd/",
+          "hints": {
+            "ru": "good",
+            "vi": "good"
+          }
+        },
+        "ru": {
+          "text": "хороший",
+          "ipa": "/xoroʂij/",
+          "hints": {
+            "en": "хороший",
+            "vi": "хороший"
+          }
+        },
+        "vi": {
+          "text": "tốt",
+          "ipa": "/tot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tốt",
+            "en": "tốt"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.bad",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "bad",
+          "ipa": "/bæd/",
+          "hints": {
+            "ru": "bad",
+            "vi": "bad"
+          }
+        },
+        "ru": {
+          "text": "плохой",
+          "ipa": "/ploxoj/",
+          "hints": {
+            "en": "плохой",
+            "vi": "плохой"
+          }
+        },
+        "vi": {
+          "text": "xấu",
+          "ipa": "/saw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xấu",
+            "en": "xấu"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.big",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "big",
+          "ipa": "/bɪɡ/",
+          "hints": {
+            "ru": "big",
+            "vi": "big"
+          }
+        },
+        "ru": {
+          "text": "большой",
+          "ipa": "/bolʲʂoj/",
+          "hints": {
+            "en": "большой",
+            "vi": "большой"
+          }
+        },
+        "vi": {
+          "text": "to",
+          "ipa": "/tɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "to",
+            "en": "to"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.small",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "small",
+          "ipa": "/smɔːl/",
+          "hints": {
+            "ru": "small",
+            "vi": "small"
+          }
+        },
+        "ru": {
+          "text": "маленький",
+          "ipa": "/malʲenʲkʲij/",
+          "hints": {
+            "en": "маленький",
+            "vi": "маленький"
+          }
+        },
+        "vi": {
+          "text": "nhỏ",
+          "ipa": "/ɲɔ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhỏ",
+            "en": "nhỏ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.new",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "new",
+          "ipa": "/njuː/",
+          "hints": {
+            "ru": "new",
+            "vi": "new"
+          }
+        },
+        "ru": {
+          "text": "новый",
+          "ipa": "/novɨj/",
+          "hints": {
+            "en": "новый",
+            "vi": "новый"
+          }
+        },
+        "vi": {
+          "text": "mới",
+          "ipa": "/məːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mới",
+            "en": "mới"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.old",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "old",
+          "ipa": "/əʊld/",
+          "hints": {
+            "ru": "old",
+            "vi": "old"
+          }
+        },
+        "ru": {
+          "text": "старый",
+          "ipa": "/starɨj/",
+          "hints": {
+            "en": "старый",
+            "vi": "старый"
+          }
+        },
+        "vi": {
+          "text": "cũ",
+          "ipa": "/ku˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cũ",
+            "en": "cũ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.young",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "young",
+          "ipa": "/jʌŋ/",
+          "hints": {
+            "ru": "young",
+            "vi": "young"
+          }
+        },
+        "ru": {
+          "text": "молодой",
+          "ipa": "/molodoj/",
+          "hints": {
+            "en": "молодой",
+            "vi": "молодой"
+          }
+        },
+        "vi": {
+          "text": "trẻ",
+          "ipa": "/tɕɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trẻ",
+            "en": "trẻ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.hot",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "hot",
+          "ipa": "/hɒt/",
+          "hints": {
+            "ru": "hot",
+            "vi": "hot"
+          }
+        },
+        "ru": {
+          "text": "горячий",
+          "ipa": "/ɡorʲatɕij/",
+          "hints": {
+            "en": "горячий",
+            "vi": "горячий"
+          }
+        },
+        "vi": {
+          "text": "nóng",
+          "ipa": "/nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nóng",
+            "en": "nóng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.cold",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "cold",
+          "ipa": "/kəʊld/",
+          "hints": {
+            "ru": "cold",
+            "vi": "cold"
+          }
+        },
+        "ru": {
+          "text": "холодный",
+          "ipa": "/xolodnɨj/",
+          "hints": {
+            "en": "холодный",
+            "vi": "холодный"
+          }
+        },
+        "vi": {
+          "text": "lạnh",
+          "ipa": "/lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "lạnh",
+            "en": "lạnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.warm",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "warm",
+          "ipa": "/wɔːm/",
+          "hints": {
+            "ru": "warm",
+            "vi": "warm"
+          }
+        },
+        "ru": {
+          "text": "тёплый",
+          "ipa": "/tʲoplɨj/",
+          "hints": {
+            "en": "тёплый",
+            "vi": "тёплый"
+          }
+        },
+        "vi": {
+          "text": "ấm",
+          "ipa": "/əm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ấm",
+            "en": "ấm"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.cool",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "cool",
+          "ipa": "/kuːl/",
+          "hints": {
+            "ru": "cool",
+            "vi": "cool"
+          }
+        },
+        "ru": {
+          "text": "прохладный",
+          "ipa": "/proxladnɨj/",
+          "hints": {
+            "en": "прохладный",
+            "vi": "прохладный"
+          }
+        },
+        "vi": {
+          "text": "mát",
+          "ipa": "/maːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mát",
+            "en": "mát"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.cheap",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "cheap",
+          "ipa": "/tʃiːp/",
+          "hints": {
+            "ru": "cheap",
+            "vi": "cheap"
+          }
+        },
+        "ru": {
+          "text": "дешёвый",
+          "ipa": "/dʲeʂovɨj/",
+          "hints": {
+            "en": "дешёвый",
+            "vi": "дешёвый"
+          }
+        },
+        "vi": {
+          "text": "rẻ",
+          "ipa": "/zɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "rẻ",
+            "en": "rẻ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.expensive",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "expensive",
+          "ipa": "/ɪkˈspensɪv/",
+          "hints": {
+            "ru": "expensive",
+            "vi": "expensive"
+          }
+        },
+        "ru": {
+          "text": "дорогой",
+          "ipa": "/doroɡoj/",
+          "hints": {
+            "en": "дорогой",
+            "vi": "дорогой"
+          }
+        },
+        "vi": {
+          "text": "đắt",
+          "ipa": "/ɗat˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đắt",
+            "en": "đắt"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.easy",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "easy",
+          "ipa": "/ˈiːzi/",
+          "hints": {
+            "ru": "easy",
+            "vi": "easy"
+          }
+        },
+        "ru": {
+          "text": "лёгкий",
+          "ipa": "/lʲoɡkʲij/",
+          "hints": {
+            "en": "лёгкий",
+            "vi": "лёгкий"
+          }
+        },
+        "vi": {
+          "text": "dễ",
+          "ipa": "/ze˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dễ",
+            "en": "dễ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.hard",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "hard",
+          "ipa": "/hɑːd/",
+          "hints": {
+            "ru": "hard",
+            "vi": "hard"
+          }
+        },
+        "ru": {
+          "text": "трудный",
+          "ipa": "/trudnɨj/",
+          "hints": {
+            "en": "трудный",
+            "vi": "трудный"
+          }
+        },
+        "vi": {
+          "text": "khó",
+          "ipa": "/xɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khó",
+            "en": "khó"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.fast",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "fast",
+          "ipa": "/fɑːst/",
+          "hints": {
+            "ru": "fast",
+            "vi": "fast"
+          }
+        },
+        "ru": {
+          "text": "быстрый",
+          "ipa": "/bɨstrɨj/",
+          "hints": {
+            "en": "быстрый",
+            "vi": "быстрый"
+          }
+        },
+        "vi": {
+          "text": "nhanh",
+          "ipa": "/ɲajŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhanh",
+            "en": "nhanh"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.slow",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "slow",
+          "ipa": "/sləʊ/",
+          "hints": {
+            "ru": "slow",
+            "vi": "slow"
+          }
+        },
+        "ru": {
+          "text": "медленный",
+          "ipa": "/mʲedlʲennɨj/",
+          "hints": {
+            "en": "медленный",
+            "vi": "медленный"
+          }
+        },
+        "vi": {
+          "text": "chậm",
+          "ipa": "/tɕəm˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chậm",
+            "en": "chậm"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.near",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "near",
+          "ipa": "/nɪə/",
+          "hints": {
+            "ru": "near",
+            "vi": "near"
+          }
+        },
+        "ru": {
+          "text": "близкий",
+          "ipa": "/blʲizkʲij/",
+          "hints": {
+            "en": "близкий",
+            "vi": "близкий"
+          }
+        },
+        "vi": {
+          "text": "gần",
+          "ipa": "/ɡən˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "gần",
+            "en": "gần"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.far",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "far",
+          "ipa": "/fɑː/",
+          "hints": {
+            "ru": "far",
+            "vi": "far"
+          }
+        },
+        "ru": {
+          "text": "далёкий",
+          "ipa": "/dalʲokʲij/",
+          "hints": {
+            "en": "далёкий",
+            "vi": "далёкий"
+          }
+        },
+        "vi": {
+          "text": "xa",
+          "ipa": "/saː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xa",
+            "en": "xa"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.open",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "open",
+          "ipa": "/ˈəʊpən/",
+          "hints": {
+            "ru": "open",
+            "vi": "open"
+          }
+        },
+        "ru": {
+          "text": "открытый",
+          "ipa": "/otkrɨtɨj/",
+          "hints": {
+            "en": "открытый",
+            "vi": "открытый"
+          }
+        },
+        "vi": {
+          "text": "mở",
+          "ipa": "/məː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mở",
+            "en": "mở"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.closed",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "closed",
+          "ipa": "/kləʊzd/",
+          "hints": {
+            "ru": "closed",
+            "vi": "closed"
+          }
+        },
+        "ru": {
+          "text": "закрытый",
+          "ipa": "/zakrɨtɨj/",
+          "hints": {
+            "en": "закрытый",
+            "vi": "закрытый"
+          }
+        },
+        "vi": {
+          "text": "đóng",
+          "ipa": "/ɗɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đóng",
+            "en": "đóng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.hungry",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "hungry",
+          "ipa": "/ˈhʌŋɡri/",
+          "hints": {
+            "ru": "hungry",
+            "vi": "hungry"
+          }
+        },
+        "ru": {
+          "text": "голодный",
+          "ipa": "/ɡolodnɨj/",
+          "hints": {
+            "en": "голодный",
+            "vi": "голодный"
+          }
+        },
+        "vi": {
+          "text": "đói",
+          "ipa": "/ɗɔj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đói",
+            "en": "đói"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.thirsty",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "thirsty",
+          "ipa": "/ˈθɜːsti/",
+          "hints": {
+            "ru": "thirsty",
+            "vi": "thirsty"
+          }
+        },
+        "ru": {
+          "text": "хочет пить",
+          "ipa": "/xotɕet pʲitʲ/",
+          "hints": {
+            "en": "хочет пить",
+            "vi": "хочет пить"
+          }
+        },
+        "vi": {
+          "text": "khát",
+          "ipa": "/xaːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khát",
+            "en": "khát"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.tired",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "tired",
+          "ipa": "/ˈtaɪəd/",
+          "hints": {
+            "ru": "tired",
+            "vi": "tired"
+          }
+        },
+        "ru": {
+          "text": "уставший",
+          "ipa": "/ustavʂij/",
+          "hints": {
+            "en": "уставший",
+            "vi": "уставший"
+          }
+        },
+        "vi": {
+          "text": "mệt",
+          "ipa": "/met˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mệt",
+            "en": "mệt"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.happy",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "happy",
+          "ipa": "/ˈhæpi/",
+          "hints": {
+            "ru": "happy",
+            "vi": "happy"
+          }
+        },
+        "ru": {
+          "text": "счастливый",
+          "ipa": "/stɕastlʲivɨj/",
+          "hints": {
+            "en": "счастливый",
+            "vi": "счастливый"
+          }
+        },
+        "vi": {
+          "text": "vui",
+          "ipa": "/vuj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vui",
+            "en": "vui"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.sad",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "sad",
+          "ipa": "/sæd/",
+          "hints": {
+            "ru": "sad",
+            "vi": "sad"
+          }
+        },
+        "ru": {
+          "text": "грустный",
+          "ipa": "/ɡrustnɨj/",
+          "hints": {
+            "en": "грустный",
+            "vi": "грустный"
+          }
+        },
+        "vi": {
+          "text": "buồn",
+          "ipa": "/ɓuən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "buồn",
+            "en": "buồn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.beautiful",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "beautiful",
+          "ipa": "/ˈbjuːtɪfəl/",
+          "hints": {
+            "ru": "beautiful",
+            "vi": "beautiful"
+          }
+        },
+        "ru": {
+          "text": "красивый",
+          "ipa": "/krasʲivɨj/",
+          "hints": {
+            "en": "красивый",
+            "vi": "красивый"
+          }
+        },
+        "vi": {
+          "text": "đẹp",
+          "ipa": "/ɗɛp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đẹp",
+            "en": "đẹp"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.delicious",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "delicious",
+          "ipa": "/dɪˈlɪʃəs/",
+          "hints": {
+            "ru": "delicious",
+            "vi": "delicious"
+          }
+        },
+        "ru": {
+          "text": "вкусный",
+          "ipa": "/vkusnɨj/",
+          "hints": {
+            "en": "вкусный",
+            "vi": "вкусный"
+          }
+        },
+        "vi": {
+          "text": "ngon",
+          "ipa": "/ŋɔn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngon",
+            "en": "ngon"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.right",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "right",
+          "ipa": "/raɪt/",
+          "hints": {
+            "ru": "right",
+            "vi": "right"
+          }
+        },
+        "ru": {
+          "text": "правильный",
+          "ipa": "/pravʲilʲnɨj/",
+          "hints": {
+            "en": "правильный",
+            "vi": "правильный"
+          }
+        },
+        "vi": {
+          "text": "đúng",
+          "ipa": "/ɗuŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đúng",
+            "en": "đúng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.wrong",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "wrong",
+          "ipa": "/rɒŋ/",
+          "hints": {
+            "ru": "wrong",
+            "vi": "wrong"
+          }
+        },
+        "ru": {
+          "text": "неправильный",
+          "ipa": "/nʲepravʲilʲnɨj/",
+          "hints": {
+            "en": "неправильный",
+            "vi": "неправильный"
+          }
+        },
+        "vi": {
+          "text": "sai",
+          "ipa": "/saːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sai",
+            "en": "sai"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.clean",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "clean",
+          "ipa": "/kliːn/",
+          "hints": {
+            "ru": "clean",
+            "vi": "clean"
+          }
+        },
+        "ru": {
+          "text": "чистый",
+          "ipa": "/tɕistɨj/",
+          "hints": {
+            "en": "чистый",
+            "vi": "чистый"
+          }
+        },
+        "vi": {
+          "text": "sạch",
+          "ipa": "/sajk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sạch",
+            "en": "sạch"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.dirty",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "dirty",
+          "ipa": "/ˈdɜːti/",
+          "hints": {
+            "ru": "dirty",
+            "vi": "dirty"
+          }
+        },
+        "ru": {
+          "text": "грязный",
+          "ipa": "/ɡrʲaznɨj/",
+          "hints": {
+            "en": "грязный",
+            "vi": "грязный"
+          }
+        },
+        "vi": {
+          "text": "bẩn",
+          "ipa": "/ɓən˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bẩn",
+            "en": "bẩn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.full",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "full",
+          "ipa": "/fʊl/",
+          "hints": {
+            "ru": "full",
+            "vi": "full"
+          }
+        },
+        "ru": {
+          "text": "полный",
+          "ipa": "/polnɨj/",
+          "hints": {
+            "en": "полный",
+            "vi": "полный"
+          }
+        },
+        "vi": {
+          "text": "đầy",
+          "ipa": "/ɗəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đầy",
+            "en": "đầy"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.empty",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "empty",
+          "ipa": "/ˈempti/",
+          "hints": {
+            "ru": "empty",
+            "vi": "empty"
+          }
+        },
+        "ru": {
+          "text": "пустой",
+          "ipa": "/pustoj/",
+          "hints": {
+            "en": "пустой",
+            "vi": "пустой"
+          }
+        },
+        "vi": {
+          "text": "rỗng",
+          "ipa": "/zoŋ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "rỗng",
+            "en": "rỗng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.early",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "early",
+          "ipa": "/ˈɜːli/",
+          "hints": {
+            "ru": "early",
+            "vi": "early"
+          }
+        },
+        "ru": {
+          "text": "ранний",
+          "ipa": "/rannʲij/",
+          "hints": {
+            "en": "ранний",
+            "vi": "ранний"
+          }
+        },
+        "vi": {
+          "text": "sớm",
+          "ipa": "/səːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sớm",
+            "en": "sớm"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.late",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "late",
+          "ipa": "/leɪt/",
+          "hints": {
+            "ru": "late",
+            "vi": "late"
+          }
+        },
+        "ru": {
+          "text": "поздний",
+          "ipa": "/pozdnʲij/",
+          "hints": {
+            "en": "поздний",
+            "vi": "поздний"
+          }
+        },
+        "vi": {
+          "text": "muộn",
+          "ipa": "/muən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "muộn",
+            "en": "muộn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.busy",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "busy",
+          "ipa": "/ˈbɪzi/",
+          "hints": {
+            "ru": "busy",
+            "vi": "busy"
+          }
+        },
+        "ru": {
+          "text": "занятый",
+          "ipa": "/zanʲatɨj/",
+          "hints": {
+            "en": "занятый",
+            "vi": "занятый"
+          }
+        },
+        "vi": {
+          "text": "bận",
+          "ipa": "/ɓən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bận",
+            "en": "bận"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.ready",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "ready",
+          "ipa": "/ˈredi/",
+          "hints": {
+            "ru": "ready",
+            "vi": "ready"
+          }
+        },
+        "ru": {
+          "text": "готовый",
+          "ipa": "/ɡotovɨj/",
+          "hints": {
+            "en": "готовый",
+            "vi": "готовый"
+          }
+        },
+        "vi": {
+          "text": "sẵn sàng",
+          "ipa": "/sən˧˩˧ saːŋ˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "sẵn sàng",
+            "en": "sẵn sàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.important",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "important",
+          "ipa": "/ɪmˈpɔːtənt/",
+          "hints": {
+            "ru": "important",
+            "vi": "important"
+          }
+        },
+        "ru": {
+          "text": "важный",
+          "ipa": "/vaʐnɨj/",
+          "hints": {
+            "en": "важный",
+            "vi": "важный"
+          }
+        },
+        "vi": {
+          "text": "quan trọng",
+          "ipa": "/kwaːn˧ tɕɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "quan trọng",
+            "en": "quan trọng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.same",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "same",
+          "ipa": "/seɪm/",
+          "hints": {
+            "ru": "same",
+            "vi": "same"
+          }
+        },
+        "ru": {
+          "text": "такой же",
+          "ipa": "/takoj ʐe/",
+          "hints": {
+            "en": "такой же",
+            "vi": "такой же"
+          }
+        },
+        "vi": {
+          "text": "giống",
+          "ipa": "/zoŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "giống",
+            "en": "giống"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.different",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "different",
+          "ipa": "/ˈdɪfrənt/",
+          "hints": {
+            "ru": "different",
+            "vi": "different"
+          }
+        },
+        "ru": {
+          "text": "разный",
+          "ipa": "/raznɨj/",
+          "hints": {
+            "en": "разный",
+            "vi": "разный"
+          }
+        },
+        "vi": {
+          "text": "khác",
+          "ipa": "/xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khác",
+            "en": "khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.next",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "next",
+          "ipa": "/nekst/",
+          "hints": {
+            "ru": "next",
+            "vi": "next"
+          }
+        },
+        "ru": {
+          "text": "следующий",
+          "ipa": "/slʲedujuɕːij/",
+          "hints": {
+            "en": "следующий",
+            "vi": "следующий"
+          }
+        },
+        "vi": {
+          "text": "tiếp theo",
+          "ipa": "/tiep˧˥ tʰɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tiếp theo",
+            "en": "tiếp theo"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.last",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "adjective"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "last",
+          "ipa": "/lɑːst/",
+          "hints": {
+            "ru": "last",
+            "vi": "last"
+          }
+        },
+        "ru": {
+          "text": "последний",
+          "ipa": "/poslʲednʲij/",
+          "hints": {
+            "en": "последний",
+            "vi": "последний"
+          }
+        },
+        "vi": {
+          "text": "cuối",
+          "ipa": "/kuəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cuối",
+            "en": "cuối"
+          }
+        }
+      }
+    },
+    {
+      "id": "adj.it_is_good",
+      "kind": "sentence",
+      "theme": "adjectives",
+      "tags": [
+        "adjective",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Adjective. Often after be.",
+        "ru": "Прилагательное. Часто после be.",
+        "vi": "Tính từ. Thường sau be."
+      },
+      "texts": {
+        "en": {
+          "text": "It is good",
+          "ipa": "/ɪt ɪz ɡʊd/",
+          "hints": {
+            "ru": "ит из гуд",
+            "vi": "it iz gud"
+          }
+        },
+        "ru": {
+          "text": "Это хорошо",
+          "ipa": "/eto xərɐˈʂo/",
+          "hints": {
+            "en": "eto khorosho",
+            "vi": "eto khorosho"
+          }
+        },
+        "vi": {
+          "text": "Nó tốt",
+          "ipa": "/nɔ˧˥ tot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "но тот",
+            "en": "no tot"
+          }
+        }
+      }
+    }
+  ]
+}

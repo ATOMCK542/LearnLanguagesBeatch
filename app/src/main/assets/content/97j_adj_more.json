@@ -1,0 +1,2819 @@
+{
+  "theme": {
+    "id": "adjectives",
+    "kind": "unit",
+    "order": 70,
+    "title": {
+      "en": "Adjectives",
+      "ru": "Прилагательные",
+      "vi": "Tính từ"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "adjx.strong",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "strong",
+          "ipa": "/strong/",
+          "hints": {
+            "ru": "strong",
+            "vi": "strong"
+          }
+        },
+        "ru": {
+          "text": "сильный",
+          "ipa": "/sʲilʲnɨj/",
+          "hints": {
+            "en": "сильный",
+            "vi": "сильный"
+          }
+        },
+        "vi": {
+          "text": "mạnh",
+          "ipa": "/majŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mạnh",
+            "en": "mạnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.weak",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "weak",
+          "ipa": "/weak/",
+          "hints": {
+            "ru": "weak",
+            "vi": "weak"
+          }
+        },
+        "ru": {
+          "text": "слабый",
+          "ipa": "/slabɨj/",
+          "hints": {
+            "en": "слабый",
+            "vi": "слабый"
+          }
+        },
+        "vi": {
+          "text": "yếu",
+          "ipa": "/iəw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "yếu",
+            "en": "yếu"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.heavy",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "heavy",
+          "ipa": "/heavy/",
+          "hints": {
+            "ru": "heavy",
+            "vi": "heavy"
+          }
+        },
+        "ru": {
+          "text": "тяжёлый",
+          "ipa": "/tʲaʐolɨj/",
+          "hints": {
+            "en": "тяжёлый",
+            "vi": "тяжёлый"
+          }
+        },
+        "vi": {
+          "text": "nặng",
+          "ipa": "/naŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nặng",
+            "en": "nặng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.light_weight",
+      "kind": "phrase",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "light weight",
+          "ipa": "/laɪt weɪt/",
+          "hints": {
+            "ru": "light weight",
+            "vi": "light weight"
+          }
+        },
+        "ru": {
+          "text": "лёгкий",
+          "ipa": "/lʲoɡkʲij/",
+          "hints": {
+            "en": "лёгкий",
+            "vi": "лёгкий"
+          }
+        },
+        "vi": {
+          "text": "nhẹ",
+          "ipa": "/ɲɛ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhẹ",
+            "en": "nhẹ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.long",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "long",
+          "ipa": "/lɒŋ/",
+          "hints": {
+            "ru": "long",
+            "vi": "long"
+          }
+        },
+        "ru": {
+          "text": "длинный",
+          "ipa": "/dlʲinnɨj/",
+          "hints": {
+            "en": "длинный",
+            "vi": "длинный"
+          }
+        },
+        "vi": {
+          "text": "dài",
+          "ipa": "/zaːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dài",
+            "en": "dài"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.short",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "short",
+          "ipa": "/short/",
+          "hints": {
+            "ru": "short",
+            "vi": "short"
+          }
+        },
+        "ru": {
+          "text": "короткий",
+          "ipa": "/korotkʲij/",
+          "hints": {
+            "en": "короткий",
+            "vi": "короткий"
+          }
+        },
+        "vi": {
+          "text": "ngắn",
+          "ipa": "/ŋan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ngắn",
+            "en": "ngắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.tall",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tall",
+          "ipa": "/tall/",
+          "hints": {
+            "ru": "tall",
+            "vi": "tall"
+          }
+        },
+        "ru": {
+          "text": "высокий",
+          "ipa": "/vɨsokʲij/",
+          "hints": {
+            "en": "высокий",
+            "vi": "высокий"
+          }
+        },
+        "vi": {
+          "text": "cao",
+          "ipa": "/kaːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cao",
+            "en": "cao"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.wide",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wide",
+          "ipa": "/wide/",
+          "hints": {
+            "ru": "wide",
+            "vi": "wide"
+          }
+        },
+        "ru": {
+          "text": "широкий",
+          "ipa": "/ʂirokʲij/",
+          "hints": {
+            "en": "широкий",
+            "vi": "широкий"
+          }
+        },
+        "vi": {
+          "text": "rộng",
+          "ipa": "/zoŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "rộng",
+            "en": "rộng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.narrow",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "narrow",
+          "ipa": "/narrow/",
+          "hints": {
+            "ru": "narrow",
+            "vi": "narrow"
+          }
+        },
+        "ru": {
+          "text": "узкий",
+          "ipa": "/uzkʲij/",
+          "hints": {
+            "en": "узкий",
+            "vi": "узкий"
+          }
+        },
+        "vi": {
+          "text": "hẹp",
+          "ipa": "/hɛp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hẹp",
+            "en": "hẹp"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.deep",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "deep",
+          "ipa": "/deep/",
+          "hints": {
+            "ru": "deep",
+            "vi": "deep"
+          }
+        },
+        "ru": {
+          "text": "глубокий",
+          "ipa": "/ɡlubokʲij/",
+          "hints": {
+            "en": "глубокий",
+            "vi": "глубокий"
+          }
+        },
+        "vi": {
+          "text": "sâu",
+          "ipa": "/səu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sâu",
+            "en": "sâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.thick",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thick",
+          "ipa": "/thick/",
+          "hints": {
+            "ru": "thick",
+            "vi": "thick"
+          }
+        },
+        "ru": {
+          "text": "толстый",
+          "ipa": "/tolstɨj/",
+          "hints": {
+            "en": "толстый",
+            "vi": "толстый"
+          }
+        },
+        "vi": {
+          "text": "dày",
+          "ipa": "/zaj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dày",
+            "en": "dày"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.thin",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thin",
+          "ipa": "/thin/",
+          "hints": {
+            "ru": "thin",
+            "vi": "thin"
+          }
+        },
+        "ru": {
+          "text": "тонкий",
+          "ipa": "/tonkʲij/",
+          "hints": {
+            "en": "тонкий",
+            "vi": "тонкий"
+          }
+        },
+        "vi": {
+          "text": "mỏng",
+          "ipa": "/mɔŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mỏng",
+            "en": "mỏng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.soft",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "soft",
+          "ipa": "/soft/",
+          "hints": {
+            "ru": "soft",
+            "vi": "soft"
+          }
+        },
+        "ru": {
+          "text": "мягкий",
+          "ipa": "/mʲaɡkʲij/",
+          "hints": {
+            "en": "мягкий",
+            "vi": "мягкий"
+          }
+        },
+        "vi": {
+          "text": "mềm",
+          "ipa": "/mem˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mềm",
+            "en": "mềm"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.hard_material",
+      "kind": "phrase",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hard material",
+          "ipa": "/hɑːd məˈtɪəriəl/",
+          "hints": {
+            "ru": "hard material",
+            "vi": "hard material"
+          }
+        },
+        "ru": {
+          "text": "твёрдый",
+          "ipa": "/tvʲordɨj/",
+          "hints": {
+            "en": "твёрдый",
+            "vi": "твёрдый"
+          }
+        },
+        "vi": {
+          "text": "cứng",
+          "ipa": "/kɨŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cứng",
+            "en": "cứng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.smooth",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "smooth",
+          "ipa": "/smooth/",
+          "hints": {
+            "ru": "smooth",
+            "vi": "smooth"
+          }
+        },
+        "ru": {
+          "text": "гладкий",
+          "ipa": "/ɡladkʲij/",
+          "hints": {
+            "en": "гладкий",
+            "vi": "гладкий"
+          }
+        },
+        "vi": {
+          "text": "mịn",
+          "ipa": "/min˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mịn",
+            "en": "mịn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.rough",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rough",
+          "ipa": "/rough/",
+          "hints": {
+            "ru": "rough",
+            "vi": "rough"
+          }
+        },
+        "ru": {
+          "text": "шершавый",
+          "ipa": "/ʂerʂavɨj/",
+          "hints": {
+            "en": "шершавый",
+            "vi": "шершавый"
+          }
+        },
+        "vi": {
+          "text": "nhám",
+          "ipa": "/ɲaːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhám",
+            "en": "nhám"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.sharp",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sharp",
+          "ipa": "/sharp/",
+          "hints": {
+            "ru": "sharp",
+            "vi": "sharp"
+          }
+        },
+        "ru": {
+          "text": "острый",
+          "ipa": "/ostrɨj/",
+          "hints": {
+            "en": "острый",
+            "vi": "острый"
+          }
+        },
+        "vi": {
+          "text": "sắc",
+          "ipa": "/sak˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sắc",
+            "en": "sắc"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.flat",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "flat",
+          "ipa": "/flat/",
+          "hints": {
+            "ru": "flat",
+            "vi": "flat"
+          }
+        },
+        "ru": {
+          "text": "плоский",
+          "ipa": "/ploskʲij/",
+          "hints": {
+            "en": "плоский",
+            "vi": "плоский"
+          }
+        },
+        "vi": {
+          "text": "phẳng",
+          "ipa": "/faŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phẳng",
+            "en": "phẳng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.round",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "round",
+          "ipa": "/round/",
+          "hints": {
+            "ru": "round",
+            "vi": "round"
+          }
+        },
+        "ru": {
+          "text": "круглый",
+          "ipa": "/kruɡlɨj/",
+          "hints": {
+            "en": "круглый",
+            "vi": "круглый"
+          }
+        },
+        "vi": {
+          "text": "tròn",
+          "ipa": "/tɕɔn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tròn",
+            "en": "tròn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.square_shape",
+      "kind": "phrase",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "square shape",
+          "ipa": "/skweə ʃeɪp/",
+          "hints": {
+            "ru": "square shape",
+            "vi": "square shape"
+          }
+        },
+        "ru": {
+          "text": "квадратный",
+          "ipa": "/kvadratnɨj/",
+          "hints": {
+            "en": "квадратный",
+            "vi": "квадратный"
+          }
+        },
+        "vi": {
+          "text": "vuông",
+          "ipa": "/vuəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vuông",
+            "en": "vuông"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.rich",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rich",
+          "ipa": "/rich/",
+          "hints": {
+            "ru": "rich",
+            "vi": "rich"
+          }
+        },
+        "ru": {
+          "text": "богатый",
+          "ipa": "/boɡatɨj/",
+          "hints": {
+            "en": "богатый",
+            "vi": "богатый"
+          }
+        },
+        "vi": {
+          "text": "giàu",
+          "ipa": "/zaw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "giàu",
+            "en": "giàu"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.poor",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "poor",
+          "ipa": "/poor/",
+          "hints": {
+            "ru": "poor",
+            "vi": "poor"
+          }
+        },
+        "ru": {
+          "text": "бедный",
+          "ipa": "/bʲednɨj/",
+          "hints": {
+            "en": "бедный",
+            "vi": "бедный"
+          }
+        },
+        "vi": {
+          "text": "nghèo",
+          "ipa": "/ŋɛw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nghèo",
+            "en": "nghèo"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.famous",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "famous",
+          "ipa": "/famous/",
+          "hints": {
+            "ru": "famous",
+            "vi": "famous"
+          }
+        },
+        "ru": {
+          "text": "известный",
+          "ipa": "/izvʲestnɨj/",
+          "hints": {
+            "en": "известный",
+            "vi": "известный"
+          }
+        },
+        "vi": {
+          "text": "nổi tiếng",
+          "ipa": "/noj˧˩˧ tiəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nổi tiếng",
+            "en": "nổi tiếng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.popular",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "popular",
+          "ipa": "/popular/",
+          "hints": {
+            "ru": "popular",
+            "vi": "popular"
+          }
+        },
+        "ru": {
+          "text": "популярный",
+          "ipa": "/populʲarnɨj/",
+          "hints": {
+            "en": "популярный",
+            "vi": "популярный"
+          }
+        },
+        "vi": {
+          "text": "phổ biến",
+          "ipa": "/fo˧˩˧ ɓiən˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "phổ biến",
+            "en": "phổ biến"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.special",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "special",
+          "ipa": "/special/",
+          "hints": {
+            "ru": "special",
+            "vi": "special"
+          }
+        },
+        "ru": {
+          "text": "особенный",
+          "ipa": "/osobʲennɨj/",
+          "hints": {
+            "en": "особенный",
+            "vi": "особенный"
+          }
+        },
+        "vi": {
+          "text": "đặc biệt",
+          "ipa": "/ɗak˧ˀ ɓiət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đặc biệt",
+            "en": "đặc biệt"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.normal",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "normal",
+          "ipa": "/normal/",
+          "hints": {
+            "ru": "normal",
+            "vi": "normal"
+          }
+        },
+        "ru": {
+          "text": "обычный",
+          "ipa": "/obɨtɕnɨj/",
+          "hints": {
+            "en": "обычный",
+            "vi": "обычный"
+          }
+        },
+        "vi": {
+          "text": "bình thường",
+          "ipa": "/ɓiɲ˧˩ tʰɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bình thường",
+            "en": "bình thường"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.strange",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "strange",
+          "ipa": "/strange/",
+          "hints": {
+            "ru": "strange",
+            "vi": "strange"
+          }
+        },
+        "ru": {
+          "text": "странный",
+          "ipa": "/strannɨj/",
+          "hints": {
+            "en": "странный",
+            "vi": "странный"
+          }
+        },
+        "vi": {
+          "text": "lạ",
+          "ipa": "/laː˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "lạ",
+            "en": "lạ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.funny",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "funny",
+          "ipa": "/funny/",
+          "hints": {
+            "ru": "funny",
+            "vi": "funny"
+          }
+        },
+        "ru": {
+          "text": "смешной",
+          "ipa": "/smʲeʂnoj/",
+          "hints": {
+            "en": "смешной",
+            "vi": "смешной"
+          }
+        },
+        "vi": {
+          "text": "buồn cười",
+          "ipa": "/ɓuən˧˩ kɨəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "buồn cười",
+            "en": "buồn cười"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.serious",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "serious",
+          "ipa": "/serious/",
+          "hints": {
+            "ru": "serious",
+            "vi": "serious"
+          }
+        },
+        "ru": {
+          "text": "серьёзный",
+          "ipa": "/sʲerʲjoznɨj/",
+          "hints": {
+            "en": "серьёзный",
+            "vi": "серьёзный"
+          }
+        },
+        "vi": {
+          "text": "nghiêm túc",
+          "ipa": "/ŋiəm˧ tuc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nghiêm túc",
+            "en": "nghiêm túc"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.kind",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "kind",
+          "ipa": "/kaɪnd/",
+          "hints": {
+            "ru": "kind",
+            "vi": "kind"
+          }
+        },
+        "ru": {
+          "text": "добрый",
+          "ipa": "/dobrɨj/",
+          "hints": {
+            "en": "добрый",
+            "vi": "добрый"
+          }
+        },
+        "vi": {
+          "text": "tử tế",
+          "ipa": "/tɨ˧˩˧ te˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tử tế",
+            "en": "tử tế"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.polite",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "polite",
+          "ipa": "/polite/",
+          "hints": {
+            "ru": "polite",
+            "vi": "polite"
+          }
+        },
+        "ru": {
+          "text": "вежливый",
+          "ipa": "/vʲeʐlʲivɨj/",
+          "hints": {
+            "en": "вежливый",
+            "vi": "вежливый"
+          }
+        },
+        "vi": {
+          "text": "lịch sự",
+          "ipa": "/lik˧ˀ sɨ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "lịch sự",
+            "en": "lịch sự"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.rude",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rude",
+          "ipa": "/rude/",
+          "hints": {
+            "ru": "rude",
+            "vi": "rude"
+          }
+        },
+        "ru": {
+          "text": "грубый",
+          "ipa": "/ɡrubɨj/",
+          "hints": {
+            "en": "грубый",
+            "vi": "грубый"
+          }
+        },
+        "vi": {
+          "text": "thô lỗ",
+          "ipa": "/tʰo˧ lo˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thô lỗ",
+            "en": "thô lỗ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.honest",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "honest",
+          "ipa": "/honest/",
+          "hints": {
+            "ru": "honest",
+            "vi": "honest"
+          }
+        },
+        "ru": {
+          "text": "честный",
+          "ipa": "/tɕestnɨj/",
+          "hints": {
+            "en": "честный",
+            "vi": "честный"
+          }
+        },
+        "vi": {
+          "text": "thành thật",
+          "ipa": "/tʰajŋ˧˩ tʰət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thành thật",
+            "en": "thành thật"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.brave",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "brave",
+          "ipa": "/brave/",
+          "hints": {
+            "ru": "brave",
+            "vi": "brave"
+          }
+        },
+        "ru": {
+          "text": "храбрый",
+          "ipa": "/xrabrɨj/",
+          "hints": {
+            "en": "храбрый",
+            "vi": "храбрый"
+          }
+        },
+        "vi": {
+          "text": "dũng cảm",
+          "ipa": "/zuŋ˧˥ˀ kaːm˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dũng cảm",
+            "en": "dũng cảm"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.afraid",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "afraid",
+          "ipa": "/afraid/",
+          "hints": {
+            "ru": "afraid",
+            "vi": "afraid"
+          }
+        },
+        "ru": {
+          "text": "испуганный",
+          "ipa": "/ispuɡannɨj/",
+          "hints": {
+            "en": "испуганный",
+            "vi": "испуганный"
+          }
+        },
+        "vi": {
+          "text": "sợ",
+          "ipa": "/səː˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sợ",
+            "en": "sợ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.angry",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "angry",
+          "ipa": "/angry/",
+          "hints": {
+            "ru": "angry",
+            "vi": "angry"
+          }
+        },
+        "ru": {
+          "text": "злой",
+          "ipa": "/zloj/",
+          "hints": {
+            "en": "злой",
+            "vi": "злой"
+          }
+        },
+        "vi": {
+          "text": "tức giận",
+          "ipa": "/tɨc˧˥ zən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tức giận",
+            "en": "tức giận"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.calm",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "calm",
+          "ipa": "/calm/",
+          "hints": {
+            "ru": "calm",
+            "vi": "calm"
+          }
+        },
+        "ru": {
+          "text": "спокойный",
+          "ipa": "/spokojnɨj/",
+          "hints": {
+            "en": "спокойный",
+            "vi": "спокойный"
+          }
+        },
+        "vi": {
+          "text": "bình tĩnh",
+          "ipa": "/ɓiɲ˧˩ tiɲ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bình tĩnh",
+            "en": "bình tĩnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.proud",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "proud",
+          "ipa": "/proud/",
+          "hints": {
+            "ru": "proud",
+            "vi": "proud"
+          }
+        },
+        "ru": {
+          "text": "гордый",
+          "ipa": "/ɡordɨj/",
+          "hints": {
+            "en": "гордый",
+            "vi": "гордый"
+          }
+        },
+        "vi": {
+          "text": "tự hào",
+          "ipa": "/tɨ˧ˀ haːw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tự hào",
+            "en": "tự hào"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.lonely",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lonely",
+          "ipa": "/lonely/",
+          "hints": {
+            "ru": "lonely",
+            "vi": "lonely"
+          }
+        },
+        "ru": {
+          "text": "одинокий",
+          "ipa": "/odʲinokʲij/",
+          "hints": {
+            "en": "одинокий",
+            "vi": "одинокий"
+          }
+        },
+        "vi": {
+          "text": "cô đơn",
+          "ipa": "/ko˧ ɗəːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cô đơn",
+            "en": "cô đơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.bored",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bored",
+          "ipa": "/bored/",
+          "hints": {
+            "ru": "bored",
+            "vi": "bored"
+          }
+        },
+        "ru": {
+          "text": "скучающий",
+          "ipa": "/skutɕajuɕːij/",
+          "hints": {
+            "en": "скучающий",
+            "vi": "скучающий"
+          }
+        },
+        "vi": {
+          "text": "chán",
+          "ipa": "/tɕaːn˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chán",
+            "en": "chán"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.excited",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "excited",
+          "ipa": "/excited/",
+          "hints": {
+            "ru": "excited",
+            "vi": "excited"
+          }
+        },
+        "ru": {
+          "text": "взволнованный",
+          "ipa": "/vzvolnovannɨj/",
+          "hints": {
+            "en": "взволнованный",
+            "vi": "взволнованный"
+          }
+        },
+        "vi": {
+          "text": "hào hứng",
+          "ipa": "/haːw˧˩ hɨŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hào hứng",
+            "en": "hào hứng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.surprised",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "surprised",
+          "ipa": "/surprised/",
+          "hints": {
+            "ru": "surprised",
+            "vi": "surprised"
+          }
+        },
+        "ru": {
+          "text": "удивлённый",
+          "ipa": "/udʲivlʲonnɨj/",
+          "hints": {
+            "en": "удивлённый",
+            "vi": "удивлённый"
+          }
+        },
+        "vi": {
+          "text": "ngạc nhiên",
+          "ipa": "/ŋaːk˧ˀ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngạc nhiên",
+            "en": "ngạc nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.interested",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "interested",
+          "ipa": "/interested/",
+          "hints": {
+            "ru": "interested",
+            "vi": "interested"
+          }
+        },
+        "ru": {
+          "text": "заинтересованный",
+          "ipa": "/zaintʲerʲesovannɨj/",
+          "hints": {
+            "en": "заинтересованный",
+            "vi": "заинтересованный"
+          }
+        },
+        "vi": {
+          "text": "thích thú",
+          "ipa": "/tʰik˧˥ tʰu˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thích thú",
+            "en": "thích thú"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.useful",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "useful",
+          "ipa": "/useful/",
+          "hints": {
+            "ru": "useful",
+            "vi": "useful"
+          }
+        },
+        "ru": {
+          "text": "полезный",
+          "ipa": "/polʲeznɨj/",
+          "hints": {
+            "en": "полезный",
+            "vi": "полезный"
+          }
+        },
+        "vi": {
+          "text": "hữu ích",
+          "ipa": "/hɨw˧˥ˀ ik˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hữu ích",
+            "en": "hữu ích"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.useless",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "useless",
+          "ipa": "/useless/",
+          "hints": {
+            "ru": "useless",
+            "vi": "useless"
+          }
+        },
+        "ru": {
+          "text": "бесполезный",
+          "ipa": "/bʲespolʲeznɨj/",
+          "hints": {
+            "en": "бесполезный",
+            "vi": "бесполезный"
+          }
+        },
+        "vi": {
+          "text": "vô ích",
+          "ipa": "/vo˧ ik˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "vô ích",
+            "en": "vô ích"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.possible",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "possible",
+          "ipa": "/possible/",
+          "hints": {
+            "ru": "possible",
+            "vi": "possible"
+          }
+        },
+        "ru": {
+          "text": "возможный",
+          "ipa": "/vozmoʐnɨj/",
+          "hints": {
+            "en": "возможный",
+            "vi": "возможный"
+          }
+        },
+        "vi": {
+          "text": "có thể",
+          "ipa": "/kɔ˧˥ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có thể",
+            "en": "có thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.impossible",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "impossible",
+          "ipa": "/impossible/",
+          "hints": {
+            "ru": "impossible",
+            "vi": "impossible"
+          }
+        },
+        "ru": {
+          "text": "невозможный",
+          "ipa": "/nʲevozmoʐnɨj/",
+          "hints": {
+            "en": "невозможный",
+            "vi": "невозможный"
+          }
+        },
+        "vi": {
+          "text": "không thể",
+          "ipa": "/xowŋ˧ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không thể",
+            "en": "không thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.necessary",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "necessary",
+          "ipa": "/necessary/",
+          "hints": {
+            "ru": "necessary",
+            "vi": "necessary"
+          }
+        },
+        "ru": {
+          "text": "необходимый",
+          "ipa": "/nʲeobxodʲimɨj/",
+          "hints": {
+            "en": "необходимый",
+            "vi": "необходимый"
+          }
+        },
+        "vi": {
+          "text": "cần thiết",
+          "ipa": "/kən˧˩ tʰiət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cần thiết",
+            "en": "cần thiết"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.available",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "available",
+          "ipa": "/available/",
+          "hints": {
+            "ru": "available",
+            "vi": "available"
+          }
+        },
+        "ru": {
+          "text": "доступный",
+          "ipa": "/dostupnɨj/",
+          "hints": {
+            "en": "доступный",
+            "vi": "доступный"
+          }
+        },
+        "vi": {
+          "text": "có sẵn",
+          "ipa": "/kɔ˧˥ sən˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có sẵn",
+            "en": "có sẵn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.comfortable",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "comfortable",
+          "ipa": "/comfortable/",
+          "hints": {
+            "ru": "comfortable",
+            "vi": "comfortable"
+          }
+        },
+        "ru": {
+          "text": "удобный",
+          "ipa": "/udobnɨj/",
+          "hints": {
+            "en": "удобный",
+            "vi": "удобный"
+          }
+        },
+        "vi": {
+          "text": "thoải mái",
+          "ipa": "/tʰwaːj˧˩˧ maːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thoải mái",
+            "en": "thoải mái"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.convenient",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "convenient",
+          "ipa": "/convenient/",
+          "hints": {
+            "ru": "convenient",
+            "vi": "convenient"
+          }
+        },
+        "ru": {
+          "text": "удобный по месту",
+          "ipa": "/udobnɨj po mʲestu/",
+          "hints": {
+            "en": "удобный по месту",
+            "vi": "удобный по месту"
+          }
+        },
+        "vi": {
+          "text": "tiện",
+          "ipa": "/tiən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tiện",
+            "en": "tiện"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.legal",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "legal",
+          "ipa": "/legal/",
+          "hints": {
+            "ru": "legal",
+            "vi": "legal"
+          }
+        },
+        "ru": {
+          "text": "законный",
+          "ipa": "/zakonnɨj/",
+          "hints": {
+            "en": "законный",
+            "vi": "законный"
+          }
+        },
+        "vi": {
+          "text": "hợp pháp",
+          "ipa": "/həːp˧ˀ faːp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hợp pháp",
+            "en": "hợp pháp"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.illegal",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "illegal",
+          "ipa": "/illegal/",
+          "hints": {
+            "ru": "illegal",
+            "vi": "illegal"
+          }
+        },
+        "ru": {
+          "text": "незаконный",
+          "ipa": "/nʲezakonnɨj/",
+          "hints": {
+            "en": "незаконный",
+            "vi": "незаконный"
+          }
+        },
+        "vi": {
+          "text": "bất hợp pháp",
+          "ipa": "/ɓət˧˥ həːp˧ˀ faːp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bất hợp pháp",
+            "en": "bất hợp pháp"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.public",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "public",
+          "ipa": "/public/",
+          "hints": {
+            "ru": "public",
+            "vi": "public"
+          }
+        },
+        "ru": {
+          "text": "общественный",
+          "ipa": "/obɕːestvʲennɨj/",
+          "hints": {
+            "en": "общественный",
+            "vi": "общественный"
+          }
+        },
+        "vi": {
+          "text": "công cộng",
+          "ipa": "/koŋ˧ koŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "công cộng",
+            "en": "công cộng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.private",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "private",
+          "ipa": "/private/",
+          "hints": {
+            "ru": "private",
+            "vi": "private"
+          }
+        },
+        "ru": {
+          "text": "частный",
+          "ipa": "/tɕastnɨj/",
+          "hints": {
+            "en": "частный",
+            "vi": "частный"
+          }
+        },
+        "vi": {
+          "text": "riêng tư",
+          "ipa": "/ziəŋ˧ tɨ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "riêng tư",
+            "en": "riêng tư"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.local",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "local",
+          "ipa": "/local/",
+          "hints": {
+            "ru": "local",
+            "vi": "local"
+          }
+        },
+        "ru": {
+          "text": "местный",
+          "ipa": "/mʲestnɨj/",
+          "hints": {
+            "en": "местный",
+            "vi": "местный"
+          }
+        },
+        "vi": {
+          "text": "địa phương",
+          "ipa": "/ɗiə˧ˀ fɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "địa phương",
+            "en": "địa phương"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.international",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "international",
+          "ipa": "/international/",
+          "hints": {
+            "ru": "international",
+            "vi": "international"
+          }
+        },
+        "ru": {
+          "text": "международный",
+          "ipa": "/mʲeʐdunarodnɨj/",
+          "hints": {
+            "en": "международный",
+            "vi": "международный"
+          }
+        },
+        "vi": {
+          "text": "quốc tế",
+          "ipa": "/kwok˧˥ te˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "quốc tế",
+            "en": "quốc tế"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.modern",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "modern",
+          "ipa": "/modern/",
+          "hints": {
+            "ru": "modern",
+            "vi": "modern"
+          }
+        },
+        "ru": {
+          "text": "современный",
+          "ipa": "/sovrʲemʲennɨj/",
+          "hints": {
+            "en": "современный",
+            "vi": "современный"
+          }
+        },
+        "vi": {
+          "text": "hiện đại",
+          "ipa": "/hiən˧ˀ ɗaːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hiện đại",
+            "en": "hiện đại"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.traditional",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "traditional",
+          "ipa": "/traditional/",
+          "hints": {
+            "ru": "traditional",
+            "vi": "traditional"
+          }
+        },
+        "ru": {
+          "text": "традиционный",
+          "ipa": "/tradʲitsionnɨj/",
+          "hints": {
+            "en": "традиционный",
+            "vi": "традиционный"
+          }
+        },
+        "vi": {
+          "text": "truyền thống",
+          "ipa": "/tɕwiən˧˩ tʰoŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "truyền thống",
+            "en": "truyền thống"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.natural",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "natural",
+          "ipa": "/natural/",
+          "hints": {
+            "ru": "natural",
+            "vi": "natural"
+          }
+        },
+        "ru": {
+          "text": "натуральный",
+          "ipa": "/naturalʲnɨj/",
+          "hints": {
+            "en": "натуральный",
+            "vi": "натуральный"
+          }
+        },
+        "vi": {
+          "text": "tự nhiên",
+          "ipa": "/tɨ˧ˀ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tự nhiên",
+            "en": "tự nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.real",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "real",
+          "ipa": "/real/",
+          "hints": {
+            "ru": "real",
+            "vi": "real"
+          }
+        },
+        "ru": {
+          "text": "настоящий",
+          "ipa": "/nastojaɕːij/",
+          "hints": {
+            "en": "настоящий",
+            "vi": "настоящий"
+          }
+        },
+        "vi": {
+          "text": "thật",
+          "ipa": "/tʰət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thật",
+            "en": "thật"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.fake",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fake",
+          "ipa": "/fake/",
+          "hints": {
+            "ru": "fake",
+            "vi": "fake"
+          }
+        },
+        "ru": {
+          "text": "поддельный",
+          "ipa": "/poddʲelʲnɨj/",
+          "hints": {
+            "en": "поддельный",
+            "vi": "поддельный"
+          }
+        },
+        "vi": {
+          "text": "giả",
+          "ipa": "/zaː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giả",
+            "en": "giả"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.true",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "true",
+          "ipa": "/true/",
+          "hints": {
+            "ru": "true",
+            "vi": "true"
+          }
+        },
+        "ru": {
+          "text": "правдивый",
+          "ipa": "/pravdʲivɨj/",
+          "hints": {
+            "en": "правдивый",
+            "vi": "правдивый"
+          }
+        },
+        "vi": {
+          "text": "đúng",
+          "ipa": "/ɗuŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đúng",
+            "en": "đúng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.false",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "false",
+          "ipa": "/false/",
+          "hints": {
+            "ru": "false",
+            "vi": "false"
+          }
+        },
+        "ru": {
+          "text": "ложный",
+          "ipa": "/loʐnɨj/",
+          "hints": {
+            "en": "ложный",
+            "vi": "ложный"
+          }
+        },
+        "vi": {
+          "text": "sai",
+          "ipa": "/saːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sai",
+            "en": "sai"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.main",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "main",
+          "ipa": "/main/",
+          "hints": {
+            "ru": "main",
+            "vi": "main"
+          }
+        },
+        "ru": {
+          "text": "главный",
+          "ipa": "/ɡlavnɨj/",
+          "hints": {
+            "en": "главный",
+            "vi": "главный"
+          }
+        },
+        "vi": {
+          "text": "chính",
+          "ipa": "/tɕiɲ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chính",
+            "en": "chính"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.simple",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "simple",
+          "ipa": "/simple/",
+          "hints": {
+            "ru": "simple",
+            "vi": "simple"
+          }
+        },
+        "ru": {
+          "text": "простой",
+          "ipa": "/prostoj/",
+          "hints": {
+            "en": "простой",
+            "vi": "простой"
+          }
+        },
+        "vi": {
+          "text": "đơn giản",
+          "ipa": "/ɗəːn˧ zaːn˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đơn giản",
+            "en": "đơn giản"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.complex",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "complex",
+          "ipa": "/complex/",
+          "hints": {
+            "ru": "complex",
+            "vi": "complex"
+          }
+        },
+        "ru": {
+          "text": "сложный",
+          "ipa": "/sloʐnɨj/",
+          "hints": {
+            "en": "сложный",
+            "vi": "сложный"
+          }
+        },
+        "vi": {
+          "text": "phức tạp",
+          "ipa": "/fɨc˧˥ taːp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "phức tạp",
+            "en": "phức tạp"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.clear",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "clear",
+          "ipa": "/clear/",
+          "hints": {
+            "ru": "clear",
+            "vi": "clear"
+          }
+        },
+        "ru": {
+          "text": "ясный",
+          "ipa": "/jasnɨj/",
+          "hints": {
+            "en": "ясный",
+            "vi": "ясный"
+          }
+        },
+        "vi": {
+          "text": "rõ",
+          "ipa": "/zɔ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "rõ",
+            "en": "rõ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.sure",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sure",
+          "ipa": "/sure/",
+          "hints": {
+            "ru": "sure",
+            "vi": "sure"
+          }
+        },
+        "ru": {
+          "text": "уверенный",
+          "ipa": "/uvʲerʲennɨj/",
+          "hints": {
+            "en": "уверенный",
+            "vi": "уверенный"
+          }
+        },
+        "vi": {
+          "text": "chắc chắn",
+          "ipa": "/tɕak˧˥ tɕan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chắc chắn",
+            "en": "chắc chắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "adjx.lucky",
+      "kind": "word",
+      "theme": "adjectives",
+      "tags": [
+        "theme:adjectives"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lucky",
+          "ipa": "/lucky/",
+          "hints": {
+            "ru": "lucky",
+            "vi": "lucky"
+          }
+        },
+        "ru": {
+          "text": "удачливый",
+          "ipa": "/udatɕlʲivɨj/",
+          "hints": {
+            "en": "удачливый",
+            "vi": "удачливый"
+          }
+        },
+        "vi": {
+          "text": "may mắn",
+          "ipa": "/maj˧ man˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "may mắn",
+            "en": "may mắn"
+          }
+        }
+      }
+    }
+  ]
+}

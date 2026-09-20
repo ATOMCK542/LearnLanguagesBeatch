@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="due_count">
+        <item quantity="other">%d thẻ đến hạn</item>
+    </plurals>
+    <plurals name="streak_days">
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="reviews_done">
+        <item quantity="other">%d lần ôn</item>
+    </plurals>
+</resources>

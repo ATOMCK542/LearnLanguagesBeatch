@@ -1,0 +1,1346 @@
+{
+  "theme": {
+    "id": "modals",
+    "kind": "unit",
+    "order": 30,
+    "title": {
+      "en": "Modals",
+      "ru": "Модалки",
+      "vi": "Động từ khuyết thiếu"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "aux.can",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "can",
+          "ipa": "/kæn/",
+          "hints": {
+            "ru": "can",
+            "vi": "can"
+          }
+        },
+        "ru": {
+          "text": "мочь",
+          "ipa": "/motɕ/",
+          "hints": {
+            "en": "мочь",
+            "vi": "мочь"
+          }
+        },
+        "vi": {
+          "text": "có thể",
+          "ipa": "/kɔ˧˥ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có thể",
+            "en": "có thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.could",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "could",
+          "ipa": "/kʊd/",
+          "hints": {
+            "ru": "could",
+            "vi": "could"
+          }
+        },
+        "ru": {
+          "text": "мог / мог бы",
+          "ipa": "/moɡ moɡ bɨ/",
+          "hints": {
+            "en": "мог / мог бы",
+            "vi": "мог / мог бы"
+          }
+        },
+        "vi": {
+          "text": "có thể (quá khứ/lịch sự)",
+          "ipa": "/kɔ˧˥ tʰe˧˩˧ kwaː˧˥ xɨ˧˥ lik˧ˀ sɨ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "có thể (quá khứ/lịch sự)",
+            "en": "có thể (quá khứ/lịch sự)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.may",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "may",
+          "ipa": "/meɪ/",
+          "hints": {
+            "ru": "may",
+            "vi": "may"
+          }
+        },
+        "ru": {
+          "text": "можно / может быть",
+          "ipa": "/moʐno moʐet bɨtʲ/",
+          "hints": {
+            "en": "можно / может быть",
+            "vi": "можно / может быть"
+          }
+        },
+        "vi": {
+          "text": "có lẽ / được phép",
+          "ipa": "/kɔ˧˥ lɛ˧˥ˀ ɗɨək˧ˀ fɛp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "có lẽ / được phép",
+            "en": "có lẽ / được phép"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.might",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "might",
+          "ipa": "/maɪt/",
+          "hints": {
+            "ru": "might",
+            "vi": "might"
+          }
+        },
+        "ru": {
+          "text": "мог бы",
+          "ipa": "/moɡ bɨ/",
+          "hints": {
+            "en": "мог бы",
+            "vi": "мог бы"
+          }
+        },
+        "vi": {
+          "text": "có lẽ",
+          "ipa": "/kɔ˧˥ lɛ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "có lẽ",
+            "en": "có lẽ"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.must",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "must",
+          "ipa": "/mʌst/",
+          "hints": {
+            "ru": "must",
+            "vi": "must"
+          }
+        },
+        "ru": {
+          "text": "должен",
+          "ipa": "/dolʐen/",
+          "hints": {
+            "en": "должен",
+            "vi": "должен"
+          }
+        },
+        "vi": {
+          "text": "phải",
+          "ipa": "/faːj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phải",
+            "en": "phải"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.shall",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "shall",
+          "ipa": "/ʃæl/",
+          "hints": {
+            "ru": "shall",
+            "vi": "shall"
+          }
+        },
+        "ru": {
+          "text": "shall (буду / предложу)",
+          "ipa": "/shall budu prʲedloʐu/",
+          "hints": {
+            "en": "shall (буду / предложу)",
+            "vi": "shall (буду / предложу)"
+          }
+        },
+        "vi": {
+          "text": "sẽ (trang trọng)",
+          "ipa": "/sɛ˧˥ˀ tɕaːŋ˧ tɕɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sẽ (trang trọng)",
+            "en": "sẽ (trang trọng)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.should",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "should",
+          "ipa": "/ʃʊd/",
+          "hints": {
+            "ru": "should",
+            "vi": "should"
+          }
+        },
+        "ru": {
+          "text": "следует",
+          "ipa": "/slʲedujet/",
+          "hints": {
+            "en": "следует",
+            "vi": "следует"
+          }
+        },
+        "vi": {
+          "text": "nên",
+          "ipa": "/nen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nên",
+            "en": "nên"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.will",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "will",
+          "ipa": "/wɪl/",
+          "hints": {
+            "ru": "will",
+            "vi": "will"
+          }
+        },
+        "ru": {
+          "text": "будет",
+          "ipa": "/budʲet/",
+          "hints": {
+            "en": "будет",
+            "vi": "будет"
+          }
+        },
+        "vi": {
+          "text": "sẽ",
+          "ipa": "/sɛ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sẽ",
+            "en": "sẽ"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.would",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "would",
+          "ipa": "/wʊd/",
+          "hints": {
+            "ru": "would",
+            "vi": "would"
+          }
+        },
+        "ru": {
+          "text": "бы",
+          "ipa": "/bɨ/",
+          "hints": {
+            "en": "бы",
+            "vi": "бы"
+          }
+        },
+        "vi": {
+          "text": "sẽ (giả định)",
+          "ipa": "/sɛ˧˥ˀ zaː˧˩˧ ɗiɲ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sẽ (giả định)",
+            "en": "sẽ (giả định)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.ought_to",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "ought to",
+          "ipa": "/ɔːt tə/",
+          "hints": {
+            "ru": "ought to",
+            "vi": "ought to"
+          }
+        },
+        "ru": {
+          "text": "следует",
+          "ipa": "/slʲedujet/",
+          "hints": {
+            "en": "следует",
+            "vi": "следует"
+          }
+        },
+        "vi": {
+          "text": "nên",
+          "ipa": "/nen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nên",
+            "en": "nên"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.need_modal",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "need",
+          "ipa": "/niːd/",
+          "hints": {
+            "ru": "need",
+            "vi": "need"
+          }
+        },
+        "ru": {
+          "text": "нужно (модалка)",
+          "ipa": "/nuʐno modalka/",
+          "hints": {
+            "en": "нужно (модалка)",
+            "vi": "нужно (модалка)"
+          }
+        },
+        "vi": {
+          "text": "cần",
+          "ipa": "/kən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cần",
+            "en": "cần"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.used_to",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "used to",
+          "ipa": "/juːst tə/",
+          "hints": {
+            "ru": "used to",
+            "vi": "used to"
+          }
+        },
+        "ru": {
+          "text": "раньше (привычка)",
+          "ipa": "/ranʲʂe prʲivɨtɕka/",
+          "hints": {
+            "en": "раньше (привычка)",
+            "vi": "раньше (привычка)"
+          }
+        },
+        "vi": {
+          "text": "đã từng (thói quen)",
+          "ipa": "/ɗaː˧˥ˀ tɨŋ˧˩ tʰɔj˧˥ kwɛn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đã từng (thói quen)",
+            "en": "đã từng (thói quen)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.not",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "not",
+          "ipa": "/nɒt/",
+          "hints": {
+            "ru": "not",
+            "vi": "not"
+          }
+        },
+        "ru": {
+          "text": "не",
+          "ipa": "/nʲe/",
+          "hints": {
+            "en": "не",
+            "vi": "не"
+          }
+        },
+        "vi": {
+          "text": "không",
+          "ipa": "/xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không",
+            "en": "không"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.no",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "no",
+          "ipa": "/nəʊ/",
+          "hints": {
+            "ru": "no",
+            "vi": "no"
+          }
+        },
+        "ru": {
+          "text": "нет / никакой",
+          "ipa": "/nʲet nʲikakoj/",
+          "hints": {
+            "en": "нет / никакой",
+            "vi": "нет / никакой"
+          }
+        },
+        "vi": {
+          "text": "không / không có",
+          "ipa": "/xowŋ˧ xowŋ˧ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "không / không có",
+            "en": "không / không có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.never",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "never",
+          "ipa": "/ˈnevə/",
+          "hints": {
+            "ru": "never",
+            "vi": "never"
+          }
+        },
+        "ru": {
+          "text": "никогда",
+          "ipa": "/nʲikoɡda/",
+          "hints": {
+            "en": "никогда",
+            "vi": "никогда"
+          }
+        },
+        "vi": {
+          "text": "không bao giờ",
+          "ipa": "/xowŋ˧ ɓaːw˧ zəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "không bao giờ",
+            "en": "không bao giờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.dont",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "don't",
+          "ipa": "/dəʊnt/",
+          "hints": {
+            "ru": "don't",
+            "vi": "don't"
+          }
+        },
+        "ru": {
+          "text": "не (я/вы/они)",
+          "ipa": "/nʲe ja vɨ ɐˈnʲi/",
+          "hints": {
+            "en": "не (я/вы/они)",
+            "vi": "не (я/вы/они)"
+          }
+        },
+        "vi": {
+          "text": "không (do not)",
+          "ipa": "/xowŋ˧ zɔ˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không (do not)",
+            "en": "không (do not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.doesnt",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "doesn't",
+          "ipa": "/ˈdʌzənt/",
+          "hints": {
+            "ru": "doesn't",
+            "vi": "doesn't"
+          }
+        },
+        "ru": {
+          "text": "не (он/она)",
+          "ipa": "/nʲe on ɐˈna/",
+          "hints": {
+            "en": "не (он/она)",
+            "vi": "не (он/она)"
+          }
+        },
+        "vi": {
+          "text": "không (does not)",
+          "ipa": "/xowŋ˧ zɔɛs˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không (does not)",
+            "en": "không (does not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.didnt",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "didn't",
+          "ipa": "/ˈdɪdənt/",
+          "hints": {
+            "ru": "didn't",
+            "vi": "didn't"
+          }
+        },
+        "ru": {
+          "text": "не (прош.)",
+          "ipa": "/nʲe proʂ/",
+          "hints": {
+            "en": "не (прош.)",
+            "vi": "не (прош.)"
+          }
+        },
+        "vi": {
+          "text": "không (did not)",
+          "ipa": "/xowŋ˧ zid˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không (did not)",
+            "en": "không (did not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.isnt",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "isn't",
+          "ipa": "/ˈɪzənt/",
+          "hints": {
+            "ru": "isn't",
+            "vi": "isn't"
+          }
+        },
+        "ru": {
+          "text": "не есть (он)",
+          "ipa": "/nʲe jestʲ on/",
+          "hints": {
+            "en": "не есть (он)",
+            "vi": "не есть (он)"
+          }
+        },
+        "vi": {
+          "text": "không phải (is not)",
+          "ipa": "/xowŋ˧ faːj˧˩˧ is˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không phải (is not)",
+            "en": "không phải (is not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.arent",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "aren't",
+          "ipa": "/ɑːnt/",
+          "hints": {
+            "ru": "aren't",
+            "vi": "aren't"
+          }
+        },
+        "ru": {
+          "text": "не есть (вы)",
+          "ipa": "/nʲe jestʲ vɨ/",
+          "hints": {
+            "en": "не есть (вы)",
+            "vi": "не есть (вы)"
+          }
+        },
+        "vi": {
+          "text": "không phải (are not)",
+          "ipa": "/xowŋ˧ faːj˧˩˧ aːrɛ˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không phải (are not)",
+            "en": "không phải (are not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.wasnt",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "wasn't",
+          "ipa": "/ˈwɒzənt/",
+          "hints": {
+            "ru": "wasn't",
+            "vi": "wasn't"
+          }
+        },
+        "ru": {
+          "text": "не был",
+          "ipa": "/nʲe bɨl/",
+          "hints": {
+            "en": "не был",
+            "vi": "не был"
+          }
+        },
+        "vi": {
+          "text": "đã không (was not)",
+          "ipa": "/ɗaː˧˥ˀ xowŋ˧ waːs˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đã không (was not)",
+            "en": "đã không (was not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.werent",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "weren't",
+          "ipa": "/wɜːnt/",
+          "hints": {
+            "ru": "weren't",
+            "vi": "weren't"
+          }
+        },
+        "ru": {
+          "text": "не были",
+          "ipa": "/nʲe bɨlʲi/",
+          "hints": {
+            "en": "не были",
+            "vi": "не были"
+          }
+        },
+        "vi": {
+          "text": "đã không (were not)",
+          "ipa": "/ɗaː˧˥ˀ xowŋ˧ wɛrɛ˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đã không (were not)",
+            "en": "đã không (were not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.havent",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "haven't",
+          "ipa": "/ˈhævənt/",
+          "hints": {
+            "ru": "haven't",
+            "vi": "haven't"
+          }
+        },
+        "ru": {
+          "text": "не have",
+          "ipa": "/nʲe have/",
+          "hints": {
+            "en": "не have",
+            "vi": "не have"
+          }
+        },
+        "vi": {
+          "text": "chưa (have not)",
+          "ipa": "/tɕɨə˧ haːvɛ˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chưa (have not)",
+            "en": "chưa (have not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.hasnt",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "hasn't",
+          "ipa": "/ˈhæzənt/",
+          "hints": {
+            "ru": "hasn't",
+            "vi": "hasn't"
+          }
+        },
+        "ru": {
+          "text": "не has",
+          "ipa": "/nʲe has/",
+          "hints": {
+            "en": "не has",
+            "vi": "не has"
+          }
+        },
+        "vi": {
+          "text": "chưa (has not)",
+          "ipa": "/tɕɨə˧ haːs˧ nɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chưa (has not)",
+            "en": "chưa (has not)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.cant",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "can't",
+          "ipa": "/kɑːnt/",
+          "hints": {
+            "ru": "can't",
+            "vi": "can't"
+          }
+        },
+        "ru": {
+          "text": "не могу",
+          "ipa": "/nʲe moɡu/",
+          "hints": {
+            "en": "не могу",
+            "vi": "не могу"
+          }
+        },
+        "vi": {
+          "text": "không thể",
+          "ipa": "/xowŋ˧ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không thể",
+            "en": "không thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.wont",
+      "kind": "word",
+      "theme": "modals",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "won't",
+          "ipa": "/wəʊnt/",
+          "hints": {
+            "ru": "won't",
+            "vi": "won't"
+          }
+        },
+        "ru": {
+          "text": "не будет",
+          "ipa": "/nʲe budʲet/",
+          "hints": {
+            "en": "не будет",
+            "vi": "не будет"
+          }
+        },
+        "vi": {
+          "text": "sẽ không",
+          "ipa": "/sɛ˧˥ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sẽ không",
+            "en": "sẽ không"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_can",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I can help",
+          "ipa": "/aɪ kæn help/",
+          "hints": {
+            "ru": "I can help",
+            "vi": "I can help"
+          }
+        },
+        "ru": {
+          "text": "Я могу помочь",
+          "ipa": "/ja moɡu pomotɕ/",
+          "hints": {
+            "en": "Я могу помочь",
+            "vi": "Я могу помочь"
+          }
+        },
+        "vi": {
+          "text": "Tôi có thể giúp",
+          "ipa": "/toj˧ kɔ˧˥ tʰe˧˩˧ zup˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi có thể giúp",
+            "en": "Tôi có thể giúp"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_will",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I will call you",
+          "ipa": "/aɪ wɪl kɔːl juː/",
+          "hints": {
+            "ru": "I will call you",
+            "vi": "I will call you"
+          }
+        },
+        "ru": {
+          "text": "Я позвоню тебе",
+          "ipa": "/ja pozvonʲu tʲebʲe/",
+          "hints": {
+            "en": "Я позвоню тебе",
+            "vi": "Я позвоню тебе"
+          }
+        },
+        "vi": {
+          "text": "Tôi sẽ gọi bạn",
+          "ipa": "/toj˧ sɛ˧˥ˀ ɣɔj˧ˀ ɓaːn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi sẽ gọi bạn",
+            "en": "Tôi sẽ gọi bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.you_should",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "You should rest",
+          "ipa": "/juː ʃʊd rest/",
+          "hints": {
+            "ru": "You should rest",
+            "vi": "You should rest"
+          }
+        },
+        "ru": {
+          "text": "Тебе следует отдохнуть",
+          "ipa": "/tʲebʲe slʲedujet otdoxnutʲ/",
+          "hints": {
+            "en": "Тебе следует отдохнуть",
+            "vi": "Тебе следует отдохнуть"
+          }
+        },
+        "vi": {
+          "text": "Bạn nên nghỉ",
+          "ipa": "/ɓaːn˧ˀ nen˧ ŋi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn nên nghỉ",
+            "en": "Bạn nên nghỉ"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_must",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I must go",
+          "ipa": "/aɪ mʌst ɡəʊ/",
+          "hints": {
+            "ru": "I must go",
+            "vi": "I must go"
+          }
+        },
+        "ru": {
+          "text": "Я должен идти",
+          "ipa": "/ja dolʐen idtʲi/",
+          "hints": {
+            "en": "Я должен идти",
+            "vi": "Я должен идти"
+          }
+        },
+        "vi": {
+          "text": "Tôi phải đi",
+          "ipa": "/toj˧ faːj˧˩˧ ɗi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi phải đi",
+            "en": "Tôi phải đi"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.could_you",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "Could you help me?",
+          "ipa": "/kʊd juː help miː/",
+          "hints": {
+            "ru": "Could you help me?",
+            "vi": "Could you help me?"
+          }
+        },
+        "ru": {
+          "text": "Не могли бы вы помочь?",
+          "ipa": "/nʲe moɡlʲi bɨ vɨ pomotɕ/",
+          "hints": {
+            "en": "Не могли бы вы помочь?",
+            "vi": "Не могли бы вы помочь?"
+          }
+        },
+        "vi": {
+          "text": "Bạn có thể giúp tôi không?",
+          "ipa": "/ɓaːn˧ˀ kɔ˧˥ tʰe˧˩˧ zup˧˥ toj˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn có thể giúp tôi không?",
+            "en": "Bạn có thể giúp tôi không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_used_to",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I used to live here",
+          "ipa": "/aɪ juːst tə lɪv hɪə/",
+          "hints": {
+            "ru": "I used to live here",
+            "vi": "I used to live here"
+          }
+        },
+        "ru": {
+          "text": "Я раньше здесь жил",
+          "ipa": "/ja ranʲʂe zdʲesʲ ʐil/",
+          "hints": {
+            "en": "Я раньше здесь жил",
+            "vi": "Я раньше здесь жил"
+          }
+        },
+        "vi": {
+          "text": "Tôi đã từng sống ở đây",
+          "ipa": "/toj˧ ɗaː˧˥ˀ tɨŋ˧˩ soŋ˧˥ əː˧˩˧ ɗəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đã từng sống ở đây",
+            "en": "Tôi đã từng sống ở đây"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_cant",
+      "kind": "sentence",
+      "theme": "modals",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I can't swim",
+          "ipa": "/aɪ kɑːnt swɪm/",
+          "hints": {
+            "ru": "I can't swim",
+            "vi": "I can't swim"
+          }
+        },
+        "ru": {
+          "text": "Я не умею плавать",
+          "ipa": "/ja nʲe umʲeju plavatʲ/",
+          "hints": {
+            "en": "Я не умею плавать",
+            "vi": "Я не умею плавать"
+          }
+        },
+        "vi": {
+          "text": "Tôi không biết bơi",
+          "ipa": "/toj˧ xowŋ˧ ɓiet˧˥ ɓəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi không biết bơi",
+            "en": "Tôi không biết bơi"
+          }
+        }
+      }
+    }
+  ]
+}

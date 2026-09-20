@@ -1,0 +1,619 @@
+{
+  "theme": {
+    "id": "greetings",
+    "kind": "unit",
+    "order": 80,
+    "title": {
+      "en": "Greetings",
+      "ru": "Приветствия",
+      "vi": "Chào hỏi"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "gr.hello",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hello",
+          "ipa": "/həˈləʊ/",
+          "hints": {
+            "ru": "hello",
+            "vi": "hello"
+          }
+        },
+        "ru": {
+          "text": "привет",
+          "ipa": "/prʲɪˈvʲet/",
+          "hints": {
+            "en": "привет",
+            "vi": "привет"
+          }
+        },
+        "vi": {
+          "text": "xin chào",
+          "ipa": "/sin˧ tɕaːw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xin chào",
+            "en": "xin chào"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.hi",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hi",
+          "ipa": "/haɪ/",
+          "hints": {
+            "ru": "hi",
+            "vi": "hi"
+          }
+        },
+        "ru": {
+          "text": "привет",
+          "ipa": "/prʲɪˈvʲet/",
+          "hints": {
+            "en": "привет",
+            "vi": "привет"
+          }
+        },
+        "vi": {
+          "text": "chào",
+          "ipa": "/tɕaːw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chào",
+            "en": "chào"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.good_morning",
+      "kind": "phrase",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "good morning",
+          "ipa": "/ɡʊd ˈmɔːnɪŋ/",
+          "hints": {
+            "ru": "good morning",
+            "vi": "good morning"
+          }
+        },
+        "ru": {
+          "text": "доброе утро",
+          "ipa": "/ˈdobrəjə ˈutrə/",
+          "hints": {
+            "en": "доброе утро",
+            "vi": "доброе утро"
+          }
+        },
+        "vi": {
+          "text": "chào buổi sáng",
+          "ipa": "/tɕaːw˧˥ ɓuəj˧˩˧ saːŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chào buổi sáng",
+            "en": "chào buổi sáng"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.good_afternoon",
+      "kind": "phrase",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "good afternoon",
+          "ipa": "/ɡʊd ˌɑːftəˈnuːn/",
+          "hints": {
+            "ru": "good afternoon",
+            "vi": "good afternoon"
+          }
+        },
+        "ru": {
+          "text": "добрый день",
+          "ipa": "/ˈdobrɨj dʲenʲ/",
+          "hints": {
+            "en": "добрый день",
+            "vi": "добрый день"
+          }
+        },
+        "vi": {
+          "text": "chào buổi chiều",
+          "ipa": "/tɕaːw˧˥ ɓuəj˧˩˧ tɕiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chào buổi chiều",
+            "en": "chào buổi chiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.good_evening",
+      "kind": "phrase",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "good evening",
+          "ipa": "/ɡʊd ˈiːvnɪŋ/",
+          "hints": {
+            "ru": "good evening",
+            "vi": "good evening"
+          }
+        },
+        "ru": {
+          "text": "добрый вечер",
+          "ipa": "/ˈdobrɨj ˈvʲetɕɪr/",
+          "hints": {
+            "en": "добрый вечер",
+            "vi": "добрый вечер"
+          }
+        },
+        "vi": {
+          "text": "chào buổi tối",
+          "ipa": "/tɕaːw˧˥ ɓuəj˧˩˧ toj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chào buổi tối",
+            "en": "chào buổi tối"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.goodbye",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "goodbye",
+          "ipa": "/ɡʊdˈbaɪ/",
+          "hints": {
+            "ru": "goodbye",
+            "vi": "goodbye"
+          }
+        },
+        "ru": {
+          "text": "до свидания",
+          "ipa": "/də svʲɪˈdanʲɪjə/",
+          "hints": {
+            "en": "до свидания",
+            "vi": "до свидания"
+          }
+        },
+        "vi": {
+          "text": "tạm biệt",
+          "ipa": "/taːm˧ˀ ɓiət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tạm biệt",
+            "en": "tạm biệt"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.bye",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bye",
+          "ipa": "/baɪ/",
+          "hints": {
+            "ru": "bye",
+            "vi": "bye"
+          }
+        },
+        "ru": {
+          "text": "пока",
+          "ipa": "/pɐˈka/",
+          "hints": {
+            "en": "пока",
+            "vi": "пока"
+          }
+        },
+        "vi": {
+          "text": "bye",
+          "ipa": "/ɓiɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bye",
+            "en": "bye"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.see_you",
+      "kind": "phrase",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "see you",
+          "ipa": "/siː juː/",
+          "hints": {
+            "ru": "see you",
+            "vi": "see you"
+          }
+        },
+        "ru": {
+          "text": "увидимся",
+          "ipa": "/uvʲidʲimsʲa/",
+          "hints": {
+            "en": "увидимся",
+            "vi": "увидимся"
+          }
+        },
+        "vi": {
+          "text": "hẹn gặp lại",
+          "ipa": "/hɛn˧ˀ ɣap˧ˀ laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hẹn gặp lại",
+            "en": "hẹn gặp lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.nice_to_meet_you",
+      "kind": "sentence",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Nice to meet you",
+          "ipa": "/naɪs tə miːt juː/",
+          "hints": {
+            "ru": "Nice to meet you",
+            "vi": "Nice to meet you"
+          }
+        },
+        "ru": {
+          "text": "Приятно познакомиться",
+          "ipa": "/prʲijatno poznakomʲitʲsʲa/",
+          "hints": {
+            "en": "Приятно познакомиться",
+            "vi": "Приятно познакомиться"
+          }
+        },
+        "vi": {
+          "text": "Rất vui được gặp bạn",
+          "ipa": "/zət˧˥ vuj˧ ɗɨək˧ˀ ɣap˧ˀ ɓaːn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Rất vui được gặp bạn",
+            "en": "Rất vui được gặp bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.my_name_is",
+      "kind": "sentence",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "My name is Anna",
+          "ipa": "/maɪ neɪm ɪz ˈænə/",
+          "hints": {
+            "ru": "My name is Anna",
+            "vi": "My name is Anna"
+          }
+        },
+        "ru": {
+          "text": "Меня зовут Анна",
+          "ipa": "/mʲenʲa zovut anna/",
+          "hints": {
+            "en": "Меня зовут Анна",
+            "vi": "Меня зовут Анна"
+          }
+        },
+        "vi": {
+          "text": "Tên tôi là Anna",
+          "ipa": "/ten˧ toj˧ la˨˩ aːnnaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tên tôi là Anna",
+            "en": "Tên tôi là Anna"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.whats_your_name",
+      "kind": "sentence",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "What's your name?",
+          "ipa": "/wɒts jɔː neɪm/",
+          "hints": {
+            "ru": "What's your name?",
+            "vi": "What's your name?"
+          }
+        },
+        "ru": {
+          "text": "Как тебя зовут?",
+          "ipa": "/kak tʲebʲa zovut/",
+          "hints": {
+            "en": "Как тебя зовут?",
+            "vi": "Как тебя зовут?"
+          }
+        },
+        "vi": {
+          "text": "Bạn tên gì?",
+          "ipa": "/ɓaːn˧ˀ ten˧ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn tên gì?",
+            "en": "Bạn tên gì?"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.im_fine",
+      "kind": "sentence",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I'm fine, thanks",
+          "ipa": "/aɪm faɪn θæŋks/",
+          "hints": {
+            "ru": "I'm fine, thanks",
+            "vi": "I'm fine, thanks"
+          }
+        },
+        "ru": {
+          "text": "Я в порядке, спасибо",
+          "ipa": "/ja v porʲadkʲe spɐˈsʲibə/",
+          "hints": {
+            "en": "Я в порядке, спасибо",
+            "vi": "Я в порядке, спасибо"
+          }
+        },
+        "vi": {
+          "text": "Tôi khỏe, cảm ơn",
+          "ipa": "/toj˧ xwɛ˧˩˧ kaːm˧˩˧ əːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi khỏe, cảm ơn",
+            "en": "Tôi khỏe, cảm ơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.yes",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "yes",
+          "ipa": "/jes/",
+          "hints": {
+            "ru": "yes",
+            "vi": "yes"
+          }
+        },
+        "ru": {
+          "text": "да",
+          "ipa": "/da/",
+          "hints": {
+            "en": "да",
+            "vi": "да"
+          }
+        },
+        "vi": {
+          "text": "vâng / có",
+          "ipa": "/vaŋ˧ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "vâng / có",
+            "en": "vâng / có"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.no",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "no",
+          "ipa": "/nəʊ/",
+          "hints": {
+            "ru": "no",
+            "vi": "no"
+          }
+        },
+        "ru": {
+          "text": "нет",
+          "ipa": "/nʲet/",
+          "hints": {
+            "en": "нет",
+            "vi": "нет"
+          }
+        },
+        "vi": {
+          "text": "không",
+          "ipa": "/xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không",
+            "en": "không"
+          }
+        }
+      }
+    },
+    {
+      "id": "gr.ok",
+      "kind": "word",
+      "theme": "greetings",
+      "tags": [
+        "theme:greetings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "OK",
+          "ipa": "/əʊˈkeɪ/",
+          "hints": {
+            "ru": "OK",
+            "vi": "OK"
+          }
+        },
+        "ru": {
+          "text": "хорошо",
+          "ipa": "/xərɐˈʂo/",
+          "hints": {
+            "en": "хорошо",
+            "vi": "хорошо"
+          }
+        },
+        "vi": {
+          "text": "được",
+          "ipa": "/ɗɨək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "được",
+            "en": "được"
+          }
+        }
+      }
+    }
+  ]
+}

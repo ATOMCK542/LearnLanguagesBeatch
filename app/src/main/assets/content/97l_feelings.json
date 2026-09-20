@@ -1,0 +1,659 @@
+{
+  "theme": {
+    "id": "feelings",
+    "kind": "unit",
+    "order": 104,
+    "title": {
+      "en": "Feelings",
+      "ru": "Чувства",
+      "vi": "Cảm xúc"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "feel.hate",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hate",
+          "ipa": "/hate/",
+          "hints": {
+            "ru": "hate",
+            "vi": "hate"
+          }
+        },
+        "ru": {
+          "text": "ненависть",
+          "ipa": "/nʲenavʲistʲ/",
+          "hints": {
+            "en": "ненависть",
+            "vi": "ненависть"
+          }
+        },
+        "vi": {
+          "text": "ghét",
+          "ipa": "/ɣɛt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ghét",
+            "en": "ghét"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.fear",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fear",
+          "ipa": "/fear/",
+          "hints": {
+            "ru": "fear",
+            "vi": "fear"
+          }
+        },
+        "ru": {
+          "text": "страх",
+          "ipa": "/strax/",
+          "hints": {
+            "en": "страх",
+            "vi": "страх"
+          }
+        },
+        "vi": {
+          "text": "nỗi sợ",
+          "ipa": "/noj˧˥ˀ səː˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nỗi sợ",
+            "en": "nỗi sợ"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.joy",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "joy",
+          "ipa": "/joy/",
+          "hints": {
+            "ru": "joy",
+            "vi": "joy"
+          }
+        },
+        "ru": {
+          "text": "радость",
+          "ipa": "/radostʲ/",
+          "hints": {
+            "en": "радость",
+            "vi": "радость"
+          }
+        },
+        "vi": {
+          "text": "niềm vui",
+          "ipa": "/niəm˧˩ vuj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "niềm vui",
+            "en": "niềm vui"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.sadness",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sadness",
+          "ipa": "/sadness/",
+          "hints": {
+            "ru": "sadness",
+            "vi": "sadness"
+          }
+        },
+        "ru": {
+          "text": "грусть",
+          "ipa": "/ɡrustʲ/",
+          "hints": {
+            "en": "грусть",
+            "vi": "грусть"
+          }
+        },
+        "vi": {
+          "text": "nỗi buồn",
+          "ipa": "/noj˧˥ˀ ɓuən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nỗi buồn",
+            "en": "nỗi buồn"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.anger",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "anger",
+          "ipa": "/anger/",
+          "hints": {
+            "ru": "anger",
+            "vi": "anger"
+          }
+        },
+        "ru": {
+          "text": "гнев",
+          "ipa": "/ɡnʲev/",
+          "hints": {
+            "en": "гнев",
+            "vi": "гнев"
+          }
+        },
+        "vi": {
+          "text": "cơn giận",
+          "ipa": "/kəːn˧ zən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cơn giận",
+            "en": "cơn giận"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.peace",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "peace",
+          "ipa": "/peace/",
+          "hints": {
+            "ru": "peace",
+            "vi": "peace"
+          }
+        },
+        "ru": {
+          "text": "мир",
+          "ipa": "/mʲir/",
+          "hints": {
+            "en": "мир",
+            "vi": "мир"
+          }
+        },
+        "vi": {
+          "text": "hòa bình",
+          "ipa": "/hwaː˧˩ ɓiɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hòa bình",
+            "en": "hòa bình"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.stress",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stress",
+          "ipa": "/stress/",
+          "hints": {
+            "ru": "stress",
+            "vi": "stress"
+          }
+        },
+        "ru": {
+          "text": "стресс",
+          "ipa": "/strʲess/",
+          "hints": {
+            "en": "стресс",
+            "vi": "стресс"
+          }
+        },
+        "vi": {
+          "text": "căng thẳng",
+          "ipa": "/kaŋ˧ tʰaŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "căng thẳng",
+            "en": "căng thẳng"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.energy",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "energy",
+          "ipa": "/energy/",
+          "hints": {
+            "ru": "energy",
+            "vi": "energy"
+          }
+        },
+        "ru": {
+          "text": "энергия",
+          "ipa": "/enʲerɡʲija/",
+          "hints": {
+            "en": "энергия",
+            "vi": "энергия"
+          }
+        },
+        "vi": {
+          "text": "năng lượng",
+          "ipa": "/naŋ˧ lɨəŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "năng lượng",
+            "en": "năng lượng"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.feeling",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "feeling",
+          "ipa": "/feeling/",
+          "hints": {
+            "ru": "feeling",
+            "vi": "feeling"
+          }
+        },
+        "ru": {
+          "text": "чувство",
+          "ipa": "/tɕuvstvo/",
+          "hints": {
+            "en": "чувство",
+            "vi": "чувство"
+          }
+        },
+        "vi": {
+          "text": "cảm giác",
+          "ipa": "/kaːm˧˩˧ zaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cảm giác",
+            "en": "cảm giác"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.emotion",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "emotion",
+          "ipa": "/emotion/",
+          "hints": {
+            "ru": "emotion",
+            "vi": "emotion"
+          }
+        },
+        "ru": {
+          "text": "эмоция",
+          "ipa": "/emotsija/",
+          "hints": {
+            "en": "эмоция",
+            "vi": "эмоция"
+          }
+        },
+        "vi": {
+          "text": "cảm xúc",
+          "ipa": "/kaːm˧˩˧ suc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cảm xúc",
+            "en": "cảm xúc"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.mood",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mood",
+          "ipa": "/mood/",
+          "hints": {
+            "ru": "mood",
+            "vi": "mood"
+          }
+        },
+        "ru": {
+          "text": "настроение",
+          "ipa": "/nastrojenʲije/",
+          "hints": {
+            "en": "настроение",
+            "vi": "настроение"
+          }
+        },
+        "vi": {
+          "text": "tâm trạng",
+          "ipa": "/təm˧ tɕaːŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tâm trạng",
+            "en": "tâm trạng"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.dream",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dream",
+          "ipa": "/dream/",
+          "hints": {
+            "ru": "dream",
+            "vi": "dream"
+          }
+        },
+        "ru": {
+          "text": "мечта",
+          "ipa": "/mʲetɕta/",
+          "hints": {
+            "en": "мечта",
+            "vi": "мечта"
+          }
+        },
+        "vi": {
+          "text": "giấc mơ",
+          "ipa": "/zək˧˥ məː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giấc mơ",
+            "en": "giấc mơ"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.thought",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thought",
+          "ipa": "/thought/",
+          "hints": {
+            "ru": "thought",
+            "vi": "thought"
+          }
+        },
+        "ru": {
+          "text": "мысль",
+          "ipa": "/mɨslʲ/",
+          "hints": {
+            "en": "мысль",
+            "vi": "мысль"
+          }
+        },
+        "vi": {
+          "text": "suy nghĩ",
+          "ipa": "/swi˧ ŋi˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "suy nghĩ",
+            "en": "suy nghĩ"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.opinion",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "opinion",
+          "ipa": "/opinion/",
+          "hints": {
+            "ru": "opinion",
+            "vi": "opinion"
+          }
+        },
+        "ru": {
+          "text": "мнение",
+          "ipa": "/mnʲenʲije/",
+          "hints": {
+            "en": "мнение",
+            "vi": "мнение"
+          }
+        },
+        "vi": {
+          "text": "ý kiến",
+          "ipa": "/i˧˥ kiən˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ý kiến",
+            "en": "ý kiến"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.reason",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "reason",
+          "ipa": "/reason/",
+          "hints": {
+            "ru": "reason",
+            "vi": "reason"
+          }
+        },
+        "ru": {
+          "text": "причина",
+          "ipa": "/prʲitɕina/",
+          "hints": {
+            "en": "причина",
+            "vi": "причина"
+          }
+        },
+        "vi": {
+          "text": "lý do",
+          "ipa": "/li˧˥ zɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lý do",
+            "en": "lý do"
+          }
+        }
+      }
+    },
+    {
+      "id": "feel.result",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "result",
+          "ipa": "/result/",
+          "hints": {
+            "ru": "result",
+            "vi": "result"
+          }
+        },
+        "ru": {
+          "text": "результат",
+          "ipa": "/rʲezulʲtat/",
+          "hints": {
+            "en": "результат",
+            "vi": "результат"
+          }
+        },
+        "vi": {
+          "text": "kết quả",
+          "ipa": "/ket˧˥ kwaː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kết quả",
+            "en": "kết quả"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1779 @@
+{
+  "theme": {
+    "id": "places",
+    "kind": "unit",
+    "order": 94,
+    "title": {
+      "en": "Places",
+      "ru": "Места",
+      "vi": "Địa điểm"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "pl.city",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "city",
+          "ipa": "/city/",
+          "hints": {
+            "ru": "city",
+            "vi": "city"
+          }
+        },
+        "ru": {
+          "text": "город",
+          "ipa": "/ɡorod/",
+          "hints": {
+            "en": "город",
+            "vi": "город"
+          }
+        },
+        "vi": {
+          "text": "thành phố",
+          "ipa": "/tʰajŋ˧˩ fo˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thành phố",
+            "en": "thành phố"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.town",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "town",
+          "ipa": "/town/",
+          "hints": {
+            "ru": "town",
+            "vi": "town"
+          }
+        },
+        "ru": {
+          "text": "городок",
+          "ipa": "/ɡorodok/",
+          "hints": {
+            "en": "городок",
+            "vi": "городок"
+          }
+        },
+        "vi": {
+          "text": "thị trấn",
+          "ipa": "/tʰi˧ˀ tɕən˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thị trấn",
+            "en": "thị trấn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.village",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "village",
+          "ipa": "/village/",
+          "hints": {
+            "ru": "village",
+            "vi": "village"
+          }
+        },
+        "ru": {
+          "text": "деревня",
+          "ipa": "/dʲerʲevnʲa/",
+          "hints": {
+            "en": "деревня",
+            "vi": "деревня"
+          }
+        },
+        "vi": {
+          "text": "làng",
+          "ipa": "/laːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "làng",
+            "en": "làng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.country",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "country",
+          "ipa": "/country/",
+          "hints": {
+            "ru": "country",
+            "vi": "country"
+          }
+        },
+        "ru": {
+          "text": "страна",
+          "ipa": "/strana/",
+          "hints": {
+            "en": "страна",
+            "vi": "страна"
+          }
+        },
+        "vi": {
+          "text": "quốc gia",
+          "ipa": "/kwok˧˥ zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "quốc gia",
+            "en": "quốc gia"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.street",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "street",
+          "ipa": "/street/",
+          "hints": {
+            "ru": "street",
+            "vi": "street"
+          }
+        },
+        "ru": {
+          "text": "улица",
+          "ipa": "/ulʲitsa/",
+          "hints": {
+            "en": "улица",
+            "vi": "улица"
+          }
+        },
+        "vi": {
+          "text": "đường",
+          "ipa": "/ɗɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đường",
+            "en": "đường"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.road",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "road",
+          "ipa": "/road/",
+          "hints": {
+            "ru": "road",
+            "vi": "road"
+          }
+        },
+        "ru": {
+          "text": "дорога",
+          "ipa": "/doroɡa/",
+          "hints": {
+            "en": "дорога",
+            "vi": "дорога"
+          }
+        },
+        "vi": {
+          "text": "con đường",
+          "ipa": "/kɔn˧ ɗɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "con đường",
+            "en": "con đường"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.square",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "square",
+          "ipa": "/square/",
+          "hints": {
+            "ru": "square",
+            "vi": "square"
+          }
+        },
+        "ru": {
+          "text": "площадь",
+          "ipa": "/ploɕːadʲ/",
+          "hints": {
+            "en": "площадь",
+            "vi": "площадь"
+          }
+        },
+        "vi": {
+          "text": "quảng trường",
+          "ipa": "/kwaːŋ˧˩˧ tɕɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "quảng trường",
+            "en": "quảng trường"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.park",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "park",
+          "ipa": "/park/",
+          "hints": {
+            "ru": "park",
+            "vi": "park"
+          }
+        },
+        "ru": {
+          "text": "парк",
+          "ipa": "/park/",
+          "hints": {
+            "en": "парк",
+            "vi": "парк"
+          }
+        },
+        "vi": {
+          "text": "công viên",
+          "ipa": "/koŋ˧ viən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "công viên",
+            "en": "công viên"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.bridge",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bridge",
+          "ipa": "/bridge/",
+          "hints": {
+            "ru": "bridge",
+            "vi": "bridge"
+          }
+        },
+        "ru": {
+          "text": "мост",
+          "ipa": "/most/",
+          "hints": {
+            "en": "мост",
+            "vi": "мост"
+          }
+        },
+        "vi": {
+          "text": "cầu",
+          "ipa": "/kəu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cầu",
+            "en": "cầu"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.river",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "river",
+          "ipa": "/river/",
+          "hints": {
+            "ru": "river",
+            "vi": "river"
+          }
+        },
+        "ru": {
+          "text": "река",
+          "ipa": "/rʲeka/",
+          "hints": {
+            "en": "река",
+            "vi": "река"
+          }
+        },
+        "vi": {
+          "text": "sông",
+          "ipa": "/soŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sông",
+            "en": "sông"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.sea",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sea",
+          "ipa": "/sea/",
+          "hints": {
+            "ru": "sea",
+            "vi": "sea"
+          }
+        },
+        "ru": {
+          "text": "море",
+          "ipa": "/morʲe/",
+          "hints": {
+            "en": "море",
+            "vi": "море"
+          }
+        },
+        "vi": {
+          "text": "biển",
+          "ipa": "/ɓiən˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "biển",
+            "en": "biển"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.beach",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "beach",
+          "ipa": "/beach/",
+          "hints": {
+            "ru": "beach",
+            "vi": "beach"
+          }
+        },
+        "ru": {
+          "text": "пляж",
+          "ipa": "/plʲaʐ/",
+          "hints": {
+            "en": "пляж",
+            "vi": "пляж"
+          }
+        },
+        "vi": {
+          "text": "bãi biển",
+          "ipa": "/ɓaːj˧˥ˀ ɓiən˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bãi biển",
+            "en": "bãi biển"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.mountain",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mountain",
+          "ipa": "/mountain/",
+          "hints": {
+            "ru": "mountain",
+            "vi": "mountain"
+          }
+        },
+        "ru": {
+          "text": "гора",
+          "ipa": "/ɡora/",
+          "hints": {
+            "en": "гора",
+            "vi": "гора"
+          }
+        },
+        "vi": {
+          "text": "núi",
+          "ipa": "/nuj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "núi",
+            "en": "núi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.forest",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "forest",
+          "ipa": "/forest/",
+          "hints": {
+            "ru": "forest",
+            "vi": "forest"
+          }
+        },
+        "ru": {
+          "text": "лес",
+          "ipa": "/lʲes/",
+          "hints": {
+            "en": "лес",
+            "vi": "лес"
+          }
+        },
+        "vi": {
+          "text": "rừng",
+          "ipa": "/zɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rừng",
+            "en": "rừng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.lake",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lake",
+          "ipa": "/lake/",
+          "hints": {
+            "ru": "lake",
+            "vi": "lake"
+          }
+        },
+        "ru": {
+          "text": "озеро",
+          "ipa": "/ozʲero/",
+          "hints": {
+            "en": "озеро",
+            "vi": "озеро"
+          }
+        },
+        "vi": {
+          "text": "hồ",
+          "ipa": "/ho˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hồ",
+            "en": "hồ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.island",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "island",
+          "ipa": "/island/",
+          "hints": {
+            "ru": "island",
+            "vi": "island"
+          }
+        },
+        "ru": {
+          "text": "остров",
+          "ipa": "/ostrov/",
+          "hints": {
+            "en": "остров",
+            "vi": "остров"
+          }
+        },
+        "vi": {
+          "text": "đảo",
+          "ipa": "/ɗaːw˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đảo",
+            "en": "đảo"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.building",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "building",
+          "ipa": "/building/",
+          "hints": {
+            "ru": "building",
+            "vi": "building"
+          }
+        },
+        "ru": {
+          "text": "здание",
+          "ipa": "/zdanʲije/",
+          "hints": {
+            "en": "здание",
+            "vi": "здание"
+          }
+        },
+        "vi": {
+          "text": "tòa nhà",
+          "ipa": "/twaː˧˩ ɲa˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tòa nhà",
+            "en": "tòa nhà"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.shop",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shop",
+          "ipa": "/shop/",
+          "hints": {
+            "ru": "shop",
+            "vi": "shop"
+          }
+        },
+        "ru": {
+          "text": "магазин",
+          "ipa": "/maɡazʲin/",
+          "hints": {
+            "en": "магазин",
+            "vi": "магазин"
+          }
+        },
+        "vi": {
+          "text": "cửa hàng",
+          "ipa": "/kɨə˧˩˧ haːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cửa hàng",
+            "en": "cửa hàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.supermarket",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "supermarket",
+          "ipa": "/supermarket/",
+          "hints": {
+            "ru": "supermarket",
+            "vi": "supermarket"
+          }
+        },
+        "ru": {
+          "text": "супермаркет",
+          "ipa": "/supʲermarkʲet/",
+          "hints": {
+            "en": "супермаркет",
+            "vi": "супермаркет"
+          }
+        },
+        "vi": {
+          "text": "siêu thị",
+          "ipa": "/siəw˧ tʰi˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "siêu thị",
+            "en": "siêu thị"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.market",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "market",
+          "ipa": "/ˈmɑːkɪt/",
+          "hints": {
+            "ru": "market",
+            "vi": "market"
+          }
+        },
+        "ru": {
+          "text": "рынок",
+          "ipa": "/rɨnok/",
+          "hints": {
+            "en": "рынок",
+            "vi": "рынок"
+          }
+        },
+        "vi": {
+          "text": "chợ",
+          "ipa": "/tɕəː˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chợ",
+            "en": "chợ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.mall",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mall",
+          "ipa": "/mall/",
+          "hints": {
+            "ru": "mall",
+            "vi": "mall"
+          }
+        },
+        "ru": {
+          "text": "торговый центр",
+          "ipa": "/torɡovɨj tsentr/",
+          "hints": {
+            "en": "торговый центр",
+            "vi": "торговый центр"
+          }
+        },
+        "vi": {
+          "text": "trung tâm thương mại",
+          "ipa": "/tɕuŋ˧ təm˧ tʰɨəŋ˧ maːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "trung tâm thương mại",
+            "en": "trung tâm thương mại"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.restaurant",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "restaurant",
+          "ipa": "/restaurant/",
+          "hints": {
+            "ru": "restaurant",
+            "vi": "restaurant"
+          }
+        },
+        "ru": {
+          "text": "ресторан",
+          "ipa": "/rʲestoran/",
+          "hints": {
+            "en": "ресторан",
+            "vi": "ресторан"
+          }
+        },
+        "vi": {
+          "text": "nhà hàng",
+          "ipa": "/ɲa˨˩ haːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà hàng",
+            "en": "nhà hàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.cafe",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cafe",
+          "ipa": "/cafe/",
+          "hints": {
+            "ru": "cafe",
+            "vi": "cafe"
+          }
+        },
+        "ru": {
+          "text": "кафе",
+          "ipa": "/kafʲe/",
+          "hints": {
+            "en": "кафе",
+            "vi": "кафе"
+          }
+        },
+        "vi": {
+          "text": "quán cà phê",
+          "ipa": "/kwaːn˧˥ kaː˧˩ fe˧/",
+          "tones": [],
+          "hints": {
+            "ru": "quán cà phê",
+            "en": "quán cà phê"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.hotel",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hotel",
+          "ipa": "/həʊˈtel/",
+          "hints": {
+            "ru": "hotel",
+            "vi": "hotel"
+          }
+        },
+        "ru": {
+          "text": "отель",
+          "ipa": "/otʲelʲ/",
+          "hints": {
+            "en": "отель",
+            "vi": "отель"
+          }
+        },
+        "vi": {
+          "text": "khách sạn",
+          "ipa": "/xajk˧˥ saːn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "khách sạn",
+            "en": "khách sạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.hospital",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hospital",
+          "ipa": "/hospital/",
+          "hints": {
+            "ru": "hospital",
+            "vi": "hospital"
+          }
+        },
+        "ru": {
+          "text": "больница",
+          "ipa": "/bolʲnʲitsa/",
+          "hints": {
+            "en": "больница",
+            "vi": "больница"
+          }
+        },
+        "vi": {
+          "text": "bệnh viện",
+          "ipa": "/ɓeɲ˧ˀ viən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bệnh viện",
+            "en": "bệnh viện"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.school",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "school",
+          "ipa": "/school/",
+          "hints": {
+            "ru": "school",
+            "vi": "school"
+          }
+        },
+        "ru": {
+          "text": "школа",
+          "ipa": "/ʂkola/",
+          "hints": {
+            "en": "школа",
+            "vi": "школа"
+          }
+        },
+        "vi": {
+          "text": "trường học",
+          "ipa": "/tɕɨəŋ˧˩ hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "trường học",
+            "en": "trường học"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.university",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "university",
+          "ipa": "/university/",
+          "hints": {
+            "ru": "university",
+            "vi": "university"
+          }
+        },
+        "ru": {
+          "text": "университет",
+          "ipa": "/unʲivʲersʲitʲet/",
+          "hints": {
+            "en": "университет",
+            "vi": "университет"
+          }
+        },
+        "vi": {
+          "text": "đại học",
+          "ipa": "/ɗaːj˧ˀ hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đại học",
+            "en": "đại học"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.library",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "library",
+          "ipa": "/library/",
+          "hints": {
+            "ru": "library",
+            "vi": "library"
+          }
+        },
+        "ru": {
+          "text": "библиотека",
+          "ipa": "/bʲiblʲiotʲeka/",
+          "hints": {
+            "en": "библиотека",
+            "vi": "библиотека"
+          }
+        },
+        "vi": {
+          "text": "thư viện",
+          "ipa": "/tʰɨ˧ viən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thư viện",
+            "en": "thư viện"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.bank",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bank",
+          "ipa": "/bank/",
+          "hints": {
+            "ru": "bank",
+            "vi": "bank"
+          }
+        },
+        "ru": {
+          "text": "банк",
+          "ipa": "/bank/",
+          "hints": {
+            "en": "банк",
+            "vi": "банк"
+          }
+        },
+        "vi": {
+          "text": "ngân hàng",
+          "ipa": "/ŋən˧ haːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ngân hàng",
+            "en": "ngân hàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.post_office",
+      "kind": "phrase",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "post office",
+          "ipa": "/pəʊst ˈɒfɪs/",
+          "hints": {
+            "ru": "post office",
+            "vi": "post office"
+          }
+        },
+        "ru": {
+          "text": "почта",
+          "ipa": "/potɕta/",
+          "hints": {
+            "en": "почта",
+            "vi": "почта"
+          }
+        },
+        "vi": {
+          "text": "bưu điện",
+          "ipa": "/ɓɨw˧ ɗiən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bưu điện",
+            "en": "bưu điện"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.police",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "police",
+          "ipa": "/police/",
+          "hints": {
+            "ru": "police",
+            "vi": "police"
+          }
+        },
+        "ru": {
+          "text": "полиция",
+          "ipa": "/polʲitsija/",
+          "hints": {
+            "en": "полиция",
+            "vi": "полиция"
+          }
+        },
+        "vi": {
+          "text": "cảnh sát",
+          "ipa": "/kajŋ˧˩˧ saːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cảnh sát",
+            "en": "cảnh sát"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.station",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "station",
+          "ipa": "/ˈsteɪʃən/",
+          "hints": {
+            "ru": "station",
+            "vi": "station"
+          }
+        },
+        "ru": {
+          "text": "станция",
+          "ipa": "/stantsija/",
+          "hints": {
+            "en": "станция",
+            "vi": "станция"
+          }
+        },
+        "vi": {
+          "text": "nhà ga",
+          "ipa": "/ɲa˨˩ ɣaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà ga",
+            "en": "nhà ga"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.port",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "port",
+          "ipa": "/port/",
+          "hints": {
+            "ru": "port",
+            "vi": "port"
+          }
+        },
+        "ru": {
+          "text": "порт",
+          "ipa": "/port/",
+          "hints": {
+            "en": "порт",
+            "vi": "порт"
+          }
+        },
+        "vi": {
+          "text": "cảng",
+          "ipa": "/kaːŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cảng",
+            "en": "cảng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.museum",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "museum",
+          "ipa": "/museum/",
+          "hints": {
+            "ru": "museum",
+            "vi": "museum"
+          }
+        },
+        "ru": {
+          "text": "музей",
+          "ipa": "/muzʲej/",
+          "hints": {
+            "en": "музей",
+            "vi": "музей"
+          }
+        },
+        "vi": {
+          "text": "bảo tàng",
+          "ipa": "/ɓaːw˧˩˧ taːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bảo tàng",
+            "en": "bảo tàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.cinema",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cinema",
+          "ipa": "/cinema/",
+          "hints": {
+            "ru": "cinema",
+            "vi": "cinema"
+          }
+        },
+        "ru": {
+          "text": "кинотеатр",
+          "ipa": "/kʲinotʲeatr/",
+          "hints": {
+            "en": "кинотеатр",
+            "vi": "кинотеатр"
+          }
+        },
+        "vi": {
+          "text": "rạp chiếu phim",
+          "ipa": "/zaːp˧ˀ tɕiəw˧˥ fim˧/",
+          "tones": [],
+          "hints": {
+            "ru": "rạp chiếu phim",
+            "en": "rạp chiếu phim"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.theater",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "theater",
+          "ipa": "/theater/",
+          "hints": {
+            "ru": "theater",
+            "vi": "theater"
+          }
+        },
+        "ru": {
+          "text": "театр",
+          "ipa": "/tʲeatr/",
+          "hints": {
+            "en": "театр",
+            "vi": "театр"
+          }
+        },
+        "vi": {
+          "text": "nhà hát",
+          "ipa": "/ɲa˨˩ haːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà hát",
+            "en": "nhà hát"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.church",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "church",
+          "ipa": "/church/",
+          "hints": {
+            "ru": "church",
+            "vi": "church"
+          }
+        },
+        "ru": {
+          "text": "церковь",
+          "ipa": "/tserkovʲ/",
+          "hints": {
+            "en": "церковь",
+            "vi": "церковь"
+          }
+        },
+        "vi": {
+          "text": "nhà thờ",
+          "ipa": "/ɲa˨˩ tʰəː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà thờ",
+            "en": "nhà thờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.temple",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "temple",
+          "ipa": "/temple/",
+          "hints": {
+            "ru": "temple",
+            "vi": "temple"
+          }
+        },
+        "ru": {
+          "text": "храм",
+          "ipa": "/xram/",
+          "hints": {
+            "en": "храм",
+            "vi": "храм"
+          }
+        },
+        "vi": {
+          "text": "đền / chùa",
+          "ipa": "/ɗen˧˩ tɕuə˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đền / chùa",
+            "en": "đền / chùa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.office",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "office",
+          "ipa": "/office/",
+          "hints": {
+            "ru": "office",
+            "vi": "office"
+          }
+        },
+        "ru": {
+          "text": "офис",
+          "ipa": "/ofʲis/",
+          "hints": {
+            "en": "офис",
+            "vi": "офис"
+          }
+        },
+        "vi": {
+          "text": "văn phòng",
+          "ipa": "/van˧ fɔŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "văn phòng",
+            "en": "văn phòng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.factory",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "factory",
+          "ipa": "/factory/",
+          "hints": {
+            "ru": "factory",
+            "vi": "factory"
+          }
+        },
+        "ru": {
+          "text": "завод",
+          "ipa": "/zavod/",
+          "hints": {
+            "en": "завод",
+            "vi": "завод"
+          }
+        },
+        "vi": {
+          "text": "nhà máy",
+          "ipa": "/ɲa˨˩ maj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà máy",
+            "en": "nhà máy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.farm",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "farm",
+          "ipa": "/farm/",
+          "hints": {
+            "ru": "farm",
+            "vi": "farm"
+          }
+        },
+        "ru": {
+          "text": "ферма",
+          "ipa": "/fʲerma/",
+          "hints": {
+            "en": "ферма",
+            "vi": "ферма"
+          }
+        },
+        "vi": {
+          "text": "nông trại",
+          "ipa": "/noŋ˧ tɕaːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nông trại",
+            "en": "nông trại"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.zoo",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "zoo",
+          "ipa": "/zoo/",
+          "hints": {
+            "ru": "zoo",
+            "vi": "zoo"
+          }
+        },
+        "ru": {
+          "text": "зоопарк",
+          "ipa": "/zoopark/",
+          "hints": {
+            "en": "зоопарк",
+            "vi": "зоопарк"
+          }
+        },
+        "vi": {
+          "text": "sở thú",
+          "ipa": "/səː˧˩˧ tʰu˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sở thú",
+            "en": "sở thú"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.gym",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "gym",
+          "ipa": "/gym/",
+          "hints": {
+            "ru": "gym",
+            "vi": "gym"
+          }
+        },
+        "ru": {
+          "text": "спортзал",
+          "ipa": "/sportzal/",
+          "hints": {
+            "en": "спортзал",
+            "vi": "спортзал"
+          }
+        },
+        "vi": {
+          "text": "phòng gym",
+          "ipa": "/fɔŋ˧˩ ɣim˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phòng gym",
+            "en": "phòng gym"
+          }
+        }
+      }
+    },
+    {
+      "id": "pl.pharmacy",
+      "kind": "word",
+      "theme": "places",
+      "tags": [
+        "theme:places"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pharmacy",
+          "ipa": "/pharmacy/",
+          "hints": {
+            "ru": "pharmacy",
+            "vi": "pharmacy"
+          }
+        },
+        "ru": {
+          "text": "аптека",
+          "ipa": "/aptʲeka/",
+          "hints": {
+            "en": "аптека",
+            "vi": "аптека"
+          }
+        },
+        "vi": {
+          "text": "nhà thuốc",
+          "ipa": "/ɲa˨˩ tʰuək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhà thuốc",
+            "en": "nhà thuốc"
+          }
+        }
+      }
+    }
+  ]
+}

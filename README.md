@@ -1,0 +1,65 @@
+# Тройка / Triad / Tam Ngữ
+
+Офлайн Android-приложение для изучения английского, русского и вьетнамского. Носитель любого из трёх языков может учить остальные два.
+
+- Пакет: `dev.sergey.triad`
+- minSdk 31, targetSdk 35, JDK 17
+- Kotlin, Jetpack Compose, Material 3, Hilt, Room
+- Несколько локальных профилей, интервальные повторения (FSRS), озвучка TTS устройства, тихий клик при выборе ответа
+- Без сервера, аккаунтов, Google Play, AAB и биллинга
+
+Целевой телефон для установки — Samsung Galaxy S24 Ultra, но подойдёт любой Android 12+.
+
+## Требования
+
+- JDK 17
+- Android SDK с platform 35 и build-tools (переменная `ANDROID_HOME` или `local.properties`)
+- Для установки на телефон: USB-отладка и режим передачи файлов
+
+`local.properties` в git не входит. После клонирования укажи SDK:
+
+```bash
+echo "sdk.dir=/path/to/android-sdk" > local.properties
+```
+
+Если в корне есть каталог `.tools/` (локальный JDK, SDK и Gradle), `./gradlew` подхватит его сам.
+
+## Сборка APK
+
+Одна команда из корня репозитория:
+
+```bash
+./gradlew assembleDebug
+```
+
+Готовый файл:
+
+```
+app/build/outputs/apk/debug/app-debug.apk
+```
+
+В Cursor: задача **Build APK** (Ctrl+Shift+B). Android Studio для релиза не нужна. AAB и Play Console не используются.
+
+## Установка
+
+Телефон по USB, отладка включена:
+
+```bash
+./gradlew installDebug
+```
+
+В Cursor: задача **Install APK**. Либо скопируй `app-debug.apk` на устройство и установи как обычный APK.
+
+## Тесты
+
+```bash
+./gradlew test
+```
+
+В Cursor: задача **Test** (`./gradlew check`).
+
+## Gradle Wrapper
+
+В репозитории лежат `gradlew` и `gradle/wrapper/`. Отдельная установка Gradle не нужна: wrapper скачает Gradle 8.11.1 сам.
+
+Лицензия: MIT.

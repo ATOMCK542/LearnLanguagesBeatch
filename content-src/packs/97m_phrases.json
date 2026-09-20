@@ -1,0 +1,1259 @@
+{
+  "theme": {
+    "id": "phrases",
+    "kind": "unit",
+    "order": 105,
+    "title": {
+      "en": "Useful phrases",
+      "ru": "Полезные фразы",
+      "vi": "Câu hữu ích"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "phrx.i_think_so",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I think so",
+          "ipa": "/aɪ θɪŋk səʊ/",
+          "hints": {
+            "ru": "I think so",
+            "vi": "I think so"
+          }
+        },
+        "ru": {
+          "text": "Я думаю да",
+          "ipa": "/ja dumaju da/",
+          "hints": {
+            "en": "Я думаю да",
+            "vi": "Я думаю да"
+          }
+        },
+        "vi": {
+          "text": "Tôi nghĩ vậy",
+          "ipa": "/toj˧ ŋi˧˥ˀ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi nghĩ vậy",
+            "en": "Tôi nghĩ vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_agree",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I agree",
+          "ipa": "/aɪ agree/",
+          "hints": {
+            "ru": "I agree",
+            "vi": "I agree"
+          }
+        },
+        "ru": {
+          "text": "Я согласен",
+          "ipa": "/ja soɡlasʲen/",
+          "hints": {
+            "en": "Я согласен",
+            "vi": "Я согласен"
+          }
+        },
+        "vi": {
+          "text": "Tôi đồng ý",
+          "ipa": "/toj˧ ɗoŋ˧˩ i˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đồng ý",
+            "en": "Tôi đồng ý"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_disagree",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I disagree",
+          "ipa": "/aɪ disagree/",
+          "hints": {
+            "ru": "I disagree",
+            "vi": "I disagree"
+          }
+        },
+        "ru": {
+          "text": "Я не согласен",
+          "ipa": "/ja nʲe soɡlasʲen/",
+          "hints": {
+            "en": "Я не согласен",
+            "vi": "Я не согласен"
+          }
+        },
+        "vi": {
+          "text": "Tôi không đồng ý",
+          "ipa": "/toj˧ xowŋ˧ ɗoŋ˧˩ i˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi không đồng ý",
+            "en": "Tôi không đồng ý"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.see_you_later",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "See you later",
+          "ipa": "/siː juː ˈleɪtə/",
+          "hints": {
+            "ru": "See you later",
+            "vi": "See you later"
+          }
+        },
+        "ru": {
+          "text": "Увидимся позже",
+          "ipa": "/uvʲidʲimsʲa pozʐe/",
+          "hints": {
+            "en": "Увидимся позже",
+            "vi": "Увидимся позже"
+          }
+        },
+        "vi": {
+          "text": "Hẹn gặp lại sau",
+          "ipa": "/hɛn˧ˀ ɣap˧ˀ laːj˧ˀ saw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Hẹn gặp lại sau",
+            "en": "Hẹn gặp lại sau"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.take_a_seat",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Take a seat",
+          "ipa": "/teɪk ə seat/",
+          "hints": {
+            "ru": "Take a seat",
+            "vi": "Take a seat"
+          }
+        },
+        "ru": {
+          "text": "Садитесь",
+          "ipa": "/sadʲitʲesʲ/",
+          "hints": {
+            "en": "Садитесь",
+            "vi": "Садитесь"
+          }
+        },
+        "vi": {
+          "text": "Mời ngồi",
+          "ipa": "/məːj˧˩ ŋoj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Mời ngồi",
+            "en": "Mời ngồi"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.come_in",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Come in",
+          "ipa": "/kʌm ɪn/",
+          "hints": {
+            "ru": "Come in",
+            "vi": "Come in"
+          }
+        },
+        "ru": {
+          "text": "Входите",
+          "ipa": "/vxodʲitʲe/",
+          "hints": {
+            "en": "Входите",
+            "vi": "Входите"
+          }
+        },
+        "vi": {
+          "text": "Mời vào",
+          "ipa": "/məːj˧˩ vaːw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Mời vào",
+            "en": "Mời vào"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.just_a_moment",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Just a moment",
+          "ipa": "/dʒʌst ə moment/",
+          "hints": {
+            "ru": "Just a moment",
+            "vi": "Just a moment"
+          }
+        },
+        "ru": {
+          "text": "Одну минуту",
+          "ipa": "/odnu mʲinutu/",
+          "hints": {
+            "en": "Одну минуту",
+            "vi": "Одну минуту"
+          }
+        },
+        "vi": {
+          "text": "Chờ một chút",
+          "ipa": "/tɕəː˨˩ mot˧ˀ tɕut˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Chờ một chút",
+            "en": "Chờ một chút"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_am_ready",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I am ready",
+          "ipa": "/aɪ æm ˈredi/",
+          "hints": {
+            "ru": "I am ready",
+            "vi": "I am ready"
+          }
+        },
+        "ru": {
+          "text": "Я готов",
+          "ipa": "/ja ɡotov/",
+          "hints": {
+            "en": "Я готов",
+            "vi": "Я готов"
+          }
+        },
+        "vi": {
+          "text": "Tôi sẵn sàng",
+          "ipa": "/toj˧ sən˧˩˧ saːŋ˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi sẵn sàng",
+            "en": "Tôi sẵn sàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_am_busy",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I am busy",
+          "ipa": "/aɪ æm ˈbɪzi/",
+          "hints": {
+            "ru": "I am busy",
+            "vi": "I am busy"
+          }
+        },
+        "ru": {
+          "text": "Я занят",
+          "ipa": "/ja zanʲat/",
+          "hints": {
+            "en": "Я занят",
+            "vi": "Я занят"
+          }
+        },
+        "vi": {
+          "text": "Tôi đang bận",
+          "ipa": "/toj˧ ɗaːŋ˧ ɓən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đang bận",
+            "en": "Tôi đang bận"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_am_tired",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I am tired",
+          "ipa": "/aɪ æm ˈtaɪəd/",
+          "hints": {
+            "ru": "I am tired",
+            "vi": "I am tired"
+          }
+        },
+        "ru": {
+          "text": "Я устал",
+          "ipa": "/ja ustal/",
+          "hints": {
+            "en": "Я устал",
+            "vi": "Я устал"
+          }
+        },
+        "vi": {
+          "text": "Tôi mệt",
+          "ipa": "/toj˧ met˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi mệt",
+            "en": "Tôi mệt"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_am_lost",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I am lost",
+          "ipa": "/aɪ æm lost/",
+          "hints": {
+            "ru": "I am lost",
+            "vi": "I am lost"
+          }
+        },
+        "ru": {
+          "text": "Я заблудился",
+          "ipa": "/ja zabludʲilsʲa/",
+          "hints": {
+            "en": "Я заблудился",
+            "vi": "Я заблудился"
+          }
+        },
+        "vi": {
+          "text": "Tôi bị lạc",
+          "ipa": "/toj˧ ɓi˧ˀ laːk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi bị lạc",
+            "en": "Tôi bị lạc"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.can_you_help_me",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Can you help me",
+          "ipa": "/kæn juː help miː/",
+          "hints": {
+            "ru": "Can you help me",
+            "vi": "Can you help me"
+          }
+        },
+        "ru": {
+          "text": "Можете помочь",
+          "ipa": "/moʐetʲe pomotɕ/",
+          "hints": {
+            "en": "Можете помочь",
+            "vi": "Можете помочь"
+          }
+        },
+        "vi": {
+          "text": "Bạn giúp tôi được không",
+          "ipa": "/ɓaːn˧ˀ zup˧˥ toj˧ ɗɨək˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn giúp tôi được không",
+            "en": "Bạn giúp tôi được không"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.where_are_you_from",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Where are you from",
+          "ipa": "/weə ɑː juː frɒm/",
+          "hints": {
+            "ru": "Where are you from",
+            "vi": "Where are you from"
+          }
+        },
+        "ru": {
+          "text": "Откуда вы",
+          "ipa": "/otkuda vɨ/",
+          "hints": {
+            "en": "Откуда вы",
+            "vi": "Откуда вы"
+          }
+        },
+        "vi": {
+          "text": "Bạn đến từ đâu",
+          "ipa": "/ɓaːn˧ˀ ɗen˧˥ tɨ˧˩ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn đến từ đâu",
+            "en": "Bạn đến từ đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_am_from_russia",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I am from Russia",
+          "ipa": "/aɪ æm frɒm russia/",
+          "hints": {
+            "ru": "I am from Russia",
+            "vi": "I am from Russia"
+          }
+        },
+        "ru": {
+          "text": "Я из России",
+          "ipa": "/ja iz rossʲii/",
+          "hints": {
+            "en": "Я из России",
+            "vi": "Я из России"
+          }
+        },
+        "vi": {
+          "text": "Tôi đến từ Nga",
+          "ipa": "/toj˧ ɗen˧˥ tɨ˧˩ ŋaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đến từ Nga",
+            "en": "Tôi đến từ Nga"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_am_from_vietnam",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I am from Vietnam",
+          "ipa": "/aɪ æm frɒm vietnam/",
+          "hints": {
+            "ru": "I am from Vietnam",
+            "vi": "I am from Vietnam"
+          }
+        },
+        "ru": {
+          "text": "Я из Вьетнама",
+          "ipa": "/ja iz vʲjetnama/",
+          "hints": {
+            "en": "Я из Вьетнама",
+            "vi": "Я из Вьетнама"
+          }
+        },
+        "vi": {
+          "text": "Tôi đến từ Việt Nam",
+          "ipa": "/toj˧ ɗen˧˥ tɨ˧˩ viət˧ˀ naːm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đến từ Việt Nam",
+            "en": "Tôi đến từ Việt Nam"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_live_here",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I live here",
+          "ipa": "/aɪ lɪv hɪə/",
+          "hints": {
+            "ru": "I live here",
+            "vi": "I live here"
+          }
+        },
+        "ru": {
+          "text": "Я живу здесь",
+          "ipa": "/ja ʐivu zdʲesʲ/",
+          "hints": {
+            "en": "Я живу здесь",
+            "vi": "Я живу здесь"
+          }
+        },
+        "vi": {
+          "text": "Tôi sống ở đây",
+          "ipa": "/toj˧ soŋ˧˥ əː˧˩˧ ɗəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi sống ở đây",
+            "en": "Tôi sống ở đây"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.how_old_are_you",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "How old are you",
+          "ipa": "/haʊ əʊld ɑː juː/",
+          "hints": {
+            "ru": "How old are you",
+            "vi": "How old are you"
+          }
+        },
+        "ru": {
+          "text": "Сколько тебе лет",
+          "ipa": "/skolʲko tʲebʲe lʲet/",
+          "hints": {
+            "en": "Сколько тебе лет",
+            "vi": "Сколько тебе лет"
+          }
+        },
+        "vi": {
+          "text": "Bạn bao nhiêu tuổi",
+          "ipa": "/ɓaːn˧ˀ ɓaːw˧ ɲiəw˧ tuəj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn bao nhiêu tuổi",
+            "en": "Bạn bao nhiêu tuổi"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.nice_weather",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Nice weather",
+          "ipa": "/naɪs weather/",
+          "hints": {
+            "ru": "Nice weather",
+            "vi": "Nice weather"
+          }
+        },
+        "ru": {
+          "text": "Хорошая погода",
+          "ipa": "/xoroʂaja poɡoda/",
+          "hints": {
+            "en": "Хорошая погода",
+            "vi": "Хорошая погода"
+          }
+        },
+        "vi": {
+          "text": "Thời tiết đẹp",
+          "ipa": "/tʰəːj˧˩ tiət˧˥ ɗɛp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Thời tiết đẹp",
+            "en": "Thời tiết đẹp"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.it_s_raining",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "It's raining",
+          "ipa": "/ɪts raining/",
+          "hints": {
+            "ru": "It's raining",
+            "vi": "It's raining"
+          }
+        },
+        "ru": {
+          "text": "Идёт дождь",
+          "ipa": "/idʲot doʐdʲ/",
+          "hints": {
+            "en": "Идёт дождь",
+            "vi": "Идёт дождь"
+          }
+        },
+        "vi": {
+          "text": "Trời đang mưa",
+          "ipa": "/tɕəːj˧˩ ɗaːŋ˧ mɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Trời đang mưa",
+            "en": "Trời đang mưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_like_it",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I like it",
+          "ipa": "/aɪ laɪk ɪt/",
+          "hints": {
+            "ru": "I like it",
+            "vi": "I like it"
+          }
+        },
+        "ru": {
+          "text": "Мне нравится",
+          "ipa": "/mnʲe nravʲitsʲa/",
+          "hints": {
+            "en": "Мне нравится",
+            "vi": "Мне нравится"
+          }
+        },
+        "vi": {
+          "text": "Tôi thích cái này",
+          "ipa": "/toj˧ tʰik˧˥ kaːj˧˥ naj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi thích cái này",
+            "en": "Tôi thích cái này"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.i_don_t_like_it",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I don't like it",
+          "ipa": "/aɪ dəʊnt laɪk ɪt/",
+          "hints": {
+            "ru": "I don't like it",
+            "vi": "I don't like it"
+          }
+        },
+        "ru": {
+          "text": "Мне не нравится",
+          "ipa": "/mnʲe nʲe nravʲitsʲa/",
+          "hints": {
+            "en": "Мне не нравится",
+            "vi": "Мне не нравится"
+          }
+        },
+        "vi": {
+          "text": "Tôi không thích",
+          "ipa": "/toj˧ xowŋ˧ tʰik˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi không thích",
+            "en": "Tôi không thích"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.what_happened",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "What happened",
+          "ipa": "/wɒt happened/",
+          "hints": {
+            "ru": "What happened",
+            "vi": "What happened"
+          }
+        },
+        "ru": {
+          "text": "Что случилось",
+          "ipa": "/ʂto slutɕilosʲ/",
+          "hints": {
+            "en": "Что случилось",
+            "vi": "Что случилось"
+          }
+        },
+        "vi": {
+          "text": "Chuyện gì xảy ra",
+          "ipa": "/tɕwiən˧ˀ zi˧˩ saj˧˩˧ zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Chuyện gì xảy ra",
+            "en": "Chuyện gì xảy ra"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.never_mind",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Never mind",
+          "ipa": "/ˈnevə mind/",
+          "hints": {
+            "ru": "Never mind",
+            "vi": "Never mind"
+          }
+        },
+        "ru": {
+          "text": "Неважно",
+          "ipa": "/nʲevaʐno/",
+          "hints": {
+            "en": "Неважно",
+            "vi": "Неважно"
+          }
+        },
+        "vi": {
+          "text": "Không sao đâu",
+          "ipa": "/xowŋ˧ saːw˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Không sao đâu",
+            "en": "Không sao đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.good_job",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Good job",
+          "ipa": "/ɡʊd job/",
+          "hints": {
+            "ru": "Good job",
+            "vi": "Good job"
+          }
+        },
+        "ru": {
+          "text": "Молодец",
+          "ipa": "/molodʲets/",
+          "hints": {
+            "en": "Молодец",
+            "vi": "Молодец"
+          }
+        },
+        "vi": {
+          "text": "Làm tốt lắm",
+          "ipa": "/laːm˨˩ tot˧˥ lam˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Làm tốt lắm",
+            "en": "Làm tốt lắm"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.be_careful",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Be careful",
+          "ipa": "/biː careful/",
+          "hints": {
+            "ru": "Be careful",
+            "vi": "Be careful"
+          }
+        },
+        "ru": {
+          "text": "Осторожно",
+          "ipa": "/ostoroʐno/",
+          "hints": {
+            "en": "Осторожно",
+            "vi": "Осторожно"
+          }
+        },
+        "vi": {
+          "text": "Cẩn thận",
+          "ipa": "/kən˧˩˧ tʰən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Cẩn thận",
+            "en": "Cẩn thận"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.hurry_up",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Hurry up",
+          "ipa": "/hurry ʌp/",
+          "hints": {
+            "ru": "Hurry up",
+            "vi": "Hurry up"
+          }
+        },
+        "ru": {
+          "text": "Поторопись",
+          "ipa": "/potoropʲisʲ/",
+          "hints": {
+            "en": "Поторопись",
+            "vi": "Поторопись"
+          }
+        },
+        "vi": {
+          "text": "Nhanh lên",
+          "ipa": "/ɲajŋ˧ len˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Nhanh lên",
+            "en": "Nhanh lên"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.wait_for_me",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Wait for me",
+          "ipa": "/weɪt fɔː miː/",
+          "hints": {
+            "ru": "Wait for me",
+            "vi": "Wait for me"
+          }
+        },
+        "ru": {
+          "text": "Подожди меня",
+          "ipa": "/podoʐdʲi mʲenʲa/",
+          "hints": {
+            "en": "Подожди меня",
+            "vi": "Подожди меня"
+          }
+        },
+        "vi": {
+          "text": "Chờ tôi với",
+          "ipa": "/tɕəː˨˩ toj˧ vəːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Chờ tôi với",
+            "en": "Chờ tôi với"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.call_me",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Call me",
+          "ipa": "/kɔːl miː/",
+          "hints": {
+            "ru": "Call me",
+            "vi": "Call me"
+          }
+        },
+        "ru": {
+          "text": "Позвони мне",
+          "ipa": "/pozvonʲi mnʲe/",
+          "hints": {
+            "en": "Позвони мне",
+            "vi": "Позвони мне"
+          }
+        },
+        "vi": {
+          "text": "Gọi cho tôi",
+          "ipa": "/ɣɔj˧ˀ tɕɔ˧ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Gọi cho tôi",
+            "en": "Gọi cho tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.text_me",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Text me",
+          "ipa": "/text miː/",
+          "hints": {
+            "ru": "Text me",
+            "vi": "Text me"
+          }
+        },
+        "ru": {
+          "text": "Напиши мне",
+          "ipa": "/napʲiʂi mnʲe/",
+          "hints": {
+            "en": "Напиши мне",
+            "vi": "Напиши мне"
+          }
+        },
+        "vi": {
+          "text": "Nhắn tin cho tôi",
+          "ipa": "/ɲan˧˥ tin˧ tɕɔ˧ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Nhắn tin cho tôi",
+            "en": "Nhắn tin cho tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.see_you_soon",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "See you soon",
+          "ipa": "/siː juː soon/",
+          "hints": {
+            "ru": "See you soon",
+            "vi": "See you soon"
+          }
+        },
+        "ru": {
+          "text": "До скорой встречи",
+          "ipa": "/do skoroj vstrʲetɕi/",
+          "hints": {
+            "en": "До скорой встречи",
+            "vi": "До скорой встречи"
+          }
+        },
+        "vi": {
+          "text": "Hẹn gặp sớm",
+          "ipa": "/hɛn˧ˀ ɣap˧ˀ səːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Hẹn gặp sớm",
+            "en": "Hẹn gặp sớm"
+          }
+        }
+      }
+    },
+    {
+      "id": "phrx.have_a_nice_day",
+      "kind": "phrase",
+      "theme": "phrases",
+      "tags": [
+        "theme:phrases"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Have a nice day",
+          "ipa": "/hæv ə naɪs day/",
+          "hints": {
+            "ru": "Have a nice day",
+            "vi": "Have a nice day"
+          }
+        },
+        "ru": {
+          "text": "Хорошего дня",
+          "ipa": "/xoroʂeɡo dnʲa/",
+          "hints": {
+            "en": "Хорошего дня",
+            "vi": "Хорошего дня"
+          }
+        },
+        "vi": {
+          "text": "Chúc một ngày tốt lành",
+          "ipa": "/tɕuc˧˥ mot˧ˀ ŋaj˧˩ tot˧˥ lajŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Chúc một ngày tốt lành",
+            "en": "Chúc một ngày tốt lành"
+          }
+        }
+      }
+    }
+  ]
+}

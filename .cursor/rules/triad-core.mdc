@@ -1,0 +1,27 @@
+---
+description: Продуктовые инварианты Тройки — стек, скоуп, что нельзя делать
+alwaysApply: true
+---
+
+# Тройка / Triad / Tam Ngữ
+
+Офлайн Android-приложение для изучения EN, RU, VI. Пакет `dev.sergey.triad`. Телефон: Samsung S24 Ultra. Веб, десктоп и бэкенд не существуют в этом проекте.
+
+## Стек v1
+
+Kotlin 2, Jetpack Compose, Material 3, Navigation Compose, Hilt, Room, DataStore. Один модуль `:app`. minSdk 31. Модуль `:ml` — только когда появится локальная модель.
+
+## Языки
+
+Только `AppLanguage { En, Ru, Vi }`. Четвёртый язык не добавлять. Носитель любого из трёх может учить остальные. Не хардкодить русский как опору.
+
+## Не делать (v1 и «на будущее»)
+
+- Сервер, облачные аккаунты, пароли, OAuth, Google Sign-In
+- Валидация email (поле можно хранить как необязательную строку)
+- Google Play: листинг, AAB, Billing, In-App Updates, Integrity, Asset Delivery, любой Play-SDK
+- Реализация переводчика (только интерфейс `TranslationEngine` + stub)
+- Нейро-TTS, OCR, live-перевод речи, ввод Telex
+- Зависимость [FSRS-Kotlin](https://github.com/open-spaced-repetition/FSRS-Kotlin)
+
+Сборка APK — одна команда из корня: `./gradlew assembleDebug` (debug APK в `app/build/outputs/apk/debug/`). Кнопка в Cursor: задача **Build APK** в `.vscode/tasks.json` (Ctrl+Shift+B). Установка: `./gradlew installDebug`. Wrapper коммитим. Не заводить `package.json`. `applicationId` не менять. Без AAB и Play Console.

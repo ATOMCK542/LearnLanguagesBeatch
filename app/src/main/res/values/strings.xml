@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Triad</string>
+    <string name="nav_study">Study</string>
+    <string name="nav_path">Path</string>
+    <string name="nav_cards">Cards</string>
+    <string name="nav_more">More</string>
+    <string name="onboarding_title">Create profile</string>
+    <string name="onboarding_name">Name</string>
+    <string name="onboarding_email">Email (optional)</string>
+    <string name="onboarding_language">I speak</string>
+    <string name="onboarding_targets">I want to learn</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_back">Back</string>
+    <string name="session_progress">%1$d / %2$d</string>
+    <string name="action_create">Create</string>
+    <string name="action_start">Start session</string>
+    <string name="action_show">Show answer</string>
+    <string name="action_check">Check</string>
+    <string name="rating_again">Again</string>
+    <string name="rating_hard">Hard</string>
+    <string name="rating_good">Good</string>
+    <string name="rating_easy">Easy</string>
+    <string name="label_due">Due</string>
+    <string name="label_streak">Streak</string>
+    <string name="label_ipa">IPA</string>
+    <string name="label_hint">Hint</string>
+    <string name="label_grammar">Grammar</string>
+    <string name="label_tones">Tones</string>
+    <string name="label_speak">Speak</string>
+    <string name="empty_session">Nothing due. Walk the path to unlock more.</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Not quite</string>
+    <string name="accounts">Accounts</string>
+    <string name="add_account">Add account</string>
+    <string name="switch_account">Switch</string>
+    <string name="delete_account">Delete</string>
+    <string name="confirm_delete">Delete this profile and its progress?</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings_ui">Interface language</string>
+    <string name="settings_native">I know</string>
+    <string name="settings_targets">Learning</string>
+    <string name="settings_tts">Speech</string>
+    <string name="stats_title">Stats</string>
+    <string name="export_current">Export current profile</string>
+    <string name="export_all">Export all profiles</string>
+    <string name="import_backup">Import</string>
+    <string name="translator_title">Translator</string>
+    <string name="translator_stub">On-device translation comes in a later version. Cards already include all three languages.</string>
+    <string name="search">Search</string>
+    <string name="add_card">Add card</string>
+    <string name="save">Save</string>
+    <string name="text_en">English</string>
+    <string name="text_ru">Russian</string>
+    <string name="text_vi">Vietnamese</string>
+    <string name="primer_vi_title">Vietnamese tones</string>
+    <string name="primer_vi_body">Six tones change meaning: ma, má, mà, mả, mã, mạ. Marks sit on the vowel.</string>
+    <string name="primer_ru_title">Russian alphabet</string>
+    <string name="primer_ru_body">Stress moves and unstressed o sounds like a. Always mark stress when you learn a word.</string>
+    <string name="primer_en_title">English questions</string>
+    <string name="primer_en_body">Yes/No questions use do/does/did or a modal before the subject: Do you…? Can I…? WH-word + be/do: Where is…? What do you…?</string>
+    <string name="primer_done">Mark done</string>
+    <string name="session_done">Session complete</string>
+    <string name="build_sentence">Build the sentence</string>
+    <string name="pick_translation">Pick the translation</string>
+    <string name="pick_tone">Pick the tone</string>
+    <string name="third_form">Also</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+    <string name="lang_en_endonym">English</string>
+    <string name="lang_ru_endonym">Русский</string>
+    <string name="lang_vi_endonym">Tiếng Việt</string>
+    <string name="error_generic">Something went wrong</string>
+    <string-array name="tone_names">
+        <item>ngang</item>
+        <item>sắc</item>
+        <item>huyền</item>
+        <item>hỏi</item>
+        <item>ngã</item>
+        <item>nặng</item>
+    </string-array>
+</resources>

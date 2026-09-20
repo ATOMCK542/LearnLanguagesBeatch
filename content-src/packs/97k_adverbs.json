@@ -1,0 +1,1219 @@
+{
+  "theme": {
+    "id": "adverbs",
+    "kind": "unit",
+    "order": 103,
+    "title": {
+      "en": "Adverbs",
+      "ru": "Наречия",
+      "vi": "Trạng từ"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "adv.very",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "very",
+          "ipa": "/ˈveri/",
+          "hints": {
+            "ru": "very",
+            "vi": "very"
+          }
+        },
+        "ru": {
+          "text": "очень",
+          "ipa": "/otɕenʲ/",
+          "hints": {
+            "en": "очень",
+            "vi": "очень"
+          }
+        },
+        "vi": {
+          "text": "rất",
+          "ipa": "/zət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "rất",
+            "en": "rất"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.too",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "too",
+          "ipa": "/tuː/",
+          "hints": {
+            "ru": "too",
+            "vi": "too"
+          }
+        },
+        "ru": {
+          "text": "слишком",
+          "ipa": "/slʲiʂkom/",
+          "hints": {
+            "en": "слишком",
+            "vi": "слишком"
+          }
+        },
+        "vi": {
+          "text": "quá",
+          "ipa": "/kwaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "quá",
+            "en": "quá"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.quite",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "quite",
+          "ipa": "/quite/",
+          "hints": {
+            "ru": "quite",
+            "vi": "quite"
+          }
+        },
+        "ru": {
+          "text": "довольно",
+          "ipa": "/dovolʲno/",
+          "hints": {
+            "en": "довольно",
+            "vi": "довольно"
+          }
+        },
+        "vi": {
+          "text": "khá",
+          "ipa": "/xaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khá",
+            "en": "khá"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.almost",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "almost",
+          "ipa": "/almost/",
+          "hints": {
+            "ru": "almost",
+            "vi": "almost"
+          }
+        },
+        "ru": {
+          "text": "почти",
+          "ipa": "/potɕtʲi/",
+          "hints": {
+            "en": "почти",
+            "vi": "почти"
+          }
+        },
+        "vi": {
+          "text": "gần như",
+          "ipa": "/ɡən˨˩ ɲɨ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "gần như",
+            "en": "gần như"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.enough",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "enough",
+          "ipa": "/enough/",
+          "hints": {
+            "ru": "enough",
+            "vi": "enough"
+          }
+        },
+        "ru": {
+          "text": "достаточно",
+          "ipa": "/dostatotɕno/",
+          "hints": {
+            "en": "достаточно",
+            "vi": "достаточно"
+          }
+        },
+        "vi": {
+          "text": "đủ",
+          "ipa": "/ɗu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đủ",
+            "en": "đủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.also",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "also",
+          "ipa": "/ˈɔːlsəʊ/",
+          "hints": {
+            "ru": "also",
+            "vi": "also"
+          }
+        },
+        "ru": {
+          "text": "также",
+          "ipa": "/takʐe/",
+          "hints": {
+            "en": "также",
+            "vi": "также"
+          }
+        },
+        "vi": {
+          "text": "cũng",
+          "ipa": "/kuŋ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cũng",
+            "en": "cũng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.only",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "only",
+          "ipa": "/ˈəʊnli/",
+          "hints": {
+            "ru": "only",
+            "vi": "only"
+          }
+        },
+        "ru": {
+          "text": "только",
+          "ipa": "/tolʲko/",
+          "hints": {
+            "en": "только",
+            "vi": "только"
+          }
+        },
+        "vi": {
+          "text": "chỉ",
+          "ipa": "/tɕi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chỉ",
+            "en": "chỉ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.even",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "even",
+          "ipa": "/even/",
+          "hints": {
+            "ru": "even",
+            "vi": "even"
+          }
+        },
+        "ru": {
+          "text": "даже",
+          "ipa": "/daʐe/",
+          "hints": {
+            "en": "даже",
+            "vi": "даже"
+          }
+        },
+        "vi": {
+          "text": "thậm chí",
+          "ipa": "/tʰəm˧ˀ tɕi˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thậm chí",
+            "en": "thậm chí"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.just",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "just",
+          "ipa": "/dʒʌst/",
+          "hints": {
+            "ru": "just",
+            "vi": "just"
+          }
+        },
+        "ru": {
+          "text": "только что",
+          "ipa": "/tolʲko ʂto/",
+          "hints": {
+            "en": "только что",
+            "vi": "только что"
+          }
+        },
+        "vi": {
+          "text": "vừa",
+          "ipa": "/vɨə˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vừa",
+            "en": "vừa"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.again",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "again",
+          "ipa": "/əˈɡen/",
+          "hints": {
+            "ru": "again",
+            "vi": "again"
+          }
+        },
+        "ru": {
+          "text": "снова",
+          "ipa": "/snova/",
+          "hints": {
+            "en": "снова",
+            "vi": "снова"
+          }
+        },
+        "vi": {
+          "text": "lại",
+          "ipa": "/laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "lại",
+            "en": "lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.together",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "together",
+          "ipa": "/together/",
+          "hints": {
+            "ru": "together",
+            "vi": "together"
+          }
+        },
+        "ru": {
+          "text": "вместе",
+          "ipa": "/vmʲestʲe/",
+          "hints": {
+            "en": "вместе",
+            "vi": "вместе"
+          }
+        },
+        "vi": {
+          "text": "cùng nhau",
+          "ipa": "/kuŋ˧˩ ɲaw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cùng nhau",
+            "en": "cùng nhau"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.alone",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "alone",
+          "ipa": "/alone/",
+          "hints": {
+            "ru": "alone",
+            "vi": "alone"
+          }
+        },
+        "ru": {
+          "text": "один",
+          "ipa": "/odʲin/",
+          "hints": {
+            "en": "один",
+            "vi": "один"
+          }
+        },
+        "vi": {
+          "text": "một mình",
+          "ipa": "/mot˧ˀ miɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "một mình",
+            "en": "một mình"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.here",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "here",
+          "ipa": "/hɪə/",
+          "hints": {
+            "ru": "here",
+            "vi": "here"
+          }
+        },
+        "ru": {
+          "text": "здесь",
+          "ipa": "/zdʲesʲ/",
+          "hints": {
+            "en": "здесь",
+            "vi": "здесь"
+          }
+        },
+        "vi": {
+          "text": "ở đây",
+          "ipa": "/əː˧˩˧ ɗəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ở đây",
+            "en": "ở đây"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.there",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "there",
+          "ipa": "/ðeə/",
+          "hints": {
+            "ru": "there",
+            "vi": "there"
+          }
+        },
+        "ru": {
+          "text": "там",
+          "ipa": "/tam/",
+          "hints": {
+            "en": "там",
+            "vi": "там"
+          }
+        },
+        "vi": {
+          "text": "ở đó",
+          "ipa": "/əː˧˩˧ ɗɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ở đó",
+            "en": "ở đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.away",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "away",
+          "ipa": "/away/",
+          "hints": {
+            "ru": "away",
+            "vi": "away"
+          }
+        },
+        "ru": {
+          "text": "прочь",
+          "ipa": "/protɕ/",
+          "hints": {
+            "en": "прочь",
+            "vi": "прочь"
+          }
+        },
+        "vi": {
+          "text": "đi",
+          "ipa": "/ɗi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đi",
+            "en": "đi"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.inside",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "inside",
+          "ipa": "/inside/",
+          "hints": {
+            "ru": "inside",
+            "vi": "inside"
+          }
+        },
+        "ru": {
+          "text": "внутри",
+          "ipa": "/vnutrʲi/",
+          "hints": {
+            "en": "внутри",
+            "vi": "внутри"
+          }
+        },
+        "vi": {
+          "text": "bên trong",
+          "ipa": "/ɓen˧ tɕɔŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bên trong",
+            "en": "bên trong"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.outside",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "outside",
+          "ipa": "/outside/",
+          "hints": {
+            "ru": "outside",
+            "vi": "outside"
+          }
+        },
+        "ru": {
+          "text": "снаружи",
+          "ipa": "/snaruʐi/",
+          "hints": {
+            "en": "снаружи",
+            "vi": "снаружи"
+          }
+        },
+        "vi": {
+          "text": "bên ngoài",
+          "ipa": "/ɓen˧ ŋwaːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bên ngoài",
+            "en": "bên ngoài"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.forward",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "forward",
+          "ipa": "/forward/",
+          "hints": {
+            "ru": "forward",
+            "vi": "forward"
+          }
+        },
+        "ru": {
+          "text": "вперёд",
+          "ipa": "/vpʲerʲod/",
+          "hints": {
+            "en": "вперёд",
+            "vi": "вперёд"
+          }
+        },
+        "vi": {
+          "text": "về phía trước",
+          "ipa": "/ve˧˩ fiə˧˥ tɕɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "về phía trước",
+            "en": "về phía trước"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.backward",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "backward",
+          "ipa": "/backward/",
+          "hints": {
+            "ru": "backward",
+            "vi": "backward"
+          }
+        },
+        "ru": {
+          "text": "назад",
+          "ipa": "/nazad/",
+          "hints": {
+            "en": "назад",
+            "vi": "назад"
+          }
+        },
+        "vi": {
+          "text": "về phía sau",
+          "ipa": "/ve˧˩ fiə˧˥ saw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "về phía sau",
+            "en": "về phía sau"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.quickly",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "quickly",
+          "ipa": "/quickly/",
+          "hints": {
+            "ru": "quickly",
+            "vi": "quickly"
+          }
+        },
+        "ru": {
+          "text": "быстро",
+          "ipa": "/bɨstro/",
+          "hints": {
+            "en": "быстро",
+            "vi": "быстро"
+          }
+        },
+        "vi": {
+          "text": "nhanh",
+          "ipa": "/ɲajŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhanh",
+            "en": "nhanh"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.slowly",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "slowly",
+          "ipa": "/ˈsləʊli/",
+          "hints": {
+            "ru": "slowly",
+            "vi": "slowly"
+          }
+        },
+        "ru": {
+          "text": "медленно",
+          "ipa": "/mʲedlʲenno/",
+          "hints": {
+            "en": "медленно",
+            "vi": "медленно"
+          }
+        },
+        "vi": {
+          "text": "chậm",
+          "ipa": "/tɕəm˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chậm",
+            "en": "chậm"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.carefully",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "carefully",
+          "ipa": "/carefully/",
+          "hints": {
+            "ru": "carefully",
+            "vi": "carefully"
+          }
+        },
+        "ru": {
+          "text": "осторожно",
+          "ipa": "/ostoroʐno/",
+          "hints": {
+            "en": "осторожно",
+            "vi": "осторожно"
+          }
+        },
+        "vi": {
+          "text": "cẩn thận",
+          "ipa": "/kən˧˩˧ tʰən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cẩn thận",
+            "en": "cẩn thận"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.easily",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "easily",
+          "ipa": "/easily/",
+          "hints": {
+            "ru": "easily",
+            "vi": "easily"
+          }
+        },
+        "ru": {
+          "text": "легко",
+          "ipa": "/lʲeɡko/",
+          "hints": {
+            "en": "легко",
+            "vi": "легко"
+          }
+        },
+        "vi": {
+          "text": "dễ dàng",
+          "ipa": "/ze˧˩˧ zaːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dễ dàng",
+            "en": "dễ dàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.suddenly",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "suddenly",
+          "ipa": "/suddenly/",
+          "hints": {
+            "ru": "suddenly",
+            "vi": "suddenly"
+          }
+        },
+        "ru": {
+          "text": "внезапно",
+          "ipa": "/vnʲezapno/",
+          "hints": {
+            "en": "внезапно",
+            "vi": "внезапно"
+          }
+        },
+        "vi": {
+          "text": "đột nhiên",
+          "ipa": "/ɗot˧ˀ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đột nhiên",
+            "en": "đột nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.finally",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "finally",
+          "ipa": "/finally/",
+          "hints": {
+            "ru": "finally",
+            "vi": "finally"
+          }
+        },
+        "ru": {
+          "text": "наконец",
+          "ipa": "/nakonʲets/",
+          "hints": {
+            "en": "наконец",
+            "vi": "наконец"
+          }
+        },
+        "vi": {
+          "text": "cuối cùng",
+          "ipa": "/kuəj˧˥ kuŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cuối cùng",
+            "en": "cuối cùng"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.recently",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "recently",
+          "ipa": "/recently/",
+          "hints": {
+            "ru": "recently",
+            "vi": "recently"
+          }
+        },
+        "ru": {
+          "text": "недавно",
+          "ipa": "/nʲedavno/",
+          "hints": {
+            "en": "недавно",
+            "vi": "недавно"
+          }
+        },
+        "vi": {
+          "text": "gần đây",
+          "ipa": "/ɡən˨˩ ɗəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "gần đây",
+            "en": "gần đây"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.currently",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "currently",
+          "ipa": "/currently/",
+          "hints": {
+            "ru": "currently",
+            "vi": "currently"
+          }
+        },
+        "ru": {
+          "text": "сейчас",
+          "ipa": "/sʲɪjˈtɕas/",
+          "hints": {
+            "en": "сейчас",
+            "vi": "сейчас"
+          }
+        },
+        "vi": {
+          "text": "hiện nay",
+          "ipa": "/hiən˧ˀ naj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hiện nay",
+            "en": "hiện nay"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.probably",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "probably",
+          "ipa": "/probably/",
+          "hints": {
+            "ru": "probably",
+            "vi": "probably"
+          }
+        },
+        "ru": {
+          "text": "вероятно",
+          "ipa": "/vʲerojatno/",
+          "hints": {
+            "en": "вероятно",
+            "vi": "вероятно"
+          }
+        },
+        "vi": {
+          "text": "có lẽ",
+          "ipa": "/kɔ˧˥ lɛ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "có lẽ",
+            "en": "có lẽ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.really",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "really",
+          "ipa": "/ˈrɪəli/",
+          "hints": {
+            "ru": "really",
+            "vi": "really"
+          }
+        },
+        "ru": {
+          "text": "действительно",
+          "ipa": "/dʲejstvʲitʲelʲno/",
+          "hints": {
+            "en": "действительно",
+            "vi": "действительно"
+          }
+        },
+        "vi": {
+          "text": "thật sự",
+          "ipa": "/tʰət˧ˀ sɨ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thật sự",
+            "en": "thật sự"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.especially",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "especially",
+          "ipa": "/especially/",
+          "hints": {
+            "ru": "especially",
+            "vi": "especially"
+          }
+        },
+        "ru": {
+          "text": "особенно",
+          "ipa": "/osobʲenno/",
+          "hints": {
+            "en": "особенно",
+            "vi": "особенно"
+          }
+        },
+        "vi": {
+          "text": "đặc biệt",
+          "ipa": "/ɗak˧ˀ ɓiət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đặc biệt",
+            "en": "đặc biệt"
+          }
+        }
+      }
+    }
+  ]
+}

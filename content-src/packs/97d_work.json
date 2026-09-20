@@ -1,0 +1,939 @@
+{
+  "theme": {
+    "id": "work",
+    "kind": "unit",
+    "order": 97,
+    "title": {
+      "en": "Work",
+      "ru": "Работа",
+      "vi": "Công việc"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "work.job",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "job",
+          "ipa": "/job/",
+          "hints": {
+            "ru": "job",
+            "vi": "job"
+          }
+        },
+        "ru": {
+          "text": "работа",
+          "ipa": "/rabota/",
+          "hints": {
+            "en": "работа",
+            "vi": "работа"
+          }
+        },
+        "vi": {
+          "text": "công việc",
+          "ipa": "/koŋ˧ viək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "công việc",
+            "en": "công việc"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.worker",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "worker",
+          "ipa": "/worker/",
+          "hints": {
+            "ru": "worker",
+            "vi": "worker"
+          }
+        },
+        "ru": {
+          "text": "работник",
+          "ipa": "/rabotnʲik/",
+          "hints": {
+            "en": "работник",
+            "vi": "работник"
+          }
+        },
+        "vi": {
+          "text": "công nhân",
+          "ipa": "/koŋ˧ ɲən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "công nhân",
+            "en": "công nhân"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.boss",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "boss",
+          "ipa": "/boss/",
+          "hints": {
+            "ru": "boss",
+            "vi": "boss"
+          }
+        },
+        "ru": {
+          "text": "начальник",
+          "ipa": "/natɕalʲnʲik/",
+          "hints": {
+            "en": "начальник",
+            "vi": "начальник"
+          }
+        },
+        "vi": {
+          "text": "sếp",
+          "ipa": "/sep˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sếp",
+            "en": "sếp"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.colleague",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "colleague",
+          "ipa": "/colleague/",
+          "hints": {
+            "ru": "colleague",
+            "vi": "colleague"
+          }
+        },
+        "ru": {
+          "text": "коллега",
+          "ipa": "/kollʲeɡa/",
+          "hints": {
+            "en": "коллега",
+            "vi": "коллега"
+          }
+        },
+        "vi": {
+          "text": "đồng nghiệp",
+          "ipa": "/ɗoŋ˧˩ ŋiep˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đồng nghiệp",
+            "en": "đồng nghiệp"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.customer",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "customer",
+          "ipa": "/customer/",
+          "hints": {
+            "ru": "customer",
+            "vi": "customer"
+          }
+        },
+        "ru": {
+          "text": "клиент",
+          "ipa": "/klʲijent/",
+          "hints": {
+            "en": "клиент",
+            "vi": "клиент"
+          }
+        },
+        "vi": {
+          "text": "khách hàng",
+          "ipa": "/xajk˧˥ haːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "khách hàng",
+            "en": "khách hàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.business",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "business",
+          "ipa": "/business/",
+          "hints": {
+            "ru": "business",
+            "vi": "business"
+          }
+        },
+        "ru": {
+          "text": "бизнес",
+          "ipa": "/bʲiznʲes/",
+          "hints": {
+            "en": "бизнес",
+            "vi": "бизнес"
+          }
+        },
+        "vi": {
+          "text": "kinh doanh",
+          "ipa": "/kiɲ˧ zɔaːnh˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kinh doanh",
+            "en": "kinh doanh"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.company",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "company",
+          "ipa": "/company/",
+          "hints": {
+            "ru": "company",
+            "vi": "company"
+          }
+        },
+        "ru": {
+          "text": "компания",
+          "ipa": "/kompanʲija/",
+          "hints": {
+            "en": "компания",
+            "vi": "компания"
+          }
+        },
+        "vi": {
+          "text": "công ty",
+          "ipa": "/koŋ˧ ti˧/",
+          "tones": [],
+          "hints": {
+            "ru": "công ty",
+            "en": "công ty"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.meeting",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "meeting",
+          "ipa": "/meeting/",
+          "hints": {
+            "ru": "meeting",
+            "vi": "meeting"
+          }
+        },
+        "ru": {
+          "text": "встреча",
+          "ipa": "/vstrʲetɕa/",
+          "hints": {
+            "en": "встреча",
+            "vi": "встреча"
+          }
+        },
+        "vi": {
+          "text": "cuộc họp",
+          "ipa": "/kuək˧ˀ hɔp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cuộc họp",
+            "en": "cuộc họp"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.email",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "email",
+          "ipa": "/email/",
+          "hints": {
+            "ru": "email",
+            "vi": "email"
+          }
+        },
+        "ru": {
+          "text": "почта",
+          "ipa": "/potɕta/",
+          "hints": {
+            "en": "почта",
+            "vi": "почта"
+          }
+        },
+        "vi": {
+          "text": "email",
+          "ipa": "/ɛmaːil˧/",
+          "tones": [],
+          "hints": {
+            "ru": "email",
+            "en": "email"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.message",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "message",
+          "ipa": "/message/",
+          "hints": {
+            "ru": "message",
+            "vi": "message"
+          }
+        },
+        "ru": {
+          "text": "сообщение",
+          "ipa": "/soobɕːenʲije/",
+          "hints": {
+            "en": "сообщение",
+            "vi": "сообщение"
+          }
+        },
+        "vi": {
+          "text": "tin nhắn",
+          "ipa": "/tin˧ ɲan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tin nhắn",
+            "en": "tin nhắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.salary",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "salary",
+          "ipa": "/salary/",
+          "hints": {
+            "ru": "salary",
+            "vi": "salary"
+          }
+        },
+        "ru": {
+          "text": "зарплата",
+          "ipa": "/zarplata/",
+          "hints": {
+            "en": "зарплата",
+            "vi": "зарплата"
+          }
+        },
+        "vi": {
+          "text": "lương",
+          "ipa": "/lɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lương",
+            "en": "lương"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.money",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "money",
+          "ipa": "/money/",
+          "hints": {
+            "ru": "money",
+            "vi": "money"
+          }
+        },
+        "ru": {
+          "text": "деньги",
+          "ipa": "/dʲenʲɡʲi/",
+          "hints": {
+            "en": "деньги",
+            "vi": "деньги"
+          }
+        },
+        "vi": {
+          "text": "tiền",
+          "ipa": "/tiən˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tiền",
+            "en": "tiền"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.price",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "price",
+          "ipa": "/price/",
+          "hints": {
+            "ru": "price",
+            "vi": "price"
+          }
+        },
+        "ru": {
+          "text": "цена",
+          "ipa": "/tsena/",
+          "hints": {
+            "en": "цена",
+            "vi": "цена"
+          }
+        },
+        "vi": {
+          "text": "giá",
+          "ipa": "/zaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "giá",
+            "en": "giá"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.free",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "free",
+          "ipa": "/free/",
+          "hints": {
+            "ru": "free",
+            "vi": "free"
+          }
+        },
+        "ru": {
+          "text": "бесплатный",
+          "ipa": "/bʲesplatnɨj/",
+          "hints": {
+            "en": "бесплатный",
+            "vi": "бесплатный"
+          }
+        },
+        "vi": {
+          "text": "miễn phí",
+          "ipa": "/miən˧˥ˀ fi˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "miễn phí",
+            "en": "miễn phí"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.break",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "break",
+          "ipa": "/break/",
+          "hints": {
+            "ru": "break",
+            "vi": "break"
+          }
+        },
+        "ru": {
+          "text": "перерыв",
+          "ipa": "/pʲerʲerɨv/",
+          "hints": {
+            "en": "перерыв",
+            "vi": "перерыв"
+          }
+        },
+        "vi": {
+          "text": "nghỉ",
+          "ipa": "/ŋi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nghỉ",
+            "en": "nghỉ"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.project",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "project",
+          "ipa": "/project/",
+          "hints": {
+            "ru": "project",
+            "vi": "project"
+          }
+        },
+        "ru": {
+          "text": "проект",
+          "ipa": "/projekt/",
+          "hints": {
+            "en": "проект",
+            "vi": "проект"
+          }
+        },
+        "vi": {
+          "text": "dự án",
+          "ipa": "/zɨ˧ˀ aːn˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "dự án",
+            "en": "dự án"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.plan",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "plan",
+          "ipa": "/plan/",
+          "hints": {
+            "ru": "plan",
+            "vi": "plan"
+          }
+        },
+        "ru": {
+          "text": "план",
+          "ipa": "/plan/",
+          "hints": {
+            "en": "план",
+            "vi": "план"
+          }
+        },
+        "vi": {
+          "text": "kế hoạch",
+          "ipa": "/ke˧˥ hɔaːch˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "kế hoạch",
+            "en": "kế hoạch"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.goal",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "goal",
+          "ipa": "/goal/",
+          "hints": {
+            "ru": "goal",
+            "vi": "goal"
+          }
+        },
+        "ru": {
+          "text": "цель",
+          "ipa": "/tselʲ/",
+          "hints": {
+            "en": "цель",
+            "vi": "цель"
+          }
+        },
+        "vi": {
+          "text": "mục tiêu",
+          "ipa": "/muc˧ˀ tiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mục tiêu",
+            "en": "mục tiêu"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.success",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "success",
+          "ipa": "/success/",
+          "hints": {
+            "ru": "success",
+            "vi": "success"
+          }
+        },
+        "ru": {
+          "text": "успех",
+          "ipa": "/uspʲex/",
+          "hints": {
+            "en": "успех",
+            "vi": "успех"
+          }
+        },
+        "vi": {
+          "text": "thành công",
+          "ipa": "/tʰajŋ˧˩ koŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thành công",
+            "en": "thành công"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.problem",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "problem",
+          "ipa": "/ˈprɒbləm/",
+          "hints": {
+            "ru": "problem",
+            "vi": "problem"
+          }
+        },
+        "ru": {
+          "text": "проблема",
+          "ipa": "/problʲema/",
+          "hints": {
+            "en": "проблема",
+            "vi": "проблема"
+          }
+        },
+        "vi": {
+          "text": "vấn đề",
+          "ipa": "/vən˧˥ ɗe˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vấn đề",
+            "en": "vấn đề"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.idea",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "idea",
+          "ipa": "/idea/",
+          "hints": {
+            "ru": "idea",
+            "vi": "idea"
+          }
+        },
+        "ru": {
+          "text": "идея",
+          "ipa": "/idʲeja/",
+          "hints": {
+            "en": "идея",
+            "vi": "идея"
+          }
+        },
+        "vi": {
+          "text": "ý tưởng",
+          "ipa": "/i˧˥ tɨəŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ý tưởng",
+            "en": "ý tưởng"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.decision",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "decision",
+          "ipa": "/decision/",
+          "hints": {
+            "ru": "decision",
+            "vi": "decision"
+          }
+        },
+        "ru": {
+          "text": "решение",
+          "ipa": "/rʲeʂenʲije/",
+          "hints": {
+            "en": "решение",
+            "vi": "решение"
+          }
+        },
+        "vi": {
+          "text": "quyết định",
+          "ipa": "/kwiet˧˥ ɗiɲ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "quyết định",
+            "en": "quyết định"
+          }
+        }
+      }
+    },
+    {
+      "id": "work.team",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "team",
+          "ipa": "/team/",
+          "hints": {
+            "ru": "team",
+            "vi": "team"
+          }
+        },
+        "ru": {
+          "text": "команда",
+          "ipa": "/komanda/",
+          "hints": {
+            "en": "команда",
+            "vi": "команда"
+          }
+        },
+        "vi": {
+          "text": "nhóm",
+          "ipa": "/ɲɔm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhóm",
+            "en": "nhóm"
+          }
+        }
+      }
+    }
+  ]
+}

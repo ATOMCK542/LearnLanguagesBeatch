@@ -1,0 +1,499 @@
+{
+  "theme": {
+    "id": "cafe",
+    "kind": "unit",
+    "order": 83,
+    "title": {
+      "en": "Cafe",
+      "ru": "Кафе",
+      "vi": "Quán cà phê"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "cafe.i_want_coffee",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I want coffee",
+          "ipa": "/aɪ wɒnt ˈkɒfi/",
+          "hints": {
+            "ru": "I want coffee",
+            "vi": "I want coffee"
+          }
+        },
+        "ru": {
+          "text": "Я хочу кофе",
+          "ipa": "/ja xɐˈtɕu ˈkofʲe/",
+          "hints": {
+            "en": "Я хочу кофе",
+            "vi": "Я хочу кофе"
+          }
+        },
+        "vi": {
+          "text": "Tôi muốn cà phê",
+          "ipa": "/toj˧ muən˧˥ kaː˧˩ fe˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi muốn cà phê",
+            "en": "Tôi muốn cà phê"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.can_i_have",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Can I have a menu?",
+          "ipa": "/kæn aɪ hæv ə ˈmenjuː/",
+          "hints": {
+            "ru": "Can I have a menu?",
+            "vi": "Can I have a menu?"
+          }
+        },
+        "ru": {
+          "text": "Можно меню?",
+          "ipa": "/moʐno mʲenʲu/",
+          "hints": {
+            "en": "Можно меню?",
+            "vi": "Можно меню?"
+          }
+        },
+        "vi": {
+          "text": "Cho tôi xem thực đơn?",
+          "ipa": "/tɕɔ˧ toj˧ sɛm˧ tʰɨc˧ˀ ɗəːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Cho tôi xem thực đơn?",
+            "en": "Cho tôi xem thực đơn?"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.for_here",
+      "kind": "phrase",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "for here",
+          "ipa": "/fɔː hɪə/",
+          "hints": {
+            "ru": "for here",
+            "vi": "for here"
+          }
+        },
+        "ru": {
+          "text": "здесь",
+          "ipa": "/zdʲesʲ/",
+          "hints": {
+            "en": "здесь",
+            "vi": "здесь"
+          }
+        },
+        "vi": {
+          "text": "dùng tại chỗ",
+          "ipa": "/zuŋ˧˩ taːj˧ˀ tɕo˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dùng tại chỗ",
+            "en": "dùng tại chỗ"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.to_go",
+      "kind": "phrase",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "to go",
+          "ipa": "/tə ɡəʊ/",
+          "hints": {
+            "ru": "to go",
+            "vi": "to go"
+          }
+        },
+        "ru": {
+          "text": "с собой",
+          "ipa": "/s soboj/",
+          "hints": {
+            "en": "с собой",
+            "vi": "с собой"
+          }
+        },
+        "vi": {
+          "text": "mang đi",
+          "ipa": "/maːŋ˧ ɗi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mang đi",
+            "en": "mang đi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.table_for_two",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "A table for two",
+          "ipa": "/ə ˈteɪbəl fɔː tuː/",
+          "hints": {
+            "ru": "A table for two",
+            "vi": "A table for two"
+          }
+        },
+        "ru": {
+          "text": "Столик на двоих",
+          "ipa": "/stolʲik na dvoix/",
+          "hints": {
+            "en": "Столик на двоих",
+            "vi": "Столик на двоих"
+          }
+        },
+        "vi": {
+          "text": "Bàn cho hai người",
+          "ipa": "/ɓaːn˧˩ tɕɔ˧ haːj˧ ŋɨəj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Bàn cho hai người",
+            "en": "Bàn cho hai người"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.water_please",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Water, please",
+          "ipa": "/ˈwɔːtə pliːz/",
+          "hints": {
+            "ru": "Water, please",
+            "vi": "Water, please"
+          }
+        },
+        "ru": {
+          "text": "Воды, пожалуйста",
+          "ipa": "/vodɨ pəˈʐaləstə/",
+          "hints": {
+            "en": "Воды, пожалуйста",
+            "vi": "Воды, пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "Cho tôi nước",
+          "ipa": "/tɕɔ˧ toj˧ nɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Cho tôi nước",
+            "en": "Cho tôi nước"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.its_too_hot",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "It's too hot",
+          "ipa": "/ɪts tuː hɒt/",
+          "hints": {
+            "ru": "It's too hot",
+            "vi": "It's too hot"
+          }
+        },
+        "ru": {
+          "text": "Слишком горячо",
+          "ipa": "/slʲiʂkom ɡorʲatɕo/",
+          "hints": {
+            "en": "Слишком горячо",
+            "vi": "Слишком горячо"
+          }
+        },
+        "vi": {
+          "text": "Nóng quá",
+          "ipa": "/nɔŋ˧˥ kwaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Nóng quá",
+            "en": "Nóng quá"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.sugar",
+      "kind": "word",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sugar",
+          "ipa": "/ˈʃʊɡə/",
+          "hints": {
+            "ru": "sugar",
+            "vi": "sugar"
+          }
+        },
+        "ru": {
+          "text": "сахар",
+          "ipa": "/saxar/",
+          "hints": {
+            "en": "сахар",
+            "vi": "сахар"
+          }
+        },
+        "vi": {
+          "text": "đường",
+          "ipa": "/ɗɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đường",
+            "en": "đường"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.cup",
+      "kind": "word",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cup",
+          "ipa": "/kʌp/",
+          "hints": {
+            "ru": "cup",
+            "vi": "cup"
+          }
+        },
+        "ru": {
+          "text": "чашка",
+          "ipa": "/tɕaʂka/",
+          "hints": {
+            "en": "чашка",
+            "vi": "чашка"
+          }
+        },
+        "vi": {
+          "text": "tách / ly",
+          "ipa": "/tajk˧˥ li˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tách / ly",
+            "en": "tách / ly"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.waiter",
+      "kind": "word",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "waiter",
+          "ipa": "/ˈweɪtə/",
+          "hints": {
+            "ru": "waiter",
+            "vi": "waiter"
+          }
+        },
+        "ru": {
+          "text": "официант",
+          "ipa": "/ofʲitsiant/",
+          "hints": {
+            "en": "официант",
+            "vi": "официант"
+          }
+        },
+        "vi": {
+          "text": "nhân viên phục vụ",
+          "ipa": "/ɲən˧ viən˧ fuc˧ˀ vu˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhân viên phục vụ",
+            "en": "nhân viên phục vụ"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.i_would_like",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I would like tea",
+          "ipa": "/aɪ wʊd laɪk tiː/",
+          "hints": {
+            "ru": "I would like tea",
+            "vi": "I would like tea"
+          }
+        },
+        "ru": {
+          "text": "Я бы хотел чай",
+          "ipa": "/ja bɨ xotʲel tɕaj/",
+          "hints": {
+            "en": "Я бы хотел чай",
+            "vi": "Я бы хотел чай"
+          }
+        },
+        "vi": {
+          "text": "Tôi muốn trà",
+          "ipa": "/toj˧ muən˧˥ tra˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi muốn trà",
+            "en": "Tôi muốn trà"
+          }
+        }
+      }
+    },
+    {
+      "id": "cafe.how_much_coffee",
+      "kind": "sentence",
+      "theme": "cafe",
+      "tags": [
+        "theme:cafe"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "How much is the coffee?",
+          "ipa": "/haʊ mʌtʃ ɪz ðə ˈkɒfi/",
+          "hints": {
+            "ru": "How much is the coffee?",
+            "vi": "How much is the coffee?"
+          }
+        },
+        "ru": {
+          "text": "Сколько стоит кофе?",
+          "ipa": "/skolʲko stoit ˈkofʲe/",
+          "hints": {
+            "en": "Сколько стоит кофе?",
+            "vi": "Сколько стоит кофе?"
+          }
+        },
+        "vi": {
+          "text": "Cà phê bao nhiêu?",
+          "ipa": "/kaː˧˩ fe˧ ɓaːw˧ ɲiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Cà phê bao nhiêu?",
+            "en": "Cà phê bao nhiêu?"
+          }
+        }
+      }
+    }
+  ]
+}

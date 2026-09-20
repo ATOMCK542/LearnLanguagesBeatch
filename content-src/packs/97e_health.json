@@ -1,0 +1,899 @@
+{
+  "theme": {
+    "id": "health",
+    "kind": "unit",
+    "order": 98,
+    "title": {
+      "en": "Health",
+      "ru": "Здоровье",
+      "vi": "Sức khỏe"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "hl.health",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "health",
+          "ipa": "/health/",
+          "hints": {
+            "ru": "health",
+            "vi": "health"
+          }
+        },
+        "ru": {
+          "text": "здоровье",
+          "ipa": "/zdorovʲje/",
+          "hints": {
+            "en": "здоровье",
+            "vi": "здоровье"
+          }
+        },
+        "vi": {
+          "text": "sức khỏe",
+          "ipa": "/sɨc˧˥ xwɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sức khỏe",
+            "en": "sức khỏe"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.doctor",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "doctor",
+          "ipa": "/doctor/",
+          "hints": {
+            "ru": "doctor",
+            "vi": "doctor"
+          }
+        },
+        "ru": {
+          "text": "врач",
+          "ipa": "/vratɕ/",
+          "hints": {
+            "en": "врач",
+            "vi": "врач"
+          }
+        },
+        "vi": {
+          "text": "bác sĩ",
+          "ipa": "/ɓaːk˧˥ si˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bác sĩ",
+            "en": "bác sĩ"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.nurse",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "nurse",
+          "ipa": "/nurse/",
+          "hints": {
+            "ru": "nurse",
+            "vi": "nurse"
+          }
+        },
+        "ru": {
+          "text": "медсестра",
+          "ipa": "/mʲedsʲestra/",
+          "hints": {
+            "en": "медсестра",
+            "vi": "медсестра"
+          }
+        },
+        "vi": {
+          "text": "y tá",
+          "ipa": "/i˧ taː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "y tá",
+            "en": "y tá"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.patient",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "patient",
+          "ipa": "/patient/",
+          "hints": {
+            "ru": "patient",
+            "vi": "patient"
+          }
+        },
+        "ru": {
+          "text": "пациент",
+          "ipa": "/patsijent/",
+          "hints": {
+            "en": "пациент",
+            "vi": "пациент"
+          }
+        },
+        "vi": {
+          "text": "bệnh nhân",
+          "ipa": "/ɓeɲ˧ˀ ɲən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bệnh nhân",
+            "en": "bệnh nhân"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.medicine",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "medicine",
+          "ipa": "/medicine/",
+          "hints": {
+            "ru": "medicine",
+            "vi": "medicine"
+          }
+        },
+        "ru": {
+          "text": "лекарство",
+          "ipa": "/lʲekarstvo/",
+          "hints": {
+            "en": "лекарство",
+            "vi": "лекарство"
+          }
+        },
+        "vi": {
+          "text": "thuốc",
+          "ipa": "/tʰuək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thuốc",
+            "en": "thuốc"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.pain",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pain",
+          "ipa": "/pain/",
+          "hints": {
+            "ru": "pain",
+            "vi": "pain"
+          }
+        },
+        "ru": {
+          "text": "боль",
+          "ipa": "/bolʲ/",
+          "hints": {
+            "en": "боль",
+            "vi": "боль"
+          }
+        },
+        "vi": {
+          "text": "đau",
+          "ipa": "/ɗaw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đau",
+            "en": "đau"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.sick",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sick",
+          "ipa": "/sick/",
+          "hints": {
+            "ru": "sick",
+            "vi": "sick"
+          }
+        },
+        "ru": {
+          "text": "больной",
+          "ipa": "/bolʲnoj/",
+          "hints": {
+            "en": "больной",
+            "vi": "больной"
+          }
+        },
+        "vi": {
+          "text": "ốm",
+          "ipa": "/om˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ốm",
+            "en": "ốm"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.ill",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ill",
+          "ipa": "/ill/",
+          "hints": {
+            "ru": "ill",
+            "vi": "ill"
+          }
+        },
+        "ru": {
+          "text": "болен",
+          "ipa": "/bolʲen/",
+          "hints": {
+            "en": "болен",
+            "vi": "болен"
+          }
+        },
+        "vi": {
+          "text": "bệnh",
+          "ipa": "/ɓeɲ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bệnh",
+            "en": "bệnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.fever",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fever",
+          "ipa": "/fever/",
+          "hints": {
+            "ru": "fever",
+            "vi": "fever"
+          }
+        },
+        "ru": {
+          "text": "температура",
+          "ipa": "/tʲempʲeratura/",
+          "hints": {
+            "en": "температура",
+            "vi": "температура"
+          }
+        },
+        "vi": {
+          "text": "sốt",
+          "ipa": "/sot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sốt",
+            "en": "sốt"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.cough",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cough",
+          "ipa": "/cough/",
+          "hints": {
+            "ru": "cough",
+            "vi": "cough"
+          }
+        },
+        "ru": {
+          "text": "кашель",
+          "ipa": "/kaʂelʲ/",
+          "hints": {
+            "en": "кашель",
+            "vi": "кашель"
+          }
+        },
+        "vi": {
+          "text": "ho",
+          "ipa": "/hɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ho",
+            "en": "ho"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.cold_illness",
+      "kind": "phrase",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cold illness",
+          "ipa": "/kəʊld ˈɪlnəs/",
+          "hints": {
+            "ru": "cold illness",
+            "vi": "cold illness"
+          }
+        },
+        "ru": {
+          "text": "простуда",
+          "ipa": "/prostuda/",
+          "hints": {
+            "en": "простуда",
+            "vi": "простуда"
+          }
+        },
+        "vi": {
+          "text": "cảm lạnh",
+          "ipa": "/kaːm˧˩˧ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cảm lạnh",
+            "en": "cảm lạnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.headache",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "headache",
+          "ipa": "/headache/",
+          "hints": {
+            "ru": "headache",
+            "vi": "headache"
+          }
+        },
+        "ru": {
+          "text": "головная боль",
+          "ipa": "/ɡolovnaja bolʲ/",
+          "hints": {
+            "en": "головная боль",
+            "vi": "головная боль"
+          }
+        },
+        "vi": {
+          "text": "đau đầu",
+          "ipa": "/ɗaw˧ ɗəu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đau đầu",
+            "en": "đau đầu"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.stomachache",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stomachache",
+          "ipa": "/stomachache/",
+          "hints": {
+            "ru": "stomachache",
+            "vi": "stomachache"
+          }
+        },
+        "ru": {
+          "text": "боль в животе",
+          "ipa": "/bolʲ v ʐivotʲe/",
+          "hints": {
+            "en": "боль в животе",
+            "vi": "боль в животе"
+          }
+        },
+        "vi": {
+          "text": "đau bụng",
+          "ipa": "/ɗaw˧ ɓuŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đau bụng",
+            "en": "đau bụng"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.injury",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "injury",
+          "ipa": "/injury/",
+          "hints": {
+            "ru": "injury",
+            "vi": "injury"
+          }
+        },
+        "ru": {
+          "text": "травма",
+          "ipa": "/travma/",
+          "hints": {
+            "en": "травма",
+            "vi": "травма"
+          }
+        },
+        "vi": {
+          "text": "chấn thương",
+          "ipa": "/tɕən˧˥ tʰɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chấn thương",
+            "en": "chấn thương"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.blood_pressure",
+      "kind": "phrase",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "blood pressure",
+          "ipa": "/blʌd ˈpreʃə/",
+          "hints": {
+            "ru": "blood pressure",
+            "vi": "blood pressure"
+          }
+        },
+        "ru": {
+          "text": "давление",
+          "ipa": "/davlʲenʲije/",
+          "hints": {
+            "en": "давление",
+            "vi": "давление"
+          }
+        },
+        "vi": {
+          "text": "huyết áp",
+          "ipa": "/huiet˧˥ aːp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "huyết áp",
+            "en": "huyết áp"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.ambulance",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ambulance",
+          "ipa": "/ambulance/",
+          "hints": {
+            "ru": "ambulance",
+            "vi": "ambulance"
+          }
+        },
+        "ru": {
+          "text": "скорая",
+          "ipa": "/skoraja/",
+          "hints": {
+            "en": "скорая",
+            "vi": "скорая"
+          }
+        },
+        "vi": {
+          "text": "xe cấp cứu",
+          "ipa": "/sɛ˧ kəp˧˥ kɨw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xe cấp cứu",
+            "en": "xe cấp cứu"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.healthy",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "healthy",
+          "ipa": "/healthy/",
+          "hints": {
+            "ru": "healthy",
+            "vi": "healthy"
+          }
+        },
+        "ru": {
+          "text": "здоровый",
+          "ipa": "/zdorovɨj/",
+          "hints": {
+            "en": "здоровый",
+            "vi": "здоровый"
+          }
+        },
+        "vi": {
+          "text": "khỏe",
+          "ipa": "/xwɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "khỏe",
+            "en": "khỏe"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.rest",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rest",
+          "ipa": "/rest/",
+          "hints": {
+            "ru": "rest",
+            "vi": "rest"
+          }
+        },
+        "ru": {
+          "text": "отдых",
+          "ipa": "/otdɨx/",
+          "hints": {
+            "en": "отдых",
+            "vi": "отдых"
+          }
+        },
+        "vi": {
+          "text": "nghỉ ngơi",
+          "ipa": "/ŋi˧˩˧ ŋəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nghỉ ngơi",
+            "en": "nghỉ ngơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.exercise",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "exercise",
+          "ipa": "/exercise/",
+          "hints": {
+            "ru": "exercise",
+            "vi": "exercise"
+          }
+        },
+        "ru": {
+          "text": "упражнение",
+          "ipa": "/upraʐnʲenʲije/",
+          "hints": {
+            "en": "упражнение",
+            "vi": "упражнение"
+          }
+        },
+        "vi": {
+          "text": "tập thể dục",
+          "ipa": "/təp˧ˀ tʰe˧˩˧ zuc˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tập thể dục",
+            "en": "tập thể dục"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.sport",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sport",
+          "ipa": "/sport/",
+          "hints": {
+            "ru": "sport",
+            "vi": "sport"
+          }
+        },
+        "ru": {
+          "text": "спорт",
+          "ipa": "/sport/",
+          "hints": {
+            "en": "спорт",
+            "vi": "спорт"
+          }
+        },
+        "vi": {
+          "text": "thể thao",
+          "ipa": "/tʰe˧˩˧ tʰaːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thể thao",
+            "en": "thể thao"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.run",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "run",
+          "ipa": "/run/",
+          "hints": {
+            "ru": "run",
+            "vi": "run"
+          }
+        },
+        "ru": {
+          "text": "бегать",
+          "ipa": "/bʲeɡatʲ/",
+          "hints": {
+            "en": "бегать",
+            "vi": "бегать"
+          }
+        },
+        "vi": {
+          "text": "chạy",
+          "ipa": "/tɕaj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chạy",
+            "en": "chạy"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.swim",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "swim",
+          "ipa": "/swɪm/",
+          "hints": {
+            "ru": "swim",
+            "vi": "swim"
+          }
+        },
+        "ru": {
+          "text": "плавать",
+          "ipa": "/plavatʲ/",
+          "hints": {
+            "en": "плавать",
+            "vi": "плавать"
+          }
+        },
+        "vi": {
+          "text": "bơi",
+          "ipa": "/ɓəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bơi",
+            "en": "bơi"
+          }
+        }
+      }
+    }
+  ]
+}

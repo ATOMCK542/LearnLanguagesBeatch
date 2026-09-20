@@ -1,0 +1,1819 @@
+{
+  "theme": {
+    "id": "body",
+    "kind": "unit",
+    "order": 90,
+    "title": {
+      "en": "Body",
+      "ru": "Тело",
+      "vi": "Cơ thể"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "body.head",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "head",
+          "ipa": "/head/",
+          "hints": {
+            "ru": "head",
+            "vi": "head"
+          }
+        },
+        "ru": {
+          "text": "голова",
+          "ipa": "/ɡolova/",
+          "hints": {
+            "en": "голова",
+            "vi": "голова"
+          }
+        },
+        "vi": {
+          "text": "đầu",
+          "ipa": "/ɗəu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đầu",
+            "en": "đầu"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.hair",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hair",
+          "ipa": "/hair/",
+          "hints": {
+            "ru": "hair",
+            "vi": "hair"
+          }
+        },
+        "ru": {
+          "text": "волосы",
+          "ipa": "/volosɨ/",
+          "hints": {
+            "en": "волосы",
+            "vi": "волосы"
+          }
+        },
+        "vi": {
+          "text": "tóc",
+          "ipa": "/tɔk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tóc",
+            "en": "tóc"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.face",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "face",
+          "ipa": "/face/",
+          "hints": {
+            "ru": "face",
+            "vi": "face"
+          }
+        },
+        "ru": {
+          "text": "лицо",
+          "ipa": "/lʲitso/",
+          "hints": {
+            "en": "лицо",
+            "vi": "лицо"
+          }
+        },
+        "vi": {
+          "text": "mặt",
+          "ipa": "/mat˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mặt",
+            "en": "mặt"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.eye",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "eye",
+          "ipa": "/eye/",
+          "hints": {
+            "ru": "eye",
+            "vi": "eye"
+          }
+        },
+        "ru": {
+          "text": "глаз",
+          "ipa": "/ɡlaz/",
+          "hints": {
+            "en": "глаз",
+            "vi": "глаз"
+          }
+        },
+        "vi": {
+          "text": "mắt",
+          "ipa": "/mat˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mắt",
+            "en": "mắt"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.ear",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ear",
+          "ipa": "/ear/",
+          "hints": {
+            "ru": "ear",
+            "vi": "ear"
+          }
+        },
+        "ru": {
+          "text": "ухо",
+          "ipa": "/uxo/",
+          "hints": {
+            "en": "ухо",
+            "vi": "ухо"
+          }
+        },
+        "vi": {
+          "text": "tai",
+          "ipa": "/taːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tai",
+            "en": "tai"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.nose",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "nose",
+          "ipa": "/nose/",
+          "hints": {
+            "ru": "nose",
+            "vi": "nose"
+          }
+        },
+        "ru": {
+          "text": "нос",
+          "ipa": "/nos/",
+          "hints": {
+            "en": "нос",
+            "vi": "нос"
+          }
+        },
+        "vi": {
+          "text": "mũi",
+          "ipa": "/muj˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mũi",
+            "en": "mũi"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.mouth",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mouth",
+          "ipa": "/mouth/",
+          "hints": {
+            "ru": "mouth",
+            "vi": "mouth"
+          }
+        },
+        "ru": {
+          "text": "рот",
+          "ipa": "/rot/",
+          "hints": {
+            "en": "рот",
+            "vi": "рот"
+          }
+        },
+        "vi": {
+          "text": "miệng",
+          "ipa": "/miəŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "miệng",
+            "en": "miệng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.tooth",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tooth",
+          "ipa": "/tooth/",
+          "hints": {
+            "ru": "tooth",
+            "vi": "tooth"
+          }
+        },
+        "ru": {
+          "text": "зуб",
+          "ipa": "/zub/",
+          "hints": {
+            "en": "зуб",
+            "vi": "зуб"
+          }
+        },
+        "vi": {
+          "text": "răng",
+          "ipa": "/zaŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "răng",
+            "en": "răng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.teeth",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "teeth",
+          "ipa": "/teeth/",
+          "hints": {
+            "ru": "teeth",
+            "vi": "teeth"
+          }
+        },
+        "ru": {
+          "text": "зубы",
+          "ipa": "/zubɨ/",
+          "hints": {
+            "en": "зубы",
+            "vi": "зубы"
+          }
+        },
+        "vi": {
+          "text": "răng",
+          "ipa": "/zaŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "răng",
+            "en": "răng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.tongue",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tongue",
+          "ipa": "/tongue/",
+          "hints": {
+            "ru": "tongue",
+            "vi": "tongue"
+          }
+        },
+        "ru": {
+          "text": "язык",
+          "ipa": "/jazɨk/",
+          "hints": {
+            "en": "язык",
+            "vi": "язык"
+          }
+        },
+        "vi": {
+          "text": "lưỡi",
+          "ipa": "/lɨəj˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "lưỡi",
+            "en": "lưỡi"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.neck",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "neck",
+          "ipa": "/neck/",
+          "hints": {
+            "ru": "neck",
+            "vi": "neck"
+          }
+        },
+        "ru": {
+          "text": "шея",
+          "ipa": "/ʂeja/",
+          "hints": {
+            "en": "шея",
+            "vi": "шея"
+          }
+        },
+        "vi": {
+          "text": "cổ",
+          "ipa": "/ko˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cổ",
+            "en": "cổ"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.shoulder",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shoulder",
+          "ipa": "/shoulder/",
+          "hints": {
+            "ru": "shoulder",
+            "vi": "shoulder"
+          }
+        },
+        "ru": {
+          "text": "плечо",
+          "ipa": "/plʲetɕo/",
+          "hints": {
+            "en": "плечо",
+            "vi": "плечо"
+          }
+        },
+        "vi": {
+          "text": "vai",
+          "ipa": "/vaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vai",
+            "en": "vai"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.arm",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "arm",
+          "ipa": "/arm/",
+          "hints": {
+            "ru": "arm",
+            "vi": "arm"
+          }
+        },
+        "ru": {
+          "text": "рука",
+          "ipa": "/ruka/",
+          "hints": {
+            "en": "рука",
+            "vi": "рука"
+          }
+        },
+        "vi": {
+          "text": "cánh tay",
+          "ipa": "/kajŋ˧˥ taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cánh tay",
+            "en": "cánh tay"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.hand",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hand",
+          "ipa": "/hand/",
+          "hints": {
+            "ru": "hand",
+            "vi": "hand"
+          }
+        },
+        "ru": {
+          "text": "кисть",
+          "ipa": "/kʲistʲ/",
+          "hints": {
+            "en": "кисть",
+            "vi": "кисть"
+          }
+        },
+        "vi": {
+          "text": "tay",
+          "ipa": "/taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tay",
+            "en": "tay"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.finger",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "finger",
+          "ipa": "/finger/",
+          "hints": {
+            "ru": "finger",
+            "vi": "finger"
+          }
+        },
+        "ru": {
+          "text": "палец",
+          "ipa": "/palʲets/",
+          "hints": {
+            "en": "палец",
+            "vi": "палец"
+          }
+        },
+        "vi": {
+          "text": "ngón tay",
+          "ipa": "/ŋɔn˧˥ taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngón tay",
+            "en": "ngón tay"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.chest",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "chest",
+          "ipa": "/chest/",
+          "hints": {
+            "ru": "chest",
+            "vi": "chest"
+          }
+        },
+        "ru": {
+          "text": "грудь",
+          "ipa": "/ɡrudʲ/",
+          "hints": {
+            "en": "грудь",
+            "vi": "грудь"
+          }
+        },
+        "vi": {
+          "text": "ngực",
+          "ipa": "/ŋɨc˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ngực",
+            "en": "ngực"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.back",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "back",
+          "ipa": "/back/",
+          "hints": {
+            "ru": "back",
+            "vi": "back"
+          }
+        },
+        "ru": {
+          "text": "спина",
+          "ipa": "/spʲina/",
+          "hints": {
+            "en": "спина",
+            "vi": "спина"
+          }
+        },
+        "vi": {
+          "text": "lưng",
+          "ipa": "/lɨŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lưng",
+            "en": "lưng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.stomach",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stomach",
+          "ipa": "/stomach/",
+          "hints": {
+            "ru": "stomach",
+            "vi": "stomach"
+          }
+        },
+        "ru": {
+          "text": "живот",
+          "ipa": "/ʐivot/",
+          "hints": {
+            "en": "живот",
+            "vi": "живот"
+          }
+        },
+        "vi": {
+          "text": "bụng",
+          "ipa": "/ɓuŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bụng",
+            "en": "bụng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.leg",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "leg",
+          "ipa": "/leg/",
+          "hints": {
+            "ru": "leg",
+            "vi": "leg"
+          }
+        },
+        "ru": {
+          "text": "нога",
+          "ipa": "/noɡa/",
+          "hints": {
+            "en": "нога",
+            "vi": "нога"
+          }
+        },
+        "vi": {
+          "text": "chân",
+          "ipa": "/tɕən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chân",
+            "en": "chân"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.knee",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "knee",
+          "ipa": "/knee/",
+          "hints": {
+            "ru": "knee",
+            "vi": "knee"
+          }
+        },
+        "ru": {
+          "text": "колено",
+          "ipa": "/kolʲeno/",
+          "hints": {
+            "en": "колено",
+            "vi": "колено"
+          }
+        },
+        "vi": {
+          "text": "đầu gối",
+          "ipa": "/ɗəu˧˩ ɣoj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đầu gối",
+            "en": "đầu gối"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.foot",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "foot",
+          "ipa": "/foot/",
+          "hints": {
+            "ru": "foot",
+            "vi": "foot"
+          }
+        },
+        "ru": {
+          "text": "ступня",
+          "ipa": "/stupnʲa/",
+          "hints": {
+            "en": "ступня",
+            "vi": "ступня"
+          }
+        },
+        "vi": {
+          "text": "bàn chân",
+          "ipa": "/ɓaːn˧˩ tɕən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bàn chân",
+            "en": "bàn chân"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.feet",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "feet",
+          "ipa": "/feet/",
+          "hints": {
+            "ru": "feet",
+            "vi": "feet"
+          }
+        },
+        "ru": {
+          "text": "ступни",
+          "ipa": "/stupnʲi/",
+          "hints": {
+            "en": "ступни",
+            "vi": "ступни"
+          }
+        },
+        "vi": {
+          "text": "bàn chân",
+          "ipa": "/ɓaːn˧˩ tɕən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bàn chân",
+            "en": "bàn chân"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.skin",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "skin",
+          "ipa": "/skin/",
+          "hints": {
+            "ru": "skin",
+            "vi": "skin"
+          }
+        },
+        "ru": {
+          "text": "кожа",
+          "ipa": "/koʐa/",
+          "hints": {
+            "en": "кожа",
+            "vi": "кожа"
+          }
+        },
+        "vi": {
+          "text": "da",
+          "ipa": "/zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "da",
+            "en": "da"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.blood",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "blood",
+          "ipa": "/blood/",
+          "hints": {
+            "ru": "blood",
+            "vi": "blood"
+          }
+        },
+        "ru": {
+          "text": "кровь",
+          "ipa": "/krovʲ/",
+          "hints": {
+            "en": "кровь",
+            "vi": "кровь"
+          }
+        },
+        "vi": {
+          "text": "máu",
+          "ipa": "/maw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "máu",
+            "en": "máu"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.heart",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "heart",
+          "ipa": "/heart/",
+          "hints": {
+            "ru": "heart",
+            "vi": "heart"
+          }
+        },
+        "ru": {
+          "text": "сердце",
+          "ipa": "/sʲerdtse/",
+          "hints": {
+            "en": "сердце",
+            "vi": "сердце"
+          }
+        },
+        "vi": {
+          "text": "tim",
+          "ipa": "/tim˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tim",
+            "en": "tim"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.bone",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bone",
+          "ipa": "/bone/",
+          "hints": {
+            "ru": "bone",
+            "vi": "bone"
+          }
+        },
+        "ru": {
+          "text": "кость",
+          "ipa": "/kostʲ/",
+          "hints": {
+            "en": "кость",
+            "vi": "кость"
+          }
+        },
+        "vi": {
+          "text": "xương",
+          "ipa": "/sɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xương",
+            "en": "xương"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.brain",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "brain",
+          "ipa": "/brain/",
+          "hints": {
+            "ru": "brain",
+            "vi": "brain"
+          }
+        },
+        "ru": {
+          "text": "мозг",
+          "ipa": "/mozɡ/",
+          "hints": {
+            "en": "мозг",
+            "vi": "мозг"
+          }
+        },
+        "vi": {
+          "text": "não",
+          "ipa": "/naːw˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "não",
+            "en": "não"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.body",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "body",
+          "ipa": "/body/",
+          "hints": {
+            "ru": "body",
+            "vi": "body"
+          }
+        },
+        "ru": {
+          "text": "тело",
+          "ipa": "/tʲelo/",
+          "hints": {
+            "en": "тело",
+            "vi": "тело"
+          }
+        },
+        "vi": {
+          "text": "cơ thể",
+          "ipa": "/kəː˧ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cơ thể",
+            "en": "cơ thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.voice",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "voice",
+          "ipa": "/voice/",
+          "hints": {
+            "ru": "voice",
+            "vi": "voice"
+          }
+        },
+        "ru": {
+          "text": "голос",
+          "ipa": "/ɡolos/",
+          "hints": {
+            "en": "голос",
+            "vi": "голос"
+          }
+        },
+        "vi": {
+          "text": "giọng",
+          "ipa": "/zɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "giọng",
+            "en": "giọng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.smile",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "smile",
+          "ipa": "/smile/",
+          "hints": {
+            "ru": "smile",
+            "vi": "smile"
+          }
+        },
+        "ru": {
+          "text": "улыбка",
+          "ipa": "/ulɨbka/",
+          "hints": {
+            "en": "улыбка",
+            "vi": "улыбка"
+          }
+        },
+        "vi": {
+          "text": "nụ cười",
+          "ipa": "/nu˧ˀ kɨəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nụ cười",
+            "en": "nụ cười"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.beard",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "beard",
+          "ipa": "/beard/",
+          "hints": {
+            "ru": "beard",
+            "vi": "beard"
+          }
+        },
+        "ru": {
+          "text": "борода",
+          "ipa": "/boroda/",
+          "hints": {
+            "en": "борода",
+            "vi": "борода"
+          }
+        },
+        "vi": {
+          "text": "râu",
+          "ipa": "/zəu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "râu",
+            "en": "râu"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.lip",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lip",
+          "ipa": "/lip/",
+          "hints": {
+            "ru": "lip",
+            "vi": "lip"
+          }
+        },
+        "ru": {
+          "text": "губа",
+          "ipa": "/ɡuba/",
+          "hints": {
+            "en": "губа",
+            "vi": "губа"
+          }
+        },
+        "vi": {
+          "text": "môi",
+          "ipa": "/moj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "môi",
+            "en": "môi"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.cheek",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cheek",
+          "ipa": "/cheek/",
+          "hints": {
+            "ru": "cheek",
+            "vi": "cheek"
+          }
+        },
+        "ru": {
+          "text": "щека",
+          "ipa": "/ɕːeka/",
+          "hints": {
+            "en": "щека",
+            "vi": "щека"
+          }
+        },
+        "vi": {
+          "text": "má",
+          "ipa": "/maː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "má",
+            "en": "má"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.forehead",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "forehead",
+          "ipa": "/forehead/",
+          "hints": {
+            "ru": "forehead",
+            "vi": "forehead"
+          }
+        },
+        "ru": {
+          "text": "лоб",
+          "ipa": "/lob/",
+          "hints": {
+            "en": "лоб",
+            "vi": "лоб"
+          }
+        },
+        "vi": {
+          "text": "trán",
+          "ipa": "/tɕaːn˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trán",
+            "en": "trán"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.throat",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "throat",
+          "ipa": "/throat/",
+          "hints": {
+            "ru": "throat",
+            "vi": "throat"
+          }
+        },
+        "ru": {
+          "text": "горло",
+          "ipa": "/ɡorlo/",
+          "hints": {
+            "en": "горло",
+            "vi": "горло"
+          }
+        },
+        "vi": {
+          "text": "cổ họng",
+          "ipa": "/ko˧˩˧ hɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cổ họng",
+            "en": "cổ họng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.waist",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "waist",
+          "ipa": "/waist/",
+          "hints": {
+            "ru": "waist",
+            "vi": "waist"
+          }
+        },
+        "ru": {
+          "text": "талия",
+          "ipa": "/talʲija/",
+          "hints": {
+            "en": "талия",
+            "vi": "талия"
+          }
+        },
+        "vi": {
+          "text": "eo",
+          "ipa": "/ɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "eo",
+            "en": "eo"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.hip",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hip",
+          "ipa": "/hip/",
+          "hints": {
+            "ru": "hip",
+            "vi": "hip"
+          }
+        },
+        "ru": {
+          "text": "бедро",
+          "ipa": "/bʲedro/",
+          "hints": {
+            "en": "бедро",
+            "vi": "бедро"
+          }
+        },
+        "vi": {
+          "text": "hông",
+          "ipa": "/hoŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hông",
+            "en": "hông"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.ankle",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ankle",
+          "ipa": "/ankle/",
+          "hints": {
+            "ru": "ankle",
+            "vi": "ankle"
+          }
+        },
+        "ru": {
+          "text": "лодыжка",
+          "ipa": "/lodɨʐka/",
+          "hints": {
+            "en": "лодыжка",
+            "vi": "лодыжка"
+          }
+        },
+        "vi": {
+          "text": "mắt cá",
+          "ipa": "/mat˧˥ kaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mắt cá",
+            "en": "mắt cá"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.wrist",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wrist",
+          "ipa": "/wrist/",
+          "hints": {
+            "ru": "wrist",
+            "vi": "wrist"
+          }
+        },
+        "ru": {
+          "text": "запястье",
+          "ipa": "/zapʲastʲje/",
+          "hints": {
+            "en": "запястье",
+            "vi": "запястье"
+          }
+        },
+        "vi": {
+          "text": "cổ tay",
+          "ipa": "/ko˧˩˧ taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cổ tay",
+            "en": "cổ tay"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.nail",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "nail",
+          "ipa": "/nail/",
+          "hints": {
+            "ru": "nail",
+            "vi": "nail"
+          }
+        },
+        "ru": {
+          "text": "ноготь",
+          "ipa": "/noɡotʲ/",
+          "hints": {
+            "en": "ноготь",
+            "vi": "ноготь"
+          }
+        },
+        "vi": {
+          "text": "móng",
+          "ipa": "/mɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "móng",
+            "en": "móng"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.muscle",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "muscle",
+          "ipa": "/muscle/",
+          "hints": {
+            "ru": "muscle",
+            "vi": "muscle"
+          }
+        },
+        "ru": {
+          "text": "мышца",
+          "ipa": "/mɨʂtsa/",
+          "hints": {
+            "en": "мышца",
+            "vi": "мышца"
+          }
+        },
+        "vi": {
+          "text": "cơ",
+          "ipa": "/kəː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cơ",
+            "en": "cơ"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.breath",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "breath",
+          "ipa": "/breath/",
+          "hints": {
+            "ru": "breath",
+            "vi": "breath"
+          }
+        },
+        "ru": {
+          "text": "дыхание",
+          "ipa": "/dɨxanʲije/",
+          "hints": {
+            "en": "дыхание",
+            "vi": "дыхание"
+          }
+        },
+        "vi": {
+          "text": "hơi thở",
+          "ipa": "/həːj˧ tʰəː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hơi thở",
+            "en": "hơi thở"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.shoulder_blade",
+      "kind": "phrase",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shoulder blade",
+          "ipa": "/ˈʃəʊldə bleɪd/",
+          "hints": {
+            "ru": "shoulder blade",
+            "vi": "shoulder blade"
+          }
+        },
+        "ru": {
+          "text": "лопатка",
+          "ipa": "/lopatka/",
+          "hints": {
+            "en": "лопатка",
+            "vi": "лопатка"
+          }
+        },
+        "vi": {
+          "text": "xương bả vai",
+          "ipa": "/sɨəŋ˧ ɓaː˧˩˧ vaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xương bả vai",
+            "en": "xương bả vai"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.elbow",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "elbow",
+          "ipa": "/elbow/",
+          "hints": {
+            "ru": "elbow",
+            "vi": "elbow"
+          }
+        },
+        "ru": {
+          "text": "локоть",
+          "ipa": "/lokotʲ/",
+          "hints": {
+            "en": "локоть",
+            "vi": "локоть"
+          }
+        },
+        "vi": {
+          "text": "khuỷu tay",
+          "ipa": "/xwiw˧˩˧ taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "khuỷu tay",
+            "en": "khuỷu tay"
+          }
+        }
+      }
+    },
+    {
+      "id": "body.thumb",
+      "kind": "word",
+      "theme": "body",
+      "tags": [
+        "theme:body"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thumb",
+          "ipa": "/thumb/",
+          "hints": {
+            "ru": "thumb",
+            "vi": "thumb"
+          }
+        },
+        "ru": {
+          "text": "большой палец",
+          "ipa": "/bolʲʂoj palʲets/",
+          "hints": {
+            "en": "большой палец",
+            "vi": "большой палец"
+          }
+        },
+        "vi": {
+          "text": "ngón cái",
+          "ipa": "/ŋɔn˧˥ kaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ngón cái",
+            "en": "ngón cái"
+          }
+        }
+      }
+    }
+  ]
+}

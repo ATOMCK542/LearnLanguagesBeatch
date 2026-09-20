@@ -1,0 +1,619 @@
+{
+  "theme": {
+    "id": "numbers",
+    "kind": "unit",
+    "order": 81,
+    "title": {
+      "en": "Numbers",
+      "ru": "Числа",
+      "vi": "Số"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "num.0",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "zero",
+          "ipa": "/ˈzɪərəʊ/",
+          "hints": {
+            "ru": "zero",
+            "vi": "zero"
+          }
+        },
+        "ru": {
+          "text": "ноль",
+          "ipa": "/nolʲ/",
+          "hints": {
+            "en": "ноль",
+            "vi": "ноль"
+          }
+        },
+        "vi": {
+          "text": "không",
+          "ipa": "/xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không",
+            "en": "không"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.1",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "one",
+          "ipa": "/wʌn/",
+          "hints": {
+            "ru": "one",
+            "vi": "one"
+          }
+        },
+        "ru": {
+          "text": "один",
+          "ipa": "/odʲin/",
+          "hints": {
+            "en": "один",
+            "vi": "один"
+          }
+        },
+        "vi": {
+          "text": "một",
+          "ipa": "/mot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "một",
+            "en": "một"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.2",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "two",
+          "ipa": "/tuː/",
+          "hints": {
+            "ru": "two",
+            "vi": "two"
+          }
+        },
+        "ru": {
+          "text": "два",
+          "ipa": "/dva/",
+          "hints": {
+            "en": "два",
+            "vi": "два"
+          }
+        },
+        "vi": {
+          "text": "hai",
+          "ipa": "/haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hai",
+            "en": "hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.3",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "three",
+          "ipa": "/θriː/",
+          "hints": {
+            "ru": "three",
+            "vi": "three"
+          }
+        },
+        "ru": {
+          "text": "три",
+          "ipa": "/trʲi/",
+          "hints": {
+            "en": "три",
+            "vi": "три"
+          }
+        },
+        "vi": {
+          "text": "ba",
+          "ipa": "/ɓaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ba",
+            "en": "ba"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.4",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "four",
+          "ipa": "/fɔː/",
+          "hints": {
+            "ru": "four",
+            "vi": "four"
+          }
+        },
+        "ru": {
+          "text": "четыре",
+          "ipa": "/tɕetɨrʲe/",
+          "hints": {
+            "en": "четыре",
+            "vi": "четыре"
+          }
+        },
+        "vi": {
+          "text": "bốn",
+          "ipa": "/ɓon˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bốn",
+            "en": "bốn"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.5",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "five",
+          "ipa": "/faɪv/",
+          "hints": {
+            "ru": "five",
+            "vi": "five"
+          }
+        },
+        "ru": {
+          "text": "пять",
+          "ipa": "/pʲatʲ/",
+          "hints": {
+            "en": "пять",
+            "vi": "пять"
+          }
+        },
+        "vi": {
+          "text": "năm",
+          "ipa": "/nam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "năm",
+            "en": "năm"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.6",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "six",
+          "ipa": "/sɪks/",
+          "hints": {
+            "ru": "six",
+            "vi": "six"
+          }
+        },
+        "ru": {
+          "text": "шесть",
+          "ipa": "/ʂestʲ/",
+          "hints": {
+            "en": "шесть",
+            "vi": "шесть"
+          }
+        },
+        "vi": {
+          "text": "sáu",
+          "ipa": "/saw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sáu",
+            "en": "sáu"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.7",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "seven",
+          "ipa": "/ˈsevən/",
+          "hints": {
+            "ru": "seven",
+            "vi": "seven"
+          }
+        },
+        "ru": {
+          "text": "семь",
+          "ipa": "/sʲemʲ/",
+          "hints": {
+            "en": "семь",
+            "vi": "семь"
+          }
+        },
+        "vi": {
+          "text": "bảy",
+          "ipa": "/ɓaj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bảy",
+            "en": "bảy"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.8",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "eight",
+          "ipa": "/eɪt/",
+          "hints": {
+            "ru": "eight",
+            "vi": "eight"
+          }
+        },
+        "ru": {
+          "text": "восемь",
+          "ipa": "/vosʲemʲ/",
+          "hints": {
+            "en": "восемь",
+            "vi": "восемь"
+          }
+        },
+        "vi": {
+          "text": "tám",
+          "ipa": "/taːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tám",
+            "en": "tám"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.9",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "nine",
+          "ipa": "/naɪn/",
+          "hints": {
+            "ru": "nine",
+            "vi": "nine"
+          }
+        },
+        "ru": {
+          "text": "девять",
+          "ipa": "/dʲevʲatʲ/",
+          "hints": {
+            "en": "девять",
+            "vi": "девять"
+          }
+        },
+        "vi": {
+          "text": "chín",
+          "ipa": "/tɕin˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chín",
+            "en": "chín"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.10",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ten",
+          "ipa": "/ten/",
+          "hints": {
+            "ru": "ten",
+            "vi": "ten"
+          }
+        },
+        "ru": {
+          "text": "десять",
+          "ipa": "/dʲesʲatʲ/",
+          "hints": {
+            "en": "десять",
+            "vi": "десять"
+          }
+        },
+        "vi": {
+          "text": "mười",
+          "ipa": "/mɨəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mười",
+            "en": "mười"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.100",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "one hundred",
+          "ipa": "/wʌn ˈhʌndrəd/",
+          "hints": {
+            "ru": "one hundred",
+            "vi": "one hundred"
+          }
+        },
+        "ru": {
+          "text": "сто",
+          "ipa": "/sto/",
+          "hints": {
+            "en": "сто",
+            "vi": "сто"
+          }
+        },
+        "vi": {
+          "text": "một trăm",
+          "ipa": "/mot˧ˀ tɕam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "một trăm",
+            "en": "một trăm"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.how_many_people",
+      "kind": "sentence",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "How many people?",
+          "ipa": "/haʊ ˈmeni ˈpiːpəl/",
+          "hints": {
+            "ru": "How many people?",
+            "vi": "How many people?"
+          }
+        },
+        "ru": {
+          "text": "Сколько человек?",
+          "ipa": "/skolʲko tɕelovʲek/",
+          "hints": {
+            "en": "Сколько человек?",
+            "vi": "Сколько человек?"
+          }
+        },
+        "vi": {
+          "text": "Bao nhiêu người?",
+          "ipa": "/ɓaːw˧ ɲiəw˧ ŋɨəj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Bao nhiêu người?",
+            "en": "Bao nhiêu người?"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.first",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "first",
+          "ipa": "/fɜːst/",
+          "hints": {
+            "ru": "first",
+            "vi": "first"
+          }
+        },
+        "ru": {
+          "text": "первый",
+          "ipa": "/pʲervɨj/",
+          "hints": {
+            "en": "первый",
+            "vi": "первый"
+          }
+        },
+        "vi": {
+          "text": "thứ nhất",
+          "ipa": "/tʰɨ˧˥ ɲət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ nhất",
+            "en": "thứ nhất"
+          }
+        }
+      }
+    },
+    {
+      "id": "num.second",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "second",
+          "ipa": "/ˈsekənd/",
+          "hints": {
+            "ru": "second",
+            "vi": "second"
+          }
+        },
+        "ru": {
+          "text": "второй",
+          "ipa": "/vtoroj/",
+          "hints": {
+            "en": "второй",
+            "vi": "второй"
+          }
+        },
+        "vi": {
+          "text": "thứ hai",
+          "ipa": "/tʰɨ˧˥ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ hai",
+            "en": "thứ hai"
+          }
+        }
+      }
+    }
+  ]
+}

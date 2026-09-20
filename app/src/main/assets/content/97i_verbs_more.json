@@ -1,0 +1,3939 @@
+{
+  "theme": {
+    "id": "verbs",
+    "kind": "unit",
+    "order": 60,
+    "title": {
+      "en": "Verbs",
+      "ru": "Глаголы",
+      "vi": "Động từ"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "verbx.begin",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "begin",
+          "ipa": "/begin/",
+          "hints": {
+            "ru": "begin",
+            "vi": "begin"
+          }
+        },
+        "ru": {
+          "text": "начинать",
+          "ipa": "/natɕinatʲ/",
+          "hints": {
+            "en": "начинать",
+            "vi": "начинать"
+          }
+        },
+        "vi": {
+          "text": "bắt đầu",
+          "ipa": "/ɓat˧˥ ɗəu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bắt đầu",
+            "en": "bắt đầu"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.finish",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "finish",
+          "ipa": "/finish/",
+          "hints": {
+            "ru": "finish",
+            "vi": "finish"
+          }
+        },
+        "ru": {
+          "text": "заканчивать",
+          "ipa": "/zakantɕivatʲ/",
+          "hints": {
+            "en": "заканчивать",
+            "vi": "заканчивать"
+          }
+        },
+        "vi": {
+          "text": "kết thúc",
+          "ipa": "/ket˧˥ tʰuc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "kết thúc",
+            "en": "kết thúc"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.continue",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "continue",
+          "ipa": "/continue/",
+          "hints": {
+            "ru": "continue",
+            "vi": "continue"
+          }
+        },
+        "ru": {
+          "text": "продолжать",
+          "ipa": "/prodolʐatʲ/",
+          "hints": {
+            "en": "продолжать",
+            "vi": "продолжать"
+          }
+        },
+        "vi": {
+          "text": "tiếp tục",
+          "ipa": "/tiep˧˥ tuc˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tiếp tục",
+            "en": "tiếp tục"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.change",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "change",
+          "ipa": "/change/",
+          "hints": {
+            "ru": "change",
+            "vi": "change"
+          }
+        },
+        "ru": {
+          "text": "менять",
+          "ipa": "/mʲenʲatʲ/",
+          "hints": {
+            "en": "менять",
+            "vi": "менять"
+          }
+        },
+        "vi": {
+          "text": "thay đổi",
+          "ipa": "/tʰaj˧ ɗoj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thay đổi",
+            "en": "thay đổi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.choose",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "choose",
+          "ipa": "/choose/",
+          "hints": {
+            "ru": "choose",
+            "vi": "choose"
+          }
+        },
+        "ru": {
+          "text": "выбирать",
+          "ipa": "/vɨbʲiratʲ/",
+          "hints": {
+            "en": "выбирать",
+            "vi": "выбирать"
+          }
+        },
+        "vi": {
+          "text": "chọn",
+          "ipa": "/tɕɔn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chọn",
+            "en": "chọn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.decide",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "decide",
+          "ipa": "/decide/",
+          "hints": {
+            "ru": "decide",
+            "vi": "decide"
+          }
+        },
+        "ru": {
+          "text": "решать",
+          "ipa": "/rʲeʂatʲ/",
+          "hints": {
+            "en": "решать",
+            "vi": "решать"
+          }
+        },
+        "vi": {
+          "text": "quyết định",
+          "ipa": "/kwiet˧˥ ɗiɲ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "quyết định",
+            "en": "quyết định"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.hope",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hope",
+          "ipa": "/hope/",
+          "hints": {
+            "ru": "hope",
+            "vi": "hope"
+          }
+        },
+        "ru": {
+          "text": "надеяться",
+          "ipa": "/nadʲejatʲsʲa/",
+          "hints": {
+            "en": "надеяться",
+            "vi": "надеяться"
+          }
+        },
+        "vi": {
+          "text": "hy vọng",
+          "ipa": "/hi˧ vɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hy vọng",
+            "en": "hy vọng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.wish",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wish",
+          "ipa": "/wish/",
+          "hints": {
+            "ru": "wish",
+            "vi": "wish"
+          }
+        },
+        "ru": {
+          "text": "желать",
+          "ipa": "/ʐelatʲ/",
+          "hints": {
+            "en": "желать",
+            "vi": "желать"
+          }
+        },
+        "vi": {
+          "text": "ước",
+          "ipa": "/ɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ước",
+            "en": "ước"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.worry",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "worry",
+          "ipa": "/worry/",
+          "hints": {
+            "ru": "worry",
+            "vi": "worry"
+          }
+        },
+        "ru": {
+          "text": "волноваться",
+          "ipa": "/volnovatʲsʲa/",
+          "hints": {
+            "en": "волноваться",
+            "vi": "волноваться"
+          }
+        },
+        "vi": {
+          "text": "lo lắng",
+          "ipa": "/lɔ˧ laŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lo lắng",
+            "en": "lo lắng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.laugh",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "laugh",
+          "ipa": "/laugh/",
+          "hints": {
+            "ru": "laugh",
+            "vi": "laugh"
+          }
+        },
+        "ru": {
+          "text": "смеяться",
+          "ipa": "/smʲejatʲsʲa/",
+          "hints": {
+            "en": "смеяться",
+            "vi": "смеяться"
+          }
+        },
+        "vi": {
+          "text": "cười",
+          "ipa": "/kɨəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cười",
+            "en": "cười"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.cry",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cry",
+          "ipa": "/cry/",
+          "hints": {
+            "ru": "cry",
+            "vi": "cry"
+          }
+        },
+        "ru": {
+          "text": "плакать",
+          "ipa": "/plakatʲ/",
+          "hints": {
+            "en": "плакать",
+            "vi": "плакать"
+          }
+        },
+        "vi": {
+          "text": "khóc",
+          "ipa": "/xɔk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khóc",
+            "en": "khóc"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.shout",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shout",
+          "ipa": "/shout/",
+          "hints": {
+            "ru": "shout",
+            "vi": "shout"
+          }
+        },
+        "ru": {
+          "text": "кричать",
+          "ipa": "/krʲitɕatʲ/",
+          "hints": {
+            "en": "кричать",
+            "vi": "кричать"
+          }
+        },
+        "vi": {
+          "text": "la",
+          "ipa": "/laː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "la",
+            "en": "la"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.whisper",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "whisper",
+          "ipa": "/whisper/",
+          "hints": {
+            "ru": "whisper",
+            "vi": "whisper"
+          }
+        },
+        "ru": {
+          "text": "шептать",
+          "ipa": "/ʂeptatʲ/",
+          "hints": {
+            "en": "шептать",
+            "vi": "шептать"
+          }
+        },
+        "vi": {
+          "text": "thì thầm",
+          "ipa": "/tʰi˧˩ tʰəm˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "thì thầm",
+            "en": "thì thầm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.touch",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "touch",
+          "ipa": "/touch/",
+          "hints": {
+            "ru": "touch",
+            "vi": "touch"
+          }
+        },
+        "ru": {
+          "text": "трогать",
+          "ipa": "/troɡatʲ/",
+          "hints": {
+            "en": "трогать",
+            "vi": "трогать"
+          }
+        },
+        "vi": {
+          "text": "chạm",
+          "ipa": "/tɕaːm˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chạm",
+            "en": "chạm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.hold",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hold",
+          "ipa": "/hold/",
+          "hints": {
+            "ru": "hold",
+            "vi": "hold"
+          }
+        },
+        "ru": {
+          "text": "держать",
+          "ipa": "/dʲerʐatʲ/",
+          "hints": {
+            "en": "держать",
+            "vi": "держать"
+          }
+        },
+        "vi": {
+          "text": "cầm",
+          "ipa": "/kəm˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cầm",
+            "en": "cầm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.push",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "push",
+          "ipa": "/push/",
+          "hints": {
+            "ru": "push",
+            "vi": "push"
+          }
+        },
+        "ru": {
+          "text": "толкать",
+          "ipa": "/tolkatʲ/",
+          "hints": {
+            "en": "толкать",
+            "vi": "толкать"
+          }
+        },
+        "vi": {
+          "text": "đẩy",
+          "ipa": "/ɗəj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đẩy",
+            "en": "đẩy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.pull",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pull",
+          "ipa": "/pull/",
+          "hints": {
+            "ru": "pull",
+            "vi": "pull"
+          }
+        },
+        "ru": {
+          "text": "тянуть",
+          "ipa": "/tʲanutʲ/",
+          "hints": {
+            "en": "тянуть",
+            "vi": "тянуть"
+          }
+        },
+        "vi": {
+          "text": "kéo",
+          "ipa": "/kɛw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "kéo",
+            "en": "kéo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.cut",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cut",
+          "ipa": "/cut/",
+          "hints": {
+            "ru": "cut",
+            "vi": "cut"
+          }
+        },
+        "ru": {
+          "text": "резать",
+          "ipa": "/rʲezatʲ/",
+          "hints": {
+            "en": "резать",
+            "vi": "резать"
+          }
+        },
+        "vi": {
+          "text": "cắt",
+          "ipa": "/kat˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cắt",
+            "en": "cắt"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.fix",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fix",
+          "ipa": "/fix/",
+          "hints": {
+            "ru": "fix",
+            "vi": "fix"
+          }
+        },
+        "ru": {
+          "text": "чинить",
+          "ipa": "/tɕinʲitʲ/",
+          "hints": {
+            "en": "чинить",
+            "vi": "чинить"
+          }
+        },
+        "vi": {
+          "text": "sửa",
+          "ipa": "/sɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sửa",
+            "en": "sửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.build",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "build",
+          "ipa": "/build/",
+          "hints": {
+            "ru": "build",
+            "vi": "build"
+          }
+        },
+        "ru": {
+          "text": "строить",
+          "ipa": "/stroitʲ/",
+          "hints": {
+            "en": "строить",
+            "vi": "строить"
+          }
+        },
+        "vi": {
+          "text": "xây",
+          "ipa": "/səj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xây",
+            "en": "xây"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.move",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "move",
+          "ipa": "/move/",
+          "hints": {
+            "ru": "move",
+            "vi": "move"
+          }
+        },
+        "ru": {
+          "text": "двигаться",
+          "ipa": "/dvʲiɡatʲsʲa/",
+          "hints": {
+            "en": "двигаться",
+            "vi": "двигаться"
+          }
+        },
+        "vi": {
+          "text": "di chuyển",
+          "ipa": "/zi˧ tɕwiən˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "di chuyển",
+            "en": "di chuyển"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.turn",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "turn",
+          "ipa": "/turn/",
+          "hints": {
+            "ru": "turn",
+            "vi": "turn"
+          }
+        },
+        "ru": {
+          "text": "поворачивать",
+          "ipa": "/povoratɕivatʲ/",
+          "hints": {
+            "en": "поворачивать",
+            "vi": "поворачивать"
+          }
+        },
+        "vi": {
+          "text": "quay",
+          "ipa": "/kwaj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "quay",
+            "en": "quay"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.follow",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "follow",
+          "ipa": "/follow/",
+          "hints": {
+            "ru": "follow",
+            "vi": "follow"
+          }
+        },
+        "ru": {
+          "text": "следовать",
+          "ipa": "/slʲedovatʲ/",
+          "hints": {
+            "en": "следовать",
+            "vi": "следовать"
+          }
+        },
+        "vi": {
+          "text": "theo",
+          "ipa": "/tʰɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "theo",
+            "en": "theo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.lead",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lead",
+          "ipa": "/lead/",
+          "hints": {
+            "ru": "lead",
+            "vi": "lead"
+          }
+        },
+        "ru": {
+          "text": "вести",
+          "ipa": "/vʲestʲi/",
+          "hints": {
+            "en": "вести",
+            "vi": "вести"
+          }
+        },
+        "vi": {
+          "text": "dẫn",
+          "ipa": "/zən˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dẫn",
+            "en": "dẫn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.win",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "win",
+          "ipa": "/win/",
+          "hints": {
+            "ru": "win",
+            "vi": "win"
+          }
+        },
+        "ru": {
+          "text": "побеждать",
+          "ipa": "/pobʲeʐdatʲ/",
+          "hints": {
+            "en": "побеждать",
+            "vi": "побеждать"
+          }
+        },
+        "vi": {
+          "text": "thắng",
+          "ipa": "/tʰaŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thắng",
+            "en": "thắng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.fail",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fail",
+          "ipa": "/fail/",
+          "hints": {
+            "ru": "fail",
+            "vi": "fail"
+          }
+        },
+        "ru": {
+          "text": "проигрывать",
+          "ipa": "/proiɡrɨvatʲ/",
+          "hints": {
+            "en": "проигрывать",
+            "vi": "проигрывать"
+          }
+        },
+        "vi": {
+          "text": "thất bại",
+          "ipa": "/tʰət˧˥ ɓaːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thất bại",
+            "en": "thất bại"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.grow",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grow",
+          "ipa": "/grow/",
+          "hints": {
+            "ru": "grow",
+            "vi": "grow"
+          }
+        },
+        "ru": {
+          "text": "расти",
+          "ipa": "/rastʲi/",
+          "hints": {
+            "en": "расти",
+            "vi": "расти"
+          }
+        },
+        "vi": {
+          "text": "lớn lên",
+          "ipa": "/ləːn˧˥ len˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lớn lên",
+            "en": "lớn lên"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.die",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "die",
+          "ipa": "/die/",
+          "hints": {
+            "ru": "die",
+            "vi": "die"
+          }
+        },
+        "ru": {
+          "text": "умирать",
+          "ipa": "/umʲiratʲ/",
+          "hints": {
+            "en": "умирать",
+            "vi": "умирать"
+          }
+        },
+        "vi": {
+          "text": "chết",
+          "ipa": "/tɕet˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chết",
+            "en": "chết"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.happen",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "happen",
+          "ipa": "/happen/",
+          "hints": {
+            "ru": "happen",
+            "vi": "happen"
+          }
+        },
+        "ru": {
+          "text": "случаться",
+          "ipa": "/slutɕatʲsʲa/",
+          "hints": {
+            "en": "случаться",
+            "vi": "случаться"
+          }
+        },
+        "vi": {
+          "text": "xảy ra",
+          "ipa": "/saj˧˩˧ zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xảy ra",
+            "en": "xảy ra"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.seem",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "seem",
+          "ipa": "/seem/",
+          "hints": {
+            "ru": "seem",
+            "vi": "seem"
+          }
+        },
+        "ru": {
+          "text": "казаться",
+          "ipa": "/kazatʲsʲa/",
+          "hints": {
+            "en": "казаться",
+            "vi": "казаться"
+          }
+        },
+        "vi": {
+          "text": "có vẻ",
+          "ipa": "/kɔ˧˥ vɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có vẻ",
+            "en": "có vẻ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.become",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "become",
+          "ipa": "/become/",
+          "hints": {
+            "ru": "become",
+            "vi": "become"
+          }
+        },
+        "ru": {
+          "text": "становиться",
+          "ipa": "/stanovʲitʲsʲa/",
+          "hints": {
+            "en": "становиться",
+            "vi": "становиться"
+          }
+        },
+        "vi": {
+          "text": "trở thành",
+          "ipa": "/tɕəː˧˩˧ tʰajŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "trở thành",
+            "en": "trở thành"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.remain",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "remain",
+          "ipa": "/remain/",
+          "hints": {
+            "ru": "remain",
+            "vi": "remain"
+          }
+        },
+        "ru": {
+          "text": "оставаться",
+          "ipa": "/ostavatʲsʲa/",
+          "hints": {
+            "en": "оставаться",
+            "vi": "оставаться"
+          }
+        },
+        "vi": {
+          "text": "còn lại",
+          "ipa": "/kɔn˧˩ laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "còn lại",
+            "en": "còn lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.include",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "include",
+          "ipa": "/include/",
+          "hints": {
+            "ru": "include",
+            "vi": "include"
+          }
+        },
+        "ru": {
+          "text": "включать",
+          "ipa": "/vklʲutɕatʲ/",
+          "hints": {
+            "en": "включать",
+            "vi": "включать"
+          }
+        },
+        "vi": {
+          "text": "bao gồm",
+          "ipa": "/ɓaːw˧ ɣom˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bao gồm",
+            "en": "bao gồm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.allow",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "allow",
+          "ipa": "/allow/",
+          "hints": {
+            "ru": "allow",
+            "vi": "allow"
+          }
+        },
+        "ru": {
+          "text": "разрешать",
+          "ipa": "/razrʲeʂatʲ/",
+          "hints": {
+            "en": "разрешать",
+            "vi": "разрешать"
+          }
+        },
+        "vi": {
+          "text": "cho phép",
+          "ipa": "/tɕɔ˧ fɛp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cho phép",
+            "en": "cho phép"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.refuse",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "refuse",
+          "ipa": "/refuse/",
+          "hints": {
+            "ru": "refuse",
+            "vi": "refuse"
+          }
+        },
+        "ru": {
+          "text": "отказываться",
+          "ipa": "/otkazɨvatʲsʲa/",
+          "hints": {
+            "en": "отказываться",
+            "vi": "отказываться"
+          }
+        },
+        "vi": {
+          "text": "từ chối",
+          "ipa": "/tɨ˧˩ tɕoj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "từ chối",
+            "en": "từ chối"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.agree",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "agree",
+          "ipa": "/agree/",
+          "hints": {
+            "ru": "agree",
+            "vi": "agree"
+          }
+        },
+        "ru": {
+          "text": "соглашаться",
+          "ipa": "/soɡlaʂatʲsʲa/",
+          "hints": {
+            "en": "соглашаться",
+            "vi": "соглашаться"
+          }
+        },
+        "vi": {
+          "text": "đồng ý",
+          "ipa": "/ɗoŋ˧˩ i˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đồng ý",
+            "en": "đồng ý"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.disagree",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "disagree",
+          "ipa": "/disagree/",
+          "hints": {
+            "ru": "disagree",
+            "vi": "disagree"
+          }
+        },
+        "ru": {
+          "text": "не соглашаться",
+          "ipa": "/nʲe soɡlaʂatʲsʲa/",
+          "hints": {
+            "en": "не соглашаться",
+            "vi": "не соглашаться"
+          }
+        },
+        "vi": {
+          "text": "không đồng ý",
+          "ipa": "/xowŋ˧ ɗoŋ˧˩ i˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "không đồng ý",
+            "en": "không đồng ý"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.compare",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "compare",
+          "ipa": "/compare/",
+          "hints": {
+            "ru": "compare",
+            "vi": "compare"
+          }
+        },
+        "ru": {
+          "text": "сравнивать",
+          "ipa": "/sravnʲivatʲ/",
+          "hints": {
+            "en": "сравнивать",
+            "vi": "сравнивать"
+          }
+        },
+        "vi": {
+          "text": "so sánh",
+          "ipa": "/sɔ˧ sajŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "so sánh",
+            "en": "so sánh"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.describe",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "describe",
+          "ipa": "/describe/",
+          "hints": {
+            "ru": "describe",
+            "vi": "describe"
+          }
+        },
+        "ru": {
+          "text": "описывать",
+          "ipa": "/opʲisɨvatʲ/",
+          "hints": {
+            "en": "описывать",
+            "vi": "описывать"
+          }
+        },
+        "vi": {
+          "text": "mô tả",
+          "ipa": "/mo˧ taː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mô tả",
+            "en": "mô tả"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.imagine",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "imagine",
+          "ipa": "/imagine/",
+          "hints": {
+            "ru": "imagine",
+            "vi": "imagine"
+          }
+        },
+        "ru": {
+          "text": "представлять",
+          "ipa": "/prʲedstavlʲatʲ/",
+          "hints": {
+            "en": "представлять",
+            "vi": "представлять"
+          }
+        },
+        "vi": {
+          "text": "tưởng tượng",
+          "ipa": "/tɨəŋ˧˩˧ tɨəŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tưởng tượng",
+            "en": "tưởng tượng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.notice",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "notice",
+          "ipa": "/notice/",
+          "hints": {
+            "ru": "notice",
+            "vi": "notice"
+          }
+        },
+        "ru": {
+          "text": "замечать",
+          "ipa": "/zamʲetɕatʲ/",
+          "hints": {
+            "en": "замечать",
+            "vi": "замечать"
+          }
+        },
+        "vi": {
+          "text": "nhận thấy",
+          "ipa": "/ɲən˧ˀ tʰəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhận thấy",
+            "en": "nhận thấy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.realize",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "realize",
+          "ipa": "/realize/",
+          "hints": {
+            "ru": "realize",
+            "vi": "realize"
+          }
+        },
+        "ru": {
+          "text": "осознавать",
+          "ipa": "/osoznavatʲ/",
+          "hints": {
+            "en": "осознавать",
+            "vi": "осознавать"
+          }
+        },
+        "vi": {
+          "text": "nhận ra",
+          "ipa": "/ɲən˧ˀ zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhận ra",
+            "en": "nhận ra"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.believe",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "believe",
+          "ipa": "/believe/",
+          "hints": {
+            "ru": "believe",
+            "vi": "believe"
+          }
+        },
+        "ru": {
+          "text": "верить",
+          "ipa": "/vʲerʲitʲ/",
+          "hints": {
+            "en": "верить",
+            "vi": "верить"
+          }
+        },
+        "vi": {
+          "text": "tin",
+          "ipa": "/tin˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tin",
+            "en": "tin"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.doubt",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "doubt",
+          "ipa": "/doubt/",
+          "hints": {
+            "ru": "doubt",
+            "vi": "doubt"
+          }
+        },
+        "ru": {
+          "text": "сомневаться",
+          "ipa": "/somnʲevatʲsʲa/",
+          "hints": {
+            "en": "сомневаться",
+            "vi": "сомневаться"
+          }
+        },
+        "vi": {
+          "text": "nghi ngờ",
+          "ipa": "/ŋi˧ ŋəː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nghi ngờ",
+            "en": "nghi ngờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.trust",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "trust",
+          "ipa": "/trust/",
+          "hints": {
+            "ru": "trust",
+            "vi": "trust"
+          }
+        },
+        "ru": {
+          "text": "доверять",
+          "ipa": "/dovʲerʲatʲ/",
+          "hints": {
+            "en": "доверять",
+            "vi": "доверять"
+          }
+        },
+        "vi": {
+          "text": "tin tưởng",
+          "ipa": "/tin˧ tɨəŋ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tin tưởng",
+            "en": "tin tưởng"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.share",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "share",
+          "ipa": "/share/",
+          "hints": {
+            "ru": "share",
+            "vi": "share"
+          }
+        },
+        "ru": {
+          "text": "делиться",
+          "ipa": "/dʲelʲitʲsʲa/",
+          "hints": {
+            "en": "делиться",
+            "vi": "делиться"
+          }
+        },
+        "vi": {
+          "text": "chia sẻ",
+          "ipa": "/tɕiə˧ sɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chia sẻ",
+            "en": "chia sẻ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.borrow",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "borrow",
+          "ipa": "/borrow/",
+          "hints": {
+            "ru": "borrow",
+            "vi": "borrow"
+          }
+        },
+        "ru": {
+          "text": "занимать",
+          "ipa": "/zanʲimatʲ/",
+          "hints": {
+            "en": "занимать",
+            "vi": "занимать"
+          }
+        },
+        "vi": {
+          "text": "mượn",
+          "ipa": "/mɨən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mượn",
+            "en": "mượn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.lend",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lend",
+          "ipa": "/lend/",
+          "hints": {
+            "ru": "lend",
+            "vi": "lend"
+          }
+        },
+        "ru": {
+          "text": "давать в долг",
+          "ipa": "/davatʲ v dolɡ/",
+          "hints": {
+            "en": "давать в долг",
+            "vi": "давать в долг"
+          }
+        },
+        "vi": {
+          "text": "cho mượn",
+          "ipa": "/tɕɔ˧ mɨən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cho mượn",
+            "en": "cho mượn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.owe",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "owe",
+          "ipa": "/owe/",
+          "hints": {
+            "ru": "owe",
+            "vi": "owe"
+          }
+        },
+        "ru": {
+          "text": "быть должным",
+          "ipa": "/bɨtʲ dolʐnɨm/",
+          "hints": {
+            "en": "быть должным",
+            "vi": "быть должным"
+          }
+        },
+        "vi": {
+          "text": "nợ",
+          "ipa": "/nəː˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nợ",
+            "en": "nợ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.save",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "save",
+          "ipa": "/save/",
+          "hints": {
+            "ru": "save",
+            "vi": "save"
+          }
+        },
+        "ru": {
+          "text": "сохранять",
+          "ipa": "/soxranʲatʲ/",
+          "hints": {
+            "en": "сохранять",
+            "vi": "сохранять"
+          }
+        },
+        "vi": {
+          "text": "tiết kiệm",
+          "ipa": "/tiət˧˥ kiəm˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tiết kiệm",
+            "en": "tiết kiệm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.spend",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "spend",
+          "ipa": "/spend/",
+          "hints": {
+            "ru": "spend",
+            "vi": "spend"
+          }
+        },
+        "ru": {
+          "text": "тратить",
+          "ipa": "/tratʲitʲ/",
+          "hints": {
+            "en": "тратить",
+            "vi": "тратить"
+          }
+        },
+        "vi": {
+          "text": "tiêu",
+          "ipa": "/tiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tiêu",
+            "en": "tiêu"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.cost",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cost",
+          "ipa": "/cost/",
+          "hints": {
+            "ru": "cost",
+            "vi": "cost"
+          }
+        },
+        "ru": {
+          "text": "стоить",
+          "ipa": "/stoitʲ/",
+          "hints": {
+            "en": "стоить",
+            "vi": "стоить"
+          }
+        },
+        "vi": {
+          "text": "có giá",
+          "ipa": "/kɔ˧˥ zaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "có giá",
+            "en": "có giá"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.count",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "count",
+          "ipa": "/count/",
+          "hints": {
+            "ru": "count",
+            "vi": "count"
+          }
+        },
+        "ru": {
+          "text": "считать",
+          "ipa": "/stɕitatʲ/",
+          "hints": {
+            "en": "считать",
+            "vi": "считать"
+          }
+        },
+        "vi": {
+          "text": "đếm",
+          "ipa": "/ɗem˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đếm",
+            "en": "đếm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.measure",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "measure",
+          "ipa": "/measure/",
+          "hints": {
+            "ru": "measure",
+            "vi": "measure"
+          }
+        },
+        "ru": {
+          "text": "измерять",
+          "ipa": "/izmʲerʲatʲ/",
+          "hints": {
+            "en": "измерять",
+            "vi": "измерять"
+          }
+        },
+        "vi": {
+          "text": "đo",
+          "ipa": "/ɗɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đo",
+            "en": "đo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.weigh",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "weigh",
+          "ipa": "/weigh/",
+          "hints": {
+            "ru": "weigh",
+            "vi": "weigh"
+          }
+        },
+        "ru": {
+          "text": "весить",
+          "ipa": "/vʲesʲitʲ/",
+          "hints": {
+            "en": "весить",
+            "vi": "весить"
+          }
+        },
+        "vi": {
+          "text": "cân",
+          "ipa": "/kən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cân",
+            "en": "cân"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.fill",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fill",
+          "ipa": "/fill/",
+          "hints": {
+            "ru": "fill",
+            "vi": "fill"
+          }
+        },
+        "ru": {
+          "text": "наполнять",
+          "ipa": "/napolnʲatʲ/",
+          "hints": {
+            "en": "наполнять",
+            "vi": "наполнять"
+          }
+        },
+        "vi": {
+          "text": "làm đầy",
+          "ipa": "/laːm˨˩ ɗəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "làm đầy",
+            "en": "làm đầy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.cover",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cover",
+          "ipa": "/cover/",
+          "hints": {
+            "ru": "cover",
+            "vi": "cover"
+          }
+        },
+        "ru": {
+          "text": "накрывать",
+          "ipa": "/nakrɨvatʲ/",
+          "hints": {
+            "en": "накрывать",
+            "vi": "накрывать"
+          }
+        },
+        "vi": {
+          "text": "che",
+          "ipa": "/tɕɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "che",
+            "en": "che"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.discover",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "discover",
+          "ipa": "/discover/",
+          "hints": {
+            "ru": "discover",
+            "vi": "discover"
+          }
+        },
+        "ru": {
+          "text": "открывать",
+          "ipa": "/otkrɨvatʲ/",
+          "hints": {
+            "en": "открывать",
+            "vi": "открывать"
+          }
+        },
+        "vi": {
+          "text": "khám phá",
+          "ipa": "/xaːm˧˥ faː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khám phá",
+            "en": "khám phá"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.invent",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "invent",
+          "ipa": "/invent/",
+          "hints": {
+            "ru": "invent",
+            "vi": "invent"
+          }
+        },
+        "ru": {
+          "text": "изобретать",
+          "ipa": "/izobrʲetatʲ/",
+          "hints": {
+            "en": "изобретать",
+            "vi": "изобретать"
+          }
+        },
+        "vi": {
+          "text": "phát minh",
+          "ipa": "/faːt˧˥ miɲ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phát minh",
+            "en": "phát minh"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.create",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "create",
+          "ipa": "/create/",
+          "hints": {
+            "ru": "create",
+            "vi": "create"
+          }
+        },
+        "ru": {
+          "text": "создавать",
+          "ipa": "/sozdavatʲ/",
+          "hints": {
+            "en": "создавать",
+            "vi": "создавать"
+          }
+        },
+        "vi": {
+          "text": "tạo",
+          "ipa": "/taːw˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tạo",
+            "en": "tạo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.design",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "design",
+          "ipa": "/design/",
+          "hints": {
+            "ru": "design",
+            "vi": "design"
+          }
+        },
+        "ru": {
+          "text": "проектировать",
+          "ipa": "/projektʲirovatʲ/",
+          "hints": {
+            "en": "проектировать",
+            "vi": "проектировать"
+          }
+        },
+        "vi": {
+          "text": "thiết kế",
+          "ipa": "/tʰiət˧˥ ke˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thiết kế",
+            "en": "thiết kế"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.draw",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "draw",
+          "ipa": "/draw/",
+          "hints": {
+            "ru": "draw",
+            "vi": "draw"
+          }
+        },
+        "ru": {
+          "text": "рисовать",
+          "ipa": "/rʲisovatʲ/",
+          "hints": {
+            "en": "рисовать",
+            "vi": "рисовать"
+          }
+        },
+        "vi": {
+          "text": "vẽ",
+          "ipa": "/vɛ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vẽ",
+            "en": "vẽ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.paint",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "paint",
+          "ipa": "/paint/",
+          "hints": {
+            "ru": "paint",
+            "vi": "paint"
+          }
+        },
+        "ru": {
+          "text": "красить",
+          "ipa": "/krasʲitʲ/",
+          "hints": {
+            "en": "красить",
+            "vi": "красить"
+          }
+        },
+        "vi": {
+          "text": "sơn",
+          "ipa": "/səːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sơn",
+            "en": "sơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.sing",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sing",
+          "ipa": "/sing/",
+          "hints": {
+            "ru": "sing",
+            "vi": "sing"
+          }
+        },
+        "ru": {
+          "text": "петь",
+          "ipa": "/pʲetʲ/",
+          "hints": {
+            "en": "петь",
+            "vi": "петь"
+          }
+        },
+        "vi": {
+          "text": "hát",
+          "ipa": "/haːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hát",
+            "en": "hát"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.dance",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dance",
+          "ipa": "/dance/",
+          "hints": {
+            "ru": "dance",
+            "vi": "dance"
+          }
+        },
+        "ru": {
+          "text": "танцевать",
+          "ipa": "/tantsevatʲ/",
+          "hints": {
+            "en": "танцевать",
+            "vi": "танцевать"
+          }
+        },
+        "vi": {
+          "text": "nhảy",
+          "ipa": "/ɲaj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhảy",
+            "en": "nhảy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.wash",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wash",
+          "ipa": "/wash/",
+          "hints": {
+            "ru": "wash",
+            "vi": "wash"
+          }
+        },
+        "ru": {
+          "text": "мыть",
+          "ipa": "/mɨtʲ/",
+          "hints": {
+            "en": "мыть",
+            "vi": "мыть"
+          }
+        },
+        "vi": {
+          "text": "rửa",
+          "ipa": "/zɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "rửa",
+            "en": "rửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.dry",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dry",
+          "ipa": "/dry/",
+          "hints": {
+            "ru": "dry",
+            "vi": "dry"
+          }
+        },
+        "ru": {
+          "text": "сушить",
+          "ipa": "/suʂitʲ/",
+          "hints": {
+            "en": "сушить",
+            "vi": "сушить"
+          }
+        },
+        "vi": {
+          "text": "phơi",
+          "ipa": "/fəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phơi",
+            "en": "phơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.hang",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hang",
+          "ipa": "/hang/",
+          "hints": {
+            "ru": "hang",
+            "vi": "hang"
+          }
+        },
+        "ru": {
+          "text": "вешать",
+          "ipa": "/vʲeʂatʲ/",
+          "hints": {
+            "en": "вешать",
+            "vi": "вешать"
+          }
+        },
+        "vi": {
+          "text": "treo",
+          "ipa": "/tɕɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "treo",
+            "en": "treo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.throw",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "throw",
+          "ipa": "/throw/",
+          "hints": {
+            "ru": "throw",
+            "vi": "throw"
+          }
+        },
+        "ru": {
+          "text": "бросать",
+          "ipa": "/brosatʲ/",
+          "hints": {
+            "en": "бросать",
+            "vi": "бросать"
+          }
+        },
+        "vi": {
+          "text": "ném",
+          "ipa": "/nɛm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ném",
+            "en": "ném"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.catch",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "catch",
+          "ipa": "/catch/",
+          "hints": {
+            "ru": "catch",
+            "vi": "catch"
+          }
+        },
+        "ru": {
+          "text": "ловить",
+          "ipa": "/lovʲitʲ/",
+          "hints": {
+            "en": "ловить",
+            "vi": "ловить"
+          }
+        },
+        "vi": {
+          "text": "bắt",
+          "ipa": "/ɓat˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bắt",
+            "en": "bắt"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.kick",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "kick",
+          "ipa": "/kick/",
+          "hints": {
+            "ru": "kick",
+            "vi": "kick"
+          }
+        },
+        "ru": {
+          "text": "бить ногой",
+          "ipa": "/bʲitʲ noɡoj/",
+          "hints": {
+            "en": "бить ногой",
+            "vi": "бить ногой"
+          }
+        },
+        "vi": {
+          "text": "đá",
+          "ipa": "/ɗaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đá",
+            "en": "đá"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.hit",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hit",
+          "ipa": "/hit/",
+          "hints": {
+            "ru": "hit",
+            "vi": "hit"
+          }
+        },
+        "ru": {
+          "text": "ударять",
+          "ipa": "/udarʲatʲ/",
+          "hints": {
+            "en": "ударять",
+            "vi": "ударять"
+          }
+        },
+        "vi": {
+          "text": "đánh",
+          "ipa": "/ɗajŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đánh",
+            "en": "đánh"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.jump",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "jump",
+          "ipa": "/jump/",
+          "hints": {
+            "ru": "jump",
+            "vi": "jump"
+          }
+        },
+        "ru": {
+          "text": "прыгать",
+          "ipa": "/prɨɡatʲ/",
+          "hints": {
+            "en": "прыгать",
+            "vi": "прыгать"
+          }
+        },
+        "vi": {
+          "text": "nhảy",
+          "ipa": "/ɲaj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhảy",
+            "en": "nhảy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.climb",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "climb",
+          "ipa": "/climb/",
+          "hints": {
+            "ru": "climb",
+            "vi": "climb"
+          }
+        },
+        "ru": {
+          "text": "лезть",
+          "ipa": "/lʲeztʲ/",
+          "hints": {
+            "en": "лезть",
+            "vi": "лезть"
+          }
+        },
+        "vi": {
+          "text": "leo",
+          "ipa": "/lɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "leo",
+            "en": "leo"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.drive",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "drive",
+          "ipa": "/drive/",
+          "hints": {
+            "ru": "drive",
+            "vi": "drive"
+          }
+        },
+        "ru": {
+          "text": "водить",
+          "ipa": "/vodʲitʲ/",
+          "hints": {
+            "en": "водить",
+            "vi": "водить"
+          }
+        },
+        "vi": {
+          "text": "lái",
+          "ipa": "/laːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lái",
+            "en": "lái"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.ride",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ride",
+          "ipa": "/ride/",
+          "hints": {
+            "ru": "ride",
+            "vi": "ride"
+          }
+        },
+        "ru": {
+          "text": "ехать",
+          "ipa": "/jexatʲ/",
+          "hints": {
+            "en": "ехать",
+            "vi": "ехать"
+          }
+        },
+        "vi": {
+          "text": "cưỡi / đi",
+          "ipa": "/kɨəj˧˥ˀ ɗi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cưỡi / đi",
+            "en": "cưỡi / đi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.fly",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fly",
+          "ipa": "/fly/",
+          "hints": {
+            "ru": "fly",
+            "vi": "fly"
+          }
+        },
+        "ru": {
+          "text": "летать",
+          "ipa": "/lʲetatʲ/",
+          "hints": {
+            "en": "летать",
+            "vi": "летать"
+          }
+        },
+        "vi": {
+          "text": "bay",
+          "ipa": "/ɓaj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bay",
+            "en": "bay"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.sail",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sail",
+          "ipa": "/sail/",
+          "hints": {
+            "ru": "sail",
+            "vi": "sail"
+          }
+        },
+        "ru": {
+          "text": "плыть на судне",
+          "ipa": "/plɨtʲ na sudnʲe/",
+          "hints": {
+            "en": "плыть на судне",
+            "vi": "плыть на судне"
+          }
+        },
+        "vi": {
+          "text": "đi thuyền",
+          "ipa": "/ɗi˧ tʰwiən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đi thuyền",
+            "en": "đi thuyền"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.travel",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "travel",
+          "ipa": "/travel/",
+          "hints": {
+            "ru": "travel",
+            "vi": "travel"
+          }
+        },
+        "ru": {
+          "text": "путешествовать",
+          "ipa": "/putʲeʂestvovatʲ/",
+          "hints": {
+            "en": "путешествовать",
+            "vi": "путешествовать"
+          }
+        },
+        "vi": {
+          "text": "du lịch",
+          "ipa": "/zu˧ lik˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "du lịch",
+            "en": "du lịch"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.visit",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "visit",
+          "ipa": "/visit/",
+          "hints": {
+            "ru": "visit",
+            "vi": "visit"
+          }
+        },
+        "ru": {
+          "text": "посещать",
+          "ipa": "/posʲeɕːatʲ/",
+          "hints": {
+            "en": "посещать",
+            "vi": "посещать"
+          }
+        },
+        "vi": {
+          "text": "thăm",
+          "ipa": "/tʰam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thăm",
+            "en": "thăm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.arrive",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "arrive",
+          "ipa": "/arrive/",
+          "hints": {
+            "ru": "arrive",
+            "vi": "arrive"
+          }
+        },
+        "ru": {
+          "text": "приезжать",
+          "ipa": "/prʲijezʐatʲ/",
+          "hints": {
+            "en": "приезжать",
+            "vi": "приезжать"
+          }
+        },
+        "vi": {
+          "text": "đến",
+          "ipa": "/ɗen˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đến",
+            "en": "đến"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.return",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "return",
+          "ipa": "/return/",
+          "hints": {
+            "ru": "return",
+            "vi": "return"
+          }
+        },
+        "ru": {
+          "text": "возвращаться",
+          "ipa": "/vozvraɕːatʲsʲa/",
+          "hints": {
+            "en": "возвращаться",
+            "vi": "возвращаться"
+          }
+        },
+        "vi": {
+          "text": "trở về",
+          "ipa": "/tɕəː˧˩˧ ve˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "trở về",
+            "en": "trở về"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.enter",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "enter",
+          "ipa": "/enter/",
+          "hints": {
+            "ru": "enter",
+            "vi": "enter"
+          }
+        },
+        "ru": {
+          "text": "входить",
+          "ipa": "/vxodʲitʲ/",
+          "hints": {
+            "en": "входить",
+            "vi": "входить"
+          }
+        },
+        "vi": {
+          "text": "vào",
+          "ipa": "/vaːw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vào",
+            "en": "vào"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.exit",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "exit",
+          "ipa": "/exit/",
+          "hints": {
+            "ru": "exit",
+            "vi": "exit"
+          }
+        },
+        "ru": {
+          "text": "выходить",
+          "ipa": "/vɨxodʲitʲ/",
+          "hints": {
+            "en": "выходить",
+            "vi": "выходить"
+          }
+        },
+        "vi": {
+          "text": "ra",
+          "ipa": "/zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ra",
+            "en": "ra"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.send",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "send",
+          "ipa": "/send/",
+          "hints": {
+            "ru": "send",
+            "vi": "send"
+          }
+        },
+        "ru": {
+          "text": "отправлять",
+          "ipa": "/otpravlʲatʲ/",
+          "hints": {
+            "en": "отправлять",
+            "vi": "отправлять"
+          }
+        },
+        "vi": {
+          "text": "gửi",
+          "ipa": "/ɣɨj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "gửi",
+            "en": "gửi"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.receive",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "receive",
+          "ipa": "/receive/",
+          "hints": {
+            "ru": "receive",
+            "vi": "receive"
+          }
+        },
+        "ru": {
+          "text": "получать",
+          "ipa": "/polutɕatʲ/",
+          "hints": {
+            "en": "получать",
+            "vi": "получать"
+          }
+        },
+        "vi": {
+          "text": "nhận",
+          "ipa": "/ɲən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhận",
+            "en": "nhận"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.deliver",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "deliver",
+          "ipa": "/deliver/",
+          "hints": {
+            "ru": "deliver",
+            "vi": "deliver"
+          }
+        },
+        "ru": {
+          "text": "доставлять",
+          "ipa": "/dostavlʲatʲ/",
+          "hints": {
+            "en": "доставлять",
+            "vi": "доставлять"
+          }
+        },
+        "vi": {
+          "text": "giao",
+          "ipa": "/zaːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giao",
+            "en": "giao"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.order",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "order",
+          "ipa": "/order/",
+          "hints": {
+            "ru": "order",
+            "vi": "order"
+          }
+        },
+        "ru": {
+          "text": "заказывать",
+          "ipa": "/zakazɨvatʲ/",
+          "hints": {
+            "en": "заказывать",
+            "vi": "заказывать"
+          }
+        },
+        "vi": {
+          "text": "đặt",
+          "ipa": "/ɗat˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đặt",
+            "en": "đặt"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.book_a_table",
+      "kind": "phrase",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "book a table",
+          "ipa": "/bʊk ə ˈteɪbəl/",
+          "hints": {
+            "ru": "book a table",
+            "vi": "book a table"
+          }
+        },
+        "ru": {
+          "text": "бронировать",
+          "ipa": "/bronʲirovatʲ/",
+          "hints": {
+            "en": "бронировать",
+            "vi": "бронировать"
+          }
+        },
+        "vi": {
+          "text": "đặt chỗ",
+          "ipa": "/ɗat˧ˀ tɕo˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đặt chỗ",
+            "en": "đặt chỗ"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.cancel",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cancel",
+          "ipa": "/cancel/",
+          "hints": {
+            "ru": "cancel",
+            "vi": "cancel"
+          }
+        },
+        "ru": {
+          "text": "отменять",
+          "ipa": "/otmʲenʲatʲ/",
+          "hints": {
+            "en": "отменять",
+            "vi": "отменять"
+          }
+        },
+        "vi": {
+          "text": "hủy",
+          "ipa": "/hwi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hủy",
+            "en": "hủy"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.check",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "check",
+          "ipa": "/check/",
+          "hints": {
+            "ru": "check",
+            "vi": "check"
+          }
+        },
+        "ru": {
+          "text": "проверять",
+          "ipa": "/provʲerʲatʲ/",
+          "hints": {
+            "en": "проверять",
+            "vi": "проверять"
+          }
+        },
+        "vi": {
+          "text": "kiểm tra",
+          "ipa": "/kiəm˧˩˧ tɕaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kiểm tra",
+            "en": "kiểm tra"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.search",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "search",
+          "ipa": "/search/",
+          "hints": {
+            "ru": "search",
+            "vi": "search"
+          }
+        },
+        "ru": {
+          "text": "искать",
+          "ipa": "/iskatʲ/",
+          "hints": {
+            "en": "искать",
+            "vi": "искать"
+          }
+        },
+        "vi": {
+          "text": "tìm kiếm",
+          "ipa": "/tim˧˩ kiəm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tìm kiếm",
+            "en": "tìm kiếm"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.download",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "download",
+          "ipa": "/download/",
+          "hints": {
+            "ru": "download",
+            "vi": "download"
+          }
+        },
+        "ru": {
+          "text": "скачивать",
+          "ipa": "/skatɕivatʲ/",
+          "hints": {
+            "en": "скачивать",
+            "vi": "скачивать"
+          }
+        },
+        "vi": {
+          "text": "tải xuống",
+          "ipa": "/taːj˧˩˧ suəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tải xuống",
+            "en": "tải xuống"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.upload",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "upload",
+          "ipa": "/upload/",
+          "hints": {
+            "ru": "upload",
+            "vi": "upload"
+          }
+        },
+        "ru": {
+          "text": "загружать",
+          "ipa": "/zaɡruʐatʲ/",
+          "hints": {
+            "en": "загружать",
+            "vi": "загружать"
+          }
+        },
+        "vi": {
+          "text": "tải lên",
+          "ipa": "/taːj˧˩˧ len˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tải lên",
+            "en": "tải lên"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.print",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "print",
+          "ipa": "/print/",
+          "hints": {
+            "ru": "print",
+            "vi": "print"
+          }
+        },
+        "ru": {
+          "text": "печатать",
+          "ipa": "/pʲetɕatatʲ/",
+          "hints": {
+            "en": "печатать",
+            "vi": "печатать"
+          }
+        },
+        "vi": {
+          "text": "in",
+          "ipa": "/in˧/",
+          "tones": [],
+          "hints": {
+            "ru": "in",
+            "en": "in"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.copy",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "copy",
+          "ipa": "/copy/",
+          "hints": {
+            "ru": "copy",
+            "vi": "copy"
+          }
+        },
+        "ru": {
+          "text": "копировать",
+          "ipa": "/kopʲirovatʲ/",
+          "hints": {
+            "en": "копировать",
+            "vi": "копировать"
+          }
+        },
+        "vi": {
+          "text": "sao chép",
+          "ipa": "/saːw˧ tɕɛp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sao chép",
+            "en": "sao chép"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.delete",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "delete",
+          "ipa": "/delete/",
+          "hints": {
+            "ru": "delete",
+            "vi": "delete"
+          }
+        },
+        "ru": {
+          "text": "удалять",
+          "ipa": "/udalʲatʲ/",
+          "hints": {
+            "en": "удалять",
+            "vi": "удалять"
+          }
+        },
+        "vi": {
+          "text": "xóa",
+          "ipa": "/swaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xóa",
+            "en": "xóa"
+          }
+        }
+      }
+    },
+    {
+      "id": "verbx.edit",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "edit",
+          "ipa": "/edit/",
+          "hints": {
+            "ru": "edit",
+            "vi": "edit"
+          }
+        },
+        "ru": {
+          "text": "редактировать",
+          "ipa": "/rʲedaktʲirovatʲ/",
+          "hints": {
+            "en": "редактировать",
+            "vi": "редактировать"
+          }
+        },
+        "vi": {
+          "text": "chỉnh sửa",
+          "ipa": "/tɕiɲ˧˩˧ sɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chỉnh sửa",
+            "en": "chỉnh sửa"
+          }
+        }
+      }
+    }
+  ]
+}

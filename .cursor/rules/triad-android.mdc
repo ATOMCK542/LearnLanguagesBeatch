@@ -1,0 +1,31 @@
+---
+description: Архитектура Kotlin/Compose — слои, профили, сессия, FSRS, TTS
+globs: "**/*.kt,**/*.kts"
+alwaysApply: false
+---
+
+# Android-код
+
+Пакет `dev.sergey.triad`. Слои: `ui/` · `domain/` · `data/` (db, content, scheduler, tts, translate, locale). UI не знает поля FSRS. Сессия: `SessionPlanner` → `ExerciseFactory` → UI → `AnswerEvaluator` → `Scheduler`.
+
+## Профили
+
+Одна Room-база. Пак контента общий. Прогресс только с `profileId`. DataStore — исключительно `activeProfileId`. Настройки (`uiLang`, `nativeLang`, `targetLangs`, TTS) на `Profile`. Переключение не затирает другие профили. Удаление — подтверждение, каскад только прогресса профиля.
+
+```kotlin
+// ❌ BAD — глобальный прогресс
+@Entity data class FsrsState(val conceptId: String, ...)
+
+// ✅ GOOD
+@Entity data class FsrsState(val profileId: Long, val conceptId: String, ...)
+```
+
+`ExerciseFactory` получает `nativeLang` и `targetLang` текущего профиля, не константу RU.
+
+## Расписание и перевод
+
+Свой FSRS-4.5/6 + тесты на эталоне. Интерфейс `TranslationEngine` с `StubTranslationEngine`. Не подключать llama.cpp / ML Kit / DashScope, пока это не задача итерации 2.
+
+## UI
+
+Compose + `stringResource` / `pluralStringResource`. Смена языка: `AppCompatDelegate.setApplicationLocales` по `profile.uiLang`. Ответы: тап, 4 варианта, чипы. VI сравнивать в NFC. Нет голоса TTS — скрыть кнопку, не падать. TTS: системный `ru-RU` / `en-US` / `vi-VN`.

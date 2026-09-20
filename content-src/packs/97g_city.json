@@ -1,0 +1,1099 @@
+{
+  "theme": {
+    "id": "city",
+    "kind": "unit",
+    "order": 101,
+    "title": {
+      "en": "City",
+      "ru": "Город",
+      "vi": "Thành phố"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "city.traffic",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "traffic",
+          "ipa": "/traffic/",
+          "hints": {
+            "ru": "traffic",
+            "vi": "traffic"
+          }
+        },
+        "ru": {
+          "text": "трафик",
+          "ipa": "/trafʲik/",
+          "hints": {
+            "en": "трафик",
+            "vi": "трафик"
+          }
+        },
+        "vi": {
+          "text": "giao thông",
+          "ipa": "/zaːw˧ tʰoŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giao thông",
+            "en": "giao thông"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.car",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "car",
+          "ipa": "/kɑː/",
+          "hints": {
+            "ru": "car",
+            "vi": "car"
+          }
+        },
+        "ru": {
+          "text": "машина",
+          "ipa": "/maʂina/",
+          "hints": {
+            "en": "машина",
+            "vi": "машина"
+          }
+        },
+        "vi": {
+          "text": "xe hơi",
+          "ipa": "/sɛ˧ həːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xe hơi",
+            "en": "xe hơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.bike",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bike",
+          "ipa": "/bike/",
+          "hints": {
+            "ru": "bike",
+            "vi": "bike"
+          }
+        },
+        "ru": {
+          "text": "велосипед",
+          "ipa": "/vʲelosʲipʲed/",
+          "hints": {
+            "en": "велосипед",
+            "vi": "велосипед"
+          }
+        },
+        "vi": {
+          "text": "xe đạp",
+          "ipa": "/sɛ˧ ɗaːp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "xe đạp",
+            "en": "xe đạp"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.motorbike",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "motorbike",
+          "ipa": "/motorbike/",
+          "hints": {
+            "ru": "motorbike",
+            "vi": "motorbike"
+          }
+        },
+        "ru": {
+          "text": "мотоцикл",
+          "ipa": "/mototsikl/",
+          "hints": {
+            "en": "мотоцикл",
+            "vi": "мотоцикл"
+          }
+        },
+        "vi": {
+          "text": "xe máy",
+          "ipa": "/sɛ˧ maj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xe máy",
+            "en": "xe máy"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.truck",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "truck",
+          "ipa": "/truck/",
+          "hints": {
+            "ru": "truck",
+            "vi": "truck"
+          }
+        },
+        "ru": {
+          "text": "грузовик",
+          "ipa": "/ɡruzovʲik/",
+          "hints": {
+            "en": "грузовик",
+            "vi": "грузовик"
+          }
+        },
+        "vi": {
+          "text": "xe tải",
+          "ipa": "/sɛ˧ taːj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xe tải",
+            "en": "xe tải"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.driver",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "driver",
+          "ipa": "/driver/",
+          "hints": {
+            "ru": "driver",
+            "vi": "driver"
+          }
+        },
+        "ru": {
+          "text": "водитель",
+          "ipa": "/vodʲitʲelʲ/",
+          "hints": {
+            "en": "водитель",
+            "vi": "водитель"
+          }
+        },
+        "vi": {
+          "text": "tài xế",
+          "ipa": "/taːj˧˩ se˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tài xế",
+            "en": "tài xế"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.passenger",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "passenger",
+          "ipa": "/passenger/",
+          "hints": {
+            "ru": "passenger",
+            "vi": "passenger"
+          }
+        },
+        "ru": {
+          "text": "пассажир",
+          "ipa": "/passaʐir/",
+          "hints": {
+            "en": "пассажир",
+            "vi": "пассажир"
+          }
+        },
+        "vi": {
+          "text": "hành khách",
+          "ipa": "/hajŋ˧˩ xajk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hành khách",
+            "en": "hành khách"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.map",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "map",
+          "ipa": "/map/",
+          "hints": {
+            "ru": "map",
+            "vi": "map"
+          }
+        },
+        "ru": {
+          "text": "карта",
+          "ipa": "/karta/",
+          "hints": {
+            "en": "карта",
+            "vi": "карта"
+          }
+        },
+        "vi": {
+          "text": "bản đồ",
+          "ipa": "/ɓaːn˧˩˧ ɗo˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bản đồ",
+            "en": "bản đồ"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.direction",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "direction",
+          "ipa": "/direction/",
+          "hints": {
+            "ru": "direction",
+            "vi": "direction"
+          }
+        },
+        "ru": {
+          "text": "направление",
+          "ipa": "/napravlʲenʲije/",
+          "hints": {
+            "en": "направление",
+            "vi": "направление"
+          }
+        },
+        "vi": {
+          "text": "hướng",
+          "ipa": "/hɨəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hướng",
+            "en": "hướng"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.north",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "north",
+          "ipa": "/north/",
+          "hints": {
+            "ru": "north",
+            "vi": "north"
+          }
+        },
+        "ru": {
+          "text": "север",
+          "ipa": "/sʲevʲer/",
+          "hints": {
+            "en": "север",
+            "vi": "север"
+          }
+        },
+        "vi": {
+          "text": "bắc",
+          "ipa": "/ɓak˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bắc",
+            "en": "bắc"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.south",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "south",
+          "ipa": "/south/",
+          "hints": {
+            "ru": "south",
+            "vi": "south"
+          }
+        },
+        "ru": {
+          "text": "юг",
+          "ipa": "/juɡ/",
+          "hints": {
+            "en": "юг",
+            "vi": "юг"
+          }
+        },
+        "vi": {
+          "text": "nam",
+          "ipa": "/naːm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nam",
+            "en": "nam"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.east",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "east",
+          "ipa": "/east/",
+          "hints": {
+            "ru": "east",
+            "vi": "east"
+          }
+        },
+        "ru": {
+          "text": "восток",
+          "ipa": "/vostok/",
+          "hints": {
+            "en": "восток",
+            "vi": "восток"
+          }
+        },
+        "vi": {
+          "text": "đông",
+          "ipa": "/ɗoŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đông",
+            "en": "đông"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.west",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "west",
+          "ipa": "/west/",
+          "hints": {
+            "ru": "west",
+            "vi": "west"
+          }
+        },
+        "ru": {
+          "text": "запад",
+          "ipa": "/zapad/",
+          "hints": {
+            "en": "запад",
+            "vi": "запад"
+          }
+        },
+        "vi": {
+          "text": "tây",
+          "ipa": "/təj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tây",
+            "en": "tây"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.center",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "center",
+          "ipa": "/center/",
+          "hints": {
+            "ru": "center",
+            "vi": "center"
+          }
+        },
+        "ru": {
+          "text": "центр",
+          "ipa": "/tsentr/",
+          "hints": {
+            "en": "центр",
+            "vi": "центр"
+          }
+        },
+        "vi": {
+          "text": "trung tâm",
+          "ipa": "/tɕuŋ˧ təm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trung tâm",
+            "en": "trung tâm"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.corner",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "corner",
+          "ipa": "/corner/",
+          "hints": {
+            "ru": "corner",
+            "vi": "corner"
+          }
+        },
+        "ru": {
+          "text": "угол",
+          "ipa": "/uɡol/",
+          "hints": {
+            "en": "угол",
+            "vi": "угол"
+          }
+        },
+        "vi": {
+          "text": "góc",
+          "ipa": "/ɣɔk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "góc",
+            "en": "góc"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.crosswalk",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "crosswalk",
+          "ipa": "/crosswalk/",
+          "hints": {
+            "ru": "crosswalk",
+            "vi": "crosswalk"
+          }
+        },
+        "ru": {
+          "text": "пешеходный переход",
+          "ipa": "/pʲeʂexodnɨj pʲerʲexod/",
+          "hints": {
+            "en": "пешеходный переход",
+            "vi": "пешеходный переход"
+          }
+        },
+        "vi": {
+          "text": "vạch sang đường",
+          "ipa": "/vajk˧ˀ saːŋ˧ ɗɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vạch sang đường",
+            "en": "vạch sang đường"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.traffic_light",
+      "kind": "phrase",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "traffic light",
+          "ipa": "/ˈtræfɪk laɪt/",
+          "hints": {
+            "ru": "traffic light",
+            "vi": "traffic light"
+          }
+        },
+        "ru": {
+          "text": "светофор",
+          "ipa": "/svʲetofor/",
+          "hints": {
+            "en": "светофор",
+            "vi": "светофор"
+          }
+        },
+        "vi": {
+          "text": "đèn giao thông",
+          "ipa": "/ɗɛn˧˩ zaːw˧ tʰoŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đèn giao thông",
+            "en": "đèn giao thông"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.parking",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "parking",
+          "ipa": "/parking/",
+          "hints": {
+            "ru": "parking",
+            "vi": "parking"
+          }
+        },
+        "ru": {
+          "text": "парковка",
+          "ipa": "/parkovka/",
+          "hints": {
+            "en": "парковка",
+            "vi": "парковка"
+          }
+        },
+        "vi": {
+          "text": "chỗ đậu xe",
+          "ipa": "/tɕo˧˥ˀ ɗəu˧ˀ sɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chỗ đậu xe",
+            "en": "chỗ đậu xe"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.gasoline",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "gasoline",
+          "ipa": "/gasoline/",
+          "hints": {
+            "ru": "gasoline",
+            "vi": "gasoline"
+          }
+        },
+        "ru": {
+          "text": "бензин",
+          "ipa": "/bʲenzʲin/",
+          "hints": {
+            "en": "бензин",
+            "vi": "бензин"
+          }
+        },
+        "vi": {
+          "text": "xăng",
+          "ipa": "/saŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xăng",
+            "en": "xăng"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.helmet",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "helmet",
+          "ipa": "/helmet/",
+          "hints": {
+            "ru": "helmet",
+            "vi": "helmet"
+          }
+        },
+        "ru": {
+          "text": "шлем",
+          "ipa": "/ʂlʲem/",
+          "hints": {
+            "en": "шлем",
+            "vi": "шлем"
+          }
+        },
+        "vi": {
+          "text": "mũ bảo hiểm",
+          "ipa": "/mu˧˥ˀ ɓaːw˧˩˧ hiəm˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mũ bảo hiểm",
+            "en": "mũ bảo hiểm"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.seat",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "seat",
+          "ipa": "/seat/",
+          "hints": {
+            "ru": "seat",
+            "vi": "seat"
+          }
+        },
+        "ru": {
+          "text": "место",
+          "ipa": "/mʲesto/",
+          "hints": {
+            "en": "место",
+            "vi": "место"
+          }
+        },
+        "vi": {
+          "text": "chỗ ngồi",
+          "ipa": "/tɕo˧˥ˀ ŋoj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chỗ ngồi",
+            "en": "chỗ ngồi"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.queue",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "queue",
+          "ipa": "/queue/",
+          "hints": {
+            "ru": "queue",
+            "vi": "queue"
+          }
+        },
+        "ru": {
+          "text": "очередь",
+          "ipa": "/otɕerʲedʲ/",
+          "hints": {
+            "en": "очередь",
+            "vi": "очередь"
+          }
+        },
+        "vi": {
+          "text": "hàng đợi",
+          "ipa": "/haːŋ˧˩ ɗəːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hàng đợi",
+            "en": "hàng đợi"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.crowd",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "crowd",
+          "ipa": "/crowd/",
+          "hints": {
+            "ru": "crowd",
+            "vi": "crowd"
+          }
+        },
+        "ru": {
+          "text": "толпа",
+          "ipa": "/tolpa/",
+          "hints": {
+            "en": "толпа",
+            "vi": "толпа"
+          }
+        },
+        "vi": {
+          "text": "đám đông",
+          "ipa": "/ɗaːm˧˥ ɗoŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đám đông",
+            "en": "đám đông"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.noise",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "noise",
+          "ipa": "/noise/",
+          "hints": {
+            "ru": "noise",
+            "vi": "noise"
+          }
+        },
+        "ru": {
+          "text": "шум",
+          "ipa": "/ʂum/",
+          "hints": {
+            "en": "шум",
+            "vi": "шум"
+          }
+        },
+        "vi": {
+          "text": "tiếng ồn",
+          "ipa": "/tiəŋ˧˥ on˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tiếng ồn",
+            "en": "tiếng ồn"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.quiet",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "quiet",
+          "ipa": "/quiet/",
+          "hints": {
+            "ru": "quiet",
+            "vi": "quiet"
+          }
+        },
+        "ru": {
+          "text": "тихий",
+          "ipa": "/tʲixʲij/",
+          "hints": {
+            "en": "тихий",
+            "vi": "тихий"
+          }
+        },
+        "vi": {
+          "text": "yên tĩnh",
+          "ipa": "/iən˧ tiɲ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "yên tĩnh",
+            "en": "yên tĩnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.safe",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "safe",
+          "ipa": "/safe/",
+          "hints": {
+            "ru": "safe",
+            "vi": "safe"
+          }
+        },
+        "ru": {
+          "text": "безопасный",
+          "ipa": "/bʲezopasnɨj/",
+          "hints": {
+            "en": "безопасный",
+            "vi": "безопасный"
+          }
+        },
+        "vi": {
+          "text": "an toàn",
+          "ipa": "/aːn˧ tɔaːn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "an toàn",
+            "en": "an toàn"
+          }
+        }
+      }
+    },
+    {
+      "id": "city.dangerous",
+      "kind": "word",
+      "theme": "city",
+      "tags": [
+        "theme:city"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dangerous",
+          "ipa": "/dangerous/",
+          "hints": {
+            "ru": "dangerous",
+            "vi": "dangerous"
+          }
+        },
+        "ru": {
+          "text": "опасный",
+          "ipa": "/opasnɨj/",
+          "hints": {
+            "en": "опасный",
+            "vi": "опасный"
+          }
+        },
+        "vi": {
+          "text": "nguy hiểm",
+          "ipa": "/ŋwi˧ hiəm˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nguy hiểm",
+            "en": "nguy hiểm"
+          }
+        }
+      }
+    }
+  ]
+}

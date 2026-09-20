@@ -1,0 +1,1539 @@
+{
+  "theme": {
+    "id": "time",
+    "kind": "unit",
+    "order": 86,
+    "title": {
+      "en": "Time",
+      "ru": "Время",
+      "vi": "Thời gian"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "timex.sunday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Sunday",
+          "ipa": "/sunday/",
+          "hints": {
+            "ru": "Sunday",
+            "vi": "Sunday"
+          }
+        },
+        "ru": {
+          "text": "воскресенье",
+          "ipa": "/voskrʲesʲenʲje/",
+          "hints": {
+            "en": "воскресенье",
+            "vi": "воскресенье"
+          }
+        },
+        "vi": {
+          "text": "chủ nhật",
+          "ipa": "/tɕu˧˩˧ ɲət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chủ nhật",
+            "en": "chủ nhật"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.tuesday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Tuesday",
+          "ipa": "/tuesday/",
+          "hints": {
+            "ru": "Tuesday",
+            "vi": "Tuesday"
+          }
+        },
+        "ru": {
+          "text": "вторник",
+          "ipa": "/vtornʲik/",
+          "hints": {
+            "en": "вторник",
+            "vi": "вторник"
+          }
+        },
+        "vi": {
+          "text": "thứ ba",
+          "ipa": "/tʰɨ˧˥ ɓaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ ba",
+            "en": "thứ ba"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.wednesday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Wednesday",
+          "ipa": "/wednesday/",
+          "hints": {
+            "ru": "Wednesday",
+            "vi": "Wednesday"
+          }
+        },
+        "ru": {
+          "text": "среда",
+          "ipa": "/srʲeda/",
+          "hints": {
+            "en": "среда",
+            "vi": "среда"
+          }
+        },
+        "vi": {
+          "text": "thứ tư",
+          "ipa": "/tʰɨ˧˥ tɨ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ tư",
+            "en": "thứ tư"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.thursday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Thursday",
+          "ipa": "/thursday/",
+          "hints": {
+            "ru": "Thursday",
+            "vi": "Thursday"
+          }
+        },
+        "ru": {
+          "text": "четверг",
+          "ipa": "/tɕetvʲerɡ/",
+          "hints": {
+            "en": "четверг",
+            "vi": "четверг"
+          }
+        },
+        "vi": {
+          "text": "thứ năm",
+          "ipa": "/tʰɨ˧˥ nam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ năm",
+            "en": "thứ năm"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.friday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Friday",
+          "ipa": "/friday/",
+          "hints": {
+            "ru": "Friday",
+            "vi": "Friday"
+          }
+        },
+        "ru": {
+          "text": "пятница",
+          "ipa": "/pʲatnʲitsa/",
+          "hints": {
+            "en": "пятница",
+            "vi": "пятница"
+          }
+        },
+        "vi": {
+          "text": "thứ sáu",
+          "ipa": "/tʰɨ˧˥ saw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ sáu",
+            "en": "thứ sáu"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.saturday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Saturday",
+          "ipa": "/saturday/",
+          "hints": {
+            "ru": "Saturday",
+            "vi": "Saturday"
+          }
+        },
+        "ru": {
+          "text": "суббота",
+          "ipa": "/subbota/",
+          "hints": {
+            "en": "суббота",
+            "vi": "суббота"
+          }
+        },
+        "vi": {
+          "text": "thứ bảy",
+          "ipa": "/tʰɨ˧˥ ɓaj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ bảy",
+            "en": "thứ bảy"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.january",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "January",
+          "ipa": "/january/",
+          "hints": {
+            "ru": "January",
+            "vi": "January"
+          }
+        },
+        "ru": {
+          "text": "январь",
+          "ipa": "/janvarʲ/",
+          "hints": {
+            "en": "январь",
+            "vi": "январь"
+          }
+        },
+        "vi": {
+          "text": "tháng một",
+          "ipa": "/tʰaŋ˧˥ mot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng một",
+            "en": "tháng một"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.february",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "February",
+          "ipa": "/february/",
+          "hints": {
+            "ru": "February",
+            "vi": "February"
+          }
+        },
+        "ru": {
+          "text": "февраль",
+          "ipa": "/fʲevralʲ/",
+          "hints": {
+            "en": "февраль",
+            "vi": "февраль"
+          }
+        },
+        "vi": {
+          "text": "tháng hai",
+          "ipa": "/tʰaŋ˧˥ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng hai",
+            "en": "tháng hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.march",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "March",
+          "ipa": "/march/",
+          "hints": {
+            "ru": "March",
+            "vi": "March"
+          }
+        },
+        "ru": {
+          "text": "март",
+          "ipa": "/mart/",
+          "hints": {
+            "en": "март",
+            "vi": "март"
+          }
+        },
+        "vi": {
+          "text": "tháng ba",
+          "ipa": "/tʰaŋ˧˥ ɓaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng ba",
+            "en": "tháng ba"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.april",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "April",
+          "ipa": "/april/",
+          "hints": {
+            "ru": "April",
+            "vi": "April"
+          }
+        },
+        "ru": {
+          "text": "апрель",
+          "ipa": "/aprʲelʲ/",
+          "hints": {
+            "en": "апрель",
+            "vi": "апрель"
+          }
+        },
+        "vi": {
+          "text": "tháng tư",
+          "ipa": "/tʰaŋ˧˥ tɨ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng tư",
+            "en": "tháng tư"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.june",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "June",
+          "ipa": "/june/",
+          "hints": {
+            "ru": "June",
+            "vi": "June"
+          }
+        },
+        "ru": {
+          "text": "июнь",
+          "ipa": "/ijunʲ/",
+          "hints": {
+            "en": "июнь",
+            "vi": "июнь"
+          }
+        },
+        "vi": {
+          "text": "tháng sáu",
+          "ipa": "/tʰaŋ˧˥ saw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng sáu",
+            "en": "tháng sáu"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.july",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "July",
+          "ipa": "/july/",
+          "hints": {
+            "ru": "July",
+            "vi": "July"
+          }
+        },
+        "ru": {
+          "text": "июль",
+          "ipa": "/ijulʲ/",
+          "hints": {
+            "en": "июль",
+            "vi": "июль"
+          }
+        },
+        "vi": {
+          "text": "tháng bảy",
+          "ipa": "/tʰaŋ˧˥ ɓaj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng bảy",
+            "en": "tháng bảy"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.august",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "August",
+          "ipa": "/august/",
+          "hints": {
+            "ru": "August",
+            "vi": "August"
+          }
+        },
+        "ru": {
+          "text": "август",
+          "ipa": "/avɡust/",
+          "hints": {
+            "en": "август",
+            "vi": "август"
+          }
+        },
+        "vi": {
+          "text": "tháng tám",
+          "ipa": "/tʰaŋ˧˥ taːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng tám",
+            "en": "tháng tám"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.september",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "September",
+          "ipa": "/september/",
+          "hints": {
+            "ru": "September",
+            "vi": "September"
+          }
+        },
+        "ru": {
+          "text": "сентябрь",
+          "ipa": "/sʲentʲabrʲ/",
+          "hints": {
+            "en": "сентябрь",
+            "vi": "сентябрь"
+          }
+        },
+        "vi": {
+          "text": "tháng chín",
+          "ipa": "/tʰaŋ˧˥ tɕin˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng chín",
+            "en": "tháng chín"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.october",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "October",
+          "ipa": "/october/",
+          "hints": {
+            "ru": "October",
+            "vi": "October"
+          }
+        },
+        "ru": {
+          "text": "октябрь",
+          "ipa": "/oktʲabrʲ/",
+          "hints": {
+            "en": "октябрь",
+            "vi": "октябрь"
+          }
+        },
+        "vi": {
+          "text": "tháng mười",
+          "ipa": "/tʰaŋ˧˥ mɨəj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng mười",
+            "en": "tháng mười"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.november",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "November",
+          "ipa": "/november/",
+          "hints": {
+            "ru": "November",
+            "vi": "November"
+          }
+        },
+        "ru": {
+          "text": "ноябрь",
+          "ipa": "/nojabrʲ/",
+          "hints": {
+            "en": "ноябрь",
+            "vi": "ноябрь"
+          }
+        },
+        "vi": {
+          "text": "tháng mười một",
+          "ipa": "/tʰaŋ˧˥ mɨəj˧˩ mot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng mười một",
+            "en": "tháng mười một"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.december",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "December",
+          "ipa": "/december/",
+          "hints": {
+            "ru": "December",
+            "vi": "December"
+          }
+        },
+        "ru": {
+          "text": "декабрь",
+          "ipa": "/dʲekabrʲ/",
+          "hints": {
+            "en": "декабрь",
+            "vi": "декабрь"
+          }
+        },
+        "vi": {
+          "text": "tháng mười hai",
+          "ipa": "/tʰaŋ˧˥ mɨəj˧˩ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng mười hai",
+            "en": "tháng mười hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.hour",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hour",
+          "ipa": "/hour/",
+          "hints": {
+            "ru": "hour",
+            "vi": "hour"
+          }
+        },
+        "ru": {
+          "text": "час",
+          "ipa": "/tɕas/",
+          "hints": {
+            "en": "час",
+            "vi": "час"
+          }
+        },
+        "vi": {
+          "text": "giờ",
+          "ipa": "/zəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "giờ",
+            "en": "giờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.minute",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "minute",
+          "ipa": "/minute/",
+          "hints": {
+            "ru": "minute",
+            "vi": "minute"
+          }
+        },
+        "ru": {
+          "text": "минута",
+          "ipa": "/mʲinuta/",
+          "hints": {
+            "en": "минута",
+            "vi": "минута"
+          }
+        },
+        "vi": {
+          "text": "phút",
+          "ipa": "/fut˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "phút",
+            "en": "phút"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.day",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "day",
+          "ipa": "/day/",
+          "hints": {
+            "ru": "day",
+            "vi": "day"
+          }
+        },
+        "ru": {
+          "text": "день",
+          "ipa": "/dʲenʲ/",
+          "hints": {
+            "en": "день",
+            "vi": "день"
+          }
+        },
+        "vi": {
+          "text": "ngày",
+          "ipa": "/ŋaj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ngày",
+            "en": "ngày"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.night",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "night",
+          "ipa": "/night/",
+          "hints": {
+            "ru": "night",
+            "vi": "night"
+          }
+        },
+        "ru": {
+          "text": "ночь",
+          "ipa": "/notɕ/",
+          "hints": {
+            "en": "ночь",
+            "vi": "ночь"
+          }
+        },
+        "vi": {
+          "text": "đêm",
+          "ipa": "/ɗem˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đêm",
+            "en": "đêm"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.noon",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "noon",
+          "ipa": "/noon/",
+          "hints": {
+            "ru": "noon",
+            "vi": "noon"
+          }
+        },
+        "ru": {
+          "text": "полдень",
+          "ipa": "/poldʲenʲ/",
+          "hints": {
+            "en": "полдень",
+            "vi": "полдень"
+          }
+        },
+        "vi": {
+          "text": "buổi trưa",
+          "ipa": "/ɓuəj˧˩˧ tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "buổi trưa",
+            "en": "buổi trưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.midnight",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "midnight",
+          "ipa": "/midnight/",
+          "hints": {
+            "ru": "midnight",
+            "vi": "midnight"
+          }
+        },
+        "ru": {
+          "text": "полночь",
+          "ipa": "/polnotɕ/",
+          "hints": {
+            "en": "полночь",
+            "vi": "полночь"
+          }
+        },
+        "vi": {
+          "text": "nửa đêm",
+          "ipa": "/nɨə˧˩˧ ɗem˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nửa đêm",
+            "en": "nửa đêm"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.weekend",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "weekend",
+          "ipa": "/weekend/",
+          "hints": {
+            "ru": "weekend",
+            "vi": "weekend"
+          }
+        },
+        "ru": {
+          "text": "выходные",
+          "ipa": "/vɨxodnɨje/",
+          "hints": {
+            "en": "выходные",
+            "vi": "выходные"
+          }
+        },
+        "vi": {
+          "text": "cuối tuần",
+          "ipa": "/kuəj˧˥ twən˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cuối tuần",
+            "en": "cuối tuần"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.holiday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "holiday",
+          "ipa": "/holiday/",
+          "hints": {
+            "ru": "holiday",
+            "vi": "holiday"
+          }
+        },
+        "ru": {
+          "text": "праздник",
+          "ipa": "/prazdnʲik/",
+          "hints": {
+            "en": "праздник",
+            "vi": "праздник"
+          }
+        },
+        "vi": {
+          "text": "ngày lễ",
+          "ipa": "/ŋaj˧˩ le˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ngày lễ",
+            "en": "ngày lễ"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.birthday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "birthday",
+          "ipa": "/birthday/",
+          "hints": {
+            "ru": "birthday",
+            "vi": "birthday"
+          }
+        },
+        "ru": {
+          "text": "день рождения",
+          "ipa": "/dʲenʲ roʐdʲenʲija/",
+          "hints": {
+            "en": "день рождения",
+            "vi": "день рождения"
+          }
+        },
+        "vi": {
+          "text": "sinh nhật",
+          "ipa": "/siɲ˧ ɲət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sinh nhật",
+            "en": "sinh nhật"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.calendar",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "calendar",
+          "ipa": "/calendar/",
+          "hints": {
+            "ru": "calendar",
+            "vi": "calendar"
+          }
+        },
+        "ru": {
+          "text": "календарь",
+          "ipa": "/kalʲendarʲ/",
+          "hints": {
+            "en": "календарь",
+            "vi": "календарь"
+          }
+        },
+        "vi": {
+          "text": "lịch",
+          "ipa": "/lik˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "lịch",
+            "en": "lịch"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.schedule",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "schedule",
+          "ipa": "/schedule/",
+          "hints": {
+            "ru": "schedule",
+            "vi": "schedule"
+          }
+        },
+        "ru": {
+          "text": "расписание",
+          "ipa": "/raspʲisanʲije/",
+          "hints": {
+            "en": "расписание",
+            "vi": "расписание"
+          }
+        },
+        "vi": {
+          "text": "lịch trình",
+          "ipa": "/lik˧ˀ tɕiɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "lịch trình",
+            "en": "lịch trình"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.always",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "always",
+          "ipa": "/always/",
+          "hints": {
+            "ru": "always",
+            "vi": "always"
+          }
+        },
+        "ru": {
+          "text": "всегда",
+          "ipa": "/vsʲeɡda/",
+          "hints": {
+            "en": "всегда",
+            "vi": "всегда"
+          }
+        },
+        "vi": {
+          "text": "luôn luôn",
+          "ipa": "/luən˧ luən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "luôn luôn",
+            "en": "luôn luôn"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.usually",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "usually",
+          "ipa": "/usually/",
+          "hints": {
+            "ru": "usually",
+            "vi": "usually"
+          }
+        },
+        "ru": {
+          "text": "обычно",
+          "ipa": "/obɨtɕno/",
+          "hints": {
+            "en": "обычно",
+            "vi": "обычно"
+          }
+        },
+        "vi": {
+          "text": "thường",
+          "ipa": "/tʰɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "thường",
+            "en": "thường"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.often",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "often",
+          "ipa": "/ˈɒfən/",
+          "hints": {
+            "ru": "often",
+            "vi": "often"
+          }
+        },
+        "ru": {
+          "text": "часто",
+          "ipa": "/tɕasto/",
+          "hints": {
+            "en": "часто",
+            "vi": "часто"
+          }
+        },
+        "vi": {
+          "text": "thường xuyên",
+          "ipa": "/tʰɨəŋ˧˩ swiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thường xuyên",
+            "en": "thường xuyên"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.sometimes",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sometimes",
+          "ipa": "/sometimes/",
+          "hints": {
+            "ru": "sometimes",
+            "vi": "sometimes"
+          }
+        },
+        "ru": {
+          "text": "иногда",
+          "ipa": "/inoɡda/",
+          "hints": {
+            "en": "иногда",
+            "vi": "иногда"
+          }
+        },
+        "vi": {
+          "text": "thỉnh thoảng",
+          "ipa": "/tʰiɲ˧˩˧ tʰɔaːng˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thỉnh thoảng",
+            "en": "thỉnh thoảng"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.rarely",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rarely",
+          "ipa": "/rarely/",
+          "hints": {
+            "ru": "rarely",
+            "vi": "rarely"
+          }
+        },
+        "ru": {
+          "text": "редко",
+          "ipa": "/rʲedko/",
+          "hints": {
+            "en": "редко",
+            "vi": "редко"
+          }
+        },
+        "vi": {
+          "text": "hiếm khi",
+          "ipa": "/hiəm˧˥ xi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hiếm khi",
+            "en": "hiếm khi"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.soon",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "soon",
+          "ipa": "/soon/",
+          "hints": {
+            "ru": "soon",
+            "vi": "soon"
+          }
+        },
+        "ru": {
+          "text": "скоро",
+          "ipa": "/skoro/",
+          "hints": {
+            "en": "скоро",
+            "vi": "скоро"
+          }
+        },
+        "vi": {
+          "text": "sớm",
+          "ipa": "/səːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sớm",
+            "en": "sớm"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.already",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "already",
+          "ipa": "/ɔːlˈredi/",
+          "hints": {
+            "ru": "already",
+            "vi": "already"
+          }
+        },
+        "ru": {
+          "text": "уже",
+          "ipa": "/uʐe/",
+          "hints": {
+            "en": "уже",
+            "vi": "уже"
+          }
+        },
+        "vi": {
+          "text": "đã",
+          "ipa": "/ɗaː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đã",
+            "en": "đã"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.still",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "still",
+          "ipa": "/stɪl/",
+          "hints": {
+            "ru": "still",
+            "vi": "still"
+          }
+        },
+        "ru": {
+          "text": "ещё",
+          "ipa": "/jeɕːo/",
+          "hints": {
+            "en": "ещё",
+            "vi": "ещё"
+          }
+        },
+        "vi": {
+          "text": "vẫn",
+          "ipa": "/vən˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vẫn",
+            "en": "vẫn"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.yet",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "yet",
+          "ipa": "/jet/",
+          "hints": {
+            "ru": "yet",
+            "vi": "yet"
+          }
+        },
+        "ru": {
+          "text": "ещё не",
+          "ipa": "/jeɕːo nʲe/",
+          "hints": {
+            "en": "ещё не",
+            "vi": "ещё не"
+          }
+        },
+        "vi": {
+          "text": "chưa",
+          "ipa": "/tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chưa",
+            "en": "chưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.ago",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ago",
+          "ipa": "/ago/",
+          "hints": {
+            "ru": "ago",
+            "vi": "ago"
+          }
+        },
+        "ru": {
+          "text": "назад",
+          "ipa": "/nazad/",
+          "hints": {
+            "en": "назад",
+            "vi": "назад"
+          }
+        },
+        "vi": {
+          "text": "trước đây",
+          "ipa": "/tɕɨək˧˥ ɗəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trước đây",
+            "en": "trước đây"
+          }
+        }
+      }
+    }
+  ]
+}

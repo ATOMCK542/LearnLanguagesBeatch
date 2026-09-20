@@ -1,0 +1,1112 @@
+{
+  "theme": {
+    "id": "be_do_have",
+    "kind": "unit",
+    "order": 20,
+    "title": {
+      "en": "Be, do, have",
+      "ru": "Be, do, have",
+      "vi": "Be, do, have"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "aux.am",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "am",
+          "ipa": "/æm/",
+          "hints": {
+            "ru": "am",
+            "vi": "am"
+          }
+        },
+        "ru": {
+          "text": "есть (я)",
+          "ipa": "/jestʲ ja/",
+          "hints": {
+            "en": "есть (я)",
+            "vi": "есть (я)"
+          }
+        },
+        "vi": {
+          "text": "là / thì (tôi)",
+          "ipa": "/la˨˩ tʰi˧˩ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "là / thì (tôi)",
+            "en": "là / thì (tôi)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.is",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "is",
+          "ipa": "/ɪz/",
+          "hints": {
+            "ru": "is",
+            "vi": "is"
+          }
+        },
+        "ru": {
+          "text": "есть (он/она)",
+          "ipa": "/jestʲ on ɐˈna/",
+          "hints": {
+            "en": "есть (он/она)",
+            "vi": "есть (он/она)"
+          }
+        },
+        "vi": {
+          "text": "là (anh ấy)",
+          "ipa": "/la˨˩ ajŋ˧ əj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "là (anh ấy)",
+            "en": "là (anh ấy)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.are",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "are",
+          "ipa": "/ɑː/",
+          "hints": {
+            "ru": "are",
+            "vi": "are"
+          }
+        },
+        "ru": {
+          "text": "есть (вы/мы/они)",
+          "ipa": "/jestʲ vɨ mɨ ɐˈnʲi/",
+          "hints": {
+            "en": "есть (вы/мы/они)",
+            "vi": "есть (вы/мы/они)"
+          }
+        },
+        "vi": {
+          "text": "là (bạn/họ)",
+          "ipa": "/la˨˩ ɓaːn˧ˀ hɔ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "là (bạn/họ)",
+            "en": "là (bạn/họ)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.was",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "was",
+          "ipa": "/wɒz/",
+          "hints": {
+            "ru": "was",
+            "vi": "was"
+          }
+        },
+        "ru": {
+          "text": "был / была",
+          "ipa": "/bɨl bɨla/",
+          "hints": {
+            "en": "был / была",
+            "vi": "был / была"
+          }
+        },
+        "vi": {
+          "text": "đã là (số ít)",
+          "ipa": "/ɗaː˧˥ˀ la˨˩ so˧˥ it˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đã là (số ít)",
+            "en": "đã là (số ít)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.were",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "were",
+          "ipa": "/wɜː/",
+          "hints": {
+            "ru": "were",
+            "vi": "were"
+          }
+        },
+        "ru": {
+          "text": "были",
+          "ipa": "/bɨlʲi/",
+          "hints": {
+            "en": "были",
+            "vi": "были"
+          }
+        },
+        "vi": {
+          "text": "đã là (số nhiều)",
+          "ipa": "/ɗaː˧˥ˀ la˨˩ so˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đã là (số nhiều)",
+            "en": "đã là (số nhiều)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.be",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "be",
+          "ipa": "/biː/",
+          "hints": {
+            "ru": "be",
+            "vi": "be"
+          }
+        },
+        "ru": {
+          "text": "быть",
+          "ipa": "/bɨtʲ/",
+          "hints": {
+            "en": "быть",
+            "vi": "быть"
+          }
+        },
+        "vi": {
+          "text": "là / thì / ở",
+          "ipa": "/la˨˩ tʰi˧˩ əː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "là / thì / ở",
+            "en": "là / thì / ở"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.been",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "been",
+          "ipa": "/biːn/",
+          "hints": {
+            "ru": "been",
+            "vi": "been"
+          }
+        },
+        "ru": {
+          "text": "бывший (прич.)",
+          "ipa": "/bɨvʂij prʲitɕ/",
+          "hints": {
+            "en": "бывший (прич.)",
+            "vi": "бывший (прич.)"
+          }
+        },
+        "vi": {
+          "text": "đã từng",
+          "ipa": "/ɗaː˧˥ˀ tɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đã từng",
+            "en": "đã từng"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.being",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "being",
+          "ipa": "/ˈbiːɪŋ/",
+          "hints": {
+            "ru": "being",
+            "vi": "being"
+          }
+        },
+        "ru": {
+          "text": "будучи",
+          "ipa": "/budutɕi/",
+          "hints": {
+            "en": "будучи",
+            "vi": "будучи"
+          }
+        },
+        "vi": {
+          "text": "đang là",
+          "ipa": "/ɗaːŋ˧ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đang là",
+            "en": "đang là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.have",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "have",
+          "ipa": "/hæv/",
+          "hints": {
+            "ru": "have",
+            "vi": "have"
+          }
+        },
+        "ru": {
+          "text": "иметь / вспом. have",
+          "ipa": "/imʲetʲ vspom have/",
+          "hints": {
+            "en": "иметь / вспом. have",
+            "vi": "иметь / вспом. have"
+          }
+        },
+        "vi": {
+          "text": "có / trợ động từ have",
+          "ipa": "/kɔ˧˥ tɕəː˧ˀ ɗoŋ˧ˀ tɨ˧˩ haːvɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có / trợ động từ have",
+            "en": "có / trợ động từ have"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.has",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "has",
+          "ipa": "/hæz/",
+          "hints": {
+            "ru": "has",
+            "vi": "has"
+          }
+        },
+        "ru": {
+          "text": "имеет",
+          "ipa": "/imʲejet/",
+          "hints": {
+            "en": "имеет",
+            "vi": "имеет"
+          }
+        },
+        "vi": {
+          "text": "có (ngôi 3)",
+          "ipa": "/kɔ˧˥ ŋoj˧ 3˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có (ngôi 3)",
+            "en": "có (ngôi 3)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.had",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "had",
+          "ipa": "/hæd/",
+          "hints": {
+            "ru": "had",
+            "vi": "had"
+          }
+        },
+        "ru": {
+          "text": "имел / had",
+          "ipa": "/imʲel had/",
+          "hints": {
+            "en": "имел / had",
+            "vi": "имел / had"
+          }
+        },
+        "vi": {
+          "text": "đã có",
+          "ipa": "/ɗaː˧˥ˀ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đã có",
+            "en": "đã có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.do",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "do",
+          "ipa": "/duː/",
+          "hints": {
+            "ru": "do",
+            "vi": "do"
+          }
+        },
+        "ru": {
+          "text": "делать / вспом. do",
+          "ipa": "/dʲelatʲ vspom do/",
+          "hints": {
+            "en": "делать / вспом. do",
+            "vi": "делать / вспом. do"
+          }
+        },
+        "vi": {
+          "text": "làm / trợ do",
+          "ipa": "/laːm˨˩ tɕəː˧ˀ zɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "làm / trợ do",
+            "en": "làm / trợ do"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.does",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "does",
+          "ipa": "/dʌz/",
+          "hints": {
+            "ru": "does",
+            "vi": "does"
+          }
+        },
+        "ru": {
+          "text": "делает / does",
+          "ipa": "/dʲelajet does/",
+          "hints": {
+            "en": "делает / does",
+            "vi": "делает / does"
+          }
+        },
+        "vi": {
+          "text": "làm (ngôi 3)",
+          "ipa": "/laːm˨˩ ŋoj˧ 3˧/",
+          "tones": [],
+          "hints": {
+            "ru": "làm (ngôi 3)",
+            "en": "làm (ngôi 3)"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.did",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "did",
+          "ipa": "/dɪd/",
+          "hints": {
+            "ru": "did",
+            "vi": "did"
+          }
+        },
+        "ru": {
+          "text": "делал / did",
+          "ipa": "/dʲelal did/",
+          "hints": {
+            "en": "делал / did",
+            "vi": "делал / did"
+          }
+        },
+        "vi": {
+          "text": "đã làm / did",
+          "ipa": "/ɗaː˧˥ˀ laːm˨˩ zid˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đã làm / did",
+            "en": "đã làm / did"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_am",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I am a student",
+          "ipa": "/aɪ æm ə ˈstjuːdənt/",
+          "hints": {
+            "ru": "I am a student",
+            "vi": "I am a student"
+          }
+        },
+        "ru": {
+          "text": "Я студент",
+          "ipa": "/ja studʲent/",
+          "hints": {
+            "en": "Я студент",
+            "vi": "Я студент"
+          }
+        },
+        "vi": {
+          "text": "Tôi là sinh viên",
+          "ipa": "/toj˧ la˨˩ siɲ˧ viən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi là sinh viên",
+            "en": "Tôi là sinh viên"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.do_you",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "Do you like tea?",
+          "ipa": "/duː juː laɪk tiː/",
+          "hints": {
+            "ru": "Do you like tea?",
+            "vi": "Do you like tea?"
+          }
+        },
+        "ru": {
+          "text": "Ты любишь чай?",
+          "ipa": "/tɨ lʲubʲiʂ tɕaj/",
+          "hints": {
+            "en": "Ты любишь чай?",
+            "vi": "Ты любишь чай?"
+          }
+        },
+        "vi": {
+          "text": "Bạn có thích trà không?",
+          "ipa": "/ɓaːn˧ˀ kɔ˧˥ tʰik˧˥ tra˨˩ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn có thích trà không?",
+            "en": "Bạn có thích trà không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_dont",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I don't know",
+          "ipa": "/aɪ dəʊnt nəʊ/",
+          "hints": {
+            "ru": "I don't know",
+            "vi": "I don't know"
+          }
+        },
+        "ru": {
+          "text": "Я не знаю",
+          "ipa": "/ja nʲe znaju/",
+          "hints": {
+            "en": "Я не знаю",
+            "vi": "Я не знаю"
+          }
+        },
+        "vi": {
+          "text": "Tôi không biết",
+          "ipa": "/toj˧ xowŋ˧ ɓiet˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi không biết",
+            "en": "Tôi không biết"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.she_is",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "She is here",
+          "ipa": "/ʃiː ɪz hɪə/",
+          "hints": {
+            "ru": "She is here",
+            "vi": "She is here"
+          }
+        },
+        "ru": {
+          "text": "Она здесь",
+          "ipa": "/ɐˈna zdʲesʲ/",
+          "hints": {
+            "en": "Она здесь",
+            "vi": "Она здесь"
+          }
+        },
+        "vi": {
+          "text": "Cô ấy ở đây",
+          "ipa": "/ko˧ əj˧˥ əː˧˩˧ ɗəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Cô ấy ở đây",
+            "en": "Cô ấy ở đây"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.they_are",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "They are ready",
+          "ipa": "/ðeɪ ɑː ˈredi/",
+          "hints": {
+            "ru": "They are ready",
+            "vi": "They are ready"
+          }
+        },
+        "ru": {
+          "text": "Они готовы",
+          "ipa": "/ɐˈnʲi ɡotovɨ/",
+          "hints": {
+            "en": "Они готовы",
+            "vi": "Они готовы"
+          }
+        },
+        "vi": {
+          "text": "Họ sẵn sàng",
+          "ipa": "/hɔ˧ˀ sən˧˩˧ saːŋ˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Họ sẵn sàng",
+            "en": "Họ sẵn sàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.he_has",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "He has a car",
+          "ipa": "/hiː hæz ə kɑː/",
+          "hints": {
+            "ru": "He has a car",
+            "vi": "He has a car"
+          }
+        },
+        "ru": {
+          "text": "У него есть машина",
+          "ipa": "/u nʲeɡo jestʲ maʂina/",
+          "hints": {
+            "en": "У него есть машина",
+            "vi": "У него есть машина"
+          }
+        },
+        "vi": {
+          "text": "Anh ấy có xe",
+          "ipa": "/ajŋ˧ əj˧˥ kɔ˧˥ sɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Anh ấy có xe",
+            "en": "Anh ấy có xe"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_have",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I have time",
+          "ipa": "/aɪ hæv taɪm/",
+          "hints": {
+            "ru": "I have time",
+            "vi": "I have time"
+          }
+        },
+        "ru": {
+          "text": "У меня есть время",
+          "ipa": "/u mʲenʲa jestʲ vrʲemʲa/",
+          "hints": {
+            "en": "У меня есть время",
+            "vi": "У меня есть время"
+          }
+        },
+        "vi": {
+          "text": "Tôi có thời gian",
+          "ipa": "/toj˧ kɔ˧˥ tʰəːj˧˩ zaːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi có thời gian",
+            "en": "Tôi có thời gian"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.did_you",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "Did you go?",
+          "ipa": "/dɪd juː ɡəʊ/",
+          "hints": {
+            "ru": "Did you go?",
+            "vi": "Did you go?"
+          }
+        },
+        "ru": {
+          "text": "Ты ходил?",
+          "ipa": "/tɨ xodʲil/",
+          "hints": {
+            "en": "Ты ходил?",
+            "vi": "Ты ходил?"
+          }
+        },
+        "vi": {
+          "text": "Bạn đã đi chưa?",
+          "ipa": "/ɓaːn˧ˀ ɗaː˧˥ˀ ɗi˧ tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn đã đi chưa?",
+            "en": "Bạn đã đi chưa?"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.it_isnt",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "It isn't far",
+          "ipa": "/ɪt ˈɪzənt fɑː/",
+          "hints": {
+            "ru": "It isn't far",
+            "vi": "It isn't far"
+          }
+        },
+        "ru": {
+          "text": "Это недалеко",
+          "ipa": "/eto nʲedalʲeko/",
+          "hints": {
+            "en": "Это недалеко",
+            "vi": "Это недалеко"
+          }
+        },
+        "vi": {
+          "text": "Không xa đâu",
+          "ipa": "/xowŋ˧ saː˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Không xa đâu",
+            "en": "Không xa đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.i_havent",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "I haven't eaten",
+          "ipa": "/aɪ ˈhævənt ˈiːtən/",
+          "hints": {
+            "ru": "I haven't eaten",
+            "vi": "I haven't eaten"
+          }
+        },
+        "ru": {
+          "text": "Я ещё не ел",
+          "ipa": "/ja jeɕːo nʲe jel/",
+          "hints": {
+            "en": "Я ещё не ел",
+            "vi": "Я ещё не ел"
+          }
+        },
+        "vi": {
+          "text": "Tôi chưa ăn",
+          "ipa": "/toj˧ tɕɨə˧ an˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi chưa ăn",
+            "en": "Tôi chưa ăn"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.he_doesnt",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "He doesn't work",
+          "ipa": "/hiː ˈdʌzənt wɜːk/",
+          "hints": {
+            "ru": "He doesn't work",
+            "vi": "He doesn't work"
+          }
+        },
+        "ru": {
+          "text": "Он не работает",
+          "ipa": "/on nʲe rabotajet/",
+          "hints": {
+            "en": "Он не работает",
+            "vi": "Он не работает"
+          }
+        },
+        "vi": {
+          "text": "Anh ấy không làm việc",
+          "ipa": "/ajŋ˧ əj˧˥ xowŋ˧ laːm˨˩ viək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Anh ấy không làm việc",
+            "en": "Anh ấy không làm việc"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.we_were",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "We were tired",
+          "ipa": "/wiː wɜː ˈtaɪəd/",
+          "hints": {
+            "ru": "We were tired",
+            "vi": "We were tired"
+          }
+        },
+        "ru": {
+          "text": "Мы были усталыми",
+          "ipa": "/mɨ bɨlʲi ustalɨmʲi/",
+          "hints": {
+            "en": "Мы были усталыми",
+            "vi": "Мы были усталыми"
+          }
+        },
+        "vi": {
+          "text": "Chúng tôi đã mệt",
+          "ipa": "/tɕuŋ˧˥ toj˧ ɗaː˧˥ˀ met˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Chúng tôi đã mệt",
+            "en": "Chúng tôi đã mệt"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.s.she_was",
+      "kind": "sentence",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Sentence frame with an auxiliary.",
+        "ru": "Каркас со вспомогательным глаголом.",
+        "vi": "Khung câu với trợ động từ."
+      },
+      "texts": {
+        "en": {
+          "text": "She was at home",
+          "ipa": "/ʃiː wɒz æt həʊm/",
+          "hints": {
+            "ru": "She was at home",
+            "vi": "She was at home"
+          }
+        },
+        "ru": {
+          "text": "Она была дома",
+          "ipa": "/ɐˈna bɨla doma/",
+          "hints": {
+            "en": "Она была дома",
+            "vi": "Она была дома"
+          }
+        },
+        "vi": {
+          "text": "Cô ấy đã ở nhà",
+          "ipa": "/ko˧ əj˧˥ ɗaː˧˥ˀ əː˧˩˧ ɲa˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Cô ấy đã ở nhà",
+            "en": "Cô ấy đã ở nhà"
+          }
+        }
+      }
+    }
+  ]
+}

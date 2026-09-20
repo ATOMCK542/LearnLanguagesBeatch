@@ -1,0 +1,1939 @@
+{
+  "theme": {
+    "id": "function",
+    "kind": "unit",
+    "order": 50,
+    "title": {
+      "en": "Function words",
+      "ru": "Служебные слова",
+      "vi": "Từ chức năng"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "fn.a",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "a",
+          "ipa": "/ə/",
+          "hints": {
+            "ru": "a",
+            "vi": "a"
+          }
+        },
+        "ru": {
+          "text": "неопределённый артикль",
+          "ipa": "/nʲeoprʲedʲelʲonnɨj artʲiklʲ/",
+          "hints": {
+            "en": "неопределённый артикль",
+            "vi": "неопределённый артикль"
+          }
+        },
+        "vi": {
+          "text": "mạo từ a",
+          "ipa": "/maːw˧ˀ tɨ˧˩ aː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mạo từ a",
+            "en": "mạo từ a"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.an",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "an",
+          "ipa": "/æn/",
+          "hints": {
+            "ru": "an",
+            "vi": "an"
+          }
+        },
+        "ru": {
+          "text": "артикль an",
+          "ipa": "/artʲiklʲ an/",
+          "hints": {
+            "en": "артикль an",
+            "vi": "артикль an"
+          }
+        },
+        "vi": {
+          "text": "mạo từ an",
+          "ipa": "/maːw˧ˀ tɨ˧˩ aːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mạo từ an",
+            "en": "mạo từ an"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.the",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "the",
+          "ipa": "/ðə/",
+          "hints": {
+            "ru": "the",
+            "vi": "the"
+          }
+        },
+        "ru": {
+          "text": "определённый артикль",
+          "ipa": "/oprʲedʲelʲonnɨj artʲiklʲ/",
+          "hints": {
+            "en": "определённый артикль",
+            "vi": "определённый артикль"
+          }
+        },
+        "vi": {
+          "text": "mạo từ the",
+          "ipa": "/maːw˧ˀ tɨ˧˩ tʰɛ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mạo từ the",
+            "en": "mạo từ the"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.in",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "in",
+          "ipa": "/ɪn/",
+          "hints": {
+            "ru": "in",
+            "vi": "in"
+          }
+        },
+        "ru": {
+          "text": "в",
+          "ipa": "/v/",
+          "hints": {
+            "en": "в",
+            "vi": "в"
+          }
+        },
+        "vi": {
+          "text": "trong / ở",
+          "ipa": "/tɕɔŋ˧ əː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trong / ở",
+            "en": "trong / ở"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.on",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "on",
+          "ipa": "/ɒn/",
+          "hints": {
+            "ru": "on",
+            "vi": "on"
+          }
+        },
+        "ru": {
+          "text": "на",
+          "ipa": "/na/",
+          "hints": {
+            "en": "на",
+            "vi": "на"
+          }
+        },
+        "vi": {
+          "text": "trên",
+          "ipa": "/tɕen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trên",
+            "en": "trên"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.at",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "at",
+          "ipa": "/æt/",
+          "hints": {
+            "ru": "at",
+            "vi": "at"
+          }
+        },
+        "ru": {
+          "text": "у / в (точке)",
+          "ipa": "/u v totɕkʲe/",
+          "hints": {
+            "en": "у / в (точке)",
+            "vi": "у / в (точке)"
+          }
+        },
+        "vi": {
+          "text": "ở / lúc",
+          "ipa": "/əː˧˩˧ luc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ở / lúc",
+            "en": "ở / lúc"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.to",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "to",
+          "ipa": "/tə/",
+          "hints": {
+            "ru": "to",
+            "vi": "to"
+          }
+        },
+        "ru": {
+          "text": "к / в",
+          "ipa": "/k v/",
+          "hints": {
+            "en": "к / в",
+            "vi": "к / в"
+          }
+        },
+        "vi": {
+          "text": "đến / tới",
+          "ipa": "/ɗen˧˥ təːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đến / tới",
+            "en": "đến / tới"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.from",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "from",
+          "ipa": "/frɒm/",
+          "hints": {
+            "ru": "from",
+            "vi": "from"
+          }
+        },
+        "ru": {
+          "text": "из / от",
+          "ipa": "/iz ot/",
+          "hints": {
+            "en": "из / от",
+            "vi": "из / от"
+          }
+        },
+        "vi": {
+          "text": "từ",
+          "ipa": "/tɨ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "từ",
+            "en": "từ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.with",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "with",
+          "ipa": "/wɪð/",
+          "hints": {
+            "ru": "with",
+            "vi": "with"
+          }
+        },
+        "ru": {
+          "text": "с",
+          "ipa": "/s/",
+          "hints": {
+            "en": "с",
+            "vi": "с"
+          }
+        },
+        "vi": {
+          "text": "với",
+          "ipa": "/vəːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "với",
+            "en": "với"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.for",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "for",
+          "ipa": "/fɔː/",
+          "hints": {
+            "ru": "for",
+            "vi": "for"
+          }
+        },
+        "ru": {
+          "text": "для / за",
+          "ipa": "/dlʲa za/",
+          "hints": {
+            "en": "для / за",
+            "vi": "для / за"
+          }
+        },
+        "vi": {
+          "text": "cho / vì",
+          "ipa": "/tɕɔ˧ vi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cho / vì",
+            "en": "cho / vì"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.of",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "of",
+          "ipa": "/əv/",
+          "hints": {
+            "ru": "of",
+            "vi": "of"
+          }
+        },
+        "ru": {
+          "text": "род. падеж / of",
+          "ipa": "/rod padʲeʐ of/",
+          "hints": {
+            "en": "род. падеж / of",
+            "vi": "род. падеж / of"
+          }
+        },
+        "vi": {
+          "text": "của",
+          "ipa": "/kuə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "của",
+            "en": "của"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.about",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "about",
+          "ipa": "/əˈbaʊt/",
+          "hints": {
+            "ru": "about",
+            "vi": "about"
+          }
+        },
+        "ru": {
+          "text": "о",
+          "ipa": "/o/",
+          "hints": {
+            "en": "о",
+            "vi": "о"
+          }
+        },
+        "vi": {
+          "text": "về",
+          "ipa": "/ve˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "về",
+            "en": "về"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.by",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "by",
+          "ipa": "/baɪ/",
+          "hints": {
+            "ru": "by",
+            "vi": "by"
+          }
+        },
+        "ru": {
+          "text": "у / к / кем",
+          "ipa": "/u k kʲem/",
+          "hints": {
+            "en": "у / к / кем",
+            "vi": "у / к / кем"
+          }
+        },
+        "vi": {
+          "text": "bởi / cạnh",
+          "ipa": "/ɓəːj˧˩˧ kajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bởi / cạnh",
+            "en": "bởi / cạnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.into",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "into",
+          "ipa": "/ˈɪntuː/",
+          "hints": {
+            "ru": "into",
+            "vi": "into"
+          }
+        },
+        "ru": {
+          "text": "внутрь",
+          "ipa": "/vnutrʲ/",
+          "hints": {
+            "en": "внутрь",
+            "vi": "внутрь"
+          }
+        },
+        "vi": {
+          "text": "vào trong",
+          "ipa": "/vaːw˧˩ tɕɔŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vào trong",
+            "en": "vào trong"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.out_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "out of",
+          "ipa": "/aʊt əv/",
+          "hints": {
+            "ru": "out of",
+            "vi": "out of"
+          }
+        },
+        "ru": {
+          "text": "из",
+          "ipa": "/iz/",
+          "hints": {
+            "en": "из",
+            "vi": "из"
+          }
+        },
+        "vi": {
+          "text": "ra khỏi",
+          "ipa": "/zaː˧ xɔj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ra khỏi",
+            "en": "ra khỏi"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.up",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "up",
+          "ipa": "/ʌp/",
+          "hints": {
+            "ru": "up",
+            "vi": "up"
+          }
+        },
+        "ru": {
+          "text": "вверх",
+          "ipa": "/vvʲerx/",
+          "hints": {
+            "en": "вверх",
+            "vi": "вверх"
+          }
+        },
+        "vi": {
+          "text": "lên",
+          "ipa": "/len˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lên",
+            "en": "lên"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.down",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "down",
+          "ipa": "/daʊn/",
+          "hints": {
+            "ru": "down",
+            "vi": "down"
+          }
+        },
+        "ru": {
+          "text": "вниз",
+          "ipa": "/vnʲiz/",
+          "hints": {
+            "en": "вниз",
+            "vi": "вниз"
+          }
+        },
+        "vi": {
+          "text": "xuống",
+          "ipa": "/suəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "xuống",
+            "en": "xuống"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.over",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "over",
+          "ipa": "/ˈəʊvə/",
+          "hints": {
+            "ru": "over",
+            "vi": "over"
+          }
+        },
+        "ru": {
+          "text": "над / через",
+          "ipa": "/nad tɕerʲez/",
+          "hints": {
+            "en": "над / через",
+            "vi": "над / через"
+          }
+        },
+        "vi": {
+          "text": "phía trên / qua",
+          "ipa": "/fiə˧˥ tɕen˧ kwaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phía trên / qua",
+            "en": "phía trên / qua"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.under",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "under",
+          "ipa": "/ˈʌndə/",
+          "hints": {
+            "ru": "under",
+            "vi": "under"
+          }
+        },
+        "ru": {
+          "text": "под",
+          "ipa": "/pod/",
+          "hints": {
+            "en": "под",
+            "vi": "под"
+          }
+        },
+        "vi": {
+          "text": "dưới",
+          "ipa": "/zɨəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "dưới",
+            "en": "dưới"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.between",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "between",
+          "ipa": "/bɪˈtwiːn/",
+          "hints": {
+            "ru": "between",
+            "vi": "between"
+          }
+        },
+        "ru": {
+          "text": "между",
+          "ipa": "/mʲeʐdu/",
+          "hints": {
+            "en": "между",
+            "vi": "между"
+          }
+        },
+        "vi": {
+          "text": "giữa",
+          "ipa": "/zɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "giữa",
+            "en": "giữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.without",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "without",
+          "ipa": "/wɪðˈaʊt/",
+          "hints": {
+            "ru": "without",
+            "vi": "without"
+          }
+        },
+        "ru": {
+          "text": "без",
+          "ipa": "/bʲez/",
+          "hints": {
+            "en": "без",
+            "vi": "без"
+          }
+        },
+        "vi": {
+          "text": "không có",
+          "ipa": "/xowŋ˧ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "không có",
+            "en": "không có"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.before",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "before",
+          "ipa": "/bɪˈfɔː/",
+          "hints": {
+            "ru": "before",
+            "vi": "before"
+          }
+        },
+        "ru": {
+          "text": "до / перед",
+          "ipa": "/do pʲerʲed/",
+          "hints": {
+            "en": "до / перед",
+            "vi": "до / перед"
+          }
+        },
+        "vi": {
+          "text": "trước",
+          "ipa": "/tɕɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trước",
+            "en": "trước"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.after",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "after",
+          "ipa": "/ˈɑːftə/",
+          "hints": {
+            "ru": "after",
+            "vi": "after"
+          }
+        },
+        "ru": {
+          "text": "после",
+          "ipa": "/poslʲe/",
+          "hints": {
+            "en": "после",
+            "vi": "после"
+          }
+        },
+        "vi": {
+          "text": "sau",
+          "ipa": "/saw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sau",
+            "en": "sau"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.during",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "during",
+          "ipa": "/ˈdjʊərɪŋ/",
+          "hints": {
+            "ru": "during",
+            "vi": "during"
+          }
+        },
+        "ru": {
+          "text": "во время",
+          "ipa": "/vo vrʲemʲa/",
+          "hints": {
+            "en": "во время",
+            "vi": "во время"
+          }
+        },
+        "vi": {
+          "text": "trong lúc",
+          "ipa": "/tɕɔŋ˧ luc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trong lúc",
+            "en": "trong lúc"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.and",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "and",
+          "ipa": "/ænd/",
+          "hints": {
+            "ru": "and",
+            "vi": "and"
+          }
+        },
+        "ru": {
+          "text": "и",
+          "ipa": "/i/",
+          "hints": {
+            "en": "и",
+            "vi": "и"
+          }
+        },
+        "vi": {
+          "text": "và",
+          "ipa": "/va˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "và",
+            "en": "và"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.but",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "but",
+          "ipa": "/bʌt/",
+          "hints": {
+            "ru": "but",
+            "vi": "but"
+          }
+        },
+        "ru": {
+          "text": "но",
+          "ipa": "/no/",
+          "hints": {
+            "en": "но",
+            "vi": "но"
+          }
+        },
+        "vi": {
+          "text": "nhưng",
+          "ipa": "/ɲɨŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhưng",
+            "en": "nhưng"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.or",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "or",
+          "ipa": "/ɔː/",
+          "hints": {
+            "ru": "or",
+            "vi": "or"
+          }
+        },
+        "ru": {
+          "text": "или",
+          "ipa": "/ilʲi/",
+          "hints": {
+            "en": "или",
+            "vi": "или"
+          }
+        },
+        "vi": {
+          "text": "hoặc",
+          "ipa": "/hɔac˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hoặc",
+            "en": "hoặc"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.because",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "because",
+          "ipa": "/bɪˈkɒz/",
+          "hints": {
+            "ru": "because",
+            "vi": "because"
+          }
+        },
+        "ru": {
+          "text": "потому что",
+          "ipa": "/potomu ʂto/",
+          "hints": {
+            "en": "потому что",
+            "vi": "потому что"
+          }
+        },
+        "vi": {
+          "text": "bởi vì",
+          "ipa": "/ɓəːj˧˩˧ vi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bởi vì",
+            "en": "bởi vì"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.so",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "so",
+          "ipa": "/səʊ/",
+          "hints": {
+            "ru": "so",
+            "vi": "so"
+          }
+        },
+        "ru": {
+          "text": "поэтому / так",
+          "ipa": "/poetomu tak/",
+          "hints": {
+            "en": "поэтому / так",
+            "vi": "поэтому / так"
+          }
+        },
+        "vi": {
+          "text": "vậy nên",
+          "ipa": "/vəj˧ˀ nen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vậy nên",
+            "en": "vậy nên"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.if",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "if",
+          "ipa": "/ɪf/",
+          "hints": {
+            "ru": "if",
+            "vi": "if"
+          }
+        },
+        "ru": {
+          "text": "если",
+          "ipa": "/jeslʲi/",
+          "hints": {
+            "en": "если",
+            "vi": "если"
+          }
+        },
+        "vi": {
+          "text": "nếu",
+          "ipa": "/new˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nếu",
+            "en": "nếu"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.when_conj",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "when",
+          "ipa": "/wen/",
+          "hints": {
+            "ru": "when",
+            "vi": "when"
+          }
+        },
+        "ru": {
+          "text": "когда (союз)",
+          "ipa": "/kəɡˈda sojuz/",
+          "hints": {
+            "en": "когда (союз)",
+            "vi": "когда (союз)"
+          }
+        },
+        "vi": {
+          "text": "khi",
+          "ipa": "/xi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "khi",
+            "en": "khi"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.that_conj",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "that",
+          "ipa": "/ðæt/",
+          "hints": {
+            "ru": "that",
+            "vi": "that"
+          }
+        },
+        "ru": {
+          "text": "что (союз)",
+          "ipa": "/ʂto sojuz/",
+          "hints": {
+            "en": "что (союз)",
+            "vi": "что (союз)"
+          }
+        },
+        "vi": {
+          "text": "rằng",
+          "ipa": "/zaŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rằng",
+            "en": "rằng"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.much",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "much",
+          "ipa": "/mʌtʃ/",
+          "hints": {
+            "ru": "much",
+            "vi": "much"
+          }
+        },
+        "ru": {
+          "text": "много (неисчисл.)",
+          "ipa": "/mnoɡo nʲeistɕisl/",
+          "hints": {
+            "en": "много (неисчисл.)",
+            "vi": "много (неисчисл.)"
+          }
+        },
+        "vi": {
+          "text": "nhiều",
+          "ipa": "/ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều",
+            "en": "nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.many",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "many",
+          "ipa": "/ˈmeni/",
+          "hints": {
+            "ru": "many",
+            "vi": "many"
+          }
+        },
+        "ru": {
+          "text": "много (исчисл.)",
+          "ipa": "/mnoɡo istɕisl/",
+          "hints": {
+            "en": "много (исчисл.)",
+            "vi": "много (исчисл.)"
+          }
+        },
+        "vi": {
+          "text": "nhiều (đếm được)",
+          "ipa": "/ɲiəw˧˩ ɗem˧˥ ɗɨək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều (đếm được)",
+            "en": "nhiều (đếm được)"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.a_lot_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "a lot of",
+          "ipa": "/ə lɒt əv/",
+          "hints": {
+            "ru": "a lot of",
+            "vi": "a lot of"
+          }
+        },
+        "ru": {
+          "text": "много",
+          "ipa": "/mnoɡo/",
+          "hints": {
+            "en": "много",
+            "vi": "много"
+          }
+        },
+        "vi": {
+          "text": "rất nhiều",
+          "ipa": "/zət˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rất nhiều",
+            "en": "rất nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.a_few",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "a few",
+          "ipa": "/ə fjuː/",
+          "hints": {
+            "ru": "a few",
+            "vi": "a few"
+          }
+        },
+        "ru": {
+          "text": "несколько",
+          "ipa": "/nʲeskolʲko/",
+          "hints": {
+            "en": "несколько",
+            "vi": "несколько"
+          }
+        },
+        "vi": {
+          "text": "một vài",
+          "ipa": "/mot˧ˀ vaːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "một vài",
+            "en": "một vài"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.a_little",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "a little",
+          "ipa": "/ə ˈlɪtəl/",
+          "hints": {
+            "ru": "a little",
+            "vi": "a little"
+          }
+        },
+        "ru": {
+          "text": "немного",
+          "ipa": "/nʲemnoɡo/",
+          "hints": {
+            "en": "немного",
+            "vi": "немного"
+          }
+        },
+        "vi": {
+          "text": "một chút",
+          "ipa": "/mot˧ˀ tɕut˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "một chút",
+            "en": "một chút"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.all",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "all",
+          "ipa": "/ɔːl/",
+          "hints": {
+            "ru": "all",
+            "vi": "all"
+          }
+        },
+        "ru": {
+          "text": "все",
+          "ipa": "/vsʲe/",
+          "hints": {
+            "en": "все",
+            "vi": "все"
+          }
+        },
+        "vi": {
+          "text": "tất cả",
+          "ipa": "/tət˧˥ kaː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tất cả",
+            "en": "tất cả"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.both",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "both",
+          "ipa": "/bəʊθ/",
+          "hints": {
+            "ru": "both",
+            "vi": "both"
+          }
+        },
+        "ru": {
+          "text": "оба",
+          "ipa": "/oba/",
+          "hints": {
+            "en": "оба",
+            "vi": "оба"
+          }
+        },
+        "vi": {
+          "text": "cả hai",
+          "ipa": "/kaː˧˩˧ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cả hai",
+            "en": "cả hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.each",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "each",
+          "ipa": "/iːtʃ/",
+          "hints": {
+            "ru": "each",
+            "vi": "each"
+          }
+        },
+        "ru": {
+          "text": "каждый",
+          "ipa": "/kaʐdɨj/",
+          "hints": {
+            "en": "каждый",
+            "vi": "каждый"
+          }
+        },
+        "vi": {
+          "text": "mỗi",
+          "ipa": "/moj˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mỗi",
+            "en": "mỗi"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.every_q",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "every",
+          "ipa": "/ˈevri/",
+          "hints": {
+            "ru": "every",
+            "vi": "every"
+          }
+        },
+        "ru": {
+          "text": "каждый",
+          "ipa": "/kaʐdɨj/",
+          "hints": {
+            "en": "каждый",
+            "vi": "каждый"
+          }
+        },
+        "vi": {
+          "text": "mỗi",
+          "ipa": "/moj˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mỗi",
+            "en": "mỗi"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.please",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "please",
+          "ipa": "/pliːz/",
+          "hints": {
+            "ru": "please",
+            "vi": "please"
+          }
+        },
+        "ru": {
+          "text": "пожалуйста",
+          "ipa": "/pəˈʐaləstə/",
+          "hints": {
+            "en": "пожалуйста",
+            "vi": "пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "làm ơn",
+          "ipa": "/laːm˨˩ ʔən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "làm ơn",
+            "en": "làm ơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.thanks",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "thanks",
+          "ipa": "/θæŋks/",
+          "hints": {
+            "ru": "thanks",
+            "vi": "thanks"
+          }
+        },
+        "ru": {
+          "text": "спасибо",
+          "ipa": "/spɐˈsʲibə/",
+          "hints": {
+            "en": "спасибо",
+            "vi": "спасибо"
+          }
+        },
+        "vi": {
+          "text": "cảm ơn",
+          "ipa": "/kaːm˧˩˧ ʔən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cảm ơn",
+            "en": "cảm ơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.thank_you",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "thank you",
+          "ipa": "/θæŋk juː/",
+          "hints": {
+            "ru": "thank you",
+            "vi": "thank you"
+          }
+        },
+        "ru": {
+          "text": "спасибо",
+          "ipa": "/spɐˈsʲibə/",
+          "hints": {
+            "en": "спасибо",
+            "vi": "спасибо"
+          }
+        },
+        "vi": {
+          "text": "cảm ơn bạn",
+          "ipa": "/kaːm˧˩˧ əːn˧ ɓaːn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cảm ơn bạn",
+            "en": "cảm ơn bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.sorry",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "sorry",
+          "ipa": "/ˈsɒri/",
+          "hints": {
+            "ru": "sorry",
+            "vi": "sorry"
+          }
+        },
+        "ru": {
+          "text": "извини",
+          "ipa": "/ɪzvʲɪˈnʲi/",
+          "hints": {
+            "en": "извини",
+            "vi": "извини"
+          }
+        },
+        "vi": {
+          "text": "xin lỗi",
+          "ipa": "/sin˧ loj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xin lỗi",
+            "en": "xin lỗi"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.excuse_me",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "excuse me",
+          "ipa": "/ɪkˈskjuːz miː/",
+          "hints": {
+            "ru": "excuse me",
+            "vi": "excuse me"
+          }
+        },
+        "ru": {
+          "text": "простите / послушайте",
+          "ipa": "/prɐsʲˈtʲitʲe posluʂajtʲe/",
+          "hints": {
+            "en": "простите / послушайте",
+            "vi": "простите / послушайте"
+          }
+        },
+        "vi": {
+          "text": "xin lỗi / làm ơn",
+          "ipa": "/sin˧ loj˧˩˧ laːm˨˩ əːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "xin lỗi / làm ơn",
+            "en": "xin lỗi / làm ơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.youre_welcome",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "Function word.",
+        "ru": "Служебное слово.",
+        "vi": "Từ chức năng."
+      },
+      "texts": {
+        "en": {
+          "text": "you're welcome",
+          "ipa": "/jɔː ˈwelkəm/",
+          "hints": {
+            "ru": "you're welcome",
+            "vi": "you're welcome"
+          }
+        },
+        "ru": {
+          "text": "пожалуйста / не за что",
+          "ipa": "/pəˈʐaləstə nʲe za ʂto/",
+          "hints": {
+            "en": "пожалуйста / не за что",
+            "vi": "пожалуйста / не за что"
+          }
+        },
+        "vi": {
+          "text": "không có gì",
+          "ipa": "/xowŋ˧ kɔ˧˥ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "không có gì",
+            "en": "không có gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "fn.zero_article_note",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function"
+      ],
+      "grammar": {
+        "en": "No article before plural/abstract: Books are useful.",
+        "ru": "Нулевой артикль.",
+        "vi": "Không mạo từ."
+      },
+      "texts": {
+        "en": {
+          "text": "zero article (plural / abstract)",
+          "ipa": "/ˈzɪərəʊ ˈɑːtɪkəl/",
+          "hints": {
+            "ru": "зиро артикл",
+            "vi": "zero article"
+          }
+        },
+        "ru": {
+          "text": "нулевой артикль",
+          "ipa": "/nulʲevoj artʲiklʲ/",
+          "hints": {
+            "en": "zero article",
+            "vi": "zero article"
+          }
+        },
+        "vi": {
+          "text": "không dùng mạo từ",
+          "ipa": "/xowŋ˧ zuŋ˧˩ maːw˧ˀ tɨ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "кхонг мао ты",
+            "en": "khong mao tu"
+          }
+        }
+      }
+    }
+  ]
+}

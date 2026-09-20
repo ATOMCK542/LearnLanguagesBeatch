@@ -1,0 +1,1579 @@
+{
+  "theme": {
+    "id": "family",
+    "kind": "unit",
+    "order": 88,
+    "title": {
+      "en": "Family",
+      "ru": "Семья",
+      "vi": "Gia đình"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "fam.mother",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mother",
+          "ipa": "/mother/",
+          "hints": {
+            "ru": "mother",
+            "vi": "mother"
+          }
+        },
+        "ru": {
+          "text": "мама",
+          "ipa": "/mama/",
+          "hints": {
+            "en": "мама",
+            "vi": "мама"
+          }
+        },
+        "vi": {
+          "text": "mẹ",
+          "ipa": "/mɛ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mẹ",
+            "en": "mẹ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.father",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "father",
+          "ipa": "/father/",
+          "hints": {
+            "ru": "father",
+            "vi": "father"
+          }
+        },
+        "ru": {
+          "text": "папа",
+          "ipa": "/papa/",
+          "hints": {
+            "en": "папа",
+            "vi": "папа"
+          }
+        },
+        "vi": {
+          "text": "bố",
+          "ipa": "/ɓo˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bố",
+            "en": "bố"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.parent",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "parent",
+          "ipa": "/parent/",
+          "hints": {
+            "ru": "parent",
+            "vi": "parent"
+          }
+        },
+        "ru": {
+          "text": "родитель",
+          "ipa": "/rodʲitʲelʲ/",
+          "hints": {
+            "en": "родитель",
+            "vi": "родитель"
+          }
+        },
+        "vi": {
+          "text": "cha mẹ",
+          "ipa": "/tɕaː˧ mɛ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cha mẹ",
+            "en": "cha mẹ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.parents",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "parents",
+          "ipa": "/parents/",
+          "hints": {
+            "ru": "parents",
+            "vi": "parents"
+          }
+        },
+        "ru": {
+          "text": "родители",
+          "ipa": "/rodʲitʲelʲi/",
+          "hints": {
+            "en": "родители",
+            "vi": "родители"
+          }
+        },
+        "vi": {
+          "text": "bố mẹ",
+          "ipa": "/ɓo˧˥ mɛ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bố mẹ",
+            "en": "bố mẹ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.child",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "child",
+          "ipa": "/child/",
+          "hints": {
+            "ru": "child",
+            "vi": "child"
+          }
+        },
+        "ru": {
+          "text": "ребёнок",
+          "ipa": "/rʲebʲonok/",
+          "hints": {
+            "en": "ребёнок",
+            "vi": "ребёнок"
+          }
+        },
+        "vi": {
+          "text": "trẻ em",
+          "ipa": "/tɕɛ˧˩˧ ɛm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trẻ em",
+            "en": "trẻ em"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.children",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "children",
+          "ipa": "/children/",
+          "hints": {
+            "ru": "children",
+            "vi": "children"
+          }
+        },
+        "ru": {
+          "text": "дети",
+          "ipa": "/dʲetʲi/",
+          "hints": {
+            "en": "дети",
+            "vi": "дети"
+          }
+        },
+        "vi": {
+          "text": "con cái",
+          "ipa": "/kɔn˧ kaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "con cái",
+            "en": "con cái"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.son",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "son",
+          "ipa": "/son/",
+          "hints": {
+            "ru": "son",
+            "vi": "son"
+          }
+        },
+        "ru": {
+          "text": "сын",
+          "ipa": "/sɨn/",
+          "hints": {
+            "en": "сын",
+            "vi": "сын"
+          }
+        },
+        "vi": {
+          "text": "con trai",
+          "ipa": "/kɔn˧ tɕaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "con trai",
+            "en": "con trai"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.daughter",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "daughter",
+          "ipa": "/daughter/",
+          "hints": {
+            "ru": "daughter",
+            "vi": "daughter"
+          }
+        },
+        "ru": {
+          "text": "дочь",
+          "ipa": "/dotɕ/",
+          "hints": {
+            "en": "дочь",
+            "vi": "дочь"
+          }
+        },
+        "vi": {
+          "text": "con gái",
+          "ipa": "/kɔn˧ ɣaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "con gái",
+            "en": "con gái"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.brother",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "brother",
+          "ipa": "/brother/",
+          "hints": {
+            "ru": "brother",
+            "vi": "brother"
+          }
+        },
+        "ru": {
+          "text": "брат",
+          "ipa": "/brat/",
+          "hints": {
+            "en": "брат",
+            "vi": "брат"
+          }
+        },
+        "vi": {
+          "text": "anh / em trai",
+          "ipa": "/ajŋ˧ ɛm˧ tɕaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "anh / em trai",
+            "en": "anh / em trai"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.sister",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sister",
+          "ipa": "/sister/",
+          "hints": {
+            "ru": "sister",
+            "vi": "sister"
+          }
+        },
+        "ru": {
+          "text": "сестра",
+          "ipa": "/sʲestra/",
+          "hints": {
+            "en": "сестра",
+            "vi": "сестра"
+          }
+        },
+        "vi": {
+          "text": "chị / em gái",
+          "ipa": "/tɕi˧ˀ ɛm˧ ɣaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chị / em gái",
+            "en": "chị / em gái"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.baby",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "baby",
+          "ipa": "/baby/",
+          "hints": {
+            "ru": "baby",
+            "vi": "baby"
+          }
+        },
+        "ru": {
+          "text": "малыш",
+          "ipa": "/malɨʂ/",
+          "hints": {
+            "en": "малыш",
+            "vi": "малыш"
+          }
+        },
+        "vi": {
+          "text": "em bé",
+          "ipa": "/ɛm˧ ɓɛ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "em bé",
+            "en": "em bé"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.husband",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "husband",
+          "ipa": "/husband/",
+          "hints": {
+            "ru": "husband",
+            "vi": "husband"
+          }
+        },
+        "ru": {
+          "text": "муж",
+          "ipa": "/muʐ/",
+          "hints": {
+            "en": "муж",
+            "vi": "муж"
+          }
+        },
+        "vi": {
+          "text": "chồng",
+          "ipa": "/tɕoŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chồng",
+            "en": "chồng"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.wife",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wife",
+          "ipa": "/wife/",
+          "hints": {
+            "ru": "wife",
+            "vi": "wife"
+          }
+        },
+        "ru": {
+          "text": "жена",
+          "ipa": "/ʐena/",
+          "hints": {
+            "en": "жена",
+            "vi": "жена"
+          }
+        },
+        "vi": {
+          "text": "vợ",
+          "ipa": "/vəː˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vợ",
+            "en": "vợ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.grandmother",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grandmother",
+          "ipa": "/grandmother/",
+          "hints": {
+            "ru": "grandmother",
+            "vi": "grandmother"
+          }
+        },
+        "ru": {
+          "text": "бабушка",
+          "ipa": "/babuʂka/",
+          "hints": {
+            "en": "бабушка",
+            "vi": "бабушка"
+          }
+        },
+        "vi": {
+          "text": "bà",
+          "ipa": "/ɓaː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bà",
+            "en": "bà"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.grandfather",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grandfather",
+          "ipa": "/grandfather/",
+          "hints": {
+            "ru": "grandfather",
+            "vi": "grandfather"
+          }
+        },
+        "ru": {
+          "text": "дедушка",
+          "ipa": "/dʲeduʂka/",
+          "hints": {
+            "en": "дедушка",
+            "vi": "дедушка"
+          }
+        },
+        "vi": {
+          "text": "ông",
+          "ipa": "/oŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ông",
+            "en": "ông"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.grandson",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grandson",
+          "ipa": "/grandson/",
+          "hints": {
+            "ru": "grandson",
+            "vi": "grandson"
+          }
+        },
+        "ru": {
+          "text": "внук",
+          "ipa": "/vnuk/",
+          "hints": {
+            "en": "внук",
+            "vi": "внук"
+          }
+        },
+        "vi": {
+          "text": "cháu trai",
+          "ipa": "/tɕaw˧˥ tɕaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cháu trai",
+            "en": "cháu trai"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.granddaughter",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "granddaughter",
+          "ipa": "/granddaughter/",
+          "hints": {
+            "ru": "granddaughter",
+            "vi": "granddaughter"
+          }
+        },
+        "ru": {
+          "text": "внучка",
+          "ipa": "/vnutɕka/",
+          "hints": {
+            "en": "внучка",
+            "vi": "внучка"
+          }
+        },
+        "vi": {
+          "text": "cháu gái",
+          "ipa": "/tɕaw˧˥ ɣaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cháu gái",
+            "en": "cháu gái"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.uncle",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "uncle",
+          "ipa": "/uncle/",
+          "hints": {
+            "ru": "uncle",
+            "vi": "uncle"
+          }
+        },
+        "ru": {
+          "text": "дядя",
+          "ipa": "/dʲadʲa/",
+          "hints": {
+            "en": "дядя",
+            "vi": "дядя"
+          }
+        },
+        "vi": {
+          "text": "chú / bác",
+          "ipa": "/tɕu˧˥ ɓaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chú / bác",
+            "en": "chú / bác"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.aunt",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "aunt",
+          "ipa": "/aunt/",
+          "hints": {
+            "ru": "aunt",
+            "vi": "aunt"
+          }
+        },
+        "ru": {
+          "text": "тётя",
+          "ipa": "/tʲotʲa/",
+          "hints": {
+            "en": "тётя",
+            "vi": "тётя"
+          }
+        },
+        "vi": {
+          "text": "cô / dì",
+          "ipa": "/ko˧ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cô / dì",
+            "en": "cô / dì"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.cousin",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cousin",
+          "ipa": "/cousin/",
+          "hints": {
+            "ru": "cousin",
+            "vi": "cousin"
+          }
+        },
+        "ru": {
+          "text": "двоюродный брат / сестра",
+          "ipa": "/dvojurodnɨj brat sʲestra/",
+          "hints": {
+            "en": "двоюродный брат / сестра",
+            "vi": "двоюродный брат / сестра"
+          }
+        },
+        "vi": {
+          "text": "anh chị em họ",
+          "ipa": "/ajŋ˧ tɕi˧ˀ ɛm˧ hɔ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "anh chị em họ",
+            "en": "anh chị em họ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.family",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "family",
+          "ipa": "/family/",
+          "hints": {
+            "ru": "family",
+            "vi": "family"
+          }
+        },
+        "ru": {
+          "text": "семья",
+          "ipa": "/sʲemʲja/",
+          "hints": {
+            "en": "семья",
+            "vi": "семья"
+          }
+        },
+        "vi": {
+          "text": "gia đình",
+          "ipa": "/zaː˧ ɗiɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "gia đình",
+            "en": "gia đình"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.friend",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "friend",
+          "ipa": "/friend/",
+          "hints": {
+            "ru": "friend",
+            "vi": "friend"
+          }
+        },
+        "ru": {
+          "text": "друг",
+          "ipa": "/druɡ/",
+          "hints": {
+            "en": "друг",
+            "vi": "друг"
+          }
+        },
+        "vi": {
+          "text": "bạn",
+          "ipa": "/ɓaːn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn",
+            "en": "bạn"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.boyfriend",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "boyfriend",
+          "ipa": "/boyfriend/",
+          "hints": {
+            "ru": "boyfriend",
+            "vi": "boyfriend"
+          }
+        },
+        "ru": {
+          "text": "парень",
+          "ipa": "/parʲenʲ/",
+          "hints": {
+            "en": "парень",
+            "vi": "парень"
+          }
+        },
+        "vi": {
+          "text": "bạn trai",
+          "ipa": "/ɓaːn˧ˀ tɕaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn trai",
+            "en": "bạn trai"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.girlfriend",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "girlfriend",
+          "ipa": "/girlfriend/",
+          "hints": {
+            "ru": "girlfriend",
+            "vi": "girlfriend"
+          }
+        },
+        "ru": {
+          "text": "девушка",
+          "ipa": "/dʲevuʂka/",
+          "hints": {
+            "en": "девушка",
+            "vi": "девушка"
+          }
+        },
+        "vi": {
+          "text": "bạn gái",
+          "ipa": "/ɓaːn˧ˀ ɣaːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn gái",
+            "en": "bạn gái"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.neighbor",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "neighbor",
+          "ipa": "/neighbor/",
+          "hints": {
+            "ru": "neighbor",
+            "vi": "neighbor"
+          }
+        },
+        "ru": {
+          "text": "сосед",
+          "ipa": "/sosʲed/",
+          "hints": {
+            "en": "сосед",
+            "vi": "сосед"
+          }
+        },
+        "vi": {
+          "text": "hàng xóm",
+          "ipa": "/haːŋ˧˩ sɔm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hàng xóm",
+            "en": "hàng xóm"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.guest",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "guest",
+          "ipa": "/guest/",
+          "hints": {
+            "ru": "guest",
+            "vi": "guest"
+          }
+        },
+        "ru": {
+          "text": "гость",
+          "ipa": "/ɡostʲ/",
+          "hints": {
+            "en": "гость",
+            "vi": "гость"
+          }
+        },
+        "vi": {
+          "text": "khách",
+          "ipa": "/xajk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khách",
+            "en": "khách"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.people",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "people",
+          "ipa": "/ˈpiːpəl/",
+          "hints": {
+            "ru": "people",
+            "vi": "people"
+          }
+        },
+        "ru": {
+          "text": "люди",
+          "ipa": "/lʲudʲi/",
+          "hints": {
+            "en": "люди",
+            "vi": "люди"
+          }
+        },
+        "vi": {
+          "text": "người",
+          "ipa": "/ŋɨəj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "người",
+            "en": "người"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.man",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "man",
+          "ipa": "/man/",
+          "hints": {
+            "ru": "man",
+            "vi": "man"
+          }
+        },
+        "ru": {
+          "text": "мужчина",
+          "ipa": "/muʐtɕina/",
+          "hints": {
+            "en": "мужчина",
+            "vi": "мужчина"
+          }
+        },
+        "vi": {
+          "text": "đàn ông",
+          "ipa": "/ɗaːn˧˩ oŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đàn ông",
+            "en": "đàn ông"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.woman",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "woman",
+          "ipa": "/woman/",
+          "hints": {
+            "ru": "woman",
+            "vi": "woman"
+          }
+        },
+        "ru": {
+          "text": "женщина",
+          "ipa": "/ʐenɕːina/",
+          "hints": {
+            "en": "женщина",
+            "vi": "женщина"
+          }
+        },
+        "vi": {
+          "text": "phụ nữ",
+          "ipa": "/fu˧ˀ nɨ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "phụ nữ",
+            "en": "phụ nữ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.boy",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "boy",
+          "ipa": "/boy/",
+          "hints": {
+            "ru": "boy",
+            "vi": "boy"
+          }
+        },
+        "ru": {
+          "text": "мальчик",
+          "ipa": "/malʲtɕik/",
+          "hints": {
+            "en": "мальчик",
+            "vi": "мальчик"
+          }
+        },
+        "vi": {
+          "text": "cậu bé",
+          "ipa": "/kəu˧ˀ ɓɛ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cậu bé",
+            "en": "cậu bé"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.girl",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "girl",
+          "ipa": "/girl/",
+          "hints": {
+            "ru": "girl",
+            "vi": "girl"
+          }
+        },
+        "ru": {
+          "text": "девочка",
+          "ipa": "/dʲevotɕka/",
+          "hints": {
+            "en": "девочка",
+            "vi": "девочка"
+          }
+        },
+        "vi": {
+          "text": "cô bé",
+          "ipa": "/ko˧ ɓɛ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cô bé",
+            "en": "cô bé"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.person",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "person",
+          "ipa": "/person/",
+          "hints": {
+            "ru": "person",
+            "vi": "person"
+          }
+        },
+        "ru": {
+          "text": "человек",
+          "ipa": "/tɕelovʲek/",
+          "hints": {
+            "en": "человек",
+            "vi": "человек"
+          }
+        },
+        "vi": {
+          "text": "người",
+          "ipa": "/ŋɨəj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "người",
+            "en": "người"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.adult",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "adult",
+          "ipa": "/adult/",
+          "hints": {
+            "ru": "adult",
+            "vi": "adult"
+          }
+        },
+        "ru": {
+          "text": "взрослый",
+          "ipa": "/vzroslɨj/",
+          "hints": {
+            "en": "взрослый",
+            "vi": "взрослый"
+          }
+        },
+        "vi": {
+          "text": "người lớn",
+          "ipa": "/ŋɨəj˨˩ ləːn˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "người lớn",
+            "en": "người lớn"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.kid",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "kid",
+          "ipa": "/kid/",
+          "hints": {
+            "ru": "kid",
+            "vi": "kid"
+          }
+        },
+        "ru": {
+          "text": "ребёнок",
+          "ipa": "/rʲebʲonok/",
+          "hints": {
+            "en": "ребёнок",
+            "vi": "ребёнок"
+          }
+        },
+        "vi": {
+          "text": "trẻ",
+          "ipa": "/tɕɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trẻ",
+            "en": "trẻ"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.mr",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Mr",
+          "ipa": "/mr/",
+          "hints": {
+            "ru": "Mr",
+            "vi": "Mr"
+          }
+        },
+        "ru": {
+          "text": "господин",
+          "ipa": "/ɡospodʲin/",
+          "hints": {
+            "en": "господин",
+            "vi": "господин"
+          }
+        },
+        "vi": {
+          "text": "ông",
+          "ipa": "/oŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ông",
+            "en": "ông"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.mrs",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Mrs",
+          "ipa": "/mrs/",
+          "hints": {
+            "ru": "Mrs",
+            "vi": "Mrs"
+          }
+        },
+        "ru": {
+          "text": "госпожа",
+          "ipa": "/ɡospoʐa/",
+          "hints": {
+            "en": "госпожа",
+            "vi": "госпожа"
+          }
+        },
+        "vi": {
+          "text": "bà",
+          "ipa": "/ɓaː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bà",
+            "en": "bà"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.ms",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Ms",
+          "ipa": "/ms/",
+          "hints": {
+            "ru": "Ms",
+            "vi": "Ms"
+          }
+        },
+        "ru": {
+          "text": "госпожа",
+          "ipa": "/ɡospoʐa/",
+          "hints": {
+            "en": "госпожа",
+            "vi": "госпожа"
+          }
+        },
+        "vi": {
+          "text": "cô",
+          "ipa": "/ko˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cô",
+            "en": "cô"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.couple",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "couple",
+          "ipa": "/couple/",
+          "hints": {
+            "ru": "couple",
+            "vi": "couple"
+          }
+        },
+        "ru": {
+          "text": "пара",
+          "ipa": "/para/",
+          "hints": {
+            "en": "пара",
+            "vi": "пара"
+          }
+        },
+        "vi": {
+          "text": "cặp đôi",
+          "ipa": "/kap˧ˀ ɗoj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cặp đôi",
+            "en": "cặp đôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "fam.relative",
+      "kind": "word",
+      "theme": "family",
+      "tags": [
+        "theme:family"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "relative",
+          "ipa": "/relative/",
+          "hints": {
+            "ru": "relative",
+            "vi": "relative"
+          }
+        },
+        "ru": {
+          "text": "родственник",
+          "ipa": "/rodstvʲennʲik/",
+          "hints": {
+            "en": "родственник",
+            "vi": "родственник"
+          }
+        },
+        "vi": {
+          "text": "họ hàng",
+          "ipa": "/hɔ˧ˀ haːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "họ hàng",
+            "en": "họ hàng"
+          }
+        }
+      }
+    }
+  ]
+}

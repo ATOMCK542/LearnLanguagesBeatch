@@ -1,0 +1,18 @@
+{
+  "theme": {
+    "id": "user",
+    "kind": "unit",
+    "order": 200,
+    "title": {
+      "en": "My cards",
+      "ru": "Мои карточки",
+      "vi": "Thẻ của tôi"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": []
+}

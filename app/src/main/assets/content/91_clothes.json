@@ -1,0 +1,1419 @@
+{
+  "theme": {
+    "id": "clothes",
+    "kind": "unit",
+    "order": 91,
+    "title": {
+      "en": "Clothes",
+      "ru": "Одежда",
+      "vi": "Quần áо"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "cl.clothes",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "clothes",
+          "ipa": "/clothes/",
+          "hints": {
+            "ru": "clothes",
+            "vi": "clothes"
+          }
+        },
+        "ru": {
+          "text": "одежда",
+          "ipa": "/odʲeʐda/",
+          "hints": {
+            "en": "одежда",
+            "vi": "одежда"
+          }
+        },
+        "vi": {
+          "text": "quần áo",
+          "ipa": "/kwən˧˩ aːw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "quần áo",
+            "en": "quần áo"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.shirt",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shirt",
+          "ipa": "/shirt/",
+          "hints": {
+            "ru": "shirt",
+            "vi": "shirt"
+          }
+        },
+        "ru": {
+          "text": "рубашка",
+          "ipa": "/rubaʂka/",
+          "hints": {
+            "en": "рубашка",
+            "vi": "рубашка"
+          }
+        },
+        "vi": {
+          "text": "áo sơ mi",
+          "ipa": "/aːw˧˥ səː˧ mi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "áo sơ mi",
+            "en": "áo sơ mi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.t_shirt",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "t-shirt",
+          "ipa": "/ˈtiː ʃɜːt/",
+          "hints": {
+            "ru": "t-shirt",
+            "vi": "t-shirt"
+          }
+        },
+        "ru": {
+          "text": "футболка",
+          "ipa": "/futbolka/",
+          "hints": {
+            "en": "футболка",
+            "vi": "футболка"
+          }
+        },
+        "vi": {
+          "text": "áo thun",
+          "ipa": "/aːw˧˥ tʰun˧/",
+          "tones": [],
+          "hints": {
+            "ru": "áo thun",
+            "en": "áo thun"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.pants",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pants",
+          "ipa": "/pants/",
+          "hints": {
+            "ru": "pants",
+            "vi": "pants"
+          }
+        },
+        "ru": {
+          "text": "брюки",
+          "ipa": "/brʲukʲi/",
+          "hints": {
+            "en": "брюки",
+            "vi": "брюки"
+          }
+        },
+        "vi": {
+          "text": "quần",
+          "ipa": "/kwən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "quần",
+            "en": "quần"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.jeans",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "jeans",
+          "ipa": "/jeans/",
+          "hints": {
+            "ru": "jeans",
+            "vi": "jeans"
+          }
+        },
+        "ru": {
+          "text": "джинсы",
+          "ipa": "/dʐinsɨ/",
+          "hints": {
+            "en": "джинсы",
+            "vi": "джинсы"
+          }
+        },
+        "vi": {
+          "text": "quần jean",
+          "ipa": "/kwən˧˩ jɛaːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "quần jean",
+            "en": "quần jean"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.dress",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dress",
+          "ipa": "/dress/",
+          "hints": {
+            "ru": "dress",
+            "vi": "dress"
+          }
+        },
+        "ru": {
+          "text": "платье",
+          "ipa": "/platʲje/",
+          "hints": {
+            "en": "платье",
+            "vi": "платье"
+          }
+        },
+        "vi": {
+          "text": "váy",
+          "ipa": "/vaj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "váy",
+            "en": "váy"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.skirt",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "skirt",
+          "ipa": "/skirt/",
+          "hints": {
+            "ru": "skirt",
+            "vi": "skirt"
+          }
+        },
+        "ru": {
+          "text": "юбка",
+          "ipa": "/jubka/",
+          "hints": {
+            "en": "юбка",
+            "vi": "юбка"
+          }
+        },
+        "vi": {
+          "text": "váy ngắn",
+          "ipa": "/vaj˧˥ ŋan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "váy ngắn",
+            "en": "váy ngắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.jacket",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "jacket",
+          "ipa": "/jacket/",
+          "hints": {
+            "ru": "jacket",
+            "vi": "jacket"
+          }
+        },
+        "ru": {
+          "text": "куртка",
+          "ipa": "/kurtka/",
+          "hints": {
+            "en": "куртка",
+            "vi": "куртка"
+          }
+        },
+        "vi": {
+          "text": "áo khoác",
+          "ipa": "/aːw˧˥ xɔaːc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "áo khoác",
+            "en": "áo khoác"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.coat",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "coat",
+          "ipa": "/coat/",
+          "hints": {
+            "ru": "coat",
+            "vi": "coat"
+          }
+        },
+        "ru": {
+          "text": "пальто",
+          "ipa": "/palʲto/",
+          "hints": {
+            "en": "пальто",
+            "vi": "пальто"
+          }
+        },
+        "vi": {
+          "text": "áo choàng",
+          "ipa": "/aːw˧˥ tɕɔaːng˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "áo choàng",
+            "en": "áo choàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.sweater",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sweater",
+          "ipa": "/sweater/",
+          "hints": {
+            "ru": "sweater",
+            "vi": "sweater"
+          }
+        },
+        "ru": {
+          "text": "свитер",
+          "ipa": "/svʲitʲer/",
+          "hints": {
+            "en": "свитер",
+            "vi": "свитер"
+          }
+        },
+        "vi": {
+          "text": "áo len",
+          "ipa": "/aːw˧˥ lɛn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "áo len",
+            "en": "áo len"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.hat",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hat",
+          "ipa": "/hat/",
+          "hints": {
+            "ru": "hat",
+            "vi": "hat"
+          }
+        },
+        "ru": {
+          "text": "шляпа",
+          "ipa": "/ʂlʲapa/",
+          "hints": {
+            "en": "шляпа",
+            "vi": "шляпа"
+          }
+        },
+        "vi": {
+          "text": "mũ",
+          "ipa": "/mu˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mũ",
+            "en": "mũ"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.cap",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cap",
+          "ipa": "/cap/",
+          "hints": {
+            "ru": "cap",
+            "vi": "cap"
+          }
+        },
+        "ru": {
+          "text": "кепка",
+          "ipa": "/kʲepka/",
+          "hints": {
+            "en": "кепка",
+            "vi": "кепка"
+          }
+        },
+        "vi": {
+          "text": "mũ lưỡi trai",
+          "ipa": "/mu˧˥ˀ lɨəj˧˥ˀ tɕaːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mũ lưỡi trai",
+            "en": "mũ lưỡi trai"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.shoes",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "shoes",
+          "ipa": "/shoes/",
+          "hints": {
+            "ru": "shoes",
+            "vi": "shoes"
+          }
+        },
+        "ru": {
+          "text": "обувь",
+          "ipa": "/obuvʲ/",
+          "hints": {
+            "en": "обувь",
+            "vi": "обувь"
+          }
+        },
+        "vi": {
+          "text": "giày",
+          "ipa": "/zaj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "giày",
+            "en": "giày"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.boots",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "boots",
+          "ipa": "/boots/",
+          "hints": {
+            "ru": "boots",
+            "vi": "boots"
+          }
+        },
+        "ru": {
+          "text": "ботинки",
+          "ipa": "/botʲinkʲi/",
+          "hints": {
+            "en": "ботинки",
+            "vi": "ботинки"
+          }
+        },
+        "vi": {
+          "text": "giày boot",
+          "ipa": "/zaj˧˩ ɓɔɔt˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giày boot",
+            "en": "giày boot"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.socks",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "socks",
+          "ipa": "/socks/",
+          "hints": {
+            "ru": "socks",
+            "vi": "socks"
+          }
+        },
+        "ru": {
+          "text": "носки",
+          "ipa": "/noskʲi/",
+          "hints": {
+            "en": "носки",
+            "vi": "носки"
+          }
+        },
+        "vi": {
+          "text": "tất",
+          "ipa": "/tət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tất",
+            "en": "tất"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.underwear",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "underwear",
+          "ipa": "/underwear/",
+          "hints": {
+            "ru": "underwear",
+            "vi": "underwear"
+          }
+        },
+        "ru": {
+          "text": "белье",
+          "ipa": "/bʲelʲje/",
+          "hints": {
+            "en": "белье",
+            "vi": "белье"
+          }
+        },
+        "vi": {
+          "text": "đồ lót",
+          "ipa": "/ɗo˧˩ lɔt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đồ lót",
+            "en": "đồ lót"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.pajamas",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pajamas",
+          "ipa": "/pajamas/",
+          "hints": {
+            "ru": "pajamas",
+            "vi": "pajamas"
+          }
+        },
+        "ru": {
+          "text": "пижама",
+          "ipa": "/pʲiʐama/",
+          "hints": {
+            "en": "пижама",
+            "vi": "пижама"
+          }
+        },
+        "vi": {
+          "text": "đồ ngủ",
+          "ipa": "/ɗo˧˩ ŋu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đồ ngủ",
+            "en": "đồ ngủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.belt",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "belt",
+          "ipa": "/belt/",
+          "hints": {
+            "ru": "belt",
+            "vi": "belt"
+          }
+        },
+        "ru": {
+          "text": "ремень",
+          "ipa": "/rʲemʲenʲ/",
+          "hints": {
+            "en": "ремень",
+            "vi": "ремень"
+          }
+        },
+        "vi": {
+          "text": "thắt lưng",
+          "ipa": "/tʰat˧˥ lɨŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thắt lưng",
+            "en": "thắt lưng"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.tie",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tie",
+          "ipa": "/tie/",
+          "hints": {
+            "ru": "tie",
+            "vi": "tie"
+          }
+        },
+        "ru": {
+          "text": "галстук",
+          "ipa": "/ɡalstuk/",
+          "hints": {
+            "en": "галстук",
+            "vi": "галстук"
+          }
+        },
+        "vi": {
+          "text": "cà vạt",
+          "ipa": "/kaː˧˩ vaːt˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cà vạt",
+            "en": "cà vạt"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.scarf",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "scarf",
+          "ipa": "/scarf/",
+          "hints": {
+            "ru": "scarf",
+            "vi": "scarf"
+          }
+        },
+        "ru": {
+          "text": "шарф",
+          "ipa": "/ʂarf/",
+          "hints": {
+            "en": "шарф",
+            "vi": "шарф"
+          }
+        },
+        "vi": {
+          "text": "khăn quàng",
+          "ipa": "/xan˧ kwaːŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "khăn quàng",
+            "en": "khăn quàng"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.gloves",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "gloves",
+          "ipa": "/gloves/",
+          "hints": {
+            "ru": "gloves",
+            "vi": "gloves"
+          }
+        },
+        "ru": {
+          "text": "перчатки",
+          "ipa": "/pʲertɕatkʲi/",
+          "hints": {
+            "en": "перчатки",
+            "vi": "перчатки"
+          }
+        },
+        "vi": {
+          "text": "găng tay",
+          "ipa": "/ɣaŋ˧ taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "găng tay",
+            "en": "găng tay"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.glasses",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "glasses",
+          "ipa": "/glasses/",
+          "hints": {
+            "ru": "glasses",
+            "vi": "glasses"
+          }
+        },
+        "ru": {
+          "text": "очки",
+          "ipa": "/otɕkʲi/",
+          "hints": {
+            "en": "очки",
+            "vi": "очки"
+          }
+        },
+        "vi": {
+          "text": "kính",
+          "ipa": "/kiɲ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "kính",
+            "en": "kính"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.ring",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ring",
+          "ipa": "/ring/",
+          "hints": {
+            "ru": "ring",
+            "vi": "ring"
+          }
+        },
+        "ru": {
+          "text": "кольцо",
+          "ipa": "/kolʲtso/",
+          "hints": {
+            "en": "кольцо",
+            "vi": "кольцо"
+          }
+        },
+        "vi": {
+          "text": "nhẫn",
+          "ipa": "/ɲən˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhẫn",
+            "en": "nhẫn"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.necklace",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "necklace",
+          "ipa": "/necklace/",
+          "hints": {
+            "ru": "necklace",
+            "vi": "necklace"
+          }
+        },
+        "ru": {
+          "text": "ожерелье",
+          "ipa": "/oʐerʲelʲje/",
+          "hints": {
+            "en": "ожерелье",
+            "vi": "ожерелье"
+          }
+        },
+        "vi": {
+          "text": "dây chuyền",
+          "ipa": "/zəj˧ tɕwiən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dây chuyền",
+            "en": "dây chuyền"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.wallet",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wallet",
+          "ipa": "/wallet/",
+          "hints": {
+            "ru": "wallet",
+            "vi": "wallet"
+          }
+        },
+        "ru": {
+          "text": "кошелёк",
+          "ipa": "/koʂelʲok/",
+          "hints": {
+            "en": "кошелёк",
+            "vi": "кошелёк"
+          }
+        },
+        "vi": {
+          "text": "ví",
+          "ipa": "/vi˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ví",
+            "en": "ví"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.umbrella",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "umbrella",
+          "ipa": "/umbrella/",
+          "hints": {
+            "ru": "umbrella",
+            "vi": "umbrella"
+          }
+        },
+        "ru": {
+          "text": "зонт",
+          "ipa": "/zont/",
+          "hints": {
+            "en": "зонт",
+            "vi": "зонт"
+          }
+        },
+        "vi": {
+          "text": "ô",
+          "ipa": "/o˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ô",
+            "en": "ô"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.pocket",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pocket",
+          "ipa": "/pocket/",
+          "hints": {
+            "ru": "pocket",
+            "vi": "pocket"
+          }
+        },
+        "ru": {
+          "text": "карман",
+          "ipa": "/karman/",
+          "hints": {
+            "en": "карман",
+            "vi": "карман"
+          }
+        },
+        "vi": {
+          "text": "túi quần",
+          "ipa": "/tuj˧˥ kwən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "túi quần",
+            "en": "túi quần"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.button",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "button",
+          "ipa": "/button/",
+          "hints": {
+            "ru": "button",
+            "vi": "button"
+          }
+        },
+        "ru": {
+          "text": "пуговица",
+          "ipa": "/puɡovʲitsa/",
+          "hints": {
+            "en": "пуговица",
+            "vi": "пуговица"
+          }
+        },
+        "vi": {
+          "text": "cúc",
+          "ipa": "/kuc˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cúc",
+            "en": "cúc"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.zipper",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "zipper",
+          "ipa": "/zipper/",
+          "hints": {
+            "ru": "zipper",
+            "vi": "zipper"
+          }
+        },
+        "ru": {
+          "text": "молния",
+          "ipa": "/molnʲija/",
+          "hints": {
+            "en": "молния",
+            "vi": "молния"
+          }
+        },
+        "vi": {
+          "text": "khóa kéo",
+          "ipa": "/xwaː˧˥ kɛw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khóa kéo",
+            "en": "khóa kéo"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.fashion",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fashion",
+          "ipa": "/fashion/",
+          "hints": {
+            "ru": "fashion",
+            "vi": "fashion"
+          }
+        },
+        "ru": {
+          "text": "мода",
+          "ipa": "/moda/",
+          "hints": {
+            "en": "мода",
+            "vi": "мода"
+          }
+        },
+        "vi": {
+          "text": "thời trang",
+          "ipa": "/tʰəːj˧˩ tɕaːŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thời trang",
+            "en": "thời trang"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.uniform",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "uniform",
+          "ipa": "/uniform/",
+          "hints": {
+            "ru": "uniform",
+            "vi": "uniform"
+          }
+        },
+        "ru": {
+          "text": "форма",
+          "ipa": "/forma/",
+          "hints": {
+            "en": "форма",
+            "vi": "форма"
+          }
+        },
+        "vi": {
+          "text": "đồng phục",
+          "ipa": "/ɗoŋ˧˩ fuc˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đồng phục",
+            "en": "đồng phục"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.swimsuit",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "swimsuit",
+          "ipa": "/swimsuit/",
+          "hints": {
+            "ru": "swimsuit",
+            "vi": "swimsuit"
+          }
+        },
+        "ru": {
+          "text": "купальник",
+          "ipa": "/kupalʲnʲik/",
+          "hints": {
+            "en": "купальник",
+            "vi": "купальник"
+          }
+        },
+        "vi": {
+          "text": "đồ bơi",
+          "ipa": "/ɗo˧˩ ɓəːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đồ bơi",
+            "en": "đồ bơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.raincoat",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "raincoat",
+          "ipa": "/raincoat/",
+          "hints": {
+            "ru": "raincoat",
+            "vi": "raincoat"
+          }
+        },
+        "ru": {
+          "text": "дождевик",
+          "ipa": "/doʐdʲevʲik/",
+          "hints": {
+            "en": "дождевик",
+            "vi": "дождевик"
+          }
+        },
+        "vi": {
+          "text": "áo mưa",
+          "ipa": "/aːw˧˥ mɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "áo mưa",
+            "en": "áo mưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.slippers",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "slippers",
+          "ipa": "/slippers/",
+          "hints": {
+            "ru": "slippers",
+            "vi": "slippers"
+          }
+        },
+        "ru": {
+          "text": "тапочки",
+          "ipa": "/tapotɕkʲi/",
+          "hints": {
+            "en": "тапочки",
+            "vi": "тапочки"
+          }
+        },
+        "vi": {
+          "text": "dép lê",
+          "ipa": "/zɛp˧˥ le˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dép lê",
+            "en": "dép lê"
+          }
+        }
+      }
+    },
+    {
+      "id": "cl.sandals",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sandals",
+          "ipa": "/sandals/",
+          "hints": {
+            "ru": "sandals",
+            "vi": "sandals"
+          }
+        },
+        "ru": {
+          "text": "сандалии",
+          "ipa": "/sandalʲii/",
+          "hints": {
+            "en": "сандалии",
+            "vi": "сандалии"
+          }
+        },
+        "vi": {
+          "text": "dép xăng đan",
+          "ipa": "/zɛp˧˥ saŋ˧ ɗaːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dép xăng đan",
+            "en": "dép xăng đan"
+          }
+        }
+      }
+    }
+  ]
+}

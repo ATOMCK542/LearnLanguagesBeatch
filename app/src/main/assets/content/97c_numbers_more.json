@@ -1,0 +1,939 @@
+{
+  "theme": {
+    "id": "numbers",
+    "kind": "unit",
+    "order": 81,
+    "title": {
+      "en": "Numbers",
+      "ru": "Числа",
+      "vi": "Số"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "numx.eleven",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "eleven",
+          "ipa": "/eleven/",
+          "hints": {
+            "ru": "eleven",
+            "vi": "eleven"
+          }
+        },
+        "ru": {
+          "text": "одиннадцать",
+          "ipa": "/odʲinnadtsatʲ/",
+          "hints": {
+            "en": "одиннадцать",
+            "vi": "одиннадцать"
+          }
+        },
+        "vi": {
+          "text": "mười một",
+          "ipa": "/mɨəj˧˩ mot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mười một",
+            "en": "mười một"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.twelve",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "twelve",
+          "ipa": "/twelve/",
+          "hints": {
+            "ru": "twelve",
+            "vi": "twelve"
+          }
+        },
+        "ru": {
+          "text": "двенадцать",
+          "ipa": "/dvʲenadtsatʲ/",
+          "hints": {
+            "en": "двенадцать",
+            "vi": "двенадцать"
+          }
+        },
+        "vi": {
+          "text": "mười hai",
+          "ipa": "/mɨəj˧˩ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mười hai",
+            "en": "mười hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.thirteen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thirteen",
+          "ipa": "/thirteen/",
+          "hints": {
+            "ru": "thirteen",
+            "vi": "thirteen"
+          }
+        },
+        "ru": {
+          "text": "тринадцать",
+          "ipa": "/trʲinadtsatʲ/",
+          "hints": {
+            "en": "тринадцать",
+            "vi": "тринадцать"
+          }
+        },
+        "vi": {
+          "text": "mười ba",
+          "ipa": "/mɨəj˧˩ ɓaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mười ba",
+            "en": "mười ba"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.fourteen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fourteen",
+          "ipa": "/fourteen/",
+          "hints": {
+            "ru": "fourteen",
+            "vi": "fourteen"
+          }
+        },
+        "ru": {
+          "text": "четырнадцать",
+          "ipa": "/tɕetɨrnadtsatʲ/",
+          "hints": {
+            "en": "четырнадцать",
+            "vi": "четырнадцать"
+          }
+        },
+        "vi": {
+          "text": "mười bốn",
+          "ipa": "/mɨəj˧˩ ɓon˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mười bốn",
+            "en": "mười bốn"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.fifteen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fifteen",
+          "ipa": "/fifteen/",
+          "hints": {
+            "ru": "fifteen",
+            "vi": "fifteen"
+          }
+        },
+        "ru": {
+          "text": "пятнадцать",
+          "ipa": "/pʲatnadtsatʲ/",
+          "hints": {
+            "en": "пятнадцать",
+            "vi": "пятнадцать"
+          }
+        },
+        "vi": {
+          "text": "mười lăm",
+          "ipa": "/mɨəj˧˩ lam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mười lăm",
+            "en": "mười lăm"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.sixteen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sixteen",
+          "ipa": "/sixteen/",
+          "hints": {
+            "ru": "sixteen",
+            "vi": "sixteen"
+          }
+        },
+        "ru": {
+          "text": "шестнадцать",
+          "ipa": "/ʂestnadtsatʲ/",
+          "hints": {
+            "en": "шестнадцать",
+            "vi": "шестнадцать"
+          }
+        },
+        "vi": {
+          "text": "mười sáu",
+          "ipa": "/mɨəj˧˩ saw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mười sáu",
+            "en": "mười sáu"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.seventeen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "seventeen",
+          "ipa": "/seventeen/",
+          "hints": {
+            "ru": "seventeen",
+            "vi": "seventeen"
+          }
+        },
+        "ru": {
+          "text": "семнадцать",
+          "ipa": "/sʲemnadtsatʲ/",
+          "hints": {
+            "en": "семнадцать",
+            "vi": "семнадцать"
+          }
+        },
+        "vi": {
+          "text": "mười bảy",
+          "ipa": "/mɨəj˧˩ ɓaj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mười bảy",
+            "en": "mười bảy"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.eighteen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "eighteen",
+          "ipa": "/eighteen/",
+          "hints": {
+            "ru": "eighteen",
+            "vi": "eighteen"
+          }
+        },
+        "ru": {
+          "text": "восемнадцать",
+          "ipa": "/vosʲemnadtsatʲ/",
+          "hints": {
+            "en": "восемнадцать",
+            "vi": "восемнадцать"
+          }
+        },
+        "vi": {
+          "text": "mười tám",
+          "ipa": "/mɨəj˧˩ taːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mười tám",
+            "en": "mười tám"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.nineteen",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "nineteen",
+          "ipa": "/nineteen/",
+          "hints": {
+            "ru": "nineteen",
+            "vi": "nineteen"
+          }
+        },
+        "ru": {
+          "text": "девятнадцать",
+          "ipa": "/dʲevʲatnadtsatʲ/",
+          "hints": {
+            "en": "девятнадцать",
+            "vi": "девятнадцать"
+          }
+        },
+        "vi": {
+          "text": "mười chín",
+          "ipa": "/mɨəj˧˩ tɕin˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mười chín",
+            "en": "mười chín"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.twenty",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "twenty",
+          "ipa": "/twenty/",
+          "hints": {
+            "ru": "twenty",
+            "vi": "twenty"
+          }
+        },
+        "ru": {
+          "text": "двадцать",
+          "ipa": "/dvadtsatʲ/",
+          "hints": {
+            "en": "двадцать",
+            "vi": "двадцать"
+          }
+        },
+        "vi": {
+          "text": "hai mươi",
+          "ipa": "/haːj˧ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hai mươi",
+            "en": "hai mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.thirty",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thirty",
+          "ipa": "/thirty/",
+          "hints": {
+            "ru": "thirty",
+            "vi": "thirty"
+          }
+        },
+        "ru": {
+          "text": "тридцать",
+          "ipa": "/trʲidtsatʲ/",
+          "hints": {
+            "en": "тридцать",
+            "vi": "тридцать"
+          }
+        },
+        "vi": {
+          "text": "ba mươi",
+          "ipa": "/ɓaː˧ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ba mươi",
+            "en": "ba mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.forty",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "forty",
+          "ipa": "/forty/",
+          "hints": {
+            "ru": "forty",
+            "vi": "forty"
+          }
+        },
+        "ru": {
+          "text": "сорок",
+          "ipa": "/sorok/",
+          "hints": {
+            "en": "сорок",
+            "vi": "сорок"
+          }
+        },
+        "vi": {
+          "text": "bốn mươi",
+          "ipa": "/ɓon˧˥ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bốn mươi",
+            "en": "bốn mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.fifty",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fifty",
+          "ipa": "/fifty/",
+          "hints": {
+            "ru": "fifty",
+            "vi": "fifty"
+          }
+        },
+        "ru": {
+          "text": "пятьдесят",
+          "ipa": "/pʲatʲdʲesʲat/",
+          "hints": {
+            "en": "пятьдесят",
+            "vi": "пятьдесят"
+          }
+        },
+        "vi": {
+          "text": "năm mươi",
+          "ipa": "/nam˧ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "năm mươi",
+            "en": "năm mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.sixty",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sixty",
+          "ipa": "/sixty/",
+          "hints": {
+            "ru": "sixty",
+            "vi": "sixty"
+          }
+        },
+        "ru": {
+          "text": "шестьдесят",
+          "ipa": "/ʂestʲdʲesʲat/",
+          "hints": {
+            "en": "шестьдесят",
+            "vi": "шестьдесят"
+          }
+        },
+        "vi": {
+          "text": "sáu mươi",
+          "ipa": "/saw˧˥ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sáu mươi",
+            "en": "sáu mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.seventy",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "seventy",
+          "ipa": "/seventy/",
+          "hints": {
+            "ru": "seventy",
+            "vi": "seventy"
+          }
+        },
+        "ru": {
+          "text": "семьдесят",
+          "ipa": "/sʲemʲdʲesʲat/",
+          "hints": {
+            "en": "семьдесят",
+            "vi": "семьдесят"
+          }
+        },
+        "vi": {
+          "text": "bảy mươi",
+          "ipa": "/ɓaj˧˩˧ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bảy mươi",
+            "en": "bảy mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.eighty",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "eighty",
+          "ipa": "/eighty/",
+          "hints": {
+            "ru": "eighty",
+            "vi": "eighty"
+          }
+        },
+        "ru": {
+          "text": "восемьдесят",
+          "ipa": "/vosʲemʲdʲesʲat/",
+          "hints": {
+            "en": "восемьдесят",
+            "vi": "восемьдесят"
+          }
+        },
+        "vi": {
+          "text": "tám mươi",
+          "ipa": "/taːm˧˥ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tám mươi",
+            "en": "tám mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.ninety",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ninety",
+          "ipa": "/ninety/",
+          "hints": {
+            "ru": "ninety",
+            "vi": "ninety"
+          }
+        },
+        "ru": {
+          "text": "девяносто",
+          "ipa": "/dʲevʲanosto/",
+          "hints": {
+            "en": "девяносто",
+            "vi": "девяносто"
+          }
+        },
+        "vi": {
+          "text": "chín mươi",
+          "ipa": "/tɕin˧˥ mɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chín mươi",
+            "en": "chín mươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.thousand",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thousand",
+          "ipa": "/thousand/",
+          "hints": {
+            "ru": "thousand",
+            "vi": "thousand"
+          }
+        },
+        "ru": {
+          "text": "тысяча",
+          "ipa": "/tɨsʲatɕa/",
+          "hints": {
+            "en": "тысяча",
+            "vi": "тысяча"
+          }
+        },
+        "vi": {
+          "text": "một nghìn",
+          "ipa": "/mot˧ˀ ŋin˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "một nghìn",
+            "en": "một nghìn"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.million",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "million",
+          "ipa": "/million/",
+          "hints": {
+            "ru": "million",
+            "vi": "million"
+          }
+        },
+        "ru": {
+          "text": "миллион",
+          "ipa": "/mʲillʲion/",
+          "hints": {
+            "en": "миллион",
+            "vi": "миллион"
+          }
+        },
+        "vi": {
+          "text": "một triệu",
+          "ipa": "/mot˧ˀ tɕiəw˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "một triệu",
+            "en": "một triệu"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.half",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "half",
+          "ipa": "/half/",
+          "hints": {
+            "ru": "half",
+            "vi": "half"
+          }
+        },
+        "ru": {
+          "text": "половина",
+          "ipa": "/polovʲina/",
+          "hints": {
+            "en": "половина",
+            "vi": "половина"
+          }
+        },
+        "vi": {
+          "text": "một nửa",
+          "ipa": "/mot˧ˀ nɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "một nửa",
+            "en": "một nửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.pair",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pair",
+          "ipa": "/pair/",
+          "hints": {
+            "ru": "pair",
+            "vi": "pair"
+          }
+        },
+        "ru": {
+          "text": "пара",
+          "ipa": "/para/",
+          "hints": {
+            "en": "пара",
+            "vi": "пара"
+          }
+        },
+        "vi": {
+          "text": "một đôi",
+          "ipa": "/mot˧ˀ ɗoj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "một đôi",
+            "en": "một đôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.third",
+      "kind": "word",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "third",
+          "ipa": "/third/",
+          "hints": {
+            "ru": "third",
+            "vi": "third"
+          }
+        },
+        "ru": {
+          "text": "третий",
+          "ipa": "/trʲetʲij/",
+          "hints": {
+            "en": "третий",
+            "vi": "третий"
+          }
+        },
+        "vi": {
+          "text": "thứ ba",
+          "ipa": "/tʰɨ˧˥ ɓaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ ba",
+            "en": "thứ ba"
+          }
+        }
+      }
+    },
+    {
+      "id": "numx.last_one",
+      "kind": "phrase",
+      "theme": "numbers",
+      "tags": [
+        "theme:numbers"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "last one",
+          "ipa": "/lɑːst wʌn/",
+          "hints": {
+            "ru": "last one",
+            "vi": "last one"
+          }
+        },
+        "ru": {
+          "text": "последний",
+          "ipa": "/poslʲednʲij/",
+          "hints": {
+            "en": "последний",
+            "vi": "последний"
+          }
+        },
+        "vi": {
+          "text": "cuối cùng",
+          "ipa": "/kuəj˧˥ kuŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cuối cùng",
+            "en": "cuối cùng"
+          }
+        }
+      }
+    }
+  ]
+}

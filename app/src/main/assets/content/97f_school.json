@@ -1,0 +1,1019 @@
+{
+  "theme": {
+    "id": "school",
+    "kind": "unit",
+    "order": 100,
+    "title": {
+      "en": "School",
+      "ru": "Учёба",
+      "vi": "Học tập"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "sch.teacher",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "teacher",
+          "ipa": "/teacher/",
+          "hints": {
+            "ru": "teacher",
+            "vi": "teacher"
+          }
+        },
+        "ru": {
+          "text": "учитель",
+          "ipa": "/utɕitʲelʲ/",
+          "hints": {
+            "en": "учитель",
+            "vi": "учитель"
+          }
+        },
+        "vi": {
+          "text": "giáo viên",
+          "ipa": "/zaːw˧˥ viən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giáo viên",
+            "en": "giáo viên"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.student",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "student",
+          "ipa": "/ˈstjuːdənt/",
+          "hints": {
+            "ru": "student",
+            "vi": "student"
+          }
+        },
+        "ru": {
+          "text": "студент",
+          "ipa": "/studʲent/",
+          "hints": {
+            "en": "студент",
+            "vi": "студент"
+          }
+        },
+        "vi": {
+          "text": "học sinh",
+          "ipa": "/hɔk˧ˀ siɲ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "học sinh",
+            "en": "học sinh"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.class",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "class",
+          "ipa": "/class/",
+          "hints": {
+            "ru": "class",
+            "vi": "class"
+          }
+        },
+        "ru": {
+          "text": "класс",
+          "ipa": "/klass/",
+          "hints": {
+            "en": "класс",
+            "vi": "класс"
+          }
+        },
+        "vi": {
+          "text": "lớp",
+          "ipa": "/ləːp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lớp",
+            "en": "lớp"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.lesson",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lesson",
+          "ipa": "/lesson/",
+          "hints": {
+            "ru": "lesson",
+            "vi": "lesson"
+          }
+        },
+        "ru": {
+          "text": "урок",
+          "ipa": "/urok/",
+          "hints": {
+            "en": "урок",
+            "vi": "урок"
+          }
+        },
+        "vi": {
+          "text": "bài học",
+          "ipa": "/ɓaːj˧˩ hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bài học",
+            "en": "bài học"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.homework",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "homework",
+          "ipa": "/homework/",
+          "hints": {
+            "ru": "homework",
+            "vi": "homework"
+          }
+        },
+        "ru": {
+          "text": "домашнее задание",
+          "ipa": "/domaʂnʲeje zadanʲije/",
+          "hints": {
+            "en": "домашнее задание",
+            "vi": "домашнее задание"
+          }
+        },
+        "vi": {
+          "text": "bài tập về nhà",
+          "ipa": "/ɓaːj˧˩ təp˧ˀ ve˧˩ ɲa˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bài tập về nhà",
+            "en": "bài tập về nhà"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.test",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "test",
+          "ipa": "/test/",
+          "hints": {
+            "ru": "test",
+            "vi": "test"
+          }
+        },
+        "ru": {
+          "text": "тест",
+          "ipa": "/tʲest/",
+          "hints": {
+            "en": "тест",
+            "vi": "тест"
+          }
+        },
+        "vi": {
+          "text": "bài kiểm tra",
+          "ipa": "/ɓaːj˧˩ kiəm˧˩˧ tɕaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bài kiểm tra",
+            "en": "bài kiểm tra"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.exam",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "exam",
+          "ipa": "/exam/",
+          "hints": {
+            "ru": "exam",
+            "vi": "exam"
+          }
+        },
+        "ru": {
+          "text": "экзамен",
+          "ipa": "/ekzamʲen/",
+          "hints": {
+            "en": "экзамен",
+            "vi": "экзамен"
+          }
+        },
+        "vi": {
+          "text": "kỳ thi",
+          "ipa": "/ki˧˩ tʰi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kỳ thi",
+            "en": "kỳ thi"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.grade",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grade",
+          "ipa": "/grade/",
+          "hints": {
+            "ru": "grade",
+            "vi": "grade"
+          }
+        },
+        "ru": {
+          "text": "оценка",
+          "ipa": "/otsenka/",
+          "hints": {
+            "en": "оценка",
+            "vi": "оценка"
+          }
+        },
+        "vi": {
+          "text": "điểm",
+          "ipa": "/ɗiəm˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "điểm",
+            "en": "điểm"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.subject",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "subject",
+          "ipa": "/subject/",
+          "hints": {
+            "ru": "subject",
+            "vi": "subject"
+          }
+        },
+        "ru": {
+          "text": "предмет",
+          "ipa": "/prʲedmʲet/",
+          "hints": {
+            "en": "предмет",
+            "vi": "предмет"
+          }
+        },
+        "vi": {
+          "text": "môn học",
+          "ipa": "/mon˧ hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "môn học",
+            "en": "môn học"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.language",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "language",
+          "ipa": "/language/",
+          "hints": {
+            "ru": "language",
+            "vi": "language"
+          }
+        },
+        "ru": {
+          "text": "язык",
+          "ipa": "/jazɨk/",
+          "hints": {
+            "en": "язык",
+            "vi": "язык"
+          }
+        },
+        "vi": {
+          "text": "ngôn ngữ",
+          "ipa": "/ŋon˧ ŋɨ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ngôn ngữ",
+            "en": "ngôn ngữ"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.word",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "word",
+          "ipa": "/word/",
+          "hints": {
+            "ru": "word",
+            "vi": "word"
+          }
+        },
+        "ru": {
+          "text": "слово",
+          "ipa": "/slovo/",
+          "hints": {
+            "en": "слово",
+            "vi": "слово"
+          }
+        },
+        "vi": {
+          "text": "từ",
+          "ipa": "/tɨ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "từ",
+            "en": "từ"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.sentence",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sentence",
+          "ipa": "/sentence/",
+          "hints": {
+            "ru": "sentence",
+            "vi": "sentence"
+          }
+        },
+        "ru": {
+          "text": "предложение",
+          "ipa": "/prʲedloʐenʲije/",
+          "hints": {
+            "en": "предложение",
+            "vi": "предложение"
+          }
+        },
+        "vi": {
+          "text": "câu",
+          "ipa": "/kəu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "câu",
+            "en": "câu"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.question",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "question",
+          "ipa": "/question/",
+          "hints": {
+            "ru": "question",
+            "vi": "question"
+          }
+        },
+        "ru": {
+          "text": "вопрос",
+          "ipa": "/vopros/",
+          "hints": {
+            "en": "вопрос",
+            "vi": "вопрос"
+          }
+        },
+        "vi": {
+          "text": "câu hỏi",
+          "ipa": "/kəu˧ hɔj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "câu hỏi",
+            "en": "câu hỏi"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.meaning",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "meaning",
+          "ipa": "/meaning/",
+          "hints": {
+            "ru": "meaning",
+            "vi": "meaning"
+          }
+        },
+        "ru": {
+          "text": "значение",
+          "ipa": "/znatɕenʲije/",
+          "hints": {
+            "en": "значение",
+            "vi": "значение"
+          }
+        },
+        "vi": {
+          "text": "nghĩa",
+          "ipa": "/ŋiə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nghĩa",
+            "en": "nghĩa"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.dictionary",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dictionary",
+          "ipa": "/dictionary/",
+          "hints": {
+            "ru": "dictionary",
+            "vi": "dictionary"
+          }
+        },
+        "ru": {
+          "text": "словарь",
+          "ipa": "/slovarʲ/",
+          "hints": {
+            "en": "словарь",
+            "vi": "словарь"
+          }
+        },
+        "vi": {
+          "text": "từ điển",
+          "ipa": "/tɨ˧˩ ɗiən˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "từ điển",
+            "en": "từ điển"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.example",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "example",
+          "ipa": "/example/",
+          "hints": {
+            "ru": "example",
+            "vi": "example"
+          }
+        },
+        "ru": {
+          "text": "пример",
+          "ipa": "/prʲimʲer/",
+          "hints": {
+            "en": "пример",
+            "vi": "пример"
+          }
+        },
+        "vi": {
+          "text": "ví dụ",
+          "ipa": "/vi˧˥ zu˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ví dụ",
+            "en": "ví dụ"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.practice",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "practice",
+          "ipa": "/practice/",
+          "hints": {
+            "ru": "practice",
+            "vi": "practice"
+          }
+        },
+        "ru": {
+          "text": "практика",
+          "ipa": "/praktʲika/",
+          "hints": {
+            "en": "практика",
+            "vi": "практика"
+          }
+        },
+        "vi": {
+          "text": "luyện tập",
+          "ipa": "/lwiən˧ˀ təp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "luyện tập",
+            "en": "luyện tập"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.memory",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "memory",
+          "ipa": "/memory/",
+          "hints": {
+            "ru": "memory",
+            "vi": "memory"
+          }
+        },
+        "ru": {
+          "text": "память",
+          "ipa": "/pamʲatʲ/",
+          "hints": {
+            "en": "память",
+            "vi": "память"
+          }
+        },
+        "vi": {
+          "text": "trí nhớ",
+          "ipa": "/tɕi˧˥ ɲəː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trí nhớ",
+            "en": "trí nhớ"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.mistake",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mistake",
+          "ipa": "/mistake/",
+          "hints": {
+            "ru": "mistake",
+            "vi": "mistake"
+          }
+        },
+        "ru": {
+          "text": "ошибка",
+          "ipa": "/oʂibka/",
+          "hints": {
+            "en": "ошибка",
+            "vi": "ошибка"
+          }
+        },
+        "vi": {
+          "text": "lỗi",
+          "ipa": "/loj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lỗi",
+            "en": "lỗi"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.correct",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "correct",
+          "ipa": "/correct/",
+          "hints": {
+            "ru": "correct",
+            "vi": "correct"
+          }
+        },
+        "ru": {
+          "text": "правильный",
+          "ipa": "/pravʲilʲnɨj/",
+          "hints": {
+            "en": "правильный",
+            "vi": "правильный"
+          }
+        },
+        "vi": {
+          "text": "đúng",
+          "ipa": "/ɗuŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đúng",
+            "en": "đúng"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.difficult",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "difficult",
+          "ipa": "/difficult/",
+          "hints": {
+            "ru": "difficult",
+            "vi": "difficult"
+          }
+        },
+        "ru": {
+          "text": "трудный",
+          "ipa": "/trudnɨj/",
+          "hints": {
+            "en": "трудный",
+            "vi": "трудный"
+          }
+        },
+        "vi": {
+          "text": "khó",
+          "ipa": "/xɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khó",
+            "en": "khó"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.smart",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "smart",
+          "ipa": "/smart/",
+          "hints": {
+            "ru": "smart",
+            "vi": "smart"
+          }
+        },
+        "ru": {
+          "text": "умный",
+          "ipa": "/umnɨj/",
+          "hints": {
+            "en": "умный",
+            "vi": "умный"
+          }
+        },
+        "vi": {
+          "text": "thông minh",
+          "ipa": "/tʰoŋ˧ miɲ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thông minh",
+            "en": "thông minh"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.learn",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "learn",
+          "ipa": "/learn/",
+          "hints": {
+            "ru": "learn",
+            "vi": "learn"
+          }
+        },
+        "ru": {
+          "text": "учить",
+          "ipa": "/utɕitʲ/",
+          "hints": {
+            "en": "учить",
+            "vi": "учить"
+          }
+        },
+        "vi": {
+          "text": "học",
+          "ipa": "/hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "học",
+            "en": "học"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.teach",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "teach",
+          "ipa": "/teach/",
+          "hints": {
+            "ru": "teach",
+            "vi": "teach"
+          }
+        },
+        "ru": {
+          "text": "преподавать",
+          "ipa": "/prʲepodavatʲ/",
+          "hints": {
+            "en": "преподавать",
+            "vi": "преподавать"
+          }
+        },
+        "vi": {
+          "text": "dạy",
+          "ipa": "/zaj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dạy",
+            "en": "dạy"
+          }
+        }
+      }
+    },
+    {
+      "id": "sch.explain",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "explain",
+          "ipa": "/explain/",
+          "hints": {
+            "ru": "explain",
+            "vi": "explain"
+          }
+        },
+        "ru": {
+          "text": "объяснять",
+          "ipa": "/objasnʲatʲ/",
+          "hints": {
+            "en": "объяснять",
+            "vi": "объяснять"
+          }
+        },
+        "vi": {
+          "text": "giải thích",
+          "ipa": "/zaːj˧˩˧ tʰik˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "giải thích",
+            "en": "giải thích"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tam Ngữ</string>
+    <string name="nav_study">Học</string>
+    <string name="nav_path">Lộ trình</string>
+    <string name="nav_cards">Thẻ</string>
+    <string name="nav_more">Thêm</string>
+    <string name="onboarding_title">Tạo hồ sơ</string>
+    <string name="onboarding_name">Tên</string>
+    <string name="onboarding_email">Email (không bắt buộc)</string>
+    <string name="onboarding_language">Tôi nói</string>
+    <string name="onboarding_targets">Tôi muốn học</string>
+    <string name="action_continue">Tiếp</string>
+    <string name="action_back">Quay lại</string>
+    <string name="session_progress">%1$d / %2$d</string>
+    <string name="action_create">Tạo</string>
+    <string name="action_start">Bắt đầu buổi học</string>
+    <string name="action_show">Hiện đáp án</string>
+    <string name="action_check">Kiểm tra</string>
+    <string name="rating_again">Lại</string>
+    <string name="rating_hard">Khó</string>
+    <string name="rating_good">Tốt</string>
+    <string name="rating_easy">Dễ</string>
+    <string name="label_due">Đến hạn</string>
+    <string name="label_streak">Chuỗi ngày</string>
+    <string name="label_ipa">IPA</string>
+    <string name="label_hint">Gợi ý</string>
+    <string name="label_grammar">Ngữ pháp</string>
+    <string name="label_tones">Thanh điệu</string>
+    <string name="label_speak">Đọc</string>
+    <string name="empty_session">Chưa có thẻ đến hạn. Mở lộ trình để học thêm.</string>
+    <string name="correct">Đúng</string>
+    <string name="incorrect">Chưa đúng</string>
+    <string name="accounts">Tài khoản</string>
+    <string name="add_account">Thêm tài khoản</string>
+    <string name="switch_account">Chuyển</string>
+    <string name="delete_account">Xóa</string>
+    <string name="confirm_delete">Xóa hồ sơ và tiến độ của hồ sơ này?</string>
+    <string name="cancel">Hủy</string>
+    <string name="settings_ui">Ngôn ngữ giao diện</string>
+    <string name="settings_native">Tôi biết</string>
+    <string name="settings_targets">Đang học</string>
+    <string name="settings_tts">Giọng nói</string>
+    <string name="stats_title">Thống kê</string>
+    <string name="export_current">Xuất hồ sơ hiện tại</string>
+    <string name="export_all">Xuất mọi hồ sơ</string>
+    <string name="import_backup">Nhập</string>
+    <string name="translator_title">Dịch</string>
+    <string name="translator_stub">Bản dịch trên máy sẽ có ở phiên bản sau. Thẻ đã có đủ ba ngôn ngữ.</string>
+    <string name="search">Tìm</string>
+    <string name="add_card">Thêm thẻ</string>
+    <string name="save">Lưu</string>
+    <string name="text_en">Tiếng Anh</string>
+    <string name="text_ru">Tiếng Nga</string>
+    <string name="text_vi">Tiếng Việt</string>
+    <string name="primer_vi_title">Thanh điệu tiếng Việt</string>
+    <string name="primer_vi_body">Sáu thanh đổi nghĩa: ma, má, mà, mả, mã, mạ. Dấu đặt trên nguyên âm.</string>
+    <string name="primer_ru_title">Chữ cái tiếng Nga</string>
+    <string name="primer_ru_body">Trọng âm di chuyển; o không nhấn nghe như a. Hãy học từ kèm trọng âm.</string>
+    <string name="primer_en_title">Câu hỏi tiếng Anh</string>
+    <string name="primer_en_body">Câu yes/no dùng do/does/did hoặc động từ khuyết thiếu trước chủ ngữ: Do you…? Can I…? WH + be/do: Where is…? What do you…?</string>
+    <string name="primer_done">Xong</string>
+    <string name="session_done">Xong buổi học</string>
+    <string name="build_sentence">Ghép câu</string>
+    <string name="pick_translation">Chọn bản dịch</string>
+    <string name="pick_tone">Chọn thanh</string>
+    <string name="third_form">Nữa</string>
+    <string name="unlocked">Đã mở</string>
+    <string name="locked">Khóa</string>
+    <string name="lang_en_endonym">English</string>
+    <string name="lang_ru_endonym">Русский</string>
+    <string name="lang_vi_endonym">Tiếng Việt</string>
+    <string name="error_generic">Có lỗi xảy ra</string>
+    <string-array name="tone_names">
+        <item>ngang</item>
+        <item>sắc</item>
+        <item>huyền</item>
+        <item>hỏi</item>
+        <item>ngã</item>
+        <item>nặng</item>
+    </string-array>
+</resources>

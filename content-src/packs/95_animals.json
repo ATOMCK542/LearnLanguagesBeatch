@@ -1,0 +1,979 @@
+{
+  "theme": {
+    "id": "animals",
+    "kind": "unit",
+    "order": 95,
+    "title": {
+      "en": "Animals",
+      "ru": "Животные",
+      "vi": "Động vật"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "an.animal",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "animal",
+          "ipa": "/animal/",
+          "hints": {
+            "ru": "animal",
+            "vi": "animal"
+          }
+        },
+        "ru": {
+          "text": "животное",
+          "ipa": "/ʐivotnoje/",
+          "hints": {
+            "en": "животное",
+            "vi": "животное"
+          }
+        },
+        "vi": {
+          "text": "động vật",
+          "ipa": "/ɗoŋ˧ˀ vət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "động vật",
+            "en": "động vật"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.dog",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dog",
+          "ipa": "/dog/",
+          "hints": {
+            "ru": "dog",
+            "vi": "dog"
+          }
+        },
+        "ru": {
+          "text": "собака",
+          "ipa": "/sobaka/",
+          "hints": {
+            "en": "собака",
+            "vi": "собака"
+          }
+        },
+        "vi": {
+          "text": "chó",
+          "ipa": "/tɕɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chó",
+            "en": "chó"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.cat",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cat",
+          "ipa": "/kæt/",
+          "hints": {
+            "ru": "cat",
+            "vi": "cat"
+          }
+        },
+        "ru": {
+          "text": "кошка",
+          "ipa": "/koʂka/",
+          "hints": {
+            "en": "кошка",
+            "vi": "кошка"
+          }
+        },
+        "vi": {
+          "text": "mèo",
+          "ipa": "/mɛw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mèo",
+            "en": "mèo"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.bird",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bird",
+          "ipa": "/bird/",
+          "hints": {
+            "ru": "bird",
+            "vi": "bird"
+          }
+        },
+        "ru": {
+          "text": "птица",
+          "ipa": "/ptʲitsa/",
+          "hints": {
+            "en": "птица",
+            "vi": "птица"
+          }
+        },
+        "vi": {
+          "text": "chim",
+          "ipa": "/tɕim˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chim",
+            "en": "chim"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.horse",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "horse",
+          "ipa": "/horse/",
+          "hints": {
+            "ru": "horse",
+            "vi": "horse"
+          }
+        },
+        "ru": {
+          "text": "лошадь",
+          "ipa": "/loʂadʲ/",
+          "hints": {
+            "en": "лошадь",
+            "vi": "лошадь"
+          }
+        },
+        "vi": {
+          "text": "ngựa",
+          "ipa": "/ŋɨə˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ngựa",
+            "en": "ngựa"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.cow",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cow",
+          "ipa": "/cow/",
+          "hints": {
+            "ru": "cow",
+            "vi": "cow"
+          }
+        },
+        "ru": {
+          "text": "корова",
+          "ipa": "/korova/",
+          "hints": {
+            "en": "корова",
+            "vi": "корова"
+          }
+        },
+        "vi": {
+          "text": "bò",
+          "ipa": "/ɓɔ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bò",
+            "en": "bò"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.pig",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pig",
+          "ipa": "/pig/",
+          "hints": {
+            "ru": "pig",
+            "vi": "pig"
+          }
+        },
+        "ru": {
+          "text": "свинья",
+          "ipa": "/svʲinʲja/",
+          "hints": {
+            "en": "свинья",
+            "vi": "свинья"
+          }
+        },
+        "vi": {
+          "text": "heo",
+          "ipa": "/hɛw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "heo",
+            "en": "heo"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.sheep",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sheep",
+          "ipa": "/sheep/",
+          "hints": {
+            "ru": "sheep",
+            "vi": "sheep"
+          }
+        },
+        "ru": {
+          "text": "овца",
+          "ipa": "/ovtsa/",
+          "hints": {
+            "en": "овца",
+            "vi": "овца"
+          }
+        },
+        "vi": {
+          "text": "cừu",
+          "ipa": "/kɨw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cừu",
+            "en": "cừu"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.chicken",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "chicken",
+          "ipa": "/chicken/",
+          "hints": {
+            "ru": "chicken",
+            "vi": "chicken"
+          }
+        },
+        "ru": {
+          "text": "курица",
+          "ipa": "/kurʲitsa/",
+          "hints": {
+            "en": "курица",
+            "vi": "курица"
+          }
+        },
+        "vi": {
+          "text": "gà",
+          "ipa": "/ɣaː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "gà",
+            "en": "gà"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.duck",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "duck",
+          "ipa": "/duck/",
+          "hints": {
+            "ru": "duck",
+            "vi": "duck"
+          }
+        },
+        "ru": {
+          "text": "утка",
+          "ipa": "/utka/",
+          "hints": {
+            "en": "утка",
+            "vi": "утка"
+          }
+        },
+        "vi": {
+          "text": "vịt",
+          "ipa": "/vit˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vịt",
+            "en": "vịt"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.mouse",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mouse",
+          "ipa": "/mouse/",
+          "hints": {
+            "ru": "mouse",
+            "vi": "mouse"
+          }
+        },
+        "ru": {
+          "text": "мышь",
+          "ipa": "/mɨʂ/",
+          "hints": {
+            "en": "мышь",
+            "vi": "мышь"
+          }
+        },
+        "vi": {
+          "text": "chuột",
+          "ipa": "/tɕuot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chuột",
+            "en": "chuột"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.rabbit",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rabbit",
+          "ipa": "/rabbit/",
+          "hints": {
+            "ru": "rabbit",
+            "vi": "rabbit"
+          }
+        },
+        "ru": {
+          "text": "кролик",
+          "ipa": "/krolʲik/",
+          "hints": {
+            "en": "кролик",
+            "vi": "кролик"
+          }
+        },
+        "vi": {
+          "text": "thỏ",
+          "ipa": "/tʰɔ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thỏ",
+            "en": "thỏ"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.bear",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bear",
+          "ipa": "/bear/",
+          "hints": {
+            "ru": "bear",
+            "vi": "bear"
+          }
+        },
+        "ru": {
+          "text": "медведь",
+          "ipa": "/mʲedvʲedʲ/",
+          "hints": {
+            "en": "медведь",
+            "vi": "медведь"
+          }
+        },
+        "vi": {
+          "text": "gấu",
+          "ipa": "/ɣəu˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "gấu",
+            "en": "gấu"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.lion",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lion",
+          "ipa": "/lion/",
+          "hints": {
+            "ru": "lion",
+            "vi": "lion"
+          }
+        },
+        "ru": {
+          "text": "лев",
+          "ipa": "/lʲev/",
+          "hints": {
+            "en": "лев",
+            "vi": "лев"
+          }
+        },
+        "vi": {
+          "text": "sư tử",
+          "ipa": "/sɨ˧ tɨ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sư tử",
+            "en": "sư tử"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.tiger",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tiger",
+          "ipa": "/tiger/",
+          "hints": {
+            "ru": "tiger",
+            "vi": "tiger"
+          }
+        },
+        "ru": {
+          "text": "тигр",
+          "ipa": "/tʲiɡr/",
+          "hints": {
+            "en": "тигр",
+            "vi": "тигр"
+          }
+        },
+        "vi": {
+          "text": "hổ",
+          "ipa": "/ho˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hổ",
+            "en": "hổ"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.elephant",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "elephant",
+          "ipa": "/elephant/",
+          "hints": {
+            "ru": "elephant",
+            "vi": "elephant"
+          }
+        },
+        "ru": {
+          "text": "слон",
+          "ipa": "/slon/",
+          "hints": {
+            "en": "слон",
+            "vi": "слон"
+          }
+        },
+        "vi": {
+          "text": "voi",
+          "ipa": "/vɔj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "voi",
+            "en": "voi"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.monkey",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "monkey",
+          "ipa": "/monkey/",
+          "hints": {
+            "ru": "monkey",
+            "vi": "monkey"
+          }
+        },
+        "ru": {
+          "text": "обезьяна",
+          "ipa": "/obʲezʲjana/",
+          "hints": {
+            "en": "обезьяна",
+            "vi": "обезьяна"
+          }
+        },
+        "vi": {
+          "text": "khỉ",
+          "ipa": "/xi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "khỉ",
+            "en": "khỉ"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.snake",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "snake",
+          "ipa": "/snake/",
+          "hints": {
+            "ru": "snake",
+            "vi": "snake"
+          }
+        },
+        "ru": {
+          "text": "змея",
+          "ipa": "/zmʲeja/",
+          "hints": {
+            "en": "змея",
+            "vi": "змея"
+          }
+        },
+        "vi": {
+          "text": "rắn",
+          "ipa": "/zan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "rắn",
+            "en": "rắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.frog",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "frog",
+          "ipa": "/frog/",
+          "hints": {
+            "ru": "frog",
+            "vi": "frog"
+          }
+        },
+        "ru": {
+          "text": "лягушка",
+          "ipa": "/lʲaɡuʂka/",
+          "hints": {
+            "en": "лягушка",
+            "vi": "лягушка"
+          }
+        },
+        "vi": {
+          "text": "ếch",
+          "ipa": "/ec˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ếch",
+            "en": "ếch"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.insect",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "insect",
+          "ipa": "/insect/",
+          "hints": {
+            "ru": "insect",
+            "vi": "insect"
+          }
+        },
+        "ru": {
+          "text": "насекомое",
+          "ipa": "/nasʲekomoje/",
+          "hints": {
+            "en": "насекомое",
+            "vi": "насекомое"
+          }
+        },
+        "vi": {
+          "text": "côn trùng",
+          "ipa": "/kon˧ tɕuŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "côn trùng",
+            "en": "côn trùng"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.bee",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bee",
+          "ipa": "/bee/",
+          "hints": {
+            "ru": "bee",
+            "vi": "bee"
+          }
+        },
+        "ru": {
+          "text": "пчела",
+          "ipa": "/ptɕela/",
+          "hints": {
+            "en": "пчела",
+            "vi": "пчела"
+          }
+        },
+        "vi": {
+          "text": "ong",
+          "ipa": "/ɔŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ong",
+            "en": "ong"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.butterfly",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "butterfly",
+          "ipa": "/butterfly/",
+          "hints": {
+            "ru": "butterfly",
+            "vi": "butterfly"
+          }
+        },
+        "ru": {
+          "text": "бабочка",
+          "ipa": "/babotɕka/",
+          "hints": {
+            "en": "бабочка",
+            "vi": "бабочка"
+          }
+        },
+        "vi": {
+          "text": "bướm",
+          "ipa": "/ɓɨəm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bướm",
+            "en": "bướm"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.pet",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pet",
+          "ipa": "/pet/",
+          "hints": {
+            "ru": "pet",
+            "vi": "pet"
+          }
+        },
+        "ru": {
+          "text": "питомец",
+          "ipa": "/pʲitomʲets/",
+          "hints": {
+            "en": "питомец",
+            "vi": "питомец"
+          }
+        },
+        "vi": {
+          "text": "thú cưng",
+          "ipa": "/tʰu˧˥ kɨŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thú cưng",
+            "en": "thú cưng"
+          }
+        }
+      }
+    },
+    {
+      "id": "an.wild",
+      "kind": "word",
+      "theme": "animals",
+      "tags": [
+        "theme:animals"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wild",
+          "ipa": "/wild/",
+          "hints": {
+            "ru": "wild",
+            "vi": "wild"
+          }
+        },
+        "ru": {
+          "text": "дикий",
+          "ipa": "/dʲikʲij/",
+          "hints": {
+            "en": "дикий",
+            "vi": "дикий"
+          }
+        },
+        "vi": {
+          "text": "hoang dã",
+          "ipa": "/hɔaːng˧ zaː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hoang dã",
+            "en": "hoang dã"
+          }
+        }
+      }
+    }
+  ]
+}

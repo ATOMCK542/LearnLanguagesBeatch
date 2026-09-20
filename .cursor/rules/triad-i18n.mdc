@@ -1,0 +1,23 @@
+---
+description: Локализация UI — en/ru/vi ресурсы, без захардкоженных строк
+globs: "**/res/**/*.xml,**/*.kt"
+alwaysApply: false
+---
+
+# i18n
+
+Каждый ключ обязан быть в `values/strings.xml` (EN default), `values-ru/`, `values-vi/`. Plurals: RU one/few/many, EN one/other, VI other. `localeConfig`: en, ru, vi.
+
+```kotlin
+// ❌ BAD
+Text("Учёба")
+Text("Due: $n")
+
+// ✅ GOOD
+Text(stringResource(R.string.nav_study))
+Text(pluralStringResource(R.plurals.due_count, n, n))
+```
+
+Имена языков в пикере — эндонимы (Русский / English / Tiếng Việt), не зависят от UI locale. Label приложения: Тройка / Triad / Tam Ngữ.
+
+Не оставлять английский fallback «на потом» для VI. Не склеивать предложения из кусков; только format strings. Никакого `"Study"` в Compose, XML layout и Snackbar.

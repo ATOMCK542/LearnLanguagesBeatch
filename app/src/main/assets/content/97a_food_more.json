@@ -1,0 +1,2019 @@
+{
+  "theme": {
+    "id": "food",
+    "kind": "unit",
+    "order": 82,
+    "title": {
+      "en": "Food",
+      "ru": "Еда",
+      "vi": "Đồ ăn"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "foodx.apple",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "apple",
+          "ipa": "/apple/",
+          "hints": {
+            "ru": "apple",
+            "vi": "apple"
+          }
+        },
+        "ru": {
+          "text": "яблоко",
+          "ipa": "/jabloko/",
+          "hints": {
+            "en": "яблоко",
+            "vi": "яблоко"
+          }
+        },
+        "vi": {
+          "text": "táo",
+          "ipa": "/taːw˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "táo",
+            "en": "táo"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.banana",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "banana",
+          "ipa": "/banana/",
+          "hints": {
+            "ru": "banana",
+            "vi": "banana"
+          }
+        },
+        "ru": {
+          "text": "банан",
+          "ipa": "/banan/",
+          "hints": {
+            "en": "банан",
+            "vi": "банан"
+          }
+        },
+        "vi": {
+          "text": "chuối",
+          "ipa": "/tɕuəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chuối",
+            "en": "chuối"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.orange_fruit",
+      "kind": "phrase",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "orange fruit",
+          "ipa": "/ˈɒrɪndʒ fruːt/",
+          "hints": {
+            "ru": "orange fruit",
+            "vi": "orange fruit"
+          }
+        },
+        "ru": {
+          "text": "апельсин",
+          "ipa": "/apʲelʲsʲin/",
+          "hints": {
+            "en": "апельсин",
+            "vi": "апельсин"
+          }
+        },
+        "vi": {
+          "text": "cam",
+          "ipa": "/kaːm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cam",
+            "en": "cam"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.lemon",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lemon",
+          "ipa": "/lemon/",
+          "hints": {
+            "ru": "lemon",
+            "vi": "lemon"
+          }
+        },
+        "ru": {
+          "text": "лимон",
+          "ipa": "/lʲimon/",
+          "hints": {
+            "en": "лимон",
+            "vi": "лимон"
+          }
+        },
+        "vi": {
+          "text": "chanh",
+          "ipa": "/tɕajŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chanh",
+            "en": "chanh"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.grape",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grape",
+          "ipa": "/grape/",
+          "hints": {
+            "ru": "grape",
+            "vi": "grape"
+          }
+        },
+        "ru": {
+          "text": "виноград",
+          "ipa": "/vʲinoɡrad/",
+          "hints": {
+            "en": "виноград",
+            "vi": "виноград"
+          }
+        },
+        "vi": {
+          "text": "nho",
+          "ipa": "/ɲɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nho",
+            "en": "nho"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.mango",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "mango",
+          "ipa": "/mango/",
+          "hints": {
+            "ru": "mango",
+            "vi": "mango"
+          }
+        },
+        "ru": {
+          "text": "манго",
+          "ipa": "/manɡo/",
+          "hints": {
+            "en": "манго",
+            "vi": "манго"
+          }
+        },
+        "vi": {
+          "text": "xoài",
+          "ipa": "/swaːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "xoài",
+            "en": "xoài"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.watermelon",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "watermelon",
+          "ipa": "/watermelon/",
+          "hints": {
+            "ru": "watermelon",
+            "vi": "watermelon"
+          }
+        },
+        "ru": {
+          "text": "арбуз",
+          "ipa": "/arbuz/",
+          "hints": {
+            "en": "арбуз",
+            "vi": "арбуз"
+          }
+        },
+        "vi": {
+          "text": "dưa hấu",
+          "ipa": "/zɨə˧ həu˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "dưa hấu",
+            "en": "dưa hấu"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.strawberry",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "strawberry",
+          "ipa": "/strawberry/",
+          "hints": {
+            "ru": "strawberry",
+            "vi": "strawberry"
+          }
+        },
+        "ru": {
+          "text": "клубника",
+          "ipa": "/klubnʲika/",
+          "hints": {
+            "en": "клубника",
+            "vi": "клубника"
+          }
+        },
+        "vi": {
+          "text": "dâu tây",
+          "ipa": "/zəu˧ təj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dâu tây",
+            "en": "dâu tây"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.tomato",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tomato",
+          "ipa": "/tomato/",
+          "hints": {
+            "ru": "tomato",
+            "vi": "tomato"
+          }
+        },
+        "ru": {
+          "text": "помидор",
+          "ipa": "/pomʲidor/",
+          "hints": {
+            "en": "помидор",
+            "vi": "помидор"
+          }
+        },
+        "vi": {
+          "text": "cà chua",
+          "ipa": "/kaː˧˩ tɕuə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cà chua",
+            "en": "cà chua"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.potato",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "potato",
+          "ipa": "/potato/",
+          "hints": {
+            "ru": "potato",
+            "vi": "potato"
+          }
+        },
+        "ru": {
+          "text": "картофель",
+          "ipa": "/kartofʲelʲ/",
+          "hints": {
+            "en": "картофель",
+            "vi": "картофель"
+          }
+        },
+        "vi": {
+          "text": "khoai tây",
+          "ipa": "/xwaːj˧ təj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "khoai tây",
+            "en": "khoai tây"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.carrot",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "carrot",
+          "ipa": "/carrot/",
+          "hints": {
+            "ru": "carrot",
+            "vi": "carrot"
+          }
+        },
+        "ru": {
+          "text": "морковь",
+          "ipa": "/morkovʲ/",
+          "hints": {
+            "en": "морковь",
+            "vi": "морковь"
+          }
+        },
+        "vi": {
+          "text": "cà rốt",
+          "ipa": "/kaː˧˩ zot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cà rốt",
+            "en": "cà rốt"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.onion",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "onion",
+          "ipa": "/onion/",
+          "hints": {
+            "ru": "onion",
+            "vi": "onion"
+          }
+        },
+        "ru": {
+          "text": "лук",
+          "ipa": "/luk/",
+          "hints": {
+            "en": "лук",
+            "vi": "лук"
+          }
+        },
+        "vi": {
+          "text": "hành",
+          "ipa": "/hajŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hành",
+            "en": "hành"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.garlic",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "garlic",
+          "ipa": "/garlic/",
+          "hints": {
+            "ru": "garlic",
+            "vi": "garlic"
+          }
+        },
+        "ru": {
+          "text": "чеснок",
+          "ipa": "/tɕesnok/",
+          "hints": {
+            "en": "чеснок",
+            "vi": "чеснок"
+          }
+        },
+        "vi": {
+          "text": "tỏi",
+          "ipa": "/tɔj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tỏi",
+            "en": "tỏi"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.pepper",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pepper",
+          "ipa": "/pepper/",
+          "hints": {
+            "ru": "pepper",
+            "vi": "pepper"
+          }
+        },
+        "ru": {
+          "text": "перец",
+          "ipa": "/pʲerʲets/",
+          "hints": {
+            "en": "перец",
+            "vi": "перец"
+          }
+        },
+        "vi": {
+          "text": "ớt / tiêu",
+          "ipa": "/əːt˧˥ tiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ớt / tiêu",
+            "en": "ớt / tiêu"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.salt",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "salt",
+          "ipa": "/salt/",
+          "hints": {
+            "ru": "salt",
+            "vi": "salt"
+          }
+        },
+        "ru": {
+          "text": "соль",
+          "ipa": "/solʲ/",
+          "hints": {
+            "en": "соль",
+            "vi": "соль"
+          }
+        },
+        "vi": {
+          "text": "muối",
+          "ipa": "/muəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "muối",
+            "en": "muối"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.oil",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "oil",
+          "ipa": "/oil/",
+          "hints": {
+            "ru": "oil",
+            "vi": "oil"
+          }
+        },
+        "ru": {
+          "text": "масло",
+          "ipa": "/maslo/",
+          "hints": {
+            "en": "масло",
+            "vi": "масло"
+          }
+        },
+        "vi": {
+          "text": "dầu",
+          "ipa": "/zəu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dầu",
+            "en": "dầu"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.egg",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "egg",
+          "ipa": "/egg/",
+          "hints": {
+            "ru": "egg",
+            "vi": "egg"
+          }
+        },
+        "ru": {
+          "text": "яйцо",
+          "ipa": "/jajtso/",
+          "hints": {
+            "en": "яйцо",
+            "vi": "яйцо"
+          }
+        },
+        "vi": {
+          "text": "trứng",
+          "ipa": "/tɕɨŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trứng",
+            "en": "trứng"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.cheese",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cheese",
+          "ipa": "/cheese/",
+          "hints": {
+            "ru": "cheese",
+            "vi": "cheese"
+          }
+        },
+        "ru": {
+          "text": "сыр",
+          "ipa": "/sɨr/",
+          "hints": {
+            "en": "сыр",
+            "vi": "сыр"
+          }
+        },
+        "vi": {
+          "text": "phô mai",
+          "ipa": "/fo˧ maːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "phô mai",
+            "en": "phô mai"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.butter",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "butter",
+          "ipa": "/butter/",
+          "hints": {
+            "ru": "butter",
+            "vi": "butter"
+          }
+        },
+        "ru": {
+          "text": "сливочное масло",
+          "ipa": "/slʲivotɕnoje maslo/",
+          "hints": {
+            "en": "сливочное масло",
+            "vi": "сливочное масло"
+          }
+        },
+        "vi": {
+          "text": "bơ",
+          "ipa": "/ɓəː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bơ",
+            "en": "bơ"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.yogurt",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "yogurt",
+          "ipa": "/yogurt/",
+          "hints": {
+            "ru": "yogurt",
+            "vi": "yogurt"
+          }
+        },
+        "ru": {
+          "text": "йогурт",
+          "ipa": "/joɡurt/",
+          "hints": {
+            "en": "йогурт",
+            "vi": "йогурт"
+          }
+        },
+        "vi": {
+          "text": "sữa chua",
+          "ipa": "/sɨə˧˥ˀ tɕuə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sữa chua",
+            "en": "sữa chua"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.soup",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "soup",
+          "ipa": "/soup/",
+          "hints": {
+            "ru": "soup",
+            "vi": "soup"
+          }
+        },
+        "ru": {
+          "text": "суп",
+          "ipa": "/sup/",
+          "hints": {
+            "en": "суп",
+            "vi": "суп"
+          }
+        },
+        "vi": {
+          "text": "súp",
+          "ipa": "/sup˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "súp",
+            "en": "súp"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.salad",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "salad",
+          "ipa": "/salad/",
+          "hints": {
+            "ru": "salad",
+            "vi": "salad"
+          }
+        },
+        "ru": {
+          "text": "салат",
+          "ipa": "/salat/",
+          "hints": {
+            "en": "салат",
+            "vi": "салат"
+          }
+        },
+        "vi": {
+          "text": "salad",
+          "ipa": "/saːlaːd˧/",
+          "tones": [],
+          "hints": {
+            "ru": "salad",
+            "en": "salad"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.noodle",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "noodle",
+          "ipa": "/noodle/",
+          "hints": {
+            "ru": "noodle",
+            "vi": "noodle"
+          }
+        },
+        "ru": {
+          "text": "лапша",
+          "ipa": "/lapʂa/",
+          "hints": {
+            "en": "лапша",
+            "vi": "лапша"
+          }
+        },
+        "vi": {
+          "text": "mì",
+          "ipa": "/mi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mì",
+            "en": "mì"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.pasta",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pasta",
+          "ipa": "/pasta/",
+          "hints": {
+            "ru": "pasta",
+            "vi": "pasta"
+          }
+        },
+        "ru": {
+          "text": "паста",
+          "ipa": "/pasta/",
+          "hints": {
+            "en": "паста",
+            "vi": "паста"
+          }
+        },
+        "vi": {
+          "text": "mì Ý",
+          "ipa": "/mi˧˩ i˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mì Ý",
+            "en": "mì Ý"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.pizza",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "pizza",
+          "ipa": "/pizza/",
+          "hints": {
+            "ru": "pizza",
+            "vi": "pizza"
+          }
+        },
+        "ru": {
+          "text": "пицца",
+          "ipa": "/pʲitstsa/",
+          "hints": {
+            "en": "пицца",
+            "vi": "пицца"
+          }
+        },
+        "vi": {
+          "text": "pizza",
+          "ipa": "/pizzaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "pizza",
+            "en": "pizza"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.sandwich",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sandwich",
+          "ipa": "/sandwich/",
+          "hints": {
+            "ru": "sandwich",
+            "vi": "sandwich"
+          }
+        },
+        "ru": {
+          "text": "бутерброд",
+          "ipa": "/butʲerbrod/",
+          "hints": {
+            "en": "бутерброд",
+            "vi": "бутерброд"
+          }
+        },
+        "vi": {
+          "text": "bánh sandwich",
+          "ipa": "/ɓajŋ˧˥ saːndwich˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bánh sandwich",
+            "en": "bánh sandwich"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.cake",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cake",
+          "ipa": "/cake/",
+          "hints": {
+            "ru": "cake",
+            "vi": "cake"
+          }
+        },
+        "ru": {
+          "text": "торт",
+          "ipa": "/tort/",
+          "hints": {
+            "en": "торт",
+            "vi": "торт"
+          }
+        },
+        "vi": {
+          "text": "bánh ngọt",
+          "ipa": "/ɓajŋ˧˥ ŋɔt˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bánh ngọt",
+            "en": "bánh ngọt"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.cookie",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cookie",
+          "ipa": "/cookie/",
+          "hints": {
+            "ru": "cookie",
+            "vi": "cookie"
+          }
+        },
+        "ru": {
+          "text": "печенье",
+          "ipa": "/pʲetɕenʲje/",
+          "hints": {
+            "en": "печенье",
+            "vi": "печенье"
+          }
+        },
+        "vi": {
+          "text": "bánh quy",
+          "ipa": "/ɓajŋ˧˥ kwi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bánh quy",
+            "en": "bánh quy"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.ice_cream",
+      "kind": "phrase",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ice cream",
+          "ipa": "/aɪs kriːm/",
+          "hints": {
+            "ru": "ice cream",
+            "vi": "ice cream"
+          }
+        },
+        "ru": {
+          "text": "мороженое",
+          "ipa": "/moroʐenoje/",
+          "hints": {
+            "en": "мороженое",
+            "vi": "мороженое"
+          }
+        },
+        "vi": {
+          "text": "kem",
+          "ipa": "/kɛm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kem",
+            "en": "kem"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.chocolate",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "chocolate",
+          "ipa": "/chocolate/",
+          "hints": {
+            "ru": "chocolate",
+            "vi": "chocolate"
+          }
+        },
+        "ru": {
+          "text": "шоколад",
+          "ipa": "/ʂokolad/",
+          "hints": {
+            "en": "шоколад",
+            "vi": "шоколад"
+          }
+        },
+        "vi": {
+          "text": "sô cô la",
+          "ipa": "/so˧ ko˧ laː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sô cô la",
+            "en": "sô cô la"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.candy",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "candy",
+          "ipa": "/candy/",
+          "hints": {
+            "ru": "candy",
+            "vi": "candy"
+          }
+        },
+        "ru": {
+          "text": "конфета",
+          "ipa": "/konfʲeta/",
+          "hints": {
+            "en": "конфета",
+            "vi": "конфета"
+          }
+        },
+        "vi": {
+          "text": "kẹo",
+          "ipa": "/kɛw˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "kẹo",
+            "en": "kẹo"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.juice",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "juice",
+          "ipa": "/juice/",
+          "hints": {
+            "ru": "juice",
+            "vi": "juice"
+          }
+        },
+        "ru": {
+          "text": "сок",
+          "ipa": "/sok/",
+          "hints": {
+            "en": "сок",
+            "vi": "сок"
+          }
+        },
+        "vi": {
+          "text": "nước ép",
+          "ipa": "/nɨək˧˥ ɛp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nước ép",
+            "en": "nước ép"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.beer",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "beer",
+          "ipa": "/beer/",
+          "hints": {
+            "ru": "beer",
+            "vi": "beer"
+          }
+        },
+        "ru": {
+          "text": "пиво",
+          "ipa": "/pʲivo/",
+          "hints": {
+            "en": "пиво",
+            "vi": "пиво"
+          }
+        },
+        "vi": {
+          "text": "bia",
+          "ipa": "/ɓiə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bia",
+            "en": "bia"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.wine",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wine",
+          "ipa": "/wine/",
+          "hints": {
+            "ru": "wine",
+            "vi": "wine"
+          }
+        },
+        "ru": {
+          "text": "вино",
+          "ipa": "/vʲino/",
+          "hints": {
+            "en": "вино",
+            "vi": "вино"
+          }
+        },
+        "vi": {
+          "text": "rượu vang",
+          "ipa": "/zɨəːu˧ˀ vaːŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "rượu vang",
+            "en": "rượu vang"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.breakfast",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "breakfast",
+          "ipa": "/breakfast/",
+          "hints": {
+            "ru": "breakfast",
+            "vi": "breakfast"
+          }
+        },
+        "ru": {
+          "text": "завтрак",
+          "ipa": "/zavtrak/",
+          "hints": {
+            "en": "завтрак",
+            "vi": "завтрак"
+          }
+        },
+        "vi": {
+          "text": "bữa sáng",
+          "ipa": "/ɓɨə˧˥ˀ saːŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bữa sáng",
+            "en": "bữa sáng"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.lunch",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lunch",
+          "ipa": "/lunch/",
+          "hints": {
+            "ru": "lunch",
+            "vi": "lunch"
+          }
+        },
+        "ru": {
+          "text": "обед",
+          "ipa": "/obʲed/",
+          "hints": {
+            "en": "обед",
+            "vi": "обед"
+          }
+        },
+        "vi": {
+          "text": "bữa trưa",
+          "ipa": "/ɓɨə˧˥ˀ tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bữa trưa",
+            "en": "bữa trưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.dinner",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "dinner",
+          "ipa": "/dinner/",
+          "hints": {
+            "ru": "dinner",
+            "vi": "dinner"
+          }
+        },
+        "ru": {
+          "text": "ужин",
+          "ipa": "/uʐin/",
+          "hints": {
+            "en": "ужин",
+            "vi": "ужин"
+          }
+        },
+        "vi": {
+          "text": "bữa tối",
+          "ipa": "/ɓɨə˧˥ˀ toj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bữa tối",
+            "en": "bữa tối"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.snack",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "snack",
+          "ipa": "/snack/",
+          "hints": {
+            "ru": "snack",
+            "vi": "snack"
+          }
+        },
+        "ru": {
+          "text": "закуска",
+          "ipa": "/zakuska/",
+          "hints": {
+            "en": "закуска",
+            "vi": "закуска"
+          }
+        },
+        "vi": {
+          "text": "đồ ăn vặt",
+          "ipa": "/ɗo˧˩ an˧ vat˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đồ ăn vặt",
+            "en": "đồ ăn vặt"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.spicy",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "spicy",
+          "ipa": "/ˈspaɪsi/",
+          "hints": {
+            "ru": "spicy",
+            "vi": "spicy"
+          }
+        },
+        "ru": {
+          "text": "острый",
+          "ipa": "/ostrɨj/",
+          "hints": {
+            "en": "острый",
+            "vi": "острый"
+          }
+        },
+        "vi": {
+          "text": "cay",
+          "ipa": "/kaj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cay",
+            "en": "cay"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.sweet",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sweet",
+          "ipa": "/sweet/",
+          "hints": {
+            "ru": "sweet",
+            "vi": "sweet"
+          }
+        },
+        "ru": {
+          "text": "сладкий",
+          "ipa": "/sladkʲij/",
+          "hints": {
+            "en": "сладкий",
+            "vi": "сладкий"
+          }
+        },
+        "vi": {
+          "text": "ngọt",
+          "ipa": "/ŋɔt˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ngọt",
+            "en": "ngọt"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.sour",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sour",
+          "ipa": "/sour/",
+          "hints": {
+            "ru": "sour",
+            "vi": "sour"
+          }
+        },
+        "ru": {
+          "text": "кислый",
+          "ipa": "/kʲislɨj/",
+          "hints": {
+            "en": "кислый",
+            "vi": "кислый"
+          }
+        },
+        "vi": {
+          "text": "chua",
+          "ipa": "/tɕuə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chua",
+            "en": "chua"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.bitter",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bitter",
+          "ipa": "/bitter/",
+          "hints": {
+            "ru": "bitter",
+            "vi": "bitter"
+          }
+        },
+        "ru": {
+          "text": "горький",
+          "ipa": "/ɡorʲkʲij/",
+          "hints": {
+            "en": "горький",
+            "vi": "горький"
+          }
+        },
+        "vi": {
+          "text": "đắng",
+          "ipa": "/ɗaŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đắng",
+            "en": "đắng"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.salty",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "salty",
+          "ipa": "/salty/",
+          "hints": {
+            "ru": "salty",
+            "vi": "salty"
+          }
+        },
+        "ru": {
+          "text": "солёный",
+          "ipa": "/solʲonɨj/",
+          "hints": {
+            "en": "солёный",
+            "vi": "солёный"
+          }
+        },
+        "vi": {
+          "text": "mặn",
+          "ipa": "/man˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mặn",
+            "en": "mặn"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.fresh",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fresh",
+          "ipa": "/fresh/",
+          "hints": {
+            "ru": "fresh",
+            "vi": "fresh"
+          }
+        },
+        "ru": {
+          "text": "свежий",
+          "ipa": "/svʲeʐij/",
+          "hints": {
+            "en": "свежий",
+            "vi": "свежий"
+          }
+        },
+        "vi": {
+          "text": "tươi",
+          "ipa": "/tɨəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tươi",
+            "en": "tươi"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.raw",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "raw",
+          "ipa": "/raw/",
+          "hints": {
+            "ru": "raw",
+            "vi": "raw"
+          }
+        },
+        "ru": {
+          "text": "сырой",
+          "ipa": "/sɨroj/",
+          "hints": {
+            "en": "сырой",
+            "vi": "сырой"
+          }
+        },
+        "vi": {
+          "text": "sống",
+          "ipa": "/soŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sống",
+            "en": "sống"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.cooked",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cooked",
+          "ipa": "/cooked/",
+          "hints": {
+            "ru": "cooked",
+            "vi": "cooked"
+          }
+        },
+        "ru": {
+          "text": "приготовленный",
+          "ipa": "/prʲiɡotovlʲennɨj/",
+          "hints": {
+            "en": "приготовленный",
+            "vi": "приготовленный"
+          }
+        },
+        "vi": {
+          "text": "đã nấu",
+          "ipa": "/ɗaː˧˥ˀ nəu˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đã nấu",
+            "en": "đã nấu"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.boil",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "boil",
+          "ipa": "/boil/",
+          "hints": {
+            "ru": "boil",
+            "vi": "boil"
+          }
+        },
+        "ru": {
+          "text": "варить",
+          "ipa": "/varʲitʲ/",
+          "hints": {
+            "en": "варить",
+            "vi": "варить"
+          }
+        },
+        "vi": {
+          "text": "luộc",
+          "ipa": "/luək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "luộc",
+            "en": "luộc"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.fry",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fry",
+          "ipa": "/fry/",
+          "hints": {
+            "ru": "fry",
+            "vi": "fry"
+          }
+        },
+        "ru": {
+          "text": "жарить",
+          "ipa": "/ʐarʲitʲ/",
+          "hints": {
+            "en": "жарить",
+            "vi": "жарить"
+          }
+        },
+        "vi": {
+          "text": "chiên",
+          "ipa": "/tɕiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chiên",
+            "en": "chiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.bake",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bake",
+          "ipa": "/bake/",
+          "hints": {
+            "ru": "bake",
+            "vi": "bake"
+          }
+        },
+        "ru": {
+          "text": "печь",
+          "ipa": "/pʲetɕ/",
+          "hints": {
+            "en": "печь",
+            "vi": "печь"
+          }
+        },
+        "vi": {
+          "text": "nướng",
+          "ipa": "/nɨəŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nướng",
+            "en": "nướng"
+          }
+        }
+      }
+    },
+    {
+      "id": "foodx.taste",
+      "kind": "word",
+      "theme": "food",
+      "tags": [
+        "theme:food"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "taste",
+          "ipa": "/taste/",
+          "hints": {
+            "ru": "taste",
+            "vi": "taste"
+          }
+        },
+        "ru": {
+          "text": "вкус",
+          "ipa": "/vkus/",
+          "hints": {
+            "en": "вкус",
+            "vi": "вкус"
+          }
+        },
+        "vi": {
+          "text": "vị",
+          "ipa": "/vi˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vị",
+            "en": "vị"
+          }
+        }
+      }
+    }
+  ]
+}

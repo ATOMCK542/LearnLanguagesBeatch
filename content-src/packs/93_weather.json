@@ -1,0 +1,1179 @@
+{
+  "theme": {
+    "id": "weather",
+    "kind": "unit",
+    "order": 93,
+    "title": {
+      "en": "Weather",
+      "ru": "Погода",
+      "vi": "Thời tiết"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "wx.weather",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "weather",
+          "ipa": "/weather/",
+          "hints": {
+            "ru": "weather",
+            "vi": "weather"
+          }
+        },
+        "ru": {
+          "text": "погода",
+          "ipa": "/poɡoda/",
+          "hints": {
+            "en": "погода",
+            "vi": "погода"
+          }
+        },
+        "vi": {
+          "text": "thời tiết",
+          "ipa": "/tʰəːj˧˩ tiət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thời tiết",
+            "en": "thời tiết"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.sun",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sun",
+          "ipa": "/sun/",
+          "hints": {
+            "ru": "sun",
+            "vi": "sun"
+          }
+        },
+        "ru": {
+          "text": "солнце",
+          "ipa": "/solntse/",
+          "hints": {
+            "en": "солнце",
+            "vi": "солнце"
+          }
+        },
+        "vi": {
+          "text": "mặt trời",
+          "ipa": "/mat˧ˀ tɕəːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mặt trời",
+            "en": "mặt trời"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.sunny",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sunny",
+          "ipa": "/sunny/",
+          "hints": {
+            "ru": "sunny",
+            "vi": "sunny"
+          }
+        },
+        "ru": {
+          "text": "солнечно",
+          "ipa": "/solnʲetɕno/",
+          "hints": {
+            "en": "солнечно",
+            "vi": "солнечно"
+          }
+        },
+        "vi": {
+          "text": "nắng",
+          "ipa": "/naŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nắng",
+            "en": "nắng"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.rain",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rain",
+          "ipa": "/rain/",
+          "hints": {
+            "ru": "rain",
+            "vi": "rain"
+          }
+        },
+        "ru": {
+          "text": "дождь",
+          "ipa": "/doʐdʲ/",
+          "hints": {
+            "en": "дождь",
+            "vi": "дождь"
+          }
+        },
+        "vi": {
+          "text": "mưa",
+          "ipa": "/mɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mưa",
+            "en": "mưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.rainy",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "rainy",
+          "ipa": "/rainy/",
+          "hints": {
+            "ru": "rainy",
+            "vi": "rainy"
+          }
+        },
+        "ru": {
+          "text": "дождливо",
+          "ipa": "/doʐdlʲivo/",
+          "hints": {
+            "en": "дождливо",
+            "vi": "дождливо"
+          }
+        },
+        "vi": {
+          "text": "mưa",
+          "ipa": "/mɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mưa",
+            "en": "mưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.cloud",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cloud",
+          "ipa": "/cloud/",
+          "hints": {
+            "ru": "cloud",
+            "vi": "cloud"
+          }
+        },
+        "ru": {
+          "text": "облако",
+          "ipa": "/oblako/",
+          "hints": {
+            "en": "облако",
+            "vi": "облако"
+          }
+        },
+        "vi": {
+          "text": "mây",
+          "ipa": "/məj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mây",
+            "en": "mây"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.cloudy",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cloudy",
+          "ipa": "/cloudy/",
+          "hints": {
+            "ru": "cloudy",
+            "vi": "cloudy"
+          }
+        },
+        "ru": {
+          "text": "облачно",
+          "ipa": "/oblatɕno/",
+          "hints": {
+            "en": "облачно",
+            "vi": "облачно"
+          }
+        },
+        "vi": {
+          "text": "nhiều mây",
+          "ipa": "/ɲiəw˧˩ məj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều mây",
+            "en": "nhiều mây"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.wind",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wind",
+          "ipa": "/wind/",
+          "hints": {
+            "ru": "wind",
+            "vi": "wind"
+          }
+        },
+        "ru": {
+          "text": "ветер",
+          "ipa": "/vʲetʲer/",
+          "hints": {
+            "en": "ветер",
+            "vi": "ветер"
+          }
+        },
+        "vi": {
+          "text": "gió",
+          "ipa": "/zɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "gió",
+            "en": "gió"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.windy",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "windy",
+          "ipa": "/windy/",
+          "hints": {
+            "ru": "windy",
+            "vi": "windy"
+          }
+        },
+        "ru": {
+          "text": "ветрено",
+          "ipa": "/vʲetrʲeno/",
+          "hints": {
+            "en": "ветрено",
+            "vi": "ветрено"
+          }
+        },
+        "vi": {
+          "text": "gió",
+          "ipa": "/zɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "gió",
+            "en": "gió"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.snow",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "snow",
+          "ipa": "/snow/",
+          "hints": {
+            "ru": "snow",
+            "vi": "snow"
+          }
+        },
+        "ru": {
+          "text": "снег",
+          "ipa": "/snʲeɡ/",
+          "hints": {
+            "en": "снег",
+            "vi": "снег"
+          }
+        },
+        "vi": {
+          "text": "tuyết",
+          "ipa": "/tuiet˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tuyết",
+            "en": "tuyết"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.snowy",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "snowy",
+          "ipa": "/snowy/",
+          "hints": {
+            "ru": "snowy",
+            "vi": "snowy"
+          }
+        },
+        "ru": {
+          "text": "снежно",
+          "ipa": "/snʲeʐno/",
+          "hints": {
+            "en": "снежно",
+            "vi": "снежно"
+          }
+        },
+        "vi": {
+          "text": "có tuyết",
+          "ipa": "/kɔ˧˥ tuiet˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "có tuyết",
+            "en": "có tuyết"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.storm",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "storm",
+          "ipa": "/storm/",
+          "hints": {
+            "ru": "storm",
+            "vi": "storm"
+          }
+        },
+        "ru": {
+          "text": "шторм",
+          "ipa": "/ʂtorm/",
+          "hints": {
+            "en": "шторм",
+            "vi": "шторм"
+          }
+        },
+        "vi": {
+          "text": "bão",
+          "ipa": "/ɓaːw˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bão",
+            "en": "bão"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.thunder",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "thunder",
+          "ipa": "/thunder/",
+          "hints": {
+            "ru": "thunder",
+            "vi": "thunder"
+          }
+        },
+        "ru": {
+          "text": "гром",
+          "ipa": "/ɡrom/",
+          "hints": {
+            "en": "гром",
+            "vi": "гром"
+          }
+        },
+        "vi": {
+          "text": "sấm",
+          "ipa": "/səm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sấm",
+            "en": "sấm"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.lightning",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "lightning",
+          "ipa": "/lightning/",
+          "hints": {
+            "ru": "lightning",
+            "vi": "lightning"
+          }
+        },
+        "ru": {
+          "text": "молния",
+          "ipa": "/molnʲija/",
+          "hints": {
+            "en": "молния",
+            "vi": "молния"
+          }
+        },
+        "vi": {
+          "text": "chớp",
+          "ipa": "/tɕəːp˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chớp",
+            "en": "chớp"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.fog",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fog",
+          "ipa": "/fog/",
+          "hints": {
+            "ru": "fog",
+            "vi": "fog"
+          }
+        },
+        "ru": {
+          "text": "туман",
+          "ipa": "/tuman/",
+          "hints": {
+            "en": "туман",
+            "vi": "туман"
+          }
+        },
+        "vi": {
+          "text": "sương mù",
+          "ipa": "/sɨəŋ˧ mu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "sương mù",
+            "en": "sương mù"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.hot_weather",
+      "kind": "phrase",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hot weather",
+          "ipa": "/hɒt ˈweðə/",
+          "hints": {
+            "ru": "hot weather",
+            "vi": "hot weather"
+          }
+        },
+        "ru": {
+          "text": "жара",
+          "ipa": "/ʐara/",
+          "hints": {
+            "en": "жара",
+            "vi": "жара"
+          }
+        },
+        "vi": {
+          "text": "trời nóng",
+          "ipa": "/tɕəːj˧˩ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trời nóng",
+            "en": "trời nóng"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.cold_weather",
+      "kind": "phrase",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cold weather",
+          "ipa": "/kəʊld ˈweðə/",
+          "hints": {
+            "ru": "cold weather",
+            "vi": "cold weather"
+          }
+        },
+        "ru": {
+          "text": "холод",
+          "ipa": "/xolod/",
+          "hints": {
+            "en": "холод",
+            "vi": "холод"
+          }
+        },
+        "vi": {
+          "text": "trời lạnh",
+          "ipa": "/tɕəːj˧˩ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "trời lạnh",
+            "en": "trời lạnh"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.warm_weather",
+      "kind": "phrase",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "warm weather",
+          "ipa": "/wɔːm ˈweðə/",
+          "hints": {
+            "ru": "warm weather",
+            "vi": "warm weather"
+          }
+        },
+        "ru": {
+          "text": "тепло",
+          "ipa": "/tʲeplo/",
+          "hints": {
+            "en": "тепло",
+            "vi": "тепло"
+          }
+        },
+        "vi": {
+          "text": "trời ấm",
+          "ipa": "/tɕəːj˧˩ əm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trời ấm",
+            "en": "trời ấm"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.cool_weather",
+      "kind": "phrase",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "cool weather",
+          "ipa": "/kuːl ˈweðə/",
+          "hints": {
+            "ru": "cool weather",
+            "vi": "cool weather"
+          }
+        },
+        "ru": {
+          "text": "прохладно",
+          "ipa": "/proxladno/",
+          "hints": {
+            "en": "прохладно",
+            "vi": "прохладно"
+          }
+        },
+        "vi": {
+          "text": "trời mát",
+          "ipa": "/tɕəːj˧˩ maːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trời mát",
+            "en": "trời mát"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.temperature",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "temperature",
+          "ipa": "/temperature/",
+          "hints": {
+            "ru": "temperature",
+            "vi": "temperature"
+          }
+        },
+        "ru": {
+          "text": "температура",
+          "ipa": "/tʲempʲeratura/",
+          "hints": {
+            "en": "температура",
+            "vi": "температура"
+          }
+        },
+        "vi": {
+          "text": "nhiệt độ",
+          "ipa": "/ɲiət˧ˀ ɗo˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiệt độ",
+            "en": "nhiệt độ"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.degree",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "degree",
+          "ipa": "/degree/",
+          "hints": {
+            "ru": "degree",
+            "vi": "degree"
+          }
+        },
+        "ru": {
+          "text": "градус",
+          "ipa": "/ɡradus/",
+          "hints": {
+            "en": "градус",
+            "vi": "градус"
+          }
+        },
+        "vi": {
+          "text": "độ",
+          "ipa": "/ɗo˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "độ",
+            "en": "độ"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.season",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "season",
+          "ipa": "/season/",
+          "hints": {
+            "ru": "season",
+            "vi": "season"
+          }
+        },
+        "ru": {
+          "text": "сезон",
+          "ipa": "/sʲezon/",
+          "hints": {
+            "en": "сезон",
+            "vi": "сезон"
+          }
+        },
+        "vi": {
+          "text": "mùa",
+          "ipa": "/muə˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mùa",
+            "en": "mùa"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.spring",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "spring",
+          "ipa": "/spring/",
+          "hints": {
+            "ru": "spring",
+            "vi": "spring"
+          }
+        },
+        "ru": {
+          "text": "весна",
+          "ipa": "/vʲesna/",
+          "hints": {
+            "en": "весна",
+            "vi": "весна"
+          }
+        },
+        "vi": {
+          "text": "mùa xuân",
+          "ipa": "/muə˧˩ swən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mùa xuân",
+            "en": "mùa xuân"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.summer",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "summer",
+          "ipa": "/summer/",
+          "hints": {
+            "ru": "summer",
+            "vi": "summer"
+          }
+        },
+        "ru": {
+          "text": "лето",
+          "ipa": "/lʲeto/",
+          "hints": {
+            "en": "лето",
+            "vi": "лето"
+          }
+        },
+        "vi": {
+          "text": "mùa hè",
+          "ipa": "/muə˧˩ hɛ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mùa hè",
+            "en": "mùa hè"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.autumn",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "autumn",
+          "ipa": "/autumn/",
+          "hints": {
+            "ru": "autumn",
+            "vi": "autumn"
+          }
+        },
+        "ru": {
+          "text": "осень",
+          "ipa": "/osʲenʲ/",
+          "hints": {
+            "en": "осень",
+            "vi": "осень"
+          }
+        },
+        "vi": {
+          "text": "mùa thu",
+          "ipa": "/muə˧˩ tʰu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mùa thu",
+            "en": "mùa thu"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.winter",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "winter",
+          "ipa": "/winter/",
+          "hints": {
+            "ru": "winter",
+            "vi": "winter"
+          }
+        },
+        "ru": {
+          "text": "зима",
+          "ipa": "/zʲima/",
+          "hints": {
+            "en": "зима",
+            "vi": "зима"
+          }
+        },
+        "vi": {
+          "text": "mùa đông",
+          "ipa": "/muə˧˩ ɗoŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mùa đông",
+            "en": "mùa đông"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.sky",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sky",
+          "ipa": "/sky/",
+          "hints": {
+            "ru": "sky",
+            "vi": "sky"
+          }
+        },
+        "ru": {
+          "text": "небо",
+          "ipa": "/nʲebo/",
+          "hints": {
+            "en": "небо",
+            "vi": "небо"
+          }
+        },
+        "vi": {
+          "text": "bầu trời",
+          "ipa": "/ɓəu˧˩ tɕəːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bầu trời",
+            "en": "bầu trời"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.star",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "star",
+          "ipa": "/star/",
+          "hints": {
+            "ru": "star",
+            "vi": "star"
+          }
+        },
+        "ru": {
+          "text": "звезда",
+          "ipa": "/zvʲezda/",
+          "hints": {
+            "en": "звезда",
+            "vi": "звезда"
+          }
+        },
+        "vi": {
+          "text": "ngôi sao",
+          "ipa": "/ŋoj˧ saːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngôi sao",
+            "en": "ngôi sao"
+          }
+        }
+      }
+    },
+    {
+      "id": "wx.moon",
+      "kind": "word",
+      "theme": "weather",
+      "tags": [
+        "theme:weather"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "moon",
+          "ipa": "/moon/",
+          "hints": {
+            "ru": "moon",
+            "vi": "moon"
+          }
+        },
+        "ru": {
+          "text": "луна",
+          "ipa": "/luna/",
+          "hints": {
+            "en": "луна",
+            "vi": "луна"
+          }
+        },
+        "vi": {
+          "text": "mặt trăng",
+          "ipa": "/mat˧ˀ tɕaŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mặt trăng",
+            "en": "mặt trăng"
+          }
+        }
+      }
+    }
+  ]
+}

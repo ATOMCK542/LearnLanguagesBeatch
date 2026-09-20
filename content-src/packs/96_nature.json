@@ -1,0 +1,779 @@
+{
+  "theme": {
+    "id": "nature",
+    "kind": "unit",
+    "order": 96,
+    "title": {
+      "en": "Nature",
+      "ru": "Природа",
+      "vi": "Thiên nhiên"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "nat.tree",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tree",
+          "ipa": "/tree/",
+          "hints": {
+            "ru": "tree",
+            "vi": "tree"
+          }
+        },
+        "ru": {
+          "text": "дерево",
+          "ipa": "/dʲerʲevo/",
+          "hints": {
+            "en": "дерево",
+            "vi": "дерево"
+          }
+        },
+        "vi": {
+          "text": "cây",
+          "ipa": "/kəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cây",
+            "en": "cây"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.flower",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "flower",
+          "ipa": "/flower/",
+          "hints": {
+            "ru": "flower",
+            "vi": "flower"
+          }
+        },
+        "ru": {
+          "text": "цветок",
+          "ipa": "/tsvʲetok/",
+          "hints": {
+            "en": "цветок",
+            "vi": "цветок"
+          }
+        },
+        "vi": {
+          "text": "hoa",
+          "ipa": "/hwaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hoa",
+            "en": "hoa"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.grass",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "grass",
+          "ipa": "/grass/",
+          "hints": {
+            "ru": "grass",
+            "vi": "grass"
+          }
+        },
+        "ru": {
+          "text": "трава",
+          "ipa": "/trava/",
+          "hints": {
+            "en": "трава",
+            "vi": "трава"
+          }
+        },
+        "vi": {
+          "text": "cỏ",
+          "ipa": "/kɔ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cỏ",
+            "en": "cỏ"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.leaf",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "leaf",
+          "ipa": "/leaf/",
+          "hints": {
+            "ru": "leaf",
+            "vi": "leaf"
+          }
+        },
+        "ru": {
+          "text": "лист",
+          "ipa": "/lʲist/",
+          "hints": {
+            "en": "лист",
+            "vi": "лист"
+          }
+        },
+        "vi": {
+          "text": "lá",
+          "ipa": "/laː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "lá",
+            "en": "lá"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.plant",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "plant",
+          "ipa": "/plant/",
+          "hints": {
+            "ru": "plant",
+            "vi": "plant"
+          }
+        },
+        "ru": {
+          "text": "растение",
+          "ipa": "/rastʲenʲije/",
+          "hints": {
+            "en": "растение",
+            "vi": "растение"
+          }
+        },
+        "vi": {
+          "text": "cây trồng",
+          "ipa": "/kəj˧ tɕoŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cây trồng",
+            "en": "cây trồng"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.earth",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "earth",
+          "ipa": "/earth/",
+          "hints": {
+            "ru": "earth",
+            "vi": "earth"
+          }
+        },
+        "ru": {
+          "text": "земля",
+          "ipa": "/zʲemlʲa/",
+          "hints": {
+            "en": "земля",
+            "vi": "земля"
+          }
+        },
+        "vi": {
+          "text": "trái đất",
+          "ipa": "/tɕaːj˧˥ ɗət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trái đất",
+            "en": "trái đất"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.ground",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ground",
+          "ipa": "/ground/",
+          "hints": {
+            "ru": "ground",
+            "vi": "ground"
+          }
+        },
+        "ru": {
+          "text": "почва",
+          "ipa": "/potɕva/",
+          "hints": {
+            "en": "почва",
+            "vi": "почва"
+          }
+        },
+        "vi": {
+          "text": "đất",
+          "ipa": "/ɗət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đất",
+            "en": "đất"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.stone",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "stone",
+          "ipa": "/stone/",
+          "hints": {
+            "ru": "stone",
+            "vi": "stone"
+          }
+        },
+        "ru": {
+          "text": "камень",
+          "ipa": "/kamʲenʲ/",
+          "hints": {
+            "en": "камень",
+            "vi": "камень"
+          }
+        },
+        "vi": {
+          "text": "đá",
+          "ipa": "/ɗaː˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "đá",
+            "en": "đá"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.sand",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sand",
+          "ipa": "/sand/",
+          "hints": {
+            "ru": "sand",
+            "vi": "sand"
+          }
+        },
+        "ru": {
+          "text": "песок",
+          "ipa": "/pʲesok/",
+          "hints": {
+            "en": "песок",
+            "vi": "песок"
+          }
+        },
+        "vi": {
+          "text": "cát",
+          "ipa": "/kaːt˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cát",
+            "en": "cát"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.fire",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "fire",
+          "ipa": "/fire/",
+          "hints": {
+            "ru": "fire",
+            "vi": "fire"
+          }
+        },
+        "ru": {
+          "text": "огонь",
+          "ipa": "/oɡonʲ/",
+          "hints": {
+            "en": "огонь",
+            "vi": "огонь"
+          }
+        },
+        "vi": {
+          "text": "lửa",
+          "ipa": "/lɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "lửa",
+            "en": "lửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.air",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "air",
+          "ipa": "/air/",
+          "hints": {
+            "ru": "air",
+            "vi": "air"
+          }
+        },
+        "ru": {
+          "text": "воздух",
+          "ipa": "/vozdux/",
+          "hints": {
+            "en": "воздух",
+            "vi": "воздух"
+          }
+        },
+        "vi": {
+          "text": "không khí",
+          "ipa": "/xowŋ˧ xi˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "không khí",
+            "en": "không khí"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.nature",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "nature",
+          "ipa": "/nature/",
+          "hints": {
+            "ru": "nature",
+            "vi": "nature"
+          }
+        },
+        "ru": {
+          "text": "природа",
+          "ipa": "/prʲiroda/",
+          "hints": {
+            "en": "природа",
+            "vi": "природа"
+          }
+        },
+        "vi": {
+          "text": "thiên nhiên",
+          "ipa": "/tʰiən˧ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thiên nhiên",
+            "en": "thiên nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.world",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "world",
+          "ipa": "/world/",
+          "hints": {
+            "ru": "world",
+            "vi": "world"
+          }
+        },
+        "ru": {
+          "text": "мир",
+          "ipa": "/mʲir/",
+          "hints": {
+            "en": "мир",
+            "vi": "мир"
+          }
+        },
+        "vi": {
+          "text": "thế giới",
+          "ipa": "/tʰe˧˥ zəːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thế giới",
+            "en": "thế giới"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.field",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "field",
+          "ipa": "/field/",
+          "hints": {
+            "ru": "field",
+            "vi": "field"
+          }
+        },
+        "ru": {
+          "text": "поле",
+          "ipa": "/polʲe/",
+          "hints": {
+            "en": "поле",
+            "vi": "поле"
+          }
+        },
+        "vi": {
+          "text": "cánh đồng",
+          "ipa": "/kajŋ˧˥ ɗoŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cánh đồng",
+            "en": "cánh đồng"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.hill",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hill",
+          "ipa": "/hill/",
+          "hints": {
+            "ru": "hill",
+            "vi": "hill"
+          }
+        },
+        "ru": {
+          "text": "холм",
+          "ipa": "/xolm/",
+          "hints": {
+            "en": "холм",
+            "vi": "холм"
+          }
+        },
+        "vi": {
+          "text": "đồi",
+          "ipa": "/ɗoj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đồi",
+            "en": "đồi"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.valley",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "valley",
+          "ipa": "/valley/",
+          "hints": {
+            "ru": "valley",
+            "vi": "valley"
+          }
+        },
+        "ru": {
+          "text": "долина",
+          "ipa": "/dolʲina/",
+          "hints": {
+            "en": "долина",
+            "vi": "долина"
+          }
+        },
+        "vi": {
+          "text": "thung lũng",
+          "ipa": "/tʰuŋ˧ luŋ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thung lũng",
+            "en": "thung lũng"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.desert",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "desert",
+          "ipa": "/desert/",
+          "hints": {
+            "ru": "desert",
+            "vi": "desert"
+          }
+        },
+        "ru": {
+          "text": "пустыня",
+          "ipa": "/pustɨnʲa/",
+          "hints": {
+            "en": "пустыня",
+            "vi": "пустыня"
+          }
+        },
+        "vi": {
+          "text": "sa mạc",
+          "ipa": "/saː˧ maːk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sa mạc",
+            "en": "sa mạc"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.ocean",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "ocean",
+          "ipa": "/ocean/",
+          "hints": {
+            "ru": "ocean",
+            "vi": "ocean"
+          }
+        },
+        "ru": {
+          "text": "океан",
+          "ipa": "/okʲean/",
+          "hints": {
+            "en": "океан",
+            "vi": "океан"
+          }
+        },
+        "vi": {
+          "text": "đại dương",
+          "ipa": "/ɗaːj˧ˀ zɨəŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đại dương",
+            "en": "đại dương"
+          }
+        }
+      }
+    },
+    {
+      "id": "nat.wave",
+      "kind": "word",
+      "theme": "nature",
+      "tags": [
+        "theme:nature"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "wave",
+          "ipa": "/wave/",
+          "hints": {
+            "ru": "wave",
+            "vi": "wave"
+          }
+        },
+        "ru": {
+          "text": "волна",
+          "ipa": "/volna/",
+          "hints": {
+            "en": "волна",
+            "vi": "волна"
+          }
+        },
+        "vi": {
+          "text": "sóng",
+          "ipa": "/sɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sóng",
+            "en": "sóng"
+          }
+        }
+      }
+    }
+  ]
+}

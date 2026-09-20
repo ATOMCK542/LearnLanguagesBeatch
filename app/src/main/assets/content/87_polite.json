@@ -1,0 +1,619 @@
+{
+  "theme": {
+    "id": "polite",
+    "kind": "unit",
+    "order": 87,
+    "title": {
+      "en": "Polite phrases",
+      "ru": "Вежливые фразы",
+      "vi": "Câu lịch sự"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "pol.please_help",
+      "kind": "sentence",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Please help me",
+          "ipa": "/pliːz help miː/",
+          "hints": {
+            "ru": "Please help me",
+            "vi": "Please help me"
+          }
+        },
+        "ru": {
+          "text": "Помогите, пожалуйста",
+          "ipa": "/pomoɡʲitʲe pəˈʐaləstə/",
+          "hints": {
+            "en": "Помогите, пожалуйста",
+            "vi": "Помогите, пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "Làm ơn giúp tôi",
+          "ipa": "/laːm˨˩ əːn˧ zup˧˥ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Làm ơn giúp tôi",
+            "en": "Làm ơn giúp tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.i_dont_understand",
+      "kind": "sentence",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I don't understand",
+          "ipa": "/aɪ dəʊnt ˌʌndəˈstænd/",
+          "hints": {
+            "ru": "I don't understand",
+            "vi": "I don't understand"
+          }
+        },
+        "ru": {
+          "text": "Я не понимаю",
+          "ipa": "/ja nʲe ponʲimaju/",
+          "hints": {
+            "en": "Я не понимаю",
+            "vi": "Я не понимаю"
+          }
+        },
+        "vi": {
+          "text": "Tôi không hiểu",
+          "ipa": "/toj˧ xowŋ˧ hiəw˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi không hiểu",
+            "en": "Tôi không hiểu"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.slowly",
+      "kind": "sentence",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Slowly, please",
+          "ipa": "/ˈsləʊli pliːz/",
+          "hints": {
+            "ru": "Slowly, please",
+            "vi": "Slowly, please"
+          }
+        },
+        "ru": {
+          "text": "Помедленнее, пожалуйста",
+          "ipa": "/pomʲedlʲennʲeje pəˈʐaləstə/",
+          "hints": {
+            "en": "Помедленнее, пожалуйста",
+            "vi": "Помедленнее, пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "Nói chậm giúp tôi",
+          "ipa": "/nɔj˧˥ tɕəm˧ˀ zup˧˥ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Nói chậm giúp tôi",
+            "en": "Nói chậm giúp tôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.repeat",
+      "kind": "sentence",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Can you repeat that?",
+          "ipa": "/kæn juː rɪˈpiːt ðæt/",
+          "hints": {
+            "ru": "Can you repeat that?",
+            "vi": "Can you repeat that?"
+          }
+        },
+        "ru": {
+          "text": "Повторите, пожалуйста",
+          "ipa": "/povtorʲitʲe pəˈʐaləstə/",
+          "hints": {
+            "en": "Повторите, пожалуйста",
+            "vi": "Повторите, пожалуйста"
+          }
+        },
+        "vi": {
+          "text": "Bạn nhắc lại được không?",
+          "ipa": "/ɓaːn˧ˀ ɲak˧˥ laːj˧ˀ ɗɨək˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn nhắc lại được không?",
+            "en": "Bạn nhắc lại được không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.do_you_speak_en",
+      "kind": "sentence",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Do you speak English?",
+          "ipa": "/duː juː spiːk ˈɪŋɡlɪʃ/",
+          "hints": {
+            "ru": "Do you speak English?",
+            "vi": "Do you speak English?"
+          }
+        },
+        "ru": {
+          "text": "Вы говорите по-английски?",
+          "ipa": "/vɨ ɡovorʲitʲe poanɡlʲijskʲi/",
+          "hints": {
+            "en": "Вы говорите по-английски?",
+            "vi": "Вы говорите по-английски?"
+          }
+        },
+        "vi": {
+          "text": "Bạn nói tiếng Anh không?",
+          "ipa": "/ɓaːn˧ˀ nɔj˧˥ tiəŋ˧˥ ajŋ˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn nói tiếng Anh không?",
+            "en": "Bạn nói tiếng Anh không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.i_speak_a_little",
+      "kind": "sentence",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I speak a little",
+          "ipa": "/aɪ spiːk ə ˈlɪtəl/",
+          "hints": {
+            "ru": "I speak a little",
+            "vi": "I speak a little"
+          }
+        },
+        "ru": {
+          "text": "Я говорю немного",
+          "ipa": "/ja ɡovorʲu nʲemnoɡo/",
+          "hints": {
+            "en": "Я говорю немного",
+            "vi": "Я говорю немного"
+          }
+        },
+        "vi": {
+          "text": "Tôi nói một chút",
+          "ipa": "/toj˧ nɔj˧˥ mot˧ˀ tɕut˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi nói một chút",
+            "en": "Tôi nói một chút"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.congratulations",
+      "kind": "word",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "congratulations",
+          "ipa": "/kənˌɡrætʃʊˈleɪʃənz/",
+          "hints": {
+            "ru": "congratulations",
+            "vi": "congratulations"
+          }
+        },
+        "ru": {
+          "text": "поздравляю",
+          "ipa": "/pozdravlʲaju/",
+          "hints": {
+            "en": "поздравляю",
+            "vi": "поздравляю"
+          }
+        },
+        "vi": {
+          "text": "chúc mừng",
+          "ipa": "/tɕuc˧˥ mɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chúc mừng",
+            "en": "chúc mừng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.good_luck",
+      "kind": "phrase",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "good luck",
+          "ipa": "/ɡʊd lʌk/",
+          "hints": {
+            "ru": "good luck",
+            "vi": "good luck"
+          }
+        },
+        "ru": {
+          "text": "удачи",
+          "ipa": "/udatɕi/",
+          "hints": {
+            "en": "удачи",
+            "vi": "удачи"
+          }
+        },
+        "vi": {
+          "text": "chúc may mắn",
+          "ipa": "/tɕuc˧˥ maj˧ man˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chúc may mắn",
+            "en": "chúc may mắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.take_care",
+      "kind": "phrase",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "take care",
+          "ipa": "/teɪk keə/",
+          "hints": {
+            "ru": "take care",
+            "vi": "take care"
+          }
+        },
+        "ru": {
+          "text": "берегите себя",
+          "ipa": "/bʲerʲeɡʲitʲe sʲebʲa/",
+          "hints": {
+            "en": "берегите себя",
+            "vi": "берегите себя"
+          }
+        },
+        "vi": {
+          "text": "bảo trọng",
+          "ipa": "/ɓaːw˧˩˧ tɕɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bảo trọng",
+            "en": "bảo trọng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.after_you",
+      "kind": "phrase",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "after you",
+          "ipa": "/ˈɑːftə juː/",
+          "hints": {
+            "ru": "after you",
+            "vi": "after you"
+          }
+        },
+        "ru": {
+          "text": "после вас",
+          "ipa": "/poslʲe vas/",
+          "hints": {
+            "en": "после вас",
+            "vi": "после вас"
+          }
+        },
+        "vi": {
+          "text": "mời bạn trước",
+          "ipa": "/məːj˧˩ ɓaːn˧ˀ tɕɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "mời bạn trước",
+            "en": "mời bạn trước"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.bless_you",
+      "kind": "phrase",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "bless you",
+          "ipa": "/bles juː/",
+          "hints": {
+            "ru": "bless you",
+            "vi": "bless you"
+          }
+        },
+        "ru": {
+          "text": "будь здоров",
+          "ipa": "/budʲ zdorov/",
+          "hints": {
+            "en": "будь здоров",
+            "vi": "будь здоров"
+          }
+        },
+        "vi": {
+          "text": "chúc sức khỏe",
+          "ipa": "/tɕuc˧˥ sɨc˧˥ xwɛ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chúc sức khỏe",
+            "en": "chúc sức khỏe"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.welcome",
+      "kind": "word",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "welcome",
+          "ipa": "/ˈwelkəm/",
+          "hints": {
+            "ru": "welcome",
+            "vi": "welcome"
+          }
+        },
+        "ru": {
+          "text": "добро пожаловать",
+          "ipa": "/dobro poʐalovatʲ/",
+          "hints": {
+            "en": "добро пожаловать",
+            "vi": "добро пожаловать"
+          }
+        },
+        "vi": {
+          "text": "chào mừng",
+          "ipa": "/tɕaːw˧˥ mɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chào mừng",
+            "en": "chào mừng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.no_problem",
+      "kind": "phrase",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "no problem",
+          "ipa": "/nəʊ ˈprɒbləm/",
+          "hints": {
+            "ru": "no problem",
+            "vi": "no problem"
+          }
+        },
+        "ru": {
+          "text": "нет проблем",
+          "ipa": "/nʲet problʲem/",
+          "hints": {
+            "en": "нет проблем",
+            "vi": "нет проблем"
+          }
+        },
+        "vi": {
+          "text": "không sao",
+          "ipa": "/xowŋ˧ saːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không sao",
+            "en": "không sao"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.of_course",
+      "kind": "phrase",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "of course",
+          "ipa": "/əv kɔːs/",
+          "hints": {
+            "ru": "of course",
+            "vi": "of course"
+          }
+        },
+        "ru": {
+          "text": "конечно",
+          "ipa": "/konʲetɕno/",
+          "hints": {
+            "en": "конечно",
+            "vi": "конечно"
+          }
+        },
+        "vi": {
+          "text": "dĩ nhiên",
+          "ipa": "/zi˧˥ˀ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dĩ nhiên",
+            "en": "dĩ nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "pol.maybe",
+      "kind": "word",
+      "theme": "polite",
+      "tags": [
+        "theme:polite"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "maybe",
+          "ipa": "/ˈmeɪbi/",
+          "hints": {
+            "ru": "maybe",
+            "vi": "maybe"
+          }
+        },
+        "ru": {
+          "text": "может быть",
+          "ipa": "/moʐet bɨtʲ/",
+          "hints": {
+            "en": "может быть",
+            "vi": "может быть"
+          }
+        },
+        "vi": {
+          "text": "có lẽ",
+          "ipa": "/kɔ˧˥ lɛ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "có lẽ",
+            "en": "có lẽ"
+          }
+        }
+      }
+    }
+  ]
+}

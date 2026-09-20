@@ -1,0 +1,2092 @@
+{
+  "theme": {
+    "id": "questions",
+    "kind": "unit",
+    "order": 40,
+    "title": {
+      "en": "Questions",
+      "ru": "Вопросы",
+      "vi": "Câu hỏi"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "q.what",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "what",
+          "ipa": "/wɒt/",
+          "hints": {
+            "ru": "what",
+            "vi": "what"
+          }
+        },
+        "ru": {
+          "text": "что / какой",
+          "ipa": "/ʂto kakoj/",
+          "hints": {
+            "en": "что / какой",
+            "vi": "что / какой"
+          }
+        },
+        "vi": {
+          "text": "gì / cái gì",
+          "ipa": "/zi˧˩ kaːj˧˥ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "gì / cái gì",
+            "en": "gì / cái gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.who",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "who",
+          "ipa": "/huː/",
+          "hints": {
+            "ru": "who",
+            "vi": "who"
+          }
+        },
+        "ru": {
+          "text": "кто",
+          "ipa": "/kto/",
+          "hints": {
+            "en": "кто",
+            "vi": "кто"
+          }
+        },
+        "vi": {
+          "text": "ai",
+          "ipa": "/aːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ai",
+            "en": "ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.whom",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "whom",
+          "ipa": "/huːm/",
+          "hints": {
+            "ru": "whom",
+            "vi": "whom"
+          }
+        },
+        "ru": {
+          "text": "кого / кому",
+          "ipa": "/koɡo komu/",
+          "hints": {
+            "en": "кого / кому",
+            "vi": "кого / кому"
+          }
+        },
+        "vi": {
+          "text": "ai (tân ngữ)",
+          "ipa": "/aːj˧ tən˧ ŋɨ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "ai (tân ngữ)",
+            "en": "ai (tân ngữ)"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.whose",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "whose",
+          "ipa": "/huːz/",
+          "hints": {
+            "ru": "whose",
+            "vi": "whose"
+          }
+        },
+        "ru": {
+          "text": "чей",
+          "ipa": "/tɕej/",
+          "hints": {
+            "en": "чей",
+            "vi": "чей"
+          }
+        },
+        "vi": {
+          "text": "của ai",
+          "ipa": "/kuə˧˩˧ aːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "của ai",
+            "en": "của ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.which",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "which",
+          "ipa": "/wɪtʃ/",
+          "hints": {
+            "ru": "which",
+            "vi": "which"
+          }
+        },
+        "ru": {
+          "text": "который / какой из",
+          "ipa": "/kotorɨj kakoj iz/",
+          "hints": {
+            "en": "который / какой из",
+            "vi": "который / какой из"
+          }
+        },
+        "vi": {
+          "text": "cái nào",
+          "ipa": "/kaːj˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cái nào",
+            "en": "cái nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.where",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "where",
+          "ipa": "/weə/",
+          "hints": {
+            "ru": "where",
+            "vi": "where"
+          }
+        },
+        "ru": {
+          "text": "где / куда",
+          "ipa": "/ɡdʲe kuda/",
+          "hints": {
+            "en": "где / куда",
+            "vi": "где / куда"
+          }
+        },
+        "vi": {
+          "text": "ở đâu",
+          "ipa": "/əː˧˩˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ở đâu",
+            "en": "ở đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.when",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "when",
+          "ipa": "/wen/",
+          "hints": {
+            "ru": "when",
+            "vi": "when"
+          }
+        },
+        "ru": {
+          "text": "когда",
+          "ipa": "/kəɡˈda/",
+          "hints": {
+            "en": "когда",
+            "vi": "когда"
+          }
+        },
+        "vi": {
+          "text": "khi nào",
+          "ipa": "/xi˧ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "khi nào",
+            "en": "khi nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.why",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "why",
+          "ipa": "/waɪ/",
+          "hints": {
+            "ru": "why",
+            "vi": "why"
+          }
+        },
+        "ru": {
+          "text": "почему",
+          "ipa": "/pətɕɪˈmu/",
+          "hints": {
+            "en": "почему",
+            "vi": "почему"
+          }
+        },
+        "vi": {
+          "text": "tại sao",
+          "ipa": "/taːj˧ˀ saːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tại sao",
+            "en": "tại sao"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how",
+          "ipa": "/haʊ/",
+          "hints": {
+            "ru": "how",
+            "vi": "how"
+          }
+        },
+        "ru": {
+          "text": "как",
+          "ipa": "/kak/",
+          "hints": {
+            "en": "как",
+            "vi": "как"
+          }
+        },
+        "vi": {
+          "text": "như thế nào",
+          "ipa": "/ɲɨ˧ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "như thế nào",
+            "en": "như thế nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_much",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how much",
+          "ipa": "/haʊ mʌtʃ/",
+          "hints": {
+            "ru": "how much",
+            "vi": "how much"
+          }
+        },
+        "ru": {
+          "text": "сколько (неисчисл.)",
+          "ipa": "/skolʲko nʲeistɕisl/",
+          "hints": {
+            "en": "сколько (неисчисл.)",
+            "vi": "сколько (неисчисл.)"
+          }
+        },
+        "vi": {
+          "text": "bao nhiêu",
+          "ipa": "/ɓaːw˧ ɲiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bao nhiêu",
+            "en": "bao nhiêu"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_many",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how many",
+          "ipa": "/haʊ ˈmeni/",
+          "hints": {
+            "ru": "how many",
+            "vi": "how many"
+          }
+        },
+        "ru": {
+          "text": "сколько (исчисл.)",
+          "ipa": "/skolʲko istɕisl/",
+          "hints": {
+            "en": "сколько (исчисл.)",
+            "vi": "сколько (исчисл.)"
+          }
+        },
+        "vi": {
+          "text": "bao nhiêu (đếm được)",
+          "ipa": "/ɓaːw˧ ɲiəw˧ ɗem˧˥ ɗɨək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bao nhiêu (đếm được)",
+            "en": "bao nhiêu (đếm được)"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_long",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how long",
+          "ipa": "/haʊ lɒŋ/",
+          "hints": {
+            "ru": "how long",
+            "vi": "how long"
+          }
+        },
+        "ru": {
+          "text": "как долго",
+          "ipa": "/kak dolɡo/",
+          "hints": {
+            "en": "как долго",
+            "vi": "как долго"
+          }
+        },
+        "vi": {
+          "text": "bao lâu",
+          "ipa": "/ɓaːw˧ ləu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bao lâu",
+            "en": "bao lâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_often",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how often",
+          "ipa": "/haʊ ˈɒfən/",
+          "hints": {
+            "ru": "how often",
+            "vi": "how often"
+          }
+        },
+        "ru": {
+          "text": "как часто",
+          "ipa": "/kak tɕasto/",
+          "hints": {
+            "en": "как часто",
+            "vi": "как часто"
+          }
+        },
+        "vi": {
+          "text": "bao thường",
+          "ipa": "/ɓaːw˧ tʰɨəŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bao thường",
+            "en": "bao thường"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_far",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how far",
+          "ipa": "/haʊ fɑː/",
+          "hints": {
+            "ru": "how far",
+            "vi": "how far"
+          }
+        },
+        "ru": {
+          "text": "как далеко",
+          "ipa": "/kak dalʲeko/",
+          "hints": {
+            "en": "как далеко",
+            "vi": "как далеко"
+          }
+        },
+        "vi": {
+          "text": "bao xa",
+          "ipa": "/ɓaːw˧ saː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bao xa",
+            "en": "bao xa"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_old",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how old",
+          "ipa": "/haʊ əʊld/",
+          "hints": {
+            "ru": "how old",
+            "vi": "how old"
+          }
+        },
+        "ru": {
+          "text": "сколько лет",
+          "ipa": "/skolʲko lʲet/",
+          "hints": {
+            "en": "сколько лет",
+            "vi": "сколько лет"
+          }
+        },
+        "vi": {
+          "text": "bao nhiêu tuổi",
+          "ipa": "/ɓaːw˧ ɲiəw˧ tuəj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bao nhiêu tuổi",
+            "en": "bao nhiêu tuổi"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_come",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "how come",
+          "ipa": "/haʊ kʌm/",
+          "hints": {
+            "ru": "how come",
+            "vi": "how come"
+          }
+        },
+        "ru": {
+          "text": "как так / почему",
+          "ipa": "/kak tak pətɕɪˈmu/",
+          "hints": {
+            "en": "как так / почему",
+            "vi": "как так / почему"
+          }
+        },
+        "vi": {
+          "text": "sao lại",
+          "ipa": "/saːw˧ laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "sao lại",
+            "en": "sao lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.what_time",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "what time",
+          "ipa": "/wɒt taɪm/",
+          "hints": {
+            "ru": "what time",
+            "vi": "what time"
+          }
+        },
+        "ru": {
+          "text": "во сколько",
+          "ipa": "/vo skolʲko/",
+          "hints": {
+            "en": "во сколько",
+            "vi": "во сколько"
+          }
+        },
+        "vi": {
+          "text": "mấy giờ",
+          "ipa": "/məj˧˥ zəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mấy giờ",
+            "en": "mấy giờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.what_kind_of",
+      "kind": "word",
+      "theme": "questions",
+      "tags": [
+        "question"
+      ],
+      "grammar": {
+        "en": "Question word.",
+        "ru": "Вопросительное слово.",
+        "vi": "Từ để hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "what kind of",
+          "ipa": "/wɒt kaɪnd əv/",
+          "hints": {
+            "ru": "what kind of",
+            "vi": "what kind of"
+          }
+        },
+        "ru": {
+          "text": "какой вид",
+          "ipa": "/kakoj vʲid/",
+          "hints": {
+            "en": "какой вид",
+            "vi": "какой вид"
+          }
+        },
+        "vi": {
+          "text": "loại gì",
+          "ipa": "/lwaːj˧ˀ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "loại gì",
+            "en": "loại gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.am_i",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Am I late?",
+          "ipa": "/æm aɪ leɪt/",
+          "hints": {
+            "ru": "Am I late?",
+            "vi": "Am I late?"
+          }
+        },
+        "ru": {
+          "text": "Я опаздываю?",
+          "ipa": "/ja opazdɨvaju/",
+          "hints": {
+            "en": "Я опаздываю?",
+            "vi": "Я опаздываю?"
+          }
+        },
+        "vi": {
+          "text": "Tôi có muộn không?",
+          "ipa": "/toj˧ kɔ˧˥ muən˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi có muộn không?",
+            "en": "Tôi có muộn không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.is_he",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Is he ready?",
+          "ipa": "/ɪz hiː ˈredi/",
+          "hints": {
+            "ru": "Is he ready?",
+            "vi": "Is he ready?"
+          }
+        },
+        "ru": {
+          "text": "Он готов?",
+          "ipa": "/on ɡotov/",
+          "hints": {
+            "en": "Он готов?",
+            "vi": "Он готов?"
+          }
+        },
+        "vi": {
+          "text": "Anh ấy sẵn sàng chưa?",
+          "ipa": "/ajŋ˧ əj˧˥ sən˧˩˧ saːŋ˨˩ tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Anh ấy sẵn sàng chưa?",
+            "en": "Anh ấy sẵn sàng chưa?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.are_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Are you OK?",
+          "ipa": "/ɑː juː əʊˈkeɪ/",
+          "hints": {
+            "ru": "Are you OK?",
+            "vi": "Are you OK?"
+          }
+        },
+        "ru": {
+          "text": "Ты в порядке?",
+          "ipa": "/tɨ v porʲadkʲe/",
+          "hints": {
+            "en": "Ты в порядке?",
+            "vi": "Ты в порядке?"
+          }
+        },
+        "vi": {
+          "text": "Bạn ổn chứ?",
+          "ipa": "/ɓaːn˧ˀ on˧˩˧ tɕɨ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn ổn chứ?",
+            "en": "Bạn ổn chứ?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.was_it",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Was it good?",
+          "ipa": "/wɒz ɪt ɡʊd/",
+          "hints": {
+            "ru": "Was it good?",
+            "vi": "Was it good?"
+          }
+        },
+        "ru": {
+          "text": "Это было хорошо?",
+          "ipa": "/eto bɨlo xərɐˈʂo/",
+          "hints": {
+            "en": "Это было хорошо?",
+            "vi": "Это было хорошо?"
+          }
+        },
+        "vi": {
+          "text": "Nó có tốt không?",
+          "ipa": "/nɔ˧˥ kɔ˧˥ tot˧˥ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Nó có tốt không?",
+            "en": "Nó có tốt không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.were_they",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Were they at home?",
+          "ipa": "/wɜː ðeɪ æt həʊm/",
+          "hints": {
+            "ru": "Were they at home?",
+            "vi": "Were they at home?"
+          }
+        },
+        "ru": {
+          "text": "Они были дома?",
+          "ipa": "/ɐˈnʲi bɨlʲi doma/",
+          "hints": {
+            "en": "Они были дома?",
+            "vi": "Они были дома?"
+          }
+        },
+        "vi": {
+          "text": "Họ có ở nhà không?",
+          "ipa": "/hɔ˧ˀ kɔ˧˥ əː˧˩˧ ɲa˨˩ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Họ có ở nhà không?",
+            "en": "Họ có ở nhà không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.do_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Do you have water?",
+          "ipa": "/duː juː hæv ˈwɔːtə/",
+          "hints": {
+            "ru": "Do you have water?",
+            "vi": "Do you have water?"
+          }
+        },
+        "ru": {
+          "text": "У тебя есть вода?",
+          "ipa": "/u tʲebʲa jestʲ vɐˈda/",
+          "hints": {
+            "en": "У тебя есть вода?",
+            "vi": "У тебя есть вода?"
+          }
+        },
+        "vi": {
+          "text": "Bạn có nước không?",
+          "ipa": "/ɓaːn˧ˀ kɔ˧˥ nɨək˧˥ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn có nước không?",
+            "en": "Bạn có nước không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.does_she",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Does she work here?",
+          "ipa": "/dʌz ʃiː wɜːk hɪə/",
+          "hints": {
+            "ru": "Does she work here?",
+            "vi": "Does she work here?"
+          }
+        },
+        "ru": {
+          "text": "Она здесь работает?",
+          "ipa": "/ɐˈna zdʲesʲ rabotajet/",
+          "hints": {
+            "en": "Она здесь работает?",
+            "vi": "Она здесь работает?"
+          }
+        },
+        "vi": {
+          "text": "Cô ấy làm ở đây à?",
+          "ipa": "/ko˧ əj˧˥ laːm˨˩ əː˧˩˧ ɗəj˧ aː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Cô ấy làm ở đây à?",
+            "en": "Cô ấy làm ở đây à?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.did_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Did you see that?",
+          "ipa": "/dɪd juː siː ðæt/",
+          "hints": {
+            "ru": "Did you see that?",
+            "vi": "Did you see that?"
+          }
+        },
+        "ru": {
+          "text": "Ты это видел?",
+          "ipa": "/tɨ eto vʲidʲel/",
+          "hints": {
+            "en": "Ты это видел?",
+            "vi": "Ты это видел?"
+          }
+        },
+        "vi": {
+          "text": "Bạn đã thấy chưa?",
+          "ipa": "/ɓaːn˧ˀ ɗaː˧˥ˀ tʰəj˧˥ tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn đã thấy chưa?",
+            "en": "Bạn đã thấy chưa?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.can_i",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Can I sit here?",
+          "ipa": "/kæn aɪ sɪt hɪə/",
+          "hints": {
+            "ru": "Can I sit here?",
+            "vi": "Can I sit here?"
+          }
+        },
+        "ru": {
+          "text": "Можно я здесь сяду?",
+          "ipa": "/moʐno ja zdʲesʲ sʲadu/",
+          "hints": {
+            "en": "Можно я здесь сяду?",
+            "vi": "Можно я здесь сяду?"
+          }
+        },
+        "vi": {
+          "text": "Tôi ngồi đây được không?",
+          "ipa": "/toj˧ ŋoj˧˩ ɗəj˧ ɗɨək˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi ngồi đây được không?",
+            "en": "Tôi ngồi đây được không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.could_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Could you wait?",
+          "ipa": "/kʊd juː weɪt/",
+          "hints": {
+            "ru": "Could you wait?",
+            "vi": "Could you wait?"
+          }
+        },
+        "ru": {
+          "text": "Вы не могли бы подождать?",
+          "ipa": "/vɨ nʲe moɡlʲi bɨ podoʐdatʲ/",
+          "hints": {
+            "en": "Вы не могли бы подождать?",
+            "vi": "Вы не могли бы подождать?"
+          }
+        },
+        "vi": {
+          "text": "Bạn chờ được không?",
+          "ipa": "/ɓaːn˧ˀ tɕəː˨˩ ɗɨək˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn chờ được không?",
+            "en": "Bạn chờ được không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.may_i",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "May I come in?",
+          "ipa": "/meɪ aɪ kʌm ɪn/",
+          "hints": {
+            "ru": "May I come in?",
+            "vi": "May I come in?"
+          }
+        },
+        "ru": {
+          "text": "Можно войти?",
+          "ipa": "/moʐno vojtʲi/",
+          "hints": {
+            "en": "Можно войти?",
+            "vi": "Можно войти?"
+          }
+        },
+        "vi": {
+          "text": "Tôi vào được không?",
+          "ipa": "/toj˧ vaːw˧˩ ɗɨək˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi vào được không?",
+            "en": "Tôi vào được không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.should_i",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Should I call?",
+          "ipa": "/ʃʊd aɪ kɔːl/",
+          "hints": {
+            "ru": "Should I call?",
+            "vi": "Should I call?"
+          }
+        },
+        "ru": {
+          "text": "Мне позвонить?",
+          "ipa": "/mnʲe pozvonʲitʲ/",
+          "hints": {
+            "en": "Мне позвонить?",
+            "vi": "Мне позвонить?"
+          }
+        },
+        "vi": {
+          "text": "Tôi có nên gọi không?",
+          "ipa": "/toj˧ kɔ˧˥ nen˧ ɣɔj˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi có nên gọi không?",
+            "en": "Tôi có nên gọi không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.would_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Would you like tea?",
+          "ipa": "/wʊd juː laɪk tiː/",
+          "hints": {
+            "ru": "Would you like tea?",
+            "vi": "Would you like tea?"
+          }
+        },
+        "ru": {
+          "text": "Хотите чай?",
+          "ipa": "/xotʲitʲe tɕaj/",
+          "hints": {
+            "en": "Хотите чай?",
+            "vi": "Хотите чай?"
+          }
+        },
+        "vi": {
+          "text": "Bạn dùng trà chứ?",
+          "ipa": "/ɓaːn˧ˀ zuŋ˧˩ tra˨˩ tɕɨ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn dùng trà chứ?",
+            "en": "Bạn dùng trà chứ?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.will_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Will you help me?",
+          "ipa": "/wɪl juː help miː/",
+          "hints": {
+            "ru": "Will you help me?",
+            "vi": "Will you help me?"
+          }
+        },
+        "ru": {
+          "text": "Ты мне поможешь?",
+          "ipa": "/tɨ mnʲe pomoʐeʂ/",
+          "hints": {
+            "en": "Ты мне поможешь?",
+            "vi": "Ты мне поможешь?"
+          }
+        },
+        "vi": {
+          "text": "Bạn sẽ giúp tôi chứ?",
+          "ipa": "/ɓaːn˧ˀ sɛ˧˥ˀ zup˧˥ toj˧ tɕɨ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn sẽ giúp tôi chứ?",
+            "en": "Bạn sẽ giúp tôi chứ?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.must_i",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Must I pay now?",
+          "ipa": "/mʌst aɪ peɪ naʊ/",
+          "hints": {
+            "ru": "Must I pay now?",
+            "vi": "Must I pay now?"
+          }
+        },
+        "ru": {
+          "text": "Я должен платить сейчас?",
+          "ipa": "/ja dolʐen platʲitʲ sʲɪjˈtɕas/",
+          "hints": {
+            "en": "Я должен платить сейчас?",
+            "vi": "Я должен платить сейчас?"
+          }
+        },
+        "vi": {
+          "text": "Tôi phải trả ngay à?",
+          "ipa": "/toj˧ faːj˧˩˧ tɕaː˧˩˧ ŋaj˧ aː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi phải trả ngay à?",
+            "en": "Tôi phải trả ngay à?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.what_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "What is this?",
+          "ipa": "/wɒt ɪz ðɪs/",
+          "hints": {
+            "ru": "What is this?",
+            "vi": "What is this?"
+          }
+        },
+        "ru": {
+          "text": "Что это?",
+          "ipa": "/ʂto eto/",
+          "hints": {
+            "en": "Что это?",
+            "vi": "Что это?"
+          }
+        },
+        "vi": {
+          "text": "Đây là gì?",
+          "ipa": "/ɗəj˧ la˨˩ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Đây là gì?",
+            "en": "Đây là gì?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.who_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Who is she?",
+          "ipa": "/huː ɪz ʃiː/",
+          "hints": {
+            "ru": "Who is she?",
+            "vi": "Who is she?"
+          }
+        },
+        "ru": {
+          "text": "Кто она?",
+          "ipa": "/kto ɐˈna/",
+          "hints": {
+            "en": "Кто она?",
+            "vi": "Кто она?"
+          }
+        },
+        "vi": {
+          "text": "Cô ấy là ai?",
+          "ipa": "/ko˧ əj˧˥ la˨˩ aːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Cô ấy là ai?",
+            "en": "Cô ấy là ai?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.where_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Where is the station?",
+          "ipa": "/weə ɪz ðə ˈsteɪʃən/",
+          "hints": {
+            "ru": "Where is the station?",
+            "vi": "Where is the station?"
+          }
+        },
+        "ru": {
+          "text": "Где станция?",
+          "ipa": "/ɡdʲe stantsija/",
+          "hints": {
+            "en": "Где станция?",
+            "vi": "Где станция?"
+          }
+        },
+        "vi": {
+          "text": "Nhà ga ở đâu?",
+          "ipa": "/ɲa˨˩ ɣaː˧ əː˧˩˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Nhà ga ở đâu?",
+            "en": "Nhà ga ở đâu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.when_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "When is the train?",
+          "ipa": "/wen ɪz ðə treɪn/",
+          "hints": {
+            "ru": "When is the train?",
+            "vi": "When is the train?"
+          }
+        },
+        "ru": {
+          "text": "Когда поезд?",
+          "ipa": "/kəɡˈda pojezd/",
+          "hints": {
+            "en": "Когда поезд?",
+            "vi": "Когда поезд?"
+          }
+        },
+        "vi": {
+          "text": "Tàu lúc nào?",
+          "ipa": "/taːw˨˩ luc˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tàu lúc nào?",
+            "en": "Tàu lúc nào?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.why_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Why is it closed?",
+          "ipa": "/waɪ ɪz ɪt kləʊzd/",
+          "hints": {
+            "ru": "Why is it closed?",
+            "vi": "Why is it closed?"
+          }
+        },
+        "ru": {
+          "text": "Почему закрыто?",
+          "ipa": "/pətɕɪˈmu zakrɨto/",
+          "hints": {
+            "en": "Почему закрыто?",
+            "vi": "Почему закрыто?"
+          }
+        },
+        "vi": {
+          "text": "Sao lại đóng?",
+          "ipa": "/saːw˧ laːj˧ˀ ɗɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "Sao lại đóng?",
+            "en": "Sao lại đóng?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "How is the food?",
+          "ipa": "/haʊ ɪz ðə fuːd/",
+          "hints": {
+            "ru": "How is the food?",
+            "vi": "How is the food?"
+          }
+        },
+        "ru": {
+          "text": "Какая еда?",
+          "ipa": "/kakaja jeda/",
+          "hints": {
+            "en": "Какая еда?",
+            "vi": "Какая еда?"
+          }
+        },
+        "vi": {
+          "text": "Đồ ăn thế nào?",
+          "ipa": "/ɗo˧˩ an˧ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Đồ ăn thế nào?",
+            "en": "Đồ ăn thế nào?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.whose_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Whose bag is this?",
+          "ipa": "/huːz bæɡ ɪz ðɪs/",
+          "hints": {
+            "ru": "Whose bag is this?",
+            "vi": "Whose bag is this?"
+          }
+        },
+        "ru": {
+          "text": "Чья это сумка?",
+          "ipa": "/tɕja eto sumka/",
+          "hints": {
+            "en": "Чья это сумка?",
+            "vi": "Чья это сумка?"
+          }
+        },
+        "vi": {
+          "text": "Túi này của ai?",
+          "ipa": "/tuj˧˥ naj˨˩ kuə˧˩˧ aːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Túi này của ai?",
+            "en": "Túi này của ai?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.which_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Which one is yours?",
+          "ipa": "/wɪtʃ wʌn ɪz jɔːz/",
+          "hints": {
+            "ru": "Which one is yours?",
+            "vi": "Which one is yours?"
+          }
+        },
+        "ru": {
+          "text": "Который твой?",
+          "ipa": "/kotorɨj tvoj/",
+          "hints": {
+            "en": "Который твой?",
+            "vi": "Который твой?"
+          }
+        },
+        "vi": {
+          "text": "Cái nào là của bạn?",
+          "ipa": "/kaːj˧˥ naːw˨˩ la˨˩ kuə˧˩˧ ɓaːn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Cái nào là của bạn?",
+            "en": "Cái nào là của bạn?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.what_do_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "What do you want?",
+          "ipa": "/wɒt duː juː wɒnt/",
+          "hints": {
+            "ru": "What do you want?",
+            "vi": "What do you want?"
+          }
+        },
+        "ru": {
+          "text": "Что ты хочешь?",
+          "ipa": "/ʂto tɨ xotɕeʂ/",
+          "hints": {
+            "en": "Что ты хочешь?",
+            "vi": "Что ты хочешь?"
+          }
+        },
+        "vi": {
+          "text": "Bạn muốn gì?",
+          "ipa": "/ɓaːn˧ˀ muən˧˥ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn muốn gì?",
+            "en": "Bạn muốn gì?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.where_did",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Where did you go?",
+          "ipa": "/weə dɪd juː ɡəʊ/",
+          "hints": {
+            "ru": "Where did you go?",
+            "vi": "Where did you go?"
+          }
+        },
+        "ru": {
+          "text": "Куда ты ходил?",
+          "ipa": "/kuda tɨ xodʲil/",
+          "hints": {
+            "en": "Куда ты ходил?",
+            "vi": "Куда ты ходил?"
+          }
+        },
+        "vi": {
+          "text": "Bạn đã đi đâu?",
+          "ipa": "/ɓaːn˧ˀ ɗaː˧˥ˀ ɗi˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn đã đi đâu?",
+            "en": "Bạn đã đi đâu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_do_i",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "How do I get there?",
+          "ipa": "/haʊ duː aɪ ɡet ðeə/",
+          "hints": {
+            "ru": "How do I get there?",
+            "vi": "How do I get there?"
+          }
+        },
+        "ru": {
+          "text": "Как туда добраться?",
+          "ipa": "/kak tuda dobratʲsʲa/",
+          "hints": {
+            "en": "Как туда добраться?",
+            "vi": "Как туда добраться?"
+          }
+        },
+        "vi": {
+          "text": "Tôi đi tới đó thế nào?",
+          "ipa": "/toj˧ ɗi˧ təːj˧˥ ɗɔ˧˥ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi đi tới đó thế nào?",
+            "en": "Tôi đi tới đó thế nào?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.or_q",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Tea or coffee?",
+          "ipa": "/tiː ɔː ˈkɒfi/",
+          "hints": {
+            "ru": "Tea or coffee?",
+            "vi": "Tea or coffee?"
+          }
+        },
+        "ru": {
+          "text": "Чай или кофе?",
+          "ipa": "/tɕaj ilʲi ˈkofʲe/",
+          "hints": {
+            "en": "Чай или кофе?",
+            "vi": "Чай или кофе?"
+          }
+        },
+        "vi": {
+          "text": "Trà hay cà phê?",
+          "ipa": "/tra˨˩ haj˧ kaː˧˩ fe˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Trà hay cà phê?",
+            "en": "Trà hay cà phê?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.whats_this",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "What's this?",
+          "ipa": "/wɒts ðɪs/",
+          "hints": {
+            "ru": "What's this?",
+            "vi": "What's this?"
+          }
+        },
+        "ru": {
+          "text": "Что это?",
+          "ipa": "/ʂto eto/",
+          "hints": {
+            "en": "Что это?",
+            "vi": "Что это?"
+          }
+        },
+        "vi": {
+          "text": "Đây là gì?",
+          "ipa": "/ɗəj˧ la˨˩ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Đây là gì?",
+            "en": "Đây là gì?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.whats_that",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "What's that?",
+          "ipa": "/wɒts ðæt/",
+          "hints": {
+            "ru": "What's that?",
+            "vi": "What's that?"
+          }
+        },
+        "ru": {
+          "text": "Что это там?",
+          "ipa": "/ʂto eto tam/",
+          "hints": {
+            "en": "Что это там?",
+            "vi": "Что это там?"
+          }
+        },
+        "vi": {
+          "text": "Kia là gì?",
+          "ipa": "/kiə˧ la˨˩ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Kia là gì?",
+            "en": "Kia là gì?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_are_you",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "How are you?",
+          "ipa": "/haʊ ɑː juː/",
+          "hints": {
+            "ru": "How are you?",
+            "vi": "How are you?"
+          }
+        },
+        "ru": {
+          "text": "Как дела?",
+          "ipa": "/kak dʲela/",
+          "hints": {
+            "en": "Как дела?",
+            "vi": "Как дела?"
+          }
+        },
+        "vi": {
+          "text": "Bạn khỏe không?",
+          "ipa": "/ɓaːn˧ˀ xwɛ˧˩˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Bạn khỏe không?",
+            "en": "Bạn khỏe không?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.how_much_is",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "How much is it?",
+          "ipa": "/haʊ mʌtʃ ɪz ɪt/",
+          "hints": {
+            "ru": "How much is it?",
+            "vi": "How much is it?"
+          }
+        },
+        "ru": {
+          "text": "Сколько это стоит?",
+          "ipa": "/skolʲko eto stoit/",
+          "hints": {
+            "en": "Сколько это стоит?",
+            "vi": "Сколько это стоит?"
+          }
+        },
+        "vi": {
+          "text": "Cái này bao nhiêu?",
+          "ipa": "/kaːj˧˥ naj˨˩ ɓaːw˧ ɲiəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Cái này bao nhiêu?",
+            "en": "Cái này bao nhiêu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.where_is_the",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "Where is the toilet?",
+          "ipa": "/weə ɪz ðə ˈtɔɪlət/",
+          "hints": {
+            "ru": "Where is the toilet?",
+            "vi": "Where is the toilet?"
+          }
+        },
+        "ru": {
+          "text": "Где туалет?",
+          "ipa": "/ɡdʲe tualʲet/",
+          "hints": {
+            "en": "Где туалет?",
+            "vi": "Где туалет?"
+          }
+        },
+        "vi": {
+          "text": "Nhà vệ sinh ở đâu?",
+          "ipa": "/ɲa˨˩ ve˧ˀ siɲ˧ əː˧˩˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Nhà vệ sinh ở đâu?",
+            "en": "Nhà vệ sinh ở đâu?"
+          }
+        }
+      }
+    },
+    {
+      "id": "q.what_does_mean",
+      "kind": "sentence",
+      "theme": "questions",
+      "tags": [
+        "question",
+        "sentence"
+      ],
+      "grammar": {
+        "en": "Question frame.",
+        "ru": "Схема вопроса.",
+        "vi": "Khung câu hỏi."
+      },
+      "texts": {
+        "en": {
+          "text": "What does this mean?",
+          "ipa": "/wɒt dʌz ðɪs miːn/",
+          "hints": {
+            "ru": "What does this mean?",
+            "vi": "What does this mean?"
+          }
+        },
+        "ru": {
+          "text": "Что это значит?",
+          "ipa": "/ʂto eto znatɕit/",
+          "hints": {
+            "en": "Что это значит?",
+            "vi": "Что это значит?"
+          }
+        },
+        "vi": {
+          "text": "Cái này nghĩa là gì?",
+          "ipa": "/kaːj˧˥ naj˨˩ ŋiə˧˥ˀ la˨˩ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Cái này nghĩa là gì?",
+            "en": "Cái này nghĩa là gì?"
+          }
+        }
+      }
+    }
+  ]
+}

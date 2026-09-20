@@ -1,0 +1,579 @@
+{
+  "theme": {
+    "id": "time",
+    "kind": "unit",
+    "order": 86,
+    "title": {
+      "en": "Time",
+      "ru": "Время",
+      "vi": "Thời gian"
+    },
+    "description": {
+      "en": "",
+      "ru": "",
+      "vi": ""
+    }
+  },
+  "concepts": [
+    {
+      "id": "time.today",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "today",
+          "ipa": "/təˈdeɪ/",
+          "hints": {
+            "ru": "today",
+            "vi": "today"
+          }
+        },
+        "ru": {
+          "text": "сегодня",
+          "ipa": "/sʲɪˈvodʲnʲə/",
+          "hints": {
+            "en": "сегодня",
+            "vi": "сегодня"
+          }
+        },
+        "vi": {
+          "text": "hôm nay",
+          "ipa": "/hom˧ naj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hôm nay",
+            "en": "hôm nay"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.tomorrow",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "tomorrow",
+          "ipa": "/təˈmɒrəʊ/",
+          "hints": {
+            "ru": "tomorrow",
+            "vi": "tomorrow"
+          }
+        },
+        "ru": {
+          "text": "завтра",
+          "ipa": "/ˈzavtrə/",
+          "hints": {
+            "en": "завтра",
+            "vi": "завтра"
+          }
+        },
+        "vi": {
+          "text": "ngày mai",
+          "ipa": "/ŋaj˧˩ maːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngày mai",
+            "en": "ngày mai"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.yesterday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "yesterday",
+          "ipa": "/ˈjestədeɪ/",
+          "hints": {
+            "ru": "yesterday",
+            "vi": "yesterday"
+          }
+        },
+        "ru": {
+          "text": "вчера",
+          "ipa": "/ftɕɪˈra/",
+          "hints": {
+            "en": "вчера",
+            "vi": "вчера"
+          }
+        },
+        "vi": {
+          "text": "hôm qua",
+          "ipa": "/hom˧ kwaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hôm qua",
+            "en": "hôm qua"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.now",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "now",
+          "ipa": "/naʊ/",
+          "hints": {
+            "ru": "now",
+            "vi": "now"
+          }
+        },
+        "ru": {
+          "text": "сейчас",
+          "ipa": "/sʲɪjˈtɕas/",
+          "hints": {
+            "en": "сейчас",
+            "vi": "сейчас"
+          }
+        },
+        "vi": {
+          "text": "bây giờ",
+          "ipa": "/ɓəj˧ zəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bây giờ",
+            "en": "bây giờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.later",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "later",
+          "ipa": "/ˈleɪtə/",
+          "hints": {
+            "ru": "later",
+            "vi": "later"
+          }
+        },
+        "ru": {
+          "text": "позже",
+          "ipa": "/pozʐe/",
+          "hints": {
+            "en": "позже",
+            "vi": "позже"
+          }
+        },
+        "vi": {
+          "text": "sau",
+          "ipa": "/saw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sau",
+            "en": "sau"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.morning",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "morning",
+          "ipa": "/ˈmɔːnɪŋ/",
+          "hints": {
+            "ru": "morning",
+            "vi": "morning"
+          }
+        },
+        "ru": {
+          "text": "утро",
+          "ipa": "/utro/",
+          "hints": {
+            "en": "утро",
+            "vi": "утро"
+          }
+        },
+        "vi": {
+          "text": "buổi sáng",
+          "ipa": "/ɓuəj˧˩˧ saːŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "buổi sáng",
+            "en": "buổi sáng"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.evening",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "evening",
+          "ipa": "/ˈiːvnɪŋ/",
+          "hints": {
+            "ru": "evening",
+            "vi": "evening"
+          }
+        },
+        "ru": {
+          "text": "вечер",
+          "ipa": "/vʲetɕer/",
+          "hints": {
+            "en": "вечер",
+            "vi": "вечер"
+          }
+        },
+        "vi": {
+          "text": "buổi tối",
+          "ipa": "/ɓuəj˧˩˧ toj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "buổi tối",
+            "en": "buổi tối"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.what_time",
+      "kind": "sentence",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "What time is it?",
+          "ipa": "/wɒt taɪm ɪz ɪt/",
+          "hints": {
+            "ru": "What time is it?",
+            "vi": "What time is it?"
+          }
+        },
+        "ru": {
+          "text": "Который час?",
+          "ipa": "/kotorɨj tɕas/",
+          "hints": {
+            "en": "Который час?",
+            "vi": "Который час?"
+          }
+        },
+        "vi": {
+          "text": "Mấy giờ rồi?",
+          "ipa": "/məj˧˥ zəː˨˩ roj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "Mấy giờ rồi?",
+            "en": "Mấy giờ rồi?"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.monday",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "Monday",
+          "ipa": "/ˈmʌndeɪ/",
+          "hints": {
+            "ru": "Monday",
+            "vi": "Monday"
+          }
+        },
+        "ru": {
+          "text": "понедельник",
+          "ipa": "/ponʲedʲelʲnʲik/",
+          "hints": {
+            "en": "понедельник",
+            "vi": "понедельник"
+          }
+        },
+        "vi": {
+          "text": "thứ hai",
+          "ipa": "/tʰɨ˧˥ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "thứ hai",
+            "en": "thứ hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.week",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "week",
+          "ipa": "/wiːk/",
+          "hints": {
+            "ru": "week",
+            "vi": "week"
+          }
+        },
+        "ru": {
+          "text": "неделя",
+          "ipa": "/nʲedʲelʲa/",
+          "hints": {
+            "en": "неделя",
+            "vi": "неделя"
+          }
+        },
+        "vi": {
+          "text": "tuần",
+          "ipa": "/twən˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tuần",
+            "en": "tuần"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.month",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "month",
+          "ipa": "/mʌnθ/",
+          "hints": {
+            "ru": "month",
+            "vi": "month"
+          }
+        },
+        "ru": {
+          "text": "месяц",
+          "ipa": "/mʲesʲats/",
+          "hints": {
+            "en": "месяц",
+            "vi": "месяц"
+          }
+        },
+        "vi": {
+          "text": "tháng",
+          "ipa": "/tʰaŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng",
+            "en": "tháng"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.year",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "year",
+          "ipa": "/jɪə/",
+          "hints": {
+            "ru": "year",
+            "vi": "year"
+          }
+        },
+        "ru": {
+          "text": "год",
+          "ipa": "/ɡod/",
+          "hints": {
+            "en": "год",
+            "vi": "год"
+          }
+        },
+        "vi": {
+          "text": "năm",
+          "ipa": "/nam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "năm",
+            "en": "năm"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.see_you_tomorrow",
+      "kind": "sentence",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "See you tomorrow",
+          "ipa": "/siː juː təˈmɒrəʊ/",
+          "hints": {
+            "ru": "See you tomorrow",
+            "vi": "See you tomorrow"
+          }
+        },
+        "ru": {
+          "text": "До завтра",
+          "ipa": "/do ˈzavtrə/",
+          "hints": {
+            "en": "До завтра",
+            "vi": "До завтра"
+          }
+        },
+        "vi": {
+          "text": "Hẹn gặp ngày mai",
+          "ipa": "/hɛn˧ˀ ɣap˧ˀ ŋaj˧˩ maːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "Hẹn gặp ngày mai",
+            "en": "Hẹn gặp ngày mai"
+          }
+        }
+      }
+    },
+    {
+      "id": "time.im_late",
+      "kind": "sentence",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "I'm late",
+          "ipa": "/aɪm leɪt/",
+          "hints": {
+            "ru": "I'm late",
+            "vi": "I'm late"
+          }
+        },
+        "ru": {
+          "text": "Я опаздываю",
+          "ipa": "/ja opazdɨvaju/",
+          "hints": {
+            "en": "Я опаздываю",
+            "vi": "Я опаздываю"
+          }
+        },
+        "vi": {
+          "text": "Tôi muộn",
+          "ipa": "/toj˧ muən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "Tôi muộn",
+            "en": "Tôi muộn"
+          }
+        }
+      }
+    }
+  ]
+}

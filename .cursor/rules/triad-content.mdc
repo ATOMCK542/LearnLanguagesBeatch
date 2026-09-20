@@ -1,0 +1,15 @@
+---
+description: Учебный контент — трёхъязычные понятия, закрытый класс EN, чеклист
+globs: content-src/**,**/assets/content/**
+alwaysApply: false
+---
+
+# Контент
+
+Понятие сразу на EN+RU+VI. Исходники в `content-src/`, в APK — `assets/content/`. Тема, grammar, title — объекты `{ ru, en, vi }`. Подсказки чтения: `hints` на чужих языках (`hints[nativeLang]`), не поле `phoneticRu`. Для своей формы hint не нужен.
+
+Путь: местоимения → be/do/have → модалки → вопросы → служебные → глаголы/прилагательные → 8 тем. Праймер скрипта только если native ≠ цель (тона VI / кириллица RU / SVO+do-support EN).
+
+Закрытый класс EN в v1 полный (местоимения, вспомогательные, модалки, WH-слова и схемы вопросов, служебные). Глаголы ~70 и прилагательные ~50 — разговорное ядро, не «все слова языка». Фраз не меньше трети. Теги: `pronoun`, `auxiliary`, `question`, `function`, `verb`, `adjective`, `theme:*`.
+
+Пак не готов, пока нет дырки в `content-src/en-closed-class.md` (whom, ought to, how far, themselves, didn't — всё с RU и VI). Не генерировать переводы «на лету» в рантайме.
