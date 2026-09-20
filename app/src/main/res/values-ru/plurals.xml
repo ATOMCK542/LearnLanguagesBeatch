@@ -18,4 +18,10 @@
         <item quantity="many">%d повторов</item>
         <item quantity="other">%d повтора</item>
     </plurals>
+    <plurals name="review_ready">
+        <item quantity="one">%d слово для повтора</item>
+        <item quantity="few">%d слова для повтора</item>
+        <item quantity="many">%d слов для повтора</item>
+        <item quantity="other">%d слова для повтора</item>
+    </plurals>
 </resources>

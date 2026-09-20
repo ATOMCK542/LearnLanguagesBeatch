@@ -1,5 +1,6 @@
 package dev.sergey.triad.data.backup
 
+import dev.sergey.triad.data.db.MasteredConceptEntity
 import dev.sergey.triad.data.db.PathProgressEntity
 import dev.sergey.triad.data.db.PrimerProgressEntity
 import dev.sergey.triad.data.db.ProfileEntity
@@ -17,6 +18,7 @@ data class BackupPayload(
     val userCards: List<UserCardDto>,
     val primers: List<PrimerDto>,
     val path: List<PathDto>,
+    val mastered: List<MasteredDto> = emptyList(),
 )
 
 @Serializable
@@ -61,6 +63,9 @@ data class PrimerDto(val profileId: Long, val primerId: String, val completed: B
 @Serializable
 data class PathDto(val profileId: Long, val themeId: String, val unlocked: Boolean, val completedCount: Int)
 
+@Serializable
+data class MasteredDto(val profileId: Long, val conceptId: String)
+
 object BackupCodec {
     private val json = Json { prettyPrint = true; ignoreUnknownKeys = true }
 
@@ -74,6 +79,7 @@ object BackupCodec {
         userCards: List<UserCardEntity>,
         primers: List<PrimerProgressEntity>,
         path: List<PathProgressEntity>,
+        mastered: List<MasteredConceptEntity> = emptyList(),
         onlyProfileId: Long? = null,
     ): BackupPayload {
         val ps = if (onlyProfileId == null) profiles else profiles.filter { it.id == onlyProfileId }
@@ -95,6 +101,7 @@ object BackupCodec {
             userCards = userCards.filter { it.profileId in ids }.map { UserCardDto(it.id, it.profileId, it.conceptId) },
             primers = primers.filter { it.profileId in ids }.map { PrimerDto(it.profileId, it.primerId, it.completed) },
             path = path.filter { it.profileId in ids }.map { PathDto(it.profileId, it.themeId, it.unlocked, it.completedCount) },
+            mastered = mastered.filter { it.profileId in ids }.map { MasteredDto(it.profileId, it.conceptId) },
         )
     }
 
@@ -113,6 +120,7 @@ object BackupCodec {
             userCards = payload.userCards.map { it.copy(id = 0, profileId = pid(it.profileId)) },
             primers = payload.primers.map { it.copy(profileId = pid(it.profileId)) },
             path = payload.path.map { it.copy(profileId = pid(it.profileId)) },
+            mastered = payload.mastered.map { it.copy(profileId = pid(it.profileId)) },
         )
     }
 }

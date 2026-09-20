@@ -15,6 +15,7 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.ConceptKind
 import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.LocalizedText
+import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.Rating
 import dev.sergey.triad.domain.SessionItem
@@ -42,6 +43,10 @@ data class MainUiState(
     val lastPicked: String? = null,
     val query: String = "",
     val ttsVoices: Set<AppLanguage> = emptySet(),
+    val masteredIds: Set<String> = emptySet(),
+    val practiceAvailable: Int = 0,
+    val practiceSize: Int = 20,
+    val sessionPractice: Boolean = false,
 )
 
 @HiltViewModel
@@ -73,6 +78,12 @@ class MainViewModel @Inject constructor(
                 val themes = repo.themes()
                 val concepts = repo.concepts()
                 val unlocked = active?.let { repo.pathState(it).filter { e -> e.value.unlocked }.keys } ?: emptySet()
+                val mastered = active?.let { repo.masteredConceptIds(it.id) } ?: emptySet()
+                val practiceAvailable = repo.practicePoolSize()
+                val sizes = PracticePlanner.sizeChoices(practiceAvailable)
+                val practiceSize = _state.value.practiceSize.let { current ->
+                    if (current in sizes) current else sizes.lastOrNull() ?: 0
+                }
                 _state.update {
                     it.copy(
                         ready = true,
@@ -82,6 +93,9 @@ class MainViewModel @Inject constructor(
                         themes = themes,
                         concepts = concepts,
                         unlocked = unlocked,
+                        masteredIds = mastered,
+                        practiceAvailable = practiceAvailable,
+                        practiceSize = practiceSize,
                     )
                 }
             }
@@ -122,7 +136,46 @@ class MainViewModel @Inject constructor(
                     lastCorrect = null,
                     lastPicked = null,
                     due = repo.dueCount(),
+                    sessionPractice = false,
                 )
+            }
+        }
+    }
+
+    fun setPracticeSize(size: Int) {
+        _state.update { it.copy(practiceSize = size) }
+    }
+
+    fun startPractice() {
+        viewModelScope.launch {
+            val size = _state.value.practiceSize
+            val plan = repo.planPractice(size)
+            _state.update {
+                it.copy(
+                    session = plan.items,
+                    sessionIndex = 0,
+                    revealed = false,
+                    lastCorrect = null,
+                    lastPicked = null,
+                    sessionPractice = true,
+                    due = repo.dueCount(),
+                )
+            }
+        }
+    }
+
+    fun toggleMastered(conceptId: String) {
+        viewModelScope.launch {
+            val next = conceptId !in _state.value.masteredIds
+            repo.setMastered(conceptId, next)
+            val mastered = repo.activeProfile()?.let { repo.masteredConceptIds(it.id) } ?: emptySet()
+            val available = repo.practicePoolSize()
+            val sizes = PracticePlanner.sizeChoices(available)
+            val size = _state.value.practiceSize.let { current ->
+                if (current in sizes) current else sizes.lastOrNull() ?: 0
+            }
+            _state.update {
+                it.copy(masteredIds = mastered, practiceAvailable = available, practiceSize = size)
             }
         }
     }
@@ -140,7 +193,9 @@ class MainViewModel @Inject constructor(
         val item = currentItem() ?: return
         clicks.play()
         viewModelScope.launch {
-            repo.applyRating(item.review, if (correct) Rating.Good else Rating.Again)
+            if (!_state.value.sessionPractice) {
+                repo.applyRating(item.review, if (correct) Rating.Good else Rating.Again)
+            }
             _state.update { it.copy(revealed = true, lastCorrect = correct, lastPicked = picked) }
             speakTarget()
         }
@@ -150,7 +205,9 @@ class MainViewModel @Inject constructor(
         val item = currentItem() ?: return
         clicks.play()
         viewModelScope.launch {
-            repo.applyRating(item.review, rating)
+            if (!_state.value.sessionPractice) {
+                repo.applyRating(item.review, rating)
+            }
             next()
         }
     }

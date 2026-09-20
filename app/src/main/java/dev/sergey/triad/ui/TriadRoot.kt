@@ -68,6 +68,7 @@ import dev.sergey.triad.domain.AnswerEvaluator
 import dev.sergey.triad.domain.AppLanguage
 import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.Exercise
+import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.Rating
 
@@ -140,6 +141,7 @@ private fun MainTabs(nav: NavHostController, state: MainUiState, vm: MainViewMod
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit) {
     val profile = state.active ?: return
@@ -155,6 +157,36 @@ private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit
             onStart()
         }, modifier = Modifier.testTag("start_session")) {
             Text(stringResource(R.string.action_start))
+        }
+        Text(stringResource(R.string.review_title), style = MaterialTheme.typography.titleMedium)
+        if (state.practiceAvailable == 0) {
+            Text(
+                stringResource(R.string.review_empty),
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        } else {
+            Text(pluralStringResource(R.plurals.review_ready, state.practiceAvailable, state.practiceAvailable))
+            Text(stringResource(R.string.review_size), style = MaterialTheme.typography.labelLarge)
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                PracticePlanner.sizeChoices(state.practiceAvailable).forEach { size ->
+                    FilterChip(
+                        selected = state.practiceSize == size,
+                        onClick = { vm.setPracticeSize(size) },
+                        label = { Text(size.toString()) },
+                    )
+                }
+            }
+            Button(
+                onClick = {
+                    vm.startPractice()
+                    onStart()
+                },
+                enabled = state.practiceSize > 0,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("start_review"),
+            ) {
+                Text(stringResource(R.string.action_review))
+            }
         }
     }
 }
@@ -260,6 +292,11 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
                             }
                         }
                     }
+                    FilterChip(
+                        selected = concept.id in state.masteredIds,
+                        onClick = { vm.toggleMastered(concept.id) },
+                        label = { Text(stringResource(R.string.mark_learned)) },
+                    )
                 }
             }
         }
@@ -299,6 +336,11 @@ private fun CardDetailScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
+            FilterChip(
+                selected = concept.id in state.masteredIds,
+                onClick = { vm.toggleMastered(concept.id) },
+                label = { Text(stringResource(R.string.mark_learned)) },
+            )
             AppLanguage.all.forEach { lang ->
                 val form = concept.text(lang)
                 LessonPhraseCard(

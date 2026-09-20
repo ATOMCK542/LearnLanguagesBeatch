@@ -15,6 +15,11 @@
     <string name="session_progress">%1$d / %2$d</string>
     <string name="action_create">Tạo</string>
     <string name="action_start">Bắt đầu buổi học</string>
+    <string name="action_review">Ôn từ đã học</string>
+    <string name="review_title">Ôn các từ đã học</string>
+    <string name="review_empty">Hãy học vài thẻ trước, rồi quay lại để trộn lại những gì đã học.</string>
+    <string name="review_size">Bao nhiêu từ</string>
+    <string name="mark_learned">Đã thuộc</string>
     <string name="action_show">Hiện đáp án</string>
     <string name="action_check">Kiểm tra</string>
     <string name="rating_again">Lại</string>

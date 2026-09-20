@@ -34,9 +34,13 @@ class ProfileIsolationTest {
         db.progress().upsertReview(
             ReviewItemEntity(b, "c2", AppLanguage.En.code, 1.0, 5.0, 1, null, 1, 0, FsrsCardState.Review.name, 0.0, 1.0),
         )
+        db.progress().upsertMastered(MasteredConceptEntity(a, "c1"))
+        db.progress().upsertMastered(MasteredConceptEntity(b, "c2"))
         db.deleteProfileCascade(a)
         assertTrue(db.progress().reviews(a).isEmpty())
+        assertTrue(db.progress().mastered(a).isEmpty())
         assertEquals(1, db.progress().reviews(b).size)
+        assertEquals(1, db.progress().mastered(b).size)
         db.close()
     }
 }

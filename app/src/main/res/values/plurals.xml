@@ -12,4 +12,8 @@
         <item quantity="one">%d review</item>
         <item quantity="other">%d reviews</item>
     </plurals>
+    <plurals name="review_ready">
+        <item quantity="one">%d word ready to review</item>
+        <item quantity="other">%d words ready to review</item>
+    </plurals>
 </resources>

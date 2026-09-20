@@ -15,6 +15,11 @@
     <string name="session_progress">%1$d / %2$d</string>
     <string name="action_create">Create</string>
     <string name="action_start">Start session</string>
+    <string name="action_review">Review learned</string>
+    <string name="review_title">Review learned words</string>
+    <string name="review_empty">Study some cards first, then come back to mix them.</string>
+    <string name="review_size">How many words</string>
+    <string name="mark_learned">Learned</string>
     <string name="action_show">Show answer</string>
     <string name="action_check">Check</string>
     <string name="rating_again">Again</string>

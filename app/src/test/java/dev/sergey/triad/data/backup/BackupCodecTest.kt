@@ -1,5 +1,6 @@
 package dev.sergey.triad.data.backup
 
+import dev.sergey.triad.data.db.MasteredConceptEntity
 import dev.sergey.triad.data.db.ProfileEntity
 import dev.sergey.triad.data.db.ReviewItemEntity
 import org.junit.Assert.assertEquals
@@ -15,11 +16,24 @@ class BackupCodecTest {
             ReviewItemEntity(1, "c1", "vi", 1.0, 5.0, 10, null, 1, 0, "Review", 0.0, 1.0),
             ReviewItemEntity(2, "c2", "en", 1.0, 5.0, 10, null, 1, 0, "Review", 0.0, 1.0),
         )
-        val payload = BackupCodec.fromEntities(listOf(a, b), reviews, emptyList(), emptyList(), emptyList(), 1)
+        val payload = BackupCodec.fromEntities(
+            listOf(a, b),
+            reviews,
+            emptyList(),
+            emptyList(),
+            emptyList(),
+            listOf(
+                MasteredConceptEntity(1, "c1"),
+                MasteredConceptEntity(2, "c2"),
+            ),
+            1,
+        )
         assertEquals(1, payload.profiles.size)
         assertEquals("A", payload.profiles.first().displayName)
         assertTrue(payload.reviews.all { it.profileId == 1L })
         assertTrue(payload.reviews.none { it.conceptId == "c2" })
+        assertEquals(listOf("c1"), payload.mastered.map { it.conceptId })
+        assertTrue(payload.mastered.all { it.profileId == 1L })
     }
 
     @Test
@@ -33,10 +47,12 @@ class BackupCodecTest {
                 userCards = emptyList(),
                 primers = emptyList(),
                 path = emptyList(),
+                mastered = listOf(MasteredDto(1, "c1")),
             ),
         )
         val remapped = BackupCodec.remapIds(BackupCodec.decode(raw), 40)
         assertEquals(40, remapped.profiles.first().id)
         assertEquals(40, remapped.reviews.first().profileId)
+        assertEquals(40, remapped.mastered.first().profileId)
     }
 }

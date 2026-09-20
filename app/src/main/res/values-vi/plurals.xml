@@ -9,4 +9,7 @@
     <plurals name="reviews_done">
         <item quantity="other">%d lần ôn</item>
     </plurals>
+    <plurals name="review_ready">
+        <item quantity="other">%d từ sẵn sàng ôn</item>
+    </plurals>
 </resources>

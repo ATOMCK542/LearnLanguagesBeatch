@@ -19,7 +19,9 @@ object AppModule {
     @Provides
     @Singleton
     fun database(@ApplicationContext context: Context): TriadDatabase =
-        Room.databaseBuilder(context, TriadDatabase::class.java, "triad.db").build()
+        Room.databaseBuilder(context, TriadDatabase::class.java, "triad.db")
+            .addMigrations(TriadDatabase.MIGRATION_1_2)
+            .build()
 
     @Provides
     fun catalogDao(db: TriadDatabase) = db.catalog()

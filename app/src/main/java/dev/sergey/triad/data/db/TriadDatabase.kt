@@ -11,6 +11,8 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.RoomDatabase
 import androidx.room.Transaction
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
 
 @Entity(tableName = "profiles")
@@ -141,6 +143,24 @@ data class PathProgressEntity(
     val completedCount: Int,
 )
 
+@Entity(
+    tableName = "mastered_concepts",
+    primaryKeys = ["profileId", "conceptId"],
+    foreignKeys = [
+        ForeignKey(
+            entity = ProfileEntity::class,
+            parentColumns = ["id"],
+            childColumns = ["profileId"],
+            onDelete = ForeignKey.CASCADE,
+        ),
+    ],
+    indices = [Index("profileId")],
+)
+data class MasteredConceptEntity(
+    val profileId: Long,
+    val conceptId: String,
+)
+
 @Dao
 interface ProfileDao {
     @Query("SELECT * FROM profiles ORDER BY lastOpenedAt DESC")
@@ -221,6 +241,18 @@ interface ProgressDao {
     @Query("SELECT * FROM path_progress WHERE profileId = :profileId")
     suspend fun path(profileId: Long): List<PathProgressEntity>
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertMastered(item: MasteredConceptEntity)
+
+    @Query("DELETE FROM mastered_concepts WHERE profileId = :profileId AND conceptId = :conceptId")
+    suspend fun deleteMastered(profileId: Long, conceptId: String)
+
+    @Query("SELECT * FROM mastered_concepts WHERE profileId = :profileId")
+    suspend fun mastered(profileId: Long): List<MasteredConceptEntity>
+
+    @Query("SELECT * FROM mastered_concepts")
+    suspend fun allMastered(): List<MasteredConceptEntity>
+
     @Query("DELETE FROM review_items WHERE profileId = :profileId")
     suspend fun deleteReviews(profileId: Long)
 }
@@ -235,8 +267,9 @@ interface ProgressDao {
         UserCardEntity::class,
         PrimerProgressEntity::class,
         PathProgressEntity::class,
+        MasteredConceptEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 abstract class TriadDatabase : RoomDatabase() {
@@ -247,5 +280,25 @@ abstract class TriadDatabase : RoomDatabase() {
     @Transaction
     open suspend fun deleteProfileCascade(id: Long) {
         profiles().delete(id)
+    }
+
+    companion object {
+        val MIGRATION_1_2 = object : Migration(1, 2) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `mastered_concepts` (
+                      `profileId` INTEGER NOT NULL,
+                      `conceptId` TEXT NOT NULL,
+                      PRIMARY KEY(`profileId`, `conceptId`),
+                      FOREIGN KEY(`profileId`) REFERENCES `profiles`(`id`) ON DELETE CASCADE
+                    )
+                    """.trimIndent(),
+                )
+                database.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_mastered_concepts_profileId` ON `mastered_concepts` (`profileId`)",
+                )
+            }
+        }
     }
 }

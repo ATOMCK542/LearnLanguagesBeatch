@@ -43,4 +43,5 @@ data class SessionItem(
 
 data class SessionPlan(
     val items: List<SessionItem>,
+    val practice: Boolean = false,
 )

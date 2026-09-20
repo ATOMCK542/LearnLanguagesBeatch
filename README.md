@@ -36,7 +36,7 @@ echo "sdk.dir=/path/to/android-sdk" > local.properties
 Готовый файл (версия из `versionName`):
 
 ```
-app/build/outputs/apk/debug/LearnLanguagesBitch-1.1.0.apk
+app/build/outputs/apk/debug/LearnLanguagesBitch-1.2.0.apk
 ```
 
 В Cursor: задача **Build APK** (Ctrl+Shift+B). Android Studio для релиза не нужна. AAB и Play Console не используются.

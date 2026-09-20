@@ -95,3 +95,8 @@ data class PathProgress(
     val unlocked: Boolean,
     val completedCount: Int,
 )
+
+data class MasteredConcept(
+    val profileId: Long,
+    val conceptId: String,
+)

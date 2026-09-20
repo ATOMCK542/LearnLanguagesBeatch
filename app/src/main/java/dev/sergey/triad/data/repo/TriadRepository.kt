@@ -7,6 +7,7 @@ import dev.sergey.triad.data.content.PackImporter
 import dev.sergey.triad.data.db.Mappers.toDomain
 import dev.sergey.triad.data.db.Mappers.toEntity
 import dev.sergey.triad.data.db.Mappers.assembleConcept
+import dev.sergey.triad.data.db.MasteredConceptEntity
 import dev.sergey.triad.data.db.PathProgressEntity
 import dev.sergey.triad.data.db.PrimerProgressEntity
 import dev.sergey.triad.data.db.ReviewItemEntity
@@ -19,9 +20,11 @@ import dev.sergey.triad.domain.ConceptKind
 import dev.sergey.triad.domain.ConceptText
 import dev.sergey.triad.domain.ExerciseFactory
 import dev.sergey.triad.domain.LocalizedText
+import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.Rating
 import dev.sergey.triad.domain.ReviewItem
+import dev.sergey.triad.domain.SessionItem
 import dev.sergey.triad.domain.SessionPlan
 import dev.sergey.triad.domain.SessionPlanner
 import dev.sergey.triad.domain.Theme
@@ -121,6 +124,42 @@ class TriadRepository @Inject constructor(
         return SessionPlanner(scheduler, factory).plan(profile, visible, reviews, now)
     }
 
+    suspend fun planPractice(limit: Int, now: Long = System.currentTimeMillis()): SessionPlan {
+        val profile = activeProfile() ?: return SessionPlan(emptyList(), practice = true)
+        val pool = practicePool(profile)
+        val picked = PracticePlanner.pick(pool, limit, kotlin.random.Random.Default)
+        val allConcepts = concepts()
+        val unlocked = unlockedThemeIds(profile)
+        val visible = allConcepts.filter { it.themeId in unlocked }
+        val factory = ExerciseFactory { lang -> visible.map { it.text(lang).text } }
+        val conceptMap = allConcepts.associateBy { it.id }
+        val items = picked.mapIndexedNotNull { index, review ->
+            val concept = conceptMap[review.conceptId] ?: return@mapIndexedNotNull null
+            SessionItem(
+                review = review,
+                exercise = factory.forReview(concept, review, profile.nativeLang, now, index),
+            )
+        }
+        return SessionPlan(items, practice = true)
+    }
+
+    suspend fun practicePoolSize(): Int {
+        val profile = activeProfile() ?: return 0
+        return practicePool(profile).size
+    }
+
+    suspend fun masteredConceptIds(profileId: Long): Set<String> =
+        db.progress().mastered(profileId).map { it.conceptId }.toSet()
+
+    suspend fun setMastered(conceptId: String, mastered: Boolean) {
+        val profile = activeProfile() ?: return
+        if (mastered) {
+            db.progress().upsertMastered(MasteredConceptEntity(profile.id, conceptId))
+        } else {
+            db.progress().deleteMastered(profile.id, conceptId)
+        }
+    }
+
     suspend fun applyRating(item: ReviewItem, rating: Rating, now: Long = System.currentTimeMillis()) {
         val updated = scheduler.review(item, rating, now)
         db.progress().upsertReview(updated.toEntity())
@@ -185,8 +224,9 @@ class TriadRepository @Inject constructor(
         val cards = profiles.flatMap { db.catalog().userCards(it.id) }
         val primers = profiles.flatMap { db.progress().primers(it.id) }
         val path = profiles.flatMap { db.progress().path(it.id) }
+        val mastered = profiles.flatMap { db.progress().mastered(it.id) }
         return BackupCodec.encode(
-            BackupCodec.fromEntities(profiles, reviews, cards, primers, path, only),
+            BackupCodec.fromEntities(profiles, reviews, cards, primers, path, mastered, only),
         )
     }
 
@@ -229,6 +269,9 @@ class TriadRepository @Inject constructor(
         }
         remapped.path.forEach {
             db.progress().upsertPath(PathProgressEntity(it.profileId, it.themeId, it.unlocked, it.completedCount))
+        }
+        remapped.mastered.forEach {
+            db.progress().upsertMastered(MasteredConceptEntity(it.profileId, it.conceptId))
         }
     }
 
@@ -285,5 +328,23 @@ class TriadRepository @Inject constructor(
         }
         unlocked += "user"
         return unlocked
+    }
+
+    private suspend fun practicePool(profile: Profile): List<ReviewItem> {
+        val allConcepts = concepts()
+        val unlocked = unlockedThemeIds(profile)
+        val primers = themes().filter { it.kind == "primer" }.map { it.id }.toSet()
+        val mastered = masteredConceptIds(profile.id)
+        val reviews = db.progress().reviews(profile.id).map { it.toDomain() }
+        val targets = profile.targetLangs.ifEmpty { AppLanguage.all.filter { it != profile.nativeLang } }
+        return PracticePlanner.eligible(
+            profileId = profile.id,
+            targetLangs = targets,
+            reviews = reviews,
+            concepts = allConcepts,
+            unlockedThemeIds = unlocked,
+            primerThemeIds = primers,
+            masteredConceptIds = mastered,
+        )
     }
 }
