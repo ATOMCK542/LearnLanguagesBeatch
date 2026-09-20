@@ -41,6 +41,7 @@
     <string name="settings_native">Tôi biết</string>
     <string name="settings_targets">Đang học</string>
     <string name="settings_tts">Giọng nói</string>
+    <string name="settings_tts_hint">Để nghe tiếng Việt, cài giọng Tiếng Việt trong cài đặt đọc văn bản của hệ thống (Google Text-to-speech).</string>
     <string name="stats_title">Thống kê</string>
     <string name="export_current">Xuất hồ sơ hiện tại</string>
     <string name="export_all">Xuất mọi hồ sơ</string>

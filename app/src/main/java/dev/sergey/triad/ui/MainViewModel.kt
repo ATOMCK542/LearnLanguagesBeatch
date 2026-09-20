@@ -41,6 +41,7 @@ data class MainUiState(
     val lastCorrect: Boolean? = null,
     val lastPicked: String? = null,
     val query: String = "",
+    val ttsVoices: Set<AppLanguage> = emptySet(),
 )
 
 @HiltViewModel
@@ -56,6 +57,11 @@ class MainViewModel @Inject constructor(
     val state: StateFlow<MainUiState> = _state.asStateFlow()
 
     init {
+        viewModelScope.launch {
+            tts.status.collect { st ->
+                _state.update { it.copy(ttsVoices = st.voices) }
+            }
+        }
         viewModelScope.launch {
             repo.bootstrap()
             combine(repo.profiles, repo.activeProfileId) { profiles, activeId ->
@@ -123,6 +129,7 @@ class MainViewModel @Inject constructor(
 
     fun reveal() {
         _state.update { it.copy(revealed = true) }
+        speakTarget()
     }
 
     fun playClick() {
@@ -135,6 +142,7 @@ class MainViewModel @Inject constructor(
         viewModelScope.launch {
             repo.applyRating(item.review, if (correct) Rating.Good else Rating.Again)
             _state.update { it.copy(revealed = true, lastCorrect = correct, lastPicked = picked) }
+            speakTarget()
         }
     }
 
@@ -203,7 +211,20 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    fun speak(text: String, lang: AppLanguage): Boolean = tts.speak(text, lang)
+    fun speak(text: String, lang: AppLanguage, openSettingsIfMissing: Boolean = true): Boolean {
+        if (tts.speak(text, lang)) return true
+        if (openSettingsIfMissing && tts.status.value.ready && !tts.available(lang)) {
+            tts.openVoiceSettings()
+        }
+        return false
+    }
 
     fun ttsAvailable(lang: AppLanguage) = tts.available(lang)
+
+    private fun speakTarget() {
+        if (_state.value.active?.ttsEnabled != true) return
+        val item = currentItem() ?: return
+        val target = item.exercise.targetLang
+        speak(item.exercise.concept.text(target).text, target, openSettingsIfMissing = false)
+    }
 }

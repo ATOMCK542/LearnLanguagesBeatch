@@ -41,6 +41,7 @@
     <string name="settings_native">Я знаю</string>
     <string name="settings_targets">Учу</string>
     <string name="settings_tts">Озвучка</string>
+    <string name="settings_tts_hint">Чтобы слышать вьетнамский, установите голос Tiếng Việt в системных настройках озвучки (Google Text-to-speech).</string>
     <string name="stats_title">Статистика</string>
     <string name="export_current">Экспорт текущего профиля</string>
     <string name="export_all">Экспорт всех профилей</string>

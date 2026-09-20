@@ -185,6 +185,7 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
     var vi by remember { mutableStateOf("") }
     val q = state.query
     val native = state.active?.nativeLang ?: AppLanguage.Ru
+    val ttsOn = state.active?.ttsEnabled == true
     val filtered = state.concepts.filter {
         q.isBlank() || it.texts.values.any { t -> t.text.contains(q, ignoreCase = true) }
     }
@@ -211,10 +212,21 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
             ) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text(
-                        nativeForm.text,
-                        style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
-                    )
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            nativeForm.text,
+                            style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
+                            modifier = Modifier.weight(1f),
+                        )
+                        if (ttsOn) {
+                            IconButton(onClick = { vm.speak(nativeForm.text, native) }) {
+                                Icon(
+                                    Icons.AutoMirrored.Outlined.VolumeUp,
+                                    contentDescription = stringResource(R.string.label_speak),
+                                )
+                            }
+                        }
+                    }
                     if (nativeForm.ipa.isNotBlank()) {
                         Text(
                             nativeForm.ipa,
@@ -223,10 +235,30 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
                         )
                     }
                     AppLanguage.all.filter { it != native }.forEach { lang ->
-                        Text(
-                            "${endonym(lang)}: ${concept.text(lang).text}",
-                            style = MaterialTheme.typography.bodyLarge,
-                        )
+                        val form = concept.text(lang)
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                                Text(
+                                    "${endonym(lang)}: ${form.text}",
+                                    style = MaterialTheme.typography.bodyLarge,
+                                )
+                                if (form.ipa.isNotBlank()) {
+                                    Text(
+                                        form.ipa,
+                                        style = MaterialTheme.typography.bodyMedium,
+                                        color = MaterialTheme.colorScheme.primary,
+                                    )
+                                }
+                            }
+                            if (ttsOn) {
+                                IconButton(onClick = { vm.speak(form.text, lang) }) {
+                                    Icon(
+                                        Icons.AutoMirrored.Outlined.VolumeUp,
+                                        contentDescription = stringResource(R.string.label_speak),
+                                    )
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -273,7 +305,7 @@ private fun CardDetailScreen(
                     lang = lang,
                     text = form.text,
                     ipa = form.ipa,
-                    speakEnabled = ttsOn && vm.ttsAvailable(lang),
+                    speakEnabled = ttsOn,
                     onSpeak = { vm.speak(form.text, lang) },
                     highlighted = lang != native,
                 )
@@ -327,6 +359,11 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
             Text(stringResource(R.string.settings_tts))
             Switch(checked = profile.ttsEnabled, onCheckedChange = { on -> vm.updateActive { it.copy(ttsEnabled = on) } })
         }
+        Text(
+            stringResource(R.string.settings_tts_hint),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
         Text(stringResource(R.string.stats_title), style = MaterialTheme.typography.titleMedium)
         Text(pluralStringResource(R.plurals.reviews_done, profile.reviewsDone, profile.reviewsDone))
         Button(onClick = { vm.export(false) { pendingExport = it; create.launch("triad-profile.json") } }) {
@@ -419,7 +456,7 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
             LessonPhraseCard(
                 lang = native,
                 text = concept.text(native).text,
-                speakEnabled = ttsOn && vm.ttsAvailable(native),
+                speakEnabled = ttsOn,
                 onSpeak = { vm.speak(concept.text(native).text, native) },
                 highlighted = false,
                 promptTag = true,
@@ -496,7 +533,7 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                     lang = target,
                     text = concept.text(target).text,
                     ipa = concept.text(target).ipa,
-                    speakEnabled = ttsOn && vm.ttsAvailable(target),
+                    speakEnabled = ttsOn,
                     onSpeak = { vm.speak(concept.text(target).text, target) },
                     highlighted = true,
                 )

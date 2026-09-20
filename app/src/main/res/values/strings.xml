@@ -41,6 +41,7 @@
     <string name="settings_native">I know</string>
     <string name="settings_targets">Learning</string>
     <string name="settings_tts">Speech</string>
+    <string name="settings_tts_hint">To hear Vietnamese, install the Vietnamese voice in system Text-to-speech settings (Google TTS).</string>
     <string name="stats_title">Stats</string>
     <string name="export_current">Export current profile</string>
     <string name="export_all">Export all profiles</string>
