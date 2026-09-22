@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "health",
-          "ipa": "/health/",
+          "ipa": "/ˈhɛlθ/",
           "hints": {
             "ru": "health",
             "vi": "health"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "doctor",
-          "ipa": "/doctor/",
+          "ipa": "/ˈdɑktɚ/",
           "hints": {
             "ru": "doctor",
             "vi": "doctor"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "nurse",
-          "ipa": "/nurse/",
+          "ipa": "/ˈnɝs/",
           "hints": {
             "ru": "nurse",
             "vi": "nurse"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "patient",
-          "ipa": "/patient/",
+          "ipa": "/ˈpeɪʃənt/",
           "hints": {
             "ru": "patient",
             "vi": "patient"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "medicine",
-          "ipa": "/medicine/",
+          "ipa": "/ˈmɛdəsən/",
           "hints": {
             "ru": "medicine",
             "vi": "medicine"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "pain",
-          "ipa": "/pain/",
+          "ipa": "/ˈpeɪn/",
           "hints": {
             "ru": "pain",
             "vi": "pain"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "sick",
-          "ipa": "/sick/",
+          "ipa": "/ˈsɪk/",
           "hints": {
             "ru": "sick",
             "vi": "sick"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "ill",
-          "ipa": "/ill/",
+          "ipa": "/ˈɪl/",
           "hints": {
             "ru": "ill",
             "vi": "ill"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "fever",
-          "ipa": "/fever/",
+          "ipa": "/ˈfivɚ/",
           "hints": {
             "ru": "fever",
             "vi": "fever"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "cough",
-          "ipa": "/cough/",
+          "ipa": "/ˈkɑf/",
           "hints": {
             "ru": "cough",
             "vi": "cough"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "headache",
-          "ipa": "/headache/",
+          "ipa": "/ˈhɛˌdeɪk/",
           "hints": {
             "ru": "headache",
             "vi": "headache"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "injury",
-          "ipa": "/injury/",
+          "ipa": "/ˈɪndʒɚi/",
           "hints": {
             "ru": "injury",
             "vi": "injury"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "ambulance",
-          "ipa": "/ambulance/",
+          "ipa": "/ˈæmbjələns/",
           "hints": {
             "ru": "ambulance",
             "vi": "ambulance"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "healthy",
-          "ipa": "/healthy/",
+          "ipa": "/ˈhɛlθi/",
           "hints": {
             "ru": "healthy",
             "vi": "healthy"
@@ -691,6 +691,46 @@
           "hints": {
             "ru": "khỏe",
             "en": "khỏe"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.sleep",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "sleep",
+          "ipa": "/sliːp/",
+          "hints": {
+            "ru": "sleep",
+            "vi": "sleep"
+          }
+        },
+        "ru": {
+          "text": "сон",
+          "ipa": "/son/",
+          "hints": {
+            "en": "сон",
+            "vi": "сон"
+          }
+        },
+        "vi": {
+          "text": "ngủ",
+          "ipa": "/ŋu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngủ",
+            "en": "ngủ"
           }
         }
       }
@@ -750,7 +790,7 @@
       "texts": {
         "en": {
           "text": "exercise",
-          "ipa": "/exercise/",
+          "ipa": "/ˈɛksɚˌsaɪz/",
           "hints": {
             "ru": "exercise",
             "vi": "exercise"
@@ -790,7 +830,7 @@
       "texts": {
         "en": {
           "text": "sport",
-          "ipa": "/sport/",
+          "ipa": "/ˈspɔɹt/",
           "hints": {
             "ru": "sport",
             "vi": "sport"
@@ -830,7 +870,7 @@
       "texts": {
         "en": {
           "text": "run",
-          "ipa": "/run/",
+          "ipa": "/ˈɹʌn/",
           "hints": {
             "ru": "run",
             "vi": "run"
@@ -891,6 +931,46 @@
           "hints": {
             "ru": "bơi",
             "en": "bơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "hl.walk",
+      "kind": "word",
+      "theme": "health",
+      "tags": [
+        "theme:health"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "walk",
+          "ipa": "/wɔːk/",
+          "hints": {
+            "ru": "walk",
+            "vi": "walk"
+          }
+        },
+        "ru": {
+          "text": "ходить",
+          "ipa": "/xodʲitʲ/",
+          "hints": {
+            "en": "ходить",
+            "vi": "ходить"
+          }
+        },
+        "vi": {
+          "text": "đi bộ",
+          "ipa": "/ɗi˧ ɓo˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "đi bộ",
+            "en": "đi bộ"
           }
         }
       }

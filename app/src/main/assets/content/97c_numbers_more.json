@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "eleven",
-          "ipa": "/eleven/",
+          "ipa": "/ɪˈlɛvən/",
           "hints": {
             "ru": "eleven",
             "vi": "eleven"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "twelve",
-          "ipa": "/twelve/",
+          "ipa": "/ˈtwɛlv/",
           "hints": {
             "ru": "twelve",
             "vi": "twelve"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "thirteen",
-          "ipa": "/thirteen/",
+          "ipa": "/ˈθɝˈtin/",
           "hints": {
             "ru": "thirteen",
             "vi": "thirteen"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "fourteen",
-          "ipa": "/fourteen/",
+          "ipa": "/ˈfɔˈɹtin/",
           "hints": {
             "ru": "fourteen",
             "vi": "fourteen"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "fifteen",
-          "ipa": "/fifteen/",
+          "ipa": "/fɪˈftin/",
           "hints": {
             "ru": "fifteen",
             "vi": "fifteen"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "sixteen",
-          "ipa": "/sixteen/",
+          "ipa": "/sɪˈkstin/",
           "hints": {
             "ru": "sixteen",
             "vi": "sixteen"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "seventeen",
-          "ipa": "/seventeen/",
+          "ipa": "/ˈsɛvəˈntin/",
           "hints": {
             "ru": "seventeen",
             "vi": "seventeen"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "eighteen",
-          "ipa": "/eighteen/",
+          "ipa": "/eɪˈtin/",
           "hints": {
             "ru": "eighteen",
             "vi": "eighteen"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "nineteen",
-          "ipa": "/nineteen/",
+          "ipa": "/ˈnaɪˈntin/",
           "hints": {
             "ru": "nineteen",
             "vi": "nineteen"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "twenty",
-          "ipa": "/twenty/",
+          "ipa": "/ˈtwɛnti/",
           "hints": {
             "ru": "twenty",
             "vi": "twenty"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "thirty",
-          "ipa": "/thirty/",
+          "ipa": "/ˈθɝˌdi/",
           "hints": {
             "ru": "thirty",
             "vi": "thirty"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "forty",
-          "ipa": "/forty/",
+          "ipa": "/ˈfɔɹti/",
           "hints": {
             "ru": "forty",
             "vi": "forty"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "fifty",
-          "ipa": "/fifty/",
+          "ipa": "/ˈfɪfti/",
           "hints": {
             "ru": "fifty",
             "vi": "fifty"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "sixty",
-          "ipa": "/sixty/",
+          "ipa": "/ˈsɪksti/",
           "hints": {
             "ru": "sixty",
             "vi": "sixty"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "seventy",
-          "ipa": "/seventy/",
+          "ipa": "/ˈsɛvənti/",
           "hints": {
             "ru": "seventy",
             "vi": "seventy"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "eighty",
-          "ipa": "/eighty/",
+          "ipa": "/ˈeɪti/",
           "hints": {
             "ru": "eighty",
             "vi": "eighty"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "ninety",
-          "ipa": "/ninety/",
+          "ipa": "/ˈnaɪnti/",
           "hints": {
             "ru": "ninety",
             "vi": "ninety"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "thousand",
-          "ipa": "/thousand/",
+          "ipa": "/ˈθaʊzənd/",
           "hints": {
             "ru": "thousand",
             "vi": "thousand"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "million",
-          "ipa": "/million/",
+          "ipa": "/ˈmɪljən/",
           "hints": {
             "ru": "million",
             "vi": "million"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "half",
-          "ipa": "/half/",
+          "ipa": "/ˈhæf/",
           "hints": {
             "ru": "half",
             "vi": "half"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "pair",
-          "ipa": "/pair/",
+          "ipa": "/ˈpɛɹ/",
           "hints": {
             "ru": "pair",
             "vi": "pair"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "third",
-          "ipa": "/third/",
+          "ipa": "/ˈθɝd/",
           "hints": {
             "ru": "third",
             "vi": "third"

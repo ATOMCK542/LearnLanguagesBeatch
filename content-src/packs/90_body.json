@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "head",
-          "ipa": "/head/",
+          "ipa": "/ˈhɛd/",
           "hints": {
             "ru": "head",
             "vi": "head"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "hair",
-          "ipa": "/hair/",
+          "ipa": "/ˈhɛɹ/",
           "hints": {
             "ru": "hair",
             "vi": "hair"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "face",
-          "ipa": "/face/",
+          "ipa": "/ˈfeɪs/",
           "hints": {
             "ru": "face",
             "vi": "face"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "eye",
-          "ipa": "/eye/",
+          "ipa": "/ˈaɪ/",
           "hints": {
             "ru": "eye",
             "vi": "eye"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "ear",
-          "ipa": "/ear/",
+          "ipa": "/ˈiɹ/",
           "hints": {
             "ru": "ear",
             "vi": "ear"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "nose",
-          "ipa": "/nose/",
+          "ipa": "/ˈnoʊz/",
           "hints": {
             "ru": "nose",
             "vi": "nose"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "mouth",
-          "ipa": "/mouth/",
+          "ipa": "/ˈmaʊθ/",
           "hints": {
             "ru": "mouth",
             "vi": "mouth"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "tooth",
-          "ipa": "/tooth/",
+          "ipa": "/ˈtuθ/",
           "hints": {
             "ru": "tooth",
             "vi": "tooth"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "teeth",
-          "ipa": "/teeth/",
+          "ipa": "/ˈtiθ/",
           "hints": {
             "ru": "teeth",
             "vi": "teeth"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "tongue",
-          "ipa": "/tongue/",
+          "ipa": "/ˈtʌŋ/",
           "hints": {
             "ru": "tongue",
             "vi": "tongue"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "neck",
-          "ipa": "/neck/",
+          "ipa": "/ˈnɛk/",
           "hints": {
             "ru": "neck",
             "vi": "neck"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "shoulder",
-          "ipa": "/shoulder/",
+          "ipa": "/ˈʃoʊldɚ/",
           "hints": {
             "ru": "shoulder",
             "vi": "shoulder"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "arm",
-          "ipa": "/arm/",
+          "ipa": "/ˈɑɹm/",
           "hints": {
             "ru": "arm",
             "vi": "arm"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "hand",
-          "ipa": "/hand/",
+          "ipa": "/ˈhænd/",
           "hints": {
             "ru": "hand",
             "vi": "hand"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "finger",
-          "ipa": "/finger/",
+          "ipa": "/ˈfɪŋɡɚ/",
           "hints": {
             "ru": "finger",
             "vi": "finger"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "chest",
-          "ipa": "/chest/",
+          "ipa": "/ˈtʃɛst/",
           "hints": {
             "ru": "chest",
             "vi": "chest"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "back",
-          "ipa": "/back/",
+          "ipa": "/ˈbæk/",
           "hints": {
             "ru": "back",
             "vi": "back"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "stomach",
-          "ipa": "/stomach/",
+          "ipa": "/ˈstʌmək/",
           "hints": {
             "ru": "stomach",
             "vi": "stomach"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "leg",
-          "ipa": "/leg/",
+          "ipa": "/ˈlɛɡ/",
           "hints": {
             "ru": "leg",
             "vi": "leg"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "knee",
-          "ipa": "/knee/",
+          "ipa": "/ˈni/",
           "hints": {
             "ru": "knee",
             "vi": "knee"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "foot",
-          "ipa": "/foot/",
+          "ipa": "/ˈfʊt/",
           "hints": {
             "ru": "foot",
             "vi": "foot"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "feet",
-          "ipa": "/feet/",
+          "ipa": "/ˈfit/",
           "hints": {
             "ru": "feet",
             "vi": "feet"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "skin",
-          "ipa": "/skin/",
+          "ipa": "/ˈskɪn/",
           "hints": {
             "ru": "skin",
             "vi": "skin"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "blood",
-          "ipa": "/blood/",
+          "ipa": "/ˈblʌd/",
           "hints": {
             "ru": "blood",
             "vi": "blood"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "heart",
-          "ipa": "/heart/",
+          "ipa": "/ˈhɑɹt/",
           "hints": {
             "ru": "heart",
             "vi": "heart"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "bone",
-          "ipa": "/bone/",
+          "ipa": "/ˈboʊn/",
           "hints": {
             "ru": "bone",
             "vi": "bone"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "brain",
-          "ipa": "/brain/",
+          "ipa": "/ˈbɹeɪn/",
           "hints": {
             "ru": "brain",
             "vi": "brain"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "body",
-          "ipa": "/body/",
+          "ipa": "/ˈbɑdi/",
           "hints": {
             "ru": "body",
             "vi": "body"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "voice",
-          "ipa": "/voice/",
+          "ipa": "/ˈvɔɪs/",
           "hints": {
             "ru": "voice",
             "vi": "voice"
@@ -1190,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "smile",
-          "ipa": "/smile/",
+          "ipa": "/ˈsmaɪl/",
           "hints": {
             "ru": "smile",
             "vi": "smile"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "beard",
-          "ipa": "/beard/",
+          "ipa": "/ˈbɪɹd/",
           "hints": {
             "ru": "beard",
             "vi": "beard"
@@ -1270,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "lip",
-          "ipa": "/lip/",
+          "ipa": "/ˈlɪp/",
           "hints": {
             "ru": "lip",
             "vi": "lip"
@@ -1310,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "cheek",
-          "ipa": "/cheek/",
+          "ipa": "/ˈtʃik/",
           "hints": {
             "ru": "cheek",
             "vi": "cheek"
@@ -1350,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "forehead",
-          "ipa": "/forehead/",
+          "ipa": "/ˈfɔɹhɛd/",
           "hints": {
             "ru": "forehead",
             "vi": "forehead"
@@ -1390,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "throat",
-          "ipa": "/throat/",
+          "ipa": "/ˈθɹoʊt/",
           "hints": {
             "ru": "throat",
             "vi": "throat"
@@ -1430,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "waist",
-          "ipa": "/waist/",
+          "ipa": "/ˈweɪst/",
           "hints": {
             "ru": "waist",
             "vi": "waist"
@@ -1470,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "hip",
-          "ipa": "/hip/",
+          "ipa": "/ˈhɪp/",
           "hints": {
             "ru": "hip",
             "vi": "hip"
@@ -1510,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "ankle",
-          "ipa": "/ankle/",
+          "ipa": "/ˈæŋkəl/",
           "hints": {
             "ru": "ankle",
             "vi": "ankle"
@@ -1550,7 +1550,7 @@
       "texts": {
         "en": {
           "text": "wrist",
-          "ipa": "/wrist/",
+          "ipa": "/ˈɹɪst/",
           "hints": {
             "ru": "wrist",
             "vi": "wrist"
@@ -1590,7 +1590,7 @@
       "texts": {
         "en": {
           "text": "nail",
-          "ipa": "/nail/",
+          "ipa": "/ˈneɪl/",
           "hints": {
             "ru": "nail",
             "vi": "nail"
@@ -1630,7 +1630,7 @@
       "texts": {
         "en": {
           "text": "muscle",
-          "ipa": "/muscle/",
+          "ipa": "/ˈmʌsəl/",
           "hints": {
             "ru": "muscle",
             "vi": "muscle"
@@ -1670,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "breath",
-          "ipa": "/breath/",
+          "ipa": "/ˈbɹɛθ/",
           "hints": {
             "ru": "breath",
             "vi": "breath"
@@ -1750,7 +1750,7 @@
       "texts": {
         "en": {
           "text": "elbow",
-          "ipa": "/elbow/",
+          "ipa": "/ˈɛˌlboʊ/",
           "hints": {
             "ru": "elbow",
             "vi": "elbow"
@@ -1790,7 +1790,7 @@
       "texts": {
         "en": {
           "text": "thumb",
-          "ipa": "/thumb/",
+          "ipa": "/ˈθʌm/",
           "hints": {
             "ru": "thumb",
             "vi": "thumb"

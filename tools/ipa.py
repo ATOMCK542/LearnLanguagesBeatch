@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+from pathlib import Path
 
 _EN_TABLE = """
 a ə
@@ -733,9 +734,82 @@ def _word(lang: str, token: str) -> str:
     return low
 
 
+_CMU: dict[str, str] | None = None
+
+_ARPABET = {
+    "AA": "ɑ", "AE": "æ", "AH": "ʌ", "AO": "ɔ", "AW": "aʊ", "AY": "aɪ",
+    "B": "b", "CH": "tʃ", "D": "d", "DH": "ð", "EH": "ɛ", "ER": "ɝ",
+    "EY": "eɪ", "F": "f", "G": "ɡ", "HH": "h", "IH": "ɪ", "IY": "i",
+    "JH": "dʒ", "K": "k", "L": "l", "M": "m", "N": "n", "NG": "ŋ",
+    "OW": "oʊ", "OY": "ɔɪ", "P": "p", "R": "ɹ", "S": "s", "SH": "ʃ",
+    "T": "t", "TH": "θ", "UH": "ʊ", "UW": "u", "V": "v", "W": "w",
+    "Y": "j", "Z": "z", "ZH": "ʒ",
+}
+
+
+def _cmu() -> dict[str, str]:
+    """CMUdict (cmusphinx/cmudict, BSD) as American IPA. Curated EN_IPA still wins."""
+    global _CMU
+    if _CMU is not None:
+        return _CMU
+    path = Path(__file__).resolve().parent / "data" / "cmudict.dict"
+    table: dict[str, str] = {}
+    if path.exists():
+        for raw in path.read_text(encoding="latin-1").splitlines():
+            if not raw or raw.startswith(";"):
+                continue
+            word, _, pron = raw.partition(" ")
+            if not pron or "(" in word:
+                continue
+            key = word.lower()
+            if key not in table:
+                ipa = _arpabet_to_ipa(pron)
+                if ipa:
+                    table[key] = ipa
+    _CMU = table
+    return table
+
+
+def _arpabet_to_ipa(pron: str) -> str:
+    phones = pron.split()
+    syllables: list[tuple[list[str], int]] = []
+    current: list[str] = []
+    for phone in phones:
+        stress = None
+        base = phone
+        if phone[-1].isdigit():
+            stress = int(phone[-1])
+            base = phone[:-1]
+        if base not in _ARPABET:
+            return ""
+        current.append(base)
+        if stress is not None:
+            syllables.append((current, stress))
+            current = []
+    if not syllables:
+        return ""
+    if current:
+        syllables[-1] = (syllables[-1][0] + current, syllables[-1][1])
+    out: list[str] = []
+    for syl, stress in syllables:
+        if stress == 1:
+            out.append("ˈ")
+        elif stress == 2:
+            out.append("ˌ")
+        for ph in syl:
+            if ph == "AH" and stress == 0:
+                out.append("ə")
+            elif ph == "ER" and stress == 0:
+                out.append("ɚ")
+            else:
+                out.append(_ARPABET[ph])
+    return "".join(out)
+
+
 def _en_fallback(word: str) -> str:
-    # Last resort: keep Latin letters so the field is never the raw orthography in slashes
-    # for unknown items, approximate with a simple spelling pronunciation.
+    hit = _cmu().get(word.lower().replace("’", "'"))
+    if hit:
+        return hit
     return word
 
 

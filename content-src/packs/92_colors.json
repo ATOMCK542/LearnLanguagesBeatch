@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "red",
-          "ipa": "/red/",
+          "ipa": "/ˈɹɛd/",
           "hints": {
             "ru": "red",
             "vi": "red"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "green",
-          "ipa": "/green/",
+          "ipa": "/ˈɡɹin/",
           "hints": {
             "ru": "green",
             "vi": "green"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "yellow",
-          "ipa": "/yellow/",
+          "ipa": "/ˈjɛloʊ/",
           "hints": {
             "ru": "yellow",
             "vi": "yellow"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "black",
-          "ipa": "/black/",
+          "ipa": "/ˈblæk/",
           "hints": {
             "ru": "black",
             "vi": "black"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "white",
-          "ipa": "/white/",
+          "ipa": "/ˈwaɪt/",
           "hints": {
             "ru": "white",
             "vi": "white"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "orange",
-          "ipa": "/orange/",
+          "ipa": "/ˈɔɹəndʒ/",
           "hints": {
             "ru": "orange",
             "vi": "orange"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "pink",
-          "ipa": "/pink/",
+          "ipa": "/ˈpɪŋk/",
           "hints": {
             "ru": "pink",
             "vi": "pink"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "purple",
-          "ipa": "/purple/",
+          "ipa": "/ˈpɝpəl/",
           "hints": {
             "ru": "purple",
             "vi": "purple"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "brown",
-          "ipa": "/brown/",
+          "ipa": "/ˈbɹaʊn/",
           "hints": {
             "ru": "brown",
             "vi": "brown"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "gray",
-          "ipa": "/gray/",
+          "ipa": "/ˈɡɹeɪ/",
           "hints": {
             "ru": "gray",
             "vi": "gray"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "gold",
-          "ipa": "/gold/",
+          "ipa": "/ˈɡoʊld/",
           "hints": {
             "ru": "gold",
             "vi": "gold"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "silver",
-          "ipa": "/silver/",
+          "ipa": "/ˈsɪlvɚ/",
           "hints": {
             "ru": "silver",
             "vi": "silver"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "dark",
-          "ipa": "/dark/",
+          "ipa": "/ˈdɑɹk/",
           "hints": {
             "ru": "dark",
             "vi": "dark"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "bright",
-          "ipa": "/bright/",
+          "ipa": "/ˈbɹaɪt/",
           "hints": {
             "ru": "bright",
             "vi": "bright"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "light color",
-          "ipa": "/light ˈkʌlə/",
+          "ipa": "/ˈlaɪt ˈkʌlə/",
           "hints": {
             "ru": "light color",
             "vi": "light color"

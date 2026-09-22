@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "strong",
-          "ipa": "/strong/",
+          "ipa": "/ˈstɹɔŋ/",
           "hints": {
             "ru": "strong",
             "vi": "strong"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "weak",
-          "ipa": "/weak/",
+          "ipa": "/ˈwik/",
           "hints": {
             "ru": "weak",
             "vi": "weak"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "heavy",
-          "ipa": "/heavy/",
+          "ipa": "/ˈhɛvi/",
           "hints": {
             "ru": "heavy",
             "vi": "heavy"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "short",
-          "ipa": "/short/",
+          "ipa": "/ˈʃɔɹt/",
           "hints": {
             "ru": "short",
             "vi": "short"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "tall",
-          "ipa": "/tall/",
+          "ipa": "/ˈtɔl/",
           "hints": {
             "ru": "tall",
             "vi": "tall"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "wide",
-          "ipa": "/wide/",
+          "ipa": "/ˈwaɪd/",
           "hints": {
             "ru": "wide",
             "vi": "wide"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "narrow",
-          "ipa": "/narrow/",
+          "ipa": "/ˈnɛɹoʊ/",
           "hints": {
             "ru": "narrow",
             "vi": "narrow"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "deep",
-          "ipa": "/deep/",
+          "ipa": "/ˈdip/",
           "hints": {
             "ru": "deep",
             "vi": "deep"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "thick",
-          "ipa": "/thick/",
+          "ipa": "/ˈθɪk/",
           "hints": {
             "ru": "thick",
             "vi": "thick"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "thin",
-          "ipa": "/thin/",
+          "ipa": "/ˈθɪn/",
           "hints": {
             "ru": "thin",
             "vi": "thin"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "soft",
-          "ipa": "/soft/",
+          "ipa": "/ˈsɑft/",
           "hints": {
             "ru": "soft",
             "vi": "soft"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "smooth",
-          "ipa": "/smooth/",
+          "ipa": "/ˈsmuð/",
           "hints": {
             "ru": "smooth",
             "vi": "smooth"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "rough",
-          "ipa": "/rough/",
+          "ipa": "/ˈɹʌf/",
           "hints": {
             "ru": "rough",
             "vi": "rough"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "sharp",
-          "ipa": "/sharp/",
+          "ipa": "/ˈʃɑɹp/",
           "hints": {
             "ru": "sharp",
             "vi": "sharp"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "flat",
-          "ipa": "/flat/",
+          "ipa": "/ˈflæt/",
           "hints": {
             "ru": "flat",
             "vi": "flat"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "round",
-          "ipa": "/round/",
+          "ipa": "/ˈɹaʊnd/",
           "hints": {
             "ru": "round",
             "vi": "round"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "rich",
-          "ipa": "/rich/",
+          "ipa": "/ˈɹɪtʃ/",
           "hints": {
             "ru": "rich",
             "vi": "rich"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "poor",
-          "ipa": "/poor/",
+          "ipa": "/ˈpuɹ/",
           "hints": {
             "ru": "poor",
             "vi": "poor"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "famous",
-          "ipa": "/famous/",
+          "ipa": "/ˈfeɪməs/",
           "hints": {
             "ru": "famous",
             "vi": "famous"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "popular",
-          "ipa": "/popular/",
+          "ipa": "/ˈpɑpjəlɚ/",
           "hints": {
             "ru": "popular",
             "vi": "popular"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "special",
-          "ipa": "/special/",
+          "ipa": "/ˈspɛʃəl/",
           "hints": {
             "ru": "special",
             "vi": "special"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "normal",
-          "ipa": "/normal/",
+          "ipa": "/ˈnɔɹməl/",
           "hints": {
             "ru": "normal",
             "vi": "normal"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "strange",
-          "ipa": "/strange/",
+          "ipa": "/ˈstɹeɪndʒ/",
           "hints": {
             "ru": "strange",
             "vi": "strange"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "funny",
-          "ipa": "/funny/",
+          "ipa": "/ˈfʌni/",
           "hints": {
             "ru": "funny",
             "vi": "funny"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "serious",
-          "ipa": "/serious/",
+          "ipa": "/ˈsɪɹiəs/",
           "hints": {
             "ru": "serious",
             "vi": "serious"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "polite",
-          "ipa": "/polite/",
+          "ipa": "/pəˈlaɪt/",
           "hints": {
             "ru": "polite",
             "vi": "polite"
@@ -1270,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "rude",
-          "ipa": "/rude/",
+          "ipa": "/ˈɹud/",
           "hints": {
             "ru": "rude",
             "vi": "rude"
@@ -1310,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "honest",
-          "ipa": "/honest/",
+          "ipa": "/ˈɑnəst/",
           "hints": {
             "ru": "honest",
             "vi": "honest"
@@ -1350,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "brave",
-          "ipa": "/brave/",
+          "ipa": "/ˈbɹeɪv/",
           "hints": {
             "ru": "brave",
             "vi": "brave"
@@ -1390,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "afraid",
-          "ipa": "/afraid/",
+          "ipa": "/əˈfɹeɪd/",
           "hints": {
             "ru": "afraid",
             "vi": "afraid"
@@ -1430,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "angry",
-          "ipa": "/angry/",
+          "ipa": "/ˈæŋɡɹi/",
           "hints": {
             "ru": "angry",
             "vi": "angry"
@@ -1470,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "calm",
-          "ipa": "/calm/",
+          "ipa": "/ˈkɑm/",
           "hints": {
             "ru": "calm",
             "vi": "calm"
@@ -1510,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "proud",
-          "ipa": "/proud/",
+          "ipa": "/ˈpɹaʊd/",
           "hints": {
             "ru": "proud",
             "vi": "proud"
@@ -1550,7 +1550,7 @@
       "texts": {
         "en": {
           "text": "lonely",
-          "ipa": "/lonely/",
+          "ipa": "/ˈloʊnli/",
           "hints": {
             "ru": "lonely",
             "vi": "lonely"
@@ -1590,7 +1590,7 @@
       "texts": {
         "en": {
           "text": "bored",
-          "ipa": "/bored/",
+          "ipa": "/ˈbɔɹd/",
           "hints": {
             "ru": "bored",
             "vi": "bored"
@@ -1630,7 +1630,7 @@
       "texts": {
         "en": {
           "text": "excited",
-          "ipa": "/excited/",
+          "ipa": "/ɪˈksaɪtəd/",
           "hints": {
             "ru": "excited",
             "vi": "excited"
@@ -1670,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "surprised",
-          "ipa": "/surprised/",
+          "ipa": "/sɚˈpɹaɪzd/",
           "hints": {
             "ru": "surprised",
             "vi": "surprised"
@@ -1710,7 +1710,7 @@
       "texts": {
         "en": {
           "text": "interested",
-          "ipa": "/interested/",
+          "ipa": "/ˈɪntɹəstɪd/",
           "hints": {
             "ru": "interested",
             "vi": "interested"
@@ -1750,7 +1750,7 @@
       "texts": {
         "en": {
           "text": "useful",
-          "ipa": "/useful/",
+          "ipa": "/ˈjusfəl/",
           "hints": {
             "ru": "useful",
             "vi": "useful"
@@ -1790,7 +1790,7 @@
       "texts": {
         "en": {
           "text": "useless",
-          "ipa": "/useless/",
+          "ipa": "/ˈjusləs/",
           "hints": {
             "ru": "useless",
             "vi": "useless"
@@ -1830,7 +1830,7 @@
       "texts": {
         "en": {
           "text": "possible",
-          "ipa": "/possible/",
+          "ipa": "/ˈpɑsəbəl/",
           "hints": {
             "ru": "possible",
             "vi": "possible"
@@ -1870,7 +1870,7 @@
       "texts": {
         "en": {
           "text": "impossible",
-          "ipa": "/impossible/",
+          "ipa": "/ˌɪˈmpɑsəbəl/",
           "hints": {
             "ru": "impossible",
             "vi": "impossible"
@@ -1910,7 +1910,7 @@
       "texts": {
         "en": {
           "text": "necessary",
-          "ipa": "/necessary/",
+          "ipa": "/ˈnɛsəˌsɛɹi/",
           "hints": {
             "ru": "necessary",
             "vi": "necessary"
@@ -1950,7 +1950,7 @@
       "texts": {
         "en": {
           "text": "available",
-          "ipa": "/available/",
+          "ipa": "/əˈveɪləbəl/",
           "hints": {
             "ru": "available",
             "vi": "available"
@@ -1990,7 +1990,7 @@
       "texts": {
         "en": {
           "text": "comfortable",
-          "ipa": "/comfortable/",
+          "ipa": "/ˈkʌmfɚtəbəl/",
           "hints": {
             "ru": "comfortable",
             "vi": "comfortable"
@@ -2030,7 +2030,7 @@
       "texts": {
         "en": {
           "text": "convenient",
-          "ipa": "/convenient/",
+          "ipa": "/kəˈnvinjənt/",
           "hints": {
             "ru": "convenient",
             "vi": "convenient"
@@ -2070,7 +2070,7 @@
       "texts": {
         "en": {
           "text": "legal",
-          "ipa": "/legal/",
+          "ipa": "/ˈliɡəl/",
           "hints": {
             "ru": "legal",
             "vi": "legal"
@@ -2110,7 +2110,7 @@
       "texts": {
         "en": {
           "text": "illegal",
-          "ipa": "/illegal/",
+          "ipa": "/ˌɪˈliɡəl/",
           "hints": {
             "ru": "illegal",
             "vi": "illegal"
@@ -2150,7 +2150,7 @@
       "texts": {
         "en": {
           "text": "public",
-          "ipa": "/public/",
+          "ipa": "/ˈpʌblɪk/",
           "hints": {
             "ru": "public",
             "vi": "public"
@@ -2190,7 +2190,7 @@
       "texts": {
         "en": {
           "text": "private",
-          "ipa": "/private/",
+          "ipa": "/ˈpɹaɪvət/",
           "hints": {
             "ru": "private",
             "vi": "private"
@@ -2230,7 +2230,7 @@
       "texts": {
         "en": {
           "text": "local",
-          "ipa": "/local/",
+          "ipa": "/ˈloʊkəl/",
           "hints": {
             "ru": "local",
             "vi": "local"
@@ -2270,7 +2270,7 @@
       "texts": {
         "en": {
           "text": "international",
-          "ipa": "/international/",
+          "ipa": "/ˌɪntɚˈnæʃənəl/",
           "hints": {
             "ru": "international",
             "vi": "international"
@@ -2310,7 +2310,7 @@
       "texts": {
         "en": {
           "text": "modern",
-          "ipa": "/modern/",
+          "ipa": "/ˈmɑdɚn/",
           "hints": {
             "ru": "modern",
             "vi": "modern"
@@ -2350,7 +2350,7 @@
       "texts": {
         "en": {
           "text": "traditional",
-          "ipa": "/traditional/",
+          "ipa": "/tɹəˈdɪʃənəl/",
           "hints": {
             "ru": "traditional",
             "vi": "traditional"
@@ -2390,7 +2390,7 @@
       "texts": {
         "en": {
           "text": "natural",
-          "ipa": "/natural/",
+          "ipa": "/ˈnætʃɚəl/",
           "hints": {
             "ru": "natural",
             "vi": "natural"
@@ -2430,7 +2430,7 @@
       "texts": {
         "en": {
           "text": "real",
-          "ipa": "/real/",
+          "ipa": "/ˈɹil/",
           "hints": {
             "ru": "real",
             "vi": "real"
@@ -2470,7 +2470,7 @@
       "texts": {
         "en": {
           "text": "fake",
-          "ipa": "/fake/",
+          "ipa": "/ˈfeɪk/",
           "hints": {
             "ru": "fake",
             "vi": "fake"
@@ -2510,7 +2510,7 @@
       "texts": {
         "en": {
           "text": "true",
-          "ipa": "/true/",
+          "ipa": "/ˈtɹu/",
           "hints": {
             "ru": "true",
             "vi": "true"
@@ -2550,7 +2550,7 @@
       "texts": {
         "en": {
           "text": "false",
-          "ipa": "/false/",
+          "ipa": "/ˈfɔls/",
           "hints": {
             "ru": "false",
             "vi": "false"
@@ -2590,7 +2590,7 @@
       "texts": {
         "en": {
           "text": "main",
-          "ipa": "/main/",
+          "ipa": "/ˈmeɪn/",
           "hints": {
             "ru": "main",
             "vi": "main"
@@ -2630,7 +2630,7 @@
       "texts": {
         "en": {
           "text": "simple",
-          "ipa": "/simple/",
+          "ipa": "/ˈsɪmpəl/",
           "hints": {
             "ru": "simple",
             "vi": "simple"
@@ -2670,7 +2670,7 @@
       "texts": {
         "en": {
           "text": "complex",
-          "ipa": "/complex/",
+          "ipa": "/ˈkɑmplɛks/",
           "hints": {
             "ru": "complex",
             "vi": "complex"
@@ -2710,7 +2710,7 @@
       "texts": {
         "en": {
           "text": "clear",
-          "ipa": "/clear/",
+          "ipa": "/ˈklɪɹ/",
           "hints": {
             "ru": "clear",
             "vi": "clear"
@@ -2750,7 +2750,7 @@
       "texts": {
         "en": {
           "text": "sure",
-          "ipa": "/sure/",
+          "ipa": "/ˈʃʊɹ/",
           "hints": {
             "ru": "sure",
             "vi": "sure"
@@ -2790,7 +2790,7 @@
       "texts": {
         "en": {
           "text": "lucky",
-          "ipa": "/lucky/",
+          "ipa": "/ˈlʌki/",
           "hints": {
             "ru": "lucky",
             "vi": "lucky"

@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "apple",
-          "ipa": "/apple/",
+          "ipa": "/ˈæpəl/",
           "hints": {
             "ru": "apple",
             "vi": "apple"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "banana",
-          "ipa": "/banana/",
+          "ipa": "/bəˈnænə/",
           "hints": {
             "ru": "banana",
             "vi": "banana"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "lemon",
-          "ipa": "/lemon/",
+          "ipa": "/ˈlɛmən/",
           "hints": {
             "ru": "lemon",
             "vi": "lemon"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "grape",
-          "ipa": "/grape/",
+          "ipa": "/ˈɡɹeɪp/",
           "hints": {
             "ru": "grape",
             "vi": "grape"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "mango",
-          "ipa": "/mango/",
+          "ipa": "/ˈmæŋɡoʊ/",
           "hints": {
             "ru": "mango",
             "vi": "mango"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "watermelon",
-          "ipa": "/watermelon/",
+          "ipa": "/ˈwɔtɚˌmɛlən/",
           "hints": {
             "ru": "watermelon",
             "vi": "watermelon"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "strawberry",
-          "ipa": "/strawberry/",
+          "ipa": "/ˈstɹɔˌbɛɹi/",
           "hints": {
             "ru": "strawberry",
             "vi": "strawberry"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "tomato",
-          "ipa": "/tomato/",
+          "ipa": "/təˈmeɪˌtoʊ/",
           "hints": {
             "ru": "tomato",
             "vi": "tomato"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "potato",
-          "ipa": "/potato/",
+          "ipa": "/pəˈteɪˌtoʊ/",
           "hints": {
             "ru": "potato",
             "vi": "potato"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "carrot",
-          "ipa": "/carrot/",
+          "ipa": "/ˈkæɹət/",
           "hints": {
             "ru": "carrot",
             "vi": "carrot"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "onion",
-          "ipa": "/onion/",
+          "ipa": "/ˈʌnjən/",
           "hints": {
             "ru": "onion",
             "vi": "onion"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "garlic",
-          "ipa": "/garlic/",
+          "ipa": "/ˈɡɑɹlɪk/",
           "hints": {
             "ru": "garlic",
             "vi": "garlic"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "pepper",
-          "ipa": "/pepper/",
+          "ipa": "/ˈpɛpɚ/",
           "hints": {
             "ru": "pepper",
             "vi": "pepper"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "salt",
-          "ipa": "/salt/",
+          "ipa": "/ˈsɔlt/",
           "hints": {
             "ru": "salt",
             "vi": "salt"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "oil",
-          "ipa": "/oil/",
+          "ipa": "/ˈɔɪl/",
           "hints": {
             "ru": "oil",
             "vi": "oil"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "egg",
-          "ipa": "/egg/",
+          "ipa": "/ˈɛɡ/",
           "hints": {
             "ru": "egg",
             "vi": "egg"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "cheese",
-          "ipa": "/cheese/",
+          "ipa": "/ˈtʃiz/",
           "hints": {
             "ru": "cheese",
             "vi": "cheese"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "butter",
-          "ipa": "/butter/",
+          "ipa": "/ˈbʌtɚ/",
           "hints": {
             "ru": "butter",
             "vi": "butter"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "yogurt",
-          "ipa": "/yogurt/",
+          "ipa": "/ˈjoʊɡɚt/",
           "hints": {
             "ru": "yogurt",
             "vi": "yogurt"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "soup",
-          "ipa": "/soup/",
+          "ipa": "/ˈsup/",
           "hints": {
             "ru": "soup",
             "vi": "soup"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "salad",
-          "ipa": "/salad/",
+          "ipa": "/ˈsæləd/",
           "hints": {
             "ru": "salad",
             "vi": "salad"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "noodle",
-          "ipa": "/noodle/",
+          "ipa": "/ˈnudəl/",
           "hints": {
             "ru": "noodle",
             "vi": "noodle"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "pasta",
-          "ipa": "/pasta/",
+          "ipa": "/ˈpɑstə/",
           "hints": {
             "ru": "pasta",
             "vi": "pasta"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "pizza",
-          "ipa": "/pizza/",
+          "ipa": "/ˈpitsə/",
           "hints": {
             "ru": "pizza",
             "vi": "pizza"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "sandwich",
-          "ipa": "/sandwich/",
+          "ipa": "/ˈsændwɪtʃ/",
           "hints": {
             "ru": "sandwich",
             "vi": "sandwich"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "cake",
-          "ipa": "/cake/",
+          "ipa": "/ˈkeɪk/",
           "hints": {
             "ru": "cake",
             "vi": "cake"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "cookie",
-          "ipa": "/cookie/",
+          "ipa": "/ˈkʊki/",
           "hints": {
             "ru": "cookie",
             "vi": "cookie"
@@ -1190,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "chocolate",
-          "ipa": "/chocolate/",
+          "ipa": "/ˈtʃɔklət/",
           "hints": {
             "ru": "chocolate",
             "vi": "chocolate"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "candy",
-          "ipa": "/candy/",
+          "ipa": "/ˈkændi/",
           "hints": {
             "ru": "candy",
             "vi": "candy"
@@ -1270,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "juice",
-          "ipa": "/juice/",
+          "ipa": "/ˈdʒus/",
           "hints": {
             "ru": "juice",
             "vi": "juice"
@@ -1310,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "beer",
-          "ipa": "/beer/",
+          "ipa": "/ˈbɪɹ/",
           "hints": {
             "ru": "beer",
             "vi": "beer"
@@ -1350,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "wine",
-          "ipa": "/wine/",
+          "ipa": "/ˈwaɪn/",
           "hints": {
             "ru": "wine",
             "vi": "wine"
@@ -1390,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "breakfast",
-          "ipa": "/breakfast/",
+          "ipa": "/ˈbɹɛkfəst/",
           "hints": {
             "ru": "breakfast",
             "vi": "breakfast"
@@ -1430,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "lunch",
-          "ipa": "/lunch/",
+          "ipa": "/ˈlʌntʃ/",
           "hints": {
             "ru": "lunch",
             "vi": "lunch"
@@ -1470,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "dinner",
-          "ipa": "/dinner/",
+          "ipa": "/ˈdɪnɚ/",
           "hints": {
             "ru": "dinner",
             "vi": "dinner"
@@ -1510,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "snack",
-          "ipa": "/snack/",
+          "ipa": "/ˈsnæk/",
           "hints": {
             "ru": "snack",
             "vi": "snack"
@@ -1590,7 +1590,7 @@
       "texts": {
         "en": {
           "text": "sweet",
-          "ipa": "/sweet/",
+          "ipa": "/ˈswit/",
           "hints": {
             "ru": "sweet",
             "vi": "sweet"
@@ -1630,7 +1630,7 @@
       "texts": {
         "en": {
           "text": "sour",
-          "ipa": "/sour/",
+          "ipa": "/ˈsaʊɚ/",
           "hints": {
             "ru": "sour",
             "vi": "sour"
@@ -1670,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "bitter",
-          "ipa": "/bitter/",
+          "ipa": "/ˈbɪtɚ/",
           "hints": {
             "ru": "bitter",
             "vi": "bitter"
@@ -1710,7 +1710,7 @@
       "texts": {
         "en": {
           "text": "salty",
-          "ipa": "/salty/",
+          "ipa": "/ˈsɔlti/",
           "hints": {
             "ru": "salty",
             "vi": "salty"
@@ -1750,7 +1750,7 @@
       "texts": {
         "en": {
           "text": "fresh",
-          "ipa": "/fresh/",
+          "ipa": "/ˈfɹɛʃ/",
           "hints": {
             "ru": "fresh",
             "vi": "fresh"
@@ -1790,7 +1790,7 @@
       "texts": {
         "en": {
           "text": "raw",
-          "ipa": "/raw/",
+          "ipa": "/ˈɹɑ/",
           "hints": {
             "ru": "raw",
             "vi": "raw"
@@ -1830,7 +1830,7 @@
       "texts": {
         "en": {
           "text": "cooked",
-          "ipa": "/cooked/",
+          "ipa": "/ˈkʊkt/",
           "hints": {
             "ru": "cooked",
             "vi": "cooked"
@@ -1870,7 +1870,7 @@
       "texts": {
         "en": {
           "text": "boil",
-          "ipa": "/boil/",
+          "ipa": "/ˈbɔɪl/",
           "hints": {
             "ru": "boil",
             "vi": "boil"
@@ -1910,7 +1910,7 @@
       "texts": {
         "en": {
           "text": "fry",
-          "ipa": "/fry/",
+          "ipa": "/ˈfɹaɪ/",
           "hints": {
             "ru": "fry",
             "vi": "fry"
@@ -1950,7 +1950,7 @@
       "texts": {
         "en": {
           "text": "bake",
-          "ipa": "/bake/",
+          "ipa": "/ˈbeɪk/",
           "hints": {
             "ru": "bake",
             "vi": "bake"
@@ -1990,7 +1990,7 @@
       "texts": {
         "en": {
           "text": "taste",
-          "ipa": "/taste/",
+          "ipa": "/ˈteɪst/",
           "hints": {
             "ru": "taste",
             "vi": "taste"

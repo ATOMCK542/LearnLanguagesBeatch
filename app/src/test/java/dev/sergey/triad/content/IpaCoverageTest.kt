@@ -25,7 +25,7 @@ class IpaCoverageTest {
                 }
             }
         }
-        assertTrue("expected packed concepts", counted > 1000)
+        assertTrue("expected packed concepts", counted >= 6000)
     }
 
     @Test
@@ -55,9 +55,9 @@ class IpaCoverageTest {
                 }
             }
         }
-        assertTrue("concepts=$concepts", concepts >= 1000)
+        assertTrue("concepts=$concepts", concepts >= 6000)
         uniques.forEach { (lang, set) ->
-            assertTrue("$lang unique=${set.size}", set.size >= 1000)
+            assertTrue("$lang unique=${set.size}", set.size >= 5000)
         }
     }
 

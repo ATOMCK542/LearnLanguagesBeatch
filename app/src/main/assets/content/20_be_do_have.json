@@ -576,6 +576,1206 @@
       }
     },
     {
+      "id": "aux.hadn_t",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "hadn't",
+          "ipa": "/ˈhædənt/",
+          "hints": {
+            "ru": "hadn't",
+            "vi": "hadn't"
+          }
+        },
+        "ru": {
+          "text": "не had",
+          "ipa": "/nʲe had/",
+          "hints": {
+            "en": "не had",
+            "vi": "не had"
+          }
+        },
+        "vi": {
+          "text": "đã không",
+          "ipa": "/ɗaː˧˥ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đã không",
+            "en": "đã không"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.haven_t_got",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "haven't got",
+          "ipa": "/ˈhævənt ˈɡɑt/",
+          "hints": {
+            "ru": "haven't got",
+            "vi": "haven't got"
+          }
+        },
+        "ru": {
+          "text": "нет (брит.)",
+          "ipa": "/nʲet brʲit/",
+          "hints": {
+            "en": "нет (брит.)",
+            "vi": "нет (брит.)"
+          }
+        },
+        "vi": {
+          "text": "không có",
+          "ipa": "/xowŋ˧ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "không có",
+            "en": "không có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.i_m",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "I'm",
+          "ipa": "/aɪm/",
+          "hints": {
+            "ru": "I'm",
+            "vi": "I'm"
+          }
+        },
+        "ru": {
+          "text": "я (есть)",
+          "ipa": "/ja jestʲ/",
+          "hints": {
+            "en": "я (есть)",
+            "vi": "я (есть)"
+          }
+        },
+        "vi": {
+          "text": "tôi là",
+          "ipa": "/toj˧ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi là",
+            "en": "tôi là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.you_re",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "you're",
+          "ipa": "/jɔː/",
+          "hints": {
+            "ru": "you're",
+            "vi": "you're"
+          }
+        },
+        "ru": {
+          "text": "ты / вы (есть)",
+          "ipa": "/tɨ vɨ jestʲ/",
+          "hints": {
+            "en": "ты / вы (есть)",
+            "vi": "ты / вы (есть)"
+          }
+        },
+        "vi": {
+          "text": "bạn là",
+          "ipa": "/ɓaːn˧ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn là",
+            "en": "bạn là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.he_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "he's",
+          "ipa": "/ˈhiz/",
+          "hints": {
+            "ru": "he's",
+            "vi": "he's"
+          }
+        },
+        "ru": {
+          "text": "он (есть)",
+          "ipa": "/on jestʲ/",
+          "hints": {
+            "en": "он (есть)",
+            "vi": "он (есть)"
+          }
+        },
+        "vi": {
+          "text": "anh ấy là",
+          "ipa": "/ajŋ˧ əj˧˥ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "anh ấy là",
+            "en": "anh ấy là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.she_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "she's",
+          "ipa": "/ˈʃiz/",
+          "hints": {
+            "ru": "she's",
+            "vi": "she's"
+          }
+        },
+        "ru": {
+          "text": "она (есть)",
+          "ipa": "/ɐˈna jestʲ/",
+          "hints": {
+            "en": "она (есть)",
+            "vi": "она (есть)"
+          }
+        },
+        "vi": {
+          "text": "cô ấy là",
+          "ipa": "/ko˧ əj˧˥ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cô ấy là",
+            "en": "cô ấy là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.it_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "it's",
+          "ipa": "/ɪts/",
+          "hints": {
+            "ru": "it's",
+            "vi": "it's"
+          }
+        },
+        "ru": {
+          "text": "это (есть)",
+          "ipa": "/eto jestʲ/",
+          "hints": {
+            "en": "это (есть)",
+            "vi": "это (есть)"
+          }
+        },
+        "vi": {
+          "text": "nó là",
+          "ipa": "/nɔ˧˥ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nó là",
+            "en": "nó là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.we_re",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "we're",
+          "ipa": "/wɜː/",
+          "hints": {
+            "ru": "we're",
+            "vi": "we're"
+          }
+        },
+        "ru": {
+          "text": "мы (есть)",
+          "ipa": "/mɨ jestʲ/",
+          "hints": {
+            "en": "мы (есть)",
+            "vi": "мы (есть)"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi là",
+          "ipa": "/tɕuŋ˧˥ toj˧ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi là",
+            "en": "chúng tôi là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.they_re",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "they're",
+          "ipa": "/ˈðɛɹ/",
+          "hints": {
+            "ru": "they're",
+            "vi": "they're"
+          }
+        },
+        "ru": {
+          "text": "они (есть)",
+          "ipa": "/ɐˈnʲi jestʲ/",
+          "hints": {
+            "en": "они (есть)",
+            "vi": "они (есть)"
+          }
+        },
+        "vi": {
+          "text": "họ là",
+          "ipa": "/hɔ˧ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "họ là",
+            "en": "họ là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.i_ve",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "I've",
+          "ipa": "/ˈaɪv/",
+          "hints": {
+            "ru": "I've",
+            "vi": "I've"
+          }
+        },
+        "ru": {
+          "text": "я уже",
+          "ipa": "/ja uʐe/",
+          "hints": {
+            "en": "я уже",
+            "vi": "я уже"
+          }
+        },
+        "vi": {
+          "text": "tôi đã",
+          "ipa": "/toj˧ ɗaː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi đã",
+            "en": "tôi đã"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.you_ve",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "you've",
+          "ipa": "/ˈjuv/",
+          "hints": {
+            "ru": "you've",
+            "vi": "you've"
+          }
+        },
+        "ru": {
+          "text": "ты уже",
+          "ipa": "/tɨ uʐe/",
+          "hints": {
+            "en": "ты уже",
+            "vi": "ты уже"
+          }
+        },
+        "vi": {
+          "text": "bạn đã",
+          "ipa": "/ɓaːn˧ˀ ɗaː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn đã",
+            "en": "bạn đã"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.we_ve",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "we've",
+          "ipa": "/ˈwiv/",
+          "hints": {
+            "ru": "we've",
+            "vi": "we've"
+          }
+        },
+        "ru": {
+          "text": "мы уже",
+          "ipa": "/mɨ uʐe/",
+          "hints": {
+            "en": "мы уже",
+            "vi": "мы уже"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi đã",
+          "ipa": "/tɕuŋ˧˥ toj˧ ɗaː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi đã",
+            "en": "chúng tôi đã"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.they_ve",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "they've",
+          "ipa": "/ˈðeɪv/",
+          "hints": {
+            "ru": "they've",
+            "vi": "they've"
+          }
+        },
+        "ru": {
+          "text": "они уже",
+          "ipa": "/ɐˈnʲi uʐe/",
+          "hints": {
+            "en": "они уже",
+            "vi": "они уже"
+          }
+        },
+        "vi": {
+          "text": "họ đã",
+          "ipa": "/hɔ˧ˀ ɗaː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "họ đã",
+            "en": "họ đã"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.there_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "there's",
+          "ipa": "/ðeəz/",
+          "hints": {
+            "ru": "there's",
+            "vi": "there's"
+          }
+        },
+        "ru": {
+          "text": "имеется",
+          "ipa": "/imʲejetsʲa/",
+          "hints": {
+            "en": "имеется",
+            "vi": "имеется"
+          }
+        },
+        "vi": {
+          "text": "có",
+          "ipa": "/kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "có",
+            "en": "có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.here_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "here's",
+          "ipa": "/ˈhɪɹz/",
+          "hints": {
+            "ru": "here's",
+            "vi": "here's"
+          }
+        },
+        "ru": {
+          "text": "вот",
+          "ipa": "/vot/",
+          "hints": {
+            "en": "вот",
+            "vi": "вот"
+          }
+        },
+        "vi": {
+          "text": "đây là",
+          "ipa": "/ɗəj˧ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đây là",
+            "en": "đây là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.that_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "that's",
+          "ipa": "/ðæts/",
+          "hints": {
+            "ru": "that's",
+            "vi": "that's"
+          }
+        },
+        "ru": {
+          "text": "это",
+          "ipa": "/eto/",
+          "hints": {
+            "en": "это",
+            "vi": "это"
+          }
+        },
+        "vi": {
+          "text": "đó là",
+          "ipa": "/ɗɔ˧˥ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "đó là",
+            "en": "đó là"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.what_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "what's",
+          "ipa": "/wɒts/",
+          "hints": {
+            "ru": "what's",
+            "vi": "what's"
+          }
+        },
+        "ru": {
+          "text": "что (есть)",
+          "ipa": "/ʂto jestʲ/",
+          "hints": {
+            "en": "что (есть)",
+            "vi": "что (есть)"
+          }
+        },
+        "vi": {
+          "text": "là gì",
+          "ipa": "/la˨˩ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "là gì",
+            "en": "là gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.who_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "who's",
+          "ipa": "/ˈhuz/",
+          "hints": {
+            "ru": "who's",
+            "vi": "who's"
+          }
+        },
+        "ru": {
+          "text": "кто (есть)",
+          "ipa": "/kto jestʲ/",
+          "hints": {
+            "en": "кто (есть)",
+            "vi": "кто (есть)"
+          }
+        },
+        "vi": {
+          "text": "là ai",
+          "ipa": "/la˨˩ aːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "là ai",
+            "en": "là ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.where_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "where's",
+          "ipa": "/ˈwɛɹz/",
+          "hints": {
+            "ru": "where's",
+            "vi": "where's"
+          }
+        },
+        "ru": {
+          "text": "где (есть)",
+          "ipa": "/ɡdʲe jestʲ/",
+          "hints": {
+            "en": "где (есть)",
+            "vi": "где (есть)"
+          }
+        },
+        "vi": {
+          "text": "ở đâu",
+          "ipa": "/əː˧˩˧ ɗəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ở đâu",
+            "en": "ở đâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.when_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "when's",
+          "ipa": "/ˈwɛnz/",
+          "hints": {
+            "ru": "when's",
+            "vi": "when's"
+          }
+        },
+        "ru": {
+          "text": "когда (есть)",
+          "ipa": "/kəɡˈda jestʲ/",
+          "hints": {
+            "en": "когда (есть)",
+            "vi": "когда (есть)"
+          }
+        },
+        "vi": {
+          "text": "khi nào",
+          "ipa": "/xi˧ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "khi nào",
+            "en": "khi nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.how_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "how's",
+          "ipa": "/ˈhaʊz/",
+          "hints": {
+            "ru": "how's",
+            "vi": "how's"
+          }
+        },
+        "ru": {
+          "text": "как (есть)",
+          "ipa": "/kak jestʲ/",
+          "hints": {
+            "en": "как (есть)",
+            "vi": "как (есть)"
+          }
+        },
+        "vi": {
+          "text": "thế nào",
+          "ipa": "/tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "thế nào",
+            "en": "thế nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.why_s",
+      "kind": "word",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "why's",
+          "ipa": "/ˈwaɪz/",
+          "hints": {
+            "ru": "why's",
+            "vi": "why's"
+          }
+        },
+        "ru": {
+          "text": "почему",
+          "ipa": "/pətɕɪˈmu/",
+          "hints": {
+            "en": "почему",
+            "vi": "почему"
+          }
+        },
+        "vi": {
+          "text": "tại sao",
+          "ipa": "/taːj˧ˀ saːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tại sao",
+            "en": "tại sao"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.i_m_not",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "I'm not",
+          "ipa": "/aɪm nɒt/",
+          "hints": {
+            "ru": "I'm not",
+            "vi": "I'm not"
+          }
+        },
+        "ru": {
+          "text": "я не",
+          "ipa": "/ja nʲe/",
+          "hints": {
+            "en": "я не",
+            "vi": "я не"
+          }
+        },
+        "vi": {
+          "text": "tôi không phải",
+          "ipa": "/toj˧ xowŋ˧ faːj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi không phải",
+            "en": "tôi không phải"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.you_re_not",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "you're not",
+          "ipa": "/jɔː nɒt/",
+          "hints": {
+            "ru": "you're not",
+            "vi": "you're not"
+          }
+        },
+        "ru": {
+          "text": "ты не",
+          "ipa": "/tɨ nʲe/",
+          "hints": {
+            "en": "ты не",
+            "vi": "ты не"
+          }
+        },
+        "vi": {
+          "text": "bạn không phải",
+          "ipa": "/ɓaːn˧ˀ xowŋ˧ faːj˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn không phải",
+            "en": "bạn không phải"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.we_re_not",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "we're not",
+          "ipa": "/wɜː nɒt/",
+          "hints": {
+            "ru": "we're not",
+            "vi": "we're not"
+          }
+        },
+        "ru": {
+          "text": "мы не",
+          "ipa": "/mɨ nʲe/",
+          "hints": {
+            "en": "мы не",
+            "vi": "мы не"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi không",
+          "ipa": "/tɕuŋ˧˥ toj˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi không",
+            "en": "chúng tôi không"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.they_re_not",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "they're not",
+          "ipa": "/ˈðɛɹ nɒt/",
+          "hints": {
+            "ru": "they're not",
+            "vi": "they're not"
+          }
+        },
+        "ru": {
+          "text": "они не",
+          "ipa": "/ɐˈnʲi nʲe/",
+          "hints": {
+            "en": "они не",
+            "vi": "они не"
+          }
+        },
+        "vi": {
+          "text": "họ không",
+          "ipa": "/hɔ˧ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "họ không",
+            "en": "họ không"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.i_ve_got",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "I've got",
+          "ipa": "/ˈaɪv ˈɡɑt/",
+          "hints": {
+            "ru": "I've got",
+            "vi": "I've got"
+          }
+        },
+        "ru": {
+          "text": "у меня есть",
+          "ipa": "/u mʲenʲa jestʲ/",
+          "hints": {
+            "en": "у меня есть",
+            "vi": "у меня есть"
+          }
+        },
+        "vi": {
+          "text": "tôi có",
+          "ipa": "/toj˧ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi có",
+            "en": "tôi có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.you_ve_got",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "you've got",
+          "ipa": "/ˈjuv ˈɡɑt/",
+          "hints": {
+            "ru": "you've got",
+            "vi": "you've got"
+          }
+        },
+        "ru": {
+          "text": "у тебя есть",
+          "ipa": "/u tʲebʲa jestʲ/",
+          "hints": {
+            "en": "у тебя есть",
+            "vi": "у тебя есть"
+          }
+        },
+        "vi": {
+          "text": "bạn có",
+          "ipa": "/ɓaːn˧ˀ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn có",
+            "en": "bạn có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.we_ve_got",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "we've got",
+          "ipa": "/ˈwiv ˈɡɑt/",
+          "hints": {
+            "ru": "we've got",
+            "vi": "we've got"
+          }
+        },
+        "ru": {
+          "text": "у нас есть",
+          "ipa": "/u nas jestʲ/",
+          "hints": {
+            "en": "у нас есть",
+            "vi": "у нас есть"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi có",
+          "ipa": "/tɕuŋ˧˥ toj˧ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi có",
+            "en": "chúng tôi có"
+          }
+        }
+      }
+    },
+    {
+      "id": "aux.they_ve_got",
+      "kind": "phrase",
+      "theme": "be_do_have",
+      "tags": [
+        "auxiliary"
+      ],
+      "grammar": {
+        "en": "Auxiliary / modal.",
+        "ru": "Вспомогательный или модальный глагол.",
+        "vi": "Trợ động từ / động từ khuyết thiếu."
+      },
+      "texts": {
+        "en": {
+          "text": "they've got",
+          "ipa": "/ˈðeɪv ˈɡɑt/",
+          "hints": {
+            "ru": "they've got",
+            "vi": "they've got"
+          }
+        },
+        "ru": {
+          "text": "у них есть",
+          "ipa": "/u nʲix jestʲ/",
+          "hints": {
+            "en": "у них есть",
+            "vi": "у них есть"
+          }
+        },
+        "vi": {
+          "text": "họ có",
+          "ipa": "/hɔ˧ˀ kɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "họ có",
+            "en": "họ có"
+          }
+        }
+      }
+    },
+    {
       "id": "aux.s.i_am",
       "kind": "sentence",
       "theme": "be_do_have",

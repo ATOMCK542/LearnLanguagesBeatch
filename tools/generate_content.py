@@ -13,6 +13,18 @@ ASSETS = ROOT / "app/src/main/assets/content"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ipa import looks_like_orthography, transcribe  # noqa: E402
 from freq_lexicon import extra_specs  # noqa: E402
+from function_lexicon import (  # noqa: E402
+    CONJUNCTIONS,
+    DETERMINERS,
+    PARTICLES,
+    PREPOSITIONS,
+    PREP_PHRASES,
+    aux_extra,
+    lines as lex_lines,
+    prep_id,
+    slug,
+)
+from learner_vocab import learner_rows  # noqa: E402
 
 
 def loc(en: str, ru: str, vi: str) -> dict:
@@ -84,7 +96,7 @@ def pack(theme_id: str, order: int, title: dict, concepts: list, kind: str = "un
 def write_pack(name: str, data: dict) -> None:
     PACKS.mkdir(parents=True, exist_ok=True)
     ASSETS.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(data, ensure_ascii=False, indent=2)
+    text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
     (PACKS / name).write_text(text, encoding="utf-8")
     (ASSETS / name).write_text(text, encoding="utf-8")
 
@@ -220,12 +232,24 @@ def auxiliaries() -> list[dict]:
         ("aux.cant", "can't", "не могу", "không thể", ["auxiliary"]),
         ("aux.wont", "won't", "не будет", "sẽ không", ["auxiliary"]),
     ]
+    seen_en = {en.casefold() for _, en, _, _, _ in words}
+    extra_theme = {}
+    for en, ru, vi, theme in aux_extra():
+        extra_theme[en.casefold()] = theme
+        if en.casefold() in seen_en:
+            continue
+        seen_en.add(en.casefold())
+        words.append((f"aux.{slug(en)}", en, ru, vi, ["auxiliary"]))
     out = []
     g = loc("Auxiliary / modal.", "Вспомогательный или модальный глагол.", "Trợ động từ / động từ khuyết thiếu.")
+    be_do = {
+        "am", "is", "are", "was", "were", "be", "been", "being",
+        "have", "has", "had", "do", "does", "did",
+    }
     for cid, en, ru, vi, tags in words:
-        out.append(concept(cid, "word", "be_do_have" if cid.split(".")[1] in {
-            "am","is","are","was","were","be","been","being","have","has","had","do","does","did"
-        } else "modals", tags, en, ru, vi, grammar=g,
+        theme = extra_theme.get(en.casefold(), "be_do_have" if en.casefold() in be_do else "modals")
+        kind = "phrase" if " " in en else "word"
+        out.append(concept(cid, kind, theme, tags, en, ru, vi, grammar=g,
                            hint_en_ru=en, hint_en_vi=en, hint_ru_en=ru, hint_ru_vi=ru, hint_vi_ru=vi, hint_vi_en=vi))
     skeletons = [
         ("aux.s.i_am", "I am a student", "Я студент", "Tôi là sinh viên", "be_do_have"),
@@ -324,32 +348,11 @@ def questions() -> list[dict]:
     return out
 
 
-def function_words() -> list[dict]:
+def function_words(skip: set[str] | None = None) -> list[dict]:
     rows = [
         ("fn.a", "a", "неопределённый артикль", "mạo từ a"),
         ("fn.an", "an", "артикль an", "mạo từ an"),
         ("fn.the", "the", "определённый артикль", "mạo từ the"),
-        ("fn.in", "in", "в", "trong / ở"),
-        ("fn.on", "on", "на", "trên"),
-        ("fn.at", "at", "у / в (точке)", "ở / lúc"),
-        ("fn.to", "to", "к / в", "đến / tới"),
-        ("fn.from", "from", "из / от", "từ"),
-        ("fn.with", "with", "с", "với"),
-        ("fn.for", "for", "для / за", "cho / vì"),
-        ("fn.of", "of", "род. падеж / of", "của"),
-        ("fn.about", "about", "о", "về"),
-        ("fn.by", "by", "у / к / кем", "bởi / cạnh"),
-        ("fn.into", "into", "внутрь", "vào trong"),
-        ("fn.out_of", "out of", "из", "ra khỏi"),
-        ("fn.up", "up", "вверх", "lên"),
-        ("fn.down", "down", "вниз", "xuống"),
-        ("fn.over", "over", "над / через", "phía trên / qua"),
-        ("fn.under", "under", "под", "dưới"),
-        ("fn.between", "between", "между", "giữa"),
-        ("fn.without", "without", "без", "không có"),
-        ("fn.before", "before", "до / перед", "trước"),
-        ("fn.after", "after", "после", "sau"),
-        ("fn.during", "during", "во время", "trong lúc"),
         ("fn.and", "and", "и", "và"),
         ("fn.but", "but", "но", "nhưng"),
         ("fn.or", "or", "или", "hoặc"),
@@ -386,6 +389,57 @@ def function_words() -> list[dict]:
         hint_en_ru="зиро артикл", hint_en_vi="zero article", hint_ru_en="zero article", hint_ru_vi="zero article",
         hint_vi_ru="кхонг мао ты", hint_vi_en="khong mao tu",
     ))
+    used = {en.casefold() for _, en, _, _ in rows}
+    used.add("zero article (plural / abstract)")
+    used |= set(skip or ())
+    used_ids = {c["id"] for c in out}
+    sections = [
+        (lex_lines(CONJUNCTIONS), ["function", "conjunction"], loc("Conjunction.", "Союз.", "Liên từ."), "cj"),
+        (lex_lines(DETERMINERS), ["function", "determiner"], loc("Determiner.", "Определитель.", "Từ hạn định."), "dt"),
+        (lex_lines(PARTICLES), ["function", "particle"], loc("Particle or discourse marker.", "Частица.", "Tiểu từ."), "pt"),
+    ]
+    for section, tags, grammar, prefix in sections:
+        for en, ru, vi in section:
+            if en.casefold() in used:
+                continue
+            cid = f"{prefix}.{slug(en)}"
+            if cid in used_ids:
+                cid = f"{cid}_{len(used_ids)}"
+            used.add(en.casefold())
+            used_ids.add(cid)
+            kind = "phrase" if " " in en else "word"
+            out.append(concept(cid, kind, "function", tags, en, ru, vi, grammar=grammar,
+                               hint_en_ru=en, hint_en_vi=en, hint_ru_en=ru, hint_ru_vi=ru, hint_vi_ru=vi, hint_vi_en=vi))
+    return out
+
+
+def preposition_concepts() -> list[dict]:
+    lemma_g = loc("Preposition.", "Предлог.", "Giới từ.")
+    phrase_g = loc("Preposition in a phrase.", "Предлог во фразе.", "Giới từ trong cụm.")
+    out = []
+    used: set[str] = set()
+    used_ids: set[str] = set()
+    for en, ru, vi in lex_lines(PREPOSITIONS):
+        if en.casefold() in used:
+            continue
+        cid = prep_id(en)
+        if cid in used_ids:
+            cid = f"{cid}_{len(used_ids)}"
+        used.add(en.casefold())
+        used_ids.add(cid)
+        kind = "phrase" if " " in en else "word"
+        out.append(concept(cid, kind, "prepositions", ["function", "preposition"], en, ru, vi, grammar=lemma_g,
+                           hint_en_ru=en, hint_en_vi=en, hint_ru_en=ru, hint_ru_vi=ru, hint_vi_ru=vi, hint_vi_en=vi))
+    for en, ru, vi in lex_lines(PREP_PHRASES):
+        if en.casefold() in used:
+            continue
+        cid = f"px.{slug(en)}"
+        if cid in used_ids:
+            cid = f"{cid}_{len(used_ids)}"
+        used.add(en.casefold())
+        used_ids.add(cid)
+        out.append(concept(cid, "phrase", "prepositions", ["function", "preposition"], en, ru, vi, grammar=phrase_g,
+                           hint_en_ru=en, hint_en_vi=en, hint_ru_en=ru, hint_ru_vi=ru, hint_vi_ru=vi, hint_vi_en=vi))
     return out
 
 
@@ -508,10 +562,12 @@ def adjectives() -> list[dict]:
     return out
 
 
-def theme_pack(theme_id: str, order: int, title: dict, rows: list[tuple]) -> dict:
-    g = loc("Everyday phrase.", "Разговорная фраза.", "Câu giao tiếp.")
+def theme_pack(theme_id: str, order: int, title: dict, rows: list[tuple], grammar: dict | None = None) -> dict:
+    fallback = grammar or loc("Everyday phrase.", "Разговорная фраза.", "Câu giao tiếp.")
+    phrase_g = loc("Phrase.", "Фраза.", "Cụm từ.")
     concepts = []
     for cid, kind, en, ru, vi in rows:
+        g = phrase_g if grammar and grammar.get("en") == "Word." and kind != "word" else fallback
         concepts.append(concept(cid, kind, theme_id, [f"theme:{theme_id}"], en, ru, vi, grammar=g,
                                 hint_en_ru=en, hint_en_vi=en, hint_ru_en=ru, hint_ru_vi=ru, hint_vi_ru=vi, hint_vi_en=vi))
     return pack(theme_id, order, title, concepts)
@@ -520,9 +576,23 @@ def theme_pack(theme_id: str, order: int, title: dict, rows: list[tuple]) -> dic
 def main() -> None:
     primers = [
         pack("primer_vi", 0, loc("Vietnamese tones", "Вьетнамские тона", "Thanh điệu tiếng Việt"), [], kind="primer",
-             description=loc("Six tones.", "Шесть тонов.", "Sáu thanh.")),
-        pack("primer_ru", 1, loc("Russian script", "Русская азбука", "Chữ Nga"), [], kind="primer"),
-        pack("primer_en", 2, loc("English questions", "Английские вопросы", "Câu hỏi tiếng Anh"), [], kind="primer"),
+             description=loc(
+                 "Six tones change meaning: ma, má, mà, mả, mã, mạ. Marks sit on the vowel.",
+                 "Шесть тонов меняют смысл: ma, má, mà, mả, mã, mạ. Знак стоит над гласной.",
+                 "Sáu thanh đổi nghĩa: ma, má, mà, mả, mã, mạ. Dấu đặt trên nguyên âm.",
+             )),
+        pack("primer_ru", 1, loc("Russian script", "Русская азбука", "Chữ Nga"), [], kind="primer",
+             description=loc(
+                 "Stress moves, and unstressed o sounds like a. Learn each word with its stress mark.",
+                 "Ударение подвижное, безударное о звучит как а. Учите слово сразу с ударением.",
+                 "Trọng âm di chuyển; o không nhấn nghe như a. Hãy học từ kèm trọng âm.",
+             )),
+        pack("primer_en", 2, loc("English questions", "Английские вопросы", "Câu hỏi tiếng Anh"), [], kind="primer",
+             description=loc(
+                 "Yes/No questions use do/does/did or a modal before the subject: Do you…? Can I…?",
+                 "Да/нет: do/does/did или модалка перед подлежащим: Do you…? Can I…?",
+                 "Câu yes/no dùng do/does/did hoặc động từ khuyết thiếu trước chủ ngữ: Do you…? Can I…?",
+             )),
     ]
     write_pack("00_primers.json", {"themes": [p["theme"] for p in primers], "concepts": []})
 
@@ -535,7 +605,23 @@ def main() -> None:
     write_pack("30_modals.json", pack("modals", 30, loc("Modals", "Модалки", "Động từ khuyết thiếu"), mod))
     qs = questions()
     write_pack("40_questions.json", pack("questions", 40, loc("Questions", "Вопросы", "Câu hỏi"), qs))
-    fn = function_words()
+    preps = preposition_concepts()
+    write_pack(
+        "48_prepositions.json",
+        pack(
+            "prepositions",
+            48,
+            loc("Prepositions", "Предлоги", "Giới từ"),
+            preps,
+            description=loc(
+                "Prepositions and the phrases they build.",
+                "Предлоги и фразы с ними.",
+                "Giới từ và cụm giới từ.",
+            ),
+        ),
+    )
+    prep_en = {c["texts"]["en"]["text"].casefold() for c in preps}
+    fn = function_words(prep_en)
     write_pack("50_function.json", pack("function", 50, loc("Function words", "Служебные слова", "Từ chức năng"), fn))
     write_pack("60_verbs.json", pack("verbs", 60, loc("Verbs", "Глаголы", "Động từ"), verbs()))
     write_pack("70_adjectives.json", pack("adjectives", 70, loc("Adjectives", "Прилагательные", "Tính từ"), adjectives()))
@@ -666,27 +752,62 @@ def main() -> None:
         ("pol.of_course", "phrase", "of course", "конечно", "dĩ nhiên"),
         ("pol.maybe", "word", "maybe", "может быть", "có lẽ"),
     ]))
-    seen_en: set[str] = set()
+    seen_pairs: set[tuple[str, str]] = set()
     seen_ids: set[str] = set()
     for f in sorted(PACKS.glob("*.json")):
         if f.name[:2] >= "88" and f.name[:2] <= "97":
             continue
+        if f.name.startswith("98"):
+            continue
         data = json.loads(f.read_text(encoding="utf-8"))
         for c in data.get("concepts", []):
             seen_ids.add(c["id"])
-            seen_en.add(c["texts"]["en"]["text"].casefold())
+            en = c["texts"]["en"]["text"].casefold()
+            ru = c["texts"]["ru"]["text"].casefold()
+            seen_pairs.add((en, ru))
 
     for filename, theme_id, order, title, rows in extra_specs():
         kept = []
         for cid, kind, en, ru, vi in rows:
-            key = en.casefold()
-            if key in seen_en or cid in seen_ids:
+            key = (en.casefold(), ru.casefold())
+            if key in seen_pairs or cid in seen_ids:
                 continue
-            seen_en.add(key)
+            seen_pairs.add(key)
             seen_ids.add(cid)
             kept.append((cid, kind, en, ru, vi))
         if kept:
             write_pack(filename, theme_pack(theme_id, order, title, kept))
+
+    pending = []
+    for en, ru, vi in learner_rows():
+        key = (en.casefold(), ru.casefold())
+        cid = f"lex.{slug(en)}"
+        if key in seen_pairs or cid in seen_ids:
+            cid = f"lex.{slug(en)}_{len(seen_ids)}"
+            if cid in seen_ids:
+                continue
+        if key in seen_pairs:
+            continue
+        seen_pairs.add(key)
+        seen_ids.add(cid)
+        kind = "phrase" if " " in en else "word"
+        pending.append((cid, kind, en, ru, vi))
+    band = 0
+    while pending:
+        chunk = pending[:2000]
+        pending = pending[2000:]
+        band += 1
+        letter = chr(ord("a") + band - 1)
+        write_pack(
+            f"98{letter}_core.json",
+            theme_pack(
+                f"core_{letter}",
+                110 + band,
+                loc(f"Core words {band}", f"Базовые слова {band}", f"Từ vựng {band}"),
+                chunk,
+                grammar=loc("Word.", "Слово.", "Từ."),
+            ),
+        )
 
     write_pack("99_user.json", pack("user", 200, loc("My cards", "Мои карточки", "Thẻ của tôi"), []))
 
@@ -721,6 +842,16 @@ def main() -> None:
         "fn.a", "fn.an", "fn.the", "fn.in", "fn.on", "fn.at", "fn.to", "fn.from", "fn.with", "fn.for", "fn.of",
         "fn.please", "fn.thank_you", "fn.sorry", "fn.excuse_me", "fn.youre_welcome",
     ]
+    for en, _, _ in lex_lines(PREPOSITIONS):
+        pid = prep_id(en)
+        if pid not in required:
+            required.append(pid)
+    for extra_id in (
+        "aux.have_to", "aux.mustn_t", "aux.shouldn_t", "aux.couldn_t", "aux.wouldn_t",
+        "aux.going_to", "aux.be_able_to", "aux.let_s", "aux.had_better", "aux.would_rather",
+    ):
+        if extra_id not in required:
+            required.append(extra_id)
     checklist = SRC / "en-closed-class.md"
     lines = ["# English closed class checklist\n", "Every id below must exist in generated JSON with EN+RU+VI.\n"]
     for i in required:
@@ -754,11 +885,11 @@ def main() -> None:
                 uniques[lang].add(form["text"].casefold())
     counts = {k: len(v) for k, v in uniques.items()}
     print(f"Unique lemmas {counts}")
-    if len(ids) < 1000:
-        raise SystemExit(f"Need >=1000 concepts, got {len(ids)}")
-    short = {k: n for k, n in counts.items() if n < 1000}
+    if len(ids) < 6000:
+        raise SystemExit(f"Need >=6000 concepts, got {len(ids)}")
+    short = {k: n for k, n in counts.items() if n < 5000}
     if short:
-        raise SystemExit(f"Need >=1000 unique forms per language, got {short}")
+        raise SystemExit(f"Need >=5000 unique forms per language, got {short}")
 
 
 if __name__ == "__main__":

@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "Sunday",
-          "ipa": "/sunday/",
+          "ipa": "/ˈsʌˌndeɪ/",
           "hints": {
             "ru": "Sunday",
             "vi": "Sunday"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "Tuesday",
-          "ipa": "/tuesday/",
+          "ipa": "/ˈtuzdi/",
           "hints": {
             "ru": "Tuesday",
             "vi": "Tuesday"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "Wednesday",
-          "ipa": "/wednesday/",
+          "ipa": "/ˈwɛnzdi/",
           "hints": {
             "ru": "Wednesday",
             "vi": "Wednesday"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "Thursday",
-          "ipa": "/thursday/",
+          "ipa": "/ˈθɝˌzdeɪ/",
           "hints": {
             "ru": "Thursday",
             "vi": "Thursday"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "Friday",
-          "ipa": "/friday/",
+          "ipa": "/ˈfɹaɪdi/",
           "hints": {
             "ru": "Friday",
             "vi": "Friday"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "Saturday",
-          "ipa": "/saturday/",
+          "ipa": "/ˈsætɚdi/",
           "hints": {
             "ru": "Saturday",
             "vi": "Saturday"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "January",
-          "ipa": "/january/",
+          "ipa": "/ˈdʒænjuˌɛɹi/",
           "hints": {
             "ru": "January",
             "vi": "January"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "February",
-          "ipa": "/february/",
+          "ipa": "/ˈfɛbjəˌwɛɹi/",
           "hints": {
             "ru": "February",
             "vi": "February"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "March",
-          "ipa": "/march/",
+          "ipa": "/ˈmɑɹtʃ/",
           "hints": {
             "ru": "March",
             "vi": "March"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "April",
-          "ipa": "/april/",
+          "ipa": "/ˈeɪpɹəl/",
           "hints": {
             "ru": "April",
             "vi": "April"
@@ -416,6 +416,46 @@
       }
     },
     {
+      "id": "timex.may",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "May",
+          "ipa": "/meɪ/",
+          "hints": {
+            "ru": "May",
+            "vi": "May"
+          }
+        },
+        "ru": {
+          "text": "май",
+          "ipa": "/maj/",
+          "hints": {
+            "en": "май",
+            "vi": "май"
+          }
+        },
+        "vi": {
+          "text": "tháng năm",
+          "ipa": "/tʰaŋ˧˥ nam˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tháng năm",
+            "en": "tháng năm"
+          }
+        }
+      }
+    },
+    {
       "id": "timex.june",
       "kind": "word",
       "theme": "time",
@@ -430,7 +470,7 @@
       "texts": {
         "en": {
           "text": "June",
-          "ipa": "/june/",
+          "ipa": "/ˈdʒun/",
           "hints": {
             "ru": "June",
             "vi": "June"
@@ -470,7 +510,7 @@
       "texts": {
         "en": {
           "text": "July",
-          "ipa": "/july/",
+          "ipa": "/ˌdʒuˈlaɪ/",
           "hints": {
             "ru": "July",
             "vi": "July"
@@ -510,7 +550,7 @@
       "texts": {
         "en": {
           "text": "August",
-          "ipa": "/august/",
+          "ipa": "/ˈɑɡəst/",
           "hints": {
             "ru": "August",
             "vi": "August"
@@ -550,7 +590,7 @@
       "texts": {
         "en": {
           "text": "September",
-          "ipa": "/september/",
+          "ipa": "/sɛˈptɛmbɚ/",
           "hints": {
             "ru": "September",
             "vi": "September"
@@ -590,7 +630,7 @@
       "texts": {
         "en": {
           "text": "October",
-          "ipa": "/october/",
+          "ipa": "/ɑˈktoʊbɚ/",
           "hints": {
             "ru": "October",
             "vi": "October"
@@ -630,7 +670,7 @@
       "texts": {
         "en": {
           "text": "November",
-          "ipa": "/november/",
+          "ipa": "/noʊˈvɛmbɚ/",
           "hints": {
             "ru": "November",
             "vi": "November"
@@ -670,7 +710,7 @@
       "texts": {
         "en": {
           "text": "December",
-          "ipa": "/december/",
+          "ipa": "/dɪˈsɛmbɚ/",
           "hints": {
             "ru": "December",
             "vi": "December"
@@ -710,7 +750,7 @@
       "texts": {
         "en": {
           "text": "hour",
-          "ipa": "/hour/",
+          "ipa": "/ˈaʊɚ/",
           "hints": {
             "ru": "hour",
             "vi": "hour"
@@ -750,7 +790,7 @@
       "texts": {
         "en": {
           "text": "minute",
-          "ipa": "/minute/",
+          "ipa": "/ˈmɪnət/",
           "hints": {
             "ru": "minute",
             "vi": "minute"
@@ -776,6 +816,46 @@
       }
     },
     {
+      "id": "timex.second",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "second",
+          "ipa": "/ˈsekənd/",
+          "hints": {
+            "ru": "second",
+            "vi": "second"
+          }
+        },
+        "ru": {
+          "text": "секунда",
+          "ipa": "/sʲekunda/",
+          "hints": {
+            "en": "секунда",
+            "vi": "секунда"
+          }
+        },
+        "vi": {
+          "text": "giây",
+          "ipa": "/zəj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giây",
+            "en": "giây"
+          }
+        }
+      }
+    },
+    {
       "id": "timex.day",
       "kind": "word",
       "theme": "time",
@@ -790,7 +870,7 @@
       "texts": {
         "en": {
           "text": "day",
-          "ipa": "/day/",
+          "ipa": "/ˈdeɪ/",
           "hints": {
             "ru": "day",
             "vi": "day"
@@ -830,7 +910,7 @@
       "texts": {
         "en": {
           "text": "night",
-          "ipa": "/night/",
+          "ipa": "/ˈnaɪt/",
           "hints": {
             "ru": "night",
             "vi": "night"
@@ -870,7 +950,7 @@
       "texts": {
         "en": {
           "text": "noon",
-          "ipa": "/noon/",
+          "ipa": "/ˈnun/",
           "hints": {
             "ru": "noon",
             "vi": "noon"
@@ -910,7 +990,7 @@
       "texts": {
         "en": {
           "text": "midnight",
-          "ipa": "/midnight/",
+          "ipa": "/ˈmɪˌdnaɪt/",
           "hints": {
             "ru": "midnight",
             "vi": "midnight"
@@ -950,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "weekend",
-          "ipa": "/weekend/",
+          "ipa": "/ˈwiˌkɛnd/",
           "hints": {
             "ru": "weekend",
             "vi": "weekend"
@@ -990,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "holiday",
-          "ipa": "/holiday/",
+          "ipa": "/ˈhɑləˌdeɪ/",
           "hints": {
             "ru": "holiday",
             "vi": "holiday"
@@ -1030,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "birthday",
-          "ipa": "/birthday/",
+          "ipa": "/ˈbɝˌθdeɪ/",
           "hints": {
             "ru": "birthday",
             "vi": "birthday"
@@ -1070,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "calendar",
-          "ipa": "/calendar/",
+          "ipa": "/ˈkæləndɚ/",
           "hints": {
             "ru": "calendar",
             "vi": "calendar"
@@ -1110,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "schedule",
-          "ipa": "/schedule/",
+          "ipa": "/ˈskɛdʒʊl/",
           "hints": {
             "ru": "schedule",
             "vi": "schedule"
@@ -1136,6 +1216,86 @@
       }
     },
     {
+      "id": "timex.early",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "early",
+          "ipa": "/ˈɜːli/",
+          "hints": {
+            "ru": "early",
+            "vi": "early"
+          }
+        },
+        "ru": {
+          "text": "рано",
+          "ipa": "/rano/",
+          "hints": {
+            "en": "рано",
+            "vi": "рано"
+          }
+        },
+        "vi": {
+          "text": "sớm",
+          "ipa": "/səːm˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "sớm",
+            "en": "sớm"
+          }
+        }
+      }
+    },
+    {
+      "id": "timex.late",
+      "kind": "word",
+      "theme": "time",
+      "tags": [
+        "theme:time"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "late",
+          "ipa": "/leɪt/",
+          "hints": {
+            "ru": "late",
+            "vi": "late"
+          }
+        },
+        "ru": {
+          "text": "поздно",
+          "ipa": "/pozdno/",
+          "hints": {
+            "en": "поздно",
+            "vi": "поздно"
+          }
+        },
+        "vi": {
+          "text": "muộn",
+          "ipa": "/muən˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "muộn",
+            "en": "muộn"
+          }
+        }
+      }
+    },
+    {
       "id": "timex.always",
       "kind": "word",
       "theme": "time",
@@ -1150,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "always",
-          "ipa": "/always/",
+          "ipa": "/ˈɔˌlweɪz/",
           "hints": {
             "ru": "always",
             "vi": "always"
@@ -1190,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "usually",
-          "ipa": "/usually/",
+          "ipa": "/ˈjuʒəwəli/",
           "hints": {
             "ru": "usually",
             "vi": "usually"
@@ -1270,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "sometimes",
-          "ipa": "/sometimes/",
+          "ipa": "/səˈmtaɪmz/",
           "hints": {
             "ru": "sometimes",
             "vi": "sometimes"
@@ -1310,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "rarely",
-          "ipa": "/rarely/",
+          "ipa": "/ˈɹɛɹli/",
           "hints": {
             "ru": "rarely",
             "vi": "rarely"
@@ -1350,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "soon",
-          "ipa": "/soon/",
+          "ipa": "/ˈsun/",
           "hints": {
             "ru": "soon",
             "vi": "soon"
@@ -1510,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "ago",
-          "ipa": "/ago/",
+          "ipa": "/əˈɡoʊ/",
           "hints": {
             "ru": "ago",
             "vi": "ago"

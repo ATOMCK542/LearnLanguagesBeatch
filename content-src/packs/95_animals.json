@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "animal",
-          "ipa": "/animal/",
+          "ipa": "/ˈænəməl/",
           "hints": {
             "ru": "animal",
             "vi": "animal"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "dog",
-          "ipa": "/dog/",
+          "ipa": "/ˈdɔɡ/",
           "hints": {
             "ru": "dog",
             "vi": "dog"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "bird",
-          "ipa": "/bird/",
+          "ipa": "/ˈbɝd/",
           "hints": {
             "ru": "bird",
             "vi": "bird"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "horse",
-          "ipa": "/horse/",
+          "ipa": "/ˈhɔɹs/",
           "hints": {
             "ru": "horse",
             "vi": "horse"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "cow",
-          "ipa": "/cow/",
+          "ipa": "/ˈkaʊ/",
           "hints": {
             "ru": "cow",
             "vi": "cow"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "pig",
-          "ipa": "/pig/",
+          "ipa": "/ˈpɪɡ/",
           "hints": {
             "ru": "pig",
             "vi": "pig"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "sheep",
-          "ipa": "/sheep/",
+          "ipa": "/ˈʃip/",
           "hints": {
             "ru": "sheep",
             "vi": "sheep"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "chicken",
-          "ipa": "/chicken/",
+          "ipa": "/ˈtʃɪkən/",
           "hints": {
             "ru": "chicken",
             "vi": "chicken"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "duck",
-          "ipa": "/duck/",
+          "ipa": "/ˈdʌk/",
           "hints": {
             "ru": "duck",
             "vi": "duck"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "mouse",
-          "ipa": "/mouse/",
+          "ipa": "/ˈmaʊs/",
           "hints": {
             "ru": "mouse",
             "vi": "mouse"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "rabbit",
-          "ipa": "/rabbit/",
+          "ipa": "/ˈɹæbət/",
           "hints": {
             "ru": "rabbit",
             "vi": "rabbit"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "bear",
-          "ipa": "/bear/",
+          "ipa": "/ˈbɛɹ/",
           "hints": {
             "ru": "bear",
             "vi": "bear"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "lion",
-          "ipa": "/lion/",
+          "ipa": "/ˈlaɪən/",
           "hints": {
             "ru": "lion",
             "vi": "lion"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "tiger",
-          "ipa": "/tiger/",
+          "ipa": "/ˈtaɪɡɚ/",
           "hints": {
             "ru": "tiger",
             "vi": "tiger"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "elephant",
-          "ipa": "/elephant/",
+          "ipa": "/ˈɛləfənt/",
           "hints": {
             "ru": "elephant",
             "vi": "elephant"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "monkey",
-          "ipa": "/monkey/",
+          "ipa": "/ˈmʌŋki/",
           "hints": {
             "ru": "monkey",
             "vi": "monkey"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "snake",
-          "ipa": "/snake/",
+          "ipa": "/ˈsneɪk/",
           "hints": {
             "ru": "snake",
             "vi": "snake"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "frog",
-          "ipa": "/frog/",
+          "ipa": "/ˈfɹɑɡ/",
           "hints": {
             "ru": "frog",
             "vi": "frog"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "insect",
-          "ipa": "/insect/",
+          "ipa": "/ˈɪˌnsɛkt/",
           "hints": {
             "ru": "insect",
             "vi": "insect"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "bee",
-          "ipa": "/bee/",
+          "ipa": "/ˈbi/",
           "hints": {
             "ru": "bee",
             "vi": "bee"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "butterfly",
-          "ipa": "/butterfly/",
+          "ipa": "/ˈbʌtɚˌflaɪ/",
           "hints": {
             "ru": "butterfly",
             "vi": "butterfly"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "pet",
-          "ipa": "/pet/",
+          "ipa": "/ˈpɛt/",
           "hints": {
             "ru": "pet",
             "vi": "pet"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "wild",
-          "ipa": "/wild/",
+          "ipa": "/ˈwaɪld/",
           "hints": {
             "ru": "wild",
             "vi": "wild"

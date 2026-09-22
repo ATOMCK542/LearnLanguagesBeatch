@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "clothes",
-          "ipa": "/clothes/",
+          "ipa": "/ˈkloʊðz/",
           "hints": {
             "ru": "clothes",
             "vi": "clothes"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "shirt",
-          "ipa": "/shirt/",
+          "ipa": "/ˈʃɝt/",
           "hints": {
             "ru": "shirt",
             "vi": "shirt"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "pants",
-          "ipa": "/pants/",
+          "ipa": "/ˈpænts/",
           "hints": {
             "ru": "pants",
             "vi": "pants"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "jeans",
-          "ipa": "/jeans/",
+          "ipa": "/ˈdʒinz/",
           "hints": {
             "ru": "jeans",
             "vi": "jeans"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "dress",
-          "ipa": "/dress/",
+          "ipa": "/ˈdɹɛs/",
           "hints": {
             "ru": "dress",
             "vi": "dress"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "skirt",
-          "ipa": "/skirt/",
+          "ipa": "/ˈskɝt/",
           "hints": {
             "ru": "skirt",
             "vi": "skirt"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "jacket",
-          "ipa": "/jacket/",
+          "ipa": "/ˈdʒækət/",
           "hints": {
             "ru": "jacket",
             "vi": "jacket"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "coat",
-          "ipa": "/coat/",
+          "ipa": "/ˈkoʊt/",
           "hints": {
             "ru": "coat",
             "vi": "coat"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "sweater",
-          "ipa": "/sweater/",
+          "ipa": "/ˈswɛtɚ/",
           "hints": {
             "ru": "sweater",
             "vi": "sweater"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "hat",
-          "ipa": "/hat/",
+          "ipa": "/ˈhæt/",
           "hints": {
             "ru": "hat",
             "vi": "hat"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "cap",
-          "ipa": "/cap/",
+          "ipa": "/ˈkæp/",
           "hints": {
             "ru": "cap",
             "vi": "cap"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "shoes",
-          "ipa": "/shoes/",
+          "ipa": "/ˈʃuz/",
           "hints": {
             "ru": "shoes",
             "vi": "shoes"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "boots",
-          "ipa": "/boots/",
+          "ipa": "/ˈbuts/",
           "hints": {
             "ru": "boots",
             "vi": "boots"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "socks",
-          "ipa": "/socks/",
+          "ipa": "/ˈsɑks/",
           "hints": {
             "ru": "socks",
             "vi": "socks"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "underwear",
-          "ipa": "/underwear/",
+          "ipa": "/ˈʌndɚˌwɛɹ/",
           "hints": {
             "ru": "underwear",
             "vi": "underwear"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "pajamas",
-          "ipa": "/pajamas/",
+          "ipa": "/pəˈdʒɑməz/",
           "hints": {
             "ru": "pajamas",
             "vi": "pajamas"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "belt",
-          "ipa": "/belt/",
+          "ipa": "/ˈbɛlt/",
           "hints": {
             "ru": "belt",
             "vi": "belt"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "tie",
-          "ipa": "/tie/",
+          "ipa": "/ˈtaɪ/",
           "hints": {
             "ru": "tie",
             "vi": "tie"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "scarf",
-          "ipa": "/scarf/",
+          "ipa": "/ˈskɑɹf/",
           "hints": {
             "ru": "scarf",
             "vi": "scarf"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "gloves",
-          "ipa": "/gloves/",
+          "ipa": "/ˈɡlʌvz/",
           "hints": {
             "ru": "gloves",
             "vi": "gloves"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "glasses",
-          "ipa": "/glasses/",
+          "ipa": "/ˈɡlæsəz/",
           "hints": {
             "ru": "glasses",
             "vi": "glasses"
@@ -896,6 +896,46 @@
       }
     },
     {
+      "id": "cl.watch",
+      "kind": "word",
+      "theme": "clothes",
+      "tags": [
+        "theme:clothes"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "watch",
+          "ipa": "/wɒtʃ/",
+          "hints": {
+            "ru": "watch",
+            "vi": "watch"
+          }
+        },
+        "ru": {
+          "text": "наручные часы",
+          "ipa": "/narutɕnɨje tɕasɨ/",
+          "hints": {
+            "en": "наручные часы",
+            "vi": "наручные часы"
+          }
+        },
+        "vi": {
+          "text": "đồng hồ đeo tay",
+          "ipa": "/ɗoŋ˧˩ ho˧˩ ɗɛw˧ taj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đồng hồ đeo tay",
+            "en": "đồng hồ đeo tay"
+          }
+        }
+      }
+    },
+    {
       "id": "cl.ring",
       "kind": "word",
       "theme": "clothes",
@@ -910,7 +950,7 @@
       "texts": {
         "en": {
           "text": "ring",
-          "ipa": "/ring/",
+          "ipa": "/ˈɹɪŋ/",
           "hints": {
             "ru": "ring",
             "vi": "ring"
@@ -950,7 +990,7 @@
       "texts": {
         "en": {
           "text": "necklace",
-          "ipa": "/necklace/",
+          "ipa": "/ˈnɛkləs/",
           "hints": {
             "ru": "necklace",
             "vi": "necklace"
@@ -990,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "wallet",
-          "ipa": "/wallet/",
+          "ipa": "/ˈwɔlət/",
           "hints": {
             "ru": "wallet",
             "vi": "wallet"
@@ -1030,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "umbrella",
-          "ipa": "/umbrella/",
+          "ipa": "/əˈmbɹɛlə/",
           "hints": {
             "ru": "umbrella",
             "vi": "umbrella"
@@ -1070,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "pocket",
-          "ipa": "/pocket/",
+          "ipa": "/ˈpɑkət/",
           "hints": {
             "ru": "pocket",
             "vi": "pocket"
@@ -1110,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "button",
-          "ipa": "/button/",
+          "ipa": "/ˈbʌtən/",
           "hints": {
             "ru": "button",
             "vi": "button"
@@ -1150,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "zipper",
-          "ipa": "/zipper/",
+          "ipa": "/ˈzɪpɚ/",
           "hints": {
             "ru": "zipper",
             "vi": "zipper"
@@ -1190,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "fashion",
-          "ipa": "/fashion/",
+          "ipa": "/ˈfæʃən/",
           "hints": {
             "ru": "fashion",
             "vi": "fashion"
@@ -1230,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "uniform",
-          "ipa": "/uniform/",
+          "ipa": "/ˈjunəˌfɔɹm/",
           "hints": {
             "ru": "uniform",
             "vi": "uniform"
@@ -1270,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "swimsuit",
-          "ipa": "/swimsuit/",
+          "ipa": "/ˈswɪˌmsut/",
           "hints": {
             "ru": "swimsuit",
             "vi": "swimsuit"
@@ -1310,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "raincoat",
-          "ipa": "/raincoat/",
+          "ipa": "/ˈɹeɪˌnkoʊt/",
           "hints": {
             "ru": "raincoat",
             "vi": "raincoat"
@@ -1350,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "slippers",
-          "ipa": "/slippers/",
+          "ipa": "/ˈslɪpɚz/",
           "hints": {
             "ru": "slippers",
             "vi": "slippers"
@@ -1390,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "sandals",
-          "ipa": "/sandals/",
+          "ipa": "/ˈsændəlz/",
           "hints": {
             "ru": "sandals",
             "vi": "sandals"

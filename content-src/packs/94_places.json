@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "city",
-          "ipa": "/city/",
+          "ipa": "/ˈsɪti/",
           "hints": {
             "ru": "city",
             "vi": "city"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "town",
-          "ipa": "/town/",
+          "ipa": "/ˈtaʊn/",
           "hints": {
             "ru": "town",
             "vi": "town"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "village",
-          "ipa": "/village/",
+          "ipa": "/ˈvɪlədʒ/",
           "hints": {
             "ru": "village",
             "vi": "village"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "country",
-          "ipa": "/country/",
+          "ipa": "/ˈkʌntɹi/",
           "hints": {
             "ru": "country",
             "vi": "country"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "street",
-          "ipa": "/street/",
+          "ipa": "/ˈstɹit/",
           "hints": {
             "ru": "street",
             "vi": "street"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "road",
-          "ipa": "/road/",
+          "ipa": "/ˈɹoʊd/",
           "hints": {
             "ru": "road",
             "vi": "road"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "square",
-          "ipa": "/square/",
+          "ipa": "/ˈskwɛɹ/",
           "hints": {
             "ru": "square",
             "vi": "square"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "park",
-          "ipa": "/park/",
+          "ipa": "/ˈpɑɹk/",
           "hints": {
             "ru": "park",
             "vi": "park"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "bridge",
-          "ipa": "/bridge/",
+          "ipa": "/ˈbɹɪdʒ/",
           "hints": {
             "ru": "bridge",
             "vi": "bridge"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "river",
-          "ipa": "/river/",
+          "ipa": "/ˈɹɪvɚ/",
           "hints": {
             "ru": "river",
             "vi": "river"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "sea",
-          "ipa": "/sea/",
+          "ipa": "/ˈsi/",
           "hints": {
             "ru": "sea",
             "vi": "sea"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "beach",
-          "ipa": "/beach/",
+          "ipa": "/ˈbitʃ/",
           "hints": {
             "ru": "beach",
             "vi": "beach"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "mountain",
-          "ipa": "/mountain/",
+          "ipa": "/ˈmaʊntən/",
           "hints": {
             "ru": "mountain",
             "vi": "mountain"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "forest",
-          "ipa": "/forest/",
+          "ipa": "/ˈfɔɹəst/",
           "hints": {
             "ru": "forest",
             "vi": "forest"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "lake",
-          "ipa": "/lake/",
+          "ipa": "/ˈleɪk/",
           "hints": {
             "ru": "lake",
             "vi": "lake"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "island",
-          "ipa": "/island/",
+          "ipa": "/ˈaɪlənd/",
           "hints": {
             "ru": "island",
             "vi": "island"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "building",
-          "ipa": "/building/",
+          "ipa": "/ˈbɪldɪŋ/",
           "hints": {
             "ru": "building",
             "vi": "building"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "shop",
-          "ipa": "/shop/",
+          "ipa": "/ˈʃɑp/",
           "hints": {
             "ru": "shop",
             "vi": "shop"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "supermarket",
-          "ipa": "/supermarket/",
+          "ipa": "/ˈsupɚˌmɑɹkɪt/",
           "hints": {
             "ru": "supermarket",
             "vi": "supermarket"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "mall",
-          "ipa": "/mall/",
+          "ipa": "/ˈmɔl/",
           "hints": {
             "ru": "mall",
             "vi": "mall"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "restaurant",
-          "ipa": "/restaurant/",
+          "ipa": "/ˈɹɛstɚˌɑnt/",
           "hints": {
             "ru": "restaurant",
             "vi": "restaurant"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "cafe",
-          "ipa": "/cafe/",
+          "ipa": "/kəˈfeɪ/",
           "hints": {
             "ru": "cafe",
             "vi": "cafe"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "hospital",
-          "ipa": "/hospital/",
+          "ipa": "/ˈhɑˌspɪtəl/",
           "hints": {
             "ru": "hospital",
             "vi": "hospital"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "school",
-          "ipa": "/school/",
+          "ipa": "/ˈskul/",
           "hints": {
             "ru": "school",
             "vi": "school"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "university",
-          "ipa": "/university/",
+          "ipa": "/ˌjunəˈvɝsəti/",
           "hints": {
             "ru": "university",
             "vi": "university"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "library",
-          "ipa": "/library/",
+          "ipa": "/ˈlaɪbɹɛˌɹi/",
           "hints": {
             "ru": "library",
             "vi": "library"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "bank",
-          "ipa": "/bank/",
+          "ipa": "/ˈbæŋk/",
           "hints": {
             "ru": "bank",
             "vi": "bank"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "police",
-          "ipa": "/police/",
+          "ipa": "/pəˈlis/",
           "hints": {
             "ru": "police",
             "vi": "police"
@@ -1310,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "port",
-          "ipa": "/port/",
+          "ipa": "/ˈpɔɹt/",
           "hints": {
             "ru": "port",
             "vi": "port"
@@ -1350,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "museum",
-          "ipa": "/museum/",
+          "ipa": "/mjuˈziəm/",
           "hints": {
             "ru": "museum",
             "vi": "museum"
@@ -1390,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "cinema",
-          "ipa": "/cinema/",
+          "ipa": "/ˈsɪnəmə/",
           "hints": {
             "ru": "cinema",
             "vi": "cinema"
@@ -1430,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "theater",
-          "ipa": "/theater/",
+          "ipa": "/ˈθiətɚ/",
           "hints": {
             "ru": "theater",
             "vi": "theater"
@@ -1470,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "church",
-          "ipa": "/church/",
+          "ipa": "/ˈtʃɝtʃ/",
           "hints": {
             "ru": "church",
             "vi": "church"
@@ -1510,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "temple",
-          "ipa": "/temple/",
+          "ipa": "/ˈtɛmpəl/",
           "hints": {
             "ru": "temple",
             "vi": "temple"
@@ -1550,7 +1550,7 @@
       "texts": {
         "en": {
           "text": "office",
-          "ipa": "/office/",
+          "ipa": "/ˈɔfɪs/",
           "hints": {
             "ru": "office",
             "vi": "office"
@@ -1590,7 +1590,7 @@
       "texts": {
         "en": {
           "text": "factory",
-          "ipa": "/factory/",
+          "ipa": "/ˈfæktɚi/",
           "hints": {
             "ru": "factory",
             "vi": "factory"
@@ -1630,7 +1630,7 @@
       "texts": {
         "en": {
           "text": "farm",
-          "ipa": "/farm/",
+          "ipa": "/ˈfɑɹm/",
           "hints": {
             "ru": "farm",
             "vi": "farm"
@@ -1670,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "zoo",
-          "ipa": "/zoo/",
+          "ipa": "/ˈzu/",
           "hints": {
             "ru": "zoo",
             "vi": "zoo"
@@ -1710,7 +1710,7 @@
       "texts": {
         "en": {
           "text": "gym",
-          "ipa": "/gym/",
+          "ipa": "/ˈdʒɪm/",
           "hints": {
             "ru": "gym",
             "vi": "gym"
@@ -1750,7 +1750,7 @@
       "texts": {
         "en": {
           "text": "pharmacy",
-          "ipa": "/pharmacy/",
+          "ipa": "/ˈfɑɹməsi/",
           "hints": {
             "ru": "pharmacy",
             "vi": "pharmacy"

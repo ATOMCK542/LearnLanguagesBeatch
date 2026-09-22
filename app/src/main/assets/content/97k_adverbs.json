@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "quite",
-          "ipa": "/quite/",
+          "ipa": "/ˈkwaɪt/",
           "hints": {
             "ru": "quite",
             "vi": "quite"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "almost",
-          "ipa": "/almost/",
+          "ipa": "/ˈɔˌlmoʊst/",
           "hints": {
             "ru": "almost",
             "vi": "almost"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "enough",
-          "ipa": "/enough/",
+          "ipa": "/ɪˈnʌf/",
           "hints": {
             "ru": "enough",
             "vi": "enough"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "even",
-          "ipa": "/even/",
+          "ipa": "/ˈivɪn/",
           "hints": {
             "ru": "even",
             "vi": "even"
@@ -376,6 +376,46 @@
       }
     },
     {
+      "id": "adv.still",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "still",
+          "ipa": "/stɪl/",
+          "hints": {
+            "ru": "still",
+            "vi": "still"
+          }
+        },
+        "ru": {
+          "text": "всё ещё",
+          "ipa": "/vsʲo jeɕːo/",
+          "hints": {
+            "en": "всё ещё",
+            "vi": "всё ещё"
+          }
+        },
+        "vi": {
+          "text": "vẫn",
+          "ipa": "/vən˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "vẫn",
+            "en": "vẫn"
+          }
+        }
+      }
+    },
+    {
       "id": "adv.again",
       "kind": "word",
       "theme": "adverbs",
@@ -430,7 +470,7 @@
       "texts": {
         "en": {
           "text": "together",
-          "ipa": "/together/",
+          "ipa": "/təˈɡɛðɚ/",
           "hints": {
             "ru": "together",
             "vi": "together"
@@ -470,7 +510,7 @@
       "texts": {
         "en": {
           "text": "alone",
-          "ipa": "/alone/",
+          "ipa": "/əˈloʊn/",
           "hints": {
             "ru": "alone",
             "vi": "alone"
@@ -590,7 +630,7 @@
       "texts": {
         "en": {
           "text": "away",
-          "ipa": "/away/",
+          "ipa": "/əˈweɪ/",
           "hints": {
             "ru": "away",
             "vi": "away"
@@ -616,86 +656,6 @@
       }
     },
     {
-      "id": "adv.inside",
-      "kind": "word",
-      "theme": "adverbs",
-      "tags": [
-        "theme:adverbs"
-      ],
-      "grammar": {
-        "en": "Everyday phrase.",
-        "ru": "Разговорная фраза.",
-        "vi": "Câu giao tiếp."
-      },
-      "texts": {
-        "en": {
-          "text": "inside",
-          "ipa": "/inside/",
-          "hints": {
-            "ru": "inside",
-            "vi": "inside"
-          }
-        },
-        "ru": {
-          "text": "внутри",
-          "ipa": "/vnutrʲi/",
-          "hints": {
-            "en": "внутри",
-            "vi": "внутри"
-          }
-        },
-        "vi": {
-          "text": "bên trong",
-          "ipa": "/ɓen˧ tɕɔŋ˧/",
-          "tones": [],
-          "hints": {
-            "ru": "bên trong",
-            "en": "bên trong"
-          }
-        }
-      }
-    },
-    {
-      "id": "adv.outside",
-      "kind": "word",
-      "theme": "adverbs",
-      "tags": [
-        "theme:adverbs"
-      ],
-      "grammar": {
-        "en": "Everyday phrase.",
-        "ru": "Разговорная фраза.",
-        "vi": "Câu giao tiếp."
-      },
-      "texts": {
-        "en": {
-          "text": "outside",
-          "ipa": "/outside/",
-          "hints": {
-            "ru": "outside",
-            "vi": "outside"
-          }
-        },
-        "ru": {
-          "text": "снаружи",
-          "ipa": "/snaruʐi/",
-          "hints": {
-            "en": "снаружи",
-            "vi": "снаружи"
-          }
-        },
-        "vi": {
-          "text": "bên ngoài",
-          "ipa": "/ɓen˧ ŋwaːj˧˩/",
-          "tones": [],
-          "hints": {
-            "ru": "bên ngoài",
-            "en": "bên ngoài"
-          }
-        }
-      }
-    },
-    {
       "id": "adv.forward",
       "kind": "word",
       "theme": "adverbs",
@@ -710,7 +670,7 @@
       "texts": {
         "en": {
           "text": "forward",
-          "ipa": "/forward/",
+          "ipa": "/ˈfɔɹwɚd/",
           "hints": {
             "ru": "forward",
             "vi": "forward"
@@ -750,7 +710,7 @@
       "texts": {
         "en": {
           "text": "backward",
-          "ipa": "/backward/",
+          "ipa": "/ˈbækwɚd/",
           "hints": {
             "ru": "backward",
             "vi": "backward"
@@ -790,7 +750,7 @@
       "texts": {
         "en": {
           "text": "quickly",
-          "ipa": "/quickly/",
+          "ipa": "/ˈkwɪkli/",
           "hints": {
             "ru": "quickly",
             "vi": "quickly"
@@ -870,7 +830,7 @@
       "texts": {
         "en": {
           "text": "carefully",
-          "ipa": "/carefully/",
+          "ipa": "/ˈkɛɹfəli/",
           "hints": {
             "ru": "carefully",
             "vi": "carefully"
@@ -910,7 +870,7 @@
       "texts": {
         "en": {
           "text": "easily",
-          "ipa": "/easily/",
+          "ipa": "/ˈizəli/",
           "hints": {
             "ru": "easily",
             "vi": "easily"
@@ -950,7 +910,7 @@
       "texts": {
         "en": {
           "text": "suddenly",
-          "ipa": "/suddenly/",
+          "ipa": "/ˈsʌdənli/",
           "hints": {
             "ru": "suddenly",
             "vi": "suddenly"
@@ -990,7 +950,7 @@
       "texts": {
         "en": {
           "text": "finally",
-          "ipa": "/finally/",
+          "ipa": "/ˈfaɪnəli/",
           "hints": {
             "ru": "finally",
             "vi": "finally"
@@ -1030,7 +990,7 @@
       "texts": {
         "en": {
           "text": "recently",
-          "ipa": "/recently/",
+          "ipa": "/ˈɹisəntli/",
           "hints": {
             "ru": "recently",
             "vi": "recently"
@@ -1070,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "currently",
-          "ipa": "/currently/",
+          "ipa": "/ˈkɝəntli/",
           "hints": {
             "ru": "currently",
             "vi": "currently"
@@ -1110,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "probably",
-          "ipa": "/probably/",
+          "ipa": "/ˈpɹɑbəˌbli/",
           "hints": {
             "ru": "probably",
             "vi": "probably"
@@ -1131,6 +1091,46 @@
           "hints": {
             "ru": "có lẽ",
             "en": "có lẽ"
+          }
+        }
+      }
+    },
+    {
+      "id": "adv.maybe",
+      "kind": "word",
+      "theme": "adverbs",
+      "tags": [
+        "theme:adverbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "maybe",
+          "ipa": "/ˈmeɪbi/",
+          "hints": {
+            "ru": "maybe",
+            "vi": "maybe"
+          }
+        },
+        "ru": {
+          "text": "возможно",
+          "ipa": "/vozmoʐno/",
+          "hints": {
+            "en": "возможно",
+            "vi": "возможно"
+          }
+        },
+        "vi": {
+          "text": "có thể",
+          "ipa": "/kɔ˧˥ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có thể",
+            "en": "có thể"
           }
         }
       }
@@ -1190,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "especially",
-          "ipa": "/especially/",
+          "ipa": "/əˈspɛʃli/",
           "hints": {
             "ru": "especially",
             "vi": "especially"

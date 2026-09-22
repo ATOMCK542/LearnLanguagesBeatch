@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "thing",
-          "ipa": "/thing/",
+          "ipa": "/ˈθɪŋ/",
           "hints": {
             "ru": "thing",
             "vi": "thing"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "object",
-          "ipa": "/object/",
+          "ipa": "/ˈɑbdʒɛkt/",
           "hints": {
             "ru": "object",
             "vi": "object"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "tool",
-          "ipa": "/tool/",
+          "ipa": "/ˈtul/",
           "hints": {
             "ru": "tool",
             "vi": "tool"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "machine",
-          "ipa": "/machine/",
+          "ipa": "/məˈʃin/",
           "hints": {
             "ru": "machine",
             "vi": "machine"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "camera",
-          "ipa": "/camera/",
+          "ipa": "/ˈkæmɚə/",
           "hints": {
             "ru": "camera",
             "vi": "camera"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "photo",
-          "ipa": "/photo/",
+          "ipa": "/ˈfoʊˌtoʊ/",
           "hints": {
             "ru": "photo",
             "vi": "photo"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "picture",
-          "ipa": "/picture/",
+          "ipa": "/ˈpɪktʃɚ/",
           "hints": {
             "ru": "picture",
             "vi": "picture"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "video",
-          "ipa": "/video/",
+          "ipa": "/ˈvɪdioʊ/",
           "hints": {
             "ru": "video",
             "vi": "video"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "music",
-          "ipa": "/music/",
+          "ipa": "/ˈmjuzɪk/",
           "hints": {
             "ru": "music",
             "vi": "music"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "song",
-          "ipa": "/song/",
+          "ipa": "/ˈsɔŋ/",
           "hints": {
             "ru": "song",
             "vi": "song"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "movie",
-          "ipa": "/movie/",
+          "ipa": "/ˈmuvi/",
           "hints": {
             "ru": "movie",
             "vi": "movie"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "game",
-          "ipa": "/game/",
+          "ipa": "/ˈɡeɪm/",
           "hints": {
             "ru": "game",
             "vi": "game"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "ball",
-          "ipa": "/ball/",
+          "ipa": "/ˈbɔl/",
           "hints": {
             "ru": "ball",
             "vi": "ball"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "toy",
-          "ipa": "/toy/",
+          "ipa": "/ˈtɔɪ/",
           "hints": {
             "ru": "toy",
             "vi": "toy"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "gift",
-          "ipa": "/gift/",
+          "ipa": "/ˈɡɪft/",
           "hints": {
             "ru": "gift",
             "vi": "gift"
@@ -616,6 +616,46 @@
       }
     },
     {
+      "id": "obj.card",
+      "kind": "word",
+      "theme": "objects",
+      "tags": [
+        "theme:objects"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "card",
+          "ipa": "/kɑːd/",
+          "hints": {
+            "ru": "card",
+            "vi": "card"
+          }
+        },
+        "ru": {
+          "text": "открытка",
+          "ipa": "/otkrɨtka/",
+          "hints": {
+            "en": "открытка",
+            "vi": "открытка"
+          }
+        },
+        "vi": {
+          "text": "thiệp",
+          "ipa": "/tʰiep˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thiệp",
+            "en": "thiệp"
+          }
+        }
+      }
+    },
+    {
       "id": "obj.letter",
       "kind": "word",
       "theme": "objects",
@@ -630,7 +670,7 @@
       "texts": {
         "en": {
           "text": "letter",
-          "ipa": "/letter/",
+          "ipa": "/ˈlɛtɚ/",
           "hints": {
             "ru": "letter",
             "vi": "letter"
@@ -670,7 +710,7 @@
       "texts": {
         "en": {
           "text": "stamp",
-          "ipa": "/stamp/",
+          "ipa": "/ˈstæmp/",
           "hints": {
             "ru": "stamp",
             "vi": "stamp"
@@ -710,7 +750,7 @@
       "texts": {
         "en": {
           "text": "passport",
-          "ipa": "/passport/",
+          "ipa": "/ˈpæˌspɔɹt/",
           "hints": {
             "ru": "passport",
             "vi": "passport"
@@ -790,7 +830,7 @@
       "texts": {
         "en": {
           "text": "document",
-          "ipa": "/document/",
+          "ipa": "/ˈdɑkjəmɛnt/",
           "hints": {
             "ru": "document",
             "vi": "document"
@@ -830,7 +870,7 @@
       "texts": {
         "en": {
           "text": "file",
-          "ipa": "/file/",
+          "ipa": "/ˈfaɪl/",
           "hints": {
             "ru": "file",
             "vi": "file"
@@ -870,7 +910,7 @@
       "texts": {
         "en": {
           "text": "screen",
-          "ipa": "/screen/",
+          "ipa": "/ˈskɹin/",
           "hints": {
             "ru": "screen",
             "vi": "screen"
@@ -910,7 +950,7 @@
       "texts": {
         "en": {
           "text": "keyboard",
-          "ipa": "/keyboard/",
+          "ipa": "/ˈkiˌbɔɹd/",
           "hints": {
             "ru": "keyboard",
             "vi": "keyboard"
@@ -990,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "battery",
-          "ipa": "/battery/",
+          "ipa": "/ˈbætɚi/",
           "hints": {
             "ru": "battery",
             "vi": "battery"
@@ -1030,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "charger",
-          "ipa": "/charger/",
+          "ipa": "/ˈtʃɑɹdʒɚ/",
           "hints": {
             "ru": "charger",
             "vi": "charger"
@@ -1070,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "cable",
-          "ipa": "/cable/",
+          "ipa": "/ˈkeɪbəl/",
           "hints": {
             "ru": "cable",
             "vi": "cable"
@@ -1110,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "password",
-          "ipa": "/password/",
+          "ipa": "/ˈpæˌswɝd/",
           "hints": {
             "ru": "password",
             "vi": "password"
@@ -1150,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "website",
-          "ipa": "/website/",
+          "ipa": "/ˈwɛˌbsaɪt/",
           "hints": {
             "ru": "website",
             "vi": "website"
@@ -1190,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "internet",
-          "ipa": "/internet/",
+          "ipa": "/ˈɪntɚˌnɛt/",
           "hints": {
             "ru": "internet",
             "vi": "internet"
@@ -1230,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "app",
-          "ipa": "/app/",
+          "ipa": "/ˈæp/",
           "hints": {
             "ru": "app",
             "vi": "app"

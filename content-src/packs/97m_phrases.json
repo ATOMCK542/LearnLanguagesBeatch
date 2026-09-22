@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "I agree",
-          "ipa": "/aɪ agree/",
+          "ipa": "/aɪ əˈɡɹi/",
           "hints": {
             "ru": "I agree",
             "vi": "I agree"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "I disagree",
-          "ipa": "/aɪ disagree/",
+          "ipa": "/aɪ dɪsəˈɡɹi/",
           "hints": {
             "ru": "I disagree",
             "vi": "I disagree"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "Take a seat",
-          "ipa": "/teɪk ə seat/",
+          "ipa": "/teɪk ə ˈsit/",
           "hints": {
             "ru": "Take a seat",
             "vi": "Take a seat"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "Just a moment",
-          "ipa": "/dʒʌst ə moment/",
+          "ipa": "/dʒʌst ə ˈmoʊmənt/",
           "hints": {
             "ru": "Just a moment",
             "vi": "Just a moment"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "I am lost",
-          "ipa": "/aɪ æm lost/",
+          "ipa": "/aɪ æm ˈlɔst/",
           "hints": {
             "ru": "I am lost",
             "vi": "I am lost"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "I am from Russia",
-          "ipa": "/aɪ æm frɒm russia/",
+          "ipa": "/aɪ æm frɒm ˈɹʌʃə/",
           "hints": {
             "ru": "I am from Russia",
             "vi": "I am from Russia"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "I am from Vietnam",
-          "ipa": "/aɪ æm frɒm vietnam/",
+          "ipa": "/aɪ æm frɒm viˌɛˈtnɑm/",
           "hints": {
             "ru": "I am from Vietnam",
             "vi": "I am from Vietnam"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "Nice weather",
-          "ipa": "/naɪs weather/",
+          "ipa": "/naɪs ˈwɛðɚ/",
           "hints": {
             "ru": "Nice weather",
             "vi": "Nice weather"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "It's raining",
-          "ipa": "/ɪts raining/",
+          "ipa": "/ɪts ˈɹeɪnɪŋ/",
           "hints": {
             "ru": "It's raining",
             "vi": "It's raining"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "What happened",
-          "ipa": "/wɒt happened/",
+          "ipa": "/wɒt ˈhæpənd/",
           "hints": {
             "ru": "What happened",
             "vi": "What happened"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "Never mind",
-          "ipa": "/ˈnevə mind/",
+          "ipa": "/ˈnevə ˈmaɪnd/",
           "hints": {
             "ru": "Never mind",
             "vi": "Never mind"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "Good job",
-          "ipa": "/ɡʊd job/",
+          "ipa": "/ɡʊd ˈdʒɑb/",
           "hints": {
             "ru": "Good job",
             "vi": "Good job"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "Be careful",
-          "ipa": "/biː careful/",
+          "ipa": "/biː ˈkɛɹfəl/",
           "hints": {
             "ru": "Be careful",
             "vi": "Be careful"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "Hurry up",
-          "ipa": "/hurry ʌp/",
+          "ipa": "/ˈhɝi ʌp/",
           "hints": {
             "ru": "Hurry up",
             "vi": "Hurry up"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "Text me",
-          "ipa": "/text miː/",
+          "ipa": "/ˈtɛkst miː/",
           "hints": {
             "ru": "Text me",
             "vi": "Text me"
@@ -1190,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "See you soon",
-          "ipa": "/siː juː soon/",
+          "ipa": "/siː juː ˈsun/",
           "hints": {
             "ru": "See you soon",
             "vi": "See you soon"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "Have a nice day",
-          "ipa": "/hæv ə naɪs day/",
+          "ipa": "/hæv ə naɪs ˈdeɪ/",
           "hints": {
             "ru": "Have a nice day",
             "vi": "Have a nice day"

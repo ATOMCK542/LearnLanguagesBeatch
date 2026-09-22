@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "job",
-          "ipa": "/job/",
+          "ipa": "/ˈdʒɑb/",
           "hints": {
             "ru": "job",
             "vi": "job"
@@ -56,6 +56,46 @@
       }
     },
     {
+      "id": "work.work",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "work",
+          "ipa": "/wɜːk/",
+          "hints": {
+            "ru": "work",
+            "vi": "work"
+          }
+        },
+        "ru": {
+          "text": "работа",
+          "ipa": "/rabota/",
+          "hints": {
+            "en": "работа",
+            "vi": "работа"
+          }
+        },
+        "vi": {
+          "text": "làm việc",
+          "ipa": "/laːm˨˩ viək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "làm việc",
+            "en": "làm việc"
+          }
+        }
+      }
+    },
+    {
       "id": "work.worker",
       "kind": "word",
       "theme": "work",
@@ -70,7 +110,7 @@
       "texts": {
         "en": {
           "text": "worker",
-          "ipa": "/worker/",
+          "ipa": "/ˈwɝkɚ/",
           "hints": {
             "ru": "worker",
             "vi": "worker"
@@ -110,7 +150,7 @@
       "texts": {
         "en": {
           "text": "boss",
-          "ipa": "/boss/",
+          "ipa": "/ˈbɑs/",
           "hints": {
             "ru": "boss",
             "vi": "boss"
@@ -150,7 +190,7 @@
       "texts": {
         "en": {
           "text": "colleague",
-          "ipa": "/colleague/",
+          "ipa": "/ˈkɑliɡ/",
           "hints": {
             "ru": "colleague",
             "vi": "colleague"
@@ -190,7 +230,7 @@
       "texts": {
         "en": {
           "text": "customer",
-          "ipa": "/customer/",
+          "ipa": "/ˈkʌstəmɚ/",
           "hints": {
             "ru": "customer",
             "vi": "customer"
@@ -230,7 +270,7 @@
       "texts": {
         "en": {
           "text": "business",
-          "ipa": "/business/",
+          "ipa": "/ˈbɪznəs/",
           "hints": {
             "ru": "business",
             "vi": "business"
@@ -270,7 +310,7 @@
       "texts": {
         "en": {
           "text": "company",
-          "ipa": "/company/",
+          "ipa": "/ˈkʌmpəˌni/",
           "hints": {
             "ru": "company",
             "vi": "company"
@@ -310,7 +350,7 @@
       "texts": {
         "en": {
           "text": "meeting",
-          "ipa": "/meeting/",
+          "ipa": "/ˈmitɪŋ/",
           "hints": {
             "ru": "meeting",
             "vi": "meeting"
@@ -350,7 +390,7 @@
       "texts": {
         "en": {
           "text": "email",
-          "ipa": "/email/",
+          "ipa": "/iˈmeɪl/",
           "hints": {
             "ru": "email",
             "vi": "email"
@@ -390,7 +430,7 @@
       "texts": {
         "en": {
           "text": "message",
-          "ipa": "/message/",
+          "ipa": "/ˈmɛsədʒ/",
           "hints": {
             "ru": "message",
             "vi": "message"
@@ -416,6 +456,46 @@
       }
     },
     {
+      "id": "work.call",
+      "kind": "word",
+      "theme": "work",
+      "tags": [
+        "theme:work"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "call",
+          "ipa": "/kɔːl/",
+          "hints": {
+            "ru": "call",
+            "vi": "call"
+          }
+        },
+        "ru": {
+          "text": "звонок",
+          "ipa": "/zvonok/",
+          "hints": {
+            "en": "звонок",
+            "vi": "звонок"
+          }
+        },
+        "vi": {
+          "text": "cuộc gọi",
+          "ipa": "/kuək˧ˀ ɣɔj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cuộc gọi",
+            "en": "cuộc gọi"
+          }
+        }
+      }
+    },
+    {
       "id": "work.salary",
       "kind": "word",
       "theme": "work",
@@ -430,7 +510,7 @@
       "texts": {
         "en": {
           "text": "salary",
-          "ipa": "/salary/",
+          "ipa": "/ˈsælɚi/",
           "hints": {
             "ru": "salary",
             "vi": "salary"
@@ -470,7 +550,7 @@
       "texts": {
         "en": {
           "text": "money",
-          "ipa": "/money/",
+          "ipa": "/ˈmʌni/",
           "hints": {
             "ru": "money",
             "vi": "money"
@@ -510,7 +590,7 @@
       "texts": {
         "en": {
           "text": "price",
-          "ipa": "/price/",
+          "ipa": "/ˈpɹaɪs/",
           "hints": {
             "ru": "price",
             "vi": "price"
@@ -550,7 +630,7 @@
       "texts": {
         "en": {
           "text": "free",
-          "ipa": "/free/",
+          "ipa": "/ˈfɹi/",
           "hints": {
             "ru": "free",
             "vi": "free"
@@ -590,7 +670,7 @@
       "texts": {
         "en": {
           "text": "break",
-          "ipa": "/break/",
+          "ipa": "/ˈbɹeɪk/",
           "hints": {
             "ru": "break",
             "vi": "break"
@@ -630,7 +710,7 @@
       "texts": {
         "en": {
           "text": "project",
-          "ipa": "/project/",
+          "ipa": "/ˈpɹɑdʒɛkt/",
           "hints": {
             "ru": "project",
             "vi": "project"
@@ -670,7 +750,7 @@
       "texts": {
         "en": {
           "text": "plan",
-          "ipa": "/plan/",
+          "ipa": "/ˈplæn/",
           "hints": {
             "ru": "plan",
             "vi": "plan"
@@ -710,7 +790,7 @@
       "texts": {
         "en": {
           "text": "goal",
-          "ipa": "/goal/",
+          "ipa": "/ˈɡoʊl/",
           "hints": {
             "ru": "goal",
             "vi": "goal"
@@ -750,7 +830,7 @@
       "texts": {
         "en": {
           "text": "success",
-          "ipa": "/success/",
+          "ipa": "/səˈksɛs/",
           "hints": {
             "ru": "success",
             "vi": "success"
@@ -830,7 +910,7 @@
       "texts": {
         "en": {
           "text": "idea",
-          "ipa": "/idea/",
+          "ipa": "/aɪˈdiə/",
           "hints": {
             "ru": "idea",
             "vi": "idea"
@@ -870,7 +950,7 @@
       "texts": {
         "en": {
           "text": "decision",
-          "ipa": "/decision/",
+          "ipa": "/dɪˈsɪʒən/",
           "hints": {
             "ru": "decision",
             "vi": "decision"
@@ -910,7 +990,7 @@
       "texts": {
         "en": {
           "text": "team",
-          "ipa": "/team/",
+          "ipa": "/ˈtim/",
           "hints": {
             "ru": "team",
             "vi": "team"

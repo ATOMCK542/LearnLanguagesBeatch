@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "begin",
-          "ipa": "/begin/",
+          "ipa": "/bɪˈɡɪn/",
           "hints": {
             "ru": "begin",
             "vi": "begin"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "finish",
-          "ipa": "/finish/",
+          "ipa": "/ˈfɪnɪʃ/",
           "hints": {
             "ru": "finish",
             "vi": "finish"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "continue",
-          "ipa": "/continue/",
+          "ipa": "/kəˈntɪnju/",
           "hints": {
             "ru": "continue",
             "vi": "continue"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "change",
-          "ipa": "/change/",
+          "ipa": "/ˈtʃeɪndʒ/",
           "hints": {
             "ru": "change",
             "vi": "change"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "choose",
-          "ipa": "/choose/",
+          "ipa": "/ˈtʃuz/",
           "hints": {
             "ru": "choose",
             "vi": "choose"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "decide",
-          "ipa": "/decide/",
+          "ipa": "/ˌdɪˈsaɪd/",
           "hints": {
             "ru": "decide",
             "vi": "decide"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "hope",
-          "ipa": "/hope/",
+          "ipa": "/ˈhoʊp/",
           "hints": {
             "ru": "hope",
             "vi": "hope"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "wish",
-          "ipa": "/wish/",
+          "ipa": "/ˈwɪʃ/",
           "hints": {
             "ru": "wish",
             "vi": "wish"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "worry",
-          "ipa": "/worry/",
+          "ipa": "/ˈwɝi/",
           "hints": {
             "ru": "worry",
             "vi": "worry"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "laugh",
-          "ipa": "/laugh/",
+          "ipa": "/ˈlæf/",
           "hints": {
             "ru": "laugh",
             "vi": "laugh"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "cry",
-          "ipa": "/cry/",
+          "ipa": "/ˈkɹaɪ/",
           "hints": {
             "ru": "cry",
             "vi": "cry"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "shout",
-          "ipa": "/shout/",
+          "ipa": "/ˈʃaʊt/",
           "hints": {
             "ru": "shout",
             "vi": "shout"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "whisper",
-          "ipa": "/whisper/",
+          "ipa": "/ˈwɪspɚ/",
           "hints": {
             "ru": "whisper",
             "vi": "whisper"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "touch",
-          "ipa": "/touch/",
+          "ipa": "/ˈtʌtʃ/",
           "hints": {
             "ru": "touch",
             "vi": "touch"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "hold",
-          "ipa": "/hold/",
+          "ipa": "/ˈhoʊld/",
           "hints": {
             "ru": "hold",
             "vi": "hold"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "push",
-          "ipa": "/push/",
+          "ipa": "/ˈpʊʃ/",
           "hints": {
             "ru": "push",
             "vi": "push"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "pull",
-          "ipa": "/pull/",
+          "ipa": "/ˈpʊl/",
           "hints": {
             "ru": "pull",
             "vi": "pull"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "cut",
-          "ipa": "/cut/",
+          "ipa": "/ˈkʌt/",
           "hints": {
             "ru": "cut",
             "vi": "cut"
@@ -736,6 +736,46 @@
       }
     },
     {
+      "id": "verbx.break",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "break",
+          "ipa": "/ˈbɹeɪk/",
+          "hints": {
+            "ru": "break",
+            "vi": "break"
+          }
+        },
+        "ru": {
+          "text": "ломать",
+          "ipa": "/lomatʲ/",
+          "hints": {
+            "en": "ломать",
+            "vi": "ломать"
+          }
+        },
+        "vi": {
+          "text": "làm vỡ",
+          "ipa": "/laːm˨˩ vəː˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "làm vỡ",
+            "en": "làm vỡ"
+          }
+        }
+      }
+    },
+    {
       "id": "verbx.fix",
       "kind": "word",
       "theme": "verbs",
@@ -750,7 +790,7 @@
       "texts": {
         "en": {
           "text": "fix",
-          "ipa": "/fix/",
+          "ipa": "/ˈfɪks/",
           "hints": {
             "ru": "fix",
             "vi": "fix"
@@ -790,7 +830,7 @@
       "texts": {
         "en": {
           "text": "build",
-          "ipa": "/build/",
+          "ipa": "/ˈbɪld/",
           "hints": {
             "ru": "build",
             "vi": "build"
@@ -830,7 +870,7 @@
       "texts": {
         "en": {
           "text": "move",
-          "ipa": "/move/",
+          "ipa": "/ˈmuv/",
           "hints": {
             "ru": "move",
             "vi": "move"
@@ -870,7 +910,7 @@
       "texts": {
         "en": {
           "text": "turn",
-          "ipa": "/turn/",
+          "ipa": "/ˈtɝn/",
           "hints": {
             "ru": "turn",
             "vi": "turn"
@@ -910,7 +950,7 @@
       "texts": {
         "en": {
           "text": "follow",
-          "ipa": "/follow/",
+          "ipa": "/ˈfɑloʊ/",
           "hints": {
             "ru": "follow",
             "vi": "follow"
@@ -950,7 +990,7 @@
       "texts": {
         "en": {
           "text": "lead",
-          "ipa": "/lead/",
+          "ipa": "/ˈlɛd/",
           "hints": {
             "ru": "lead",
             "vi": "lead"
@@ -990,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "win",
-          "ipa": "/win/",
+          "ipa": "/ˈwɪn/",
           "hints": {
             "ru": "win",
             "vi": "win"
@@ -1030,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "fail",
-          "ipa": "/fail/",
+          "ipa": "/ˈfeɪl/",
           "hints": {
             "ru": "fail",
             "vi": "fail"
@@ -1070,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "grow",
-          "ipa": "/grow/",
+          "ipa": "/ˈɡɹoʊ/",
           "hints": {
             "ru": "grow",
             "vi": "grow"
@@ -1110,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "die",
-          "ipa": "/die/",
+          "ipa": "/ˈdaɪ/",
           "hints": {
             "ru": "die",
             "vi": "die"
@@ -1150,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "happen",
-          "ipa": "/happen/",
+          "ipa": "/ˈhæpən/",
           "hints": {
             "ru": "happen",
             "vi": "happen"
@@ -1190,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "seem",
-          "ipa": "/seem/",
+          "ipa": "/ˈsim/",
           "hints": {
             "ru": "seem",
             "vi": "seem"
@@ -1230,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "become",
-          "ipa": "/become/",
+          "ipa": "/bɪˈkʌm/",
           "hints": {
             "ru": "become",
             "vi": "become"
@@ -1270,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "remain",
-          "ipa": "/remain/",
+          "ipa": "/ɹɪˈmeɪn/",
           "hints": {
             "ru": "remain",
             "vi": "remain"
@@ -1310,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "include",
-          "ipa": "/include/",
+          "ipa": "/ˌɪˈnklud/",
           "hints": {
             "ru": "include",
             "vi": "include"
@@ -1350,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "allow",
-          "ipa": "/allow/",
+          "ipa": "/əˈlaʊ/",
           "hints": {
             "ru": "allow",
             "vi": "allow"
@@ -1390,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "refuse",
-          "ipa": "/refuse/",
+          "ipa": "/ɹəˈfjuz/",
           "hints": {
             "ru": "refuse",
             "vi": "refuse"
@@ -1430,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "agree",
-          "ipa": "/agree/",
+          "ipa": "/əˈɡɹi/",
           "hints": {
             "ru": "agree",
             "vi": "agree"
@@ -1470,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "disagree",
-          "ipa": "/disagree/",
+          "ipa": "/dɪsəˈɡɹi/",
           "hints": {
             "ru": "disagree",
             "vi": "disagree"
@@ -1510,7 +1550,7 @@
       "texts": {
         "en": {
           "text": "compare",
-          "ipa": "/compare/",
+          "ipa": "/kəˈmpɛɹ/",
           "hints": {
             "ru": "compare",
             "vi": "compare"
@@ -1550,7 +1590,7 @@
       "texts": {
         "en": {
           "text": "describe",
-          "ipa": "/describe/",
+          "ipa": "/dɪˈskɹaɪb/",
           "hints": {
             "ru": "describe",
             "vi": "describe"
@@ -1590,7 +1630,7 @@
       "texts": {
         "en": {
           "text": "imagine",
-          "ipa": "/imagine/",
+          "ipa": "/ˌɪˈmædʒən/",
           "hints": {
             "ru": "imagine",
             "vi": "imagine"
@@ -1630,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "notice",
-          "ipa": "/notice/",
+          "ipa": "/ˈnoʊtəs/",
           "hints": {
             "ru": "notice",
             "vi": "notice"
@@ -1670,7 +1710,7 @@
       "texts": {
         "en": {
           "text": "realize",
-          "ipa": "/realize/",
+          "ipa": "/ˈɹiəˌlaɪz/",
           "hints": {
             "ru": "realize",
             "vi": "realize"
@@ -1710,7 +1750,7 @@
       "texts": {
         "en": {
           "text": "believe",
-          "ipa": "/believe/",
+          "ipa": "/bɪˈliv/",
           "hints": {
             "ru": "believe",
             "vi": "believe"
@@ -1750,7 +1790,7 @@
       "texts": {
         "en": {
           "text": "doubt",
-          "ipa": "/doubt/",
+          "ipa": "/ˈdaʊt/",
           "hints": {
             "ru": "doubt",
             "vi": "doubt"
@@ -1790,7 +1830,7 @@
       "texts": {
         "en": {
           "text": "trust",
-          "ipa": "/trust/",
+          "ipa": "/ˈtɹʌst/",
           "hints": {
             "ru": "trust",
             "vi": "trust"
@@ -1830,7 +1870,7 @@
       "texts": {
         "en": {
           "text": "share",
-          "ipa": "/share/",
+          "ipa": "/ˈʃɛɹ/",
           "hints": {
             "ru": "share",
             "vi": "share"
@@ -1870,7 +1910,7 @@
       "texts": {
         "en": {
           "text": "borrow",
-          "ipa": "/borrow/",
+          "ipa": "/ˈbɑˌɹoʊ/",
           "hints": {
             "ru": "borrow",
             "vi": "borrow"
@@ -1910,7 +1950,7 @@
       "texts": {
         "en": {
           "text": "lend",
-          "ipa": "/lend/",
+          "ipa": "/ˈlɛnd/",
           "hints": {
             "ru": "lend",
             "vi": "lend"
@@ -1950,7 +1990,7 @@
       "texts": {
         "en": {
           "text": "owe",
-          "ipa": "/owe/",
+          "ipa": "/ˈoʊ/",
           "hints": {
             "ru": "owe",
             "vi": "owe"
@@ -1990,7 +2030,7 @@
       "texts": {
         "en": {
           "text": "save",
-          "ipa": "/save/",
+          "ipa": "/ˈseɪv/",
           "hints": {
             "ru": "save",
             "vi": "save"
@@ -2030,7 +2070,7 @@
       "texts": {
         "en": {
           "text": "spend",
-          "ipa": "/spend/",
+          "ipa": "/ˈspɛnd/",
           "hints": {
             "ru": "spend",
             "vi": "spend"
@@ -2070,7 +2110,7 @@
       "texts": {
         "en": {
           "text": "cost",
-          "ipa": "/cost/",
+          "ipa": "/ˈkɑst/",
           "hints": {
             "ru": "cost",
             "vi": "cost"
@@ -2110,7 +2150,7 @@
       "texts": {
         "en": {
           "text": "count",
-          "ipa": "/count/",
+          "ipa": "/ˈkaʊnt/",
           "hints": {
             "ru": "count",
             "vi": "count"
@@ -2150,7 +2190,7 @@
       "texts": {
         "en": {
           "text": "measure",
-          "ipa": "/measure/",
+          "ipa": "/ˈmɛʒɚ/",
           "hints": {
             "ru": "measure",
             "vi": "measure"
@@ -2190,7 +2230,7 @@
       "texts": {
         "en": {
           "text": "weigh",
-          "ipa": "/weigh/",
+          "ipa": "/ˈweɪ/",
           "hints": {
             "ru": "weigh",
             "vi": "weigh"
@@ -2230,7 +2270,7 @@
       "texts": {
         "en": {
           "text": "fill",
-          "ipa": "/fill/",
+          "ipa": "/ˈfɪl/",
           "hints": {
             "ru": "fill",
             "vi": "fill"
@@ -2256,6 +2296,46 @@
       }
     },
     {
+      "id": "verbx.empty",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "empty",
+          "ipa": "/ˈempti/",
+          "hints": {
+            "ru": "empty",
+            "vi": "empty"
+          }
+        },
+        "ru": {
+          "text": "опустошать",
+          "ipa": "/opustoʂatʲ/",
+          "hints": {
+            "en": "опустошать",
+            "vi": "опустошать"
+          }
+        },
+        "vi": {
+          "text": "làm trống",
+          "ipa": "/laːm˨˩ tɕoŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "làm trống",
+            "en": "làm trống"
+          }
+        }
+      }
+    },
+    {
       "id": "verbx.cover",
       "kind": "word",
       "theme": "verbs",
@@ -2270,7 +2350,7 @@
       "texts": {
         "en": {
           "text": "cover",
-          "ipa": "/cover/",
+          "ipa": "/ˈkʌvɚ/",
           "hints": {
             "ru": "cover",
             "vi": "cover"
@@ -2310,7 +2390,7 @@
       "texts": {
         "en": {
           "text": "discover",
-          "ipa": "/discover/",
+          "ipa": "/dɪˈskʌvɚ/",
           "hints": {
             "ru": "discover",
             "vi": "discover"
@@ -2350,7 +2430,7 @@
       "texts": {
         "en": {
           "text": "invent",
-          "ipa": "/invent/",
+          "ipa": "/ˌɪˈnvɛnt/",
           "hints": {
             "ru": "invent",
             "vi": "invent"
@@ -2390,7 +2470,7 @@
       "texts": {
         "en": {
           "text": "create",
-          "ipa": "/create/",
+          "ipa": "/kɹiˈeɪt/",
           "hints": {
             "ru": "create",
             "vi": "create"
@@ -2430,7 +2510,7 @@
       "texts": {
         "en": {
           "text": "design",
-          "ipa": "/design/",
+          "ipa": "/dɪˈzaɪn/",
           "hints": {
             "ru": "design",
             "vi": "design"
@@ -2470,7 +2550,7 @@
       "texts": {
         "en": {
           "text": "draw",
-          "ipa": "/draw/",
+          "ipa": "/ˈdɹɔ/",
           "hints": {
             "ru": "draw",
             "vi": "draw"
@@ -2510,7 +2590,7 @@
       "texts": {
         "en": {
           "text": "paint",
-          "ipa": "/paint/",
+          "ipa": "/ˈpeɪnt/",
           "hints": {
             "ru": "paint",
             "vi": "paint"
@@ -2550,7 +2630,7 @@
       "texts": {
         "en": {
           "text": "sing",
-          "ipa": "/sing/",
+          "ipa": "/ˈsɪŋ/",
           "hints": {
             "ru": "sing",
             "vi": "sing"
@@ -2590,7 +2670,7 @@
       "texts": {
         "en": {
           "text": "dance",
-          "ipa": "/dance/",
+          "ipa": "/ˈdæns/",
           "hints": {
             "ru": "dance",
             "vi": "dance"
@@ -2616,6 +2696,46 @@
       }
     },
     {
+      "id": "verbx.clean",
+      "kind": "word",
+      "theme": "verbs",
+      "tags": [
+        "theme:verbs"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "clean",
+          "ipa": "/kliːn/",
+          "hints": {
+            "ru": "clean",
+            "vi": "clean"
+          }
+        },
+        "ru": {
+          "text": "убирать",
+          "ipa": "/ubʲiratʲ/",
+          "hints": {
+            "en": "убирать",
+            "vi": "убирать"
+          }
+        },
+        "vi": {
+          "text": "dọn",
+          "ipa": "/zɔn˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dọn",
+            "en": "dọn"
+          }
+        }
+      }
+    },
+    {
       "id": "verbx.wash",
       "kind": "word",
       "theme": "verbs",
@@ -2630,7 +2750,7 @@
       "texts": {
         "en": {
           "text": "wash",
-          "ipa": "/wash/",
+          "ipa": "/ˈwɑʃ/",
           "hints": {
             "ru": "wash",
             "vi": "wash"
@@ -2670,7 +2790,7 @@
       "texts": {
         "en": {
           "text": "dry",
-          "ipa": "/dry/",
+          "ipa": "/ˈdɹaɪ/",
           "hints": {
             "ru": "dry",
             "vi": "dry"
@@ -2710,7 +2830,7 @@
       "texts": {
         "en": {
           "text": "hang",
-          "ipa": "/hang/",
+          "ipa": "/ˈhæŋ/",
           "hints": {
             "ru": "hang",
             "vi": "hang"
@@ -2750,7 +2870,7 @@
       "texts": {
         "en": {
           "text": "throw",
-          "ipa": "/throw/",
+          "ipa": "/ˈθɹoʊ/",
           "hints": {
             "ru": "throw",
             "vi": "throw"
@@ -2790,7 +2910,7 @@
       "texts": {
         "en": {
           "text": "catch",
-          "ipa": "/catch/",
+          "ipa": "/ˈkætʃ/",
           "hints": {
             "ru": "catch",
             "vi": "catch"
@@ -2830,7 +2950,7 @@
       "texts": {
         "en": {
           "text": "kick",
-          "ipa": "/kick/",
+          "ipa": "/ˈkɪk/",
           "hints": {
             "ru": "kick",
             "vi": "kick"
@@ -2870,7 +2990,7 @@
       "texts": {
         "en": {
           "text": "hit",
-          "ipa": "/hit/",
+          "ipa": "/ˈhɪt/",
           "hints": {
             "ru": "hit",
             "vi": "hit"
@@ -2910,7 +3030,7 @@
       "texts": {
         "en": {
           "text": "jump",
-          "ipa": "/jump/",
+          "ipa": "/ˈdʒʌmp/",
           "hints": {
             "ru": "jump",
             "vi": "jump"
@@ -2950,7 +3070,7 @@
       "texts": {
         "en": {
           "text": "climb",
-          "ipa": "/climb/",
+          "ipa": "/ˈklaɪm/",
           "hints": {
             "ru": "climb",
             "vi": "climb"
@@ -2990,7 +3110,7 @@
       "texts": {
         "en": {
           "text": "drive",
-          "ipa": "/drive/",
+          "ipa": "/ˈdɹaɪv/",
           "hints": {
             "ru": "drive",
             "vi": "drive"
@@ -3030,7 +3150,7 @@
       "texts": {
         "en": {
           "text": "ride",
-          "ipa": "/ride/",
+          "ipa": "/ˈɹaɪd/",
           "hints": {
             "ru": "ride",
             "vi": "ride"
@@ -3070,7 +3190,7 @@
       "texts": {
         "en": {
           "text": "fly",
-          "ipa": "/fly/",
+          "ipa": "/ˈflaɪ/",
           "hints": {
             "ru": "fly",
             "vi": "fly"
@@ -3110,7 +3230,7 @@
       "texts": {
         "en": {
           "text": "sail",
-          "ipa": "/sail/",
+          "ipa": "/ˈseɪl/",
           "hints": {
             "ru": "sail",
             "vi": "sail"
@@ -3150,7 +3270,7 @@
       "texts": {
         "en": {
           "text": "travel",
-          "ipa": "/travel/",
+          "ipa": "/ˈtɹævəl/",
           "hints": {
             "ru": "travel",
             "vi": "travel"
@@ -3190,7 +3310,7 @@
       "texts": {
         "en": {
           "text": "visit",
-          "ipa": "/visit/",
+          "ipa": "/ˈvɪzɪt/",
           "hints": {
             "ru": "visit",
             "vi": "visit"
@@ -3230,7 +3350,7 @@
       "texts": {
         "en": {
           "text": "arrive",
-          "ipa": "/arrive/",
+          "ipa": "/ɚˈaɪv/",
           "hints": {
             "ru": "arrive",
             "vi": "arrive"
@@ -3270,7 +3390,7 @@
       "texts": {
         "en": {
           "text": "return",
-          "ipa": "/return/",
+          "ipa": "/ɹɪˈtɝn/",
           "hints": {
             "ru": "return",
             "vi": "return"
@@ -3310,7 +3430,7 @@
       "texts": {
         "en": {
           "text": "enter",
-          "ipa": "/enter/",
+          "ipa": "/ˈɛntɚ/",
           "hints": {
             "ru": "enter",
             "vi": "enter"
@@ -3350,7 +3470,7 @@
       "texts": {
         "en": {
           "text": "exit",
-          "ipa": "/exit/",
+          "ipa": "/ˈɛɡzɪt/",
           "hints": {
             "ru": "exit",
             "vi": "exit"
@@ -3390,7 +3510,7 @@
       "texts": {
         "en": {
           "text": "send",
-          "ipa": "/send/",
+          "ipa": "/ˈsɛnd/",
           "hints": {
             "ru": "send",
             "vi": "send"
@@ -3430,7 +3550,7 @@
       "texts": {
         "en": {
           "text": "receive",
-          "ipa": "/receive/",
+          "ipa": "/ɹəˈsiv/",
           "hints": {
             "ru": "receive",
             "vi": "receive"
@@ -3470,7 +3590,7 @@
       "texts": {
         "en": {
           "text": "deliver",
-          "ipa": "/deliver/",
+          "ipa": "/dɪˈlɪvɚ/",
           "hints": {
             "ru": "deliver",
             "vi": "deliver"
@@ -3510,7 +3630,7 @@
       "texts": {
         "en": {
           "text": "order",
-          "ipa": "/order/",
+          "ipa": "/ˈɔɹdɚ/",
           "hints": {
             "ru": "order",
             "vi": "order"
@@ -3590,7 +3710,7 @@
       "texts": {
         "en": {
           "text": "cancel",
-          "ipa": "/cancel/",
+          "ipa": "/ˈkænsəl/",
           "hints": {
             "ru": "cancel",
             "vi": "cancel"
@@ -3630,7 +3750,7 @@
       "texts": {
         "en": {
           "text": "check",
-          "ipa": "/check/",
+          "ipa": "/ˈtʃɛk/",
           "hints": {
             "ru": "check",
             "vi": "check"
@@ -3670,7 +3790,7 @@
       "texts": {
         "en": {
           "text": "search",
-          "ipa": "/search/",
+          "ipa": "/ˈsɝtʃ/",
           "hints": {
             "ru": "search",
             "vi": "search"
@@ -3710,7 +3830,7 @@
       "texts": {
         "en": {
           "text": "download",
-          "ipa": "/download/",
+          "ipa": "/ˈdaʊˌnloʊd/",
           "hints": {
             "ru": "download",
             "vi": "download"
@@ -3750,7 +3870,7 @@
       "texts": {
         "en": {
           "text": "upload",
-          "ipa": "/upload/",
+          "ipa": "/ˈʌˌploʊd/",
           "hints": {
             "ru": "upload",
             "vi": "upload"
@@ -3790,7 +3910,7 @@
       "texts": {
         "en": {
           "text": "print",
-          "ipa": "/print/",
+          "ipa": "/ˈpɹɪnt/",
           "hints": {
             "ru": "print",
             "vi": "print"
@@ -3830,7 +3950,7 @@
       "texts": {
         "en": {
           "text": "copy",
-          "ipa": "/copy/",
+          "ipa": "/ˈkɑpi/",
           "hints": {
             "ru": "copy",
             "vi": "copy"
@@ -3870,7 +3990,7 @@
       "texts": {
         "en": {
           "text": "delete",
-          "ipa": "/delete/",
+          "ipa": "/dɪˈlit/",
           "hints": {
             "ru": "delete",
             "vi": "delete"
@@ -3910,7 +4030,7 @@
       "texts": {
         "en": {
           "text": "edit",
-          "ipa": "/edit/",
+          "ipa": "/ˈɛdət/",
           "hints": {
             "ru": "edit",
             "vi": "edit"

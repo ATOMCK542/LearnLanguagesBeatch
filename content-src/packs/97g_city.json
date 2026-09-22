@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "traffic",
-          "ipa": "/traffic/",
+          "ipa": "/ˈtɹæfɪk/",
           "hints": {
             "ru": "traffic",
             "vi": "traffic"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "bike",
-          "ipa": "/bike/",
+          "ipa": "/ˈbaɪk/",
           "hints": {
             "ru": "bike",
             "vi": "bike"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "motorbike",
-          "ipa": "/motorbike/",
+          "ipa": "/ˈmoʊtɚˌbaɪk/",
           "hints": {
             "ru": "motorbike",
             "vi": "motorbike"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "truck",
-          "ipa": "/truck/",
+          "ipa": "/ˈtɹʌk/",
           "hints": {
             "ru": "truck",
             "vi": "truck"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "driver",
-          "ipa": "/driver/",
+          "ipa": "/ˈdɹaɪvɚ/",
           "hints": {
             "ru": "driver",
             "vi": "driver"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "passenger",
-          "ipa": "/passenger/",
+          "ipa": "/ˈpæsəndʒɚ/",
           "hints": {
             "ru": "passenger",
             "vi": "passenger"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "map",
-          "ipa": "/map/",
+          "ipa": "/ˈmæp/",
           "hints": {
             "ru": "map",
             "vi": "map"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "direction",
-          "ipa": "/direction/",
+          "ipa": "/dɚˈɛkʃən/",
           "hints": {
             "ru": "direction",
             "vi": "direction"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "north",
-          "ipa": "/north/",
+          "ipa": "/ˈnɔɹθ/",
           "hints": {
             "ru": "north",
             "vi": "north"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "south",
-          "ipa": "/south/",
+          "ipa": "/ˈsaʊθ/",
           "hints": {
             "ru": "south",
             "vi": "south"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "east",
-          "ipa": "/east/",
+          "ipa": "/ˈist/",
           "hints": {
             "ru": "east",
             "vi": "east"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "west",
-          "ipa": "/west/",
+          "ipa": "/ˈwɛst/",
           "hints": {
             "ru": "west",
             "vi": "west"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "center",
-          "ipa": "/center/",
+          "ipa": "/ˈsɛntɚ/",
           "hints": {
             "ru": "center",
             "vi": "center"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "corner",
-          "ipa": "/corner/",
+          "ipa": "/ˈkɔɹnɚ/",
           "hints": {
             "ru": "corner",
             "vi": "corner"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "crosswalk",
-          "ipa": "/crosswalk/",
+          "ipa": "/ˈkɹɑˌswɑk/",
           "hints": {
             "ru": "crosswalk",
             "vi": "crosswalk"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "parking",
-          "ipa": "/parking/",
+          "ipa": "/ˈpɑɹkɪŋ/",
           "hints": {
             "ru": "parking",
             "vi": "parking"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "gasoline",
-          "ipa": "/gasoline/",
+          "ipa": "/ˈɡæsəˌlin/",
           "hints": {
             "ru": "gasoline",
             "vi": "gasoline"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "helmet",
-          "ipa": "/helmet/",
+          "ipa": "/ˈhɛlmət/",
           "hints": {
             "ru": "helmet",
             "vi": "helmet"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "seat",
-          "ipa": "/seat/",
+          "ipa": "/ˈsit/",
           "hints": {
             "ru": "seat",
             "vi": "seat"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "queue",
-          "ipa": "/queue/",
+          "ipa": "/ˈkju/",
           "hints": {
             "ru": "queue",
             "vi": "queue"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "crowd",
-          "ipa": "/crowd/",
+          "ipa": "/ˈkɹaʊd/",
           "hints": {
             "ru": "crowd",
             "vi": "crowd"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "noise",
-          "ipa": "/noise/",
+          "ipa": "/ˈnɔɪz/",
           "hints": {
             "ru": "noise",
             "vi": "noise"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "quiet",
-          "ipa": "/quiet/",
+          "ipa": "/ˈkwaɪət/",
           "hints": {
             "ru": "quiet",
             "vi": "quiet"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "safe",
-          "ipa": "/safe/",
+          "ipa": "/ˈseɪf/",
           "hints": {
             "ru": "safe",
             "vi": "safe"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "dangerous",
-          "ipa": "/dangerous/",
+          "ipa": "/ˈdeɪndʒɚəs/",
           "hints": {
             "ru": "dangerous",
             "vi": "dangerous"

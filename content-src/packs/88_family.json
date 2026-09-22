@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "mother",
-          "ipa": "/mother/",
+          "ipa": "/ˈmʌðɚ/",
           "hints": {
             "ru": "mother",
             "vi": "mother"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "father",
-          "ipa": "/father/",
+          "ipa": "/ˈfɑðɚ/",
           "hints": {
             "ru": "father",
             "vi": "father"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "parent",
-          "ipa": "/parent/",
+          "ipa": "/ˈpɛɹənt/",
           "hints": {
             "ru": "parent",
             "vi": "parent"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "parents",
-          "ipa": "/parents/",
+          "ipa": "/ˈpɛɹənts/",
           "hints": {
             "ru": "parents",
             "vi": "parents"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "child",
-          "ipa": "/child/",
+          "ipa": "/ˈtʃaɪld/",
           "hints": {
             "ru": "child",
             "vi": "child"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "children",
-          "ipa": "/children/",
+          "ipa": "/ˈtʃɪldɹən/",
           "hints": {
             "ru": "children",
             "vi": "children"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "son",
-          "ipa": "/son/",
+          "ipa": "/ˈsʌn/",
           "hints": {
             "ru": "son",
             "vi": "son"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "daughter",
-          "ipa": "/daughter/",
+          "ipa": "/ˈdɔtɚ/",
           "hints": {
             "ru": "daughter",
             "vi": "daughter"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "brother",
-          "ipa": "/brother/",
+          "ipa": "/ˈbɹʌðɚ/",
           "hints": {
             "ru": "brother",
             "vi": "brother"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "sister",
-          "ipa": "/sister/",
+          "ipa": "/ˈsɪstɚ/",
           "hints": {
             "ru": "sister",
             "vi": "sister"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "baby",
-          "ipa": "/baby/",
+          "ipa": "/ˈbeɪbi/",
           "hints": {
             "ru": "baby",
             "vi": "baby"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "husband",
-          "ipa": "/husband/",
+          "ipa": "/ˈhʌzbənd/",
           "hints": {
             "ru": "husband",
             "vi": "husband"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "wife",
-          "ipa": "/wife/",
+          "ipa": "/ˈwaɪf/",
           "hints": {
             "ru": "wife",
             "vi": "wife"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "grandmother",
-          "ipa": "/grandmother/",
+          "ipa": "/ˈɡɹæˌndmʌðɚ/",
           "hints": {
             "ru": "grandmother",
             "vi": "grandmother"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "grandfather",
-          "ipa": "/grandfather/",
+          "ipa": "/ˈɡɹæˌndfɑðɚ/",
           "hints": {
             "ru": "grandfather",
             "vi": "grandfather"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "grandson",
-          "ipa": "/grandson/",
+          "ipa": "/ˈɡɹæˌndsʌn/",
           "hints": {
             "ru": "grandson",
             "vi": "grandson"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "granddaughter",
-          "ipa": "/granddaughter/",
+          "ipa": "/ˈɡɹæˌndɔtɚ/",
           "hints": {
             "ru": "granddaughter",
             "vi": "granddaughter"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "uncle",
-          "ipa": "/uncle/",
+          "ipa": "/ˈʌŋkəl/",
           "hints": {
             "ru": "uncle",
             "vi": "uncle"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "aunt",
-          "ipa": "/aunt/",
+          "ipa": "/ˈænt/",
           "hints": {
             "ru": "aunt",
             "vi": "aunt"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "cousin",
-          "ipa": "/cousin/",
+          "ipa": "/ˈkʌzən/",
           "hints": {
             "ru": "cousin",
             "vi": "cousin"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "family",
-          "ipa": "/family/",
+          "ipa": "/ˈfæməli/",
           "hints": {
             "ru": "family",
             "vi": "family"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "friend",
-          "ipa": "/friend/",
+          "ipa": "/ˈfɹɛnd/",
           "hints": {
             "ru": "friend",
             "vi": "friend"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "boyfriend",
-          "ipa": "/boyfriend/",
+          "ipa": "/ˈbɔɪˌfɹɛnd/",
           "hints": {
             "ru": "boyfriend",
             "vi": "boyfriend"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "girlfriend",
-          "ipa": "/girlfriend/",
+          "ipa": "/ˈɡɝˌlfɹɛnd/",
           "hints": {
             "ru": "girlfriend",
             "vi": "girlfriend"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "neighbor",
-          "ipa": "/neighbor/",
+          "ipa": "/ˈneɪbɚ/",
           "hints": {
             "ru": "neighbor",
             "vi": "neighbor"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "guest",
-          "ipa": "/guest/",
+          "ipa": "/ˈɡɛst/",
           "hints": {
             "ru": "guest",
             "vi": "guest"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "man",
-          "ipa": "/man/",
+          "ipa": "/ˈmæn/",
           "hints": {
             "ru": "man",
             "vi": "man"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "woman",
-          "ipa": "/woman/",
+          "ipa": "/ˈwʊmən/",
           "hints": {
             "ru": "woman",
             "vi": "woman"
@@ -1190,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "boy",
-          "ipa": "/boy/",
+          "ipa": "/ˈbɔɪ/",
           "hints": {
             "ru": "boy",
             "vi": "boy"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "girl",
-          "ipa": "/girl/",
+          "ipa": "/ˈɡɝl/",
           "hints": {
             "ru": "girl",
             "vi": "girl"
@@ -1270,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "person",
-          "ipa": "/person/",
+          "ipa": "/ˈpɝsən/",
           "hints": {
             "ru": "person",
             "vi": "person"
@@ -1310,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "adult",
-          "ipa": "/adult/",
+          "ipa": "/əˈdʌlt/",
           "hints": {
             "ru": "adult",
             "vi": "adult"
@@ -1350,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "kid",
-          "ipa": "/kid/",
+          "ipa": "/ˈkɪd/",
           "hints": {
             "ru": "kid",
             "vi": "kid"
@@ -1390,7 +1390,7 @@
       "texts": {
         "en": {
           "text": "Mr",
-          "ipa": "/mr/",
+          "ipa": "/ˈmɪstɚ/",
           "hints": {
             "ru": "Mr",
             "vi": "Mr"
@@ -1430,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "Mrs",
-          "ipa": "/mrs/",
+          "ipa": "/ˈmɪsɪz/",
           "hints": {
             "ru": "Mrs",
             "vi": "Mrs"
@@ -1470,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "Ms",
-          "ipa": "/ms/",
+          "ipa": "/ˈmɪz/",
           "hints": {
             "ru": "Ms",
             "vi": "Ms"
@@ -1510,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "couple",
-          "ipa": "/couple/",
+          "ipa": "/ˈkʌpəl/",
           "hints": {
             "ru": "couple",
             "vi": "couple"
@@ -1550,7 +1550,7 @@
       "texts": {
         "en": {
           "text": "relative",
-          "ipa": "/relative/",
+          "ipa": "/ˈɹɛlətɪv/",
           "hints": {
             "ru": "relative",
             "vi": "relative"

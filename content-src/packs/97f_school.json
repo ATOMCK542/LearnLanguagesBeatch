@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "teacher",
-          "ipa": "/teacher/",
+          "ipa": "/ˈtitʃɚ/",
           "hints": {
             "ru": "teacher",
             "vi": "teacher"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "class",
-          "ipa": "/class/",
+          "ipa": "/ˈklæs/",
           "hints": {
             "ru": "class",
             "vi": "class"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "lesson",
-          "ipa": "/lesson/",
+          "ipa": "/ˈlɛsən/",
           "hints": {
             "ru": "lesson",
             "vi": "lesson"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "homework",
-          "ipa": "/homework/",
+          "ipa": "/ˈhoʊˌmwɝk/",
           "hints": {
             "ru": "homework",
             "vi": "homework"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "test",
-          "ipa": "/test/",
+          "ipa": "/ˈtɛst/",
           "hints": {
             "ru": "test",
             "vi": "test"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "exam",
-          "ipa": "/exam/",
+          "ipa": "/ɪˈɡzæm/",
           "hints": {
             "ru": "exam",
             "vi": "exam"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "grade",
-          "ipa": "/grade/",
+          "ipa": "/ˈɡɹeɪd/",
           "hints": {
             "ru": "grade",
             "vi": "grade"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "subject",
-          "ipa": "/subject/",
+          "ipa": "/səˈbdʒɛkt/",
           "hints": {
             "ru": "subject",
             "vi": "subject"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "language",
-          "ipa": "/language/",
+          "ipa": "/ˈlæŋɡwədʒ/",
           "hints": {
             "ru": "language",
             "vi": "language"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "word",
-          "ipa": "/word/",
+          "ipa": "/ˈwɝd/",
           "hints": {
             "ru": "word",
             "vi": "word"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "sentence",
-          "ipa": "/sentence/",
+          "ipa": "/ˈsɛntəns/",
           "hints": {
             "ru": "sentence",
             "vi": "sentence"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "question",
-          "ipa": "/question/",
+          "ipa": "/ˈkwɛstʃən/",
           "hints": {
             "ru": "question",
             "vi": "question"
@@ -536,6 +536,46 @@
       }
     },
     {
+      "id": "sch.answer",
+      "kind": "word",
+      "theme": "school",
+      "tags": [
+        "theme:school"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "answer",
+          "ipa": "/ˈɑːnsə/",
+          "hints": {
+            "ru": "answer",
+            "vi": "answer"
+          }
+        },
+        "ru": {
+          "text": "ответ",
+          "ipa": "/otvʲet/",
+          "hints": {
+            "en": "ответ",
+            "vi": "ответ"
+          }
+        },
+        "vi": {
+          "text": "câu trả lời",
+          "ipa": "/kəu˧ tɕaː˧˩˧ ləːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "câu trả lời",
+            "en": "câu trả lời"
+          }
+        }
+      }
+    },
+    {
       "id": "sch.meaning",
       "kind": "word",
       "theme": "school",
@@ -550,7 +590,7 @@
       "texts": {
         "en": {
           "text": "meaning",
-          "ipa": "/meaning/",
+          "ipa": "/ˈminɪŋ/",
           "hints": {
             "ru": "meaning",
             "vi": "meaning"
@@ -590,7 +630,7 @@
       "texts": {
         "en": {
           "text": "dictionary",
-          "ipa": "/dictionary/",
+          "ipa": "/ˈdɪkʃəˌnɛɹi/",
           "hints": {
             "ru": "dictionary",
             "vi": "dictionary"
@@ -630,7 +670,7 @@
       "texts": {
         "en": {
           "text": "example",
-          "ipa": "/example/",
+          "ipa": "/ɪˈɡzæmpəl/",
           "hints": {
             "ru": "example",
             "vi": "example"
@@ -670,7 +710,7 @@
       "texts": {
         "en": {
           "text": "practice",
-          "ipa": "/practice/",
+          "ipa": "/ˈpɹæktəs/",
           "hints": {
             "ru": "practice",
             "vi": "practice"
@@ -710,7 +750,7 @@
       "texts": {
         "en": {
           "text": "memory",
-          "ipa": "/memory/",
+          "ipa": "/ˈmɛmɚi/",
           "hints": {
             "ru": "memory",
             "vi": "memory"
@@ -750,7 +790,7 @@
       "texts": {
         "en": {
           "text": "mistake",
-          "ipa": "/mistake/",
+          "ipa": "/mɪˈsteɪk/",
           "hints": {
             "ru": "mistake",
             "vi": "mistake"
@@ -790,7 +830,7 @@
       "texts": {
         "en": {
           "text": "correct",
-          "ipa": "/correct/",
+          "ipa": "/kɚˈɛkt/",
           "hints": {
             "ru": "correct",
             "vi": "correct"
@@ -830,7 +870,7 @@
       "texts": {
         "en": {
           "text": "difficult",
-          "ipa": "/difficult/",
+          "ipa": "/ˈdɪfəkəlt/",
           "hints": {
             "ru": "difficult",
             "vi": "difficult"
@@ -870,7 +910,7 @@
       "texts": {
         "en": {
           "text": "smart",
-          "ipa": "/smart/",
+          "ipa": "/ˈsmɑɹt/",
           "hints": {
             "ru": "smart",
             "vi": "smart"
@@ -910,7 +950,7 @@
       "texts": {
         "en": {
           "text": "learn",
-          "ipa": "/learn/",
+          "ipa": "/ˈlɝn/",
           "hints": {
             "ru": "learn",
             "vi": "learn"
@@ -950,7 +990,7 @@
       "texts": {
         "en": {
           "text": "teach",
-          "ipa": "/teach/",
+          "ipa": "/ˈtitʃ/",
           "hints": {
             "ru": "teach",
             "vi": "teach"
@@ -990,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "explain",
-          "ipa": "/explain/",
+          "ipa": "/ɪˈkspleɪn/",
           "hints": {
             "ru": "explain",
             "vi": "explain"

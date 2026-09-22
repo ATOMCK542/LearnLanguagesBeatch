@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "house",
-          "ipa": "/house/",
+          "ipa": "/ˈhaʊs/",
           "hints": {
             "ru": "house",
             "vi": "house"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "apartment",
-          "ipa": "/apartment/",
+          "ipa": "/əˈpɑɹtmənt/",
           "hints": {
             "ru": "apartment",
             "vi": "apartment"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "room",
-          "ipa": "/room/",
+          "ipa": "/ˈɹum/",
           "hints": {
             "ru": "room",
             "vi": "room"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "bedroom",
-          "ipa": "/bedroom/",
+          "ipa": "/ˈbɛˌdɹum/",
           "hints": {
             "ru": "bedroom",
             "vi": "bedroom"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "bathroom",
-          "ipa": "/bathroom/",
+          "ipa": "/ˈbæˌθɹum/",
           "hints": {
             "ru": "bathroom",
             "vi": "bathroom"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "kitchen",
-          "ipa": "/kitchen/",
+          "ipa": "/ˈkɪtʃən/",
           "hints": {
             "ru": "kitchen",
             "vi": "kitchen"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "door",
-          "ipa": "/door/",
+          "ipa": "/ˈdɔɹ/",
           "hints": {
             "ru": "door",
             "vi": "door"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "window",
-          "ipa": "/window/",
+          "ipa": "/ˈwɪndoʊ/",
           "hints": {
             "ru": "window",
             "vi": "window"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "wall",
-          "ipa": "/wall/",
+          "ipa": "/ˈwɔl/",
           "hints": {
             "ru": "wall",
             "vi": "wall"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "floor",
-          "ipa": "/floor/",
+          "ipa": "/ˈflɔɹ/",
           "hints": {
             "ru": "floor",
             "vi": "floor"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "roof",
-          "ipa": "/roof/",
+          "ipa": "/ˈɹuf/",
           "hints": {
             "ru": "roof",
             "vi": "roof"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "ceiling",
-          "ipa": "/ceiling/",
+          "ipa": "/ˈsilɪŋ/",
           "hints": {
             "ru": "ceiling",
             "vi": "ceiling"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "chair",
-          "ipa": "/chair/",
+          "ipa": "/ˈtʃɛɹ/",
           "hints": {
             "ru": "chair",
             "vi": "chair"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "bed",
-          "ipa": "/bed/",
+          "ipa": "/ˈbɛd/",
           "hints": {
             "ru": "bed",
             "vi": "bed"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "sofa",
-          "ipa": "/sofa/",
+          "ipa": "/ˈsoʊfə/",
           "hints": {
             "ru": "sofa",
             "vi": "sofa"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "lamp",
-          "ipa": "/lamp/",
+          "ipa": "/ˈlæmp/",
           "hints": {
             "ru": "lamp",
             "vi": "lamp"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "light",
-          "ipa": "/light/",
+          "ipa": "/ˈlaɪt/",
           "hints": {
             "ru": "light",
             "vi": "light"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "key",
-          "ipa": "/key/",
+          "ipa": "/ˈki/",
           "hints": {
             "ru": "key",
             "vi": "key"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "lock",
-          "ipa": "/lock/",
+          "ipa": "/ˈlɑk/",
           "hints": {
             "ru": "lock",
             "vi": "lock"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "phone",
-          "ipa": "/phone/",
+          "ipa": "/ˈfoʊn/",
           "hints": {
             "ru": "phone",
             "vi": "phone"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "computer",
-          "ipa": "/computer/",
+          "ipa": "/kəˈmpjutɚ/",
           "hints": {
             "ru": "computer",
             "vi": "computer"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "television",
-          "ipa": "/television/",
+          "ipa": "/ˈtɛləˌvɪʒən/",
           "hints": {
             "ru": "television",
             "vi": "television"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "fridge",
-          "ipa": "/fridge/",
+          "ipa": "/ˈfɹɪdʒ/",
           "hints": {
             "ru": "fridge",
             "vi": "fridge"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "stove",
-          "ipa": "/stove/",
+          "ipa": "/ˈstoʊv/",
           "hints": {
             "ru": "stove",
             "vi": "stove"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "oven",
-          "ipa": "/oven/",
+          "ipa": "/ˈʌvən/",
           "hints": {
             "ru": "oven",
             "vi": "oven"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "microwave",
-          "ipa": "/microwave/",
+          "ipa": "/ˈmaɪkɹəˌweɪv/",
           "hints": {
             "ru": "microwave",
             "vi": "microwave"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "plate",
-          "ipa": "/plate/",
+          "ipa": "/ˈpleɪt/",
           "hints": {
             "ru": "plate",
             "vi": "plate"
@@ -1190,7 +1190,7 @@
       "texts": {
         "en": {
           "text": "bowl",
-          "ipa": "/bowl/",
+          "ipa": "/ˈboʊl/",
           "hints": {
             "ru": "bowl",
             "vi": "bowl"
@@ -1230,7 +1230,7 @@
       "texts": {
         "en": {
           "text": "fork",
-          "ipa": "/fork/",
+          "ipa": "/ˈfɔɹk/",
           "hints": {
             "ru": "fork",
             "vi": "fork"
@@ -1270,7 +1270,7 @@
       "texts": {
         "en": {
           "text": "knife",
-          "ipa": "/knife/",
+          "ipa": "/ˈnaɪf/",
           "hints": {
             "ru": "knife",
             "vi": "knife"
@@ -1310,7 +1310,7 @@
       "texts": {
         "en": {
           "text": "spoon",
-          "ipa": "/spoon/",
+          "ipa": "/ˈspun/",
           "hints": {
             "ru": "spoon",
             "vi": "spoon"
@@ -1350,7 +1350,7 @@
       "texts": {
         "en": {
           "text": "bottle",
-          "ipa": "/bottle/",
+          "ipa": "/ˈbɑtəl/",
           "hints": {
             "ru": "bottle",
             "vi": "bottle"
@@ -1430,7 +1430,7 @@
       "texts": {
         "en": {
           "text": "box",
-          "ipa": "/box/",
+          "ipa": "/ˈbɑks/",
           "hints": {
             "ru": "box",
             "vi": "box"
@@ -1470,7 +1470,7 @@
       "texts": {
         "en": {
           "text": "paper",
-          "ipa": "/paper/",
+          "ipa": "/ˈpeɪpɚ/",
           "hints": {
             "ru": "paper",
             "vi": "paper"
@@ -1510,7 +1510,7 @@
       "texts": {
         "en": {
           "text": "pen",
-          "ipa": "/pen/",
+          "ipa": "/ˈpɛn/",
           "hints": {
             "ru": "pen",
             "vi": "pen"
@@ -1550,7 +1550,7 @@
       "texts": {
         "en": {
           "text": "pencil",
-          "ipa": "/pencil/",
+          "ipa": "/ˈpɛnsəl/",
           "hints": {
             "ru": "pencil",
             "vi": "pencil"
@@ -1590,7 +1590,7 @@
       "texts": {
         "en": {
           "text": "notebook",
-          "ipa": "/notebook/",
+          "ipa": "/ˈnoʊˌtbʊk/",
           "hints": {
             "ru": "notebook",
             "vi": "notebook"
@@ -1630,7 +1630,7 @@
       "texts": {
         "en": {
           "text": "clock",
-          "ipa": "/clock/",
+          "ipa": "/ˈklɑk/",
           "hints": {
             "ru": "clock",
             "vi": "clock"
@@ -1670,7 +1670,7 @@
       "texts": {
         "en": {
           "text": "mirror",
-          "ipa": "/mirror/",
+          "ipa": "/ˈmɪɹɚ/",
           "hints": {
             "ru": "mirror",
             "vi": "mirror"
@@ -1710,7 +1710,7 @@
       "texts": {
         "en": {
           "text": "pillow",
-          "ipa": "/pillow/",
+          "ipa": "/ˈpɪloʊ/",
           "hints": {
             "ru": "pillow",
             "vi": "pillow"
@@ -1750,7 +1750,7 @@
       "texts": {
         "en": {
           "text": "blanket",
-          "ipa": "/blanket/",
+          "ipa": "/ˈblæŋkət/",
           "hints": {
             "ru": "blanket",
             "vi": "blanket"
@@ -1790,7 +1790,7 @@
       "texts": {
         "en": {
           "text": "towel",
-          "ipa": "/towel/",
+          "ipa": "/ˈtaʊəl/",
           "hints": {
             "ru": "towel",
             "vi": "towel"
@@ -1830,7 +1830,7 @@
       "texts": {
         "en": {
           "text": "soap",
-          "ipa": "/soap/",
+          "ipa": "/ˈsoʊp/",
           "hints": {
             "ru": "soap",
             "vi": "soap"
@@ -1870,7 +1870,7 @@
       "texts": {
         "en": {
           "text": "shower",
-          "ipa": "/shower/",
+          "ipa": "/ˈʃaʊɚ/",
           "hints": {
             "ru": "shower",
             "vi": "shower"
@@ -1910,7 +1910,7 @@
       "texts": {
         "en": {
           "text": "sink",
-          "ipa": "/sink/",
+          "ipa": "/ˈsɪŋk/",
           "hints": {
             "ru": "sink",
             "vi": "sink"
@@ -1950,7 +1950,7 @@
       "texts": {
         "en": {
           "text": "garden",
-          "ipa": "/garden/",
+          "ipa": "/ˈɡɑɹdən/",
           "hints": {
             "ru": "garden",
             "vi": "garden"
@@ -1990,7 +1990,7 @@
       "texts": {
         "en": {
           "text": "yard",
-          "ipa": "/yard/",
+          "ipa": "/ˈjɑɹd/",
           "hints": {
             "ru": "yard",
             "vi": "yard"
@@ -2030,7 +2030,7 @@
       "texts": {
         "en": {
           "text": "balcony",
-          "ipa": "/balcony/",
+          "ipa": "/ˈbælkəni/",
           "hints": {
             "ru": "balcony",
             "vi": "balcony"
@@ -2070,7 +2070,7 @@
       "texts": {
         "en": {
           "text": "stairs",
-          "ipa": "/stairs/",
+          "ipa": "/ˈstɛɹz/",
           "hints": {
             "ru": "stairs",
             "vi": "stairs"
@@ -2110,7 +2110,7 @@
       "texts": {
         "en": {
           "text": "elevator",
-          "ipa": "/elevator/",
+          "ipa": "/ˈɛləˌveɪtɚ/",
           "hints": {
             "ru": "elevator",
             "vi": "elevator"
@@ -2150,7 +2150,7 @@
       "texts": {
         "en": {
           "text": "shelf",
-          "ipa": "/shelf/",
+          "ipa": "/ˈʃɛlf/",
           "hints": {
             "ru": "shelf",
             "vi": "shelf"
@@ -2190,7 +2190,7 @@
       "texts": {
         "en": {
           "text": "drawer",
-          "ipa": "/drawer/",
+          "ipa": "/ˈdɹɔɹ/",
           "hints": {
             "ru": "drawer",
             "vi": "drawer"
@@ -2230,7 +2230,7 @@
       "texts": {
         "en": {
           "text": "closet",
-          "ipa": "/closet/",
+          "ipa": "/ˈklɑzət/",
           "hints": {
             "ru": "closet",
             "vi": "closet"
@@ -2270,7 +2270,7 @@
       "texts": {
         "en": {
           "text": "curtain",
-          "ipa": "/curtain/",
+          "ipa": "/ˈkɝtən/",
           "hints": {
             "ru": "curtain",
             "vi": "curtain"
@@ -2310,7 +2310,7 @@
       "texts": {
         "en": {
           "text": "carpet",
-          "ipa": "/carpet/",
+          "ipa": "/ˈkɑɹpət/",
           "hints": {
             "ru": "carpet",
             "vi": "carpet"
@@ -2350,7 +2350,7 @@
       "texts": {
         "en": {
           "text": "fan",
-          "ipa": "/fan/",
+          "ipa": "/ˈfæn/",
           "hints": {
             "ru": "fan",
             "vi": "fan"
@@ -2390,7 +2390,7 @@
       "texts": {
         "en": {
           "text": "heater",
-          "ipa": "/heater/",
+          "ipa": "/ˈhitɚ/",
           "hints": {
             "ru": "heater",
             "vi": "heater"
@@ -2430,7 +2430,7 @@
       "texts": {
         "en": {
           "text": "wifi",
-          "ipa": "/wifi/",
+          "ipa": "/ˈwaɪˌfaɪ/",
           "hints": {
             "ru": "wifi",
             "vi": "wifi"
@@ -2470,7 +2470,7 @@
       "texts": {
         "en": {
           "text": "electricity",
-          "ipa": "/electricity/",
+          "ipa": "/ɪˌlɛˈktɹɪsəti/",
           "hints": {
             "ru": "electricity",
             "vi": "electricity"
@@ -2510,7 +2510,7 @@
       "texts": {
         "en": {
           "text": "garbage",
-          "ipa": "/garbage/",
+          "ipa": "/ˈɡɑɹbɪdʒ/",
           "hints": {
             "ru": "garbage",
             "vi": "garbage"
@@ -2550,7 +2550,7 @@
       "texts": {
         "en": {
           "text": "address",
-          "ipa": "/address/",
+          "ipa": "/ˈæˌdɹɛs/",
           "hints": {
             "ru": "address",
             "vi": "address"
@@ -2590,7 +2590,7 @@
       "texts": {
         "en": {
           "text": "upstairs",
-          "ipa": "/upstairs/",
+          "ipa": "/əˈpstɛɹz/",
           "hints": {
             "ru": "upstairs",
             "vi": "upstairs"
@@ -2630,7 +2630,7 @@
       "texts": {
         "en": {
           "text": "downstairs",
-          "ipa": "/downstairs/",
+          "ipa": "/ˈdaʊˈnstɛɹz/",
           "hints": {
             "ru": "downstairs",
             "vi": "downstairs"
@@ -2670,7 +2670,7 @@
       "texts": {
         "en": {
           "text": "furniture",
-          "ipa": "/furniture/",
+          "ipa": "/ˈfɝnɪtʃɚ/",
           "hints": {
             "ru": "furniture",
             "vi": "furniture"
@@ -2710,7 +2710,7 @@
       "texts": {
         "en": {
           "text": "desk",
-          "ipa": "/desk/",
+          "ipa": "/ˈdɛsk/",
           "hints": {
             "ru": "desk",
             "vi": "desk"
@@ -2750,7 +2750,7 @@
       "texts": {
         "en": {
           "text": "armchair",
-          "ipa": "/armchair/",
+          "ipa": "/ˈɑˌɹmtʃɛɹ/",
           "hints": {
             "ru": "armchair",
             "vi": "armchair"

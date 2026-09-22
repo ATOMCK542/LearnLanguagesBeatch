@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "tree",
-          "ipa": "/tree/",
+          "ipa": "/ˈtɹi/",
           "hints": {
             "ru": "tree",
             "vi": "tree"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "flower",
-          "ipa": "/flower/",
+          "ipa": "/ˈflaʊɚ/",
           "hints": {
             "ru": "flower",
             "vi": "flower"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "grass",
-          "ipa": "/grass/",
+          "ipa": "/ˈɡɹæs/",
           "hints": {
             "ru": "grass",
             "vi": "grass"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "leaf",
-          "ipa": "/leaf/",
+          "ipa": "/ˈlif/",
           "hints": {
             "ru": "leaf",
             "vi": "leaf"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "plant",
-          "ipa": "/plant/",
+          "ipa": "/ˈplænt/",
           "hints": {
             "ru": "plant",
             "vi": "plant"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "earth",
-          "ipa": "/earth/",
+          "ipa": "/ˈɝθ/",
           "hints": {
             "ru": "earth",
             "vi": "earth"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "ground",
-          "ipa": "/ground/",
+          "ipa": "/ˈɡɹaʊnd/",
           "hints": {
             "ru": "ground",
             "vi": "ground"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "stone",
-          "ipa": "/stone/",
+          "ipa": "/ˈstoʊn/",
           "hints": {
             "ru": "stone",
             "vi": "stone"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "sand",
-          "ipa": "/sand/",
+          "ipa": "/ˈsænd/",
           "hints": {
             "ru": "sand",
             "vi": "sand"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "fire",
-          "ipa": "/fire/",
+          "ipa": "/ˈfaɪɚ/",
           "hints": {
             "ru": "fire",
             "vi": "fire"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "air",
-          "ipa": "/air/",
+          "ipa": "/ˈɛɹ/",
           "hints": {
             "ru": "air",
             "vi": "air"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "nature",
-          "ipa": "/nature/",
+          "ipa": "/ˈneɪtʃɚ/",
           "hints": {
             "ru": "nature",
             "vi": "nature"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "world",
-          "ipa": "/world/",
+          "ipa": "/ˈwɝld/",
           "hints": {
             "ru": "world",
             "vi": "world"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "field",
-          "ipa": "/field/",
+          "ipa": "/ˈfild/",
           "hints": {
             "ru": "field",
             "vi": "field"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "hill",
-          "ipa": "/hill/",
+          "ipa": "/ˈhɪl/",
           "hints": {
             "ru": "hill",
             "vi": "hill"
@@ -630,7 +630,7 @@
       "texts": {
         "en": {
           "text": "valley",
-          "ipa": "/valley/",
+          "ipa": "/ˈvæli/",
           "hints": {
             "ru": "valley",
             "vi": "valley"
@@ -670,7 +670,7 @@
       "texts": {
         "en": {
           "text": "desert",
-          "ipa": "/desert/",
+          "ipa": "/ˈdɛzɚt/",
           "hints": {
             "ru": "desert",
             "vi": "desert"
@@ -710,7 +710,7 @@
       "texts": {
         "en": {
           "text": "ocean",
-          "ipa": "/ocean/",
+          "ipa": "/ˈoʊʃən/",
           "hints": {
             "ru": "ocean",
             "vi": "ocean"
@@ -750,7 +750,7 @@
       "texts": {
         "en": {
           "text": "wave",
-          "ipa": "/wave/",
+          "ipa": "/ˈweɪv/",
           "hints": {
             "ru": "wave",
             "vi": "wave"

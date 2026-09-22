@@ -30,7 +30,7 @@
       "texts": {
         "en": {
           "text": "weather",
-          "ipa": "/weather/",
+          "ipa": "/ˈwɛðɚ/",
           "hints": {
             "ru": "weather",
             "vi": "weather"
@@ -70,7 +70,7 @@
       "texts": {
         "en": {
           "text": "sun",
-          "ipa": "/sun/",
+          "ipa": "/ˈsʌn/",
           "hints": {
             "ru": "sun",
             "vi": "sun"
@@ -110,7 +110,7 @@
       "texts": {
         "en": {
           "text": "sunny",
-          "ipa": "/sunny/",
+          "ipa": "/ˈsʌni/",
           "hints": {
             "ru": "sunny",
             "vi": "sunny"
@@ -150,7 +150,7 @@
       "texts": {
         "en": {
           "text": "rain",
-          "ipa": "/rain/",
+          "ipa": "/ˈɹeɪn/",
           "hints": {
             "ru": "rain",
             "vi": "rain"
@@ -190,7 +190,7 @@
       "texts": {
         "en": {
           "text": "rainy",
-          "ipa": "/rainy/",
+          "ipa": "/ˈɹeɪni/",
           "hints": {
             "ru": "rainy",
             "vi": "rainy"
@@ -230,7 +230,7 @@
       "texts": {
         "en": {
           "text": "cloud",
-          "ipa": "/cloud/",
+          "ipa": "/ˈklaʊd/",
           "hints": {
             "ru": "cloud",
             "vi": "cloud"
@@ -270,7 +270,7 @@
       "texts": {
         "en": {
           "text": "cloudy",
-          "ipa": "/cloudy/",
+          "ipa": "/ˈklaʊdi/",
           "hints": {
             "ru": "cloudy",
             "vi": "cloudy"
@@ -310,7 +310,7 @@
       "texts": {
         "en": {
           "text": "wind",
-          "ipa": "/wind/",
+          "ipa": "/ˈwaɪnd/",
           "hints": {
             "ru": "wind",
             "vi": "wind"
@@ -350,7 +350,7 @@
       "texts": {
         "en": {
           "text": "windy",
-          "ipa": "/windy/",
+          "ipa": "/ˈwɪndi/",
           "hints": {
             "ru": "windy",
             "vi": "windy"
@@ -390,7 +390,7 @@
       "texts": {
         "en": {
           "text": "snow",
-          "ipa": "/snow/",
+          "ipa": "/ˈsnoʊ/",
           "hints": {
             "ru": "snow",
             "vi": "snow"
@@ -430,7 +430,7 @@
       "texts": {
         "en": {
           "text": "snowy",
-          "ipa": "/snowy/",
+          "ipa": "/ˈsnoʊi/",
           "hints": {
             "ru": "snowy",
             "vi": "snowy"
@@ -470,7 +470,7 @@
       "texts": {
         "en": {
           "text": "storm",
-          "ipa": "/storm/",
+          "ipa": "/ˈstɔɹm/",
           "hints": {
             "ru": "storm",
             "vi": "storm"
@@ -510,7 +510,7 @@
       "texts": {
         "en": {
           "text": "thunder",
-          "ipa": "/thunder/",
+          "ipa": "/ˈθʌndɚ/",
           "hints": {
             "ru": "thunder",
             "vi": "thunder"
@@ -550,7 +550,7 @@
       "texts": {
         "en": {
           "text": "lightning",
-          "ipa": "/lightning/",
+          "ipa": "/ˈlaɪtnɪŋ/",
           "hints": {
             "ru": "lightning",
             "vi": "lightning"
@@ -590,7 +590,7 @@
       "texts": {
         "en": {
           "text": "fog",
-          "ipa": "/fog/",
+          "ipa": "/ˈfɑɡ/",
           "hints": {
             "ru": "fog",
             "vi": "fog"
@@ -790,7 +790,7 @@
       "texts": {
         "en": {
           "text": "temperature",
-          "ipa": "/temperature/",
+          "ipa": "/ˈtɛmpɹətʃɚ/",
           "hints": {
             "ru": "temperature",
             "vi": "temperature"
@@ -830,7 +830,7 @@
       "texts": {
         "en": {
           "text": "degree",
-          "ipa": "/degree/",
+          "ipa": "/dɪˈɡɹi/",
           "hints": {
             "ru": "degree",
             "vi": "degree"
@@ -870,7 +870,7 @@
       "texts": {
         "en": {
           "text": "season",
-          "ipa": "/season/",
+          "ipa": "/ˈsizən/",
           "hints": {
             "ru": "season",
             "vi": "season"
@@ -910,7 +910,7 @@
       "texts": {
         "en": {
           "text": "spring",
-          "ipa": "/spring/",
+          "ipa": "/ˈspɹɪŋ/",
           "hints": {
             "ru": "spring",
             "vi": "spring"
@@ -950,7 +950,7 @@
       "texts": {
         "en": {
           "text": "summer",
-          "ipa": "/summer/",
+          "ipa": "/ˈsʌmɚ/",
           "hints": {
             "ru": "summer",
             "vi": "summer"
@@ -990,7 +990,7 @@
       "texts": {
         "en": {
           "text": "autumn",
-          "ipa": "/autumn/",
+          "ipa": "/ˈɔtəm/",
           "hints": {
             "ru": "autumn",
             "vi": "autumn"
@@ -1030,7 +1030,7 @@
       "texts": {
         "en": {
           "text": "winter",
-          "ipa": "/winter/",
+          "ipa": "/ˈwɪntɚ/",
           "hints": {
             "ru": "winter",
             "vi": "winter"
@@ -1070,7 +1070,7 @@
       "texts": {
         "en": {
           "text": "sky",
-          "ipa": "/sky/",
+          "ipa": "/ˈskaɪ/",
           "hints": {
             "ru": "sky",
             "vi": "sky"
@@ -1110,7 +1110,7 @@
       "texts": {
         "en": {
           "text": "star",
-          "ipa": "/star/",
+          "ipa": "/ˈstɑɹ/",
           "hints": {
             "ru": "star",
             "vi": "star"
@@ -1150,7 +1150,7 @@
       "texts": {
         "en": {
           "text": "moon",
-          "ipa": "/moon/",
+          "ipa": "/ˈmun/",
           "hints": {
             "ru": "moon",
             "vi": "moon"

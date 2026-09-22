@@ -16,6 +16,46 @@
   },
   "concepts": [
     {
+      "id": "feel.love",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "love",
+          "ipa": "/lʌv/",
+          "hints": {
+            "ru": "love",
+            "vi": "love"
+          }
+        },
+        "ru": {
+          "text": "любовь",
+          "ipa": "/lʲubovʲ/",
+          "hints": {
+            "en": "любовь",
+            "vi": "любовь"
+          }
+        },
+        "vi": {
+          "text": "tình yêu",
+          "ipa": "/tiɲ˧˩ iəw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tình yêu",
+            "en": "tình yêu"
+          }
+        }
+      }
+    },
+    {
       "id": "feel.hate",
       "kind": "word",
       "theme": "feelings",
@@ -30,7 +70,7 @@
       "texts": {
         "en": {
           "text": "hate",
-          "ipa": "/hate/",
+          "ipa": "/ˈheɪt/",
           "hints": {
             "ru": "hate",
             "vi": "hate"
@@ -70,7 +110,7 @@
       "texts": {
         "en": {
           "text": "fear",
-          "ipa": "/fear/",
+          "ipa": "/ˈfɪɹ/",
           "hints": {
             "ru": "fear",
             "vi": "fear"
@@ -110,7 +150,7 @@
       "texts": {
         "en": {
           "text": "joy",
-          "ipa": "/joy/",
+          "ipa": "/ˈdʒɔɪ/",
           "hints": {
             "ru": "joy",
             "vi": "joy"
@@ -150,7 +190,7 @@
       "texts": {
         "en": {
           "text": "sadness",
-          "ipa": "/sadness/",
+          "ipa": "/ˈsædnəs/",
           "hints": {
             "ru": "sadness",
             "vi": "sadness"
@@ -190,7 +230,7 @@
       "texts": {
         "en": {
           "text": "anger",
-          "ipa": "/anger/",
+          "ipa": "/ˈæŋɡɚ/",
           "hints": {
             "ru": "anger",
             "vi": "anger"
@@ -216,6 +256,46 @@
       }
     },
     {
+      "id": "feel.hope",
+      "kind": "word",
+      "theme": "feelings",
+      "tags": [
+        "theme:feelings"
+      ],
+      "grammar": {
+        "en": "Everyday phrase.",
+        "ru": "Разговорная фраза.",
+        "vi": "Câu giao tiếp."
+      },
+      "texts": {
+        "en": {
+          "text": "hope",
+          "ipa": "/ˈhoʊp/",
+          "hints": {
+            "ru": "hope",
+            "vi": "hope"
+          }
+        },
+        "ru": {
+          "text": "надежда",
+          "ipa": "/nadʲeʐda/",
+          "hints": {
+            "en": "надежда",
+            "vi": "надежда"
+          }
+        },
+        "vi": {
+          "text": "hy vọng",
+          "ipa": "/hi˧ vɔŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hy vọng",
+            "en": "hy vọng"
+          }
+        }
+      }
+    },
+    {
       "id": "feel.peace",
       "kind": "word",
       "theme": "feelings",
@@ -230,7 +310,7 @@
       "texts": {
         "en": {
           "text": "peace",
-          "ipa": "/peace/",
+          "ipa": "/ˈpis/",
           "hints": {
             "ru": "peace",
             "vi": "peace"
@@ -270,7 +350,7 @@
       "texts": {
         "en": {
           "text": "stress",
-          "ipa": "/stress/",
+          "ipa": "/ˈstɹɛs/",
           "hints": {
             "ru": "stress",
             "vi": "stress"
@@ -310,7 +390,7 @@
       "texts": {
         "en": {
           "text": "energy",
-          "ipa": "/energy/",
+          "ipa": "/ˈɛnɚdʒi/",
           "hints": {
             "ru": "energy",
             "vi": "energy"
@@ -350,7 +430,7 @@
       "texts": {
         "en": {
           "text": "feeling",
-          "ipa": "/feeling/",
+          "ipa": "/ˈfilɪŋ/",
           "hints": {
             "ru": "feeling",
             "vi": "feeling"
@@ -390,7 +470,7 @@
       "texts": {
         "en": {
           "text": "emotion",
-          "ipa": "/emotion/",
+          "ipa": "/ɪˈmoʊʃən/",
           "hints": {
             "ru": "emotion",
             "vi": "emotion"
@@ -430,7 +510,7 @@
       "texts": {
         "en": {
           "text": "mood",
-          "ipa": "/mood/",
+          "ipa": "/ˈmud/",
           "hints": {
             "ru": "mood",
             "vi": "mood"
@@ -470,7 +550,7 @@
       "texts": {
         "en": {
           "text": "dream",
-          "ipa": "/dream/",
+          "ipa": "/ˈdɹim/",
           "hints": {
             "ru": "dream",
             "vi": "dream"
@@ -510,7 +590,7 @@
       "texts": {
         "en": {
           "text": "thought",
-          "ipa": "/thought/",
+          "ipa": "/ˈθɔt/",
           "hints": {
             "ru": "thought",
             "vi": "thought"
@@ -550,7 +630,7 @@
       "texts": {
         "en": {
           "text": "opinion",
-          "ipa": "/opinion/",
+          "ipa": "/əˈpɪnjən/",
           "hints": {
             "ru": "opinion",
             "vi": "opinion"
@@ -590,7 +670,7 @@
       "texts": {
         "en": {
           "text": "reason",
-          "ipa": "/reason/",
+          "ipa": "/ˈɹizən/",
           "hints": {
             "ru": "reason",
             "vi": "reason"
@@ -630,7 +710,7 @@
       "texts": {
         "en": {
           "text": "result",
-          "ipa": "/result/",
+          "ipa": "/ɹɪˈzʌlt/",
           "hints": {
             "ru": "result",
             "vi": "result"

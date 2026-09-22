@@ -136,846 +136,6 @@
       }
     },
     {
-      "id": "fn.in",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "in",
-          "ipa": "/ɪn/",
-          "hints": {
-            "ru": "in",
-            "vi": "in"
-          }
-        },
-        "ru": {
-          "text": "в",
-          "ipa": "/v/",
-          "hints": {
-            "en": "в",
-            "vi": "в"
-          }
-        },
-        "vi": {
-          "text": "trong / ở",
-          "ipa": "/tɕɔŋ˧ əː˧˩˧/",
-          "tones": [],
-          "hints": {
-            "ru": "trong / ở",
-            "en": "trong / ở"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.on",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "on",
-          "ipa": "/ɒn/",
-          "hints": {
-            "ru": "on",
-            "vi": "on"
-          }
-        },
-        "ru": {
-          "text": "на",
-          "ipa": "/na/",
-          "hints": {
-            "en": "на",
-            "vi": "на"
-          }
-        },
-        "vi": {
-          "text": "trên",
-          "ipa": "/tɕen˧/",
-          "tones": [],
-          "hints": {
-            "ru": "trên",
-            "en": "trên"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.at",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "at",
-          "ipa": "/æt/",
-          "hints": {
-            "ru": "at",
-            "vi": "at"
-          }
-        },
-        "ru": {
-          "text": "у / в (точке)",
-          "ipa": "/u v totɕkʲe/",
-          "hints": {
-            "en": "у / в (точке)",
-            "vi": "у / в (точке)"
-          }
-        },
-        "vi": {
-          "text": "ở / lúc",
-          "ipa": "/əː˧˩˧ luc˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "ở / lúc",
-            "en": "ở / lúc"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.to",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "to",
-          "ipa": "/tə/",
-          "hints": {
-            "ru": "to",
-            "vi": "to"
-          }
-        },
-        "ru": {
-          "text": "к / в",
-          "ipa": "/k v/",
-          "hints": {
-            "en": "к / в",
-            "vi": "к / в"
-          }
-        },
-        "vi": {
-          "text": "đến / tới",
-          "ipa": "/ɗen˧˥ təːj˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "đến / tới",
-            "en": "đến / tới"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.from",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "from",
-          "ipa": "/frɒm/",
-          "hints": {
-            "ru": "from",
-            "vi": "from"
-          }
-        },
-        "ru": {
-          "text": "из / от",
-          "ipa": "/iz ot/",
-          "hints": {
-            "en": "из / от",
-            "vi": "из / от"
-          }
-        },
-        "vi": {
-          "text": "từ",
-          "ipa": "/tɨ˧˩/",
-          "tones": [],
-          "hints": {
-            "ru": "từ",
-            "en": "từ"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.with",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "with",
-          "ipa": "/wɪð/",
-          "hints": {
-            "ru": "with",
-            "vi": "with"
-          }
-        },
-        "ru": {
-          "text": "с",
-          "ipa": "/s/",
-          "hints": {
-            "en": "с",
-            "vi": "с"
-          }
-        },
-        "vi": {
-          "text": "với",
-          "ipa": "/vəːj˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "với",
-            "en": "với"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.for",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "for",
-          "ipa": "/fɔː/",
-          "hints": {
-            "ru": "for",
-            "vi": "for"
-          }
-        },
-        "ru": {
-          "text": "для / за",
-          "ipa": "/dlʲa za/",
-          "hints": {
-            "en": "для / за",
-            "vi": "для / за"
-          }
-        },
-        "vi": {
-          "text": "cho / vì",
-          "ipa": "/tɕɔ˧ vi˧˩/",
-          "tones": [],
-          "hints": {
-            "ru": "cho / vì",
-            "en": "cho / vì"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.of",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "of",
-          "ipa": "/əv/",
-          "hints": {
-            "ru": "of",
-            "vi": "of"
-          }
-        },
-        "ru": {
-          "text": "род. падеж / of",
-          "ipa": "/rod padʲeʐ of/",
-          "hints": {
-            "en": "род. падеж / of",
-            "vi": "род. падеж / of"
-          }
-        },
-        "vi": {
-          "text": "của",
-          "ipa": "/kuə˧˩˧/",
-          "tones": [],
-          "hints": {
-            "ru": "của",
-            "en": "của"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.about",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "about",
-          "ipa": "/əˈbaʊt/",
-          "hints": {
-            "ru": "about",
-            "vi": "about"
-          }
-        },
-        "ru": {
-          "text": "о",
-          "ipa": "/o/",
-          "hints": {
-            "en": "о",
-            "vi": "о"
-          }
-        },
-        "vi": {
-          "text": "về",
-          "ipa": "/ve˧˩/",
-          "tones": [],
-          "hints": {
-            "ru": "về",
-            "en": "về"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.by",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "by",
-          "ipa": "/baɪ/",
-          "hints": {
-            "ru": "by",
-            "vi": "by"
-          }
-        },
-        "ru": {
-          "text": "у / к / кем",
-          "ipa": "/u k kʲem/",
-          "hints": {
-            "en": "у / к / кем",
-            "vi": "у / к / кем"
-          }
-        },
-        "vi": {
-          "text": "bởi / cạnh",
-          "ipa": "/ɓəːj˧˩˧ kajŋ˧ˀ/",
-          "tones": [],
-          "hints": {
-            "ru": "bởi / cạnh",
-            "en": "bởi / cạnh"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.into",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "into",
-          "ipa": "/ˈɪntuː/",
-          "hints": {
-            "ru": "into",
-            "vi": "into"
-          }
-        },
-        "ru": {
-          "text": "внутрь",
-          "ipa": "/vnutrʲ/",
-          "hints": {
-            "en": "внутрь",
-            "vi": "внутрь"
-          }
-        },
-        "vi": {
-          "text": "vào trong",
-          "ipa": "/vaːw˧˩ tɕɔŋ˧/",
-          "tones": [],
-          "hints": {
-            "ru": "vào trong",
-            "en": "vào trong"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.out_of",
-      "kind": "phrase",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "out of",
-          "ipa": "/aʊt əv/",
-          "hints": {
-            "ru": "out of",
-            "vi": "out of"
-          }
-        },
-        "ru": {
-          "text": "из",
-          "ipa": "/iz/",
-          "hints": {
-            "en": "из",
-            "vi": "из"
-          }
-        },
-        "vi": {
-          "text": "ra khỏi",
-          "ipa": "/zaː˧ xɔj˧˩˧/",
-          "tones": [],
-          "hints": {
-            "ru": "ra khỏi",
-            "en": "ra khỏi"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.up",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "up",
-          "ipa": "/ʌp/",
-          "hints": {
-            "ru": "up",
-            "vi": "up"
-          }
-        },
-        "ru": {
-          "text": "вверх",
-          "ipa": "/vvʲerx/",
-          "hints": {
-            "en": "вверх",
-            "vi": "вверх"
-          }
-        },
-        "vi": {
-          "text": "lên",
-          "ipa": "/len˧/",
-          "tones": [],
-          "hints": {
-            "ru": "lên",
-            "en": "lên"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.down",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "down",
-          "ipa": "/daʊn/",
-          "hints": {
-            "ru": "down",
-            "vi": "down"
-          }
-        },
-        "ru": {
-          "text": "вниз",
-          "ipa": "/vnʲiz/",
-          "hints": {
-            "en": "вниз",
-            "vi": "вниз"
-          }
-        },
-        "vi": {
-          "text": "xuống",
-          "ipa": "/suəŋ˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "xuống",
-            "en": "xuống"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.over",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "over",
-          "ipa": "/ˈəʊvə/",
-          "hints": {
-            "ru": "over",
-            "vi": "over"
-          }
-        },
-        "ru": {
-          "text": "над / через",
-          "ipa": "/nad tɕerʲez/",
-          "hints": {
-            "en": "над / через",
-            "vi": "над / через"
-          }
-        },
-        "vi": {
-          "text": "phía trên / qua",
-          "ipa": "/fiə˧˥ tɕen˧ kwaː˧/",
-          "tones": [],
-          "hints": {
-            "ru": "phía trên / qua",
-            "en": "phía trên / qua"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.under",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "under",
-          "ipa": "/ˈʌndə/",
-          "hints": {
-            "ru": "under",
-            "vi": "under"
-          }
-        },
-        "ru": {
-          "text": "под",
-          "ipa": "/pod/",
-          "hints": {
-            "en": "под",
-            "vi": "под"
-          }
-        },
-        "vi": {
-          "text": "dưới",
-          "ipa": "/zɨəj˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "dưới",
-            "en": "dưới"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.between",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "between",
-          "ipa": "/bɪˈtwiːn/",
-          "hints": {
-            "ru": "between",
-            "vi": "between"
-          }
-        },
-        "ru": {
-          "text": "между",
-          "ipa": "/mʲeʐdu/",
-          "hints": {
-            "en": "между",
-            "vi": "между"
-          }
-        },
-        "vi": {
-          "text": "giữa",
-          "ipa": "/zɨə˧˥ˀ/",
-          "tones": [],
-          "hints": {
-            "ru": "giữa",
-            "en": "giữa"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.without",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "without",
-          "ipa": "/wɪðˈaʊt/",
-          "hints": {
-            "ru": "without",
-            "vi": "without"
-          }
-        },
-        "ru": {
-          "text": "без",
-          "ipa": "/bʲez/",
-          "hints": {
-            "en": "без",
-            "vi": "без"
-          }
-        },
-        "vi": {
-          "text": "không có",
-          "ipa": "/xowŋ˧ kɔ˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "không có",
-            "en": "không có"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.before",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "before",
-          "ipa": "/bɪˈfɔː/",
-          "hints": {
-            "ru": "before",
-            "vi": "before"
-          }
-        },
-        "ru": {
-          "text": "до / перед",
-          "ipa": "/do pʲerʲed/",
-          "hints": {
-            "en": "до / перед",
-            "vi": "до / перед"
-          }
-        },
-        "vi": {
-          "text": "trước",
-          "ipa": "/tɕɨək˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "trước",
-            "en": "trước"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.after",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "after",
-          "ipa": "/ˈɑːftə/",
-          "hints": {
-            "ru": "after",
-            "vi": "after"
-          }
-        },
-        "ru": {
-          "text": "после",
-          "ipa": "/poslʲe/",
-          "hints": {
-            "en": "после",
-            "vi": "после"
-          }
-        },
-        "vi": {
-          "text": "sau",
-          "ipa": "/saw˧/",
-          "tones": [],
-          "hints": {
-            "ru": "sau",
-            "en": "sau"
-          }
-        }
-      }
-    },
-    {
-      "id": "fn.during",
-      "kind": "word",
-      "theme": "function",
-      "tags": [
-        "function"
-      ],
-      "grammar": {
-        "en": "Function word.",
-        "ru": "Служебное слово.",
-        "vi": "Từ chức năng."
-      },
-      "texts": {
-        "en": {
-          "text": "during",
-          "ipa": "/ˈdjʊərɪŋ/",
-          "hints": {
-            "ru": "during",
-            "vi": "during"
-          }
-        },
-        "ru": {
-          "text": "во время",
-          "ipa": "/vo vrʲemʲa/",
-          "hints": {
-            "en": "во время",
-            "vi": "во время"
-          }
-        },
-        "vi": {
-          "text": "trong lúc",
-          "ipa": "/tɕɔŋ˧ luc˧˥/",
-          "tones": [],
-          "hints": {
-            "ru": "trong lúc",
-            "en": "trong lúc"
-          }
-        }
-      }
-    },
-    {
       "id": "fn.and",
       "kind": "word",
       "theme": "function",
@@ -1931,6 +1091,7591 @@
           "hints": {
             "ru": "кхонг мао ты",
             "en": "khong mao tu"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.nor",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nor",
+          "ipa": "/ˈnɔɹ/",
+          "hints": {
+            "ru": "nor",
+            "vi": "nor"
+          }
+        },
+        "ru": {
+          "text": "ни",
+          "ipa": "/nʲi/",
+          "hints": {
+            "en": "ни",
+            "vi": "ни"
+          }
+        },
+        "vi": {
+          "text": "cũng không",
+          "ipa": "/kuŋ˧˥ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cũng không",
+            "en": "cũng không"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.yet",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "yet",
+          "ipa": "/jet/",
+          "hints": {
+            "ru": "yet",
+            "vi": "yet"
+          }
+        },
+        "ru": {
+          "text": "однако",
+          "ipa": "/odnako/",
+          "hints": {
+            "en": "однако",
+            "vi": "однако"
+          }
+        },
+        "vi": {
+          "text": "tuy vậy",
+          "ipa": "/twi˧ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tuy vậy",
+            "en": "tuy vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.although",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "although",
+          "ipa": "/ˌɔˈlðoʊ/",
+          "hints": {
+            "ru": "although",
+            "vi": "although"
+          }
+        },
+        "ru": {
+          "text": "хотя",
+          "ipa": "/xotʲa/",
+          "hints": {
+            "en": "хотя",
+            "vi": "хотя"
+          }
+        },
+        "vi": {
+          "text": "mặc dù",
+          "ipa": "/mak˧ˀ zu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mặc dù",
+            "en": "mặc dù"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.though",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "though",
+          "ipa": "/ˈðoʊ/",
+          "hints": {
+            "ru": "though",
+            "vi": "though"
+          }
+        },
+        "ru": {
+          "text": "хотя",
+          "ipa": "/xotʲa/",
+          "hints": {
+            "en": "хотя",
+            "vi": "хотя"
+          }
+        },
+        "vi": {
+          "text": "dù",
+          "ipa": "/zu˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dù",
+            "en": "dù"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.even_though",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "even though",
+          "ipa": "/ˈivɪn ˈðoʊ/",
+          "hints": {
+            "ru": "even though",
+            "vi": "even though"
+          }
+        },
+        "ru": {
+          "text": "даже хотя",
+          "ipa": "/daʐe xotʲa/",
+          "hints": {
+            "en": "даже хотя",
+            "vi": "даже хотя"
+          }
+        },
+        "vi": {
+          "text": "ngay cả khi",
+          "ipa": "/ŋaj˧ kaː˧˩˧ xi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngay cả khi",
+            "en": "ngay cả khi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.while",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "while",
+          "ipa": "/ˈwaɪl/",
+          "hints": {
+            "ru": "while",
+            "vi": "while"
+          }
+        },
+        "ru": {
+          "text": "пока / тогда как",
+          "ipa": "/pɐˈka toɡda kak/",
+          "hints": {
+            "en": "пока / тогда как",
+            "vi": "пока / тогда как"
+          }
+        },
+        "vi": {
+          "text": "trong khi",
+          "ipa": "/tɕɔŋ˧ xi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trong khi",
+            "en": "trong khi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whereas",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whereas",
+          "ipa": "/wɛˈɹæz/",
+          "hints": {
+            "ru": "whereas",
+            "vi": "whereas"
+          }
+        },
+        "ru": {
+          "text": "тогда как",
+          "ipa": "/toɡda kak/",
+          "hints": {
+            "en": "тогда как",
+            "vi": "тогда как"
+          }
+        },
+        "vi": {
+          "text": "trong khi đó",
+          "ipa": "/tɕɔŋ˧ xi˧ ɗɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trong khi đó",
+            "en": "trong khi đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whether",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whether",
+          "ipa": "/ˈwɛðɚ/",
+          "hints": {
+            "ru": "whether",
+            "vi": "whether"
+          }
+        },
+        "ru": {
+          "text": "ли",
+          "ipa": "/lʲi/",
+          "hints": {
+            "en": "ли",
+            "vi": "ли"
+          }
+        },
+        "vi": {
+          "text": "liệu",
+          "ipa": "/liəw˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "liệu",
+            "en": "liệu"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.unless",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "unless",
+          "ipa": "/əˈnlɛs/",
+          "hints": {
+            "ru": "unless",
+            "vi": "unless"
+          }
+        },
+        "ru": {
+          "text": "если не",
+          "ipa": "/jeslʲi nʲe/",
+          "hints": {
+            "en": "если не",
+            "vi": "если не"
+          }
+        },
+        "vi": {
+          "text": "trừ khi",
+          "ipa": "/tɕɨ˧˩ xi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "trừ khi",
+            "en": "trừ khi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.once",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "once",
+          "ipa": "/ˈwʌns/",
+          "hints": {
+            "ru": "once",
+            "vi": "once"
+          }
+        },
+        "ru": {
+          "text": "как только / один раз",
+          "ipa": "/kak tolʲko odʲin raz/",
+          "hints": {
+            "en": "как только / один раз",
+            "vi": "как только / один раз"
+          }
+        },
+        "vi": {
+          "text": "một khi / một lần",
+          "ipa": "/mot˧ˀ xi˧ mot˧ˀ lən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "một khi / một lần",
+            "en": "một khi / một lần"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.so_that",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "so that",
+          "ipa": "/səʊ ðæt/",
+          "hints": {
+            "ru": "so that",
+            "vi": "so that"
+          }
+        },
+        "ru": {
+          "text": "чтобы",
+          "ipa": "/tɕtobɨ/",
+          "hints": {
+            "en": "чтобы",
+            "vi": "чтобы"
+          }
+        },
+        "vi": {
+          "text": "để mà",
+          "ipa": "/ɗe˧˩˧ maː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "để mà",
+            "en": "để mà"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.in_order_to",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "in order to",
+          "ipa": "/ɪn ˈɔɹdɚ tə/",
+          "hints": {
+            "ru": "in order to",
+            "vi": "in order to"
+          }
+        },
+        "ru": {
+          "text": "чтобы",
+          "ipa": "/tɕtobɨ/",
+          "hints": {
+            "en": "чтобы",
+            "vi": "чтобы"
+          }
+        },
+        "vi": {
+          "text": "để",
+          "ipa": "/ɗe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "để",
+            "en": "để"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.in_order_that",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "in order that",
+          "ipa": "/ɪn ˈɔɹdɚ ðæt/",
+          "hints": {
+            "ru": "in order that",
+            "vi": "in order that"
+          }
+        },
+        "ru": {
+          "text": "чтобы",
+          "ipa": "/tɕtobɨ/",
+          "hints": {
+            "en": "чтобы",
+            "vi": "чтобы"
+          }
+        },
+        "vi": {
+          "text": "để cho",
+          "ipa": "/ɗe˧˩˧ tɕɔ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "để cho",
+            "en": "để cho"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.even_if",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "even if",
+          "ipa": "/ˈivɪn ɪf/",
+          "hints": {
+            "ru": "even if",
+            "vi": "even if"
+          }
+        },
+        "ru": {
+          "text": "даже если",
+          "ipa": "/daʐe jeslʲi/",
+          "hints": {
+            "en": "даже если",
+            "vi": "даже если"
+          }
+        },
+        "vi": {
+          "text": "ngay cả nếu",
+          "ipa": "/ŋaj˧ kaː˧˩˧ new˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ngay cả nếu",
+            "en": "ngay cả nếu"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.as_if",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as if",
+          "ipa": "/ˈæz ɪf/",
+          "hints": {
+            "ru": "as if",
+            "vi": "as if"
+          }
+        },
+        "ru": {
+          "text": "как будто",
+          "ipa": "/kak budto/",
+          "hints": {
+            "en": "как будто",
+            "vi": "как будто"
+          }
+        },
+        "vi": {
+          "text": "như thể",
+          "ipa": "/ɲɨ˧ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "như thể",
+            "en": "như thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.as_though",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as though",
+          "ipa": "/ˈæz ˈðoʊ/",
+          "hints": {
+            "ru": "as though",
+            "vi": "as though"
+          }
+        },
+        "ru": {
+          "text": "как будто",
+          "ipa": "/kak budto/",
+          "hints": {
+            "en": "как будто",
+            "vi": "как будто"
+          }
+        },
+        "vi": {
+          "text": "y như thể",
+          "ipa": "/i˧ ɲɨ˧ tʰe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "y như thể",
+            "en": "y như thể"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.provided",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "provided",
+          "ipa": "/pɹəˈvaɪdɪd/",
+          "hints": {
+            "ru": "provided",
+            "vi": "provided"
+          }
+        },
+        "ru": {
+          "text": "при условии что",
+          "ipa": "/prʲi uslovʲii ʂto/",
+          "hints": {
+            "en": "при условии что",
+            "vi": "при условии что"
+          }
+        },
+        "vi": {
+          "text": "miễn là",
+          "ipa": "/miən˧˥ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "miễn là",
+            "en": "miễn là"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.providing",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "providing",
+          "ipa": "/pɹəˈvaɪdɪŋ/",
+          "hints": {
+            "ru": "providing",
+            "vi": "providing"
+          }
+        },
+        "ru": {
+          "text": "при условии что",
+          "ipa": "/prʲi uslovʲii ʂto/",
+          "hints": {
+            "en": "при условии что",
+            "vi": "при условии что"
+          }
+        },
+        "vi": {
+          "text": "miễn là",
+          "ipa": "/miən˧˥ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "miễn là",
+            "en": "miễn là"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whenever",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whenever",
+          "ipa": "/wɛˈnɛvɚ/",
+          "hints": {
+            "ru": "whenever",
+            "vi": "whenever"
+          }
+        },
+        "ru": {
+          "text": "когда бы ни",
+          "ipa": "/kəɡˈda bɨ nʲi/",
+          "hints": {
+            "en": "когда бы ни",
+            "vi": "когда бы ни"
+          }
+        },
+        "vi": {
+          "text": "bất cứ khi nào",
+          "ipa": "/ɓət˧˥ kɨ˧˥ xi˧ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bất cứ khi nào",
+            "en": "bất cứ khi nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.wherever",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "wherever",
+          "ipa": "/wɛˈɹɛvɚ/",
+          "hints": {
+            "ru": "wherever",
+            "vi": "wherever"
+          }
+        },
+        "ru": {
+          "text": "где бы ни",
+          "ipa": "/ɡdʲe bɨ nʲi/",
+          "hints": {
+            "en": "где бы ни",
+            "vi": "где бы ни"
+          }
+        },
+        "vi": {
+          "text": "bất cứ nơi nào",
+          "ipa": "/ɓət˧˥ kɨ˧˥ nəːj˧ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bất cứ nơi nào",
+            "en": "bất cứ nơi nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whoever",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whoever",
+          "ipa": "/huˈɛvɚ/",
+          "hints": {
+            "ru": "whoever",
+            "vi": "whoever"
+          }
+        },
+        "ru": {
+          "text": "кто бы ни",
+          "ipa": "/kto bɨ nʲi/",
+          "hints": {
+            "en": "кто бы ни",
+            "vi": "кто бы ни"
+          }
+        },
+        "vi": {
+          "text": "bất cứ ai",
+          "ipa": "/ɓət˧˥ kɨ˧˥ aːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bất cứ ai",
+            "en": "bất cứ ai"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whatever",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whatever",
+          "ipa": "/ˌwʌˈtɛvɚ/",
+          "hints": {
+            "ru": "whatever",
+            "vi": "whatever"
+          }
+        },
+        "ru": {
+          "text": "что бы ни",
+          "ipa": "/ʂto bɨ nʲi/",
+          "hints": {
+            "en": "что бы ни",
+            "vi": "что бы ни"
+          }
+        },
+        "vi": {
+          "text": "bất cứ điều gì",
+          "ipa": "/ɓət˧˥ kɨ˧˥ ɗiəw˧˩ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bất cứ điều gì",
+            "en": "bất cứ điều gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whichever",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whichever",
+          "ipa": "/wɪˈtʃɛvɚ/",
+          "hints": {
+            "ru": "whichever",
+            "vi": "whichever"
+          }
+        },
+        "ru": {
+          "text": "какой бы ни",
+          "ipa": "/kakoj bɨ nʲi/",
+          "hints": {
+            "en": "какой бы ни",
+            "vi": "какой бы ни"
+          }
+        },
+        "vi": {
+          "text": "bất cứ cái nào",
+          "ipa": "/ɓət˧˥ kɨ˧˥ kaːj˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bất cứ cái nào",
+            "en": "bất cứ cái nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.however",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "however",
+          "ipa": "/ˌhaʊˈɛvɚ/",
+          "hints": {
+            "ru": "however",
+            "vi": "however"
+          }
+        },
+        "ru": {
+          "text": "однако / как бы ни",
+          "ipa": "/odnako kak bɨ nʲi/",
+          "hints": {
+            "en": "однако / как бы ни",
+            "vi": "однако / как бы ни"
+          }
+        },
+        "vi": {
+          "text": "tuy nhiên",
+          "ipa": "/twi˧ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tuy nhiên",
+            "en": "tuy nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.therefore",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "therefore",
+          "ipa": "/ˈðɛˌɹfɔɹ/",
+          "hints": {
+            "ru": "therefore",
+            "vi": "therefore"
+          }
+        },
+        "ru": {
+          "text": "поэтому",
+          "ipa": "/poetomu/",
+          "hints": {
+            "en": "поэтому",
+            "vi": "поэтому"
+          }
+        },
+        "vi": {
+          "text": "do đó",
+          "ipa": "/zɔ˧ ɗɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "do đó",
+            "en": "do đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.moreover",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "moreover",
+          "ipa": "/mɔˈɹoʊvɚ/",
+          "hints": {
+            "ru": "moreover",
+            "vi": "moreover"
+          }
+        },
+        "ru": {
+          "text": "более того",
+          "ipa": "/bolʲeje toɡo/",
+          "hints": {
+            "en": "более того",
+            "vi": "более того"
+          }
+        },
+        "vi": {
+          "text": "hơn nữa",
+          "ipa": "/həːn˧ nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hơn nữa",
+            "en": "hơn nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.nevertheless",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nevertheless",
+          "ipa": "/ˌnɛvɚðəˈlɛs/",
+          "hints": {
+            "ru": "nevertheless",
+            "vi": "nevertheless"
+          }
+        },
+        "ru": {
+          "text": "тем не менее",
+          "ipa": "/tʲem nʲe mʲenʲeje/",
+          "hints": {
+            "en": "тем не менее",
+            "vi": "тем не менее"
+          }
+        },
+        "vi": {
+          "text": "tuy nhiên",
+          "ipa": "/twi˧ ɲiən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tuy nhiên",
+            "en": "tuy nhiên"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.nonetheless",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nonetheless",
+          "ipa": "/ˌnʌnðəˈlɛs/",
+          "hints": {
+            "ru": "nonetheless",
+            "vi": "nonetheless"
+          }
+        },
+        "ru": {
+          "text": "тем не менее",
+          "ipa": "/tʲem nʲe mʲenʲeje/",
+          "hints": {
+            "en": "тем не менее",
+            "vi": "тем не менее"
+          }
+        },
+        "vi": {
+          "text": "dù vậy",
+          "ipa": "/zu˧˩ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dù vậy",
+            "en": "dù vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.otherwise",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "otherwise",
+          "ipa": "/ˈʌðɚˌwaɪz/",
+          "hints": {
+            "ru": "otherwise",
+            "vi": "otherwise"
+          }
+        },
+        "ru": {
+          "text": "иначе",
+          "ipa": "/inatɕe/",
+          "hints": {
+            "en": "иначе",
+            "vi": "иначе"
+          }
+        },
+        "vi": {
+          "text": "nếu không thì",
+          "ipa": "/new˧˥ xowŋ˧ tʰi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nếu không thì",
+            "en": "nếu không thì"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.meanwhile",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "meanwhile",
+          "ipa": "/ˈmiˌnwaɪl/",
+          "hints": {
+            "ru": "meanwhile",
+            "vi": "meanwhile"
+          }
+        },
+        "ru": {
+          "text": "тем временем",
+          "ipa": "/tʲem vrʲemʲenʲem/",
+          "hints": {
+            "en": "тем временем",
+            "vi": "тем временем"
+          }
+        },
+        "vi": {
+          "text": "trong khi đó",
+          "ipa": "/tɕɔŋ˧ xi˧ ɗɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trong khi đó",
+            "en": "trong khi đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.furthermore",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "furthermore",
+          "ipa": "/ˈfɝðɚˌmɔɹ/",
+          "hints": {
+            "ru": "furthermore",
+            "vi": "furthermore"
+          }
+        },
+        "ru": {
+          "text": "кроме того",
+          "ipa": "/kromʲe toɡo/",
+          "hints": {
+            "en": "кроме того",
+            "vi": "кроме того"
+          }
+        },
+        "vi": {
+          "text": "hơn nữa",
+          "ipa": "/həːn˧ nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hơn nữa",
+            "en": "hơn nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.consequently",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "consequently",
+          "ipa": "/ˈkɑnsəkwəntli/",
+          "hints": {
+            "ru": "consequently",
+            "vi": "consequently"
+          }
+        },
+        "ru": {
+          "text": "следовательно",
+          "ipa": "/slʲedovatʲelʲno/",
+          "hints": {
+            "en": "следовательно",
+            "vi": "следовательно"
+          }
+        },
+        "vi": {
+          "text": "do đó",
+          "ipa": "/zɔ˧ ɗɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "do đó",
+            "en": "do đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.thus",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "thus",
+          "ipa": "/ˈðʌs/",
+          "hints": {
+            "ru": "thus",
+            "vi": "thus"
+          }
+        },
+        "ru": {
+          "text": "таким образом",
+          "ipa": "/takʲim obrazom/",
+          "hints": {
+            "en": "таким образом",
+            "vi": "таким образом"
+          }
+        },
+        "vi": {
+          "text": "như vậy",
+          "ipa": "/ɲɨ˧ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "như vậy",
+            "en": "như vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.hence",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "hence",
+          "ipa": "/ˈhɛns/",
+          "hints": {
+            "ru": "hence",
+            "vi": "hence"
+          }
+        },
+        "ru": {
+          "text": "следовательно",
+          "ipa": "/slʲedovatʲelʲno/",
+          "hints": {
+            "en": "следовательно",
+            "vi": "следовательно"
+          }
+        },
+        "vi": {
+          "text": "vì thế",
+          "ipa": "/vi˧˩ tʰe˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "vì thế",
+            "en": "vì thế"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.anyway",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "anyway",
+          "ipa": "/ˈɛniˌweɪ/",
+          "hints": {
+            "ru": "anyway",
+            "vi": "anyway"
+          }
+        },
+        "ru": {
+          "text": "всё равно",
+          "ipa": "/vsʲo ravno/",
+          "hints": {
+            "en": "всё равно",
+            "vi": "всё равно"
+          }
+        },
+        "vi": {
+          "text": "dù sao",
+          "ipa": "/zu˧˩ saːw˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dù sao",
+            "en": "dù sao"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.anyhow",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "anyhow",
+          "ipa": "/ˈɛniˌhaʊ/",
+          "hints": {
+            "ru": "anyhow",
+            "vi": "anyhow"
+          }
+        },
+        "ru": {
+          "text": "так или иначе",
+          "ipa": "/tak ilʲi inatɕe/",
+          "hints": {
+            "en": "так или иначе",
+            "vi": "так или иначе"
+          }
+        },
+        "vi": {
+          "text": "dù thế nào",
+          "ipa": "/zu˧˩ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dù thế nào",
+            "en": "dù thế nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.lest",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "lest",
+          "ipa": "/ˈlɛst/",
+          "hints": {
+            "ru": "lest",
+            "vi": "lest"
+          }
+        },
+        "ru": {
+          "text": "чтобы не",
+          "ipa": "/tɕtobɨ nʲe/",
+          "hints": {
+            "en": "чтобы не",
+            "vi": "чтобы не"
+          }
+        },
+        "vi": {
+          "text": "kẻo",
+          "ipa": "/kɛw˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kẻo",
+            "en": "kẻo"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.now_that",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "now that",
+          "ipa": "/naʊ ðæt/",
+          "hints": {
+            "ru": "now that",
+            "vi": "now that"
+          }
+        },
+        "ru": {
+          "text": "теперь когда",
+          "ipa": "/tʲepʲerʲ kəɡˈda/",
+          "hints": {
+            "en": "теперь когда",
+            "vi": "теперь когда"
+          }
+        },
+        "vi": {
+          "text": "giờ thì",
+          "ipa": "/zəː˨˩ tʰi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "giờ thì",
+            "en": "giờ thì"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.as_soon_as",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as soon as",
+          "ipa": "/ˈæz ˈsun ˈæz/",
+          "hints": {
+            "ru": "as soon as",
+            "vi": "as soon as"
+          }
+        },
+        "ru": {
+          "text": "как только",
+          "ipa": "/kak tolʲko/",
+          "hints": {
+            "en": "как только",
+            "vi": "как только"
+          }
+        },
+        "vi": {
+          "text": "ngay khi",
+          "ipa": "/ŋaj˧ xi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ngay khi",
+            "en": "ngay khi"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.as_long_as",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as long as",
+          "ipa": "/ˈæz lɒŋ ˈæz/",
+          "hints": {
+            "ru": "as long as",
+            "vi": "as long as"
+          }
+        },
+        "ru": {
+          "text": "пока / если только",
+          "ipa": "/pɐˈka jeslʲi tolʲko/",
+          "hints": {
+            "en": "пока / если только",
+            "vi": "пока / если только"
+          }
+        },
+        "vi": {
+          "text": "miễn là",
+          "ipa": "/miən˧˥ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "miễn là",
+            "en": "miễn là"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.whether_or_not",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "whether or not",
+          "ipa": "/ˈwɛðɚ ɔː nɒt/",
+          "hints": {
+            "ru": "whether or not",
+            "vi": "whether or not"
+          }
+        },
+        "ru": {
+          "text": "независимо от того",
+          "ipa": "/nʲezavʲisʲimo ot toɡo/",
+          "hints": {
+            "en": "независимо от того",
+            "vi": "независимо от того"
+          }
+        },
+        "vi": {
+          "text": "dù có hay không",
+          "ipa": "/zu˧˩ kɔ˧˥ haj˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dù có hay không",
+            "en": "dù có hay không"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.not_only",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "not only",
+          "ipa": "/nɒt ˈəʊnli/",
+          "hints": {
+            "ru": "not only",
+            "vi": "not only"
+          }
+        },
+        "ru": {
+          "text": "не только",
+          "ipa": "/nʲe tolʲko/",
+          "hints": {
+            "en": "не только",
+            "vi": "не только"
+          }
+        },
+        "vi": {
+          "text": "không chỉ",
+          "ipa": "/xowŋ˧ tɕi˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không chỉ",
+            "en": "không chỉ"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.but_also",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "but also",
+          "ipa": "/bʌt ˈɔːlsəʊ/",
+          "hints": {
+            "ru": "but also",
+            "vi": "but also"
+          }
+        },
+        "ru": {
+          "text": "но и",
+          "ipa": "/no i/",
+          "hints": {
+            "en": "но и",
+            "vi": "но и"
+          }
+        },
+        "vi": {
+          "text": "mà còn",
+          "ipa": "/maː˧˩ kɔn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "mà còn",
+            "en": "mà còn"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.either_or",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "either or",
+          "ipa": "/ˈiðɚ ɔː/",
+          "hints": {
+            "ru": "either or",
+            "vi": "either or"
+          }
+        },
+        "ru": {
+          "text": "либо … либо",
+          "ipa": "/lʲibo lʲibo/",
+          "hints": {
+            "en": "либо … либо",
+            "vi": "либо … либо"
+          }
+        },
+        "vi": {
+          "text": "hoặc … hoặc",
+          "ipa": "/hɔac˧ˀ hɔac˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "hoặc … hoặc",
+            "en": "hoặc … hoặc"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.neither_nor",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "neither nor",
+          "ipa": "/ˈniðɚ ˈnɔɹ/",
+          "hints": {
+            "ru": "neither nor",
+            "vi": "neither nor"
+          }
+        },
+        "ru": {
+          "text": "ни … ни",
+          "ipa": "/nʲi nʲi/",
+          "hints": {
+            "en": "ни … ни",
+            "vi": "ни … ни"
+          }
+        },
+        "vi": {
+          "text": "không … cũng không",
+          "ipa": "/xowŋ˧ kuŋ˧˥ˀ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không … cũng không",
+            "en": "không … cũng không"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.both_and",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "both and",
+          "ipa": "/bəʊθ ænd/",
+          "hints": {
+            "ru": "both and",
+            "vi": "both and"
+          }
+        },
+        "ru": {
+          "text": "и … и",
+          "ipa": "/i i/",
+          "hints": {
+            "en": "и … и",
+            "vi": "и … и"
+          }
+        },
+        "vi": {
+          "text": "vừa … vừa",
+          "ipa": "/vɨə˧˩ vɨə˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vừa … vừa",
+            "en": "vừa … vừa"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.if_only",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "if only",
+          "ipa": "/ɪf ˈəʊnli/",
+          "hints": {
+            "ru": "if only",
+            "vi": "if only"
+          }
+        },
+        "ru": {
+          "text": "если бы",
+          "ipa": "/jeslʲi bɨ/",
+          "hints": {
+            "en": "если бы",
+            "vi": "если бы"
+          }
+        },
+        "vi": {
+          "text": "giá mà",
+          "ipa": "/zaː˧˥ maː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "giá mà",
+            "en": "giá mà"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.so_as_to",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "so as to",
+          "ipa": "/səʊ ˈæz tə/",
+          "hints": {
+            "ru": "so as to",
+            "vi": "so as to"
+          }
+        },
+        "ru": {
+          "text": "чтобы",
+          "ipa": "/tɕtobɨ/",
+          "hints": {
+            "en": "чтобы",
+            "vi": "чтобы"
+          }
+        },
+        "vi": {
+          "text": "để",
+          "ipa": "/ɗe˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "để",
+            "en": "để"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.in_case",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "in case",
+          "ipa": "/ɪn ˈkeɪs/",
+          "hints": {
+            "ru": "in case",
+            "vi": "in case"
+          }
+        },
+        "ru": {
+          "text": "в случае если",
+          "ipa": "/v slutɕaje jeslʲi/",
+          "hints": {
+            "en": "в случае если",
+            "vi": "в случае если"
+          }
+        },
+        "vi": {
+          "text": "trong trường hợp",
+          "ipa": "/tɕɔŋ˧ tɕɨəŋ˧˩ həːp˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "trong trường hợp",
+            "en": "trong trường hợp"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.supposing",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "supposing",
+          "ipa": "/səˈpoʊzɪŋ/",
+          "hints": {
+            "ru": "supposing",
+            "vi": "supposing"
+          }
+        },
+        "ru": {
+          "text": "предположим что",
+          "ipa": "/prʲedpoloʐim ʂto/",
+          "hints": {
+            "en": "предположим что",
+            "vi": "предположим что"
+          }
+        },
+        "vi": {
+          "text": "giả sử",
+          "ipa": "/zaː˧˩˧ sɨ˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "giả sử",
+            "en": "giả sử"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.given_that",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "given that",
+          "ipa": "/ˈɡɪvən ðæt/",
+          "hints": {
+            "ru": "given that",
+            "vi": "given that"
+          }
+        },
+        "ru": {
+          "text": "учитывая что",
+          "ipa": "/utɕitɨvaja ʂto/",
+          "hints": {
+            "en": "учитывая что",
+            "vi": "учитывая что"
+          }
+        },
+        "vi": {
+          "text": "vì rằng",
+          "ipa": "/vi˧˩ zaŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vì rằng",
+            "en": "vì rằng"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.seeing_that",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "seeing that",
+          "ipa": "/ˈsiɪŋ ðæt/",
+          "hints": {
+            "ru": "seeing that",
+            "vi": "seeing that"
+          }
+        },
+        "ru": {
+          "text": "поскольку",
+          "ipa": "/poskolʲku/",
+          "hints": {
+            "en": "поскольку",
+            "vi": "поскольку"
+          }
+        },
+        "vi": {
+          "text": "bởi vì",
+          "ipa": "/ɓəːj˧˩˧ vi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bởi vì",
+            "en": "bởi vì"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.as_far_as",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as far as",
+          "ipa": "/ˈæz fɑː ˈæz/",
+          "hints": {
+            "ru": "as far as",
+            "vi": "as far as"
+          }
+        },
+        "ru": {
+          "text": "насколько",
+          "ipa": "/naskolʲko/",
+          "hints": {
+            "en": "насколько",
+            "vi": "насколько"
+          }
+        },
+        "vi": {
+          "text": "về phần",
+          "ipa": "/ve˧˩ fən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "về phần",
+            "en": "về phần"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.as_soon_as_possible",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as soon as possible",
+          "ipa": "/ˈæz ˈsun ˈæz ˈpɑsəbəl/",
+          "hints": {
+            "ru": "as soon as possible",
+            "vi": "as soon as possible"
+          }
+        },
+        "ru": {
+          "text": "как можно скорее",
+          "ipa": "/kak moʐno skorʲeje/",
+          "hints": {
+            "en": "как можно скорее",
+            "vi": "как можно скорее"
+          }
+        },
+        "vi": {
+          "text": "càng sớm càng tốt",
+          "ipa": "/kaːŋ˧˩ səːm˧˥ kaːŋ˧˩ tot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "càng sớm càng tốt",
+            "en": "càng sớm càng tốt"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.and_so_on",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "and so on",
+          "ipa": "/ænd səʊ ɒn/",
+          "hints": {
+            "ru": "and so on",
+            "vi": "and so on"
+          }
+        },
+        "ru": {
+          "text": "и так далее",
+          "ipa": "/i tak dalʲeje/",
+          "hints": {
+            "en": "и так далее",
+            "vi": "и так далее"
+          }
+        },
+        "vi": {
+          "text": "vân vân",
+          "ipa": "/vən˧ vən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vân vân",
+            "en": "vân vân"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.and_so_forth",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "and so forth",
+          "ipa": "/ænd səʊ ˈfɔɹθ/",
+          "hints": {
+            "ru": "and so forth",
+            "vi": "and so forth"
+          }
+        },
+        "ru": {
+          "text": "и тому подобное",
+          "ipa": "/i tomu podobnoje/",
+          "hints": {
+            "en": "и тому подобное",
+            "vi": "и тому подобное"
+          }
+        },
+        "vi": {
+          "text": "vân vân",
+          "ipa": "/vən˧ vən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vân vân",
+            "en": "vân vân"
+          }
+        }
+      }
+    },
+    {
+      "id": "cj.or_else",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "conjunction"
+      ],
+      "grammar": {
+        "en": "Conjunction.",
+        "ru": "Союз.",
+        "vi": "Liên từ."
+      },
+      "texts": {
+        "en": {
+          "text": "or else",
+          "ipa": "/ɔː ˈɛls/",
+          "hints": {
+            "ru": "or else",
+            "vi": "or else"
+          }
+        },
+        "ru": {
+          "text": "а не то",
+          "ipa": "/a nʲe to/",
+          "hints": {
+            "en": "а не то",
+            "vi": "а не то"
+          }
+        },
+        "vi": {
+          "text": "nếu không thì",
+          "ipa": "/new˧˥ xowŋ˧ tʰi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nếu không thì",
+            "en": "nếu không thì"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.none",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "none",
+          "ipa": "/ˈnʌn/",
+          "hints": {
+            "ru": "none",
+            "vi": "none"
+          }
+        },
+        "ru": {
+          "text": "ни один / никто",
+          "ipa": "/nʲi odʲin nʲikto/",
+          "hints": {
+            "en": "ни один / никто",
+            "vi": "ни один / никто"
+          }
+        },
+        "vi": {
+          "text": "không ai / không cái nào",
+          "ipa": "/xowŋ˧ aːj˧ xowŋ˧ kaːj˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "không ai / không cái nào",
+            "en": "không ai / không cái nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.several",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "several",
+          "ipa": "/ˈsɛvɹəl/",
+          "hints": {
+            "ru": "several",
+            "vi": "several"
+          }
+        },
+        "ru": {
+          "text": "несколько",
+          "ipa": "/nʲeskolʲko/",
+          "hints": {
+            "en": "несколько",
+            "vi": "несколько"
+          }
+        },
+        "vi": {
+          "text": "vài",
+          "ipa": "/vaːj˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vài",
+            "en": "vài"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.few",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "few",
+          "ipa": "/fjuː/",
+          "hints": {
+            "ru": "few",
+            "vi": "few"
+          }
+        },
+        "ru": {
+          "text": "мало",
+          "ipa": "/malo/",
+          "hints": {
+            "en": "мало",
+            "vi": "мало"
+          }
+        },
+        "vi": {
+          "text": "ít",
+          "ipa": "/it˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ít",
+            "en": "ít"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.little",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "little",
+          "ipa": "/ˈlɪtəl/",
+          "hints": {
+            "ru": "little",
+            "vi": "little"
+          }
+        },
+        "ru": {
+          "text": "немного / мало",
+          "ipa": "/nʲemnoɡo malo/",
+          "hints": {
+            "en": "немного / мало",
+            "vi": "немного / мало"
+          }
+        },
+        "vi": {
+          "text": "ít",
+          "ipa": "/it˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ít",
+            "en": "ít"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.fewer",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "fewer",
+          "ipa": "/ˈfjuɚ/",
+          "hints": {
+            "ru": "fewer",
+            "vi": "fewer"
+          }
+        },
+        "ru": {
+          "text": "меньше",
+          "ipa": "/mʲenʲʂe/",
+          "hints": {
+            "en": "меньше",
+            "vi": "меньше"
+          }
+        },
+        "vi": {
+          "text": "ít hơn",
+          "ipa": "/it˧˥ həːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ít hơn",
+            "en": "ít hơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.less",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "less",
+          "ipa": "/ˈlɛs/",
+          "hints": {
+            "ru": "less",
+            "vi": "less"
+          }
+        },
+        "ru": {
+          "text": "меньше",
+          "ipa": "/mʲenʲʂe/",
+          "hints": {
+            "en": "меньше",
+            "vi": "меньше"
+          }
+        },
+        "vi": {
+          "text": "ít hơn",
+          "ipa": "/it˧˥ həːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ít hơn",
+            "en": "ít hơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.more",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "more",
+          "ipa": "/ˈmɔɹ/",
+          "hints": {
+            "ru": "more",
+            "vi": "more"
+          }
+        },
+        "ru": {
+          "text": "больше",
+          "ipa": "/bolʲʂe/",
+          "hints": {
+            "en": "больше",
+            "vi": "больше"
+          }
+        },
+        "vi": {
+          "text": "nhiều hơn",
+          "ipa": "/ɲiəw˧˩ həːn˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều hơn",
+            "en": "nhiều hơn"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.most",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "most",
+          "ipa": "/ˈmoʊst/",
+          "hints": {
+            "ru": "most",
+            "vi": "most"
+          }
+        },
+        "ru": {
+          "text": "большинство / самый",
+          "ipa": "/bolʲʂinstvo samɨj/",
+          "hints": {
+            "en": "большинство / самый",
+            "vi": "большинство / самый"
+          }
+        },
+        "vi": {
+          "text": "hầu hết / nhất",
+          "ipa": "/həu˧˩ het˧˥ ɲət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "hầu hết / nhất",
+            "en": "hầu hết / nhất"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.least",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "least",
+          "ipa": "/ˈlist/",
+          "hints": {
+            "ru": "least",
+            "vi": "least"
+          }
+        },
+        "ru": {
+          "text": "наименьший",
+          "ipa": "/naimʲenʲʂij/",
+          "hints": {
+            "en": "наименьший",
+            "vi": "наименьший"
+          }
+        },
+        "vi": {
+          "text": "ít nhất",
+          "ipa": "/it˧˥ ɲət˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ít nhất",
+            "en": "ít nhất"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.another",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "another",
+          "ipa": "/əˈnʌðɚ/",
+          "hints": {
+            "ru": "another",
+            "vi": "another"
+          }
+        },
+        "ru": {
+          "text": "ещё один / другой",
+          "ipa": "/jeɕːo odʲin druɡoj/",
+          "hints": {
+            "en": "ещё один / другой",
+            "vi": "ещё один / другой"
+          }
+        },
+        "vi": {
+          "text": "một cái khác",
+          "ipa": "/mot˧ˀ kaːj˧˥ xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "một cái khác",
+            "en": "một cái khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.other",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "other",
+          "ipa": "/ˈʌðə/",
+          "hints": {
+            "ru": "other",
+            "vi": "other"
+          }
+        },
+        "ru": {
+          "text": "другой",
+          "ipa": "/druɡoj/",
+          "hints": {
+            "en": "другой",
+            "vi": "другой"
+          }
+        },
+        "vi": {
+          "text": "khác",
+          "ipa": "/xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khác",
+            "en": "khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.others",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "others",
+          "ipa": "/ˈʌðɚz/",
+          "hints": {
+            "ru": "others",
+            "vi": "others"
+          }
+        },
+        "ru": {
+          "text": "другие",
+          "ipa": "/druɡʲije/",
+          "hints": {
+            "en": "другие",
+            "vi": "другие"
+          }
+        },
+        "vi": {
+          "text": "những cái khác",
+          "ipa": "/ɲɨŋ˧˥ˀ kaːj˧˥ xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "những cái khác",
+            "en": "những cái khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.such",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "such",
+          "ipa": "/ˈsʌtʃ/",
+          "hints": {
+            "ru": "such",
+            "vi": "such"
+          }
+        },
+        "ru": {
+          "text": "такой",
+          "ipa": "/takoj/",
+          "hints": {
+            "en": "такой",
+            "vi": "такой"
+          }
+        },
+        "vi": {
+          "text": "như vậy",
+          "ipa": "/ɲɨ˧ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "như vậy",
+            "en": "như vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.own",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "own",
+          "ipa": "/ˈoʊn/",
+          "hints": {
+            "ru": "own",
+            "vi": "own"
+          }
+        },
+        "ru": {
+          "text": "свой",
+          "ipa": "/svoj/",
+          "hints": {
+            "en": "свой",
+            "vi": "свой"
+          }
+        },
+        "vi": {
+          "text": "của chính mình",
+          "ipa": "/kuə˧˩˧ tɕiɲ˧˥ miɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "của chính mình",
+            "en": "của chính mình"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.various",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "various",
+          "ipa": "/ˈvɛɹiəs/",
+          "hints": {
+            "ru": "various",
+            "vi": "various"
+          }
+        },
+        "ru": {
+          "text": "различные",
+          "ipa": "/razlʲitɕnɨje/",
+          "hints": {
+            "en": "различные",
+            "vi": "различные"
+          }
+        },
+        "vi": {
+          "text": "nhiều loại",
+          "ipa": "/ɲiəw˧˩ lwaːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều loại",
+            "en": "nhiều loại"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.certain",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "certain",
+          "ipa": "/ˈsɝtən/",
+          "hints": {
+            "ru": "certain",
+            "vi": "certain"
+          }
+        },
+        "ru": {
+          "text": "некоторый / определённый",
+          "ipa": "/nʲekotorɨj oprʲedʲelʲonnɨj/",
+          "hints": {
+            "en": "некоторый / определённый",
+            "vi": "некоторый / определённый"
+          }
+        },
+        "vi": {
+          "text": "nhất định",
+          "ipa": "/ɲət˧˥ ɗiɲ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nhất định",
+            "en": "nhất định"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.whole",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "whole",
+          "ipa": "/ˈhoʊl/",
+          "hints": {
+            "ru": "whole",
+            "vi": "whole"
+          }
+        },
+        "ru": {
+          "text": "весь",
+          "ipa": "/vʲesʲ/",
+          "hints": {
+            "en": "весь",
+            "vi": "весь"
+          }
+        },
+        "vi": {
+          "text": "toàn bộ",
+          "ipa": "/tɔaːn˧˩ ɓo˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "toàn bộ",
+            "en": "toàn bộ"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.either",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "either",
+          "ipa": "/ˈiðɚ/",
+          "hints": {
+            "ru": "either",
+            "vi": "either"
+          }
+        },
+        "ru": {
+          "text": "любой из двух",
+          "ipa": "/lʲuboj iz dvux/",
+          "hints": {
+            "en": "любой из двух",
+            "vi": "любой из двух"
+          }
+        },
+        "vi": {
+          "text": "một trong hai",
+          "ipa": "/mot˧ˀ tɕɔŋ˧ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "một trong hai",
+            "en": "một trong hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.neither",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "neither",
+          "ipa": "/ˈniðɚ/",
+          "hints": {
+            "ru": "neither",
+            "vi": "neither"
+          }
+        },
+        "ru": {
+          "text": "ни один из двух",
+          "ipa": "/nʲi odʲin iz dvux/",
+          "hints": {
+            "en": "ни один из двух",
+            "vi": "ни один из двух"
+          }
+        },
+        "vi": {
+          "text": "không cái nào",
+          "ipa": "/xowŋ˧ kaːj˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "không cái nào",
+            "en": "không cái nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.double",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "double",
+          "ipa": "/ˈdʌbəl/",
+          "hints": {
+            "ru": "double",
+            "vi": "double"
+          }
+        },
+        "ru": {
+          "text": "двойной",
+          "ipa": "/dvojnoj/",
+          "hints": {
+            "en": "двойной",
+            "vi": "двойной"
+          }
+        },
+        "vi": {
+          "text": "gấp đôi",
+          "ipa": "/ɣəp˧˥ ɗoj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "gấp đôi",
+            "en": "gấp đôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.twice",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "twice",
+          "ipa": "/ˈtwaɪs/",
+          "hints": {
+            "ru": "twice",
+            "vi": "twice"
+          }
+        },
+        "ru": {
+          "text": "дважды",
+          "ipa": "/dvaʐdɨ/",
+          "hints": {
+            "en": "дважды",
+            "vi": "дважды"
+          }
+        },
+        "vi": {
+          "text": "hai lần",
+          "ipa": "/haːj˧ lən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hai lần",
+            "en": "hai lần"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.thrice",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "thrice",
+          "ipa": "/ˈθɹaɪs/",
+          "hints": {
+            "ru": "thrice",
+            "vi": "thrice"
+          }
+        },
+        "ru": {
+          "text": "трижды",
+          "ipa": "/trʲiʐdɨ/",
+          "hints": {
+            "en": "трижды",
+            "vi": "трижды"
+          }
+        },
+        "vi": {
+          "text": "ba lần",
+          "ipa": "/ɓaː˧ lən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ba lần",
+            "en": "ba lần"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.lots_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "lots of",
+          "ipa": "/ˈlɑts əv/",
+          "hints": {
+            "ru": "lots of",
+            "vi": "lots of"
+          }
+        },
+        "ru": {
+          "text": "много",
+          "ipa": "/mnoɡo/",
+          "hints": {
+            "en": "много",
+            "vi": "много"
+          }
+        },
+        "vi": {
+          "text": "rất nhiều",
+          "ipa": "/zət˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rất nhiều",
+            "en": "rất nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.plenty_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "plenty of",
+          "ipa": "/ˈplɛnti əv/",
+          "hints": {
+            "ru": "plenty of",
+            "vi": "plenty of"
+          }
+        },
+        "ru": {
+          "text": "полно",
+          "ipa": "/polno/",
+          "hints": {
+            "en": "полно",
+            "vi": "полно"
+          }
+        },
+        "vi": {
+          "text": "dồi dào",
+          "ipa": "/zoj˧˩ zaːw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dồi dào",
+            "en": "dồi dào"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.a_bit_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "a bit of",
+          "ipa": "/ə ˈbɪt əv/",
+          "hints": {
+            "ru": "a bit of",
+            "vi": "a bit of"
+          }
+        },
+        "ru": {
+          "text": "немного",
+          "ipa": "/nʲemnoɡo/",
+          "hints": {
+            "en": "немного",
+            "vi": "немного"
+          }
+        },
+        "vi": {
+          "text": "một chút",
+          "ipa": "/mot˧ˀ tɕut˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "một chút",
+            "en": "một chút"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.a_number_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "a number of",
+          "ipa": "/ə ˈnʌmbɚ əv/",
+          "hints": {
+            "ru": "a number of",
+            "vi": "a number of"
+          }
+        },
+        "ru": {
+          "text": "ряд",
+          "ipa": "/rʲad/",
+          "hints": {
+            "en": "ряд",
+            "vi": "ряд"
+          }
+        },
+        "vi": {
+          "text": "một số",
+          "ipa": "/mot˧ˀ so˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "một số",
+            "en": "một số"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.a_couple_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "a couple of",
+          "ipa": "/ə ˈkʌpəl əv/",
+          "hints": {
+            "ru": "a couple of",
+            "vi": "a couple of"
+          }
+        },
+        "ru": {
+          "text": "пара",
+          "ipa": "/para/",
+          "hints": {
+            "en": "пара",
+            "vi": "пара"
+          }
+        },
+        "vi": {
+          "text": "một cặp",
+          "ipa": "/mot˧ˀ kap˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "một cặp",
+            "en": "một cặp"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.a_great_deal_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "a great deal of",
+          "ipa": "/ə ˈɡɹeɪt ˈdil əv/",
+          "hints": {
+            "ru": "a great deal of",
+            "vi": "a great deal of"
+          }
+        },
+        "ru": {
+          "text": "очень много",
+          "ipa": "/otɕenʲ mnoɡo/",
+          "hints": {
+            "en": "очень много",
+            "vi": "очень много"
+          }
+        },
+        "vi": {
+          "text": "rất nhiều",
+          "ipa": "/zət˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rất nhiều",
+            "en": "rất nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.enough_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "enough of",
+          "ipa": "/ɪˈnʌf əv/",
+          "hints": {
+            "ru": "enough of",
+            "vi": "enough of"
+          }
+        },
+        "ru": {
+          "text": "достаточно",
+          "ipa": "/dostatotɕno/",
+          "hints": {
+            "en": "достаточно",
+            "vi": "достаточно"
+          }
+        },
+        "vi": {
+          "text": "đủ",
+          "ipa": "/ɗu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "đủ",
+            "en": "đủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.half_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "half of",
+          "ipa": "/ˈhæf əv/",
+          "hints": {
+            "ru": "half of",
+            "vi": "half of"
+          }
+        },
+        "ru": {
+          "text": "половина",
+          "ipa": "/polovʲina/",
+          "hints": {
+            "en": "половина",
+            "vi": "половина"
+          }
+        },
+        "vi": {
+          "text": "một nửa",
+          "ipa": "/mot˧ˀ nɨə˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "một nửa",
+            "en": "một nửa"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.all_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "all of",
+          "ipa": "/ɔːl əv/",
+          "hints": {
+            "ru": "all of",
+            "vi": "all of"
+          }
+        },
+        "ru": {
+          "text": "все из",
+          "ipa": "/vsʲe iz/",
+          "hints": {
+            "en": "все из",
+            "vi": "все из"
+          }
+        },
+        "vi": {
+          "text": "tất cả",
+          "ipa": "/tət˧˥ kaː˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tất cả",
+            "en": "tất cả"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.some_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "some of",
+          "ipa": "/sʌm əv/",
+          "hints": {
+            "ru": "some of",
+            "vi": "some of"
+          }
+        },
+        "ru": {
+          "text": "некоторые из",
+          "ipa": "/nʲekotorɨje iz/",
+          "hints": {
+            "en": "некоторые из",
+            "vi": "некоторые из"
+          }
+        },
+        "vi": {
+          "text": "một số",
+          "ipa": "/mot˧ˀ so˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "một số",
+            "en": "một số"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.none_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "none of",
+          "ipa": "/ˈnʌn əv/",
+          "hints": {
+            "ru": "none of",
+            "vi": "none of"
+          }
+        },
+        "ru": {
+          "text": "никто из",
+          "ipa": "/nʲikto iz/",
+          "hints": {
+            "en": "никто из",
+            "vi": "никто из"
+          }
+        },
+        "vi": {
+          "text": "không ai trong",
+          "ipa": "/xowŋ˧ aːj˧ tɕɔŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không ai trong",
+            "en": "không ai trong"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.each_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "each of",
+          "ipa": "/iːtʃ əv/",
+          "hints": {
+            "ru": "each of",
+            "vi": "each of"
+          }
+        },
+        "ru": {
+          "text": "каждый из",
+          "ipa": "/kaʐdɨj iz/",
+          "hints": {
+            "en": "каждый из",
+            "vi": "каждый из"
+          }
+        },
+        "vi": {
+          "text": "mỗi",
+          "ipa": "/moj˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "mỗi",
+            "en": "mỗi"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.both_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "both of",
+          "ipa": "/bəʊθ əv/",
+          "hints": {
+            "ru": "both of",
+            "vi": "both of"
+          }
+        },
+        "ru": {
+          "text": "оба",
+          "ipa": "/oba/",
+          "hints": {
+            "en": "оба",
+            "vi": "оба"
+          }
+        },
+        "vi": {
+          "text": "cả hai",
+          "ipa": "/kaː˧˩˧ haːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cả hai",
+            "en": "cả hai"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.another_one",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "another one",
+          "ipa": "/əˈnʌðɚ wʌn/",
+          "hints": {
+            "ru": "another one",
+            "vi": "another one"
+          }
+        },
+        "ru": {
+          "text": "ещё один",
+          "ipa": "/jeɕːo odʲin/",
+          "hints": {
+            "en": "ещё один",
+            "vi": "ещё один"
+          }
+        },
+        "vi": {
+          "text": "một cái nữa",
+          "ipa": "/mot˧ˀ kaːj˧˥ nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "một cái nữa",
+            "en": "một cái nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.the_other",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "the other",
+          "ipa": "/ðə ˈʌðə/",
+          "hints": {
+            "ru": "the other",
+            "vi": "the other"
+          }
+        },
+        "ru": {
+          "text": "другой",
+          "ipa": "/druɡoj/",
+          "hints": {
+            "en": "другой",
+            "vi": "другой"
+          }
+        },
+        "vi": {
+          "text": "cái kia",
+          "ipa": "/kaːj˧˥ kiə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cái kia",
+            "en": "cái kia"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.the_same",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "the same",
+          "ipa": "/ðə seɪm/",
+          "hints": {
+            "ru": "the same",
+            "vi": "the same"
+          }
+        },
+        "ru": {
+          "text": "тот же",
+          "ipa": "/tot ʐe/",
+          "hints": {
+            "en": "тот же",
+            "vi": "тот же"
+          }
+        },
+        "vi": {
+          "text": "cùng một",
+          "ipa": "/kuŋ˧˩ mot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cùng một",
+            "en": "cùng một"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.no_such",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "no such",
+          "ipa": "/nəʊ ˈsʌtʃ/",
+          "hints": {
+            "ru": "no such",
+            "vi": "no such"
+          }
+        },
+        "ru": {
+          "text": "такого нет",
+          "ipa": "/takoɡo nʲet/",
+          "hints": {
+            "en": "такого нет",
+            "vi": "такого нет"
+          }
+        },
+        "vi": {
+          "text": "không có cái như vậy",
+          "ipa": "/xowŋ˧ kɔ˧˥ kaːj˧˥ ɲɨ˧ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "không có cái như vậy",
+            "en": "không có cái như vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.what_a",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "what a",
+          "ipa": "/wɒt ə/",
+          "hints": {
+            "ru": "what a",
+            "vi": "what a"
+          }
+        },
+        "ru": {
+          "text": "какой",
+          "ipa": "/kakoj/",
+          "hints": {
+            "en": "какой",
+            "vi": "какой"
+          }
+        },
+        "vi": {
+          "text": "thật là một",
+          "ipa": "/tʰət˧ˀ la˨˩ mot˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "thật là một",
+            "en": "thật là một"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.quite_a",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "quite a",
+          "ipa": "/ˈkwaɪt ə/",
+          "hints": {
+            "ru": "quite a",
+            "vi": "quite a"
+          }
+        },
+        "ru": {
+          "text": "довольно",
+          "ipa": "/dovolʲno/",
+          "hints": {
+            "en": "довольно",
+            "vi": "довольно"
+          }
+        },
+        "vi": {
+          "text": "khá là",
+          "ipa": "/xaː˧˥ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "khá là",
+            "en": "khá là"
+          }
+        }
+      }
+    },
+    {
+      "id": "dt.many_a",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "determiner"
+      ],
+      "grammar": {
+        "en": "Determiner.",
+        "ru": "Определитель.",
+        "vi": "Từ hạn định."
+      },
+      "texts": {
+        "en": {
+          "text": "many a",
+          "ipa": "/ˈmeni ə/",
+          "hints": {
+            "ru": "many a",
+            "vi": "many a"
+          }
+        },
+        "ru": {
+          "text": "не один",
+          "ipa": "/nʲe odʲin/",
+          "hints": {
+            "en": "не один",
+            "vi": "не один"
+          }
+        },
+        "vi": {
+          "text": "nhiều",
+          "ipa": "/ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều",
+            "en": "nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.else",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "else",
+          "ipa": "/ˈɛls/",
+          "hints": {
+            "ru": "else",
+            "vi": "else"
+          }
+        },
+        "ru": {
+          "text": "ещё / другой",
+          "ipa": "/jeɕːo druɡoj/",
+          "hints": {
+            "en": "ещё / другой",
+            "vi": "ещё / другой"
+          }
+        },
+        "vi": {
+          "text": "khác",
+          "ipa": "/xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "khác",
+            "en": "khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.ever",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "ever",
+          "ipa": "/ˈɛvɚ/",
+          "hints": {
+            "ru": "ever",
+            "vi": "ever"
+          }
+        },
+        "ru": {
+          "text": "когда-либо",
+          "ipa": "/koɡdalʲibo/",
+          "hints": {
+            "en": "когда-либо",
+            "vi": "когда-либо"
+          }
+        },
+        "vi": {
+          "text": "từng",
+          "ipa": "/tɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "từng",
+            "en": "từng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.hardly",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "hardly",
+          "ipa": "/ˈhɑɹdli/",
+          "hints": {
+            "ru": "hardly",
+            "vi": "hardly"
+          }
+        },
+        "ru": {
+          "text": "едва",
+          "ipa": "/jedva/",
+          "hints": {
+            "en": "едва",
+            "vi": "едва"
+          }
+        },
+        "vi": {
+          "text": "hầu như không",
+          "ipa": "/həu˧˩ ɲɨ˧ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hầu như không",
+            "en": "hầu như không"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.barely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "barely",
+          "ipa": "/ˈbɛɹli/",
+          "hints": {
+            "ru": "barely",
+            "vi": "barely"
+          }
+        },
+        "ru": {
+          "text": "едва",
+          "ipa": "/jedva/",
+          "hints": {
+            "en": "едва",
+            "vi": "едва"
+          }
+        },
+        "vi": {
+          "text": "chỉ vừa đủ",
+          "ipa": "/tɕi˧˩˧ vɨə˧˩ ɗu˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chỉ vừa đủ",
+            "en": "chỉ vừa đủ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.merely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "merely",
+          "ipa": "/ˈmɪɹli/",
+          "hints": {
+            "ru": "merely",
+            "vi": "merely"
+          }
+        },
+        "ru": {
+          "text": "всего лишь",
+          "ipa": "/vsʲeɡo lʲiʂ/",
+          "hints": {
+            "en": "всего лишь",
+            "vi": "всего лишь"
+          }
+        },
+        "vi": {
+          "text": "chỉ là",
+          "ipa": "/tɕi˧˩˧ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chỉ là",
+            "en": "chỉ là"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.simply",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "simply",
+          "ipa": "/ˈsɪmpli/",
+          "hints": {
+            "ru": "simply",
+            "vi": "simply"
+          }
+        },
+        "ru": {
+          "text": "просто",
+          "ipa": "/prosto/",
+          "hints": {
+            "en": "просто",
+            "vi": "просто"
+          }
+        },
+        "vi": {
+          "text": "chỉ đơn giản",
+          "ipa": "/tɕi˧˩˧ ɗəːn˧ zaːn˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chỉ đơn giản",
+            "en": "chỉ đơn giản"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.exactly",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "exactly",
+          "ipa": "/ɪˈɡzæktli/",
+          "hints": {
+            "ru": "exactly",
+            "vi": "exactly"
+          }
+        },
+        "ru": {
+          "text": "точно",
+          "ipa": "/totɕno/",
+          "hints": {
+            "en": "точно",
+            "vi": "точно"
+          }
+        },
+        "vi": {
+          "text": "chính xác",
+          "ipa": "/tɕiɲ˧˥ saːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chính xác",
+            "en": "chính xác"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.precisely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "precisely",
+          "ipa": "/pɹɪˈsaɪsli/",
+          "hints": {
+            "ru": "precisely",
+            "vi": "precisely"
+          }
+        },
+        "ru": {
+          "text": "именно",
+          "ipa": "/imʲenno/",
+          "hints": {
+            "en": "именно",
+            "vi": "именно"
+          }
+        },
+        "vi": {
+          "text": "chính xác",
+          "ipa": "/tɕiɲ˧˥ saːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chính xác",
+            "en": "chính xác"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.approximately",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "approximately",
+          "ipa": "/əˈpɹɑksəmətli/",
+          "hints": {
+            "ru": "approximately",
+            "vi": "approximately"
+          }
+        },
+        "ru": {
+          "text": "приблизительно",
+          "ipa": "/prʲiblʲizʲitʲelʲno/",
+          "hints": {
+            "en": "приблизительно",
+            "vi": "приблизительно"
+          }
+        },
+        "vi": {
+          "text": "khoảng chừng",
+          "ipa": "/xɔaːng˧˩˧ tɕɨŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "khoảng chừng",
+            "en": "khoảng chừng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.perhaps",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "perhaps",
+          "ipa": "/pɚˈhæps/",
+          "hints": {
+            "ru": "perhaps",
+            "vi": "perhaps"
+          }
+        },
+        "ru": {
+          "text": "возможно",
+          "ipa": "/vozmoʐno/",
+          "hints": {
+            "en": "возможно",
+            "vi": "возможно"
+          }
+        },
+        "vi": {
+          "text": "có lẽ",
+          "ipa": "/kɔ˧˥ lɛ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "có lẽ",
+            "en": "có lẽ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.possibly",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "possibly",
+          "ipa": "/ˈpɑsəbli/",
+          "hints": {
+            "ru": "possibly",
+            "vi": "possibly"
+          }
+        },
+        "ru": {
+          "text": "возможно",
+          "ipa": "/vozmoʐno/",
+          "hints": {
+            "en": "возможно",
+            "vi": "возможно"
+          }
+        },
+        "vi": {
+          "text": "có khả năng",
+          "ipa": "/kɔ˧˥ xaː˧˩˧ naŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "có khả năng",
+            "en": "có khả năng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.surely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "surely",
+          "ipa": "/ˈʃʊɹli/",
+          "hints": {
+            "ru": "surely",
+            "vi": "surely"
+          }
+        },
+        "ru": {
+          "text": "наверняка",
+          "ipa": "/navʲernʲaka/",
+          "hints": {
+            "en": "наверняка",
+            "vi": "наверняка"
+          }
+        },
+        "vi": {
+          "text": "chắc chắn",
+          "ipa": "/tɕak˧˥ tɕan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chắc chắn",
+            "en": "chắc chắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.indeed",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "indeed",
+          "ipa": "/ˌɪˈndid/",
+          "hints": {
+            "ru": "indeed",
+            "vi": "indeed"
+          }
+        },
+        "ru": {
+          "text": "в самом деле",
+          "ipa": "/v samom dʲelʲe/",
+          "hints": {
+            "en": "в самом деле",
+            "vi": "в самом деле"
+          }
+        },
+        "vi": {
+          "text": "quả thật",
+          "ipa": "/kwaː˧˩˧ tʰət˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "quả thật",
+            "en": "quả thật"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.certainly",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "certainly",
+          "ipa": "/ˈsɝtənli/",
+          "hints": {
+            "ru": "certainly",
+            "vi": "certainly"
+          }
+        },
+        "ru": {
+          "text": "конечно",
+          "ipa": "/konʲetɕno/",
+          "hints": {
+            "en": "конечно",
+            "vi": "конечно"
+          }
+        },
+        "vi": {
+          "text": "chắc chắn",
+          "ipa": "/tɕak˧˥ tɕan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chắc chắn",
+            "en": "chắc chắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.definitely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "definitely",
+          "ipa": "/ˈdɛfənətli/",
+          "hints": {
+            "ru": "definitely",
+            "vi": "definitely"
+          }
+        },
+        "ru": {
+          "text": "определённо",
+          "ipa": "/oprʲedʲelʲonno/",
+          "hints": {
+            "en": "определённо",
+            "vi": "определённо"
+          }
+        },
+        "vi": {
+          "text": "chắc chắn",
+          "ipa": "/tɕak˧˥ tɕan˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chắc chắn",
+            "en": "chắc chắn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.absolutely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "absolutely",
+          "ipa": "/ˌæbsəˈlutli/",
+          "hints": {
+            "ru": "absolutely",
+            "vi": "absolutely"
+          }
+        },
+        "ru": {
+          "text": "абсолютно",
+          "ipa": "/absolʲutno/",
+          "hints": {
+            "en": "абсолютно",
+            "vi": "абсолютно"
+          }
+        },
+        "vi": {
+          "text": "hoàn toàn",
+          "ipa": "/hɔaːn˧˩ tɔaːn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hoàn toàn",
+            "en": "hoàn toàn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.yeah",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "yeah",
+          "ipa": "/ˈjæ/",
+          "hints": {
+            "ru": "yeah",
+            "vi": "yeah"
+          }
+        },
+        "ru": {
+          "text": "да",
+          "ipa": "/da/",
+          "hints": {
+            "en": "да",
+            "vi": "да"
+          }
+        },
+        "vi": {
+          "text": "ừ",
+          "ipa": "/ɨ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ừ",
+            "en": "ừ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.yep",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "yep",
+          "ipa": "/ˈjɛp/",
+          "hints": {
+            "ru": "yep",
+            "vi": "yep"
+          }
+        },
+        "ru": {
+          "text": "ага",
+          "ipa": "/aɡa/",
+          "hints": {
+            "en": "ага",
+            "vi": "ага"
+          }
+        },
+        "vi": {
+          "text": "ừ",
+          "ipa": "/ɨ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ừ",
+            "en": "ừ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.nope",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nope",
+          "ipa": "/ˈnoʊp/",
+          "hints": {
+            "ru": "nope",
+            "vi": "nope"
+          }
+        },
+        "ru": {
+          "text": "неа",
+          "ipa": "/nʲea/",
+          "hints": {
+            "en": "неа",
+            "vi": "неа"
+          }
+        },
+        "vi": {
+          "text": "không",
+          "ipa": "/xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không",
+            "en": "không"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.alright",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "alright",
+          "ipa": "/ˌɔˈlɹaɪt/",
+          "hints": {
+            "ru": "alright",
+            "vi": "alright"
+          }
+        },
+        "ru": {
+          "text": "ладно",
+          "ipa": "/ladno/",
+          "hints": {
+            "en": "ладно",
+            "vi": "ладно"
+          }
+        },
+        "vi": {
+          "text": "được rồi",
+          "ipa": "/ɗɨək˧ˀ roj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "được rồi",
+            "en": "được rồi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.oh",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "oh",
+          "ipa": "/ˈoʊ/",
+          "hints": {
+            "ru": "oh",
+            "vi": "oh"
+          }
+        },
+        "ru": {
+          "text": "о",
+          "ipa": "/o/",
+          "hints": {
+            "en": "о",
+            "vi": "о"
+          }
+        },
+        "vi": {
+          "text": "ồ",
+          "ipa": "/o˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ồ",
+            "en": "ồ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.ah",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "ah",
+          "ipa": "/ˈɑ/",
+          "hints": {
+            "ru": "ah",
+            "vi": "ah"
+          }
+        },
+        "ru": {
+          "text": "ах",
+          "ipa": "/ax/",
+          "hints": {
+            "en": "ах",
+            "vi": "ах"
+          }
+        },
+        "vi": {
+          "text": "à",
+          "ipa": "/aː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "à",
+            "en": "à"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.um",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "um",
+          "ipa": "/ˈʌm/",
+          "hints": {
+            "ru": "um",
+            "vi": "um"
+          }
+        },
+        "ru": {
+          "text": "эм",
+          "ipa": "/em/",
+          "hints": {
+            "en": "эм",
+            "vi": "эм"
+          }
+        },
+        "vi": {
+          "text": "ờ",
+          "ipa": "/əː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ờ",
+            "en": "ờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.uh",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "uh",
+          "ipa": "/ˈʌ/",
+          "hints": {
+            "ru": "uh",
+            "vi": "uh"
+          }
+        },
+        "ru": {
+          "text": "э",
+          "ipa": "/e/",
+          "hints": {
+            "en": "э",
+            "vi": "э"
+          }
+        },
+        "vi": {
+          "text": "ờ",
+          "ipa": "/əː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ờ",
+            "en": "ờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.hey",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "hey",
+          "ipa": "/ˈheɪ/",
+          "hints": {
+            "ru": "hey",
+            "vi": "hey"
+          }
+        },
+        "ru": {
+          "text": "эй",
+          "ipa": "/ej/",
+          "hints": {
+            "en": "эй",
+            "vi": "эй"
+          }
+        },
+        "vi": {
+          "text": "này",
+          "ipa": "/naj˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "này",
+            "en": "này"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.wow",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "wow",
+          "ipa": "/ˈwaʊ/",
+          "hints": {
+            "ru": "wow",
+            "vi": "wow"
+          }
+        },
+        "ru": {
+          "text": "ух ты",
+          "ipa": "/ux tɨ/",
+          "hints": {
+            "en": "ух ты",
+            "vi": "ух ты"
+          }
+        },
+        "vi": {
+          "text": "ồ",
+          "ipa": "/o˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ồ",
+            "en": "ồ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.ouch",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "ouch",
+          "ipa": "/ˈaʊtʃ/",
+          "hints": {
+            "ru": "ouch",
+            "vi": "ouch"
+          }
+        },
+        "ru": {
+          "text": "ой",
+          "ipa": "/oj/",
+          "hints": {
+            "en": "ой",
+            "vi": "ой"
+          }
+        },
+        "vi": {
+          "text": "ái",
+          "ipa": "/aːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "ái",
+            "en": "ái"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.oops",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "oops",
+          "ipa": "/ˈups/",
+          "hints": {
+            "ru": "oops",
+            "vi": "oops"
+          }
+        },
+        "ru": {
+          "text": "ой",
+          "ipa": "/oj/",
+          "hints": {
+            "en": "ой",
+            "vi": "ой"
+          }
+        },
+        "vi": {
+          "text": "ôi",
+          "ipa": "/oj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ôi",
+            "en": "ôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.hmm",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "hmm",
+          "ipa": "/hmm/",
+          "hints": {
+            "ru": "hmm",
+            "vi": "hmm"
+          }
+        },
+        "ru": {
+          "text": "хм",
+          "ipa": "/xm/",
+          "hints": {
+            "en": "хм",
+            "vi": "хм"
+          }
+        },
+        "vi": {
+          "text": "hừm",
+          "ipa": "/hɨm˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "hừm",
+            "en": "hừm"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.well",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "well",
+          "ipa": "/ˈwɛl/",
+          "hints": {
+            "ru": "well",
+            "vi": "well"
+          }
+        },
+        "ru": {
+          "text": "ну",
+          "ipa": "/nu/",
+          "hints": {
+            "en": "ну",
+            "vi": "ну"
+          }
+        },
+        "vi": {
+          "text": "à / thôi",
+          "ipa": "/aː˧˩ tʰoj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "à / thôi",
+            "en": "à / thôi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.etcetera",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "etcetera",
+          "ipa": "/ˈɛˈtsɛtɚə/",
+          "hints": {
+            "ru": "etcetera",
+            "vi": "etcetera"
+          }
+        },
+        "ru": {
+          "text": "и так далее",
+          "ipa": "/i tak dalʲeje/",
+          "hints": {
+            "en": "и так далее",
+            "vi": "и так далее"
+          }
+        },
+        "vi": {
+          "text": "vân vân",
+          "ipa": "/vən˧ vən˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vân vân",
+            "en": "vân vân"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.that_is",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "that is",
+          "ipa": "/ðæt ɪz/",
+          "hints": {
+            "ru": "that is",
+            "vi": "that is"
+          }
+        },
+        "ru": {
+          "text": "то есть",
+          "ipa": "/to jestʲ/",
+          "hints": {
+            "en": "то есть",
+            "vi": "то есть"
+          }
+        },
+        "vi": {
+          "text": "nghĩa là",
+          "ipa": "/ŋiə˧˥ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "nghĩa là",
+            "en": "nghĩa là"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.namely",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "namely",
+          "ipa": "/ˈneɪmli/",
+          "hints": {
+            "ru": "namely",
+            "vi": "namely"
+          }
+        },
+        "ru": {
+          "text": "а именно",
+          "ipa": "/a imʲenno/",
+          "hints": {
+            "en": "а именно",
+            "vi": "а именно"
+          }
+        },
+        "vi": {
+          "text": "cụ thể là",
+          "ipa": "/ku˧ˀ tʰe˧˩˧ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "cụ thể là",
+            "en": "cụ thể là"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.also_known_as",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "also known as",
+          "ipa": "/ˈɔːlsəʊ ˈnoʊn ˈæz/",
+          "hints": {
+            "ru": "also known as",
+            "vi": "also known as"
+          }
+        },
+        "ru": {
+          "text": "также известный как",
+          "ipa": "/takʐe izvʲestnɨj kak/",
+          "hints": {
+            "en": "также известный как",
+            "vi": "также известный как"
+          }
+        },
+        "vi": {
+          "text": "còn gọi là",
+          "ipa": "/kɔn˧˩ ɣɔj˧ˀ la˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "còn gọi là",
+            "en": "còn gọi là"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.so_to_speak",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "so to speak",
+          "ipa": "/səʊ tə spiːk/",
+          "hints": {
+            "ru": "so to speak",
+            "vi": "so to speak"
+          }
+        },
+        "ru": {
+          "text": "так сказать",
+          "ipa": "/tak skazatʲ/",
+          "hints": {
+            "en": "так сказать",
+            "vi": "так сказать"
+          }
+        },
+        "vi": {
+          "text": "nói cách khác",
+          "ipa": "/nɔj˧˥ kajk˧˥ xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nói cách khác",
+            "en": "nói cách khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.kind_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "kind of",
+          "ipa": "/kaɪnd əv/",
+          "hints": {
+            "ru": "kind of",
+            "vi": "kind of"
+          }
+        },
+        "ru": {
+          "text": "вроде",
+          "ipa": "/vrodʲe/",
+          "hints": {
+            "en": "вроде",
+            "vi": "вроде"
+          }
+        },
+        "vi": {
+          "text": "hơi",
+          "ipa": "/həːj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hơi",
+            "en": "hơi"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.sort_of",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "sort of",
+          "ipa": "/ˈsɔɹt əv/",
+          "hints": {
+            "ru": "sort of",
+            "vi": "sort of"
+          }
+        },
+        "ru": {
+          "text": "вроде как",
+          "ipa": "/vrodʲe kak/",
+          "hints": {
+            "en": "вроде как",
+            "vi": "вроде как"
+          }
+        },
+        "vi": {
+          "text": "kiểu như",
+          "ipa": "/kiəw˧˩˧ ɲɨ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "kiểu như",
+            "en": "kiểu như"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.at_any_rate",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "at any rate",
+          "ipa": "/æt ˈeni ˈɹeɪt/",
+          "hints": {
+            "ru": "at any rate",
+            "vi": "at any rate"
+          }
+        },
+        "ru": {
+          "text": "во всяком случае",
+          "ipa": "/vo vsʲakom slutɕaje/",
+          "hints": {
+            "en": "во всяком случае",
+            "vi": "во всяком случае"
+          }
+        },
+        "vi": {
+          "text": "dù sao đi nữa",
+          "ipa": "/zu˧˩ saːw˧ ɗi˧ nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dù sao đi nữa",
+            "en": "dù sao đi nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.after_all",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "after all",
+          "ipa": "/ˈɑːftə ɔːl/",
+          "hints": {
+            "ru": "after all",
+            "vi": "after all"
+          }
+        },
+        "ru": {
+          "text": "в конце концов",
+          "ipa": "/v kontse kontsov/",
+          "hints": {
+            "en": "в конце концов",
+            "vi": "в конце концов"
+          }
+        },
+        "vi": {
+          "text": "suy cho cùng",
+          "ipa": "/swi˧ tɕɔ˧ kuŋ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "suy cho cùng",
+            "en": "suy cho cùng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.above_all",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "above all",
+          "ipa": "/əˈbʌv ɔːl/",
+          "hints": {
+            "ru": "above all",
+            "vi": "above all"
+          }
+        },
+        "ru": {
+          "text": "прежде всего",
+          "ipa": "/prʲeʐdʲe vsʲeɡo/",
+          "hints": {
+            "en": "прежде всего",
+            "vi": "прежде всего"
+          }
+        },
+        "vi": {
+          "text": "trên hết",
+          "ipa": "/tɕen˧ het˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trên hết",
+            "en": "trên hết"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.in_short",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "in short",
+          "ipa": "/ɪn ˈʃɔɹt/",
+          "hints": {
+            "ru": "in short",
+            "vi": "in short"
+          }
+        },
+        "ru": {
+          "text": "короче",
+          "ipa": "/korotɕe/",
+          "hints": {
+            "en": "короче",
+            "vi": "короче"
+          }
+        },
+        "vi": {
+          "text": "tóm lại",
+          "ipa": "/tɔm˧˥ laːj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tóm lại",
+            "en": "tóm lại"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.of_course_not",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "of course not",
+          "ipa": "/əv kɔːs nɒt/",
+          "hints": {
+            "ru": "of course not",
+            "vi": "of course not"
+          }
+        },
+        "ru": {
+          "text": "конечно нет",
+          "ipa": "/konʲetɕno nʲet/",
+          "hints": {
+            "en": "конечно нет",
+            "vi": "конечно нет"
+          }
+        },
+        "vi": {
+          "text": "dĩ nhiên là không",
+          "ipa": "/zi˧˥ˀ ɲiən˧ la˨˩ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "dĩ nhiên là không",
+            "en": "dĩ nhiên là không"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.not_at_all",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "not at all",
+          "ipa": "/nɒt æt ɔːl/",
+          "hints": {
+            "ru": "not at all",
+            "vi": "not at all"
+          }
+        },
+        "ru": {
+          "text": "совсем нет",
+          "ipa": "/sovsʲem nʲet/",
+          "hints": {
+            "en": "совсем нет",
+            "vi": "совсем нет"
+          }
+        },
+        "vi": {
+          "text": "không có gì",
+          "ipa": "/xowŋ˧ kɔ˧˥ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "không có gì",
+            "en": "không có gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.no_longer",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "no longer",
+          "ipa": "/nəʊ ˈlɔŋɡɚ/",
+          "hints": {
+            "ru": "no longer",
+            "vi": "no longer"
+          }
+        },
+        "ru": {
+          "text": "больше не",
+          "ipa": "/bolʲʂe nʲe/",
+          "hints": {
+            "en": "больше не",
+            "vi": "больше не"
+          }
+        },
+        "vi": {
+          "text": "không còn",
+          "ipa": "/xowŋ˧ kɔn˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "không còn",
+            "en": "không còn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.any_longer",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "any longer",
+          "ipa": "/ˈeni ˈlɔŋɡɚ/",
+          "hints": {
+            "ru": "any longer",
+            "vi": "any longer"
+          }
+        },
+        "ru": {
+          "text": "больше не",
+          "ipa": "/bolʲʂe nʲe/",
+          "hints": {
+            "en": "больше не",
+            "vi": "больше не"
+          }
+        },
+        "vi": {
+          "text": "nữa",
+          "ipa": "/nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nữa",
+            "en": "nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.any_more",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "any more",
+          "ipa": "/ˈeni ˈmɔɹ/",
+          "hints": {
+            "ru": "any more",
+            "vi": "any more"
+          }
+        },
+        "ru": {
+          "text": "больше",
+          "ipa": "/bolʲʂe/",
+          "hints": {
+            "en": "больше",
+            "vi": "больше"
+          }
+        },
+        "vi": {
+          "text": "nữa",
+          "ipa": "/nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nữa",
+            "en": "nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.once_again",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "once again",
+          "ipa": "/ˈwʌns əˈɡen/",
+          "hints": {
+            "ru": "once again",
+            "vi": "once again"
+          }
+        },
+        "ru": {
+          "text": "ещё раз",
+          "ipa": "/jeɕːo raz/",
+          "hints": {
+            "en": "ещё раз",
+            "vi": "ещё раз"
+          }
+        },
+        "vi": {
+          "text": "một lần nữa",
+          "ipa": "/mot˧ˀ lən˧˩ nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "một lần nữa",
+            "en": "một lần nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.once_more",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "once more",
+          "ipa": "/ˈwʌns ˈmɔɹ/",
+          "hints": {
+            "ru": "once more",
+            "vi": "once more"
+          }
+        },
+        "ru": {
+          "text": "ещё раз",
+          "ipa": "/jeɕːo raz/",
+          "hints": {
+            "en": "ещё раз",
+            "vi": "ещё раз"
+          }
+        },
+        "vi": {
+          "text": "một lần nữa",
+          "ipa": "/mot˧ˀ lən˧˩ nɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "một lần nữa",
+            "en": "một lần nữa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.all_right",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "all right",
+          "ipa": "/ɔːl raɪt/",
+          "hints": {
+            "ru": "all right",
+            "vi": "all right"
+          }
+        },
+        "ru": {
+          "text": "хорошо",
+          "ipa": "/xərɐˈʂo/",
+          "hints": {
+            "en": "хорошо",
+            "vi": "хорошо"
+          }
+        },
+        "vi": {
+          "text": "được",
+          "ipa": "/ɗɨək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "được",
+            "en": "được"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.as_yet",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as yet",
+          "ipa": "/ˈæz jet/",
+          "hints": {
+            "ru": "as yet",
+            "vi": "as yet"
+          }
+        },
+        "ru": {
+          "text": "пока ещё",
+          "ipa": "/pɐˈka jeɕːo/",
+          "hints": {
+            "en": "пока ещё",
+            "vi": "пока ещё"
+          }
+        },
+        "vi": {
+          "text": "cho đến nay",
+          "ipa": "/tɕɔ˧ ɗen˧˥ naj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cho đến nay",
+            "en": "cho đến nay"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.just_now",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "just now",
+          "ipa": "/dʒʌst naʊ/",
+          "hints": {
+            "ru": "just now",
+            "vi": "just now"
+          }
+        },
+        "ru": {
+          "text": "только что",
+          "ipa": "/tolʲko ʂto/",
+          "hints": {
+            "en": "только что",
+            "vi": "только что"
+          }
+        },
+        "vi": {
+          "text": "vừa mới",
+          "ipa": "/vɨə˧˩ məːj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "vừa mới",
+            "en": "vừa mới"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.right_now",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "right now",
+          "ipa": "/raɪt naʊ/",
+          "hints": {
+            "ru": "right now",
+            "vi": "right now"
+          }
+        },
+        "ru": {
+          "text": "прямо сейчас",
+          "ipa": "/prʲamo sʲɪjˈtɕas/",
+          "hints": {
+            "en": "прямо сейчас",
+            "vi": "прямо сейчас"
+          }
+        },
+        "vi": {
+          "text": "ngay bây giờ",
+          "ipa": "/ŋaj˧ ɓəj˧ zəː˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ngay bây giờ",
+            "en": "ngay bây giờ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.so_far",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "so far",
+          "ipa": "/səʊ fɑː/",
+          "hints": {
+            "ru": "so far",
+            "vi": "so far"
+          }
+        },
+        "ru": {
+          "text": "пока что",
+          "ipa": "/pɐˈka ʂto/",
+          "hints": {
+            "en": "пока что",
+            "vi": "пока что"
+          }
+        },
+        "vi": {
+          "text": "cho đến nay",
+          "ipa": "/tɕɔ˧ ɗen˧˥ naj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "cho đến nay",
+            "en": "cho đến nay"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.as_yet_not",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as yet not",
+          "ipa": "/ˈæz jet nɒt/",
+          "hints": {
+            "ru": "as yet not",
+            "vi": "as yet not"
+          }
+        },
+        "ru": {
+          "text": "ещё нет",
+          "ipa": "/jeɕːo nʲet/",
+          "hints": {
+            "en": "ещё нет",
+            "vi": "ещё нет"
+          }
+        },
+        "vi": {
+          "text": "vẫn chưa",
+          "ipa": "/vən˧˥ˀ tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "vẫn chưa",
+            "en": "vẫn chưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.let_alone",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "let alone",
+          "ipa": "/let əˈloʊn/",
+          "hints": {
+            "ru": "let alone",
+            "vi": "let alone"
+          }
+        },
+        "ru": {
+          "text": "не говоря уже",
+          "ipa": "/nʲe ɡovorʲa uʐe/",
+          "hints": {
+            "en": "не говоря уже",
+            "vi": "не говоря уже"
+          }
+        },
+        "vi": {
+          "text": "chưa kể",
+          "ipa": "/tɕɨə˧ ke˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chưa kể",
+            "en": "chưa kể"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.not_to_mention",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "not to mention",
+          "ipa": "/nɒt tə ˈmɛnʃən/",
+          "hints": {
+            "ru": "not to mention",
+            "vi": "not to mention"
+          }
+        },
+        "ru": {
+          "text": "не говоря о",
+          "ipa": "/nʲe ɡovorʲa o/",
+          "hints": {
+            "en": "не говоря о",
+            "vi": "не говоря о"
+          }
+        },
+        "vi": {
+          "text": "chưa kể đến",
+          "ipa": "/tɕɨə˧ ke˧˩˧ ɗen˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chưa kể đến",
+            "en": "chưa kể đến"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.as_a_rule",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as a rule",
+          "ipa": "/ˈæz ə ˈɹul/",
+          "hints": {
+            "ru": "as a rule",
+            "vi": "as a rule"
+          }
+        },
+        "ru": {
+          "text": "как правило",
+          "ipa": "/kak pravʲilo/",
+          "hints": {
+            "en": "как правило",
+            "vi": "как правило"
+          }
+        },
+        "vi": {
+          "text": "theo lệ",
+          "ipa": "/tʰɛw˧ le˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "theo lệ",
+            "en": "theo lệ"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.in_any_case",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "in any case",
+          "ipa": "/ɪn ˈeni ˈkeɪs/",
+          "hints": {
+            "ru": "in any case",
+            "vi": "in any case"
+          }
+        },
+        "ru": {
+          "text": "в любом случае",
+          "ipa": "/v lʲubom slutɕaje/",
+          "hints": {
+            "en": "в любом случае",
+            "vi": "в любом случае"
+          }
+        },
+        "vi": {
+          "text": "dù sao cũng",
+          "ipa": "/zu˧˩ saːw˧ kuŋ˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dù sao cũng",
+            "en": "dù sao cũng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.no_matter",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "no matter",
+          "ipa": "/nəʊ ˈmætɚ/",
+          "hints": {
+            "ru": "no matter",
+            "vi": "no matter"
+          }
+        },
+        "ru": {
+          "text": "неважно",
+          "ipa": "/nʲevaʐno/",
+          "hints": {
+            "en": "неважно",
+            "vi": "неважно"
+          }
+        },
+        "vi": {
+          "text": "bất kể",
+          "ipa": "/ɓət˧˥ ke˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bất kể",
+            "en": "bất kể"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.no_matter_what",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "no matter what",
+          "ipa": "/nəʊ ˈmætɚ wɒt/",
+          "hints": {
+            "ru": "no matter what",
+            "vi": "no matter what"
+          }
+        },
+        "ru": {
+          "text": "что бы ни было",
+          "ipa": "/ʂto bɨ nʲi bɨlo/",
+          "hints": {
+            "en": "что бы ни было",
+            "vi": "что бы ни было"
+          }
+        },
+        "vi": {
+          "text": "dù thế nào",
+          "ipa": "/zu˧˩ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dù thế nào",
+            "en": "dù thế nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.no_matter_how",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "no matter how",
+          "ipa": "/nəʊ ˈmætɚ haʊ/",
+          "hints": {
+            "ru": "no matter how",
+            "vi": "no matter how"
+          }
+        },
+        "ru": {
+          "text": "как бы ни",
+          "ipa": "/kak bɨ nʲi/",
+          "hints": {
+            "en": "как бы ни",
+            "vi": "как бы ни"
+          }
+        },
+        "vi": {
+          "text": "dù ... thế nào",
+          "ipa": "/zu˧˩ tʰe˧˥ naːw˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "dù ... thế nào",
+            "en": "dù ... thế nào"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.more_or_less",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "more or less",
+          "ipa": "/ˈmɔɹ ɔː ˈlɛs/",
+          "hints": {
+            "ru": "more or less",
+            "vi": "more or less"
+          }
+        },
+        "ru": {
+          "text": "более или менее",
+          "ipa": "/bolʲeje ilʲi mʲenʲeje/",
+          "hints": {
+            "en": "более или менее",
+            "vi": "более или менее"
+          }
+        },
+        "vi": {
+          "text": "ít nhiều",
+          "ipa": "/it˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "ít nhiều",
+            "en": "ít nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.sooner_or_later",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "sooner or later",
+          "ipa": "/ˈsunɚ ɔː ˈleɪtə/",
+          "hints": {
+            "ru": "sooner or later",
+            "vi": "sooner or later"
+          }
+        },
+        "ru": {
+          "text": "рано или поздно",
+          "ipa": "/rano ilʲi pozdno/",
+          "hints": {
+            "en": "рано или поздно",
+            "vi": "рано или поздно"
+          }
+        },
+        "vi": {
+          "text": "sớm muộn gì",
+          "ipa": "/səːm˧˥ muən˧ˀ zi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "sớm muộn gì",
+            "en": "sớm muộn gì"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.by_and_large",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "by and large",
+          "ipa": "/baɪ ænd ˈlɑɹdʒ/",
+          "hints": {
+            "ru": "by and large",
+            "vi": "by and large"
+          }
+        },
+        "ru": {
+          "text": "в общем",
+          "ipa": "/v obɕːem/",
+          "hints": {
+            "en": "в общем",
+            "vi": "в общем"
+          }
+        },
+        "vi": {
+          "text": "nhìn chung",
+          "ipa": "/ɲin˧˩ tɕuŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nhìn chung",
+            "en": "nhìn chung"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.and_yet",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "and yet",
+          "ipa": "/ænd jet/",
+          "hints": {
+            "ru": "and yet",
+            "vi": "and yet"
+          }
+        },
+        "ru": {
+          "text": "и всё же",
+          "ipa": "/i vsʲo ʐe/",
+          "hints": {
+            "en": "и всё же",
+            "vi": "и всё же"
+          }
+        },
+        "vi": {
+          "text": "vậy mà",
+          "ipa": "/vəj˧ˀ maː˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "vậy mà",
+            "en": "vậy mà"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.even_so",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "even so",
+          "ipa": "/ˈivɪn səʊ/",
+          "hints": {
+            "ru": "even so",
+            "vi": "even so"
+          }
+        },
+        "ru": {
+          "text": "даже так",
+          "ipa": "/daʐe tak/",
+          "hints": {
+            "en": "даже так",
+            "vi": "даже так"
+          }
+        },
+        "vi": {
+          "text": "dù vậy",
+          "ipa": "/zu˧˩ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "dù vậy",
+            "en": "dù vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.if_so",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "if so",
+          "ipa": "/ɪf səʊ/",
+          "hints": {
+            "ru": "if so",
+            "vi": "if so"
+          }
+        },
+        "ru": {
+          "text": "если так",
+          "ipa": "/jeslʲi tak/",
+          "hints": {
+            "en": "если так",
+            "vi": "если так"
+          }
+        },
+        "vi": {
+          "text": "nếu vậy",
+          "ipa": "/new˧˥ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nếu vậy",
+            "en": "nếu vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.if_not",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "if not",
+          "ipa": "/ɪf nɒt/",
+          "hints": {
+            "ru": "if not",
+            "vi": "if not"
+          }
+        },
+        "ru": {
+          "text": "если нет",
+          "ipa": "/jeslʲi nʲet/",
+          "hints": {
+            "en": "если нет",
+            "vi": "если нет"
+          }
+        },
+        "vi": {
+          "text": "nếu không",
+          "ipa": "/new˧˥ xowŋ˧/",
+          "tones": [],
+          "hints": {
+            "ru": "nếu không",
+            "en": "nếu không"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.or_so",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "or so",
+          "ipa": "/ɔː səʊ/",
+          "hints": {
+            "ru": "or so",
+            "vi": "or so"
+          }
+        },
+        "ru": {
+          "text": "или около того",
+          "ipa": "/ilʲi okolo toɡo/",
+          "hints": {
+            "en": "или около того",
+            "vi": "или около того"
+          }
+        },
+        "vi": {
+          "text": "hoặc khoảng",
+          "ipa": "/hɔac˧ˀ xɔaːng˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "hoặc khoảng",
+            "en": "hoặc khoảng"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.and_then",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "and then",
+          "ipa": "/ænd ˈðɛn/",
+          "hints": {
+            "ru": "and then",
+            "vi": "and then"
+          }
+        },
+        "ru": {
+          "text": "а потом",
+          "ipa": "/a potom/",
+          "hints": {
+            "en": "а потом",
+            "vi": "а потом"
+          }
+        },
+        "vi": {
+          "text": "rồi thì",
+          "ipa": "/roj˨˩ tʰi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "rồi thì",
+            "en": "rồi thì"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.back",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "back",
+          "ipa": "/ˈbæk/",
+          "hints": {
+            "ru": "back",
+            "vi": "back"
+          }
+        },
+        "ru": {
+          "text": "назад / обратно",
+          "ipa": "/nazad obratno/",
+          "hints": {
+            "en": "назад / обратно",
+            "vi": "назад / обратно"
+          }
+        },
+        "vi": {
+          "text": "lại / về",
+          "ipa": "/laːj˧ˀ ve˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "lại / về",
+            "en": "lại / về"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.forth",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "forth",
+          "ipa": "/ˈfɔɹθ/",
+          "hints": {
+            "ru": "forth",
+            "vi": "forth"
+          }
+        },
+        "ru": {
+          "text": "вперёд",
+          "ipa": "/vpʲerʲod/",
+          "hints": {
+            "en": "вперёд",
+            "vi": "вперёд"
+          }
+        },
+        "vi": {
+          "text": "ra",
+          "ipa": "/zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "ra",
+            "en": "ra"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.apart",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "apart",
+          "ipa": "/əˈpɑɹt/",
+          "hints": {
+            "ru": "apart",
+            "vi": "apart"
+          }
+        },
+        "ru": {
+          "text": "порознь",
+          "ipa": "/poroznʲ/",
+          "hints": {
+            "en": "порознь",
+            "vi": "порознь"
+          }
+        },
+        "vi": {
+          "text": "riêng ra",
+          "ipa": "/ziəŋ˧ zaː˧/",
+          "tones": [],
+          "hints": {
+            "ru": "riêng ra",
+            "en": "riêng ra"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.aside",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "aside",
+          "ipa": "/əˈsaɪd/",
+          "hints": {
+            "ru": "aside",
+            "vi": "aside"
+          }
+        },
+        "ru": {
+          "text": "в сторону",
+          "ipa": "/v storonu/",
+          "hints": {
+            "en": "в сторону",
+            "vi": "в сторону"
+          }
+        },
+        "vi": {
+          "text": "sang một bên",
+          "ipa": "/saːŋ˧ mot˧ˀ ɓen˧/",
+          "tones": [],
+          "hints": {
+            "ru": "sang một bên",
+            "en": "sang một bên"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.instead",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "instead",
+          "ipa": "/ˌɪˈnstɛd/",
+          "hints": {
+            "ru": "instead",
+            "vi": "instead"
+          }
+        },
+        "ru": {
+          "text": "вместо этого",
+          "ipa": "/vmʲesto etoɡo/",
+          "hints": {
+            "en": "вместо этого",
+            "vi": "вместо этого"
+          }
+        },
+        "vi": {
+          "text": "thay vào đó",
+          "ipa": "/tʰaj˧ vaːw˧˩ ɗɔ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "thay vào đó",
+            "en": "thay vào đó"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.alone",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "alone",
+          "ipa": "/əˈloʊn/",
+          "hints": {
+            "ru": "alone",
+            "vi": "alone"
+          }
+        },
+        "ru": {
+          "text": "только / один",
+          "ipa": "/tolʲko odʲin/",
+          "hints": {
+            "en": "только / один",
+            "vi": "только / один"
+          }
+        },
+        "vi": {
+          "text": "chỉ / một mình",
+          "ipa": "/tɕi˧˩˧ mot˧ˀ miɲ˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chỉ / một mình",
+            "en": "chỉ / một mình"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.elsewise",
+      "kind": "word",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "elsewise",
+          "ipa": "/elsewise/",
+          "hints": {
+            "ru": "elsewise",
+            "vi": "elsewise"
+          }
+        },
+        "ru": {
+          "text": "иначе",
+          "ipa": "/inatɕe/",
+          "hints": {
+            "en": "иначе",
+            "vi": "иначе"
+          }
+        },
+        "vi": {
+          "text": "cách khác",
+          "ipa": "/kajk˧˥ xaːk˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cách khác",
+            "en": "cách khác"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.nowhere_near",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "nowhere near",
+          "ipa": "/ˈnəʊweə nɪə/",
+          "hints": {
+            "ru": "nowhere near",
+            "vi": "nowhere near"
+          }
+        },
+        "ru": {
+          "text": "далеко не",
+          "ipa": "/dalʲeko nʲe/",
+          "hints": {
+            "en": "далеко не",
+            "vi": "далеко не"
+          }
+        },
+        "vi": {
+          "text": "còn lâu",
+          "ipa": "/kɔn˧˩ ləu˧/",
+          "tones": [],
+          "hints": {
+            "ru": "còn lâu",
+            "en": "còn lâu"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.not_quite",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "not quite",
+          "ipa": "/nɒt ˈkwaɪt/",
+          "hints": {
+            "ru": "not quite",
+            "vi": "not quite"
+          }
+        },
+        "ru": {
+          "text": "не совсем",
+          "ipa": "/nʲe sovsʲem/",
+          "hints": {
+            "en": "не совсем",
+            "vi": "не совсем"
+          }
+        },
+        "vi": {
+          "text": "không hẳn",
+          "ipa": "/xowŋ˧ han˧˩˧/",
+          "tones": [],
+          "hints": {
+            "ru": "không hẳn",
+            "en": "không hẳn"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.not_yet",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "not yet",
+          "ipa": "/nɒt jet/",
+          "hints": {
+            "ru": "not yet",
+            "vi": "not yet"
+          }
+        },
+        "ru": {
+          "text": "ещё нет",
+          "ipa": "/jeɕːo nʲet/",
+          "hints": {
+            "en": "ещё нет",
+            "vi": "ещё нет"
+          }
+        },
+        "vi": {
+          "text": "chưa",
+          "ipa": "/tɕɨə˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chưa",
+            "en": "chưa"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.not_only_that",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "not only that",
+          "ipa": "/nɒt ˈəʊnli ðæt/",
+          "hints": {
+            "ru": "not only that",
+            "vi": "not only that"
+          }
+        },
+        "ru": {
+          "text": "мало того",
+          "ipa": "/malo toɡo/",
+          "hints": {
+            "en": "мало того",
+            "vi": "мало того"
+          }
+        },
+        "vi": {
+          "text": "không chỉ vậy",
+          "ipa": "/xowŋ˧ tɕi˧˩˧ vəj˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "không chỉ vậy",
+            "en": "không chỉ vậy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.as_it_were",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "as it were",
+          "ipa": "/ˈæz ɪt wɜː/",
+          "hints": {
+            "ru": "as it were",
+            "vi": "as it were"
+          }
+        },
+        "ru": {
+          "text": "так сказать",
+          "ipa": "/tak skazatʲ/",
+          "hints": {
+            "en": "так сказать",
+            "vi": "так сказать"
+          }
+        },
+        "vi": {
+          "text": "có thể nói",
+          "ipa": "/kɔ˧˥ tʰe˧˩˧ nɔj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "có thể nói",
+            "en": "có thể nói"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.so_much",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "so much",
+          "ipa": "/səʊ mʌtʃ/",
+          "hints": {
+            "ru": "so much",
+            "vi": "so much"
+          }
+        },
+        "ru": {
+          "text": "так много",
+          "ipa": "/tak mnoɡo/",
+          "hints": {
+            "en": "так много",
+            "vi": "так много"
+          }
+        },
+        "vi": {
+          "text": "nhiều đến thế",
+          "ipa": "/ɲiəw˧˩ ɗen˧˥ tʰe˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều đến thế",
+            "en": "nhiều đến thế"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.too_much",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "too much",
+          "ipa": "/tuː mʌtʃ/",
+          "hints": {
+            "ru": "too much",
+            "vi": "too much"
+          }
+        },
+        "ru": {
+          "text": "слишком много",
+          "ipa": "/slʲiʂkom mnoɡo/",
+          "hints": {
+            "en": "слишком много",
+            "vi": "слишком много"
+          }
+        },
+        "vi": {
+          "text": "quá nhiều",
+          "ipa": "/kwaː˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "quá nhiều",
+            "en": "quá nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.too_many",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "too many",
+          "ipa": "/tuː ˈmeni/",
+          "hints": {
+            "ru": "too many",
+            "vi": "too many"
+          }
+        },
+        "ru": {
+          "text": "слишком много",
+          "ipa": "/slʲiʂkom mnoɡo/",
+          "hints": {
+            "en": "слишком много",
+            "vi": "слишком много"
+          }
+        },
+        "vi": {
+          "text": "quá nhiều",
+          "ipa": "/kwaː˧˥ ɲiəw˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "quá nhiều",
+            "en": "quá nhiều"
+          }
+        }
+      }
+    },
+    {
+      "id": "pt.so_many",
+      "kind": "phrase",
+      "theme": "function",
+      "tags": [
+        "function",
+        "particle"
+      ],
+      "grammar": {
+        "en": "Particle or discourse marker.",
+        "ru": "Частица.",
+        "vi": "Tiểu từ."
+      },
+      "texts": {
+        "en": {
+          "text": "so many",
+          "ipa": "/səʊ ˈmeni/",
+          "hints": {
+            "ru": "so many",
+            "vi": "so many"
+          }
+        },
+        "ru": {
+          "text": "так много",
+          "ipa": "/tak mnoɡo/",
+          "hints": {
+            "en": "так много",
+            "vi": "так много"
+          }
+        },
+        "vi": {
+          "text": "nhiều đến thế",
+          "ipa": "/ɲiəw˧˩ ɗen˧˥ tʰe˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "nhiều đến thế",
+            "en": "nhiều đến thế"
           }
         }
       }
