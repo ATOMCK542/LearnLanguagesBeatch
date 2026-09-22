@@ -6,9 +6,14 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
 import dev.sergey.triad.ui.TriadRoot
 import dev.sergey.triad.ui.theme.TriadTheme
+import dev.sergey.triad.ui.widget.LessonGlanceWidget
+import dev.sergey.triad.ui.widget.ReviewGlanceWidget
+import kotlinx.coroutines.launch
+import androidx.glance.appwidget.updateAll
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -22,6 +27,14 @@ class MainActivity : AppCompatActivity() {
             TriadTheme {
                 TriadRoot()
             }
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        lifecycleScope.launch {
+            LessonGlanceWidget().updateAll(this@MainActivity)
+            ReviewGlanceWidget().updateAll(this@MainActivity)
         }
     }
 }

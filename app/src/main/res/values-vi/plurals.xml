@@ -18,6 +18,9 @@
     <plurals name="interval_hours">
         <item quantity="other">%d giờ</item>
     </plurals>
+    <plurals name="widget_today">
+        <item quantity="other">%d thẻ hôm nay</item>
+    </plurals>
     <plurals name="interval_days">
         <item quantity="other">%d ngày</item>
     </plurals>

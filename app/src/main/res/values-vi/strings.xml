@@ -85,6 +85,8 @@
     <string name="theme_studying">Đang học: %s</string>
     <string name="theme_studying_short">Đã chọn</string>
     <string name="theme_study">Học</string>
+    <string name="theme_progress">Đã học %1$d/%2$d</string>
+    <string name="theme_studied">Đã học</string>
     <string name="theme_open">Chạm để học chủ đề này</string>
     <string name="theme_unlock">Chạm để mở chủ đề</string>
     <string name="lang_en_endonym">English</string>
@@ -92,6 +94,21 @@
     <string name="lang_vi_endonym">Tiếng Việt</string>
     <string name="error_generic">Có lỗi xảy ra</string>
     <string name="app_version">Phiên bản %1$s</string>
+    <string name="widget_home_title">Màn hình điện thoại</string>
+    <string name="widget_add_lesson">Tiện ích bài học</string>
+    <string name="widget_add_review">Tiện ích ôn tập</string>
+    <string name="widget_pin_unsupported">Nhấn giữ màn hình chính, mở Tiện ích, rồi thêm Bài học hoặc Ôn tập.</string>
+    <string name="widget_lesson_title">Bài học</string>
+    <string name="widget_review_title">Ôn tập</string>
+    <string name="widget_lesson_description">Bài học ngắn, làm một lần mỗi ngày</string>
+    <string name="widget_review_description">Ôn ngắn các từ đã học, một lần mỗi ngày</string>
+    <string name="widget_status_ready">Mở buổi hôm nay</string>
+    <string name="widget_status_done">Xong cho hôm nay</string>
+    <string name="widget_status_empty_lesson">Chưa có gì để học</string>
+    <string name="widget_status_empty_review">Hãy học vài thẻ trước</string>
+    <string name="widget_status_no_profile">Mở ứng dụng và tạo hồ sơ</string>
+    <string name="widget_done_body">Buổi hôm nay đã xong. Ngày mai sẽ mở lại.</string>
+    <string name="widget_close">Đóng</string>
     <string-array name="tone_names">
         <item>ngang</item>
         <item>sắc</item>

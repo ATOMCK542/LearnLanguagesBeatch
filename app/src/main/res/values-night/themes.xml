@@ -7,4 +7,12 @@
         <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
         <item name="android:localeConfig" tools:targetApi="33">@xml/locales_config</item>
     </style>
+
+    <style name="Theme.Triad.Widget" parent="Theme.Triad">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
 </resources>

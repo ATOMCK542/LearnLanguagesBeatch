@@ -18,9 +18,10 @@ import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.LocalizedText
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
-import dev.sergey.triad.domain.Rating
 import dev.sergey.triad.domain.SessionItem
+import dev.sergey.triad.domain.ThemeStudy
 import dev.sergey.triad.domain.Theme
+import dev.sergey.triad.domain.WidgetKind
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -46,6 +47,7 @@ data class MainUiState(
     val query: String = "",
     val ttsVoices: Set<AppLanguage> = emptySet(),
     val masteredIds: Set<String> = emptySet(),
+    val themeStudy: Map<String, ThemeStudy> = emptyMap(),
     val practiceAvailable: Int = 0,
     val practiceSize: Int = 20,
     val sessionPractice: Boolean = false,
@@ -83,6 +85,7 @@ class MainViewModel @Inject constructor(
                 val concepts = repo.concepts()
                 val unlocked = active?.let { repo.pathState(it).filter { e -> e.value.unlocked }.keys } ?: emptySet()
                 val mastered = active?.let { repo.masteredConceptIds(it.id) } ?: emptySet()
+                val themeStudy = if (active != null) repo.themeStudy() else emptyMap()
                 val practiceAvailable = repo.practicePoolSize()
                 val sizes = PracticePlanner.sizeChoices(practiceAvailable)
                 val practiceSize = _state.value.practiceSize.let { current ->
@@ -98,6 +101,7 @@ class MainViewModel @Inject constructor(
                         concepts = concepts,
                         unlocked = unlocked,
                         masteredIds = mastered,
+                        themeStudy = themeStudy,
                         practiceAvailable = practiceAvailable,
                         practiceSize = practiceSize,
                     )
@@ -178,6 +182,40 @@ class MainViewModel @Inject constructor(
         }
     }
 
+    fun startWidgetSession(kind: WidgetKind) {
+        _state.update {
+            it.copy(
+                planningSession = true,
+                session = emptyList(),
+                sessionIndex = 0,
+                revealed = false,
+                lastCorrect = null,
+                lastPicked = null,
+                quizPicks = emptyMap(),
+                sessionPractice = kind == WidgetKind.Review,
+            )
+        }
+        viewModelScope.launch {
+            val plan = when (kind) {
+                WidgetKind.Lesson -> repo.planSession(sessionSize = WidgetKind.SESSION_SIZE)
+                WidgetKind.Review -> repo.planPractice(WidgetKind.SESSION_SIZE)
+            }
+            _state.update {
+                it.copy(
+                    session = plan.items,
+                    sessionIndex = 0,
+                    revealed = false,
+                    lastCorrect = null,
+                    lastPicked = null,
+                    quizPicks = emptyMap(),
+                    sessionPractice = kind == WidgetKind.Review,
+                    planningSession = false,
+                    due = repo.dueCount(),
+                )
+            }
+        }
+    }
+
     fun toggleMastered(conceptId: String) {
         viewModelScope.launch {
             val next = conceptId !in _state.value.masteredIds
@@ -231,10 +269,7 @@ class MainViewModel @Inject constructor(
                 bank.lang to AnswerEvaluator.textMatches(bank.correct, picked, bank.lang)
             }
             if (!_state.value.sessionPractice) {
-                item.reviews.forEach { review ->
-                    val ok = results[review.targetLang] ?: return@forEach
-                    repo.applyRating(review, if (ok) Rating.Good else Rating.Again)
-                }
+                repo.gradeLesson(item.reviews, results)
             }
             _state.update {
                 it.copy(
@@ -243,6 +278,7 @@ class MainViewModel @Inject constructor(
                     lastCorrect = results.values.all { ok -> ok },
                 )
             }
+            refreshStudyCounts()
         }
     }
 
@@ -251,13 +287,19 @@ class MainViewModel @Inject constructor(
         clicks.play()
         viewModelScope.launch {
             if (!_state.value.sessionPractice) {
-                repo.applyRating(item.review, if (correct) Rating.Good else Rating.Again)
+                repo.gradeLesson(item.reviews, mapOf(item.exercise.targetLang to correct))
             }
             _state.update { it.copy(revealed = true, lastCorrect = correct, lastPicked = picked) }
+            refreshStudyCounts()
         }
     }
 
     fun next() {
+        val snapshot = _state.value
+        val finishingStudy = !snapshot.sessionPractice &&
+            snapshot.session.isNotEmpty() &&
+            snapshot.sessionIndex + 1 >= snapshot.session.size
+        val finished = if (finishingStudy) snapshot.session else emptyList()
         _state.update {
             it.copy(
                 sessionIndex = it.sessionIndex + 1,
@@ -268,7 +310,23 @@ class MainViewModel @Inject constructor(
             )
         }
         viewModelScope.launch {
-            _state.update { it.copy(due = repo.dueCount()) }
+            if (finished.isNotEmpty()) repo.enrollSession(finished)
+            refreshStudyCounts()
+        }
+    }
+
+    private suspend fun refreshStudyCounts() {
+        val available = repo.practicePoolSize()
+        val sizes = PracticePlanner.sizeChoices(available)
+        val study = repo.themeStudy()
+        _state.update {
+            val size = if (it.practiceSize in sizes) it.practiceSize else sizes.lastOrNull() ?: 0
+            it.copy(
+                due = repo.dueCount(),
+                practiceAvailable = available,
+                practiceSize = size,
+                themeStudy = study,
+            )
         }
     }
 

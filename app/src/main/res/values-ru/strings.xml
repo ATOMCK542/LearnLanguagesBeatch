@@ -85,6 +85,8 @@
     <string name="theme_studying">Тема: %s</string>
     <string name="theme_studying_short">Выбрана</string>
     <string name="theme_study">Учить</string>
+    <string name="theme_progress">Изучено %1$d/%2$d</string>
+    <string name="theme_studied">Изучен</string>
     <string name="theme_open">Нажмите, чтобы учить эту тему</string>
     <string name="theme_unlock">Нажмите, чтобы открыть тему</string>
     <string name="lang_en_endonym">English</string>
@@ -92,6 +94,21 @@
     <string name="lang_vi_endonym">Tiếng Việt</string>
     <string name="error_generic">Что-то пошло не так</string>
     <string name="app_version">Версия %1$s</string>
+    <string name="widget_home_title">Экран телефона</string>
+    <string name="widget_add_lesson">Виджет урока</string>
+    <string name="widget_add_review">Виджет повторения</string>
+    <string name="widget_pin_unsupported">Зажмите главный экран, откройте «Виджеты» и добавьте «Урок» или «Повторение».</string>
+    <string name="widget_lesson_title">Урок</string>
+    <string name="widget_review_title">Повторение</string>
+    <string name="widget_lesson_description">Короткий урок, который можно пройти раз в день</string>
+    <string name="widget_review_description">Короткое повторение уже изученных слов, раз в день</string>
+    <string name="widget_status_ready">Открыть сегодняшнюю сессию</string>
+    <string name="widget_status_done">На сегодня готово</string>
+    <string name="widget_status_empty_lesson">Пока нечего учить</string>
+    <string name="widget_status_empty_review">Сначала выучите несколько карточек</string>
+    <string name="widget_status_no_profile">Откройте приложение и создайте профиль</string>
+    <string name="widget_done_body">Сегодняшняя сессия пройдена. Завтра откроется снова.</string>
+    <string name="widget_close">Закрыть</string>
     <string-array name="tone_names">
         <item>ngang</item>
         <item>sắc</item>

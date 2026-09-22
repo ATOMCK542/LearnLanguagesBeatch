@@ -62,6 +62,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
@@ -82,8 +83,10 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
+import dev.sergey.triad.domain.WidgetKind
 import dev.sergey.triad.ui.theme.lessonPalette
 import dev.sergey.triad.ui.theme.triadCardColors
+import dev.sergey.triad.ui.widget.WidgetPinner
 
 @Composable
 fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
@@ -105,7 +108,7 @@ fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
         }
         NavHost(navController = nav, startDestination = "main", modifier = Modifier.fillMaxSize()) {
             composable("main") { MainTabs(nav, state, viewModel) }
-            composable("session") { SessionScreen(nav, state, viewModel) }
+            composable("session") { SessionScreen(state, viewModel, onClose = { nav.popBackStack() }) }
             composable("onboarding") {
                 OnboardingScreen(onCreate = { n, e, l, t ->
                     viewModel.createProfile(n, e, l, t)
@@ -212,6 +215,34 @@ private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit
                 Text(stringResource(R.string.action_review))
             }
         }
+        WidgetPinRow()
+    }
+}
+
+@Composable
+private fun WidgetPinRow() {
+    val context = LocalContext.current
+    val pinSupported = remember { WidgetPinner.supported(context) }
+    Text(stringResource(R.string.widget_home_title), style = MaterialTheme.typography.titleMedium)
+    if (pinSupported) {
+        Button(
+            onClick = { WidgetPinner.request(context, WidgetKind.Lesson) },
+            modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
+        ) {
+            Text(stringResource(R.string.widget_add_lesson))
+        }
+        Button(
+            onClick = { WidgetPinner.request(context, WidgetKind.Review) },
+            modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
+        ) {
+            Text(stringResource(R.string.widget_add_review))
+        }
+    } else {
+        Text(
+            stringResource(R.string.widget_pin_unsupported),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
 }
 
@@ -227,6 +258,7 @@ private fun PathPane(state: MainUiState, vm: MainViewModel) {
             val lang = state.active?.uiLang ?: AppLanguage.En
             val selected = theme.id == state.selectedThemeId
             val description = theme.description.forLang(lang)
+            val study = state.themeStudy[theme.id]
             Card(
                 modifier = Modifier.fillMaxWidth(),
                 colors = triadCardColors(),
@@ -247,6 +279,21 @@ private fun PathPane(state: MainUiState, vm: MainViewModel) {
                                 description,
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
+                        if (study != null && study.total > 0) {
+                            Text(
+                                if (study.studied) {
+                                    stringResource(R.string.theme_studied)
+                                } else {
+                                    stringResource(R.string.theme_progress, study.covered, study.total)
+                                },
+                                style = MaterialTheme.typography.labelLarge,
+                                color = if (study.studied) {
+                                    MaterialTheme.colorScheme.primary
+                                } else {
+                                    MaterialTheme.colorScheme.onSurfaceVariant
+                                },
                             )
                         }
                     }
@@ -512,8 +559,15 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainViewModel) {
+internal fun SessionScreen(
+    state: MainUiState,
+    vm: MainViewModel,
+    compact: Boolean = false,
+    onClose: () -> Unit,
+) {
     val item = vm.currentItem()
+    val padH = if (compact) 12.dp else 16.dp
+    val buttonMin = if (compact) 44.dp else 52.dp
     Scaffold(
         contentWindowInsets = WindowInsets.safeDrawing,
         topBar = {
@@ -532,7 +586,7 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                     )
                 },
                 navigationIcon = {
-                    IconButton(onClick = { nav.popBackStack() }) {
+                    IconButton(onClick = onClose) {
                         Icon(
                             Icons.AutoMirrored.Outlined.ArrowBack,
                             contentDescription = stringResource(R.string.action_back),
@@ -547,10 +601,13 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                     item == null -> {
                         SessionBottomBar {
                             Button(
-                                onClick = { nav.popBackStack() },
-                                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
+                                onClick = onClose,
+                                modifier = Modifier.fillMaxWidth().heightIn(min = buttonMin),
                             ) {
-                                Text(stringResource(R.string.session_back), style = MaterialTheme.typography.titleMedium)
+                                Text(
+                                    stringResource(if (compact) R.string.widget_close else R.string.session_back),
+                                    style = MaterialTheme.typography.titleMedium,
+                                )
                             }
                         }
                     }
@@ -558,7 +615,7 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
                         SessionBottomBar {
                             Button(
                                 onClick = vm::next,
-                                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp).testTag("next_card"),
+                                modifier = Modifier.fillMaxWidth().heightIn(min = buttonMin).testTag("next_card"),
                             ) {
                                 Text(stringResource(R.string.action_next), style = MaterialTheme.typography.titleMedium)
                             }
@@ -590,7 +647,7 @@ private fun SessionScreen(nav: NavHostController, state: MainUiState, vm: MainVi
             Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 16.dp, vertical = 8.dp),
+                .padding(horizontal = padH, vertical = if (compact) 4.dp else 8.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
             LinearProgressIndicator(

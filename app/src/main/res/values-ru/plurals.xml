@@ -36,6 +36,12 @@
         <item quantity="many">%d часов</item>
         <item quantity="other">%d часа</item>
     </plurals>
+    <plurals name="widget_today">
+        <item quantity="one">%d карточка на сегодня</item>
+        <item quantity="few">%d карточки на сегодня</item>
+        <item quantity="many">%d карточек на сегодня</item>
+        <item quantity="other">%d карточки на сегодня</item>
+    </plurals>
     <plurals name="interval_days">
         <item quantity="one">%d день</item>
         <item quantity="few">%d дня</item>

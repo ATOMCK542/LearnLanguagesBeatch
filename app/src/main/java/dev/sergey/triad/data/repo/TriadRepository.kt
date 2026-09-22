@@ -19,8 +19,10 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.ConceptKind
 import dev.sergey.triad.domain.ConceptText
 import dev.sergey.triad.domain.ExerciseFactory
+import dev.sergey.triad.domain.LessonProgress
 import dev.sergey.triad.domain.LocalizedText
 import dev.sergey.triad.domain.PracticePlanner
+import dev.sergey.triad.domain.ThemeStudy
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.Rating
 import dev.sergey.triad.domain.ReviewItem
@@ -117,6 +119,7 @@ class TriadRepository @Inject constructor(
     suspend fun planSession(
         now: Long = System.currentTimeMillis(),
         preferredThemeId: String? = null,
+        sessionSize: Int = 10,
     ): SessionPlan {
         val profile = activeProfile() ?: return SessionPlan(emptyList())
         ensureContentThemeUnlocked(profile)
@@ -132,6 +135,7 @@ class TriadRepository @Inject constructor(
             visible,
             reviews,
             now,
+            sessionSize = sessionSize,
             preferredThemeId = preferredThemeId,
         )
     }
@@ -209,6 +213,37 @@ class TriadRepository @Inject constructor(
             ).toEntity(),
         )
         bumpPath(profile.id, updated.conceptId)
+    }
+
+    suspend fun gradeLesson(
+        reviews: List<ReviewItem>,
+        results: Map<AppLanguage, Boolean>,
+        now: Long = System.currentTimeMillis(),
+    ) {
+        reviews.distinctBy { it.conceptId to it.targetLang }.forEach { review ->
+            val ok = results[review.targetLang]
+            if (ok == null && review.reps > 0) return@forEach
+            applyRating(review, if (ok == false) Rating.Again else Rating.Good, now)
+        }
+    }
+
+    suspend fun enrollSession(items: List<SessionItem>, now: Long = System.currentTimeMillis()) {
+        val profile = activeProfile() ?: return
+        val existing = db.progress().reviews(profile.id).map { it.toDomain() }
+        LessonProgress.stillUnseen(items.flatMap { it.reviews }, existing)
+            .filter { it.profileId == profile.id }
+            .forEach { applyRating(it, Rating.Good, now) }
+    }
+
+    suspend fun themeStudy(): Map<String, ThemeStudy> {
+        val profile = activeProfile() ?: return emptyMap()
+        val primers = themes().filter { it.kind == "primer" }.map { it.id }.toSet()
+        return LessonProgress.byTheme(
+            profileId = profile.id,
+            concepts = concepts(),
+            reviews = db.progress().reviews(profile.id).map { it.toDomain() },
+            skipThemeIds = primers,
+        )
     }
 
     suspend fun completePrimer(primerId: String) {
@@ -327,8 +362,11 @@ class TriadRepository @Inject constructor(
     }
 
     private suspend fun unlockFirstThemes(profile: Profile) {
-        contentUnits().firstOrNull()?.let {
-            db.progress().upsertPath(PathProgressEntity(profile.id, it.id, true, 0))
+        val existing = db.progress().path(profile.id).map { it.themeId }.toSet()
+        contentUnits().firstOrNull()?.let { theme ->
+            if (theme.id !in existing) {
+                db.progress().upsertPath(PathProgressEntity(profile.id, theme.id, true, 0))
+            }
         }
         themes().filter { it.kind == "primer" }.forEach { theme ->
             val needed = when (theme.id) {
@@ -337,7 +375,7 @@ class TriadRepository @Inject constructor(
                 "primer_en" -> AppLanguage.En in profile.studyTargets()
                 else -> true
             }
-            if (needed) {
+            if (needed && theme.id !in existing) {
                 db.progress().upsertPath(PathProgressEntity(profile.id, theme.id, true, 0))
             }
         }

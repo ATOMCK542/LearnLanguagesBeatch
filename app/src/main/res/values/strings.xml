@@ -85,6 +85,8 @@
     <string name="theme_studying">Studying: %s</string>
     <string name="theme_studying_short">Selected</string>
     <string name="theme_study">Study</string>
+    <string name="theme_progress">%1$d/%2$d learned</string>
+    <string name="theme_studied">Studied</string>
     <string name="theme_open">Tap to study this theme</string>
     <string name="theme_unlock">Tap to open this theme</string>
     <string name="lang_en_endonym">English</string>
@@ -92,6 +94,21 @@
     <string name="lang_vi_endonym">Tiếng Việt</string>
     <string name="error_generic">Something went wrong</string>
     <string name="app_version">Version %1$s</string>
+    <string name="widget_home_title">Home screen</string>
+    <string name="widget_add_lesson">Add lesson widget</string>
+    <string name="widget_add_review">Add review widget</string>
+    <string name="widget_pin_unsupported">Long-press the home screen, open Widgets, and add Lesson or Review.</string>
+    <string name="widget_lesson_title">Lesson</string>
+    <string name="widget_review_title">Review</string>
+    <string name="widget_lesson_description">A short lesson you can finish once a day</string>
+    <string name="widget_review_description">A short review of words you already studied, once a day</string>
+    <string name="widget_status_ready">Open today\'s session</string>
+    <string name="widget_status_done">Done for today</string>
+    <string name="widget_status_empty_lesson">Nothing to study yet</string>
+    <string name="widget_status_empty_review">Learn a few cards first</string>
+    <string name="widget_status_no_profile">Open the app and create a profile</string>
+    <string name="widget_done_body">Today\'s session is done. It opens again tomorrow.</string>
+    <string name="widget_close">Close</string>
     <string-array name="tone_names">
         <item>ngang</item>
         <item>sắc</item>
