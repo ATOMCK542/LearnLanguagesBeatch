@@ -43,4 +43,24 @@ class ProfileIsolationTest {
         assertEquals(1, db.progress().mastered(b).size)
         db.close()
     }
+
+    @Test
+    fun updatingProfileKeepsLessonProgress() = runBlocking {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        val db = Room.inMemoryDatabaseBuilder(context, TriadDatabase::class.java)
+            .allowMainThreadQueries()
+            .build()
+        val id = db.profiles().upsert(
+            ProfileEntity(0, "A", null, 1, 1, "ru", "ru", "en", 20, true, 0, null, 0),
+        )
+        db.progress().upsertReview(
+            ReviewItemEntity(id, "pron.i", AppLanguage.En.code, 2.4, 5.0, 9_000, 1, 1, 0, FsrsCardState.Review.name, 0.0, 1.0),
+        )
+        db.progress().upsertPath(PathProgressEntity(id, "pronouns", true, 1))
+        val saved = db.profiles().byId(id)!!
+        db.profiles().upsert(saved.copy(reviewsDone = saved.reviewsDone + 1, streakDays = 1))
+        assertEquals(listOf("pron.i"), db.progress().reviews(id).map { it.conceptId })
+        assertEquals(1, db.progress().path(id).single().completedCount)
+        db.close()
+    }
 }

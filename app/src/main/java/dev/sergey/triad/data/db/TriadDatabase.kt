@@ -11,6 +11,7 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.RoomDatabase
 import androidx.room.Transaction
+import androidx.room.Update
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
@@ -172,8 +173,23 @@ interface ProfileDao {
     @Query("SELECT * FROM profiles WHERE id = :id")
     suspend fun byId(id: Long): ProfileEntity?
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun upsert(entity: ProfileEntity): Long
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insert(entity: ProfileEntity): Long
+
+    @Update
+    suspend fun update(entity: ProfileEntity)
+
+    /**
+     * In-place save. INSERT OR REPLACE would delete the profile row first and
+     * ON DELETE CASCADE would wipe reviews, path progress, and mastered words.
+     */
+    @Transaction
+    suspend fun upsert(entity: ProfileEntity): Long {
+        val inserted = insert(entity)
+        if (inserted != -1L) return inserted
+        update(entity)
+        return entity.id
+    }
 
     @Query("DELETE FROM profiles WHERE id = :id")
     suspend fun delete(id: Long)

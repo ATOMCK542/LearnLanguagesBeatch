@@ -97,6 +97,20 @@ class SessionPlannerTest {
     }
 
     @Test
+    fun nextLessonContinuesPastWordsAlreadyScheduled() {
+        val now = 1_000L
+        val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.En), 20, true, 0, null, 0)
+        val concepts = (1..15).map { concept("pron.$it") }
+        val first = SessionPlanner(scheduler, factory).plan(profile, concepts, emptyList(), now, sessionSize = 10)
+        assertEquals((1..10).map { "pron.$it" }, first.items.map { it.review.conceptId })
+        val saved = first.items.map { item ->
+            scheduler.review(item.review, Rating.Good, now)
+        }
+        val second = SessionPlanner(scheduler, factory).plan(profile, concepts, saved, now, sessionSize = 10)
+        assertEquals((11..15).map { "pron.$it" }, second.items.map { it.review.conceptId })
+    }
+
+    @Test
     fun nativeOnlyTargetsStillStudyOtherLanguages() {
         val now = 6L
         val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.Ru), 3, true, 0, null, 0)
