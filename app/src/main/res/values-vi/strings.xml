@@ -57,6 +57,7 @@
     <string name="settings_tts">Giọng nói</string>
     <string name="settings_tts_hint">Để nghe tiếng Việt, cài giọng Tiếng Việt trong cài đặt đọc văn bản của hệ thống (Google Text-to-speech).</string>
     <string name="settings_reminder">Nhắc mỗi ngày</string>
+    <string name="settings_reminder_time">Giờ</string>
     <string name="settings_reminder_hint">Thông báo mỗi ngày lúc %1$s nếu ngày đó bạn chưa mở ứng dụng.</string>
     <string name="reminder_channel">Nhắc học</string>
     <string name="reminder_title">Đến giờ luyện tập</string>

@@ -52,6 +52,17 @@ class ReminderScheduleTest {
         assertEquals(at("2026-09-27", "19:00"), next)
     }
 
+    @Test
+    fun customTimeIsTheSlot() {
+        val time = LocalTime.of(8, 30)
+        val waiting = ReminderSchedule.decide(at("2026-09-26", "07:00"), null, null, fromAlarm = false, time = time)
+        assertFalse(waiting.notify)
+        assertEquals(at("2026-09-26", "08:30"), waiting.next)
+        val missed = ReminderSchedule.decide(at("2026-09-26", "09:00"), null, null, fromAlarm = false, time = time)
+        assertTrue(missed.notify)
+        assertEquals(at("2026-09-27", "08:30"), missed.next)
+    }
+
     private fun at(day: String, time: String): ZonedDateTime =
         ZonedDateTime.of(LocalDate.parse(day), LocalTime.parse(time), zone)
 }

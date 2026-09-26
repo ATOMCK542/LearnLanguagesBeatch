@@ -4,6 +4,7 @@ import android.Manifest
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.text.format.DateFormat
 import android.content.pm.PackageManager
 import android.os.Build
 import android.provider.Settings
@@ -62,6 +63,8 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TimePicker
+import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -75,6 +78,7 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
@@ -93,11 +97,11 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
-import dev.sergey.triad.domain.ReminderSchedule
 import dev.sergey.triad.domain.WidgetKind
 import dev.sergey.triad.ui.theme.lessonPalette
 import dev.sergey.triad.ui.theme.triadCardColors
 import dev.sergey.triad.ui.widget.WidgetPinner
+import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 import java.util.Locale
@@ -557,10 +561,11 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
         val askReminder = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
             vm.setReminderEnabled(granted)
         }
-        val reminderTime = remember(profile.uiLang) {
+        var pickingReminderTime by remember { mutableStateOf(false) }
+        val reminderTime = remember(profile.uiLang, state.reminderTime) {
             DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT)
                 .withLocale(Locale.forLanguageTag(profile.uiLang.code))
-                .format(ReminderSchedule.time)
+                .format(state.reminderTime)
         }
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
             Text(stringResource(R.string.settings_reminder), modifier = Modifier.weight(1f))
@@ -579,11 +584,26 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
                 },
             )
         }
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+            Text(stringResource(R.string.settings_reminder_time), modifier = Modifier.weight(1f))
+            TextButton(onClick = { pickingReminderTime = true }) { Text(reminderTime) }
+        }
         Text(
             stringResource(R.string.settings_reminder_hint, reminderTime),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+        if (pickingReminderTime) {
+            ReminderTimeDialog(
+                initial = state.reminderTime,
+                is24Hour = DateFormat.is24HourFormat(reminderContext),
+                onDismiss = { pickingReminderTime = false },
+                onConfirm = { time ->
+                    pickingReminderTime = false
+                    vm.setReminderTime(time)
+                },
+            )
+        }
         Text(stringResource(R.string.stats_title), style = MaterialTheme.typography.titleMedium)
         Text(pluralStringResource(R.plurals.reviews_done, profile.reviewsDone, profile.reviewsDone))
         Button(onClick = { vm.export(false) { pendingExport = it; create.launch("triad-profile.json") } }) {
@@ -1109,6 +1129,38 @@ private fun LanguageRow(selected: AppLanguage, onPick: (AppLanguage) -> Unit) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         AppLanguage.all.forEach { lang ->
             FilterChip(selected = selected == lang, onClick = { onPick(lang) }, label = { Text(endonym(lang)) })
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ReminderTimeDialog(
+    initial: LocalTime,
+    is24Hour: Boolean,
+    onDismiss: () -> Unit,
+    onConfirm: (LocalTime) -> Unit,
+) {
+    val picker = rememberTimePickerState(
+        initialHour = initial.hour,
+        initialMinute = initial.minute,
+        is24Hour = is24Hour,
+    )
+    Dialog(onDismissRequest = onDismiss) {
+        Surface(shape = MaterialTheme.shapes.extraLarge) {
+            Column(
+                Modifier.padding(24.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+            ) {
+                Text(stringResource(R.string.settings_reminder_time), style = MaterialTheme.typography.titleLarge)
+                TimePicker(state = picker)
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text(stringResource(R.string.cancel)) }
+                    TextButton(onClick = { onConfirm(LocalTime.of(picker.hour, picker.minute)) }) {
+                        Text(stringResource(R.string.save))
+                    }
+                }
+            }
         }
     }
 }

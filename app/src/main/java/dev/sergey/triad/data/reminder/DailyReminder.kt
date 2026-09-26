@@ -21,6 +21,7 @@ import dev.sergey.triad.domain.AppLanguage
 import dev.sergey.triad.domain.ReminderSchedule
 import dev.sergey.triad.reminder.ReminderReceiver
 import java.time.LocalDate
+import java.time.LocalTime
 import java.time.ZonedDateTime
 import java.util.Locale
 import javax.inject.Inject
@@ -54,7 +55,18 @@ class DailyReminder @Inject constructor(
 
     suspend fun setEnabled(enabled: Boolean) {
         store.setEnabled(enabled)
-        if (enabled) schedule(ReminderSchedule.nextTrigger(ZonedDateTime.now())) else cancel()
+        if (enabled) {
+            schedule(ReminderSchedule.nextTrigger(ZonedDateTime.now(), time = store.snapshot().time))
+        } else {
+            cancel()
+        }
+    }
+
+    suspend fun setTime(time: LocalTime) {
+        val previous = store.snapshot().time
+        store.setTime(time)
+        if (previous != time) store.clearNotified()
+        syncSchedule()
     }
 
     suspend fun markPrompted() {
@@ -70,8 +82,9 @@ class DailyReminder @Inject constructor(
     }
 
     private suspend fun syncSchedule() {
-        if (store.snapshot().enabled) {
-            schedule(ReminderSchedule.nextTrigger(ZonedDateTime.now()))
+        val prefs = store.snapshot()
+        if (prefs.enabled) {
+            schedule(ReminderSchedule.nextTrigger(ZonedDateTime.now(), time = prefs.time))
         } else {
             cancel()
         }
@@ -79,8 +92,8 @@ class DailyReminder @Inject constructor(
 
     private suspend fun deliver(fromAlarm: Boolean) {
         val now = ZonedDateTime.now()
-        val enabled = store.snapshot().enabled
-        if (!enabled) {
+        val prefs = store.snapshot()
+        if (!prefs.enabled) {
             cancel()
             return
         }
@@ -89,6 +102,7 @@ class DailyReminder @Inject constructor(
             lastOpenDay = store.lastOpenDay(),
             lastNotifiedDay = store.lastNotifiedDay(),
             fromAlarm = fromAlarm,
+            time = prefs.time,
         )
         if (decision.notify && canPost()) {
             show()

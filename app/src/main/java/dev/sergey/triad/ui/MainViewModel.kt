@@ -29,6 +29,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import java.time.LocalTime
 import javax.inject.Inject
 
 data class MainUiState(
@@ -57,6 +58,7 @@ data class MainUiState(
     val reminderEnabled: Boolean = true,
     val reminderPrompted: Boolean = false,
     val reminderReady: Boolean = false,
+    val reminderTime: LocalTime = LocalTime.of(19, 0),
 )
 
 @HiltViewModel
@@ -85,6 +87,7 @@ class MainViewModel @Inject constructor(
                         reminderEnabled = prefs.enabled,
                         reminderPrompted = prefs.prompted,
                         reminderReady = true,
+                        reminderTime = prefs.time,
                     )
                 }
             }
@@ -404,6 +407,10 @@ class MainViewModel @Inject constructor(
 
     fun setReminderEnabled(enabled: Boolean) {
         viewModelScope.launch { reminders.setEnabled(enabled) }
+    }
+
+    fun setReminderTime(time: LocalTime) {
+        viewModelScope.launch { reminders.setTime(time) }
     }
 
     fun markReminderPrompted() {
