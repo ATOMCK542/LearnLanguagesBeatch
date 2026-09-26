@@ -45,6 +45,8 @@ class TtsController @Inject constructor(
     fun speak(text: String, lang: AppLanguage): Boolean {
         if (text.isBlank()) return false
         val route = synchronized(this) { routes[lang] } ?: return false
+        val engines = synchronized(this) { routes.values.map { it.engine }.distinct() }
+        engines.forEach { it.stop() }
         route.voice?.let { route.engine.voice = it }
         route.engine.language = route.locale
         route.engine.setSpeechRate(SPEECH_RATE)

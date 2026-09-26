@@ -642,6 +642,9 @@ internal fun SessionScreen(
         val nativeForm = concept.text(native)
         val grammar = concept.grammar.forLang(native)
         val ttsOn = state.active?.ttsEnabled == true
+        val speakPick: (String, AppLanguage) -> Unit = { text, lang ->
+            if (ttsOn && text.isNotBlank()) vm.speak(text, lang, openSettingsIfMissing = false)
+        }
         val palette = lessonPalette()
         Column(
             Modifier
@@ -699,7 +702,10 @@ internal fun SessionScreen(
                                 ipa = form.ipa,
                                 speakEnabled = ttsOn,
                                 onSpeak = { vm.speak(form.text, bank.lang) },
-                                onPick = { option -> vm.pickQuiz(bank.lang, option) },
+                                onPick = { option ->
+                                    speakPick(option, bank.lang)
+                                    vm.pickQuiz(bank.lang, option)
+                                },
                             )
                         }
                     }
@@ -722,7 +728,11 @@ internal fun SessionScreen(
                                 onPick = {},
                             )
                         } else {
-                            OrderExercise(ex, vm)
+                            OrderExercise(
+                                ex,
+                                vm,
+                                onSpeakChip = { chip -> speakPick(chip, ex.targetLang) },
+                            )
                         }
                     }
                     is Exercise.TonePick -> {
@@ -731,7 +741,10 @@ internal fun SessionScreen(
                             correct = ex.correct,
                             picked = state.lastPicked,
                             revealed = state.revealed,
-                            onPick = { option -> vm.answerGame(option == ex.correct, option) },
+                            onPick = { option ->
+                                speakPick(option, ex.targetLang)
+                                vm.answerGame(option == ex.correct, option)
+                            },
                         )
                     }
                 }
@@ -910,7 +923,11 @@ private fun QuizOptions(
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun OrderExercise(ex: Exercise.OrderChips, vm: MainViewModel) {
+private fun OrderExercise(
+    ex: Exercise.OrderChips,
+    vm: MainViewModel,
+    onSpeakChip: (String) -> Unit = {},
+) {
     var built by remember { mutableStateOf(emptyList<String>()) }
     var pool by remember { mutableStateOf(ex.shuffled) }
     Text(
@@ -939,6 +956,7 @@ private fun OrderExercise(ex: Exercise.OrderChips, vm: MainViewModel) {
         pool.forEach { chip ->
             FilledTonalButton(onClick = {
                 vm.playClick()
+                onSpeakChip(chip)
                 built = built + chip
                 pool = pool - chip
             }) { Text(chip, style = MaterialTheme.typography.titleMedium) }
