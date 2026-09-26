@@ -20,7 +20,7 @@ object AppModule {
     @Singleton
     fun database(@ApplicationContext context: Context): TriadDatabase =
         Room.databaseBuilder(context, TriadDatabase::class.java, "triad.db")
-            .addMigrations(TriadDatabase.MIGRATION_1_2)
+            .addMigrations(TriadDatabase.MIGRATION_1_2, TriadDatabase.MIGRATION_2_3)
             .build()
 
     @Provides

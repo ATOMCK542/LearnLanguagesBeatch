@@ -162,6 +162,13 @@ data class MasteredConceptEntity(
     val conceptId: String,
 )
 
+@Entity(tableName = "concept_parts", primaryKeys = ["phraseId", "wordId"])
+data class ConceptPartEntity(
+    val phraseId: String,
+    val wordId: String,
+    val level: Int,
+)
+
 @Dao
 interface ProfileDao {
     @Query("SELECT * FROM profiles ORDER BY lastOpenedAt DESC")
@@ -226,6 +233,15 @@ interface CatalogDao {
 
     @Query("DELETE FROM user_cards WHERE profileId = :profileId AND id = :id")
     suspend fun deleteUserCard(profileId: Long, id: Long)
+
+    @Query("DELETE FROM concept_parts")
+    suspend fun clearParts()
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertParts(items: List<ConceptPartEntity>)
+
+    @Query("SELECT * FROM concept_parts")
+    suspend fun parts(): List<ConceptPartEntity>
 }
 
 @Dao
@@ -284,8 +300,9 @@ interface ProgressDao {
         PrimerProgressEntity::class,
         PathProgressEntity::class,
         MasteredConceptEntity::class,
+        ConceptPartEntity::class,
     ],
-    version = 2,
+    version = 3,
     exportSchema = false,
 )
 abstract class TriadDatabase : RoomDatabase() {
@@ -313,6 +330,21 @@ abstract class TriadDatabase : RoomDatabase() {
                 )
                 database.execSQL(
                     "CREATE INDEX IF NOT EXISTS `index_mastered_concepts_profileId` ON `mastered_concepts` (`profileId`)",
+                )
+            }
+        }
+
+        val MIGRATION_2_3 = object : Migration(2, 3) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `concept_parts` (
+                      `phraseId` TEXT NOT NULL,
+                      `wordId` TEXT NOT NULL,
+                      `level` INTEGER NOT NULL,
+                      PRIMARY KEY(`phraseId`, `wordId`)
+                    )
+                    """.trimIndent(),
                 )
             }
         }

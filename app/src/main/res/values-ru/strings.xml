@@ -15,6 +15,7 @@
     <string name="session_progress">%1$d / %2$d</string>
     <string name="action_create">Создать</string>
     <string name="action_start">Начать сессию</string>
+    <string name="action_phrases">Учить фразы</string>
     <string name="action_review">Повторить изученное</string>
     <string name="review_title">Повтор изученных слов</string>
     <string name="review_empty">Сначала поучитесь по урокам, потом здесь можно перемешать уже пройденное.</string>

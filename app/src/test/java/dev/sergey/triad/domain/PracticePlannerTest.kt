@@ -61,6 +61,23 @@ class PracticePlannerTest {
     }
 
     @Test
+    fun eligibleDropsComposedPhrases() {
+        val concepts = listOf(concept("word"), concept("cmp.l1.i_want", "composed"))
+        val reviews = listOf(review(1, "word"), review(1, "cmp.l1.i_want"))
+        val pool = PracticePlanner.eligible(
+            profileId = 1,
+            targetLangs = listOf(AppLanguage.En),
+            reviews = reviews,
+            concepts = concepts,
+            unlockedThemeIds = setOf("cafe", "composed"),
+            primerThemeIds = emptySet(),
+            masteredConceptIds = emptySet(),
+            composedConceptIds = setOf("cmp.l1.i_want"),
+        )
+        assertEquals(listOf("word"), pool.map { it.conceptId })
+    }
+
+    @Test
     fun pickShufflesAndCaps() {
         val pool = (1..8).map { review(1, "c$it") }
         val picked = PracticePlanner.pick(pool, 5, Random(1))

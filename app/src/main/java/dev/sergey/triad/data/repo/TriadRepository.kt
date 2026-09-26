@@ -21,6 +21,9 @@ import dev.sergey.triad.domain.ConceptText
 import dev.sergey.triad.domain.ExerciseFactory
 import dev.sergey.triad.domain.LessonProgress
 import dev.sergey.triad.domain.LocalizedText
+import dev.sergey.triad.domain.PhraseRecipe
+import dev.sergey.triad.domain.PhraseSessionPlanner
+import dev.sergey.triad.domain.PhraseUnlock
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.ThemeStudy
 import dev.sergey.triad.domain.Profile
@@ -114,7 +117,9 @@ class TriadRepository @Inject constructor(
 
     suspend fun dueCount(now: Long = System.currentTimeMillis()): Int {
         val profile = activeProfile() ?: return 0
-        return db.progress().dueCount(profile.id, now)
+        val composed = composedIds()
+        if (composed.isEmpty()) return db.progress().dueCount(profile.id, now)
+        return db.progress().reviews(profile.id).count { it.dueAt <= now && it.conceptId !in composed }
     }
 
     suspend fun planSession(
@@ -126,7 +131,8 @@ class TriadRepository @Inject constructor(
         ensureContentThemeUnlocked(profile)
         val allConcepts = concepts()
         val unlocked = unlockedThemeIds(profile)
-        val visible = allConcepts.filter { it.themeId in unlocked }
+        val composed = composedIds()
+        val visible = allConcepts.filter { it.themeId in unlocked && it.id !in composed }
         val reviews = db.progress().reviews(profile.id).map { it.toDomain() }
         val factory = ExerciseFactory { lang ->
             visible.map { it.text(lang).text }
@@ -138,6 +144,36 @@ class TriadRepository @Inject constructor(
             now,
             sessionSize = sessionSize,
             preferredThemeId = preferredThemeId,
+            excludeConceptIds = composed,
+        )
+    }
+
+    suspend fun phraseReadyCount(now: Long = System.currentTimeMillis()): Int {
+        val profile = activeProfile() ?: return 0
+        val reviews = db.progress().reviews(profile.id).map { it.toDomain() }
+        return PhraseUnlock.ready(phraseRecipes(), profile.id, profile.studyTargets(), reviews, now)
+            .map { it.recipe.conceptId }
+            .distinct()
+            .size
+    }
+
+    suspend fun planPhraseSession(
+        now: Long = System.currentTimeMillis(),
+        sessionSize: Int = PhraseSessionPlanner.SESSION_SIZE,
+    ): SessionPlan {
+        val profile = activeProfile() ?: return SessionPlan(emptyList())
+        val recipes = phraseRecipes()
+        val ids = recipes.map { it.conceptId }.toSet()
+        val phraseConcepts = concepts().filter { it.id in ids }
+        val reviews = db.progress().reviews(profile.id).map { it.toDomain() }
+        val factory = ExerciseFactory { emptyList() }
+        return PhraseSessionPlanner(scheduler, factory).plan(
+            profile,
+            phraseConcepts,
+            recipes,
+            reviews,
+            now,
+            sessionSize,
         )
     }
 
@@ -147,7 +183,8 @@ class TriadRepository @Inject constructor(
         val picked = PracticePlanner.pick(pool, limit, kotlin.random.Random.Default)
         val allConcepts = concepts()
         val unlocked = unlockedThemeIds(profile)
-        val visible = allConcepts.filter { it.themeId in unlocked }
+        val composed = composedIds()
+        val visible = allConcepts.filter { it.themeId in unlocked && it.id !in composed }
         val factory = ExerciseFactory { lang -> visible.map { it.text(lang).text } }
         val conceptMap = allConcepts.associateBy { it.id }
         val targets = profile.studyTargets()
@@ -244,12 +281,12 @@ class TriadRepository @Inject constructor(
 
     suspend fun themeStudy(): Map<String, ThemeStudy> {
         val profile = activeProfile() ?: return emptyMap()
-        val primers = themes().filter { it.kind == "primer" }.map { it.id }.toSet()
+        val skip = themes().filter { it.kind == "primer" || it.kind == "composed" }.map { it.id }.toSet()
         return LessonProgress.byTheme(
             profileId = profile.id,
             concepts = concepts(),
             reviews = db.progress().reviews(profile.id).map { it.toDomain() },
-            skipThemeIds = primers,
+            skipThemeIds = skip,
         )
     }
 
@@ -361,6 +398,8 @@ class TriadRepository @Inject constructor(
 
     private suspend fun bumpPath(profileId: Long, conceptId: String) {
         val concept = concepts().firstOrNull { it.id == conceptId } ?: return
+        val theme = themes().firstOrNull { it.id == concept.themeId }
+        if (theme?.kind == "composed") return
         val current = db.progress().path(profileId).firstOrNull { it.themeId == concept.themeId }
             ?: PathProgressEntity(profileId, concept.themeId, true, 0)
         val updated = current.copy(completedCount = current.completedCount + 1, unlocked = true)
@@ -416,7 +455,21 @@ class TriadRepository @Inject constructor(
     }
 
     private suspend fun contentUnits(): List<Theme> =
-        themes().filter { it.kind != "primer" }.sortedBy { it.sortOrder }
+        themes().filter { it.kind != "primer" && it.kind != "composed" }.sortedBy { it.sortOrder }
+
+    private suspend fun composedIds(): Set<String> =
+        db.catalog().parts().map { it.phraseId }.toSet()
+
+    private suspend fun phraseRecipes(): List<PhraseRecipe> =
+        db.catalog().parts()
+            .groupBy { it.phraseId }
+            .map { (id, rows) ->
+                PhraseRecipe(
+                    conceptId = id,
+                    level = rows.first().level,
+                    wordIds = rows.map { it.wordId }.toSet(),
+                )
+            }
 
     private suspend fun unlockedThemeIds(profile: Profile): Set<String> {
         ensureContentThemeUnlocked(profile)
@@ -444,6 +497,7 @@ class TriadRepository @Inject constructor(
             unlockedThemeIds = unlocked,
             primerThemeIds = primers,
             masteredConceptIds = mastered,
+            composedConceptIds = composedIds(),
         )
     }
 }

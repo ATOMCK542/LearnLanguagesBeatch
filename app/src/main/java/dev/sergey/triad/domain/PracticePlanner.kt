@@ -22,6 +22,7 @@ object PracticePlanner {
         unlockedThemeIds: Set<String>,
         primerThemeIds: Set<String>,
         masteredConceptIds: Set<String>,
+        composedConceptIds: Set<String> = emptySet(),
     ): List<ReviewItem> {
         val conceptMap = concepts.associateBy { it.id }
         val targets = targetLangs.ifEmpty { AppLanguage.all }
@@ -31,6 +32,7 @@ object PracticePlanner {
                     review.reps > 0 &&
                     review.targetLang in targets &&
                     review.conceptId !in masteredConceptIds &&
+                    review.conceptId !in composedConceptIds &&
                     conceptMap[review.conceptId]?.let { concept ->
                         concept.themeId in unlockedThemeIds && concept.themeId !in primerThemeIds
                     } == true

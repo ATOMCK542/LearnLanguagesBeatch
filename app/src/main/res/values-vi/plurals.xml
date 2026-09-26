@@ -15,6 +15,9 @@
     <plurals name="review_ready">
         <item quantity="other">%d từ sẵn sàng ôn</item>
     </plurals>
+    <plurals name="phrases_ready">
+        <item quantity="other">%d cụm từ sẵn sàng</item>
+    </plurals>
     <plurals name="interval_minutes">
         <item quantity="other">%d phút</item>
     </plurals>

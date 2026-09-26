@@ -20,6 +20,10 @@
         <item quantity="one">%d word ready to review</item>
         <item quantity="other">%d words ready to review</item>
     </plurals>
+    <plurals name="phrases_ready">
+        <item quantity="one">%d phrase ready</item>
+        <item quantity="other">%d phrases ready</item>
+    </plurals>
     <plurals name="interval_minutes">
         <item quantity="one">%d min</item>
         <item quantity="other">%d min</item>

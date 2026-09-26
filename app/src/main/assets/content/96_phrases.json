@@ -1,0 +1,1711 @@
+{
+  "theme": {
+    "id": "composed",
+    "kind": "composed",
+    "order": 196,
+    "title": {
+      "en": "Phrases",
+      "ru": "Фразы",
+      "vi": "Cụm từ"
+    },
+    "description": {
+      "en": "Sentences from words you already answered.",
+      "ru": "Предложения из слов, на которые вы уже ответили.",
+      "vi": "Câu từ những từ bạn đã trả lời."
+    }
+  },
+  "concepts": [
+    {
+      "id": "cmp.l1.i_want",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "I + want",
+        "ru": "я + хотеть",
+        "vi": "tôi + muốn"
+      },
+      "texts": {
+        "en": {
+          "text": "I want",
+          "ipa": "/aɪ wɒnt/",
+          "hints": {
+            "ru": "I want",
+            "vi": "I want"
+          }
+        },
+        "ru": {
+          "text": "я хочу",
+          "ipa": "/ja xotɕu/",
+          "hints": {
+            "en": "я хочу",
+            "vi": "я хочу"
+          }
+        },
+        "vi": {
+          "text": "tôi muốn",
+          "ipa": "/toj˧ muən˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi muốn",
+            "en": "tôi muốn"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.i",
+        "verb.want"
+      ]
+    },
+    {
+      "id": "cmp.l1.i_eat",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "I + eat",
+        "ru": "я + есть",
+        "vi": "tôi + ăn"
+      },
+      "texts": {
+        "en": {
+          "text": "I eat",
+          "ipa": "/aɪ iːt/",
+          "hints": {
+            "ru": "I eat",
+            "vi": "I eat"
+          }
+        },
+        "ru": {
+          "text": "я ем",
+          "ipa": "/ja jem/",
+          "hints": {
+            "en": "я ем",
+            "vi": "я ем"
+          }
+        },
+        "vi": {
+          "text": "tôi ăn",
+          "ipa": "/toj˧ an˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi ăn",
+            "en": "tôi ăn"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.i",
+        "verb.eat"
+      ]
+    },
+    {
+      "id": "cmp.l1.you_need",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "you + need",
+        "ru": "ты + нуждаться",
+        "vi": "bạn + cần"
+      },
+      "texts": {
+        "en": {
+          "text": "you need",
+          "ipa": "/juː niːd/",
+          "hints": {
+            "ru": "you need",
+            "vi": "you need"
+          }
+        },
+        "ru": {
+          "text": "тебе нужно",
+          "ipa": "/tʲebʲe nuʐno/",
+          "hints": {
+            "en": "тебе нужно",
+            "vi": "тебе нужно"
+          }
+        },
+        "vi": {
+          "text": "bạn cần",
+          "ipa": "/ɓaːn˧ˀ kən˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn cần",
+            "en": "bạn cần"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.you",
+        "verb.need"
+      ]
+    },
+    {
+      "id": "cmp.l1.we_go",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "we + go",
+        "ru": "мы + идти",
+        "vi": "chúng tôi + đi"
+      },
+      "texts": {
+        "en": {
+          "text": "we go",
+          "ipa": "/wiː ɡəʊ/",
+          "hints": {
+            "ru": "we go",
+            "vi": "we go"
+          }
+        },
+        "ru": {
+          "text": "мы идём",
+          "ipa": "/mɨ idʲom/",
+          "hints": {
+            "en": "мы идём",
+            "vi": "мы идём"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi đi",
+          "ipa": "/tɕuŋ˧˥ toj˧ ɗi˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi đi",
+            "en": "chúng tôi đi"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.we",
+        "verb.go"
+      ]
+    },
+    {
+      "id": "cmp.l1.she_sees",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "she + see",
+        "ru": "она + видеть",
+        "vi": "cô ấy + thấy"
+      },
+      "texts": {
+        "en": {
+          "text": "she sees",
+          "ipa": "/ʃiː ˈsiz/",
+          "hints": {
+            "ru": "she sees",
+            "vi": "she sees"
+          }
+        },
+        "ru": {
+          "text": "она видит",
+          "ipa": "/ɐˈna vʲidʲit/",
+          "hints": {
+            "en": "она видит",
+            "vi": "она видит"
+          }
+        },
+        "vi": {
+          "text": "cô ấy thấy",
+          "ipa": "/ko˧ əj˧˥ tʰəj˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cô ấy thấy",
+            "en": "cô ấy thấy"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.she",
+        "verb.see"
+      ]
+    },
+    {
+      "id": "cmp.l1.he_works",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "he + work",
+        "ru": "он + работать",
+        "vi": "anh ấy + làm việc"
+      },
+      "texts": {
+        "en": {
+          "text": "he works",
+          "ipa": "/hiː ˈwɝks/",
+          "hints": {
+            "ru": "he works",
+            "vi": "he works"
+          }
+        },
+        "ru": {
+          "text": "он работает",
+          "ipa": "/on rabotajet/",
+          "hints": {
+            "en": "он работает",
+            "vi": "он работает"
+          }
+        },
+        "vi": {
+          "text": "anh ấy làm việc",
+          "ipa": "/ajŋ˧ əj˧˥ laːm˨˩ viək˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "anh ấy làm việc",
+            "en": "anh ấy làm việc"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.he",
+        "verb.work"
+      ]
+    },
+    {
+      "id": "cmp.l1.we_study",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "we + study",
+        "ru": "мы + учиться",
+        "vi": "chúng tôi + học"
+      },
+      "texts": {
+        "en": {
+          "text": "we study",
+          "ipa": "/wiː ˈstʌdi/",
+          "hints": {
+            "ru": "we study",
+            "vi": "we study"
+          }
+        },
+        "ru": {
+          "text": "мы учимся",
+          "ipa": "/mɨ utɕimsʲa/",
+          "hints": {
+            "en": "мы учимся",
+            "vi": "мы учимся"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi học",
+          "ipa": "/tɕuŋ˧˥ toj˧ hɔk˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi học",
+            "en": "chúng tôi học"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.we",
+        "verb.study"
+      ]
+    },
+    {
+      "id": "cmp.l1.i_like",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "I + like",
+        "ru": "я + нравиться",
+        "vi": "tôi + thích"
+      },
+      "texts": {
+        "en": {
+          "text": "I like",
+          "ipa": "/aɪ laɪk/",
+          "hints": {
+            "ru": "I like",
+            "vi": "I like"
+          }
+        },
+        "ru": {
+          "text": "мне нравится",
+          "ipa": "/mnʲe nravʲitsʲa/",
+          "hints": {
+            "en": "мне нравится",
+            "vi": "мне нравится"
+          }
+        },
+        "vi": {
+          "text": "tôi thích",
+          "ipa": "/toj˧ tʰik˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi thích",
+            "en": "tôi thích"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.i",
+        "verb.like"
+      ]
+    },
+    {
+      "id": "cmp.l1.hot_coffee",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "hot + coffee",
+        "ru": "горячий + кофе",
+        "vi": "cà phê + nóng"
+      },
+      "texts": {
+        "en": {
+          "text": "hot coffee",
+          "ipa": "/hɒt ˈkɒfi/",
+          "hints": {
+            "ru": "hot coffee",
+            "vi": "hot coffee"
+          }
+        },
+        "ru": {
+          "text": "горячий кофе",
+          "ipa": "/ɡorʲatɕij ˈkofʲe/",
+          "hints": {
+            "en": "горячий кофе",
+            "vi": "горячий кофе"
+          }
+        },
+        "vi": {
+          "text": "cà phê nóng",
+          "ipa": "/kaː˧˩ fe˧ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "cà phê nóng",
+            "en": "cà phê nóng"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "adj.hot",
+        "food.coffee"
+      ]
+    },
+    {
+      "id": "cmp.l1.cold_water",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "cold + water",
+        "ru": "холодный + вода",
+        "vi": "nước + lạnh"
+      },
+      "texts": {
+        "en": {
+          "text": "cold water",
+          "ipa": "/kəʊld ˈwɔːtə/",
+          "hints": {
+            "ru": "cold water",
+            "vi": "cold water"
+          }
+        },
+        "ru": {
+          "text": "холодная вода",
+          "ipa": "/xolodnaja vɐˈda/",
+          "hints": {
+            "en": "холодная вода",
+            "vi": "холодная вода"
+          }
+        },
+        "vi": {
+          "text": "nước lạnh",
+          "ipa": "/nɨək˧˥ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "nước lạnh",
+            "en": "nước lạnh"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "adj.cold",
+        "food.water"
+      ]
+    },
+    {
+      "id": "cmp.l1.good_tea",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "good + tea",
+        "ru": "хороший + чай",
+        "vi": "trà + tốt"
+      },
+      "texts": {
+        "en": {
+          "text": "good tea",
+          "ipa": "/ɡʊd tiː/",
+          "hints": {
+            "ru": "good tea",
+            "vi": "good tea"
+          }
+        },
+        "ru": {
+          "text": "хороший чай",
+          "ipa": "/xoroʂij tɕaj/",
+          "hints": {
+            "en": "хороший чай",
+            "vi": "хороший чай"
+          }
+        },
+        "vi": {
+          "text": "trà tốt",
+          "ipa": "/tra˨˩ tot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "trà tốt",
+            "en": "trà tốt"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "adj.good",
+        "food.tea"
+      ]
+    },
+    {
+      "id": "cmp.l1.my_mother",
+      "kind": "phrase",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:1"
+      ],
+      "grammar": {
+        "en": "my + mother",
+        "ru": "мой + мама",
+        "vi": "mẹ + của tôi"
+      },
+      "texts": {
+        "en": {
+          "text": "my mother",
+          "ipa": "/maɪ ˈmʌðɚ/",
+          "hints": {
+            "ru": "my mother",
+            "vi": "my mother"
+          }
+        },
+        "ru": {
+          "text": "моя мама",
+          "ipa": "/moja mama/",
+          "hints": {
+            "en": "моя мама",
+            "vi": "моя мама"
+          }
+        },
+        "vi": {
+          "text": "mẹ tôi",
+          "ipa": "/mɛ˧ˀ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "mẹ tôi",
+            "en": "mẹ tôi"
+          }
+        }
+      },
+      "level": 1,
+      "uses": [
+        "pron.my",
+        "fam.mother"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_want_water",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I want water",
+        "ru": "я хочу воды",
+        "vi": "tôi muốn nước"
+      },
+      "texts": {
+        "en": {
+          "text": "I want water",
+          "ipa": "/aɪ wɒnt ˈwɔːtə/",
+          "hints": {
+            "ru": "I want water",
+            "vi": "I want water"
+          }
+        },
+        "ru": {
+          "text": "я хочу воды",
+          "ipa": "/ja xotɕu vodɨ/",
+          "hints": {
+            "en": "я хочу воды",
+            "vi": "я хочу воды"
+          }
+        },
+        "vi": {
+          "text": "tôi muốn nước",
+          "ipa": "/toj˧ muən˧˥ nɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi muốn nước",
+            "en": "tôi muốn nước"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.want",
+        "food.water"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_want_coffee",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I want coffee",
+        "ru": "я хочу кофе",
+        "vi": "tôi muốn cà phê"
+      },
+      "texts": {
+        "en": {
+          "text": "I want coffee",
+          "ipa": "/aɪ wɒnt ˈkɒfi/",
+          "hints": {
+            "ru": "I want coffee",
+            "vi": "I want coffee"
+          }
+        },
+        "ru": {
+          "text": "я хочу кофе",
+          "ipa": "/ja xɐˈtɕu ˈkofʲe/",
+          "hints": {
+            "en": "я хочу кофе",
+            "vi": "я хочу кофе"
+          }
+        },
+        "vi": {
+          "text": "tôi muốn cà phê",
+          "ipa": "/toj˧ muən˧˥ kaː˧˩ fe˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi muốn cà phê",
+            "en": "tôi muốn cà phê"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.want",
+        "food.coffee"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_drink_tea",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I drink tea",
+        "ru": "я пью чай",
+        "vi": "tôi uống trà"
+      },
+      "texts": {
+        "en": {
+          "text": "I drink tea",
+          "ipa": "/aɪ drɪŋk tiː/",
+          "hints": {
+            "ru": "I drink tea",
+            "vi": "I drink tea"
+          }
+        },
+        "ru": {
+          "text": "я пью чай",
+          "ipa": "/ja pʲju tɕaj/",
+          "hints": {
+            "en": "я пью чай",
+            "vi": "я пью чай"
+          }
+        },
+        "vi": {
+          "text": "tôi uống trà",
+          "ipa": "/toj˧ uəŋ˧˥ tra˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi uống trà",
+            "en": "tôi uống trà"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.drink",
+        "food.tea"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_eat_rice",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I eat rice",
+        "ru": "я ем рис",
+        "vi": "tôi ăn cơm"
+      },
+      "texts": {
+        "en": {
+          "text": "I eat rice",
+          "ipa": "/aɪ iːt raɪs/",
+          "hints": {
+            "ru": "I eat rice",
+            "vi": "I eat rice"
+          }
+        },
+        "ru": {
+          "text": "я ем рис",
+          "ipa": "/ja jem rʲis/",
+          "hints": {
+            "en": "я ем рис",
+            "vi": "я ем рис"
+          }
+        },
+        "vi": {
+          "text": "tôi ăn cơm",
+          "ipa": "/toj˧ an˧ kəːm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi ăn cơm",
+            "en": "tôi ăn cơm"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.eat",
+        "food.rice"
+      ]
+    },
+    {
+      "id": "cmp.l2.she_drinks_milk",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "she drinks milk",
+        "ru": "она пьёт молоко",
+        "vi": "cô ấy uống sữa"
+      },
+      "texts": {
+        "en": {
+          "text": "she drinks milk",
+          "ipa": "/ʃiː ˈdɹɪŋks mɪlk/",
+          "hints": {
+            "ru": "she drinks milk",
+            "vi": "she drinks milk"
+          }
+        },
+        "ru": {
+          "text": "она пьёт молоко",
+          "ipa": "/ɐˈna pʲjot moloko/",
+          "hints": {
+            "en": "она пьёт молоко",
+            "vi": "она пьёт молоко"
+          }
+        },
+        "vi": {
+          "text": "cô ấy uống sữa",
+          "ipa": "/ko˧ əj˧˥ uəŋ˧˥ sɨə˧˥ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "cô ấy uống sữa",
+            "en": "cô ấy uống sữa"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.she",
+        "verb.drink",
+        "food.milk"
+      ]
+    },
+    {
+      "id": "cmp.l2.we_eat_bread",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "we eat bread",
+        "ru": "мы едим хлеб",
+        "vi": "chúng tôi ăn bánh mì"
+      },
+      "texts": {
+        "en": {
+          "text": "we eat bread",
+          "ipa": "/wiː iːt bred/",
+          "hints": {
+            "ru": "we eat bread",
+            "vi": "we eat bread"
+          }
+        },
+        "ru": {
+          "text": "мы едим хлеб",
+          "ipa": "/mɨ jedʲim xlʲep/",
+          "hints": {
+            "en": "мы едим хлеб",
+            "vi": "мы едим хлеб"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi ăn bánh mì",
+          "ipa": "/tɕuŋ˧˥ toj˧ an˧ ɓajŋ˧˥ mi˧˩/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi ăn bánh mì",
+            "en": "chúng tôi ăn bánh mì"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.we",
+        "verb.eat",
+        "food.bread"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_see_mother",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I see mother",
+        "ru": "я вижу маму",
+        "vi": "tôi thấy mẹ"
+      },
+      "texts": {
+        "en": {
+          "text": "I see mother",
+          "ipa": "/aɪ siː ˈmʌðɚ/",
+          "hints": {
+            "ru": "I see mother",
+            "vi": "I see mother"
+          }
+        },
+        "ru": {
+          "text": "я вижу маму",
+          "ipa": "/ja vʲiʐu mamu/",
+          "hints": {
+            "en": "я вижу маму",
+            "vi": "я вижу маму"
+          }
+        },
+        "vi": {
+          "text": "tôi thấy mẹ",
+          "ipa": "/toj˧ tʰəj˧˥ mɛ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi thấy mẹ",
+            "en": "tôi thấy mẹ"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.see",
+        "fam.mother"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_need_water",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I need water",
+        "ru": "мне нужна вода",
+        "vi": "tôi cần nước"
+      },
+      "texts": {
+        "en": {
+          "text": "I need water",
+          "ipa": "/aɪ niːd ˈwɔːtə/",
+          "hints": {
+            "ru": "I need water",
+            "vi": "I need water"
+          }
+        },
+        "ru": {
+          "text": "мне нужна вода",
+          "ipa": "/mnʲe nuʐna vɐˈda/",
+          "hints": {
+            "en": "мне нужна вода",
+            "vi": "мне нужна вода"
+          }
+        },
+        "vi": {
+          "text": "tôi cần nước",
+          "ipa": "/toj˧ kən˧˩ nɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi cần nước",
+            "en": "tôi cần nước"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.need",
+        "food.water"
+      ]
+    },
+    {
+      "id": "cmp.l2.you_need_coffee",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "you need coffee",
+        "ru": "тебе нужен кофе",
+        "vi": "bạn cần cà phê"
+      },
+      "texts": {
+        "en": {
+          "text": "you need coffee",
+          "ipa": "/juː niːd ˈkɒfi/",
+          "hints": {
+            "ru": "you need coffee",
+            "vi": "you need coffee"
+          }
+        },
+        "ru": {
+          "text": "тебе нужен кофе",
+          "ipa": "/tʲebʲe nuʐen ˈkofʲe/",
+          "hints": {
+            "en": "тебе нужен кофе",
+            "vi": "тебе нужен кофе"
+          }
+        },
+        "vi": {
+          "text": "bạn cần cà phê",
+          "ipa": "/ɓaːn˧ˀ kən˧˩ kaː˧˩ fe˧/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn cần cà phê",
+            "en": "bạn cần cà phê"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.you",
+        "verb.need",
+        "food.coffee"
+      ]
+    },
+    {
+      "id": "cmp.l2.they_eat_rice",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "they eat rice",
+        "ru": "они едят рис",
+        "vi": "họ ăn cơm"
+      },
+      "texts": {
+        "en": {
+          "text": "they eat rice",
+          "ipa": "/ðeɪ iːt raɪs/",
+          "hints": {
+            "ru": "they eat rice",
+            "vi": "they eat rice"
+          }
+        },
+        "ru": {
+          "text": "они едят рис",
+          "ipa": "/ɐˈnʲi jedʲat rʲis/",
+          "hints": {
+            "en": "они едят рис",
+            "vi": "они едят рис"
+          }
+        },
+        "vi": {
+          "text": "họ ăn cơm",
+          "ipa": "/hɔ˧ˀ an˧ kəːm˧/",
+          "tones": [],
+          "hints": {
+            "ru": "họ ăn cơm",
+            "en": "họ ăn cơm"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.they",
+        "verb.eat",
+        "food.rice"
+      ]
+    },
+    {
+      "id": "cmp.l2.i_like_tea",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "I like tea",
+        "ru": "мне нравится чай",
+        "vi": "tôi thích trà"
+      },
+      "texts": {
+        "en": {
+          "text": "I like tea",
+          "ipa": "/aɪ laɪk tiː/",
+          "hints": {
+            "ru": "I like tea",
+            "vi": "I like tea"
+          }
+        },
+        "ru": {
+          "text": "мне нравится чай",
+          "ipa": "/mnʲe nravʲitsʲa tɕaj/",
+          "hints": {
+            "en": "мне нравится чай",
+            "vi": "мне нравится чай"
+          }
+        },
+        "vi": {
+          "text": "tôi thích trà",
+          "ipa": "/toj˧ tʰik˧˥ tra˨˩/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi thích trà",
+            "en": "tôi thích trà"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.i",
+        "verb.like",
+        "food.tea"
+      ]
+    },
+    {
+      "id": "cmp.l2.we_drink_water",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:2"
+      ],
+      "grammar": {
+        "en": "we drink water",
+        "ru": "мы пьём воду",
+        "vi": "chúng tôi uống nước"
+      },
+      "texts": {
+        "en": {
+          "text": "we drink water",
+          "ipa": "/wiː drɪŋk ˈwɔːtə/",
+          "hints": {
+            "ru": "we drink water",
+            "vi": "we drink water"
+          }
+        },
+        "ru": {
+          "text": "мы пьём воду",
+          "ipa": "/mɨ pʲjom vodu/",
+          "hints": {
+            "en": "мы пьём воду",
+            "vi": "мы пьём воду"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi uống nước",
+          "ipa": "/tɕuŋ˧˥ toj˧ uəŋ˧˥ nɨək˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi uống nước",
+            "en": "chúng tôi uống nước"
+          }
+        }
+      },
+      "level": 2,
+      "uses": [
+        "pron.we",
+        "verb.drink",
+        "food.water"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_want_hot_coffee",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I want hot coffee",
+        "ru": "я хочу горячий кофе",
+        "vi": "tôi muốn cà phê nóng"
+      },
+      "texts": {
+        "en": {
+          "text": "I want hot coffee",
+          "ipa": "/aɪ wɒnt hɒt ˈkɒfi/",
+          "hints": {
+            "ru": "I want hot coffee",
+            "vi": "I want hot coffee"
+          }
+        },
+        "ru": {
+          "text": "я хочу горячий кофе",
+          "ipa": "/ja xotɕu ɡorʲatɕij ˈkofʲe/",
+          "hints": {
+            "en": "я хочу горячий кофе",
+            "vi": "я хочу горячий кофе"
+          }
+        },
+        "vi": {
+          "text": "tôi muốn cà phê nóng",
+          "ipa": "/toj˧ muən˧˥ kaː˧˩ fe˧ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi muốn cà phê nóng",
+            "en": "tôi muốn cà phê nóng"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.want",
+        "adj.hot",
+        "food.coffee"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_want_cold_water",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I want cold water",
+        "ru": "я хочу холодную воду",
+        "vi": "tôi muốn nước lạnh"
+      },
+      "texts": {
+        "en": {
+          "text": "I want cold water",
+          "ipa": "/aɪ wɒnt kəʊld ˈwɔːtə/",
+          "hints": {
+            "ru": "I want cold water",
+            "vi": "I want cold water"
+          }
+        },
+        "ru": {
+          "text": "я хочу холодную воду",
+          "ipa": "/ja xotɕu xolodnuju vodu/",
+          "hints": {
+            "en": "я хочу холодную воду",
+            "vi": "я хочу холодную воду"
+          }
+        },
+        "vi": {
+          "text": "tôi muốn nước lạnh",
+          "ipa": "/toj˧ muən˧˥ nɨək˧˥ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi muốn nước lạnh",
+            "en": "tôi muốn nước lạnh"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.want",
+        "adj.cold",
+        "food.water"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_drink_hot_tea",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I drink hot tea",
+        "ru": "я пью горячий чай",
+        "vi": "tôi uống trà nóng"
+      },
+      "texts": {
+        "en": {
+          "text": "I drink hot tea",
+          "ipa": "/aɪ drɪŋk hɒt tiː/",
+          "hints": {
+            "ru": "I drink hot tea",
+            "vi": "I drink hot tea"
+          }
+        },
+        "ru": {
+          "text": "я пью горячий чай",
+          "ipa": "/ja pʲju ɡorʲatɕij tɕaj/",
+          "hints": {
+            "en": "я пью горячий чай",
+            "vi": "я пью горячий чай"
+          }
+        },
+        "vi": {
+          "text": "tôi uống trà nóng",
+          "ipa": "/toj˧ uəŋ˧˥ tra˨˩ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi uống trà nóng",
+            "en": "tôi uống trà nóng"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.drink",
+        "adj.hot",
+        "food.tea"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_eat_hot_rice",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I eat hot rice",
+        "ru": "я ем горячий рис",
+        "vi": "tôi ăn cơm nóng"
+      },
+      "texts": {
+        "en": {
+          "text": "I eat hot rice",
+          "ipa": "/aɪ iːt hɒt raɪs/",
+          "hints": {
+            "ru": "I eat hot rice",
+            "vi": "I eat hot rice"
+          }
+        },
+        "ru": {
+          "text": "я ем горячий рис",
+          "ipa": "/ja jem ɡorʲatɕij rʲis/",
+          "hints": {
+            "en": "я ем горячий рис",
+            "vi": "я ем горячий рис"
+          }
+        },
+        "vi": {
+          "text": "tôi ăn cơm nóng",
+          "ipa": "/toj˧ an˧ kəːm˧ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi ăn cơm nóng",
+            "en": "tôi ăn cơm nóng"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.eat",
+        "adj.hot",
+        "food.rice"
+      ]
+    },
+    {
+      "id": "cmp.l3.we_drink_cold_milk",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "we drink cold milk",
+        "ru": "мы пьём холодное молоко",
+        "vi": "chúng tôi uống sữa lạnh"
+      },
+      "texts": {
+        "en": {
+          "text": "we drink cold milk",
+          "ipa": "/wiː drɪŋk kəʊld mɪlk/",
+          "hints": {
+            "ru": "we drink cold milk",
+            "vi": "we drink cold milk"
+          }
+        },
+        "ru": {
+          "text": "мы пьём холодное молоко",
+          "ipa": "/mɨ pʲjom xolodnoje moloko/",
+          "hints": {
+            "en": "мы пьём холодное молоко",
+            "vi": "мы пьём холодное молоко"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi uống sữa lạnh",
+          "ipa": "/tɕuŋ˧˥ toj˧ uəŋ˧˥ sɨə˧˥ˀ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi uống sữa lạnh",
+            "en": "chúng tôi uống sữa lạnh"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.we",
+        "verb.drink",
+        "adj.cold",
+        "food.milk"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_see_my_mother",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I see my mother",
+        "ru": "я вижу мою маму",
+        "vi": "tôi thấy mẹ tôi"
+      },
+      "texts": {
+        "en": {
+          "text": "I see my mother",
+          "ipa": "/aɪ siː maɪ ˈmʌðɚ/",
+          "hints": {
+            "ru": "I see my mother",
+            "vi": "I see my mother"
+          }
+        },
+        "ru": {
+          "text": "я вижу мою маму",
+          "ipa": "/ja vʲiʐu moju mamu/",
+          "hints": {
+            "en": "я вижу мою маму",
+            "vi": "я вижу мою маму"
+          }
+        },
+        "vi": {
+          "text": "tôi thấy mẹ tôi",
+          "ipa": "/toj˧ tʰəj˧˥ mɛ˧ˀ toj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi thấy mẹ tôi",
+            "en": "tôi thấy mẹ tôi"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.see",
+        "pron.my",
+        "fam.mother"
+      ]
+    },
+    {
+      "id": "cmp.l3.he_likes_hot_coffee",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "he likes hot coffee",
+        "ru": "ему нравится горячий кофе",
+        "vi": "anh ấy thích cà phê nóng"
+      },
+      "texts": {
+        "en": {
+          "text": "he likes hot coffee",
+          "ipa": "/hiː ˈlaɪks hɒt ˈkɒfi/",
+          "hints": {
+            "ru": "he likes hot coffee",
+            "vi": "he likes hot coffee"
+          }
+        },
+        "ru": {
+          "text": "ему нравится горячий кофе",
+          "ipa": "/jemu nravʲitsʲa ɡorʲatɕij ˈkofʲe/",
+          "hints": {
+            "en": "ему нравится горячий кофе",
+            "vi": "ему нравится горячий кофе"
+          }
+        },
+        "vi": {
+          "text": "anh ấy thích cà phê nóng",
+          "ipa": "/ajŋ˧ əj˧˥ tʰik˧˥ kaː˧˩ fe˧ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "anh ấy thích cà phê nóng",
+            "en": "anh ấy thích cà phê nóng"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.he",
+        "verb.like",
+        "adj.hot",
+        "food.coffee"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_need_good_bread",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I need good bread",
+        "ru": "мне нужен хороший хлеб",
+        "vi": "tôi cần bánh mì tốt"
+      },
+      "texts": {
+        "en": {
+          "text": "I need good bread",
+          "ipa": "/aɪ niːd ɡʊd bred/",
+          "hints": {
+            "ru": "I need good bread",
+            "vi": "I need good bread"
+          }
+        },
+        "ru": {
+          "text": "мне нужен хороший хлеб",
+          "ipa": "/mnʲe nuʐen xoroʂij xlʲep/",
+          "hints": {
+            "en": "мне нужен хороший хлеб",
+            "vi": "мне нужен хороший хлеб"
+          }
+        },
+        "vi": {
+          "text": "tôi cần bánh mì tốt",
+          "ipa": "/toj˧ kən˧˩ ɓajŋ˧˥ mi˧˩ tot˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi cần bánh mì tốt",
+            "en": "tôi cần bánh mì tốt"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.need",
+        "adj.good",
+        "food.bread"
+      ]
+    },
+    {
+      "id": "cmp.l3.they_want_cold_water",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "they want cold water",
+        "ru": "они хотят холодную воду",
+        "vi": "họ muốn nước lạnh"
+      },
+      "texts": {
+        "en": {
+          "text": "they want cold water",
+          "ipa": "/ðeɪ wɒnt kəʊld ˈwɔːtə/",
+          "hints": {
+            "ru": "they want cold water",
+            "vi": "they want cold water"
+          }
+        },
+        "ru": {
+          "text": "они хотят холодную воду",
+          "ipa": "/ɐˈnʲi xotʲat xolodnuju vodu/",
+          "hints": {
+            "en": "они хотят холодную воду",
+            "vi": "они хотят холодную воду"
+          }
+        },
+        "vi": {
+          "text": "họ muốn nước lạnh",
+          "ipa": "/hɔ˧ˀ muən˧˥ nɨək˧˥ lajŋ˧ˀ/",
+          "tones": [],
+          "hints": {
+            "ru": "họ muốn nước lạnh",
+            "en": "họ muốn nước lạnh"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.they",
+        "verb.want",
+        "adj.cold",
+        "food.water"
+      ]
+    },
+    {
+      "id": "cmp.l3.you_eat_hot_rice",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "you eat hot rice",
+        "ru": "ты ешь горячий рис",
+        "vi": "bạn ăn cơm nóng"
+      },
+      "texts": {
+        "en": {
+          "text": "you eat hot rice",
+          "ipa": "/juː iːt hɒt raɪs/",
+          "hints": {
+            "ru": "you eat hot rice",
+            "vi": "you eat hot rice"
+          }
+        },
+        "ru": {
+          "text": "ты ешь горячий рис",
+          "ipa": "/tɨ jeʂ ɡorʲatɕij rʲis/",
+          "hints": {
+            "en": "ты ешь горячий рис",
+            "vi": "ты ешь горячий рис"
+          }
+        },
+        "vi": {
+          "text": "bạn ăn cơm nóng",
+          "ipa": "/ɓaːn˧ˀ an˧ kəːm˧ nɔŋ˧˥/",
+          "tones": [],
+          "hints": {
+            "ru": "bạn ăn cơm nóng",
+            "en": "bạn ăn cơm nóng"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.you",
+        "verb.eat",
+        "adj.hot",
+        "food.rice"
+      ]
+    },
+    {
+      "id": "cmp.l3.i_see_father_today",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "I see father today",
+        "ru": "я вижу папу сегодня",
+        "vi": "tôi thấy bố hôm nay"
+      },
+      "texts": {
+        "en": {
+          "text": "I see father today",
+          "ipa": "/aɪ siː ˈfɑðɚ təˈdeɪ/",
+          "hints": {
+            "ru": "I see father today",
+            "vi": "I see father today"
+          }
+        },
+        "ru": {
+          "text": "я вижу папу сегодня",
+          "ipa": "/ja vʲiʐu papu sʲɪˈvodʲnʲə/",
+          "hints": {
+            "en": "я вижу папу сегодня",
+            "vi": "я вижу папу сегодня"
+          }
+        },
+        "vi": {
+          "text": "tôi thấy bố hôm nay",
+          "ipa": "/toj˧ tʰəj˧˥ ɓo˧˥ hom˧ naj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "tôi thấy bố hôm nay",
+            "en": "tôi thấy bố hôm nay"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.i",
+        "verb.see",
+        "fam.father",
+        "time.today"
+      ]
+    },
+    {
+      "id": "cmp.l3.we_eat_bread_today",
+      "kind": "sentence",
+      "theme": "composed",
+      "tags": [
+        "composed",
+        "level:3"
+      ],
+      "grammar": {
+        "en": "we eat bread today",
+        "ru": "мы едим хлеб сегодня",
+        "vi": "chúng tôi ăn bánh mì hôm nay"
+      },
+      "texts": {
+        "en": {
+          "text": "we eat bread today",
+          "ipa": "/wiː iːt bred təˈdeɪ/",
+          "hints": {
+            "ru": "we eat bread today",
+            "vi": "we eat bread today"
+          }
+        },
+        "ru": {
+          "text": "мы едим хлеб сегодня",
+          "ipa": "/mɨ jedʲim xlʲep sʲɪˈvodʲnʲə/",
+          "hints": {
+            "en": "мы едим хлеб сегодня",
+            "vi": "мы едим хлеб сегодня"
+          }
+        },
+        "vi": {
+          "text": "chúng tôi ăn bánh mì hôm nay",
+          "ipa": "/tɕuŋ˧˥ toj˧ an˧ ɓajŋ˧˥ mi˧˩ hom˧ naj˧/",
+          "tones": [],
+          "hints": {
+            "ru": "chúng tôi ăn bánh mì hôm nay",
+            "en": "chúng tôi ăn bánh mì hôm nay"
+          }
+        }
+      },
+      "level": 3,
+      "uses": [
+        "pron.we",
+        "verb.eat",
+        "food.bread",
+        "time.today"
+      ]
+    }
+  ]
+}

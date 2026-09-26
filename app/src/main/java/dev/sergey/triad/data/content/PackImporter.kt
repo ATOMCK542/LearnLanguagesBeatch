@@ -3,6 +3,7 @@ package dev.sergey.triad.data.content
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.sergey.triad.data.db.CatalogDao
+import dev.sergey.triad.data.db.ConceptPartEntity
 import dev.sergey.triad.data.db.Mappers.toEntity
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -30,5 +31,10 @@ class PackImporter @Inject constructor(
         catalog.upsertThemes(themes.distinctBy { it.id }.map { it.toEntity() })
         catalog.upsertConcepts(concepts.map { it.toEntity() })
         catalog.upsertTexts(concepts.flatMap { c -> c.texts.values.map { it.toEntity(c.id) } })
+        catalog.clearParts()
+        val parts = concepts.flatMap { concept ->
+            concept.uses.map { wordId -> ConceptPartEntity(concept.id, wordId, concept.level) }
+        }
+        if (parts.isNotEmpty()) catalog.insertParts(parts)
     }
 }

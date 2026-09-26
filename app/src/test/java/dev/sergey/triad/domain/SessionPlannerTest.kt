@@ -111,6 +111,22 @@ class SessionPlannerTest {
     }
 
     @Test
+    fun wordSessionSkipsComposedPhrases() {
+        val now = 9L
+        val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.En), 5, true, 0, null, 0)
+        val word = concept("pron.i")
+        val phrase = concept("cmp.l1.i_want")
+        val plan = SessionPlanner(scheduler, factory).plan(
+            profile,
+            listOf(phrase, word),
+            emptyList(),
+            now,
+            excludeConceptIds = setOf(phrase.id),
+        )
+        assertEquals(listOf("pron.i"), plan.items.map { it.review.conceptId })
+    }
+
+    @Test
     fun nativeOnlyTargetsStillStudyOtherLanguages() {
         val now = 6L
         val profile = Profile(1, "A", null, now, now, AppLanguage.Ru, AppLanguage.Ru, listOf(AppLanguage.Ru), 3, true, 0, null, 0)

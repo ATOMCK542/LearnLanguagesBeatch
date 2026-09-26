@@ -29,6 +29,8 @@ data class Concept(
     val tags: List<String>,
     val grammar: LocalizedText,
     val texts: Map<AppLanguage, ConceptText>,
+    val level: Int = 0,
+    val uses: List<String> = emptyList(),
 ) {
     fun text(lang: AppLanguage): ConceptText =
         texts[lang] ?: error("Missing ${lang.code} for $id")

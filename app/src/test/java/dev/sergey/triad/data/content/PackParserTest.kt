@@ -47,6 +47,47 @@ class PackParserTest {
         assertEquals("want + сущ.", c.grammar.forLang(AppLanguage.Ru))
         assertEquals("Cafe", PackParser.themesOf(pack).first().title.en)
         assertTrue(PackParser.themesOf(pack).first().sections.isEmpty())
+        assertEquals(0, c.level)
+        assertTrue(c.uses.isEmpty())
+    }
+
+    @Test
+    fun parsesPhraseUses() {
+        val concepts = PackParser.conceptsOf(
+            PackParser.parse(
+                """
+                {"concepts":[{
+                  "id":"cmp.l1.i_want","kind":"phrase","theme":"composed","level":1,
+                  "uses":["pron.i","verb.want"],
+                  "grammar":{"en":"I + want","ru":"я + хотеть","vi":"tôi + muốn"},
+                  "texts":{
+                    "en":{"text":"I want"},
+                    "ru":{"text":"я хочу"},
+                    "vi":{"text":"tôi muốn"}
+                  }
+                }]}
+                """.trimIndent(),
+            ),
+        )
+        val phrase = concepts.single()
+        assertEquals(1, phrase.level)
+        assertEquals(listOf("pron.i", "verb.want"), phrase.uses)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun rejectsSelfUse() {
+        PackParser.conceptsOf(
+            PackParser.parse(
+                """
+                {"concepts":[{
+                  "id":"cmp.loop","kind":"phrase","theme":"composed","level":1,
+                  "uses":["cmp.loop"],
+                  "grammar":{"en":"","ru":"","vi":""},
+                  "texts":{"en":{"text":"I want"},"ru":{"text":"я хочу"},"vi":{"text":"tôi muốn"}}
+                }]}
+                """.trimIndent(),
+            ),
+        )
     }
 
     @Test

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "cmp.l1.i_want",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.i", "verb.want"],
+    "en": "I want",
+    "ru": "я хочу",
+    "vi": "tôi muốn",
+    "grammar": {"en": "I + want", "ru": "я + хотеть", "vi": "tôi + muốn"}
+  },
+  {
+    "id": "cmp.l1.i_eat",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.i", "verb.eat"],
+    "en": "I eat",
+    "ru": "я ем",
+    "vi": "tôi ăn",
+    "grammar": {"en": "I + eat", "ru": "я + есть", "vi": "tôi + ăn"}
+  },
+  {
+    "id": "cmp.l1.you_need",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.you", "verb.need"],
+    "en": "you need",
+    "ru": "тебе нужно",
+    "vi": "bạn cần",
+    "grammar": {"en": "you + need", "ru": "ты + нуждаться", "vi": "bạn + cần"}
+  },
+  {
+    "id": "cmp.l1.we_go",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.we", "verb.go"],
+    "en": "we go",
+    "ru": "мы идём",
+    "vi": "chúng tôi đi",
+    "grammar": {"en": "we + go", "ru": "мы + идти", "vi": "chúng tôi + đi"}
+  },
+  {
+    "id": "cmp.l1.she_sees",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.she", "verb.see"],
+    "en": "she sees",
+    "ru": "она видит",
+    "vi": "cô ấy thấy",
+    "grammar": {"en": "she + see", "ru": "она + видеть", "vi": "cô ấy + thấy"}
+  },
+  {
+    "id": "cmp.l1.he_works",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.he", "verb.work"],
+    "en": "he works",
+    "ru": "он работает",
+    "vi": "anh ấy làm việc",
+    "grammar": {"en": "he + work", "ru": "он + работать", "vi": "anh ấy + làm việc"}
+  },
+  {
+    "id": "cmp.l1.we_study",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.we", "verb.study"],
+    "en": "we study",
+    "ru": "мы учимся",
+    "vi": "chúng tôi học",
+    "grammar": {"en": "we + study", "ru": "мы + учиться", "vi": "chúng tôi + học"}
+  },
+  {
+    "id": "cmp.l1.i_like",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.i", "verb.like"],
+    "en": "I like",
+    "ru": "мне нравится",
+    "vi": "tôi thích",
+    "grammar": {"en": "I + like", "ru": "я + нравиться", "vi": "tôi + thích"}
+  },
+  {
+    "id": "cmp.l1.hot_coffee",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["adj.hot", "food.coffee"],
+    "en": "hot coffee",
+    "ru": "горячий кофе",
+    "vi": "cà phê nóng",
+    "grammar": {"en": "hot + coffee", "ru": "горячий + кофе", "vi": "cà phê + nóng"}
+  },
+  {
+    "id": "cmp.l1.cold_water",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["adj.cold", "food.water"],
+    "en": "cold water",
+    "ru": "холодная вода",
+    "vi": "nước lạnh",
+    "grammar": {"en": "cold + water", "ru": "холодный + вода", "vi": "nước + lạnh"}
+  },
+  {
+    "id": "cmp.l1.good_tea",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["adj.good", "food.tea"],
+    "en": "good tea",
+    "ru": "хороший чай",
+    "vi": "trà tốt",
+    "grammar": {"en": "good + tea", "ru": "хороший + чай", "vi": "trà + tốt"}
+  },
+  {
+    "id": "cmp.l1.my_mother",
+    "level": 1,
+    "kind": "phrase",
+    "uses": ["pron.my", "fam.mother"],
+    "en": "my mother",
+    "ru": "моя мама",
+    "vi": "mẹ tôi",
+    "grammar": {"en": "my + mother", "ru": "мой + мама", "vi": "mẹ + của tôi"}
+  },
+  {
+    "id": "cmp.l2.i_want_water",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.want", "food.water"],
+    "en": "I want water",
+    "ru": "я хочу воды",
+    "vi": "tôi muốn nước",
+    "grammar": {"en": "I want water", "ru": "я хочу воды", "vi": "tôi muốn nước"}
+  },
+  {
+    "id": "cmp.l2.i_want_coffee",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.want", "food.coffee"],
+    "en": "I want coffee",
+    "ru": "я хочу кофе",
+    "vi": "tôi muốn cà phê",
+    "grammar": {"en": "I want coffee", "ru": "я хочу кофе", "vi": "tôi muốn cà phê"}
+  },
+  {
+    "id": "cmp.l2.i_drink_tea",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.drink", "food.tea"],
+    "en": "I drink tea",
+    "ru": "я пью чай",
+    "vi": "tôi uống trà",
+    "grammar": {"en": "I drink tea", "ru": "я пью чай", "vi": "tôi uống trà"}
+  },
+  {
+    "id": "cmp.l2.i_eat_rice",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.eat", "food.rice"],
+    "en": "I eat rice",
+    "ru": "я ем рис",
+    "vi": "tôi ăn cơm",
+    "grammar": {"en": "I eat rice", "ru": "я ем рис", "vi": "tôi ăn cơm"}
+  },
+  {
+    "id": "cmp.l2.she_drinks_milk",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.she", "verb.drink", "food.milk"],
+    "en": "she drinks milk",
+    "ru": "она пьёт молоко",
+    "vi": "cô ấy uống sữa",
+    "grammar": {"en": "she drinks milk", "ru": "она пьёт молоко", "vi": "cô ấy uống sữa"}
+  },
+  {
+    "id": "cmp.l2.we_eat_bread",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.we", "verb.eat", "food.bread"],
+    "en": "we eat bread",
+    "ru": "мы едим хлеб",
+    "vi": "chúng tôi ăn bánh mì",
+    "grammar": {"en": "we eat bread", "ru": "мы едим хлеб", "vi": "chúng tôi ăn bánh mì"}
+  },
+  {
+    "id": "cmp.l2.i_see_mother",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.see", "fam.mother"],
+    "en": "I see mother",
+    "ru": "я вижу маму",
+    "vi": "tôi thấy mẹ",
+    "grammar": {"en": "I see mother", "ru": "я вижу маму", "vi": "tôi thấy mẹ"}
+  },
+  {
+    "id": "cmp.l2.i_need_water",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.need", "food.water"],
+    "en": "I need water",
+    "ru": "мне нужна вода",
+    "vi": "tôi cần nước",
+    "grammar": {"en": "I need water", "ru": "мне нужна вода", "vi": "tôi cần nước"}
+  },
+  {
+    "id": "cmp.l2.you_need_coffee",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.you", "verb.need", "food.coffee"],
+    "en": "you need coffee",
+    "ru": "тебе нужен кофе",
+    "vi": "bạn cần cà phê",
+    "grammar": {"en": "you need coffee", "ru": "тебе нужен кофе", "vi": "bạn cần cà phê"}
+  },
+  {
+    "id": "cmp.l2.they_eat_rice",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.they", "verb.eat", "food.rice"],
+    "en": "they eat rice",
+    "ru": "они едят рис",
+    "vi": "họ ăn cơm",
+    "grammar": {"en": "they eat rice", "ru": "они едят рис", "vi": "họ ăn cơm"}
+  },
+  {
+    "id": "cmp.l2.i_like_tea",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.like", "food.tea"],
+    "en": "I like tea",
+    "ru": "мне нравится чай",
+    "vi": "tôi thích trà",
+    "grammar": {"en": "I like tea", "ru": "мне нравится чай", "vi": "tôi thích trà"}
+  },
+  {
+    "id": "cmp.l2.we_drink_water",
+    "level": 2,
+    "kind": "sentence",
+    "uses": ["pron.we", "verb.drink", "food.water"],
+    "en": "we drink water",
+    "ru": "мы пьём воду",
+    "vi": "chúng tôi uống nước",
+    "grammar": {"en": "we drink water", "ru": "мы пьём воду", "vi": "chúng tôi uống nước"}
+  },
+  {
+    "id": "cmp.l3.i_want_hot_coffee",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.want", "adj.hot", "food.coffee"],
+    "en": "I want hot coffee",
+    "ru": "я хочу горячий кофе",
+    "vi": "tôi muốn cà phê nóng",
+    "grammar": {"en": "I want hot coffee", "ru": "я хочу горячий кофе", "vi": "tôi muốn cà phê nóng"}
+  },
+  {
+    "id": "cmp.l3.i_want_cold_water",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.want", "adj.cold", "food.water"],
+    "en": "I want cold water",
+    "ru": "я хочу холодную воду",
+    "vi": "tôi muốn nước lạnh",
+    "grammar": {"en": "I want cold water", "ru": "я хочу холодную воду", "vi": "tôi muốn nước lạnh"}
+  },
+  {
+    "id": "cmp.l3.i_drink_hot_tea",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.drink", "adj.hot", "food.tea"],
+    "en": "I drink hot tea",
+    "ru": "я пью горячий чай",
+    "vi": "tôi uống trà nóng",
+    "grammar": {"en": "I drink hot tea", "ru": "я пью горячий чай", "vi": "tôi uống trà nóng"}
+  },
+  {
+    "id": "cmp.l3.i_eat_hot_rice",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.eat", "adj.hot", "food.rice"],
+    "en": "I eat hot rice",
+    "ru": "я ем горячий рис",
+    "vi": "tôi ăn cơm nóng",
+    "grammar": {"en": "I eat hot rice", "ru": "я ем горячий рис", "vi": "tôi ăn cơm nóng"}
+  },
+  {
+    "id": "cmp.l3.we_drink_cold_milk",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.we", "verb.drink", "adj.cold", "food.milk"],
+    "en": "we drink cold milk",
+    "ru": "мы пьём холодное молоко",
+    "vi": "chúng tôi uống sữa lạnh",
+    "grammar": {"en": "we drink cold milk", "ru": "мы пьём холодное молоко", "vi": "chúng tôi uống sữa lạnh"}
+  },
+  {
+    "id": "cmp.l3.i_see_my_mother",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.see", "pron.my", "fam.mother"],
+    "en": "I see my mother",
+    "ru": "я вижу мою маму",
+    "vi": "tôi thấy mẹ tôi",
+    "grammar": {"en": "I see my mother", "ru": "я вижу мою маму", "vi": "tôi thấy mẹ tôi"}
+  },
+  {
+    "id": "cmp.l3.he_likes_hot_coffee",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.he", "verb.like", "adj.hot", "food.coffee"],
+    "en": "he likes hot coffee",
+    "ru": "ему нравится горячий кофе",
+    "vi": "anh ấy thích cà phê nóng",
+    "grammar": {"en": "he likes hot coffee", "ru": "ему нравится горячий кофе", "vi": "anh ấy thích cà phê nóng"}
+  },
+  {
+    "id": "cmp.l3.i_need_good_bread",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.need", "adj.good", "food.bread"],
+    "en": "I need good bread",
+    "ru": "мне нужен хороший хлеб",
+    "vi": "tôi cần bánh mì tốt",
+    "grammar": {"en": "I need good bread", "ru": "мне нужен хороший хлеб", "vi": "tôi cần bánh mì tốt"}
+  },
+  {
+    "id": "cmp.l3.they_want_cold_water",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.they", "verb.want", "adj.cold", "food.water"],
+    "en": "they want cold water",
+    "ru": "они хотят холодную воду",
+    "vi": "họ muốn nước lạnh",
+    "grammar": {"en": "they want cold water", "ru": "они хотят холодную воду", "vi": "họ muốn nước lạnh"}
+  },
+  {
+    "id": "cmp.l3.you_eat_hot_rice",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.you", "verb.eat", "adj.hot", "food.rice"],
+    "en": "you eat hot rice",
+    "ru": "ты ешь горячий рис",
+    "vi": "bạn ăn cơm nóng",
+    "grammar": {"en": "you eat hot rice", "ru": "ты ешь горячий рис", "vi": "bạn ăn cơm nóng"}
+  },
+  {
+    "id": "cmp.l3.i_see_father_today",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.i", "verb.see", "fam.father", "time.today"],
+    "en": "I see father today",
+    "ru": "я вижу папу сегодня",
+    "vi": "tôi thấy bố hôm nay",
+    "grammar": {"en": "I see father today", "ru": "я вижу папу сегодня", "vi": "tôi thấy bố hôm nay"}
+  },
+  {
+    "id": "cmp.l3.we_eat_bread_today",
+    "level": 3,
+    "kind": "sentence",
+    "uses": ["pron.we", "verb.eat", "food.bread", "time.today"],
+    "en": "we eat bread today",
+    "ru": "мы едим хлеб сегодня",
+    "vi": "chúng tôi ăn bánh mì hôm nay",
+    "grammar": {"en": "we eat bread today", "ru": "мы едим хлеб сегодня", "vi": "chúng tôi ăn bánh mì hôm nay"}
+  }
+]

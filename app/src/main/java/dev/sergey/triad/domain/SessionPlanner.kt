@@ -11,13 +11,15 @@ class SessionPlanner(
         now: Long,
         sessionSize: Int = 10,
         preferredThemeId: String? = null,
+        excludeConceptIds: Set<String> = emptySet(),
     ): SessionPlan {
         val targetLangs = profile.studyTargets()
-        val focused = preferredThemeId?.let { id -> concepts.filter { it.themeId == id } }.orEmpty()
-        val primary = focused.ifEmpty { concepts }
+        val pool = concepts.filter { it.id !in excludeConceptIds }
+        val focused = preferredThemeId?.let { id -> pool.filter { it.themeId == id } }.orEmpty()
+        val primary = focused.ifEmpty { pool }
         val planned = planFrom(profile, primary, reviews, now, sessionSize, targetLangs)
         if (planned.items.isNotEmpty() || focused.isEmpty()) return planned
-        return planFrom(profile, concepts, reviews, now, sessionSize, targetLangs)
+        return planFrom(profile, pool, reviews, now, sessionSize, targetLangs)
     }
 
     private fun planFrom(

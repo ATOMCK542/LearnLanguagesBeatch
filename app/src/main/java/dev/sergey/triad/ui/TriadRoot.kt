@@ -220,6 +220,16 @@ private fun StudyPane(state: MainUiState, vm: MainViewModel, onStart: () -> Unit
         }, enabled = !state.planningSession, modifier = Modifier.testTag("start_session")) {
             Text(stringResource(R.string.action_start))
         }
+        if (state.phrasesReady > 0) {
+            Text(pluralStringResource(R.plurals.phrases_ready, state.phrasesReady, state.phrasesReady))
+            Button(
+                onClick = { vm.startPhraseSession { onStart() } },
+                enabled = !state.planningSession,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).testTag("start_phrases"),
+            ) {
+                Text(stringResource(R.string.action_phrases))
+            }
+        }
         Text(stringResource(R.string.review_title), style = MaterialTheme.typography.titleMedium)
         if (state.practiceAvailable == 0) {
             Text(
@@ -287,8 +297,10 @@ private fun PathPane(state: MainUiState, vm: MainViewModel) {
     val uiLang = state.active?.uiLang ?: AppLanguage.En
     val targets = state.active?.studyTargets()?.toSet().orEmpty()
     val visible = state.themes.filter { theme ->
-        val primer = theme.primerLanguage()
-        primer == null || primer in targets
+        theme.kind != "composed" && run {
+            val primer = theme.primerLanguage()
+            primer == null || primer in targets
+        }
     }
     var openThemes by remember { mutableStateOf(setOf<String>()) }
     var openSections by remember { mutableStateOf(setOf<String>()) }
@@ -522,7 +534,8 @@ private fun LibraryPane(state: MainUiState, vm: MainViewModel, nav: NavHostContr
     val native = state.active?.nativeLang ?: AppLanguage.Ru
     val ttsOn = state.active?.ttsEnabled == true
     val filtered = state.concepts.filter {
-        q.isBlank() || it.texts.values.any { t -> t.text.contains(q, ignoreCase = true) }
+        it.themeId != "composed" &&
+            (q.isBlank() || it.texts.values.any { t -> t.text.contains(q, ignoreCase = true) })
     }
     LazyColumn(
         modifier = Modifier.fillMaxSize(),

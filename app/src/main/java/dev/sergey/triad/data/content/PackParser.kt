@@ -32,6 +32,8 @@ data class ConceptDto(
     val tags: List<String> = emptyList(),
     val grammar: LocalizedDto,
     val texts: Map<String, ConceptTextDto>,
+    val level: Int = 0,
+    val uses: List<String> = emptyList(),
 )
 
 @Serializable
@@ -151,6 +153,11 @@ object PackParser {
                 .mapKeys { AppLanguage.fromCode(it.key) }
             lang to ConceptText(lang, text.text, text.ipa, hints, text.tones)
         }.toMap()
+        val uses = dto.uses.map { it.trim() }.filter { it.isNotEmpty() }.distinct()
+        if (uses.isNotEmpty()) {
+            require(dto.level in 1..3) { "Concept ${dto.id} level must be 1, 2, or 3" }
+            require(dto.id !in uses) { "Concept ${dto.id} cannot use itself" }
+        }
         Concept(
             id = dto.id,
             kind = when (dto.kind.lowercase()) {
@@ -162,6 +169,8 @@ object PackParser {
             tags = dto.tags,
             grammar = dto.grammar.toDomain(),
             texts = texts,
+            level = if (uses.isEmpty()) 0 else dto.level,
+            uses = uses,
         )
     }
 }

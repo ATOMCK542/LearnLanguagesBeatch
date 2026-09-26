@@ -53,6 +53,7 @@ data class MainUiState(
     val masteredIds: Set<String> = emptySet(),
     val themeStudy: Map<String, ThemeStudy> = emptyMap(),
     val practiceAvailable: Int = 0,
+    val phrasesReady: Int = 0,
     val practiceSize: Int = 20,
     val sessionPractice: Boolean = false,
     val selectedThemeId: String? = null,
@@ -121,6 +122,7 @@ class MainViewModel @Inject constructor(
                 val mastered = active?.let { repo.masteredConceptIds(it.id) } ?: emptySet()
                 val themeStudy = if (active != null) repo.themeStudy() else emptyMap()
                 val practiceAvailable = repo.practicePoolSize()
+                val phrasesReady = repo.phraseReadyCount()
                 val sizes = PracticePlanner.sizeChoices(practiceAvailable)
                 val practiceSize = _state.value.practiceSize.let { current ->
                     if (current in sizes) current else sizes.lastOrNull() ?: 0
@@ -137,6 +139,7 @@ class MainViewModel @Inject constructor(
                         masteredIds = mastered,
                         themeStudy = themeStudy,
                         practiceAvailable = practiceAvailable,
+                        phrasesReady = phrasesReady,
                         practiceSize = practiceSize,
                     )
                 }
@@ -187,6 +190,28 @@ class MainViewModel @Inject constructor(
                     sessionPractice = false,
                     planningSession = false,
                     unlocked = unlocked,
+                )
+            }
+            onReady()
+        }
+    }
+
+    fun startPhraseSession(onReady: () -> Unit = {}) {
+        viewModelScope.launch {
+            _state.update { it.copy(planningSession = true) }
+            val plan = repo.planPhraseSession()
+            _state.update {
+                it.copy(
+                    session = plan.items,
+                    sessionIndex = 0,
+                    revealed = false,
+                    lastCorrect = null,
+                    lastPicked = null,
+                    quizPicks = emptyMap(),
+                    sessionPractice = false,
+                    planningSession = false,
+                    phrasesReady = repo.phraseReadyCount(),
+                    due = repo.dueCount(),
                 )
             }
             onReady()
@@ -358,6 +383,7 @@ class MainViewModel @Inject constructor(
             it.copy(
                 due = repo.dueCount(),
                 practiceAvailable = available,
+                phrasesReady = repo.phraseReadyCount(),
                 practiceSize = size,
                 themeStudy = study,
             )

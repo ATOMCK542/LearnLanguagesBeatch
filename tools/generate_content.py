@@ -45,6 +45,8 @@ def concept(
     vi_ipa: str = "",
     tones: list[str] | None = None,
     grammar: dict | None = None,
+    level: int = 0,
+    uses: list[str] | None = None,
     hint_en_ru: str = "",
     hint_en_vi: str = "",
     hint_ru_en: str = "",
@@ -53,7 +55,7 @@ def concept(
     hint_vi_en: str = "",
 ) -> dict:
     g = grammar or loc("", "", "")
-    return {
+    row = {
         "id": cid,
         "kind": kind,
         "theme": theme,
@@ -78,6 +80,10 @@ def concept(
             },
         },
     }
+    if uses:
+        row["level"] = level
+        row["uses"] = uses
+    return row
 
 
 def pack(theme_id: str, order: int, title: dict, concepts: list, kind: str = "unit", description: dict | None = None) -> dict:
@@ -589,6 +595,93 @@ def load_primers() -> list[dict]:
     return themes
 
 
+PHRASE_PACK = "96_phrases.json"
+
+
+def write_composed() -> None:
+    """Build phrase lessons whose uses point at vocabulary concept ids."""
+    recipes_path = SRC / "phrases" / "recipes.json"
+    recipes = json.loads(recipes_path.read_text(encoding="utf-8"))
+    vocab: set[str] = set()
+    for path in sorted(PACKS.glob("*.json")):
+        if path.name == PHRASE_PACK:
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        for row in data.get("concepts", []):
+            vocab.add(row["id"])
+    if not isinstance(recipes, list) or len(recipes) != 36:
+        raise SystemExit(f"{recipes_path} must contain 36 recipes")
+    recipe_ids = {row["id"] for row in recipes}
+    seen: set[str] = set()
+    by_level = {1: 0, 2: 0, 3: 0}
+    concepts = []
+    for row in recipes:
+        cid = row["id"]
+        level = row["level"]
+        kind = row["kind"]
+        uses = row["uses"]
+        if cid in seen:
+            raise SystemExit(f"Duplicate phrase id {cid}")
+        seen.add(cid)
+        if cid in vocab or cid in uses:
+            raise SystemExit(f"{cid} collides with a word or uses itself")
+        if not isinstance(uses, list) or len(uses) != len(set(uses)):
+            raise SystemExit(f"{cid} uses must be unique")
+        missing = [word for word in uses if word not in vocab]
+        if missing:
+            raise SystemExit(f"{cid} missing words: {missing}")
+        if any(word in recipe_ids for word in uses):
+            raise SystemExit(f"{cid} uses another phrase")
+        if level == 1:
+            if kind != "phrase" or len(uses) != 2:
+                raise SystemExit(f"{cid} level 1 needs kind phrase and 2 words")
+        elif level == 2:
+            if kind != "sentence" or len(uses) != 3:
+                raise SystemExit(f"{cid} level 2 needs kind sentence and 3 words")
+        elif level == 3:
+            if kind != "sentence" or len(uses) < 4:
+                raise SystemExit(f"{cid} level 3 needs kind sentence and at least 4 words")
+        else:
+            raise SystemExit(f"{cid} level must be 1, 2, or 3")
+        by_level[level] += 1
+        en, ru, vi = row["en"], row["ru"], row["vi"]
+        for lang, text in (("en", en), ("ru", ru), ("vi", vi)):
+            if len(text.split()) < 2:
+                raise SystemExit(f"{cid} {lang} needs at least two words")
+        grammar = row["grammar"]
+        concepts.append(
+            concept(
+                cid,
+                kind,
+                "composed",
+                ["composed", f"level:{level}"],
+                en,
+                ru,
+                vi,
+                grammar=loc(grammar["en"], grammar["ru"], grammar["vi"]),
+                level=level,
+                uses=uses,
+            )
+        )
+    if by_level != {1: 12, 2: 12, 3: 12}:
+        raise SystemExit(f"Need 12 recipes per level, got {by_level}")
+    write_pack(
+        PHRASE_PACK,
+        pack(
+            "composed",
+            196,
+            loc("Phrases", "Фразы", "Cụm từ"),
+            concepts,
+            kind="composed",
+            description=loc(
+                "Sentences from words you already answered.",
+                "Предложения из слов, на которые вы уже ответили.",
+                "Câu từ những từ bạn đã trả lời.",
+            ),
+        ),
+    )
+
+
 def main() -> None:
     write_pack("00_primers.json", {"themes": load_primers(), "concepts": []})
 
@@ -806,6 +899,7 @@ def main() -> None:
         )
 
     write_pack("99_user.json", pack("user", 200, loc("My cards", "Мои карточки", "Thẻ của tôi"), []))
+    write_composed()
 
     ids = []
     for f in sorted(PACKS.glob("*.json")):
