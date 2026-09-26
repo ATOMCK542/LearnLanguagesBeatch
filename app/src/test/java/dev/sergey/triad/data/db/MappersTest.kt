@@ -5,11 +5,14 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.ConceptKind
 import dev.sergey.triad.domain.ConceptText
 import dev.sergey.triad.domain.FsrsCardState
+import dev.sergey.triad.domain.LessonBlock
+import dev.sergey.triad.domain.LessonSection
 import dev.sergey.triad.domain.LocalizedText
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.ReviewItem
 import dev.sergey.triad.domain.Theme
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class MappersTest {
@@ -52,6 +55,35 @@ class MappersTest {
         val theme = Theme("t", "unit", 4, LocalizedText("A", "Б", "C"), LocalizedText("d", "е", "f"))
         val backTheme = with(Mappers) { theme.toEntity().toDomain() }
         assertEquals(theme, backTheme)
+        val withLessons = Theme(
+            "primer_en",
+            "primer",
+            2,
+            LocalizedText("English", "Английский", "Tiếng Anh"),
+            LocalizedText("Sounds", "Звуки", "Âm"),
+            listOf(
+                LessonSection(
+                    "sentences",
+                    LocalizedText("Sentences", "Предложения", "Câu"),
+                    listOf(
+                        LessonBlock.Paragraph(LocalizedText("Order", "Порядок", "Thứ tự")),
+                        LessonBlock.Speak(AppLanguage.En, "Do you read?", LocalizedText("do", "do", "do")),
+                    ),
+                ),
+            ),
+        )
+        val backLessons = with(Mappers) { withLessons.toEntity().toDomain() }
+        assertEquals(withLessons, backLessons)
+        val plain = ThemeEntity(
+            "cafe",
+            "unit",
+            1,
+            """{"en":"Cafe","ru":"Кафе","vi":"Quán"}""",
+            """{"en":"d","ru":"е","vi":"f"}""",
+        )
+        val backPlain = with(Mappers) { plain.toDomain() }
+        assertEquals("е", backPlain.description.ru)
+        assertTrue(backPlain.sections.isEmpty())
         val review = ReviewItem(1, "c", AppLanguage.En, 2.0, 4.0, 9, 3, 2, 1, FsrsCardState.Review, 1.5, 2.0)
         val backReview = with(Mappers) { review.toEntity().toDomain() }
         assertEquals(review, backReview)

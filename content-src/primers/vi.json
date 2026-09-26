@@ -1,0 +1,375 @@
+{
+  "id": "primer_vi",
+  "kind": "primer",
+  "order": 0,
+  "title": {
+    "en": "Vietnamese",
+    "ru": "Вьетнамский",
+    "vi": "Tiếng Việt"
+  },
+  "description": {
+    "en": "Sounds, six tones, how words are built, and how a sentence fits together.",
+    "ru": "Звуки, шесть тонов, как собираются слова и как из них получается предложение.",
+    "vi": "Âm, sáu thanh, cách tạo từ và cách dựng câu."
+  },
+  "sections": [
+    {
+      "id": "sounds",
+      "title": {
+        "en": "Letters and syllables",
+        "ru": "Буквы и слоги",
+        "vi": "Chữ và âm tiết"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "Vietnamese uses Latin letters, but several of them are not the English sound. đ, with a bar, is a firm d. Plain d, gi, and r are a different story, and the north and the south do not agree. In the north they often all sound like z in zoo. In the south, d and gi are closer to y in yes, while r stays a real r.",
+            "ru": "Вьетнамский пишут латиницей, но часть букв звучит не по-английски. đ с перекладиной — твёрдое d. Обычные d, gi и r — другое, и север с югом их не сводят к одному звуку. На севере все три часто как z в zoo. На юге d и gi ближе к y в yes, а r остаётся настоящим r.",
+            "vi": "Tiếng Việt dùng chữ Latin, nhưng vài chữ không đọc như tiếng Anh. đ có gạch ngang là âm d chắc. d thường, gi và r thì khác, và miền Bắc với miền Nam không đọc giống nhau. Ở miền Bắc cả ba thường nghe như z trong zoo. Ở miền Nam, d và gi gần với y trong yes, còn r vẫn là r thật."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "ng is the sound at the end of English sing, and it can start a word. Before e, ê, or i it is spelled ngh. kh is a harsh h, like the ch in German Bach or Russian х. th is a t with a puff of air, not the English th in think. tr and ch are separate for many northern speakers and much closer for many southern speakers.",
+            "ru": "ng — это звук в конце английского sing, и им можно начать слово. Перед e, ê и i пишут ngh. kh — жёсткое h, как ch в немецком Bach или русское х. th — это t с выдохом, не английское th в think. tr и ch у многих на севере различаются, а у многих на юге почти совпадают.",
+            "vi": "ng là âm cuối của sing trong tiếng Anh, và có thể đứng đầu từ. Trước e, ê hoặc i viết ngh. kh là h sắc, như ch trong Bach của tiếng Đức hoặc х của tiếng Nga. th là t có hơi, không phải th trong think. tr và ch với nhiều người miền Bắc là hai âm, với nhiều người miền Nam thì gần nhau."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "A syllable is one beat: an optional starting consonant, a vowel, and sometimes one final consonant. The only finals are p, t, c, m, n, and ng (also spelled ch and nh). You will not meet English clusters like str or bl. The tone mark sits on the main vowel. In a pair of vowels, if the first is only a glide (o or u), the mark usually sits on the next letter: hòa, thủy. Copy the mark with the word; do not invent a new place for it.",
+            "ru": "Слог — один удар: необязательный начальный согласный, гласная и иногда один конечный согласный. На конце бывают только p, t, c, m, n и ng (ещё написания ch и nh). Английских стечений вроде str или bl нет. Знак тона стоит на главной гласной. В паре гласных, если первая только призвук (o или u), знак обычно на следующей букве: hòa, thủy. Переписывайте знак вместе со словом и не ставьте его на другую букву.",
+            "vi": "Một âm tiết là một nhịp: phụ âm đầu không bắt buộc, nguyên âm, và đôi khi một phụ âm cuối. Cuối âm chỉ có p, t, c, m, n và ng (còn viết ch và nh). Không có cụm phụ âm kiểu tiếng Anh như str hay bl. Dấu thanh đặt trên nguyên âm chính. Trong cặp nguyên âm, nếu chữ đầu chỉ là âm lướt (o hoặc u), dấu thường nằm ở chữ sau: hòa, thủy. Hãy chép dấu cùng với từ, đừng đặt nó sang chữ khác."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "đi",
+          "caption": {
+            "en": "đ is a firm d: đi, to go",
+            "ru": "đ — твёрдое d: đi, идти",
+            "vi": "đ là d chắc: đi"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "da",
+          "caption": {
+            "en": "plain d: often z in the north, y in the south",
+            "ru": "обычное d: на севере часто z, на юге y",
+            "vi": "d thường: miền Bắc hay như z, miền Nam như y"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "ngon",
+          "caption": {
+            "en": "ng can start a syllable: ngon, tasty",
+            "ru": "ng может начать слог: ngon, вкусно",
+            "vi": "ng đứng đầu âm: ngon"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "không",
+          "caption": {
+            "en": "kh is a harsh h: không, no",
+            "ru": "kh — жёсткое h: không, нет",
+            "vi": "kh là h sắc: không"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "thơ",
+          "caption": {
+            "en": "th is t plus a puff of air: thơ, poem",
+            "ru": "th — это t с выдохом: thơ, стих",
+            "vi": "th là t có hơi: thơ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "tre",
+          "caption": {
+            "en": "tr: bamboo. In the south it is often close to ch",
+            "ru": "tr: бамбук. На юге часто близко к ch",
+            "vi": "tr: cây tre. Ở miền Nam thường gần với ch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tones",
+      "title": {
+        "en": "Six tones",
+        "ru": "Шесть тонов",
+        "vi": "Sáu thanh"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "The same syllable with a different tone is a different word. Standard Vietnamese has six tones, and the mark is written on the vowel. Learn one set, ma, until the shape of each tone is obvious. In the south, hỏi and ngã often sound almost the same, so the words around them do the rest of the work.",
+            "ru": "Тот же слог с другим тоном — другое слово. В учебном вьетнамском шесть тонов, знак пишут на гласной. Выучите один ряд, ma, пока форма каждого тона не станет ясной. На юге hỏi и ngã часто звучат почти одинаково, и тогда слова вокруг доделывают смысл.",
+            "vi": "Cùng một âm tiết mà khác thanh là khác từ. Tiếng Việt chuẩn có sáu thanh, dấu viết trên nguyên âm. Hãy học một bộ, ma, cho đến khi hình của từng thanh rõ. Ở miền Nam, hỏi và ngã thường nghe gần như nhau, nên các từ xung quanh phân biệt nghĩa."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "ma",
+          "caption": {
+            "en": "ngang, level, no mark: ghost",
+            "ru": "ngang, ровный, без знака: привидение",
+            "vi": "ngang, không dấu: ma, hồn ma"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "má",
+          "caption": {
+            "en": "sắc, rising: mother, or cheek",
+            "ru": "sắc, восходящий: мать или щека",
+            "vi": "sắc: mẹ, hoặc má"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "mà",
+          "caption": {
+            "en": "huyền, falling: but, which",
+            "ru": "huyền, нисходящий: но, который",
+            "vi": "huyền: nhưng, mà"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "mả",
+          "caption": {
+            "en": "hỏi, dip then rise: tomb",
+            "ru": "hỏi, вниз и вверх: могила",
+            "vi": "hỏi: mả, ngôi mộ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "mã",
+          "caption": {
+            "en": "ngã, broken rise: horse. In the south, close to mả",
+            "ru": "ngã, с надломом вверх: лошадь. На юге близко к mả",
+            "vi": "ngã: ngựa. Ở miền Nam gần với mả"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "mạ",
+          "caption": {
+            "en": "nặng, heavy drop: rice seedling",
+            "ru": "nặng, тяжёлое падение: рассада риса",
+            "vi": "nặng: mạ, cây lúa non"
+          }
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "title": {
+        "en": "How words are built",
+        "ru": "Как собираются слова",
+        "vi": "Cách tạo từ"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "Most roots are one syllable, and that syllable is already a word. A new word is often two old ones put side by side. xe is a vehicle, đạp is to pedal, xe đạp is a bicycle. máy is a machine, bay is to fly, máy bay is an airplane. The second piece narrows the first; you do not add an English-style ending to turn a verb into a noun.",
+            "ru": "Большинство корней — один слог, и этот слог уже слово. Новое слово часто складывают из двух старых. xe — транспорт, đạp — крутить педали, xe đạp — велосипед. máy — машина, bay — летать, máy bay — самолёт. Вторая часть сужает первую. Английского суффикса, который делает из глагола существительное, здесь нет.",
+            "vi": "Hầu hết gốc là một âm tiết, và âm tiết đó đã là một từ. Từ mới thường là hai từ cũ đặt cạnh nhau. xe là phương tiện, đạp là đạp, xe đạp là chiếc xe đạp. máy là máy, bay là bay, máy bay là máy bay. Phần sau thu hẹp phần trước. Không thêm đuôi kiểu tiếng Anh để biến động từ thành danh từ."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Repeating a syllable softens it or spreads it out. chậm is slow, chậm chậm is unhurried, a bit slowly. đỏ is red, đỏ đỏ is reddish. This is a real way to build a word, not just emphasis in speech.",
+            "ru": "Повтор слога смягчает значение или растягивает его. chậm — медленный, chậm chậm — не спеша, слегка медленно. đỏ — красный, đỏ đỏ — красноватый. Это настоящий способ собрать слово, а не просто усилие голосом.",
+            "vi": "Lặp lại âm tiết làm nghĩa nhẹ hơn hoặc trải ra. chậm là chậm, chậm chậm là thong thả, hơi chậm. đỏ là đỏ, đỏ đỏ là hơi đỏ. Đây là cách tạo từ thật, không chỉ nhấn bằng giọng."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "When you count a noun, a classifier usually sits between the number and the noun. It is part of how the noun is used, not an extra adjective. con is for animals: một con chó, one dog. quyển is for books: hai quyển sách, two books. cái is the general classifier for objects: một cái bàn, one table. Learn the classifier with the noun.",
+            "ru": "Когда считаете существительное, между числом и словом обычно стоит классификатор. Это часть употребления существительного, а не лишнее прилагательное. con — для животных: một con chó, одна собака. quyển — для книг: hai quyển sách, две книги. cái — общий классификатор для предметов: một cái bàn, один стол. Учите классификатор вместе со словом.",
+            "vi": "Khi đếm danh từ, loại từ thường đứng giữa số và danh từ. Đó là cách dùng danh từ, không phải tính từ thêm. con dùng cho động vật: một con chó. quyển dùng cho sách: hai quyển sách. cái là loại từ chung cho đồ vật: một cái bàn. Hãy học loại từ cùng với danh từ."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "xe đạp",
+          "caption": {
+            "en": "vehicle + pedal = bicycle",
+            "ru": "транспорт + педаль = велосипед",
+            "vi": "xe + đạp = xe đạp"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "máy bay",
+          "caption": {
+            "en": "machine + fly = airplane",
+            "ru": "машина + летать = самолёт",
+            "vi": "máy + bay = máy bay"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "chậm chậm",
+          "caption": {
+            "en": "slow, repeated: unhurried",
+            "ru": "медленный, повтор: не спеша",
+            "vi": "chậm lặp lại: thong thả"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "một con chó",
+          "caption": {
+            "en": "one + animal classifier + dog",
+            "ru": "один + классификатор животных + собака",
+            "vi": "một + loại từ con + chó"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "hai quyển sách",
+          "caption": {
+            "en": "two + book classifier + books",
+            "ru": "два + классификатор книг + книги",
+            "vi": "hai + loại từ quyển + sách"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "title": {
+        "en": "How a sentence fits",
+        "ru": "Как строится предложение",
+        "vi": "Cách dựng câu"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "The usual order is subject, verb, object: Tôi uống cà phê, I drink coffee. The verb does not change for I, you, or they, and it does not grow an ending for past or future. An adjective can be the whole predicate. Do not add là in front of it: Cô ấy đẹp, she is beautiful. Use là when the next word is a noun: Cô ấy là bác sĩ, she is a doctor.",
+            "ru": "Обычный порядок — подлежащее, сказуемое, дополнение: Tôi uống cà phê, я пью кофе. Глагол не меняется для я, ты и они и не получает окончание прошедшего или будущего. Прилагательное само может быть сказуемым. Не ставьте перед ним là: Cô ấy đẹp, она красивая. là нужно, когда дальше существительное: Cô ấy là bác sĩ, она врач.",
+            "vi": "Thứ tự thường gặp là chủ ngữ, động từ, tân ngữ: Tôi uống cà phê. Động từ không đổi theo tôi, bạn hay họ, và không thêm đuôi cho quá khứ hay tương lai. Tính từ có thể là cả vị ngữ. Đừng thêm là phía trước: Cô ấy đẹp. Dùng là khi từ sau là danh từ: Cô ấy là bác sĩ."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "A word that describes a noun follows that noun: nhà lớn, a big house, not lớn nhà. rất, very, comes before the adjective: rất đẹp. Time is a small word, not a verb ending. đã is already or past, đang is in progress, sẽ is later. rồi after the verb marks a finished change: Tôi ăn rồi, I have eaten.",
+            "ru": "Слово, которое описывает существительное, стоит после него: nhà lớn, большой дом, не lớn nhà. rất, очень, стоит перед прилагательным: rất đẹp. Время — это маленькое слово, а не окончание глагола. đã — уже или прошлое, đang — в процессе, sẽ — потом. rồi после глагола отмечает законченную перемену: Tôi ăn rồi, я уже поел.",
+            "vi": "Từ miêu tả danh từ đứng sau danh từ đó: nhà lớn, không phải lớn nhà. rất đứng trước tính từ: rất đẹp. Thời gian là một từ nhỏ, không phải đuôi động từ. đã là đã xảy ra, đang là đang diễn ra, sẽ là sau này. rồi sau động từ đánh dấu việc đã xong: Tôi ăn rồi."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "không is a general no: Tôi không ăn, I do not eat. chưa is not yet: Tôi chưa ăn. A yes-no question often just adds không or chưa at the end: Bạn ăn không? Bạn ăn chưa? Question words stay where the answer would stand. They are not moved to the front the way English moves what. Bạn tên là gì? What is your name? gì stays at the end.",
+            "ru": "không — обычное нет: Tôi không ăn, я не ем. chưa — ещё нет: Tôi chưa ăn. Вопрос да/нет часто просто добавляет không или chưa в конец: Bạn ăn không? Bạn ăn chưa? Вопросительные слова остаются там, где стоял бы ответ. Их не выносят в начало, как английское what. Bạn tên là gì? Как тебя зовут? gì остаётся в конце.",
+            "vi": "không là phủ định chung: Tôi không ăn. chưa là chưa: Tôi chưa ăn. Câu hỏi có/không thường chỉ thêm không hoặc chưa ở cuối: Bạn ăn không? Bạn ăn chưa? Từ để hỏi đứng ở chỗ của câu trả lời. Không đưa lên đầu như what trong tiếng Anh. Bạn tên là gì? gì ở cuối."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "There is no single word for you. anh, chị, and em depend on who is older and who is speaking. tôi is a safe I with people you do not know well. Two verbs can stack with nothing between them: Tôi đi mua cơm, I go and buy a meal. The second verb says what the first one is for.",
+            "ru": "Одного слова для «ты» нет. anh, chị и em зависят от того, кто старше и кто говорит. tôi — спокойное «я» с малознакомыми. Два глагола можно поставить подряд без связки: Tôi đi mua cơm, я иду купить еду. Второй глагол говорит, зачем первый.",
+            "vi": "Không có một từ duy nhất cho you. anh, chị và em tùy người nào lớn hơn và ai đang nói. tôi là cách xưng tôi an toàn với người chưa thân. Hai động từ có thể đứng liền, không cần từ nối: Tôi đi mua cơm. Động từ sau nói mục đích của động từ trước."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "Tôi uống cà phê",
+          "caption": {
+            "en": "I drink coffee. Subject, verb, object",
+            "ru": "Я пью кофе. Подлежащее, глагол, дополнение",
+            "vi": "Chủ ngữ, động từ, tân ngữ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "Cô ấy đẹp",
+          "caption": {
+            "en": "She is beautiful. No là before an adjective",
+            "ru": "Она красивая. Перед прилагательным нет là",
+            "vi": "Không có là trước tính từ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "Cô ấy là bác sĩ",
+          "caption": {
+            "en": "She is a doctor. là before a noun",
+            "ru": "Она врач. là перед существительным",
+            "vi": "là đứng trước danh từ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "nhà lớn",
+          "caption": {
+            "en": "a big house. The adjective follows the noun",
+            "ru": "большой дом. Прилагательное после существительного",
+            "vi": "tính từ đứng sau danh từ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "Bạn tên là gì?",
+          "caption": {
+            "en": "What is your name? gì stays at the end",
+            "ru": "Как тебя зовут? gì остаётся в конце",
+            "vi": "gì đứng ở cuối"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "vi",
+          "say": "Tôi đi mua cơm",
+          "caption": {
+            "en": "I go buy a meal. Two verbs in a row",
+            "ru": "Иду купить еду. Два глагола подряд",
+            "vi": "hai động từ liền nhau"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -103,6 +103,8 @@
     <string name="theme_study">Учить</string>
     <string name="theme_progress">Изучено %1$d/%2$d</string>
     <string name="theme_studied">Изучен</string>
+    <string name="theme_expand">Открыть</string>
+    <string name="theme_collapse">Закрыть</string>
     <string name="theme_open">Нажмите, чтобы учить эту тему</string>
     <string name="theme_unlock">Нажмите, чтобы открыть тему</string>
     <string name="lang_en_endonym">English</string>

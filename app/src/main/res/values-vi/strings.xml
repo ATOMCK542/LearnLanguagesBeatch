@@ -103,6 +103,8 @@
     <string name="theme_study">Học</string>
     <string name="theme_progress">Đã học %1$d/%2$d</string>
     <string name="theme_studied">Đã học</string>
+    <string name="theme_expand">Mở</string>
+    <string name="theme_collapse">Đóng</string>
     <string name="theme_open">Chạm để học chủ đề này</string>
     <string name="theme_unlock">Chạm để mở chủ đề</string>
     <string name="lang_en_endonym">English</string>

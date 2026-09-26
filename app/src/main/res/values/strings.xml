@@ -103,6 +103,8 @@
     <string name="theme_study">Study</string>
     <string name="theme_progress">%1$d/%2$d learned</string>
     <string name="theme_studied">Studied</string>
+    <string name="theme_expand">Open</string>
+    <string name="theme_collapse">Close</string>
     <string name="theme_open">Tap to study this theme</string>
     <string name="theme_unlock">Tap to open this theme</string>
     <string name="lang_en_endonym">English</string>

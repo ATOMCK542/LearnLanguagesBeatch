@@ -34,13 +34,32 @@ data class Concept(
         texts[lang] ?: error("Missing ${lang.code} for $id")
 }
 
+sealed interface LessonBlock {
+    data class Paragraph(val text: LocalizedText) : LessonBlock
+    data class Speak(val lang: AppLanguage, val say: String, val caption: LocalizedText) : LessonBlock
+}
+
+data class LessonSection(
+    val id: String,
+    val title: LocalizedText,
+    val blocks: List<LessonBlock>,
+)
+
 data class Theme(
     val id: String,
     val kind: String,
     val sortOrder: Int,
     val title: LocalizedText,
     val description: LocalizedText = LocalizedText("", "", ""),
-)
+    val sections: List<LessonSection> = emptyList(),
+) {
+    fun primerLanguage(): AppLanguage? = when (id) {
+        "primer_vi" -> AppLanguage.Vi
+        "primer_ru" -> AppLanguage.Ru
+        "primer_en" -> AppLanguage.En
+        else -> null
+    }
+}
 
 data class Profile(
     val id: Long,

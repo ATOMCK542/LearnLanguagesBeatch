@@ -1,6 +1,8 @@
 package dev.sergey.triad.data.db
 
+import dev.sergey.triad.data.content.LessonSectionDto
 import dev.sergey.triad.data.content.LocalizedDto
+import dev.sergey.triad.data.content.ThemeBodyDto
 import dev.sergey.triad.domain.AppLanguage
 import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.ConceptKind
@@ -14,6 +16,8 @@ import dev.sergey.triad.domain.ReviewItem
 import dev.sergey.triad.domain.Theme
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.decodeFromJsonElement
 
 object Mappers {
     private val json = Json { ignoreUnknownKeys = true }
@@ -55,12 +59,33 @@ object Mappers {
         kind = kind,
         sortOrder = sortOrder,
         titleJson = json.encodeToString(LocalizedDto(title.en, title.ru, title.vi)),
-        descriptionJson = json.encodeToString(LocalizedDto(description.en, description.ru, description.vi)),
+        descriptionJson = if (sections.isEmpty()) {
+            json.encodeToString(LocalizedDto(description.en, description.ru, description.vi))
+        } else {
+            json.encodeToString(
+                ThemeBodyDto(
+                    description = LocalizedDto(description.en, description.ru, description.vi),
+                    sections = sections.map { LessonSectionDto.fromDomain(it) },
+                ),
+            )
+        },
     )
 
     fun ThemeEntity.toDomain(): Theme {
         val title = json.decodeFromString(LocalizedDto.serializer(), titleJson)
-        val description = json.decodeFromString(LocalizedDto.serializer(), descriptionJson)
+        val element = json.parseToJsonElement(descriptionJson)
+        if (element is JsonObject && "sections" in element) {
+            val body = json.decodeFromJsonElement(ThemeBodyDto.serializer(), element)
+            return Theme(
+                id,
+                kind,
+                sortOrder,
+                title.toDomain(),
+                body.description.toDomain(),
+                body.sections.map { it.toDomain() },
+            )
+        }
+        val description = json.decodeFromJsonElement(LocalizedDto.serializer(), element)
         return Theme(id, kind, sortOrder, title.toDomain(), description.toDomain())
     }
 

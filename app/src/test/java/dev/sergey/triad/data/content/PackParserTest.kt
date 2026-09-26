@@ -46,6 +46,50 @@ class PackParserTest {
         assertEquals("/aɪ/", c.text(AppLanguage.En).ipa)
         assertEquals("want + сущ.", c.grammar.forLang(AppLanguage.Ru))
         assertEquals("Cafe", PackParser.themesOf(pack).first().title.en)
+        assertTrue(PackParser.themesOf(pack).first().sections.isEmpty())
+    }
+
+    @Test
+    fun parsesPrimerSectionsAndSpeakBlocks() {
+        val pack = PackParser.parse(
+            """
+            {
+              "theme": {
+                "id": "primer_vi",
+                "kind": "primer",
+                "order": 0,
+                "title": { "en": "Vietnamese", "ru": "Вьетнамский", "vi": "Tiếng Việt" },
+                "description": { "en": "Sounds", "ru": "Звуки", "vi": "Âm" },
+                "sections": [
+                  {
+                    "id": "words",
+                    "title": { "en": "Words", "ru": "Слова", "vi": "Từ" },
+                    "blocks": [
+                      { "type": "text", "text": { "en": "Roots", "ru": "Корни", "vi": "Gốc" } },
+                      {
+                        "type": "speak",
+                        "lang": "vi",
+                        "say": "má",
+                        "caption": { "en": "rising", "ru": "восходящий", "vi": "sắc" }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+            """.trimIndent(),
+        )
+        val theme = PackParser.themesOf(pack).single()
+        assertEquals("primer_vi", theme.id)
+        assertEquals(AppLanguage.Vi, theme.primerLanguage())
+        val section = theme.sections.single()
+        assertEquals("words", section.id)
+        val paragraph = section.blocks[0] as dev.sergey.triad.domain.LessonBlock.Paragraph
+        assertEquals("Корни", paragraph.text.ru)
+        val spoken = section.blocks[1] as dev.sergey.triad.domain.LessonBlock.Speak
+        assertEquals(AppLanguage.Vi, spoken.lang)
+        assertEquals("má", spoken.say)
+        assertEquals("sắc", spoken.caption.vi)
     }
 
     @Test(expected = IllegalArgumentException::class)

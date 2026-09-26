@@ -12,6 +12,7 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -40,6 +41,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.automirrored.outlined.VolumeUp
+import androidx.compose.material.icons.outlined.ExpandLess
+import androidx.compose.material.icons.outlined.ExpandMore
 import androidx.compose.material.icons.outlined.Category
 import androidx.compose.material.icons.outlined.MoreHoriz
 import androidx.compose.material.icons.outlined.School
@@ -95,7 +98,9 @@ import dev.sergey.triad.domain.AnswerEvaluator
 import dev.sergey.triad.domain.AppLanguage
 import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.Exercise
+import dev.sergey.triad.domain.LessonBlock
 import dev.sergey.triad.domain.PracticePlanner
+import dev.sergey.triad.domain.Theme
 import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.WidgetKind
 import dev.sergey.triad.ui.theme.lessonPalette
@@ -279,68 +284,229 @@ private fun WidgetPinRow() {
 @Composable
 private fun PathPane(state: MainUiState, vm: MainViewModel) {
     val gutter = screenGutter()
+    val uiLang = state.active?.uiLang ?: AppLanguage.En
+    val targets = state.active?.studyTargets()?.toSet().orEmpty()
+    val visible = state.themes.filter { theme ->
+        val primer = theme.primerLanguage()
+        primer == null || primer in targets
+    }
+    var openThemes by remember { mutableStateOf(setOf<String>()) }
+    var openSections by remember { mutableStateOf(setOf<String>()) }
+    val ttsOn = state.active?.ttsEnabled == true
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(gutter),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        items(state.themes, key = { it.id }) { theme ->
-            val lang = state.active?.uiLang ?: AppLanguage.En
-            val selected = theme.id == state.selectedThemeId
-            val description = theme.description.forLang(lang)
-            val study = state.themeStudy[theme.id]
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                colors = triadCardColors(),
+        items(visible, key = { it.id }) { theme ->
+            if (theme.kind == "primer") {
+                PrimerThemeCard(
+                    theme = theme,
+                    uiLang = uiLang,
+                    gutter = gutter,
+                    open = theme.id in openThemes,
+                    onToggle = {
+                        openThemes = if (theme.id in openThemes) openThemes - theme.id else openThemes + theme.id
+                    },
+                    sectionOpen = { sectionId -> "${theme.id}/$sectionId" in openSections },
+                    onToggleSection = { sectionId ->
+                        val key = "${theme.id}/$sectionId"
+                        openSections = if (key in openSections) openSections - key else openSections + key
+                    },
+                    ttsOn = ttsOn,
+                    canSpeak = vm::ttsAvailable,
+                    onSpeak = { text, lang -> vm.speak(text, lang) },
+                )
+            } else {
+                UnitThemeCard(theme, state, vm, gutter, uiLang)
+            }
+        }
+    }
+}
+
+@Composable
+private fun UnitThemeCard(
+    theme: Theme,
+    state: MainUiState,
+    vm: MainViewModel,
+    gutter: Dp,
+    uiLang: AppLanguage,
+) {
+    val selected = theme.id == state.selectedThemeId
+    val description = theme.description.forLang(uiLang)
+    val study = state.themeStudy[theme.id]
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = triadCardColors(),
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(gutter),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    theme.title.forLang(uiLang),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.onSurface,
+                )
+                if (description.isNotBlank()) {
+                    Text(
+                        description,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                if (study != null && study.total > 0) {
+                    Text(
+                        if (study.studied) {
+                            stringResource(R.string.theme_studied)
+                        } else {
+                            stringResource(R.string.theme_progress, study.covered, study.total)
+                        },
+                        style = MaterialTheme.typography.labelLarge,
+                        color = if (study.studied) {
+                            MaterialTheme.colorScheme.primary
+                        } else {
+                            MaterialTheme.colorScheme.onSurfaceVariant
+                        },
+                    )
+                }
+            }
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    stringResource(R.string.theme_study),
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Switch(
+                    checked = selected,
+                    onCheckedChange = { on -> vm.setThemeStudying(theme.id, on) },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun PrimerThemeCard(
+    theme: Theme,
+    uiLang: AppLanguage,
+    gutter: Dp,
+    open: Boolean,
+    onToggle: () -> Unit,
+    sectionOpen: (String) -> Boolean,
+    onToggleSection: (String) -> Unit,
+    ttsOn: Boolean,
+    canSpeak: (AppLanguage) -> Boolean,
+    onSpeak: (String, AppLanguage) -> Unit,
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = triadCardColors(),
+    ) {
+        Column(Modifier.fillMaxWidth().padding(gutter), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 48.dp)
+                    .clickable(onClick = onToggle),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
-                Row(
-                    modifier = Modifier.fillMaxWidth().padding(gutter),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        Text(
-                            theme.title.forLang(lang),
-                            style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.onSurface,
-                        )
-                        if (description.isNotBlank()) {
+                Text(
+                    theme.title.forLang(uiLang),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.onSurface,
+                    modifier = Modifier.weight(1f),
+                )
+                Icon(
+                    if (open) Icons.Outlined.ExpandLess else Icons.Outlined.ExpandMore,
+                    contentDescription = stringResource(
+                        if (open) R.string.theme_collapse else R.string.theme_expand,
+                    ),
+                )
+            }
+            if (open) {
+                val description = theme.description.forLang(uiLang)
+                if (description.isNotBlank()) {
+                    Text(
+                        description,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                theme.sections.forEach { section ->
+                    val expanded = sectionOpen(section.id)
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .heightIn(min = 48.dp)
+                                .clickable { onToggleSection(section.id) },
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
                             Text(
-                                description,
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                section.title.forLang(uiLang),
+                                style = MaterialTheme.typography.titleSmall,
+                                color = MaterialTheme.colorScheme.onSurface,
+                                modifier = Modifier.weight(1f),
+                            )
+                            Icon(
+                                if (expanded) Icons.Outlined.ExpandLess else Icons.Outlined.ExpandMore,
+                                contentDescription = stringResource(
+                                    if (expanded) R.string.theme_collapse else R.string.theme_expand,
+                                ),
                             )
                         }
-                        if (study != null && study.total > 0) {
-                            Text(
-                                if (study.studied) {
-                                    stringResource(R.string.theme_studied)
-                                } else {
-                                    stringResource(R.string.theme_progress, study.covered, study.total)
-                                },
-                                style = MaterialTheme.typography.labelLarge,
-                                color = if (study.studied) {
-                                    MaterialTheme.colorScheme.primary
-                                } else {
-                                    MaterialTheme.colorScheme.onSurfaceVariant
-                                },
-                            )
-                        }
-                    }
-                    if (theme.kind != "primer") {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text(
-                                stringResource(R.string.theme_study),
-                                style = MaterialTheme.typography.labelSmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
-                            Switch(
-                                checked = selected,
-                                onCheckedChange = { on -> vm.setThemeStudying(theme.id, on) },
-                            )
+                        if (expanded) {
+                            section.blocks.forEach { block ->
+                                when (block) {
+                                    is LessonBlock.Paragraph -> Text(
+                                        block.text.forLang(uiLang),
+                                        style = MaterialTheme.typography.bodyMedium,
+                                        color = MaterialTheme.colorScheme.onSurface,
+                                    )
+                                    is LessonBlock.Speak -> SpeakExample(block, uiLang, ttsOn, canSpeak, onSpeak)
+                                }
+                            }
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SpeakExample(
+    block: LessonBlock.Speak,
+    uiLang: AppLanguage,
+    ttsOn: Boolean,
+    canSpeak: (AppLanguage) -> Boolean,
+    onSpeak: (String, AppLanguage) -> Unit,
+) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text(
+                block.say,
+                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold),
+            )
+            val caption = block.caption.forLang(uiLang)
+            if (caption.isNotBlank()) {
+                Text(
+                    caption,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        if (ttsOn && canSpeak(block.lang)) {
+            IconButton(onClick = { onSpeak(block.say, block.lang) }) {
+                Icon(
+                    Icons.AutoMirrored.Outlined.VolumeUp,
+                    contentDescription = stringResource(R.string.label_speak),
+                )
             }
         }
     }

@@ -1,0 +1,319 @@
+{
+  "id": "primer_en",
+  "kind": "primer",
+  "order": 2,
+  "title": {
+    "en": "English",
+    "ru": "Английский",
+    "vi": "Tiếng Anh"
+  },
+  "description": {
+    "en": "Sounds, how words are built, and how a sentence fits together.",
+    "ru": "Звуки, как собираются слова и как из них получается предложение.",
+    "vi": "Âm, cách tạo từ và cách dựng câu."
+  },
+  "sections": [
+    {
+      "id": "sounds",
+      "title": {
+        "en": "Sounds that change the word",
+        "ru": "Звуки, которые меняют слово",
+        "vi": "Âm đổi nghĩa"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "A few sounds do more work than the spelling shows. th is two sounds, not one. In think the tongue is out and there is no voice. In this the tongue is out and the voice is on. They are not s, z, t, or d. An unstressed vowel often collapses to schwa, a short unclear uh. The a in about is that sound. English times the sentence by stress, so the small words get quiet and the stressed word stays clear.",
+            "ru": "Несколько звуков делают больше, чем видно по буквам. th — это два звука, не один. В think язык наружу и голоса нет. В this язык наружу и голос есть. Это не s, z, t и не d. Безударная гласная часто сжимается в schwa, короткое неясное uh. a в about — этот звук. Английский меряет фразу ударениями: маленькие слова тише, ударное слово остаётся ясным.",
+            "vi": "Vài âm làm nhiều hơn những gì chữ viết cho thấy. th là hai âm, không phải một. Trong think lưỡi thò ra và không có tiếng rung. Trong this lưỡi thò ra và có tiếng rung. Đó không phải s, z, t hay d. Nguyên âm không nhấn thường xẹp thành schwa, một uh ngắn và không rõ. a trong about là âm đó. Tiếng Anh canh câu bằng trọng âm, nên từ nhỏ trở nên nhẹ và từ được nhấn vẫn rõ."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Stress can change the job of a word that is spelled the same. a record, the noun, stresses the first syllable. to record, the verb, stresses the second. Endings have their own small rules. -ed is not always a separate syllable. After a voiceless sound it is t: walked. After a voiced sound it is d: played. After t or d it is a full syllable, id: wanted. The plural -s works the same way. cats ends in s, dogs ends in z, buses adds a syllable, iz.",
+            "ru": "Ударение может сменить роль слова с тем же написанием. a record, существительное, ударено на первый слог. to record, глагол, ударено на второй. У окончаний свои короткие правила. -ed не всегда отдельный слог. После глухого звука это t: walked. После звонкого это d: played. После t или d это полный слог id: wanted. Множественное -s устроено так же. cats кончается на s, dogs на z, buses добавляет слог iz.",
+            "vi": "Trọng âm có thể đổi vai của từ viết giống nhau. a record, danh từ, nhấn âm tiết đầu. to record, động từ, nhấn âm tiết sau. Đuôi có quy tắc nhỏ riêng. -ed không phải lúc nào cũng là một âm tiết riêng. Sau âm vô thanh thì là t: walked. Sau âm hữu thanh thì là d: played. Sau t hoặc d thì là cả âm tiết id: wanted. Đuôi số nhiều -s làm giống vậy. cats kết thúc bằng s, dogs bằng z, buses thêm một âm tiết iz."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "think",
+          "caption": {
+            "en": "th with no voice",
+            "ru": "th без голоса",
+            "vi": "th không rung"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "this",
+          "caption": {
+            "en": "th with voice",
+            "ru": "th с голосом",
+            "vi": "th có rung"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "about",
+          "caption": {
+            "en": "the a is schwa, a short uh",
+            "ru": "a — это schwa, короткое uh",
+            "vi": "a là schwa, uh ngắn"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "a record",
+          "caption": {
+            "en": "noun, stress on the first syllable",
+            "ru": "существительное, ударение на первый слог",
+            "vi": "danh từ, nhấn âm tiết đầu"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "to record",
+          "caption": {
+            "en": "verb, stress on the second syllable",
+            "ru": "глагол, ударение на второй слог",
+            "vi": "động từ, nhấn âm tiết sau"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "walked",
+          "caption": {
+            "en": "-ed after a voiceless sound: t",
+            "ru": "-ed после глухого: t",
+            "vi": "-ed sau âm vô thanh: t"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "played",
+          "caption": {
+            "en": "-ed after a voiced sound: d",
+            "ru": "-ed после звонкого: d",
+            "vi": "-ed sau âm hữu thanh: d"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "wanted",
+          "caption": {
+            "en": "-ed after t or d: a full syllable",
+            "ru": "-ed после t или d: отдельный слог",
+            "vi": "-ed sau t hoặc d: cả một âm tiết"
+          }
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "title": {
+        "en": "How words are built",
+        "ru": "Как собираются слова",
+        "vi": "Cách tạo từ"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "Most nouns take -s or -es for the plural: cat, cats, bus, buses. A short list does not: child, children, man, men, foot, feet. Learn that list as exceptions. The usual piece you add is still -s.",
+            "ru": "У большинства существительных множественное число — это -s или -es: cat, cats, bus, buses. Короткий список так не делает: child, children, man, men, foot, feet. Учите его как исключения. Обычная добавка всё равно -s.",
+            "vi": "Hầu hết danh từ lấy -s hoặc -es cho số nhiều: cat, cats, bus, buses. Một danh sách ngắn thì không: child, children, man, men, foot, feet. Hãy học danh sách đó như ngoại lệ. Mảnh thường thêm vẫn là -s."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "A suffix tells you the job of the new word. -er is the person or the thing that does it: teach, teacher. -tion turns a verb into a noun: inform, information. -ly turns an adjective into an adverb: slow, slowly. -ness turns an adjective into a noun of quality: kind, kindness. A prefix changes the meaning and leaves the job alone. un- is not: happy, unhappy. re- is again: write, rewrite.",
+            "ru": "Суффикс говорит, какая роль у нового слова. -er — тот или то, что это делает: teach, teacher. -tion делает из глагола существительное: inform, information. -ly делает из прилагательного наречие: slow, slowly. -ness делает из прилагательного существительное качества: kind, kindness. Приставка меняет смысл и не меняет роль. un- — это не: happy, unhappy. re- — это снова: write, rewrite.",
+            "vi": "Hậu tố nói vai của từ mới. -er là người hoặc vật làm việc đó: teach, teacher. -tion biến động từ thành danh từ: inform, information. -ly biến tính từ thành trạng từ: slow, slowly. -ness biến tính từ thành danh từ chỉ tính chất: kind, kindness. Tiền tố đổi nghĩa và giữ nguyên vai. un- là không: happy, unhappy. re- là lại: write, rewrite."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Two nouns can freeze into one word. tooth plus brush is toothbrush, a brush for teeth. The first noun narrows the second. A phrasal verb is a verb plus a small particle, and the meaning is not the sum of the parts. look up a word means to search for it. look up at the sky means to raise your eyes. The same verb with another particle is another word: look after means to take care of. The particle can sit after a short object: look the word up.",
+            "ru": "Два существительных могут застыть в одно слово. tooth плюс brush — toothbrush, щётка для зубов. Первое существительное сужает второе. Фразовый глагол — это глагол плюс короткая частица, и смысл не равен сумме частей. look up a word — искать слово. look up at the sky — поднять глаза. Тот же глагол с другой частицей — другое слово: look after — заботиться. Частица может встать после короткого дополнения: look the word up.",
+            "vi": "Hai danh từ có thể đóng thành một từ. tooth cộng brush là toothbrush, bàn chải răng. Danh từ đầu thu hẹp danh từ sau. Động từ cụm là động từ cộng một tiểu từ ngắn, và nghĩa không phải tổng của các phần. look up a word là tra từ. look up at the sky là ngước mắt. Cùng động từ với tiểu từ khác là từ khác: look after là chăm sóc. Tiểu từ có thể đứng sau tân ngữ ngắn: look the word up."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "teacher",
+          "caption": {
+            "en": "the person who teaches. Suffix -er",
+            "ru": "тот, кто учит. Суффикс -er",
+            "vi": "người dạy. Hậu tố -er"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "information",
+          "caption": {
+            "en": "a noun from inform. Suffix -tion",
+            "ru": "существительное от inform. Суффикс -tion",
+            "vi": "danh từ từ inform. Hậu tố -tion"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "slowly",
+          "caption": {
+            "en": "adverb from slow. Suffix -ly",
+            "ru": "наречие от slow. Суффикс -ly",
+            "vi": "trạng từ từ slow. Hậu tố -ly"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "unhappy",
+          "caption": {
+            "en": "not happy. Prefix un-",
+            "ru": "не happy. Приставка un-",
+            "vi": "không vui. Tiền tố un-"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "toothbrush",
+          "caption": {
+            "en": "tooth + brush, one compound noun",
+            "ru": "tooth + brush, одно сложное существительное",
+            "vi": "tooth + brush, một danh từ ghép"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "look the word up",
+          "caption": {
+            "en": "search for the word. The particle can move",
+            "ru": "искать слово. Частица может переехать",
+            "vi": "tra từ. Tiểu từ có thể đổi chỗ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "title": {
+        "en": "How a sentence fits",
+        "ru": "Как строится предложение",
+        "vi": "Cách dựng câu"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "The order is fixed: subject, verb, object. She reads books. An adjective stands before the noun: a red book, not a book red. You cannot move the object in front just to emphasize it the way Russian can. If you need a different emphasis, you change the sentence, you do not shuffle the words.",
+            "ru": "Порядок жёсткий: подлежащее, сказуемое, дополнение. She reads books. Прилагательное стоит перед существительным: a red book, не a book red. Дополнение нельзя вынести вперёд просто для акцента, как в русском. Если нужен другой акцент, меняют предложение, а не переставляют слова.",
+            "vi": "Thứ tự cố định: chủ ngữ, động từ, tân ngữ. She reads books. Tính từ đứng trước danh từ: a red book, không phải a book red. Không đưa tân ngữ lên trước chỉ để nhấn, như tiếng Nga. Nếu cần nhấn khác, đổi câu, không xáo từ."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Nouns usually need an article or another determiner. a or an is one of a countable thing, first mention: a book, an apple. the is the one both people can already point to: the book on the table. Plural and uncountable nouns can stand with no article when you mean them in general: I like coffee. Dogs are friendly. the dog is one particular dog.",
+            "ru": "Существительному обычно нужен артикль или другое определяющее слово. a или an — один из считаемых, первое упоминание: a book, an apple. the — тот, на который оба уже могут показать: the book on the table. Множественное и неисчисляемое могут стоять без артикля, когда речь о них вообще: I like coffee. Dogs are friendly. the dog — одна конкретная собака.",
+            "vi": "Danh từ thường cần mạo từ hoặc từ hạn định khác. a hoặc an là một trong những thứ đếm được, lần nhắc đầu: a book, an apple. the là cái mà cả hai đã chỉ được: the book on the table. Danh từ số nhiều và không đếm được có thể đứng không mạo từ khi nói chung: I like coffee. Dogs are friendly. the dog là một con chó cụ thể."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "In the present, a normal verb cannot make a question or a negative by itself. You add do, does, or did, and the main verb stays in the base form. Do you read? She does not read. Did they leave? You do not say She does not reads. If the verb is be, or if you already have have as the helping verb, or a modal like can, will, should, that word moves in front of the subject and do is not added. Are you ready? Can I help? Have you seen it? A question word goes first: Where do you live? What is on the table?",
+            "ru": "В настоящем обычный глагол сам не делает вопрос и отрицание. Добавляют do, does или did, а основной глагол остаётся в начальной форме. Do you read? She does not read. Did they leave? Не говорят She does not reads. Если глагол — be, или уже есть have как вспомогательный, или модалка вроде can, will, should, это слово встаёт перед подлежащим, и do не добавляют. Are you ready? Can I help? Have you seen it? Вопросительное слово идёт первым: Where do you live? What is on the table?",
+            "vi": "Ở hiện tại, động từ thường không tự tạo câu hỏi hay phủ định. Thêm do, does hoặc did, và động từ chính giữ dạng gốc. Do you read? She does not read. Did they leave? Không nói She does not reads. Nếu động từ là be, hoặc đã có have làm trợ động từ, hoặc động từ khuyết thiếu như can, will, should, từ đó đứng trước chủ ngữ và không thêm do. Are you ready? Can I help? Have you seen it? Từ để hỏi đứng đầu: Where do you live? What is on the table?"
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Tense is a pattern of the whole verb, not an ending you invent. I work is a habit or a fact. I am working is happening now. I worked yesterday is finished, and the time word is a finished time. I am going to leave is a plan you can already see. I will call is a decision or a promise from now. I have seen that film links a past event to now: the experience is yours. I saw that film yesterday does not use have, because yesterday is a closed time. Do not put present perfect next to yesterday, ago, or last week.",
+            "ru": "Время — это образец всего глагола, а не окончание, которое придумывают. I work — привычка или факт. I am working — происходит сейчас. I worked yesterday — закончено, и слово времени называет закрытый момент. I am going to leave — план, который уже виден. I will call — решение или обещание от сейчас. I have seen that film связывает прошлое с сейчас: опыт уже ваш. I saw that film yesterday не берёт have, потому что yesterday — закрытое время. Present perfect не ставят рядом с yesterday, ago и last week.",
+            "vi": "Thì là mẫu của cả cụm động từ, không phải đuôi tự nghĩ ra. I work là thói quen hoặc sự thật. I am working là đang xảy ra. I worked yesterday là đã xong, và từ chỉ thời gian là thời điểm đã khép. I am going to leave là kế hoạch đã thấy trước. I will call là quyết định hoặc lời hứa từ bây giờ. I have seen that film nối việc quá khứ với hiện tại: kinh nghiệm đã là của bạn. I saw that film yesterday không dùng have, vì yesterday là thời gian đã đóng. Đừng đặt thì hiện tại hoàn thành cạnh yesterday, ago hoặc last week."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "She reads books",
+          "caption": {
+            "en": "Subject, verb, object. The order stays",
+            "ru": "Подлежащее, глагол, дополнение. Порядок держится",
+            "vi": "Chủ ngữ, động từ, tân ngữ. Thứ tự giữ nguyên"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "Do you read?",
+          "caption": {
+            "en": "Yes-no question. do before the subject",
+            "ru": "Вопрос да/нет. do перед подлежащим",
+            "vi": "Câu hỏi có/không. do đứng trước chủ ngữ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "She does not read",
+          "caption": {
+            "en": "Negative. does, and the main verb has no -s",
+            "ru": "Отрицание. does, а у основного глагола нет -s",
+            "vi": "Phủ định. does, và động từ chính không có -s"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "Are you ready?",
+          "caption": {
+            "en": "be moves. No extra do",
+            "ru": "be переезжает. Лишнего do нет",
+            "vi": "be chuyển chỗ. Không thêm do"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "I am working",
+          "caption": {
+            "en": "happening now, not a habit",
+            "ru": "происходит сейчас, не привычка",
+            "vi": "đang xảy ra, không phải thói quen"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "en",
+          "say": "I have seen that film",
+          "caption": {
+            "en": "experience up to now. Not with yesterday",
+            "ru": "опыт до сейчас. Не с yesterday",
+            "vi": "kinh nghiệm đến bây giờ. Không đi với yesterday"
+          }
+        }
+      ]
+    }
+  ]
+}

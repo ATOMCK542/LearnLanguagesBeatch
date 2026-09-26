@@ -573,28 +573,24 @@ def theme_pack(theme_id: str, order: int, title: dict, rows: list[tuple], gramma
     return pack(theme_id, order, title, concepts)
 
 
+def load_primers() -> list[dict]:
+    """Language lessons live in content-src/primers and are copied, not shortened."""
+    folder = SRC / "primers"
+    names = ("vi.json", "ru.json", "en.json")
+    themes = []
+    for name in names:
+        path = folder / name
+        theme = json.loads(path.read_text(encoding="utf-8"))
+        if theme.get("kind") != "primer":
+            raise SystemExit(f"{path} must be kind primer")
+        if not theme.get("sections"):
+            raise SystemExit(f"{path} has no sections")
+        themes.append(theme)
+    return themes
+
+
 def main() -> None:
-    primers = [
-        pack("primer_vi", 0, loc("Vietnamese tones", "Вьетнамские тона", "Thanh điệu tiếng Việt"), [], kind="primer",
-             description=loc(
-                 "Six tones change meaning: ma, má, mà, mả, mã, mạ. Marks sit on the vowel.",
-                 "Шесть тонов меняют смысл: ma, má, mà, mả, mã, mạ. Знак стоит над гласной.",
-                 "Sáu thanh đổi nghĩa: ma, má, mà, mả, mã, mạ. Dấu đặt trên nguyên âm.",
-             )),
-        pack("primer_ru", 1, loc("Russian script", "Русская азбука", "Chữ Nga"), [], kind="primer",
-             description=loc(
-                 "Stress moves, and unstressed o sounds like a. Learn each word with its stress mark.",
-                 "Ударение подвижное, безударное о звучит как а. Учите слово сразу с ударением.",
-                 "Trọng âm di chuyển; o không nhấn nghe như a. Hãy học từ kèm trọng âm.",
-             )),
-        pack("primer_en", 2, loc("English questions", "Английские вопросы", "Câu hỏi tiếng Anh"), [], kind="primer",
-             description=loc(
-                 "Yes/No questions use do/does/did or a modal before the subject: Do you…? Can I…?",
-                 "Да/нет: do/does/did или модалка перед подлежащим: Do you…? Can I…?",
-                 "Câu yes/no dùng do/does/did hoặc động từ khuyết thiếu trước chủ ngữ: Do you…? Can I…?",
-             )),
-    ]
-    write_pack("00_primers.json", {"themes": [p["theme"] for p in primers], "concepts": []})
+    write_pack("00_primers.json", {"themes": load_primers(), "concepts": []})
 
     p = pronouns()
     write_pack("10_pronouns.json", pack("pronouns", 10, loc("Pronouns", "Местоимения", "Đại từ"), p))

@@ -1,0 +1,325 @@
+{
+  "id": "primer_ru",
+  "kind": "primer",
+  "order": 1,
+  "title": {
+    "en": "Russian",
+    "ru": "Русский",
+    "vi": "Tiếng Nga"
+  },
+  "description": {
+    "en": "Letters, stress, how words are built, and how a sentence fits together.",
+    "ru": "Буквы, ударение, как собираются слова и как из них получается предложение.",
+    "vi": "Chữ, trọng âm, cách tạo từ và cách dựng câu."
+  },
+  "sections": [
+    {
+      "id": "reading",
+      "title": {
+        "en": "Letters and stress",
+        "ru": "Буквы и ударение",
+        "vi": "Chữ và trọng âm"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "Russian is written in Cyrillic. A few letters do not match the Latin look. ы is a vowel with the tongue high and back; it is not и. ь, the soft sign, adds no vowel: it tells you the consonant before it is soft. ъ, the hard sign, is a separator, as in подъезд, entrance. ш is sh, щ is a longer, softer sh. е is ye, and ё is yo. In ordinary print the two dots on ё are often left off, so все, everyone, and всё, everything, can look the same. If the meaning depends on it, the dots matter.",
+            "ru": "Русский пишут кириллицей. Несколько букв не совпадают с тем, на что похожа латиница. ы — гласная, язык высоко и сзади; это не и. ь, мягкий знак, гласной не добавляет: он показывает, что согласный перед ним мягкий. ъ, твёрдый знак, разделяет, как в слове подъезд. ш — это sh, щ — более долгое и мягкое sh. е — это ye, ё — это yo. В обычной печати две точки над ё часто опускают, поэтому все и всё могут выглядеть одинаково. Если от них зависит смысл, точки важны.",
+            "vi": "Tiếng Nga viết bằng chữ Kirin. Vài chữ không giống mặt chữ Latin. ы là nguyên âm, lưỡi cao và lùi; không phải и. ь, dấu mềm, không thêm nguyên âm: nó bảo phụ âm phía trước mềm. ъ, dấu cứng, là dấu tách, như trong подъезд, lối vào. ш là sh, щ là sh dài và mềm hơn. е là ye, ё là yo. Trong chữ in thường, hai chấm trên ё hay bị bỏ, nên все, mọi người, và всё, mọi thứ, có thể trông giống nhau. Nếu nghĩa phụ thuộc vào chấm, thì chấm quan trọng."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Stress is not written on a normal word, and it moves. The stressed vowel is clear. Unstressed о sounds like а: молоко, milk, is stressed on the last о and the first two vowels are closer to a. Learn each word with its stress. You cannot guess it from the spelling.",
+            "ru": "Ударение в обычном слове не пишут, и оно подвижное. Ударная гласная ясная. Безударное о звучит как а: молоко ударено на последнее о, а первые две гласные ближе к а. Учите каждое слово сразу с ударением. По написанию его не угадать.",
+            "vi": "Trọng âm không viết trên từ thường, và nó di chuyển. Nguyên âm có trọng âm nghe rõ. о không nhấn nghe như а: молоко, sữa, nhấn ở о cuối, hai nguyên âm đầu gần với а. Hãy học mỗi từ kèm trọng âm. Không đoán được từ cách viết."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "A consonant is hard or soft, and that difference can change the word. мат, checkmate, and мать, mother, are not the same word: the т in мать is soft. At the end of a word a voiced consonant goes quiet, so год, year, sounds like it ends in т.",
+            "ru": "Согласный бывает твёрдым или мягким, и эта разница может сменить слово. мат и мать — не одно слово: т в мать мягкий. В конце слова звонкий согласный оглушается, поэтому год звучит так, будто кончается на т.",
+            "vi": "Phụ âm cứng hoặc mềm, và khác biệt đó có thể đổi từ. мат, chiếu hết, và мать, mẹ, không phải một từ: т trong мать mềm. Ở cuối từ, phụ âm hữu thanh trở nên vô thanh, nên год, năm, nghe như kết thúc bằng т."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "мы",
+          "caption": {
+            "en": "ы, not и: we",
+            "ru": "ы, не и: мы",
+            "vi": "ы, không phải и: chúng tôi"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "мать",
+          "caption": {
+            "en": "soft т: mother. Compare with мат, checkmate",
+            "ru": "мягкое т: мать. Сравните с мат",
+            "vi": "т mềm: mẹ. So với мат, chiếu hết"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "мат",
+          "caption": {
+            "en": "hard т: checkmate",
+            "ru": "твёрдое т: мат",
+            "vi": "т cứng: chiếu hết"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "молоко",
+          "caption": {
+            "en": "milk. Stress on the last o; unstressed o sounds like a",
+            "ru": "ударение на последнее о; безударное о как а",
+            "vi": "sữa. Nhấn o cuối; o không nhấn nghe như a"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "всё",
+          "caption": {
+            "en": "everything. ё is yo, even when the dots are missing in print",
+            "ru": "ё — это yo, даже если в печати нет точек",
+            "vi": "mọi thứ. ё là yo, kể cả khi in thiếu hai chấm"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "подъезд",
+          "caption": {
+            "en": "entrance. ъ separates д from е",
+            "ru": "ъ отделяет д от е",
+            "vi": "lối vào. ъ tách д khỏi е"
+          }
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "title": {
+        "en": "How words are built",
+        "ru": "Как собираются слова",
+        "vi": "Cách tạo từ"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "The ending of a noun tells you the gender in most words. A consonant at the end is usually masculine: стол, table. -а or -я is usually feminine: книга, book, неделя, week. -о or -е is neuter: окно, window, море, sea. A few people-words break the consonant rule and stay masculine with -а: папа, dad, дядя, uncle. Learn those as exceptions, not as a new pattern.",
+            "ru": "Окончание существительного в большинстве слов называет род. Согласный на конце — обычно мужской род: стол. -а или -я — обычно женский: книга, неделя. -о или -е — средний: окно, море. Несколько слов про людей ломают правило согласного и остаются мужскими с -а: папа, дядя. Учите их как исключения, а не как новый образец.",
+            "vi": "Đuôi danh từ cho biết giống ở hầu hết các từ. Kết thúc bằng phụ âm thường là giống đực: стол, bàn. -а hoặc -я thường là giống cái: книга, sách, неделя, tuần. -о hoặc -е là giống trung: окно, cửa sổ, море, biển. Vài từ chỉ người phá quy tắc phụ âm và vẫn là giống đực dù có -а: папа, bố, дядя, chú. Hãy học chúng như ngoại lệ, không phải mẫu mới."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "A prefix on a verb of motion says where the going goes. идти is to go on foot in one direction. войти is to go in, выйти is to go out, уйти is to leave. The root stays; the prefix is the direction. This is how a lot of everyday verbs are built, not a separate list of unrelated words.",
+            "ru": "Приставка у глагола движения говорит, куда идут. идти — идти пешком в одну сторону. войти — войти внутрь, выйти — выйти наружу, уйти — уйти. Корень тот же, приставка — направление. Так собрано много бытовых глаголов, это не список несвязанных слов.",
+            "vi": "Tiền tố trên động từ di chuyển nói hướng đi. идти là đi bộ theo một hướng. войти là đi vào, выйти là đi ra, уйти là rời đi. Gốc giữ nguyên, tiền tố là hướng. Nhiều động từ hàng ngày được dựng thế này, không phải danh sách từ không liên quan."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Many verbs come as a pair of two words, not as one word with an ending. читать is to read as a process or a habit. прочитать is to read and finish. Я читал книгу means I was reading or I used to read. Я прочитал книгу means I finished the book. The prefix is doing the work of completion. You choose the word for the meaning; you do not conjugate one verb into the other.",
+            "ru": "Многие глаголы приходят парой из двух слов, а не одним словом с окончанием. читать — читать как процесс или привычку. прочитать — прочитать до конца. Я читал книгу — я читал или имел обыкновение читать. Я прочитал книгу — я дочитал. Приставка делает завершённость. Вы выбираете слово по смыслу и не спрягаете один глагол в другой.",
+            "vi": "Nhiều động từ đi thành cặp hai từ, không phải một từ thêm đuôi. читать là đọc như một quá trình hoặc thói quen. прочитать là đọc xong. Я читал книгу nghĩa là tôi đang đọc hoặc tôi từng đọc. Я прочитал книгу nghĩa là tôi đọc xong cuốn sách. Tiền tố làm việc hoàn tất. Bạn chọn từ theo nghĩa, không chia một động từ thành động từ kia."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Suffixes build nouns you can guess. -ость turns a quality into a noun: скорый, fast, скорость, speed. -тель names the person who does it: читать, to read, читатель, reader, учить, to teach, учитель, teacher.",
+            "ru": "Суффиксы собирают существительные, которые можно угадать. -ость делает из качества существительное: скорый, скорость. -тель называет того, кто это делает: читать, читатель, учить, учитель.",
+            "vi": "Hậu tố dựng danh từ mà bạn có thể đoán. -ость biến tính chất thành danh từ: скорый, nhanh, скорость, tốc độ. -тель gọi người làm việc đó: читать, đọc, читатель, người đọc, учить, dạy, учитель, giáo viên."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "войти",
+          "caption": {
+            "en": "to go in. Prefix в- plus идти",
+            "ru": "приставка в- и идти",
+            "vi": "đi vào. Tiền tố в- cộng идти"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "выйти",
+          "caption": {
+            "en": "to go out",
+            "ru": "выйти наружу",
+            "vi": "đi ra"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "уйти",
+          "caption": {
+            "en": "to leave",
+            "ru": "уйти",
+            "vi": "rời đi"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "читать",
+          "caption": {
+            "en": "to read, process or habit",
+            "ru": "читать: процесс или привычка",
+            "vi": "đọc, quá trình hoặc thói quen"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "прочитать",
+          "caption": {
+            "en": "to read through, finished",
+            "ru": "прочитать до конца",
+            "vi": "đọc xong"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "учитель",
+          "caption": {
+            "en": "teacher. The person, suffix -тель",
+            "ru": "тот, кто учит, суффикс -тель",
+            "vi": "giáo viên. Hậu tố -тель"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "title": {
+        "en": "How a sentence fits",
+        "ru": "Как строится предложение",
+        "vi": "Cách dựng câu"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": {
+            "en": "There are no articles. A noun does not need a word for a or the. In the present there is no verb for to be: Я студент, I am a student. Она дома, she is at home. быть comes back in the past and the future: Он был студентом, he was a student. Она будет дома, she will be at home. The usual order is subject, verb, object, and new information tends to sit at the end. Книгу читает Анна answers who, when the book is already known.",
+            "ru": "Артиклей нет. Существительному не нужно слово для a или the. В настоящем нет глагола быть: Я студент. Она дома. быть возвращается в прошлом и будущем: Он был студентом. Она будет дома. Обычный порядок — подлежащее, сказуемое, дополнение, а новое чаще в конце. Книгу читает Анна отвечает, кто, если книга уже известна.",
+            "vi": "Không có mạo từ. Danh từ không cần từ cho a hay the. Ở thì hiện tại không có động từ là: Я студент, tôi là sinh viên. Она дома, cô ấy ở nhà. быть trở lại ở quá khứ và tương lai: Он был студентом, anh ấy đã là sinh viên. Она будет дома, cô ấy sẽ ở nhà. Thứ tự thường gặp là chủ ngữ, động từ, tân ngữ, và thông tin mới thường ở cuối. Книгу читает Анна trả lời ai, khi cuốn sách đã biết rồi."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "The ending of a noun says what job it has in the sentence. You do not need every ending on day one. You do need the six jobs. Nominative is the subject, who: Студент читает, the student reads. Accusative is the object, whom: Я вижу студента, I see the student. It is also the destination: Я иду в школу, I am going to school. Genitive is possession and the noun after нет: книга Анны, Anna's book. У меня нет времени, I have no time.",
+            "ru": "Окончание существительного говорит, какая у него роль в предложении. Все окончания в первый день не нужны. Нужны шесть ролей. Именительный — подлежащее, кто: Студент читает. Винительный — дополнение, кого: Я вижу студента. Это ещё и направление: Я иду в школу. Родительный — принадлежность и слово после нет: книга Анны. У меня нет времени.",
+            "vi": "Đuôi danh từ nói vai của nó trong câu. Ngày đầu không cần mọi đuôi. Cần sáu vai. Danh cách là chủ ngữ, ai: Студент читает, sinh viên đọc. Đối cách là tân ngữ, ai: Я вижу студента, tôi thấy sinh viên. Đó cũng là đích đến: Я иду в школу, tôi đi đến trường. Sở hữu cách là sở hữu và danh từ sau нет: книга Анны, sách của Anna. У меня нет времени, tôi không có thời gian."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Dative is the receiver, to whom: Я дал книгу другу, I gave the book to a friend. Мне нравится, I like it, literally it is pleasing to me. Instrumental is the tool and the companion: Я пишу ручкой, I write with a pen. Я с другом, I am with a friend. After был, a noun is also instrumental: Он был врачом, he was a doctor. Prepositional is location and the topic after о: Я в школе, I am at school. Мы говорим о фильме, we are talking about the film.",
+            "ru": "Дательный — получатель, кому: Я дал книгу другу. Мне нравится. Творительный — орудие и спутник: Я пишу ручкой. Я с другом. После был существительное тоже в творительном: Он был врачом. Предложный — место и тема после о: Я в школе. Мы говорим о фильме.",
+            "vi": "Tặng cách là người nhận, cho ai: Я дал книгу другу, tôi đưa sách cho bạn. Мне нравится, tôi thích, nghĩa đen là nó vừa ý với tôi. Công cụ cách là công cụ và người đi cùng: Я пишу ручкой, tôi viết bằng bút. Я с другом, tôi với bạn. Sau был, danh từ cũng ở công cụ cách: Он был врачом, anh ấy đã là bác sĩ. Giới từ cách là nơi chốn và chủ đề sau о: Я в школе, tôi ở trường. Мы говорим о фильме, chúng tôi nói về bộ phim."
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "Adjectives agree with the noun: новый дом, a new house, новая книга, a new book, новое окно, a new window. In the past the verb agrees too: он читал, она читала, оно читало. Negation is doubled. Я ничего не знаю means I do not know anything; both ничего and не stay. A question can be the same words with a rising voice: Ты студент? The little word ли is a more formal way to ask: Знаешь ли ты? Everyday speech often skips ли.",
+            "ru": "Прилагательные согласуются с существительным: новый дом, новая книга, новое окно. В прошлом согласуется и глагол: он читал, она читала, оно читало. Отрицание двойное. Я ничего не знаю — и ничего, и не остаются. Вопрос может быть теми же словами с повышением голоса: Ты студент? Слово ли — более официальный способ спросить: Знаешь ли ты? В бытовой речи ли часто нет.",
+            "vi": "Tính từ hòa hợp với danh từ: новый дом, ngôi nhà mới, новая книга, cuốn sách mới, новое окно, cửa sổ mới. Ở quá khứ động từ cũng hòa hợp: он читал, она читала, оно читало. Phủ định kép. Я ничего не знаю nghĩa là tôi không biết gì; cả ничего và не đều ở lại. Câu hỏi có thể là cùng những từ với giọng lên: Ты студент? Từ nhỏ ли là cách hỏi trang trọng hơn: Знаешь ли ты? Lời nói hàng ngày thường bỏ ли."
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "Я студент",
+          "caption": {
+            "en": "I am a student. No быть in the present",
+            "ru": "В настоящем нет быть",
+            "vi": "Tôi là sinh viên. Hiện tại không có быть"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "Я вижу студента",
+          "caption": {
+            "en": "I see the student. Accusative, the object",
+            "ru": "Винительный, дополнение",
+            "vi": "Tôi thấy sinh viên. Đối cách, tân ngữ"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "У меня нет времени",
+          "caption": {
+            "en": "I have no time. нет plus genitive",
+            "ru": "нет и родительный",
+            "vi": "Tôi không có thời gian. нет cộng sở hữu cách"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "Я дал книгу другу",
+          "caption": {
+            "en": "I gave the book to a friend. Dative, to whom",
+            "ru": "Дательный, кому",
+            "vi": "Tôi đưa sách cho bạn. Tặng cách"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "Я пишу ручкой",
+          "caption": {
+            "en": "I write with a pen. Instrumental",
+            "ru": "Творительный",
+            "vi": "Tôi viết bằng bút. Công cụ cách"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "Я в школе",
+          "caption": {
+            "en": "I am at school. Prepositional, where",
+            "ru": "Предложный, где",
+            "vi": "Tôi ở trường. Giới từ cách, ở đâu"
+          }
+        },
+        {
+          "type": "speak",
+          "lang": "ru",
+          "say": "Я ничего не знаю",
+          "caption": {
+            "en": "I do not know anything. Both negatives stay",
+            "ru": "Оба отрицания остаются",
+            "vi": "Tôi không biết gì. Cả hai phủ định đều giữ"
+          }
+        }
+      ]
+    }
+  ]
+}
