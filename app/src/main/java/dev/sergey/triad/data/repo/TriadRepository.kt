@@ -30,6 +30,7 @@ import dev.sergey.triad.domain.SessionItem
 import dev.sergey.triad.domain.SessionPlan
 import dev.sergey.triad.domain.SessionPlanner
 import dev.sergey.triad.domain.Theme
+import dev.sergey.triad.domain.UnlockGate
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.time.LocalDate
@@ -175,6 +176,12 @@ class TriadRepository @Inject constructor(
     suspend fun practicePoolSize(): Int {
         val profile = activeProfile() ?: return 0
         return practicePool(profile).size
+    }
+
+    suspend fun unlockPool(): List<ReviewItem> {
+        val profile = activeProfile() ?: return emptyList()
+        val reviews = db.progress().reviews(profile.id).map { it.toDomain() }
+        return UnlockGate.eligible(profile.id, profile.studyTargets(), reviews, concepts())
     }
 
     suspend fun masteredConceptIds(profileId: Long): Set<String> =

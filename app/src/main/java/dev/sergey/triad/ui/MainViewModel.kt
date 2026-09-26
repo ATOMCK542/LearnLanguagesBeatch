@@ -9,6 +9,7 @@ import dev.sergey.triad.data.audio.UiClickPlayer
 import dev.sergey.triad.data.locale.AppLocale
 import dev.sergey.triad.data.reminder.DailyReminder
 import dev.sergey.triad.data.repo.TriadRepository
+import dev.sergey.triad.data.unlock.UnlockGateStore
 import dev.sergey.triad.data.translate.TranslationEngine
 import dev.sergey.triad.data.tts.TtsController
 import dev.sergey.triad.domain.AnswerEvaluator
@@ -22,6 +23,7 @@ import dev.sergey.triad.domain.Profile
 import dev.sergey.triad.domain.SessionItem
 import dev.sergey.triad.domain.ThemeStudy
 import dev.sergey.triad.domain.Theme
+import dev.sergey.triad.domain.UnlockGate
 import dev.sergey.triad.domain.WidgetKind
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -59,6 +61,8 @@ data class MainUiState(
     val reminderPrompted: Boolean = false,
     val reminderReady: Boolean = false,
     val reminderTime: LocalTime = LocalTime.of(19, 0),
+    val unlockEnabled: Boolean = false,
+    val unlockRequired: Int = UnlockGate.DEFAULT_CORRECT,
 )
 
 @HiltViewModel
@@ -69,6 +73,7 @@ class MainViewModel @Inject constructor(
     val translator: TranslationEngine,
     private val clicks: UiClickPlayer,
     private val reminders: DailyReminder,
+    private val unlockGate: UnlockGateStore,
 ) : AndroidViewModel(application) {
 
     private val _state = MutableStateFlow(MainUiState())
@@ -88,6 +93,16 @@ class MainViewModel @Inject constructor(
                         reminderPrompted = prefs.prompted,
                         reminderReady = true,
                         reminderTime = prefs.time,
+                    )
+                }
+            }
+        }
+        viewModelScope.launch {
+            unlockGate.prefs.collect { prefs ->
+                _state.update {
+                    it.copy(
+                        unlockEnabled = prefs.enabled,
+                        unlockRequired = prefs.requiredCorrect,
                     )
                 }
             }
@@ -416,5 +431,13 @@ class MainViewModel @Inject constructor(
     fun markReminderPrompted() {
         _state.update { it.copy(reminderPrompted = true) }
         viewModelScope.launch { reminders.markPrompted() }
+    }
+
+    fun setUnlockEnabled(enabled: Boolean) {
+        viewModelScope.launch { unlockGate.setEnabled(enabled) }
+    }
+
+    fun setUnlockRequired(count: Int) {
+        viewModelScope.launch { unlockGate.setRequiredCorrect(count) }
     }
 }

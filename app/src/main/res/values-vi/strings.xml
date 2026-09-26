@@ -59,6 +59,16 @@
     <string name="settings_reminder">Nhắc mỗi ngày</string>
     <string name="settings_reminder_time">Giờ</string>
     <string name="settings_reminder_hint">Thông báo mỗi ngày lúc %1$s nếu ngày đó bạn chưa mở ứng dụng.</string>
+    <string name="settings_unlock">Bài kiểm tra khi mở khóa</string>
+    <string name="settings_unlock_hint">Sau khi mở khóa, bài kiểm tra giữ màn hình cho đến khi bạn trả lời đúng đủ số câu. Từ là những từ đã gặp trong bài học. Ứng dụng khác vẫn chạy nền.</string>
+    <string name="settings_unlock_count">Số câu đúng</string>
+    <string name="settings_unlock_a11y">Bật dịch vụ trợ năng để bài kiểm tra hiện lại nếu bạn rời khỏi nó. Dịch vụ không đọc màn hình.</string>
+    <string name="settings_unlock_overlay">Cho phép hiển thị trên ứng dụng khác để bài kiểm tra mở sau khi mở khóa.</string>
+    <string name="settings_unlock_open_a11y">Cài đặt trợ năng</string>
+    <string name="settings_unlock_open_overlay">Hiển thị trên ứng dụng khác</string>
+    <string name="settings_unlock_restricted">Nếu dịch vụ không bật được, mở thông tin ứng dụng và cho phép cài đặt bị hạn chế.</string>
+    <string name="unlock_a11y_description">Đưa bài kiểm tra từ vựng ngắn lên màn hình sau khi mở khóa. Không đọc nội dung trên màn hình.</string>
+    <string name="unlock_progress">%1$d / %2$d đúng</string>
     <string name="reminder_channel">Nhắc học</string>
     <string name="reminder_title">Đến giờ luyện tập</string>
     <string name="reminder_body">Mở ứng dụng để học một chút.</string>

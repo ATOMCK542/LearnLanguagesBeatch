@@ -59,6 +59,16 @@
     <string name="settings_reminder">Напоминание каждый день</string>
     <string name="settings_reminder_time">Время</string>
     <string name="settings_reminder_hint">Уведомление каждый день в %1$s, если в этот день вы не открывали приложение.</string>
+    <string name="settings_unlock">Тест при разблокировке</string>
+    <string name="settings_unlock_hint">После разблокировки тест остаётся на экране, пока не наберётся нужное число верных ответов. Слова — те, что уже были в уроке. Остальные приложения продолжают работать в фоне.</string>
+    <string name="settings_unlock_count">Верных ответов</string>
+    <string name="settings_unlock_a11y">Включите службу специальных возможностей, чтобы тест возвращался, если вы с него уйдёте. Она не читает экран.</string>
+    <string name="settings_unlock_overlay">Разрешите показ поверх других окон, чтобы тест открывался после разблокировки.</string>
+    <string name="settings_unlock_open_a11y">Настройки спецвозможностей</string>
+    <string name="settings_unlock_open_overlay">Показ поверх других окон</string>
+    <string name="settings_unlock_restricted">Если служба недоступна, откройте сведения о приложении и разрешите ограниченные настройки.</string>
+    <string name="unlock_a11y_description">Возвращает короткий тест по словам на экран после разблокировки. Не читает содержимое экрана.</string>
+    <string name="unlock_progress">%1$d / %2$d верно</string>
     <string name="reminder_channel">Напоминание</string>
     <string name="reminder_title">Пора позаниматься</string>
     <string name="reminder_body">Загляните на короткую сессию.</string>

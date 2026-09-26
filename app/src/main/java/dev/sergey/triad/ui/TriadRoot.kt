@@ -604,6 +604,7 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
                 },
             )
         }
+        UnlockSettings(state, vm)
         Text(stringResource(R.string.stats_title), style = MaterialTheme.typography.titleMedium)
         Text(pluralStringResource(R.plurals.reviews_done, profile.reviewsDone, profile.reviewsDone))
         Button(onClick = { vm.export(false) { pendingExport = it; create.launch("triad-profile.json") } }) {

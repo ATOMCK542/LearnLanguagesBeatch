@@ -59,6 +59,16 @@
     <string name="settings_reminder">Daily reminder</string>
     <string name="settings_reminder_time">Time</string>
     <string name="settings_reminder_hint">A notification each day at %1$s if you have not opened the app that day.</string>
+    <string name="settings_unlock">Unlock quiz</string>
+    <string name="settings_unlock_hint">After you unlock the phone, the quiz stays until you get enough answers right. Words are ones you have already studied. Other apps keep running in the background.</string>
+    <string name="settings_unlock_count">Correct answers</string>
+    <string name="settings_unlock_a11y">Turn on the accessibility service so the quiz comes back if you leave it. It does not read the screen.</string>
+    <string name="settings_unlock_overlay">Allow display over other apps so the quiz can open after unlock.</string>
+    <string name="settings_unlock_open_a11y">Accessibility settings</string>
+    <string name="settings_unlock_open_overlay">Display over other apps</string>
+    <string name="settings_unlock_restricted">If the service is unavailable, open App info and allow restricted settings.</string>
+    <string name="unlock_a11y_description">Brings a short vocabulary quiz to the front after you unlock the phone. Does not read what is on the screen.</string>
+    <string name="unlock_progress">%1$d / %2$d correct</string>
     <string name="reminder_channel">Study reminder</string>
     <string name="reminder_title">Time to practice</string>
     <string name="reminder_body">Open the app for a short session.</string>
