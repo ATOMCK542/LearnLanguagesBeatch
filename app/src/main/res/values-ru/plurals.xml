@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="reminder_due">
+        <item quantity="one">%d карточка ждёт</item>
+        <item quantity="few">%d карточки ждут</item>
+        <item quantity="many">%d карточек ждут</item>
+        <item quantity="other">%d карточки ждут</item>
+    </plurals>
     <plurals name="due_count">
         <item quantity="one">%d карточка</item>
         <item quantity="few">%d карточки</item>

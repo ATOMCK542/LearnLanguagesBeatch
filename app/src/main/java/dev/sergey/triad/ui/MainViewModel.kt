@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.sergey.triad.data.audio.UiClickPlayer
 import dev.sergey.triad.data.locale.AppLocale
+import dev.sergey.triad.data.reminder.DailyReminder
 import dev.sergey.triad.data.repo.TriadRepository
 import dev.sergey.triad.data.translate.TranslationEngine
 import dev.sergey.triad.data.tts.TtsController
@@ -53,6 +54,9 @@ data class MainUiState(
     val sessionPractice: Boolean = false,
     val selectedThemeId: String? = null,
     val planningSession: Boolean = false,
+    val reminderEnabled: Boolean = true,
+    val reminderPrompted: Boolean = false,
+    val reminderReady: Boolean = false,
 )
 
 @HiltViewModel
@@ -62,6 +66,7 @@ class MainViewModel @Inject constructor(
     val tts: TtsController,
     val translator: TranslationEngine,
     private val clicks: UiClickPlayer,
+    private val reminders: DailyReminder,
 ) : AndroidViewModel(application) {
 
     private val _state = MutableStateFlow(MainUiState())
@@ -71,6 +76,17 @@ class MainViewModel @Inject constructor(
         viewModelScope.launch {
             tts.status.collect { st ->
                 _state.update { it.copy(ttsVoices = st.voices) }
+            }
+        }
+        viewModelScope.launch {
+            reminders.prefs.collect { prefs ->
+                _state.update {
+                    it.copy(
+                        reminderEnabled = prefs.enabled,
+                        reminderPrompted = prefs.prompted,
+                        reminderReady = true,
+                    )
+                }
             }
         }
         viewModelScope.launch {
@@ -385,4 +401,13 @@ class MainViewModel @Inject constructor(
     }
 
     fun ttsAvailable(lang: AppLanguage) = tts.available(lang)
+
+    fun setReminderEnabled(enabled: Boolean) {
+        viewModelScope.launch { reminders.setEnabled(enabled) }
+    }
+
+    fun markReminderPrompted() {
+        _state.update { it.copy(reminderPrompted = true) }
+        viewModelScope.launch { reminders.markPrompted() }
+    }
 }

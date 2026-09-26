@@ -1,7 +1,16 @@
 package dev.sergey.triad.ui
 
+import android.Manifest
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
+import android.provider.Settings
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -55,6 +64,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -83,15 +93,31 @@ import dev.sergey.triad.domain.Concept
 import dev.sergey.triad.domain.Exercise
 import dev.sergey.triad.domain.PracticePlanner
 import dev.sergey.triad.domain.Profile
+import dev.sergey.triad.domain.ReminderSchedule
 import dev.sergey.triad.domain.WidgetKind
 import dev.sergey.triad.ui.theme.lessonPalette
 import dev.sergey.triad.ui.theme.triadCardColors
 import dev.sergey.triad.ui.widget.WidgetPinner
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
+import java.util.Locale
 
 @Composable
 fun TriadRoot(viewModel: MainViewModel = hiltViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val nav = rememberNavController()
+    val context = LocalContext.current
+    val askNotifications = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        viewModel.setReminderEnabled(granted)
+    }
+    LaunchedEffect(state.ready, state.reminderReady, state.reminderEnabled, state.reminderPrompted) {
+        if (Build.VERSION.SDK_INT < 33) return@LaunchedEffect
+        if (!state.ready || !state.reminderReady || !state.reminderEnabled || state.reminderPrompted) return@LaunchedEffect
+        val granted = ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) ==
+            PackageManager.PERMISSION_GRANTED
+        viewModel.markReminderPrompted()
+        if (!granted) askNotifications.launch(Manifest.permission.POST_NOTIFICATIONS)
+    }
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         if (!state.ready) {
             LinearProgressIndicator(
@@ -524,6 +550,37 @@ private fun MorePane(state: MainUiState, vm: MainViewModel, nav: NavHostControll
         }
         Text(
             stringResource(R.string.settings_tts_hint),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        val reminderContext = LocalContext.current
+        val askReminder = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+            vm.setReminderEnabled(granted)
+        }
+        val reminderTime = remember(profile.uiLang) {
+            DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT)
+                .withLocale(Locale.forLanguageTag(profile.uiLang.code))
+                .format(ReminderSchedule.time)
+        }
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+            Text(stringResource(R.string.settings_reminder), modifier = Modifier.weight(1f))
+            Switch(
+                checked = state.reminderEnabled,
+                onCheckedChange = { on ->
+                    if (!on) {
+                        vm.setReminderEnabled(false)
+                    } else if (notificationPermissionGranted(reminderContext)) {
+                        vm.setReminderEnabled(true)
+                    } else {
+                        requestNotificationPermission(reminderContext, state.reminderPrompted) {
+                            askReminder.launch(Manifest.permission.POST_NOTIFICATIONS)
+                        }
+                    }
+                },
+            )
+        }
+        Text(
+            stringResource(R.string.settings_reminder_hint, reminderTime),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -1053,6 +1110,34 @@ private fun LanguageRow(selected: AppLanguage, onPick: (AppLanguage) -> Unit) {
         AppLanguage.all.forEach { lang ->
             FilterChip(selected = selected == lang, onClick = { onPick(lang) }, label = { Text(endonym(lang)) })
         }
+    }
+}
+
+private fun notificationPermissionGranted(context: Context): Boolean {
+    if (Build.VERSION.SDK_INT < 33) return true
+    return ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) ==
+        PackageManager.PERMISSION_GRANTED
+}
+
+private fun requestNotificationPermission(
+    context: Context,
+    prompted: Boolean,
+    launch: () -> Unit,
+) {
+    if (Build.VERSION.SDK_INT < 33) {
+        launch()
+        return
+    }
+    val activity = context as? Activity
+    val showRationale = activity != null &&
+        ActivityCompat.shouldShowRequestPermissionRationale(activity, Manifest.permission.POST_NOTIFICATIONS)
+    if (prompted && !showRationale) {
+        context.startActivity(
+            Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                .putExtra(Settings.EXTRA_APP_PACKAGE, context.packageName),
+        )
+    } else {
+        launch()
     }
 }
 

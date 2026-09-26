@@ -56,6 +56,11 @@
     <string name="settings_targets">Đang học</string>
     <string name="settings_tts">Giọng nói</string>
     <string name="settings_tts_hint">Để nghe tiếng Việt, cài giọng Tiếng Việt trong cài đặt đọc văn bản của hệ thống (Google Text-to-speech).</string>
+    <string name="settings_reminder">Nhắc mỗi ngày</string>
+    <string name="settings_reminder_hint">Thông báo mỗi ngày lúc %1$s nếu ngày đó bạn chưa mở ứng dụng.</string>
+    <string name="reminder_channel">Nhắc học</string>
+    <string name="reminder_title">Đến giờ luyện tập</string>
+    <string name="reminder_body">Mở ứng dụng để học một chút.</string>
     <string name="stats_title">Thống kê</string>
     <string name="export_current">Xuất hồ sơ hiện tại</string>
     <string name="export_all">Xuất mọi hồ sơ</string>

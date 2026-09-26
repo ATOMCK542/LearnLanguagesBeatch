@@ -56,6 +56,11 @@
     <string name="settings_targets">Learning</string>
     <string name="settings_tts">Speech</string>
     <string name="settings_tts_hint">To hear Vietnamese, install the Vietnamese voice in system Text-to-speech settings (Google TTS).</string>
+    <string name="settings_reminder">Daily reminder</string>
+    <string name="settings_reminder_hint">A notification each day at %1$s if you have not opened the app that day.</string>
+    <string name="reminder_channel">Study reminder</string>
+    <string name="reminder_title">Time to practice</string>
+    <string name="reminder_body">Open the app for a short session.</string>
     <string name="stats_title">Stats</string>
     <string name="export_current">Export current profile</string>
     <string name="export_all">Export all profiles</string>

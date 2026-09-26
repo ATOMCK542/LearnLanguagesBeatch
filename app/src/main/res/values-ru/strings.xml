@@ -56,6 +56,11 @@
     <string name="settings_targets">Учу</string>
     <string name="settings_tts">Озвучка</string>
     <string name="settings_tts_hint">Чтобы слышать вьетнамский, установите голос Tiếng Việt в системных настройках озвучки (Google Text-to-speech).</string>
+    <string name="settings_reminder">Напоминание каждый день</string>
+    <string name="settings_reminder_hint">Уведомление каждый день в %1$s, если в этот день вы не открывали приложение.</string>
+    <string name="reminder_channel">Напоминание</string>
+    <string name="reminder_title">Пора позаниматься</string>
+    <string name="reminder_body">Загляните на короткую сессию.</string>
     <string name="stats_title">Статистика</string>
     <string name="export_current">Экспорт текущего профиля</string>
     <string name="export_all">Экспорт всех профилей</string>

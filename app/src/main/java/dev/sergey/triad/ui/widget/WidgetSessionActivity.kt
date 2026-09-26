@@ -36,6 +36,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import dagger.hilt.android.AndroidEntryPoint
 import dev.sergey.triad.R
+import dev.sergey.triad.data.reminder.DailyReminder
 import dev.sergey.triad.data.widget.WidgetDayStore
 import dev.sergey.triad.domain.WidgetKind
 import dev.sergey.triad.ui.MainViewModel
@@ -46,6 +47,7 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class WidgetSessionActivity : AppCompatActivity() {
     @Inject lateinit var dayStore: WidgetDayStore
+    @Inject lateinit var reminders: DailyReminder
 
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge(
@@ -58,6 +60,7 @@ class WidgetSessionActivity : AppCompatActivity() {
             finish()
             return
         }
+        reminders.onAppOpened()
         setContent {
             TriadTheme {
                 CompactChrome {

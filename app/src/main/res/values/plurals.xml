@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="reminder_due">
+        <item quantity="one">%d card is waiting</item>
+        <item quantity="other">%d cards are waiting</item>
+    </plurals>
     <plurals name="due_count">
         <item quantity="one">%d card due</item>
         <item quantity="other">%d cards due</item>

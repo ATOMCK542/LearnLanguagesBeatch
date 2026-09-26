@@ -8,15 +8,19 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
+import dev.sergey.triad.data.reminder.DailyReminder
 import dev.sergey.triad.ui.TriadRoot
 import dev.sergey.triad.ui.theme.TriadTheme
 import dev.sergey.triad.ui.widget.LessonGlanceWidget
 import dev.sergey.triad.ui.widget.ReviewGlanceWidget
 import kotlinx.coroutines.launch
 import androidx.glance.appwidget.updateAll
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+    @Inject lateinit var reminders: DailyReminder
+
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.auto(Color.TRANSPARENT, Color.TRANSPARENT),
@@ -32,6 +36,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        reminders.onAppOpened()
         lifecycleScope.launch {
             LessonGlanceWidget().updateAll(this@MainActivity)
             ReviewGlanceWidget().updateAll(this@MainActivity)

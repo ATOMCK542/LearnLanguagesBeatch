@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="reminder_due">
+        <item quantity="other">%d thẻ đang chờ</item>
+    </plurals>
     <plurals name="due_count">
         <item quantity="other">%d thẻ đến hạn</item>
     </plurals>
